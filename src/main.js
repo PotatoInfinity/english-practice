@@ -282,7 +282,7 @@ function applyFilter() {
   }
 }
 
-async function gradeItem(n) {
+async function gradeItem(n, quiet = false) {
   const inp = document.getElementById("gap" + n);
   let user = inp.value;
   if (!user.trim()) return null;
@@ -341,12 +341,18 @@ async function gradeItem(n) {
     // (prev === false) stays queued so the 50-wall still drills it once.
     wrongIds = wrongIds.filter(x => x !== wid);
   }
-  applyFilter();
-  focusNext(n);
+  // anchor scroll: next question lands where this one was (skipped in bulk Check)
+  if (!quiet) {
+    const curRow = document.getElementById("row" + n);
+    const anchorTop = curRow ? curRow.getBoundingClientRect().top : null;
+    applyFilter();
+    focusNext(n, anchorTop);
+  }
   return correct;
 }
 
 // Enter grades, then jumps to the next unsolved gap — pure keyboard flow
+// The next row is scrolled to the graded row's viewport position (no jump).
 // Shift+Enter jumps back to the previous gap
 function focusPrev(n) {
   for (let k = n - 1; k >= 0; k--) {
@@ -354,12 +360,22 @@ function focusPrev(n) {
     if (el) { el.focus(); el.scrollIntoView({ block: "nearest" }); return; }
   }
 }
-function focusNext(n) {
+function focusNext(n, anchorTop = null) {
   for (let pass = 0; pass < 2; pass++) {
     for (let k = (pass ? 0 : n + 1); k < (pass ? n + 1 : rendered); k++) {
       if (!(k in results)) {
         const el = document.getElementById("gap" + k);
-        if (el) { el.focus(); el.scrollIntoView({ block: "nearest" }); return; }
+        if (el) {
+          el.focus();
+          if (anchorTop !== null) {
+            const li = el.closest("li");
+            const t = (li || el).getBoundingClientRect().top;
+            window.scrollBy(0, t - anchorTop);
+          } else {
+            el.scrollIntoView({ block: "nearest" });
+          }
+          return;
+        }
       }
     }
   }
@@ -374,11 +390,12 @@ async function check() {
       continue;
     }
     // unsolved + missed rows re-grade; unchanged text returns cached, no double SRS
-    const r = await gradeItem(n);
+    const r = await gradeItem(n, true);
     if (r === null) continue;
     done++;
     if (r) ok++;
   }
+  applyFilter();
   score.textContent = done ? `${ok}/${done} correct. Wrong ones resurface first. Reveal shows answers.` : "Type an answer first.";
 }
 
