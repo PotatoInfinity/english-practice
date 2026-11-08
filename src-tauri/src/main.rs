@@ -504,7 +504,24 @@ fn fuzzy_accept(user: &str, golds: &[String]) -> (bool, usize) {
       1.0 - (d as f64 / long as f64)
     };
     let allow = if long <= 3 { 0 } else if long <= 8 { 1 } else { 2 };
-    if (d <= allow || (long > 8 && ratio >= 0.92)) && nu.chars().count() >= 2 {
+    // word-concentration guard: the budget must not be spent wiping out one
+    // short word ("set the hay" vs "hit the hay" differs by 2 letters in a
+    // 3-letter word = a different word, not a typo; "on" vs "in" likewise).
+    // Aligned words may differ by at most len/3 letters (0 for 2-letter
+    // words, 1 for 3-5 letters, 2 for 6+).
+    let words_ok = {
+      let uw: Vec<&str> = nu.split(' ').collect();
+      let gw: Vec<&str> = ng.split(' ').collect();
+      if uw.len() != gw.len() {
+        true // different shape: article drops etc. — total budget decides
+      } else {
+        uw.iter().zip(gw.iter()).all(|(a, b)| {
+          let cap = a.chars().count().max(b.chars().count()) / 3;
+          levenshtein(a, b) <= cap
+        })
+      }
+    };
+    if words_ok && (d <= allow || (long > 8 && ratio >= 0.92)) && nu.chars().count() >= 2 {
       return (true, d);
     }
   }
@@ -775,4 +792,25 @@ fn main() {
     .invoke_handler(tauri::generate_handler![due_items, submit_answer, stats, import_seed, reset_progress, items_by_ids])
     .run(tauri::generate_context!())
     .expect("tauri run");
+}
+
+#[cfg(test)]
+mod grading_tests {
+  use super::*;
+  fn ok(user: &str, gold: &str) -> bool {
+    fuzzy_accept(user, &vec![gold.to_string()]).0
+  }
+  #[test]
+  fn wrong_word_rejected() {
+    assert!(!ok("set the hay", "hit the hay")); // 2-letter diff inside 3-letter word
+    assert!(!ok("on the mat", "in the mat"));
+  }
+  #[test]
+  fn typo_accepted() {
+    assert!(ok("hit the hay", "hit the hay"));
+    assert!(ok("hiy the hay", "hit the hay")); // 1-letter typo
+    assert!(ok("bore a grudge against", "bore a grudge against"));
+    assert!(ok("colour", "color")); // us/uk fold
+    assert!(ok("a grudge against", "grudge against")); // article pass on 3-token gold
+  }
 }

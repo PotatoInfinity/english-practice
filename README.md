@@ -28,7 +28,9 @@ No server, no env, no keys.
   strip punctuation (keep `'`), expand contractions (incl. `'m`→am),
   combined article+spelling leniency (article-only diffs need a 3+ token gold),
   whole-word US/UK map, length-scaled Levenshtein (0 if ≤3 chars, 1 if ≤8,
-  else 2; ratio ≥0.92 only past 8 chars, char-counted). Single-letter
+  else 2; ratio ≥0.92 only past 8 chars, char-counted) plus a per-word cap
+  (aligned words may differ by at most len/3 letters, so "set"≠"hit" and
+  "on"≠"in" fail while one-letter typos pass). Single-letter
   alternatives never count as gold. Binomial order strict via distance.
 - SM-2-lite SRS: correct → reps+1, interval 1/6/`e*interval`, mastered at reps≥5
   (repeats ~60d); wrong → easiness−0.25, resurface in ~10 min, lapses+1.
