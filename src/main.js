@@ -40,6 +40,13 @@ async function load() {
   list.innerHTML = "";
   score.textContent = "";
   await fetchMore();
+  // persistent progress readout (backend-backed: survives restarts/reinstalls)
+  try {
+    const s = await call("stats", {});
+    if (s && typeof s.total === "number") {
+      score.textContent = `${s.mastered}/${s.total} mastered · ${s.due_now} due · ${s.reviews_today} today`;
+    }
+  } catch { /* browser preview: no backend */ }
 }
 
 async function fetchMore() {
@@ -287,9 +294,16 @@ let results = {};         // idx -> true (correct) | false (wrong)
 let gradedUser = {};      // idx -> last submitted text (stops double SRS on re-Enter)
 
 // topbar solve stats: correct-solve count + trailing-120s solves/min
-// ("_" until the session is 120s old)
+// ("_" until the session is 120s old). Count persists across restarts.
 let sessionStart = Date.now();
 let solveTimes = [];
+try {
+  const saved = JSON.parse(localStorage.getItem("solveTimes") || "[]");
+  if (Array.isArray(saved)) solveTimes = saved.filter(t => typeof t === "number" && Date.now() - t < 180000).slice(-1000);
+} catch { /* fresh */ }
+function saveSolveTimes() {
+  try { localStorage.setItem("solveTimes", JSON.stringify(solveTimes.slice(-1000))); } catch { /* private mode */ }
+}
 function paintSolveStat() {
   const el = document.getElementById("solvestat");
   if (!el) return;
@@ -299,6 +313,7 @@ function paintSolveStat() {
   while (solveTimes.length && solveTimes[0] < cutoff - 60000) solveTimes.shift();
   const rate = age < 120000 ? "_" : (solveTimes.filter(t => t >= cutoff).length / 2).toFixed(1);
   el.textContent = `${n} · ${rate}/min`;
+  saveSolveTimes();
 }
 setInterval(paintSolveStat, 5000);
 
