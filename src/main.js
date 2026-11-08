@@ -165,6 +165,11 @@ function inpFor(d, n) {  const inp = document.createElement("input");
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
   if (d.category === "mcq") inp.setAttribute("placeholder", "1–4");
+  else if (d.category === "three_in_one") inp.setAttribute("placeholder", "1 word");
+  else {
+    const nw = (d.answer || "").trim().split(/\s+/).filter(Boolean).length;
+    if (nw > 0) inp.setAttribute("placeholder", nw === 1 ? "1 word" : `${nw} words`);
+  }
   inp.addEventListener("keydown", e => {
     if (e.key !== "Enter") return;
     if (e.shiftKey) { focusPrev(n); return; }
