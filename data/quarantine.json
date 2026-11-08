@@ -1,5 +1,195 @@
 [
  {
+  "file": "data/extra-papers.json",
+  "index": 10,
+  "entry": {
+   "category": "inversion",
+   "prompt": "He realised his mistake only after leaving. (only)",
+   "keyword": "ONLY",
+   "gap_prefix": "Only",
+   "gap_suffix": "did he realise his mistake.",
+   "answer": "after leaving",
+   "full_answer": "Only after leaving did he realise his mistake.",
+   "alternatives": [],
+   "notes": "Only after + inversion.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 14,
+  "entry": {
+   "category": "inversion",
+   "prompt": "He will not tolerate cheating under any circumstances. (circumstances)",
+   "keyword": "CIRCUMSTANCES",
+   "gap_prefix": "Under",
+   "gap_suffix": "will he tolerate cheating.",
+   "answer": "no circumstances",
+   "full_answer": "Under no circumstances will he tolerate cheating.",
+   "alternatives": [],
+   "notes": "Negative fronting.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 16,
+  "entry": {
+   "category": "inversion",
+   "prompt": "He has never behaved so rudely before. (never)",
+   "keyword": "NEVER",
+   "gap_prefix": "Never",
+   "gap_suffix": "has he behaved so rudely.",
+   "answer": "before",
+   "full_answer": "Never before has he behaved so rudely.",
+   "alternatives": [],
+   "notes": "Never before.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 18,
+  "entry": {
+   "category": "inversion",
+   "prompt": "Nowhere else will you find such hospitality. (nowhere)",
+   "keyword": "NOWHERE",
+   "gap_prefix": "Nowhere",
+   "gap_suffix": "will you find such hospitality.",
+   "answer": "else",
+   "full_answer": "Nowhere else will you find such hospitality.",
+   "alternatives": [],
+   "notes": "Nowhere fronting.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 21,
+  "entry": {
+   "category": "inversion",
+   "prompt": "The manager had never faced such opposition. (never)",
+   "keyword": "NEVER",
+   "gap_prefix": "Never",
+   "gap_suffix": "had the manager faced such opposition.",
+   "answer": "before",
+   "full_answer": "Never before had the manager faced such opposition.",
+   "alternatives": [],
+   "notes": "Never before + past perfect.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 22,
+  "entry": {
+   "category": "inversion",
+   "prompt": "He answered no question correctly. (nowhere)",
+   "keyword": "NOWHERE",
+   "gap_prefix": "Nowhere",
+   "gap_suffix": "did he answer correctly.",
+   "answer": "near",
+   "full_answer": "Nowhere near did he answer correctly.",
+   "alternatives": [],
+   "notes": "Nowhere near.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 23,
+  "entry": {
+   "category": "inversion",
+   "prompt": "They understood the danger only later. (only)",
+   "keyword": "ONLY",
+   "gap_prefix": "Only",
+   "gap_suffix": "did they understand the danger.",
+   "answer": "later",
+   "full_answer": "Only later did they understand the danger.",
+   "alternatives": [],
+   "notes": "Only + time adverb.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 24,
+  "entry": {
+   "category": "inversion",
+   "prompt": "She would not admit the truth on any account. (account)",
+   "keyword": "ACCOUNT",
+   "gap_prefix": "On",
+   "gap_suffix": "would she admit the truth.",
+   "answer": "no account",
+   "full_answer": "On no account would she admit the truth.",
+   "alternatives": [],
+   "notes": "On no account.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 27,
+  "entry": {
+   "category": "inversion",
+   "prompt": "She did not once suspect the truth. (once)",
+   "keyword": "ONCE",
+   "gap_prefix": "Not",
+   "gap_suffix": "did she suspect the truth.",
+   "answer": "once",
+   "full_answer": "Not once did she suspect the truth.",
+   "alternatives": [],
+   "notes": "Not once.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
+  "file": "data/extra-papers.json",
+  "index": 32,
+  "entry": {
+   "category": "inversion",
+   "prompt": "No one had expected such a result. (soul)",
+   "keyword": "SOUL",
+   "gap_prefix": "Not",
+   "gap_suffix": "had expected such a result.",
+   "answer": "a soul",
+   "full_answer": "Not a soul had expected such a result.",
+   "alternatives": [],
+   "notes": "Not a soul.",
+   "difficulty": 3
+  },
+  "reasons": [
+   "fragment answer (<3 tokens)"
+  ]
+ },
+ {
   "file": "data/part-prep.json",
   "index": 56,
   "entry": {

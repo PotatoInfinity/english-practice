@@ -68,6 +68,8 @@ def validate(e):
     alts = e.get("alternatives", [])
     if not isinstance(alts, list) or any(not isinstance(a, str) for a in alts):
         reasons.append("alternatives malformed")
+    if e.get("category") == "inversion" and len(str(e.get("answer", "")).split()) < 3:
+        reasons.append("fragment answer (<3 tokens)")
     if not isinstance(e.get("difficulty", 1), int):
         reasons.append("difficulty not int")
     return reasons
@@ -138,6 +140,17 @@ def main():
                     e["gap_suffix"] = e["full_answer"][len(e["answer"]):].strip()
                     stats["repaired_affix"] += 1
             # repair 2: binomial leftover-word suffix -> sentence ends at binomial
+            if e["category"] == "binomial" and e["gap_suffix"] not in ("", "."):
+                first = norm(e["gap_suffix"]).split(" ")[0].rstrip(",.")
+                if first not in PREPS and not e["gap_suffix"].startswith(","):
+                    e["gap_suffix"] = "."
+                    e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + ".").strip()
+                    stats["repaired_binomial"] += 1
+            # repair 3: duplicated trigger word across prefix/answer boundary ("Not until" + "until ...")
+            if norm(e["gap_prefix"]).split(" ")[-1:] == ["until"] and norm(e["answer"]).startswith("until "):
+                e["answer"] = e["answer"].strip()[len("until"):].strip()
+                e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + (" " + e["gap_suffix"] if e["gap_suffix"] not in ("", ".") else "")).strip()
+                stats["repaired_dup_trigger"] += 1
             if e["category"] == "binomial" and e["gap_suffix"] not in ("", "."):
                 first = norm(e["gap_suffix"]).split(" ")[0].rstrip(",.")
                 if first not in PREPS and not e["gap_suffix"].startswith(","):
