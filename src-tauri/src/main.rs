@@ -71,13 +71,6 @@ fn db_path(app: &tauri::AppHandle) -> PathBuf {
   dir.join("hsg.db")
 }
 
-fn fallback_db_path() -> PathBuf {
-  dirs::data_dir()
-    .unwrap_or_else(std::env::temp_dir)
-    .join("hsg-english-drill")
-    .join("hsg.db")
-}
-
 const SCHEMA: &str = r#"
 PRAGMA journal_mode=WAL;
 CREATE TABLE IF NOT EXISTS items(
@@ -575,15 +568,9 @@ fn reset_progress(state: State<DbState>) -> Result<String, String> {
 fn main() {
   tauri::Builder::default()
     .setup(|app| {
-      // Prefer app-data dir; fall back to dirs::data_dir for dev (`cargo run`)
+      // Single stable home: bundle-id app-data dir, in dev and prod alike.
       let p = db_path(app.handle());
-      let conn = if p.to_string_lossy().contains("tauri") || std::env::var("TAURI_ENV_DEBUG").is_ok() {
-        open_conn(&p)
-      } else {
-        // dev run without bundle id: use fallback stable path
-        let f = fallback_db_path();
-        open_conn(&f)
-      };
+      let conn = open_conn(&p);
       let rd = app.path().resource_dir().unwrap_or_else(|_| std::env::temp_dir());
       seed_if_empty(&conn, &rd);
       app.manage(DbState(Mutex::new(conn)));
