@@ -14,8 +14,8 @@ let rendered = 0;
 let fetching = false;
 let drained = false;
 let lastSolved = -1;
-let wrongIds = [];    // miss queue -> retried at every 100-row wall, re-queued if missed again
-let nextWallAt = 100;
+let wrongIds = [];    // miss queue -> retried at every 50-row wall, re-queued if missed again
+let nextWallAt = 50;
 let wallBusy = false;
 const FETCH_N = 200;   // rows pulled into memory per batch (tiny JSON, SRS state stays in SQLite)
 const RENDER_N = 25;   // rows painted per scroll step (keeps DOM light)
@@ -31,7 +31,7 @@ async function load() {
   drained = false;
   lastSolved = -1;
   wrongIds = [];
-  nextWallAt = 100;
+  nextWallAt = 50;
   results = {};
   list.innerHTML = "";
   score.textContent = "";
@@ -166,12 +166,12 @@ function renderMore() {
   maybeWall();
 }
 
-// every 100 rows: splice the miss queue in for a 2nd chance (miss again -> next wall)
+// every 50 rows: splice the miss queue in for a 2nd chance (miss again -> next wall)
 async function maybeWall() {
   if (wallBusy || rendered < nextWallAt) return;
   const ids = wrongIds.filter(id => !seenIds.has(id));
   wrongIds = [];
-  nextWallAt += 100;
+  nextWallAt += 50;
   if (!ids.length) return;
   wallBusy = true;
   try {
@@ -236,10 +236,12 @@ async function gradeItem(n) {
     if (m && +m[0] >= 1 && +m[0] <= opts.length) user = opts[+m[0] - 1];
     else if (l && l[0].charCodeAt(0) - 97 < opts.length) user = opts[l[0].charCodeAt(0) - 97];
   }
-  let correct;
+  let correct, expected = items[n].answer, full = items[n].full_answer;
   try {
     const verdict = await call("submit_answer", { itemId: items[n].id, user });
     correct = verdict.correct;
+    expected = verdict.expected;
+    full = verdict.fullAnswer ?? verdict.full_answer ?? full;
   } catch {
     // browser fallback: exact/ci compare
     correct = user.toLowerCase().trim() === items[n].answer.toLowerCase().trim();
@@ -248,6 +250,14 @@ async function gradeItem(n) {
   inp.classList.add(correct ? "correct" : "wrong");
   const dot = document.getElementById("dot" + n);
   if (dot) { dot.classList.remove("ok", "no"); dot.classList.add(correct ? "ok" : "no"); }
+  if (!correct) {
+    // wrong: show the correct answer right below the gap (single submit, no double grade)
+    const ans = document.getElementById("ans" + n);
+    if (ans) {
+      ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].notes || "")}</div>`;
+      ans.classList.add("show");
+    }
+  }
   lastSolved = n;
   results[n] = correct;
   const wid = items[n].id;
