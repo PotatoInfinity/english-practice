@@ -35,7 +35,8 @@ ol#list li { margin:14px 0 18px; line-height:2.1; content-visibility:auto; conta
 .foot { margin-top:24px; border-top:1px solid var(--rule); padding-top:12px; display:flex; gap:8px; align-items:center; font-family:Arial,sans-serif; }
 .foot button { border:1px solid var(--ink); background:var(--paper); color:var(--ink); padding:4px 14px; font:inherit; }
 #score { font-size:12px; color:var(--mut); }
-.opts { margin:6px 0 2px 4px; line-height:1.9; }
+.opts { margin:6px 0 2px 4px; line-height:1.9; display:flex; gap:18px; }
+.opts div { white-space:nowrap; }
 .s3 { margin:6px 0 2px 4px; line-height:1.9; }
 #filters { display:inline-flex; border:1px solid #111; border-radius:999px; overflow:hidden; }
 #filters button { border:0; border-radius:0; padding:4px 12px; background:var(--paper); color:var(--ink); }

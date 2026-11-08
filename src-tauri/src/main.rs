@@ -139,8 +139,11 @@ fn fnv1a64(bytes: &[u8]) -> u64 {
   h
 }
 
-/// Seed the bank; re-seed (wipe + reload) whenever the bundled bank changes,
-/// so installed apps pick up bigger banks without manual DB resets.
+/// Seed the bank; merge bundled bank changes WITHOUT wiping SRS history.
+/// Rows match by stable content key (category,prompt,frame,answer): matched rows
+/// keep their id so progress/reviews survive; new rows insert; rows gone from
+/// the bank delete (progress cascades). The wall order is id-stable, and solved
+/// items stay solved across restarts.
 fn seed_if_empty(conn: &Connection, resource_dir: &PathBuf) {
   let candidates = [
     resource_dir.join("seed.json"),
@@ -171,7 +174,6 @@ fn seed_if_empty(conn: &Connection, resource_dir: &PathBuf) {
   if cur == ver {
     return;
   }
-  let _ = conn.execute_batch("DELETE FROM reviews; DELETE FROM progress; DELETE FROM items;");
   if insert_seed(conn, &txt).is_ok() {
     let _ = conn.execute("INSERT INTO meta(k,v) VALUES('seed',?1) ON CONFLICT(k) DO UPDATE SET v=excluded.v", params![ver]);
   }
@@ -208,26 +210,71 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
   } else {
     return Err("seed: expected array or {items:[]}".into());
   };
-  let tx = conn.unchecked_transaction().map_err(|e| e.to_string())?;
+  // existing rows by stable content key -> id (progress lives on the id)
+  let mut have: std::collections::HashMap<(String, String, String, String, String), i64> =
+    std::collections::HashMap::new();
   {
-    let mut stmt = tx
+    let mut q = conn
+      .prepare("SELECT id,category,prompt,gap_prefix,gap_suffix,answer FROM items")
+      .map_err(|e| e.to_string())?;
+    let rows = q
+      .query_map([], |r| {
+        Ok((
+          r.get::<_, i64>(0)?,
+          r.get::<_, String>(1)?,
+          r.get::<_, String>(2)?,
+          r.get::<_, String>(3)?,
+          r.get::<_, String>(4)?,
+          r.get::<_, String>(5)?,
+        ))
+      })
+      .map_err(|e| e.to_string())?;
+    for r in rows {
+      let (id, c, p, pre, suf, a) = r.map_err(|e| e.to_string())?;
+      have.insert((c, p, pre, suf, a), id);
+    }
+  }
+  let tx = conn.unchecked_transaction().map_err(|e| e.to_string())?;
+  let mut n_new = 0usize;
+  {
+    let mut upd = tx
+      .prepare("UPDATE items SET keyword=?,full_answer=?,alternatives=?,notes=?,difficulty=?,options=? WHERE id=?")
+      .map_err(|e| e.to_string())?;
+    let mut ins = tx
       .prepare("INSERT INTO items(category,prompt,keyword,gap_prefix,gap_suffix,answer,full_answer,alternatives,notes,difficulty,options) VALUES(?,?,?,?,?,?,?,?,?,?,?)")
       .map_err(|e| e.to_string())?;
     for raw in arr {
       let s: SeedItem = serde_json::from_value(raw).map_err(|e| e.to_string())?;
-      stmt
-        .execute(params![
+      let key = (s.category.clone(), s.prompt.clone(), s.gap_prefix.clone(), s.gap_suffix.clone(), s.answer.clone());
+      if let Some(id) = have.remove(&key) {
+        upd.execute(params![
+          s.keyword, s.full_answer,
+          serde_json::to_string(&s.alternatives).unwrap(),
+          s.notes, s.difficulty,
+          serde_json::to_string(&s.options).unwrap(),
+          id
+        ]).map_err(|e| e.to_string())?;
+      } else {
+        ins.execute(params![
           s.category, s.prompt, s.keyword, s.gap_prefix, s.gap_suffix, s.answer,
           s.full_answer,
           serde_json::to_string(&s.alternatives).unwrap(),
           s.notes, s.difficulty,
           serde_json::to_string(&s.options).unwrap()
-        ])
-        .map_err(|e| e.to_string())?;
+        ]).map_err(|e| e.to_string())?;
+        n_new += 1;
+      }
     }
   }
+  // rows left in `have` vanished from the bank: drop them (progress cascades,
+  // orphan reviews cleaned explicitly as reviews has no FK)
+  for id in have.values() {
+    let _ = tx.execute("DELETE FROM progress WHERE item_id=?1", params![id]);
+    let _ = tx.execute("DELETE FROM reviews WHERE item_id=?1", params![id]);
+    let _ = tx.execute("DELETE FROM items WHERE id=?1", params![id]);
+  }
   tx.commit().map_err(|e| e.to_string())?;
-  Ok(0)
+  Ok(n_new)
 }
 
 // ---------- fuzzy validation ----------
@@ -378,11 +425,12 @@ fn due_items(
     _ => CATS.to_vec(),
   };
 
-  // 1) overdue SRS rows (failed/unseen first), excluding seen
+  // 1) overdue SRS rows (failed/unseen first), excluding seen; id-tiebreak keeps
+  // the wall identical across restarts
   let mut due: Vec<DueItem> = vec![];
   for c in cats.iter().copied() {
     let sql = format!(
-      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND COALESCE(p.mastered,0)=0 AND COALESCE(p.next_due,0)<=?2 {} ORDER BY COALESCE(p.next_due,0) ASC, RANDOM() LIMIT ?3",
+      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND COALESCE(p.mastered,0)=0 AND COALESCE(p.next_due,0)<=?2 {} ORDER BY COALESCE(p.next_due,0) ASC, i.id ASC LIMIT ?3",
       COLS, excl
     );
     let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
@@ -395,20 +443,20 @@ fn due_items(
   // so every chunk mixes types and levels even with thousands overdue
   due.truncate(lim / 2);
 
-  // 2) stratified fresh rows: round-robin across category x difficulty (mixed by construction)
-  // always built (due capped above), so fresh types appear in every batch
+  // 2) stratified fresh rows: unseen-or-due only (solved items stay solved),
+  // id-ordered so the infinite wall never reshuffles between restarts
   let mut strata: Vec<Vec<DueItem>> = vec![];
   {
     let per = ((lim - due.len()) / (cats.len() * 3).max(1) + 2).min(6) as i64;
     for c in cats.iter().copied() {
       for d in 1..=3 {
         let sql = format!(
-          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 AND COALESCE(p.mastered,0)=0 {} ORDER BY RANDOM() LIMIT ?3",
+          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 AND COALESCE(p.mastered,0)=0 AND (p.item_id IS NULL OR p.next_due<=?4) {} ORDER BY i.id ASC LIMIT ?3",
           COLS, excl
         );
         let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
         let rows: Vec<DueItem> = stmt
-          .query_map(params![c, d, per], row_to_due)
+          .query_map(params![c, d, per, now], row_to_due)
           .map_err(|e| e.to_string())?
           .collect::<Result<_, _>>()
           .map_err(|e| e.to_string())?;
