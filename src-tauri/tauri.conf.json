@@ -24,6 +24,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": "all"
+    "targets": "all",
+    "resources": ["seed.json"]
   }
 }

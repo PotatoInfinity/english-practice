@@ -110,6 +110,10 @@ CREATE TABLE IF NOT EXISTS reviews(
   ts INTEGER NOT NULL,
   correct INTEGER NOT NULL
 );
+CREATE TABLE IF NOT EXISTS meta(
+  k TEXT PRIMARY KEY,
+  v TEXT NOT NULL
+);
 "#;
 
 fn open_conn(path: &PathBuf) -> Connection {
@@ -123,25 +127,50 @@ fn open_conn(path: &PathBuf) -> Connection {
   conn
 }
 
-fn seed_if_empty(conn: &Connection) {
-  let n: i64 = conn
-    .query_row("SELECT COUNT(*) FROM items", [], |r| r.get(0))
-    .unwrap_or(0);
-  if n > 0 {
-    return;
+fn fnv1a64(bytes: &[u8]) -> u64 {
+  let mut h: u64 = 0xcbf29ce484222325;
+  for b in bytes {
+    h ^= *b as u64;
+    h = h.wrapping_mul(0x100000001b3);
   }
-  // Bundled seed: src-tauri/seed.json (checked in) + data/seed.json fallback
-  let candidates = ["src-tauri/seed.json", "data/seed.json", "seed.json"];
+  h
+}
+
+/// Seed the bank; re-seed (wipe + reload) whenever the bundled bank changes,
+/// so installed apps pick up bigger banks without manual DB resets.
+fn seed_if_empty(conn: &Connection, resource_dir: &PathBuf) {
+  let candidates = [
+    resource_dir.join("seed.json"),
+    PathBuf::from("src-tauri/seed.json"),
+    PathBuf::from("data/seed.json"),
+    PathBuf::from("seed.json"),
+  ];
+  let mut txt_opt: Option<String> = None;
   for c in candidates {
-    if let Ok(txt) = std::fs::read_to_string(c) {
-      if insert_seed(conn, &txt).is_ok() {
-        return;
+    if let Ok(txt) = std::fs::read_to_string(&c) {
+      if !txt.trim().is_empty() {
+        txt_opt = Some(txt);
+        break;
       }
     }
   }
-  // Minimal built-in fallback (11 image items, corrected) so app never boots empty
-  if let Ok(txt) = std::fs::read_to_string(env!("CARGO_MANIFEST_DIR").to_owned() + "/seed.json") {
-    let _ = insert_seed(conn, &txt);
+  let txt = txt_opt.or_else(|| {
+    std::fs::read_to_string(env!("CARGO_MANIFEST_DIR").to_owned() + "/seed.json").ok()
+  });
+  let txt = match txt {
+    Some(t) => t,
+    None => return,
+  };
+  let ver = format!("{:x}", fnv1a64(txt.as_bytes()));
+  let cur: String = conn
+    .query_row("SELECT v FROM meta WHERE k='seed'", [], |r| r.get(0))
+    .unwrap_or_default();
+  if cur == ver {
+    return;
+  }
+  let _ = conn.execute_batch("DELETE FROM reviews; DELETE FROM progress; DELETE FROM items;");
+  if insert_seed(conn, &txt).is_ok() {
+    let _ = conn.execute("INSERT INTO meta(k,v) VALUES('seed',?1) ON CONFLICT(k) DO UPDATE SET v=excluded.v", params![ver]);
   }
 }
 
@@ -518,7 +547,8 @@ fn main() {
         let f = fallback_db_path();
         open_conn(&f)
       };
-      seed_if_empty(&conn);
+      let rd = app.path().resource_dir().unwrap_or_else(|_| std::env::temp_dir());
+      seed_if_empty(&conn, &rd);
       app.manage(DbState(Mutex::new(conn)));
       Ok(())
     })
