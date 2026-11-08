@@ -197,6 +197,29 @@ def main():
         out.append(e)
 
     out.sort(key=lambda e: (e["category"], norm(e["full_answer"])))
+    # purge: auditor-flagged trivial items (data/purge-*.json: [{prompt, answer, reason}])
+    purged_keys = set()
+    for pf in sorted(glob.glob("data/purge-*.json")):
+        try:
+            rows, err = load_file(pf)
+        except Exception:
+            continue
+        if err:
+            print(f"purge list {pf}: {err}")
+            continue
+        for r in rows:
+            if isinstance(r, dict) and r.get("prompt") and r.get("answer"):
+                purged_keys.add((norm(r["prompt"]), norm(r["answer"])))
+    if purged_keys:
+        kept = []
+        for e in out:
+            if (norm(e["prompt"]), norm(e["answer"])) in purged_keys:
+                quarantine.append({"file": "purge-list", "index": -1, "entry": e,
+                                   "reasons": ["purged: auditor-flagged trivial"]})
+                stats["purged"] += 1
+            else:
+                kept.append(e)
+        out = kept
     os.makedirs("data", exist_ok=True)
     for path, payload in (("data/corpus.json", out),
                           ("src-tauri/seed.json", out),
