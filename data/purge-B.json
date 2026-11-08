@@ -1,0 +1,222 @@
+[
+  {
+    "prompt": "She apologised for being late. (apologise)",
+    "answer": "for",
+    "reason": "A1 verb+for, primary textbook collocation"
+  },
+  {
+    "prompt": "She suffers from headaches. (suffer)",
+    "answer": "from",
+    "reason": "A1 verb+from, primary health vocabulary"
+  },
+  {
+    "prompt": "He recovered from the illness quickly. (recover)",
+    "answer": "from",
+    "reason": "A1 verb+from, primary health vocabulary"
+  },
+  {
+    "prompt": "She is good at maths. (good)",
+    "answer": "at",
+    "reason": "ultra-common A1 adjective+prep per audit example"
+  },
+  {
+    "prompt": "He is famous for his novels. (famous)",
+    "answer": "for",
+    "reason": "A1 adjective+for, primary textbook collocation"
+  },
+  {
+    "prompt": "She is afraid of dogs. (afraid)",
+    "answer": "of",
+    "reason": "A1 adjective+of, primary textbook collocation"
+  },
+  {
+    "prompt": "She is keen on music. (keen)",
+    "answer": "on",
+    "reason": "A1 adjective+on, primary textbook collocation"
+  },
+  {
+    "prompt": "He is married to my sister. (marry)",
+    "answer": "to",
+    "reason": "ultra-common A1 pair per audit example"
+  },
+  {
+    "prompt": "He is bored with the lesson. (bore)",
+    "answer": "with",
+    "reason": "A1 adjective+with, primary textbook collocation"
+  },
+  {
+    "prompt": "He applied for the job. (apply)",
+    "answer": "for",
+    "reason": "A1 verb+for, primary job vocabulary"
+  },
+  {
+    "prompt": "She asked for help. (ask)",
+    "answer": "for",
+    "reason": "A1 verb+for, primary request vocabulary"
+  },
+  {
+    "prompt": "He searched for his keys. (search)",
+    "answer": "for",
+    "reason": "A1 verb+for, primary vocabulary"
+  },
+  {
+    "prompt": "She waited for the bus. (wait)",
+    "answer": "for",
+    "reason": "ultra-common A1 verb+for per audit example"
+  },
+  {
+    "prompt": "She believes in hard work. (believe)",
+    "answer": "in",
+    "reason": "A1 verb+in, primary textbook collocation"
+  },
+  {
+    "prompt": "Success depends on hard work. (depend)",
+    "answer": "on",
+    "reason": "A1 verb+on, primary textbook collocation"
+  },
+  {
+    "prompt": "She congratulated him on his success. (congratulate)",
+    "answer": "on",
+    "reason": "A1 verb+on, primary textbook collocation, duplicated x3"
+  },
+  {
+    "prompt": "She congratulated him on winning. (on)",
+    "answer": "on",
+    "reason": "A1 verb+on duplicate, primary textbook collocation"
+  },
+  {
+    "prompt": "They congratulated her on passing. (congratulate)",
+    "answer": "on",
+    "reason": "A1 verb+on duplicate, primary textbook collocation"
+  },
+  {
+    "prompt": "She was keen on swimming. (keen)",
+    "answer": "on",
+    "reason": "A1 adjective+on duplicate of keen on music"
+  },
+  {
+    "prompt": "They shared the ups and hard times. (DOWNS)",
+    "answer": "downs",
+    "reason": "baby antonym pair taught in primary"
+  },
+  {
+    "prompt": "I need peace and rest. (QUIET)",
+    "answer": "quiet",
+    "reason": "baby bedtime collocation, zero idiom load"
+  },
+  {
+    "prompt": "He is tall, dark and charming. (HANDSOME)",
+    "answer": "handsome",
+    "reason": "baby descriptive cliche, primary adjectives"
+  },
+  {
+    "prompt": "He will come sooner or soon. (LATER)",
+    "answer": "later",
+    "reason": "baby time phrase, primary vocabulary"
+  },
+  {
+    "prompt": "It costs more or about ten dollars. (LESS)",
+    "answer": "less",
+    "reason": "baby quantifier phrase, primary vocabulary"
+  },
+  {
+    "prompt": "We will wait and observe. (SEE)",
+    "answer": "see",
+    "reason": "baby wait-and-see slogan, primary verbs"
+  },
+  {
+    "prompt": "We ordered fish and fries. (CHIPS)",
+    "answer": "chips",
+    "reason": "baby everyday food pair"
+  },
+  {
+    "prompt": "Keep your room neat and clean. (TIDY)",
+    "answer": "tidy",
+    "reason": "baby synonymous adjectives, primary classroom vocabulary"
+  },
+  {
+    "prompt": "It was all fun and laughter. (GAMES)",
+    "answer": "games",
+    "reason": "baby fun-and-games slogan, primary vocabulary"
+  },
+  {
+    "prompt": "They play cat and chase. (MOUSE)",
+    "answer": "mouse",
+    "reason": "baby children's game pair"
+  },
+  {
+    "prompt": "It is a chicken and puzzle. (EGG)",
+    "answer": "egg",
+    "reason": "baby chicken-and-egg pair, primary vocabulary"
+  },
+  {
+    "prompt": "It rains cats and pets. (DOGS)",
+    "answer": "dogs",
+    "reason": "baby primary-textbook idiom"
+  },
+  {
+    "prompt": "The outlaw is wanted dead or gone. (ALIVE)",
+    "answer": "alive",
+    "reason": "baby movie-slogan pair, primary adjectives"
+  },
+  {
+    "prompt": "They searched high and everywhere. (LOW)",
+    "answer": "low",
+    "reason": "baby antonym pair, primary adjectives"
+  },
+  {
+    "prompt": "We must forgive and move on. (FORGET)",
+    "answer": "forget",
+    "reason": "baby forgive-and-forget slogan"
+  },
+  {
+    "prompt": "She is alive and healthy. (WELL)",
+    "answer": "well",
+    "reason": "baby alive-and-well collocation, primary adjectives"
+  },
+  {
+    "prompt": "Kids played hide and find. (SEEK)",
+    "answer": "seek",
+    "reason": "baby children's game"
+  },
+  {
+    "prompt": "Never drink and operate a car. (DRIVE)",
+    "answer": "drive",
+    "reason": "baby public-slogan pair"
+  },
+  {
+    "prompt": "Season with salt and spice. (PEPPER)",
+    "answer": "pepper",
+    "reason": "baby everyday food pair"
+  },
+  {
+    "prompt": "We ate bacon and toast. (EGGS)",
+    "answer": "eggs",
+    "reason": "baby everyday food pair"
+  },
+  {
+    "prompt": "Serve wine and crackers. (CHEESE)",
+    "answer": "cheese",
+    "reason": "baby everyday food pair"
+  },
+  {
+    "prompt": "Fear thunder and rain. (LIGHTNING)",
+    "answer": "lightning",
+    "reason": "baby nature pair, primary vocabulary"
+  },
+  {
+    "prompt": "It is a matter of life and survival. (DEATH)",
+    "answer": "death",
+    "reason": "baby life-and-death pair, primary nouns"
+  },
+  {
+    "prompt": "Bring pen and notebook. (PAPER)",
+    "answer": "paper",
+    "reason": "baby classroom pair, primary nouns"
+  },
+  {
+    "prompt": "The fans scream and cheer. (SHOUT)",
+    "answer": "shout",
+    "reason": "baby synonymous verbs, primary vocabulary"
+  }
+]

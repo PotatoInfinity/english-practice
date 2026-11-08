@@ -1,0 +1,652 @@
+[
+ {
+  "prompt": "She improved quickly in English. (progress)",
+  "answer": "progress",
+  "reason": "A1 make-progress drill every gifted student knows"
+ },
+ {
+  "prompt": "He decided to resign yesterday. (decision)",
+  "answer": "decision",
+  "reason": "ultra-common make-a-decision collocation"
+ },
+ {
+  "prompt": "They tried hard to finish on time. (effort)",
+  "answer": "effort",
+  "reason": "basic make-an-effort phrase taught in grade school"
+ },
+ {
+  "prompt": "She formally protested about the noise. (complaint)",
+  "answer": "complaint",
+  "reason": "elementary make-a-complaint pattern"
+ },
+ {
+  "prompt": "He created a strong positive effect on us. (impression)",
+  "answer": "impression",
+  "reason": "common make-an-impression taught early"
+ },
+ {
+  "prompt": "She donated money to the charity. (contribution)",
+  "answer": "contribution",
+  "reason": "basic make-a-contribution pattern"
+ },
+ {
+  "prompt": "All students participated in the contest. (part)",
+  "answer": "part in",
+  "reason": "L1 take-part-in every student knows"
+ },
+ {
+  "prompt": "He feels proud of his school. (pride)",
+  "answer": "pride in",
+  "reason": "L1 take-pride-in = be proud of"
+ },
+ {
+  "prompt": "She looks after her younger brother. (care)",
+  "answer": "care of",
+  "reason": "L1 take-care-of routine phrase"
+ },
+ {
+  "prompt": "She delivered a baby yesterday. (birth)",
+  "answer": "birth to",
+  "reason": "L1 give-birth-to known cold"
+ },
+ {
+  "prompt": "He created a good feeling in the interview. (impression)",
+  "answer": "impression",
+  "reason": "basic give/make impression collocation"
+ },
+ {
+  "prompt": "I want to quickly check the report. (look)",
+  "answer": "look",
+  "reason": "A1 have-a-look routine"
+ },
+ {
+  "prompt": "We talked briefly about the plan. (chat)",
+  "answer": "chat",
+  "reason": "A1 have-a-chat routine"
+ },
+ {
+  "prompt": "They quarreled badly last night. (argument)",
+  "answer": "argument",
+  "reason": "basic have-an-argument phrase"
+ },
+ {
+  "prompt": "They laughed loudly at the joke. (laugh)",
+  "answer": "laugh",
+  "reason": "trivial have-a-laugh phrase"
+ },
+ {
+  "prompt": "We walked slowly in the park. (walk)",
+  "answer": "walk",
+  "reason": "trivial have-a-walk phrase"
+ },
+ {
+  "prompt": "Let me try driving the car. (go)",
+  "answer": "go",
+  "reason": "basic have-a-go = try"
+ },
+ {
+  "prompt": "She broke the world best score. (record)",
+  "answer": "record",
+  "reason": "ultra-common set-a-record sports phrase"
+ },
+ {
+  "prompt": "Pollution damages health badly. (harm)",
+  "answer": "harm to",
+  "reason": "elementary do-harm-to collocation"
+ },
+ {
+  "prompt": "Charity work benefits society. (good)",
+  "answer": "good for",
+  "reason": "elementary do-good-for phrase"
+ },
+ {
+  "prompt": "Could you help me with this bag. (favour)",
+  "answer": "favour",
+  "reason": "L1 do-me-a-favour routine request"
+ },
+ {
+  "prompt": "The storm destroyed many houses. (damage)",
+  "answer": "damage to",
+  "reason": "basic do-damage-to collocation"
+ },
+ {
+  "prompt": "Soldiers performed their obligation bravely. (duty)",
+  "answer": "duty",
+  "reason": "basic do-duty phrase"
+ },
+ {
+  "prompt": "He trades with foreign firms. (business)",
+  "answer": "business",
+  "reason": "basic do-business-with phrase"
+ },
+ {
+  "prompt": "Scientists studied the virus for years. (research)",
+  "answer": "research on",
+  "reason": "school-level do-research phrase"
+ },
+ {
+  "prompt": "Everyone contributed to the success. (part)",
+  "answer": "part",
+  "reason": "basic do-one's-part phrase"
+ },
+ {
+  "prompt": "Children slept without food. (hungry)",
+  "answer": "hungry",
+  "reason": "L1 go-hungry known cold"
+ },
+ {
+  "prompt": "The keys disappeared yesterday. (missing)",
+  "answer": "missing",
+  "reason": "L1 go-missing known cold"
+ },
+ {
+  "prompt": "She obtained official approval to leave. (permission)",
+  "answer": "permission",
+  "reason": "A1 get-permission routine"
+ },
+ {
+  "prompt": "We eliminated the rats quickly. (rid)",
+  "answer": "rid of",
+  "reason": "L1 get-rid-of known cold"
+ },
+ {
+  "prompt": "The children finished their school assignments late (DO)",
+  "answer": "homework",
+  "reason": "A1 do-homework routine"
+ },
+ {
+  "prompt": "She cleaned the house every Saturday morning (DO)",
+  "answer": "housework",
+  "reason": "A1 do-housework routine"
+ },
+ {
+  "prompt": "We bought food at the supermarket yesterday (DO)",
+  "answer": "shopping",
+  "reason": "A1 do-the-shopping routine"
+ },
+ {
+  "prompt": "The athletes tried their hardest to win (DO)",
+  "answer": "best",
+  "reason": "L1 do-one's-best known cold"
+ },
+ {
+  "prompt": "You performed your task very efficiently today (DO)",
+  "answer": "job",
+  "reason": "trivial do-a-job phrase"
+ },
+ {
+  "prompt": "He works out every morning to stay fit (DO)",
+  "answer": "exercise",
+  "reason": "A1 do-exercise routine"
+ },
+ {
+  "prompt": "They tested the new drug on volunteers (DO)",
+  "answer": "experiment",
+  "reason": "school-level do-an-experiment"
+ },
+ {
+  "prompt": "She enrolled in an evening course in design (DO)",
+  "answer": "course",
+  "reason": "basic do-a-course phrase"
+ },
+ {
+  "prompt": "We ate breakfast early before school (HAVE)",
+  "answer": "breakfast",
+  "reason": "A1 have-breakfast routine"
+ },
+ {
+  "prompt": "They ate lunch together at noon (HAVE)",
+  "answer": "lunch",
+  "reason": "A1 have-lunch routine"
+ },
+ {
+  "prompt": "She drank a coffee with her friend (HAVE)",
+  "answer": "drink",
+  "reason": "A1 have-a-drink routine"
+ },
+ {
+  "prompt": "He washed in the tub last night (HAVE)",
+  "answer": "bath",
+  "reason": "A1 have-a-bath routine"
+ },
+ {
+  "prompt": "She rested after the long flight (HAVE)",
+  "answer": "rest",
+  "reason": "A1 have-a-rest routine"
+ },
+ {
+  "prompt": "The baby slept briefly this afternoon (HAVE)",
+  "answer": "nap",
+  "reason": "A1 have-a-nap routine"
+ },
+ {
+  "prompt": "I dreamed about flying last night (HAVE)",
+  "answer": "dream",
+  "reason": "basic have-a-dream phrase"
+ },
+ {
+  "prompt": "Take a quick look at this report (HAVE)",
+  "answer": "look",
+  "reason": "A1 have-a-look routine"
+ },
+ {
+  "prompt": "Try driving my new car once (HAVE)",
+  "answer": "try",
+  "reason": "basic have-a-try routine"
+ },
+ {
+  "prompt": "Attempt the puzzle yourself first (HAVE)",
+  "answer": "go",
+  "reason": "basic have-a-go routine"
+ },
+ {
+  "prompt": "She chatted with neighbours over tea (HAVE)",
+  "answer": "chat",
+  "reason": "A1 have-a-chat routine"
+ },
+ {
+  "prompt": "They discussed the plan for an hour (HAVE)",
+  "answer": "talk",
+  "reason": "A1 have-a-talk routine"
+ },
+ {
+  "prompt": "The brothers quarrelled bitterly over money (HAVE)",
+  "answer": "argument",
+  "reason": "basic have-an-argument phrase"
+ },
+ {
+  "prompt": "They fought over the inheritance (HAVE)",
+  "answer": "fight",
+  "reason": "basic have-a-fight phrase"
+ },
+ {
+  "prompt": "He thought of a brilliant solution (HAVE)",
+  "answer": "idea",
+  "reason": "basic have-an-idea phrase"
+ },
+ {
+  "prompt": "We enjoyed ourselves at the party (HAVE)",
+  "answer": "fun",
+  "reason": "A1 have-fun routine"
+ },
+ {
+  "prompt": "They enjoyed themselves in Da Lat (HAVE)",
+  "answer": "time",
+  "reason": "A1 have-a-good-time routine"
+ },
+ {
+  "prompt": "He caught influenza last winter (HAVE)",
+  "answer": "flu",
+  "reason": "A1 have-flu illness phrase"
+ },
+ {
+  "prompt": "She suffers from migraines often (HAVE)",
+  "answer": "headache",
+  "reason": "A1 have-a-headache routine"
+ },
+ {
+  "prompt": "The child ran a fever yesterday (HAVE)",
+  "answer": "temperature",
+  "reason": "basic have-a-temperature phrase"
+ },
+ {
+  "prompt": "He underwent surgery on his knee (HAVE)",
+  "answer": "operation",
+  "reason": "basic have-an-operation phrase"
+ },
+ {
+  "prompt": "She gave birth in May (HAVE)",
+  "answer": "baby",
+  "reason": "L1 have-a-baby known cold"
+ },
+ {
+  "prompt": "He found employment at a bank (GET)",
+  "answer": "job",
+  "reason": "A1 get-a-job phrase"
+ },
+ {
+  "prompt": "He caught a bad cold last week (GET)",
+  "answer": "cold",
+  "reason": "A1 get-a-cold routine"
+ },
+ {
+  "prompt": "She fell ill during the trip (GET)",
+  "answer": "sick",
+  "reason": "A1 get-sick routine"
+ },
+ {
+  "prompt": "He recovered quickly after surgery (GET)",
+  "answer": "well",
+  "reason": "A1 get-well routine"
+ },
+ {
+  "prompt": "The weather became worse overnight (GET)",
+  "answer": "worse",
+  "reason": "A1 get-worse adjective"
+ },
+ {
+  "prompt": "He became furious with his son (GET)",
+  "answer": "angry",
+  "reason": "A1 get-angry routine"
+ },
+ {
+  "prompt": "She became upset about the results (GET)",
+  "answer": "upset",
+  "reason": "A1 get-upset routine"
+ },
+ {
+  "prompt": "He becomes anxious before exams (GET)",
+  "answer": "nervous",
+  "reason": "A1 get-nervous routine"
+ },
+ {
+  "prompt": "The kids became thrilled about the trip (GET)",
+  "answer": "excited",
+  "reason": "A1 get-excited routine"
+ },
+ {
+  "prompt": "I soon tire of his complaints (GET)",
+  "answer": "bored",
+  "reason": "A1 get-bored routine"
+ },
+ {
+  "prompt": "We became exhausted from walking (GET)",
+  "answer": "tired",
+  "reason": "A1 get-tired routine"
+ },
+ {
+  "prompt": "The baby became hungry at midnight (GET)",
+  "answer": "hungry",
+  "reason": "A1 get-hungry routine"
+ },
+ {
+  "prompt": "It became dark very early (GET)",
+  "answer": "dark",
+  "reason": "A1 get-dark routine"
+ },
+ {
+  "prompt": "We prepared for departure early (GET)",
+  "answer": "ready",
+  "reason": "A1 get-ready routine"
+ },
+ {
+  "prompt": "She wedded her college sweetheart (GET)",
+  "answer": "married",
+  "reason": "L1 get-married known cold"
+ },
+ {
+  "prompt": "They legally ended their marriage (GET)",
+  "answer": "divorced",
+  "reason": "basic get-divorced known to all teens"
+ },
+ {
+  "prompt": "He clothed himself quickly (GET)",
+  "answer": "dressed",
+  "reason": "A1 get-dressed routine"
+ },
+ {
+  "prompt": "We became lost in the old town (GET)",
+  "answer": "lost",
+  "reason": "L1 get-lost known cold"
+ },
+ {
+  "prompt": "The truck became jammed in the mud (GET)",
+  "answer": "stuck",
+  "reason": "basic get-stuck phrase"
+ },
+ {
+  "prompt": "The thief was captured by police (GET)",
+  "answer": "caught",
+  "reason": "basic get-caught phrase"
+ },
+ {
+  "prompt": "He was detained for speeding (GET)",
+  "answer": "arrested",
+  "reason": "basic get-arrested known from news"
+ },
+ {
+  "prompt": "She eliminated the stains completely (GET)",
+  "answer": "of",
+  "reason": "L1 get-rid-of known cold"
+ },
+ {
+  "prompt": "He obtained approval to leave early (GET)",
+  "answer": "permission",
+  "reason": "A1 get-permission routine"
+ },
+ {
+  "prompt": "Did you receive my text yesterday (GET)",
+  "answer": "message",
+  "reason": "A1 get-a-message routine"
+ },
+ {
+  "prompt": "She seized the opportunity to perform (GET)",
+  "answer": "chance",
+  "reason": "basic get-the-chance phrase"
+ },
+ {
+  "prompt": "He gained valuable practical knowledge abroad (GET)",
+  "answer": "experience",
+  "reason": "school-level get-experience phrase"
+ },
+ {
+  "prompt": "We buy food every weekend (GO)",
+  "answer": "shopping",
+  "reason": "A1 go-shopping routine"
+ },
+ {
+  "prompt": "They swim regularly in summer (GO)",
+  "answer": "swimming",
+  "reason": "A1 go-swimming routine"
+ },
+ {
+  "prompt": "We hike in the hills often (GO)",
+  "answer": "hiking",
+  "reason": "A1 go-hiking routine"
+ },
+ {
+  "prompt": "Something failed with our plan (GO)",
+  "answer": "wrong",
+  "reason": "L1 go-wrong known cold"
+ },
+ {
+  "prompt": "The keys disappeared mysteriously (GO)",
+  "answer": "missing",
+  "reason": "L1 go-missing known cold"
+ },
+ {
+  "prompt": "Students should write key points during lectures. (NOTES)",
+  "answer": "notes",
+  "reason": "A1 take-notes routine"
+ },
+ {
+  "prompt": "The conference will happen in London next March. (PLACE)",
+  "answer": "place",
+  "reason": "A1 take-place known cold"
+ },
+ {
+  "prompt": "Students must sit the final test in June. (TAKE)",
+  "answer": "the exam",
+  "reason": "A1 take-the-exam routine"
+ },
+ {
+  "prompt": "Come and examine the new gallery with me. (LOOK)",
+  "answer": "look",
+  "reason": "A1 take-a-look routine"
+ },
+ {
+  "prompt": "Please examine the figures carefully. (LOOK)",
+  "answer": "look",
+  "reason": "A1 have-a-look routine"
+ },
+ {
+  "prompt": "My son finishes his school tasks after dinner. (HOMEWORK)",
+  "answer": "homework",
+  "reason": "A1 do-homework routine"
+ },
+ {
+  "prompt": "I tidy my sleeping area every day. (BED)",
+  "answer": "bed",
+  "reason": "A1 make-the-bed routine"
+ },
+ {
+  "prompt": "They visited interesting places on holiday. (SIGHTSEEING)",
+  "answer": "sightseeing",
+  "reason": "A1 go-sightseeing routine"
+ },
+ {
+  "prompt": "She always honours her word to clients. (PROMISE)",
+  "answer": "promise",
+  "reason": "L1 keep-promise known cold"
+ },
+ {
+  "prompt": "He violated his word and lost trust. (BROKE)",
+  "answer": "promise",
+  "reason": "L1 break-promise known cold"
+ },
+ {
+  "prompt": "She set a new world best in the sprint. (RECORD)",
+  "answer": "record",
+  "reason": "basic set-a-record sports phrase"
+ },
+ {
+  "prompt": "Our team surpassed the national best last year. (BROKE2)",
+  "answer": "record",
+  "reason": "basic break-the-record sports phrase"
+ },
+ {
+  "prompt": "We should focus closely on the details. (ATTENTION)",
+  "answer": "attention",
+  "reason": "A1 pay-attention routine"
+ },
+ {
+  "prompt": "He offered useful advice on exam technique. (GAVE)",
+  "answer": "advice",
+  "reason": "A1 give-advice routine"
+ },
+ {
+  "prompt": "Please contact me if you need help. (TOUCH)",
+  "answer": "touch",
+  "reason": "A1 keep-in-touch routine"
+ },
+ {
+  "prompt": "He lost contact with old classmates. (LOST)",
+  "answer": "touch",
+  "reason": "basic lose-touch phrase paired with keep-in-touch"
+ },
+ {
+  "prompt": "She keeps in close contact with old friends. (TOUCH2)",
+  "answer": "touch",
+  "reason": "A1 keep-in-touch routine"
+ },
+ {
+  "prompt": "They tried very hard to finish on time. (EFFORT)",
+  "answer": "effort",
+  "reason": "basic make-an-effort phrase"
+ },
+ {
+  "prompt": "She wrote a short list of tasks. (LIST)",
+  "answer": "list",
+  "reason": "A1 make-a-list routine"
+ },
+ {
+  "prompt": "He told a funny story at dinner. (JOKE)",
+  "answer": "joke",
+  "reason": "A1 make-a-joke routine"
+ },
+ {
+  "prompt": "Intense rainfall flooded the streets overnight. (HEAVY)",
+  "answer": "heavy",
+  "reason": "A1 heavy-rain collocation"
+ },
+ {
+  "prompt": "He drinks very strong dark coffee every morning. (STRONG)",
+  "answer": "strong",
+  "reason": "A1 strong-coffee collocation"
+ },
+ {
+  "prompt": "Heavy traffic delayed our morning commute. (HEAVY2)",
+  "answer": "heavy traffic",
+  "reason": "A1 heavy-traffic collocation"
+ },
+ {
+  "prompt": "He has a lively comic personality. (HUMOUR)",
+  "answer": "humour",
+  "reason": "A1 sense-of-humour phrase"
+ },
+ {
+  "prompt": "Their marriage has lasted happily for decades. (HAPPILY)",
+  "answer": "happily married",
+  "reason": "L1 happily-married known cold"
+ },
+ {
+  "prompt": "Tom is an old trusted companion from school. (MUTUAL)",
+  "answer": "mutual friend",
+  "reason": "L1 mutual-friend known cold"
+ },
+ {
+  "prompt": "They met through a common acquaintance. (MUTUAL2)",
+  "answer": "mutual friend",
+  "reason": "L1 mutual-friend known cold"
+ },
+ {
+  "prompt": "He proposed formally to his partner. (PROPOSED)",
+  "answer": "to his partner",
+  "reason": "L1 propose-to known cold"
+ },
+ {
+  "prompt": "She is good at solving complex puzzles. (AT)",
+  "answer": "at",
+  "reason": "L1 be-good-at known cold"
+ },
+ {
+  "prompt": "He is keen on photography and hiking. (KEEN)",
+  "answer": "on",
+  "reason": "L1 be-keen-on known cold"
+ },
+ {
+  "prompt": "They are famous for their hospitality. (FAMOUS)",
+  "answer": "for",
+  "reason": "L1 be-famous-for known cold"
+ },
+ {
+  "prompt": "I am worried about the exam results. (WORRIED)",
+  "answer": "about",
+  "reason": "L1 be-worried-about known cold"
+ },
+ {
+  "prompt": "She takes pride in her neat garden. (PRIDE)",
+  "answer": "in",
+  "reason": "L1 take-pride-in known cold"
+ },
+ {
+  "prompt": "They failed the final test by two points. (FAILED)",
+  "answer": "the test",
+  "reason": "A1 fail-the-test routine"
+ },
+ {
+  "prompt": "He passed the driving exam first time. (PASSED2)",
+  "answer": "the test",
+  "reason": "A1 pass-the-test routine"
+ },
+ {
+  "prompt": "We had a short talk about the exams. (BRIEF)",
+  "answer": "brief chat",
+  "reason": "A1 brief-chat routine"
+ },
+ {
+  "prompt": "She apologised for being late again. (FOR2)",
+  "answer": "for",
+  "reason": "L1 apologise-for known cold"
+ },
+ {
+  "prompt": "He applied for the scholarship in March. (FOR3)",
+  "answer": "for",
+  "reason": "L1 apply-for known cold"
+ },
+ {
+  "prompt": "We waited for the bus in the rain. (FOR4)",
+  "answer": "for",
+  "reason": "A1 wait-for routine"
+ }
+]

@@ -1,0 +1,207 @@
+[
+ {
+  "prompt": "Recall the fixed pair with apples. (ORANGES)",
+  "answer": "oranges",
+  "reason": "primary-school idiom contrasting two fruits"
+ },
+ {
+  "prompt": "Recall the fixed pair with black. (BLUE)",
+  "answer": "blue",
+  "reason": "universally known bruise idiom"
+ },
+ {
+  "prompt": "Recall the fixed pair with come. (GO)",
+  "answer": "go",
+  "reason": "primary antonym pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with cops. (ROBBERS)",
+  "answer": "robbers",
+  "reason": "childrens game name known to all beginners"
+ },
+ {
+  "prompt": "Recall the fixed pair with cream. (SUGAR)",
+  "answer": "sugar",
+  "reason": "basic coffee-order pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with cup. (SAUCER)",
+  "answer": "saucer",
+  "reason": "primary tableware pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with cut. (PASTE)",
+  "answer": "paste",
+  "reason": "basic computer command known to all"
+ },
+ {
+  "prompt": "Recall the fixed pair with day. (NIGHT)",
+  "answer": "night",
+  "reason": "primary antonym pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with first. (LAST)",
+  "answer": "last",
+  "reason": "primary ordinal antonyms"
+ },
+ {
+  "prompt": "Recall the fixed pair with heaven. (EARTH)",
+  "answer": "earth",
+  "reason": "primary opposite taught in kindergarten"
+ },
+ {
+  "prompt": "Recall the fixed pair with here. (NOW)",
+  "answer": "now",
+  "reason": "fixed common phrase known to beginners"
+ },
+ {
+  "prompt": "Recall the fixed pair with hit. (RUN)",
+  "answer": "run",
+  "reason": "universally known traffic-crime term"
+ },
+ {
+  "prompt": "Recall the fixed pair with hugs. (KISSES)",
+  "answer": "kisses",
+  "reason": "XOXO pair known to children"
+ },
+ {
+  "prompt": "Recall the fixed pair with lock. (KEY)",
+  "answer": "key",
+  "reason": "primary object pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with meat. (POTATOES)",
+  "answer": "potatoes",
+  "reason": "staple meal pair taught in primary school"
+ },
+ {
+  "prompt": "Recall the fixed pair with men. (WOMEN)",
+  "answer": "women",
+  "reason": "primary gender antonyms"
+ },
+ {
+  "prompt": "Recall the fixed pair with milk. (COOKIES)",
+  "answer": "cookies",
+  "reason": "stereotypical kids snack pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with coffee. (DOUGHNUTS)",
+  "answer": "doughnuts",
+  "reason": "stereotypical food pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with name. (ADDRESS)",
+  "answer": "address",
+  "reason": "basic form-filling pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with now. (THEN)",
+  "answer": "then",
+  "reason": "primary adverb antonyms"
+ },
+ {
+  "prompt": "Recall the fixed pair with pen. (PENCIL)",
+  "answer": "pencil",
+  "reason": "primary classroom object pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with pots. (PANS)",
+  "answer": "pans",
+  "reason": "primary kitchen pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with read. (WRITE)",
+  "answer": "write",
+  "reason": "primary literacy pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with rock. (ROLL)",
+  "answer": "roll",
+  "reason": "world-famous music genre name"
+ },
+ {
+  "prompt": "Recall the fixed pair with salt. (VINEGAR)",
+  "answer": "vinegar",
+  "reason": "ubiquitous condiment pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with sticks. (STONES)",
+  "answer": "stones",
+  "reason": "childrens rhyme sticks and stones"
+ },
+ {
+  "prompt": "Recall the fixed pair with tea. (CRUMPETS)",
+  "answer": "crumpets",
+  "reason": "stereotypical British snack pair"
+ },
+ {
+  "prompt": "Choose the fixed option with trick. (TREAT)",
+  "answer": "treat",
+  "reason": "world-famous Halloween phrase"
+ },
+ {
+  "prompt": "Choose the fixed option with win. (LOSE)",
+  "answer": "lose",
+  "reason": "primary antonym pair"
+ },
+ {
+  "prompt": "Choose the fixed option with yes. (NO)",
+  "answer": "no",
+  "reason": "primary antonym pair"
+ },
+ {
+  "prompt": "Choose the fixed option with right. (WRONG)",
+  "answer": "wrong",
+  "reason": "primary antonym pair"
+ },
+ {
+  "prompt": "Choose the fixed option with heads. (TAILS)",
+  "answer": "tails",
+  "reason": "coin-toss pair known to all"
+ },
+ {
+  "prompt": "Choose the fixed option with better. (WORSE)",
+  "answer": "worse",
+  "reason": "primary comparative antonyms"
+ },
+ {
+  "prompt": "Choose the fixed option with big. (SMALL)",
+  "answer": "small",
+  "reason": "primary adjective antonyms"
+ },
+ {
+  "prompt": "Recall the fixed pair with war. (PEACE)",
+  "answer": "peace",
+  "reason": "primary antonym pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with tables. (CHAIRS)",
+  "answer": "chairs",
+  "reason": "primary classroom furniture pair"
+ },
+ {
+  "prompt": "Recall the fixed pair with peas. (CARROTS)",
+  "answer": "carrots",
+  "reason": "staple vegetable pair taught to kids"
+ },
+ {
+  "prompt": "Recall the fixed pair with slowly. (SURELY)",
+  "answer": "surely",
+  "reason": "fixed proverb phrase slowly but surely"
+ },
+ {
+  "prompt": "Recall the neither pair with here. (THERE)",
+  "answer": "there",
+  "reason": "primary deictic pair"
+ },
+ {
+  "prompt": "Choose the fixed option with friend. (FOE)",
+  "answer": "foe",
+  "reason": "primary antonym pair friend or foe"
+ },
+ {
+  "prompt": "Recall the triple with hop, skip. (JUMP)",
+  "answer": "jump",
+  "reason": "childrens rhyme hop skip and jump"
+ }
+]
