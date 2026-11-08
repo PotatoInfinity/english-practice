@@ -19,7 +19,6 @@ let nextWallAt = 50;
 let wallBusy = false;
 const FETCH_N = 200;   // rows pulled into memory per batch (tiny JSON, SRS state stays in SQLite)
 const RENDER_N = 25;   // rows painted per scroll step (keeps DOM light)
-const CAP = 400;       // in-memory/DOM ceiling per set; Next starts a fresh 200
 const list = document.getElementById("list");
 const score = document.getElementById("score");
 const moreBox = document.getElementById("more");
@@ -44,10 +43,15 @@ async function fetchMore() {
   moreBox.textContent = "loading…";
   try {
     const cat = document.getElementById("cat").value;
-    const got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
+    let got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
+    if (got.length === 0 && seenIds.size > 0) {
+      // bank exhausted for this filter: lap again — SRS due/failed rows resurface, rest repeat
+      seenIds.clear();
+      got = await call("due_items", { limit: FETCH_N, category: cat, seen: [] });
+    }
     const fresh = got.filter(d => !seenIds.has(d.id));
     fresh.forEach(d => seenIds.add(d.id));
-    if (got.length === 0 || items.length + fresh.length >= CAP) drained = true;
+    if (got.length === 0) drained = true;
     items.push(...fresh);
     renderMore();
   } catch (e1) {
@@ -72,7 +76,7 @@ async function fetchMore() {
     }
   }
   fetching = false;
-  moreBox.textContent = drained ? (items.length >= CAP ? "400 loaded — Next starts a fresh set." : "") : "";
+  moreBox.textContent = drained ? "Bank complete for this filter — reviews keep cycling." : "";
 }
 
 function rowFor(d, n) {
@@ -303,7 +307,6 @@ function reveal() {
   }
 }
 
-document.getElementById("next").onclick = load;
 document.getElementById("cat").onchange = load;
 document.getElementById("check").onclick = check;
 document.getElementById("reveal").onclick = reveal;
