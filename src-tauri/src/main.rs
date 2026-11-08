@@ -426,11 +426,12 @@ fn due_items(
   };
 
   // 1) overdue SRS rows (failed/unseen first), excluding seen; id-tiebreak keeps
-  // the wall identical across restarts
+  // the wall identical across restarts. Mastered rows past their 60d date
+  // resurface here too (long-while repeat even when always correct).
   let mut due: Vec<DueItem> = vec![];
   for c in cats.iter().copied() {
     let sql = format!(
-      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND COALESCE(p.mastered,0)=0 AND COALESCE(p.next_due,0)<=?2 {} ORDER BY COALESCE(p.next_due,0) ASC, i.id ASC LIMIT ?3",
+      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND (COALESCE(p.mastered,0)=0 OR COALESCE(p.next_due,0)<=?2) AND COALESCE(p.next_due,0)<=?2 {} ORDER BY COALESCE(p.next_due,0) ASC, i.id ASC LIMIT ?3",
       COLS, excl
     );
     let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
@@ -443,15 +444,16 @@ fn due_items(
   // so every chunk mixes types and levels even with thousands overdue
   due.truncate(lim / 2);
 
-  // 2) stratified fresh rows: unseen-or-due only (solved items stay solved),
-  // id-ordered so the infinite wall never reshuffles between restarts
+  // 2) stratified fresh rows: unseen-or-due only (solved items stay solved,
+  // mastered-but-due repeat here too), id-ordered so the infinite wall never
+  // reshuffles between restarts
   let mut strata: Vec<Vec<DueItem>> = vec![];
   {
     let per = ((lim - due.len()) / (cats.len() * 3).max(1) + 2).min(6) as i64;
     for c in cats.iter().copied() {
       for d in 1..=3 {
         let sql = format!(
-          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 AND COALESCE(p.mastered,0)=0 AND (p.item_id IS NULL OR p.next_due<=?4) {} ORDER BY i.id ASC LIMIT ?3",
+          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 AND (p.item_id IS NULL OR p.next_due<=?4) {} ORDER BY i.id ASC LIMIT ?3",
           COLS, excl
         );
         let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;

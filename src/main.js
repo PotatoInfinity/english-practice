@@ -13,6 +13,7 @@ let seenIds = new Set();
 let rendered = 0;
 let fetching = false;
 let drained = false;
+let retryTimer = 0;
 let lastSolved = -1;
 let wrongIds = [];    // miss queue -> retried at every 50-row wall, re-queued if missed again
 let everWrong = new Set(); // ids missed at least once: stay queued even after in-place fix
@@ -32,6 +33,7 @@ async function load() {
   lastSolved = -1;
   wrongIds = [];
   everWrong = new Set();
+  if (retryTimer) { clearTimeout(retryTimer); retryTimer = 0; }
   nextWallAt = 50;
   results = {};
   gradedUser = {};
@@ -54,7 +56,14 @@ async function fetchMore() {
     }
     const fresh = got.filter(d => !seenIds.has(d.id));
     fresh.forEach(d => seenIds.add(d.id));
-    if (got.length === 0) drained = true;
+    if (got.length === 0) {
+      drained = true;
+      renderMore();
+      showEndLine();
+      return;
+    }
+    const end = document.getElementById("endline");
+    if (end) end.remove();
     items.push(...fresh);
     renderMore();
   } catch (e1) {
@@ -79,7 +88,30 @@ async function fetchMore() {
     }
   }
   fetching = false;
-  moreBox.textContent = drained ? "Bank complete for this filter — reviews keep cycling." : "";
+  moreBox.textContent = drained ? "Bank complete for now — reviews keep cycling." : "";
+}
+
+// green ending line when everything is solved: reviews (incl. 60d mastered
+// repeats) still resurface, so re-arm a fetch instead of latching forever
+async function showEndLine() {
+  if (document.getElementById("endline")) return;
+  let label = "Bank complete — everything solved. Reviews resurface on schedule.";
+  try {
+    const s = await call("stats", {});
+    if (s && typeof s.total === "number") {
+      label = s.mastered >= s.total
+        ? `Bank complete — all ${s.total} mastered. Long-while repeats return in ~60 days.`
+        : `Bank complete for now — ${s.mastered}/${s.total} mastered, ${s.due_now} due. Reviews keep cycling.`;
+      if (s.mastered < s.total && !retryTimer) {
+        retryTimer = setTimeout(() => { retryTimer = 0; drained = false; fetchMore(); }, 60000);
+      }
+    }
+  } catch { /* preview fallback keeps the static label */ }
+  const li = document.createElement("li");
+  li.className = "enddiv";
+  li.id = "endline";
+  li.textContent = label;
+  list.appendChild(li);
 }
 
 function rowFor(d, n) {
