@@ -104,7 +104,17 @@ function rowFor(d, n) {
     });
     li.append(p1, box);
   } else {
-    p1.innerHTML = `${escapeHtml(stripBracket(d))} <span class="kw">(${escapeHtml(d.keyword)})</span>`;
+    // keyword badge: show only when the bracket word is part of the answer.
+    // If it's already sitting in the frame (e.g. CAST in "cast lasting ___"),
+    // the badge is pure noise -> hide it. If it lives only in the prompt
+    // bracket (word-formation BASE), the prompt keeps its own hint instead.
+    const kw = (d.keyword || "").trim();
+    const nkw = kw.toLowerCase();
+    const inAns = !!nkw && d.answer.toLowerCase().includes(nkw);
+    const inFrame = !!nkw && (d.gap_prefix + " " + d.gap_suffix).toLowerCase().includes(nkw);
+    let ptext = d.prompt;
+    if (inFrame || inAns) ptext = stripBracket(d);
+    p1.innerHTML = escapeHtml(ptext) + (inAns && !inFrame && kw ? ` <span class="kw">(${escapeHtml(d.keyword)})</span>` : "");
     const p2 = document.createElement("div");
     p2.className = "rewrite";
     p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
