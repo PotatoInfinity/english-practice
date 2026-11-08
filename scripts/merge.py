@@ -17,6 +17,12 @@ PREPS = {"of", "with", "to", "for", "in", "on", "above", "about", "after", "agai
          "into", "like", "near", "off", "out", "over", "past", "since", "through",
          "toward", "towards", "under", "until", "up", "upon", "within", "without",
          "that", "which", "who", "when", "where", "and", "or", "than", "as"}
+# absorbable collocate edges for keyword-gap widening (articles, prepositions, "to")
+FUNC_CW = {"a", "an", "the", "of", "in", "on", "at", "to", "for", "with", "from",
+           "by", "about", "into", "over", "after", "before", "between", "through",
+           "during", "against", "among", "around", "off", "out", "away", "along",
+           "across", "behind", "beyond", "upon", "under", "without", "within",
+           "toward", "towards", "plus", "except"}
 AUX = {"had", "have", "has", "did", "does", "do", "was", "were", "is", "are",
        "will", "would", "should", "could", "can", "may", "might", "must"}
 
@@ -154,6 +160,20 @@ def main():
     if not files:
         print("FATAL: no input files", file=sys.stderr)
         sys.exit(1)
+    # purge lists load once (matched on pre-repair prompt+answer so repaired
+    # rows cannot evade their auditor flag by renaming the answer)
+    purged_keys = set()
+    for pf in sorted(glob.glob("data/purge-*.json")):
+        try:
+            rows, err = load_file(pf)
+        except Exception:
+            continue
+        if err:
+            print(f"purge list {pf}: {err}")
+            continue
+        for r in rows:
+            if isinstance(r, dict) and r.get("prompt") and r.get("answer"):
+                purged_keys.add((norm(r["prompt"]), norm(r["answer"])))
     raw, quarantine, stats = [], [], Counter()
     for f in files:
         rows, err = load_file(f)
@@ -162,12 +182,40 @@ def main():
             quarantine.append({"file": f, "entry": None, "reasons": [err]})
         for i, r in enumerate(rows):
             r = derive_full(r) if isinstance(r, dict) else r
+            if isinstance(r, dict) and (norm(r.get("prompt", "")), norm(r.get("answer", ""))) in purged_keys:
+                quarantine.append({"file": f, "index": i, "entry": r, "reasons": ["purged: auditor-flagged trivial"]})
+                stats["purged"] += 1
+                continue
             bad = validate(r) if isinstance(r, dict) else ["not an object"]
             if bad:
                 quarantine.append({"file": f, "index": i, "entry": r, "reasons": bad})
                 stats["invalid"] += 1
                 continue
             e = canon(r)
+            # repair 0: answer must not start with a conjunction ("and parcel") -
+            # the conjunction belongs to the frame ("part and ___")
+            na0 = norm(e.get("answer", "")).split(" ")
+            if len(na0) > 1 and na0[0] in ("and", "or", "nor", "but"):
+                e["gap_prefix"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + na0[0])).strip()
+                e["answer"] = re.sub(r"\s+", " ", " ".join(e["answer"].split(" ")[1:])).strip()
+                e["full_answer"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                if e["full_answer"] and e["full_answer"][-1].isalnum():
+                    e["full_answer"] += "."
+                stats["repaired_lead_conj"] += 1
+            # repair 2: binomial leftover-word suffix -> sentence ends at binomial
+            if e["category"] == "binomial" and e["gap_suffix"] not in ("", "."):
+                first = norm(e["gap_suffix"]).split(" ")[0].rstrip(",.")
+                if first not in PREPS and not e["gap_suffix"].startswith(","):
+                    e["gap_suffix"] = "."
+                    e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + ".").strip()
+                    stats["repaired_binomial"] += 1
+            # repair 3: duplicated trigger word across prefix/answer boundary ("Not until" + "until ...")
+            if norm(e["gap_prefix"]).split(" ")[-1:] == ["until"] and norm(e["answer"]).startswith("until "):
+                e["answer"] = e["answer"].strip()[len("until"):].strip()
+                e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + (" " + e["gap_suffix"] if e["gap_suffix"] not in ("", ".") else "")).strip()
+                stats["repaired_dup_trigger"] += 1
+            if e["full_answer"] and e["full_answer"][-1].isalnum():
+                e["full_answer"] += "."
             # repair 4: keyword leaked into the frame while the answer lacks it
             # ("His desertion cast lasting ___" + ans "dishonour on" becomes
             #  "His desertion ___ lasting dishonour on ..." + ans "cast").
@@ -197,6 +245,88 @@ def main():
                             e["full_answer"] += "."
                         stats["repaired_kw_gap"] += 1
                         break
+            # repair 6 (runs BEFORE repair 4): the input must never be just the
+            # bracket word. Widen the gap over the surrounding collocation:
+            # - prep_idiom absorbs the verb on the left ("takes ___" -> "takes after")
+            # - otherwise absorb a trailing of/to ("parcel ___ the job" -> "parcel of")
+            #   plus the left word unless it is a conjunction ("dark ___ of" ->
+            #   "dark horse of", but never "and parcel of")
+            # - gap at sentence end: absorb up to 2 words back, stopping at
+            #   pronouns/auxiliaries/articles ("hard and ___." -> "hard and fast")
+            # Pure regrouping: bail unless the sentence is identical after.
+            CONJ = {"and", "or", "nor", "but", "yet", "so"}
+            OFTO = {"of", "to"}
+            ENDSTOP = {"i", "me", "you", "he", "him", "she", "her", "it", "we", "us",
+                       "they", "them", "there", "here", "this", "that", "these", "those",
+                       "what", "who", "whom", "whose", "which", "is", "are", "was", "were",
+                       "be", "been", "being", "am", "has", "have", "had", "having", "do",
+                       "does", "did", "will", "would", "shall", "should", "can", "could",
+                       "may", "might", "must", "a", "an", "the"}
+            if e["category"] not in ("inversion", "mcq", "three_in_one"):
+                kw6 = norm(e.get("keyword") or "")
+                na6 = norm(e.get("answer") or "")
+                pre_t = e["gap_prefix"].split()
+                suf_t = e["gap_suffix"].split()
+                L = pre_t[-1] if pre_t and re.fullmatch(r"[A-Za-z']+", pre_t[-1]) else None
+                R = suf_t[0] if suf_t and re.fullmatch(r"[A-Za-z']+", suf_t[0]) else None
+                stemmed = bool(kw6 and na6 and " " not in na6 and L
+                               and (norm(L).startswith(kw6) or kw6.startswith(norm(L))))
+                if kw6 and (na6 == kw6 or (e["category"] == "prep_idiom" and stemmed)):
+                    take_L = take_R = False
+                    left_run = []
+                    right_run = []
+                    suf_blank = not re.sub(r"[\s.]", "", e["gap_suffix"])
+                    RIGHT2 = OFTO | {"it", "there", "that", "this", "what", "be", "is", "are",
+                                      "was", "were", "been", "have", "has", "had", "do", "does",
+                                      "did", "will", "would", "can", "could", "shall", "should",
+                                      "may", "might", "must", "a", "an", "the", "my", "your",
+                                      "his", "her", "its", "our", "their"}
+                    if len(pre_t) == 1 and len(pre_t[0]) <= 2 and suf_t and e["category"] != "prep_idiom":
+                        # gap right after a stub word ("I ___ it were ..."):
+                        # absorb up to 2 following glue words ("wish it were")
+                        for tok in suf_t:
+                            if len(right_run) >= 2 or not re.fullmatch(r"[A-Za-z']+", tok):
+                                break
+                            if norm(tok) not in RIGHT2:
+                                break
+                            right_run.append(tok)
+                    elif suf_blank and e["category"] != "prep_idiom":
+                        for tok in reversed(pre_t):
+                            if len(left_run) >= 2 or not re.fullmatch(r"[A-Za-z']+", tok):
+                                break
+                            if norm(tok) in ENDSTOP:
+                                break
+                            left_run.append(tok)
+                    else:
+                        if R is not None and norm(R) in OFTO:
+                            take_R = True
+                        if L is not None and norm(L) not in CONJ and (take_R or e["category"] == "prep_idiom"):
+                            take_L = True
+                    if left_run or right_run or take_L or take_R:
+                        old_full = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        orig = (e["gap_prefix"], e["answer"], e["gap_suffix"])
+                        if left_run:
+                            run = list(reversed(left_run))
+                            parts = run + [e["answer"]]
+                            e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(pre_t[:-len(run)])).strip()
+                        elif right_run:
+                            parts = [e["answer"]] + right_run
+                            e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(suf_t[len(right_run):])).strip()
+                        else:
+                            parts = ([L] if take_L else []) + [e["answer"]] + ([R] if take_R else [])
+                            if take_L:
+                                e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(pre_t[:-1])).strip()
+                            if take_R:
+                                e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(suf_t[1:])).strip()
+                        e["answer"] = " ".join(parts)
+                        new_full = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        if norm(new_full) == norm(old_full):
+                            if new_full and new_full[-1].isalnum():
+                                new_full += "."
+                            e["full_answer"] = new_full
+                            stats["repaired_kw_widen"] += 1
+                        else:
+                            e["gap_prefix"], e["answer"], e["gap_suffix"] = orig
             # repair 5: answer word duplicated adjacent to the gap
             # ("fill out ___ out the questionnaire" -> "fill out ___ the questionnaire")
             na = norm(e["answer"])
@@ -221,26 +351,9 @@ def main():
                 if fl.startswith(al):
                     e["gap_suffix"] = e["full_answer"][len(e["answer"]):].strip()
                     stats["repaired_affix"] += 1
-            # repair 2: binomial leftover-word suffix -> sentence ends at binomial
-            if e["category"] == "binomial" and e["gap_suffix"] not in ("", "."):
-                first = norm(e["gap_suffix"]).split(" ")[0].rstrip(",.")
-                if first not in PREPS and not e["gap_suffix"].startswith(","):
-                    e["gap_suffix"] = "."
-                    e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + ".").strip()
-                    stats["repaired_binomial"] += 1
-            # repair 3: duplicated trigger word across prefix/answer boundary ("Not until" + "until ...")
-            if norm(e["gap_prefix"]).split(" ")[-1:] == ["until"] and norm(e["answer"]).startswith("until "):
-                e["answer"] = e["answer"].strip()[len("until"):].strip()
-                e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + (" " + e["gap_suffix"] if e["gap_suffix"] not in ("", ".") else "")).strip()
-                stats["repaired_dup_trigger"] += 1
-            if e["category"] == "binomial" and e["gap_suffix"] not in ("", "."):
-                first = norm(e["gap_suffix"]).split(" ")[0].rstrip(",.")
-                if first not in PREPS and not e["gap_suffix"].startswith(","):
-                    e["gap_suffix"] = "."
-                    e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + ".").strip()
-                    stats["repaired_binomial"] += 1
-            if e["full_answer"] and e["full_answer"][-1].isalnum():
                 e["full_answer"] += "."
+            # polish: no space before closing punctuation in the stored sentence
+            e["full_answer"] = re.sub(r"\s+([.,;:!?])", r"\1", e["full_answer"])
             for x in warn(e):
                 stats["warn:" + x] += 1
             raw.append((f, i, e))
@@ -281,29 +394,6 @@ def main():
         out.append(e)
 
     out.sort(key=lambda e: (e["category"], norm(e["full_answer"])))
-    # purge: auditor-flagged trivial items (data/purge-*.json: [{prompt, answer, reason}])
-    purged_keys = set()
-    for pf in sorted(glob.glob("data/purge-*.json")):
-        try:
-            rows, err = load_file(pf)
-        except Exception:
-            continue
-        if err:
-            print(f"purge list {pf}: {err}")
-            continue
-        for r in rows:
-            if isinstance(r, dict) and r.get("prompt") and r.get("answer"):
-                purged_keys.add((norm(r["prompt"]), norm(r["answer"])))
-    if purged_keys:
-        kept = []
-        for e in out:
-            if (norm(e["prompt"]), norm(e["answer"])) in purged_keys:
-                quarantine.append({"file": "purge-list", "index": -1, "entry": e,
-                                   "reasons": ["purged: auditor-flagged trivial"]})
-                stats["purged"] += 1
-            else:
-                kept.append(e)
-        out = kept
     os.makedirs("data", exist_ok=True)
     for path, payload in (("data/corpus.json", out),
                           ("src-tauri/seed.json", out),

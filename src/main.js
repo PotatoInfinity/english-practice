@@ -115,6 +115,8 @@ function rowFor(d, n) {
     let ptext = d.prompt;
     if (inFrame || inAns) ptext = stripBracket(d);
     p1.innerHTML = escapeHtml(ptext) + (inAns && !inFrame && kw ? ` <span class="kw">(${escapeHtml(d.keyword)})</span>` : "");
+    // blank_fill prompt duplicates the frame by format — render the frame only
+    if (d.category !== "blank_fill") li.append(p1);
     const p2 = document.createElement("div");
     p2.className = "rewrite";
     p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
@@ -123,7 +125,7 @@ function rowFor(d, n) {
     const tail = document.createElement("span");
     tail.textContent = " " + d.gap_suffix;
     p2.appendChild(tail);
-    li.append(p1, p2);
+    li.append(p2);
   }
   if (d.category === "mcq" || d.category === "three_in_one") {
     const p2 = document.createElement("div");
@@ -162,7 +164,12 @@ function inpFor(d, n) {  const inp = document.createElement("input");
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
   if (d.category === "mcq") inp.setAttribute("placeholder", "1–4");
-  inp.addEventListener("keydown", e => { if (e.key === "Enter") gradeItem(n); });
+  inp.addEventListener("keydown", e => {
+    if (e.key !== "Enter") return;
+    if (e.shiftKey) { focusPrev(n); return; }
+    if (!inp.value.trim()) { focusPrev(n); return; }  // blank box: Enter goes back
+    gradeItem(n);
+  });
   return inp;
 }
 
@@ -225,6 +232,22 @@ function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;
 let showFilter = "all";   // all | ok | no
 let results = {};         // idx -> true (correct) | false (wrong)
 
+// topbar solve stats: correct-solve count + trailing-120s solves/min
+// ("_" until the session is 120s old)
+let sessionStart = Date.now();
+let solveTimes = [];
+function paintSolveStat() {
+  const el = document.getElementById("solvestat");
+  if (!el) return;
+  const n = solveTimes.length;
+  const age = Date.now() - sessionStart;
+  const cutoff = Date.now() - 120000;
+  while (solveTimes.length && solveTimes[0] < cutoff - 60000) solveTimes.shift();
+  const rate = age < 120000 ? "_" : (solveTimes.filter(t => t >= cutoff).length / 2).toFixed(1);
+  el.textContent = `✓${n} · ${rate}/min`;
+}
+setInterval(paintSolveStat, 5000);
+
 function applyFilter() {
   for (let n = 0; n < rendered; n++) {
     const li = document.getElementById("row" + n);
@@ -274,6 +297,7 @@ async function gradeItem(n) {
   }
   lastSolved = n;
   results[n] = correct;
+  if (correct) { solveTimes.push(Date.now()); paintSolveStat(); }
   const wid = items[n].id;
   if (correct) wrongIds = wrongIds.filter(x => x !== wid);
   else if (!wrongIds.includes(wid)) wrongIds.push(wid);
@@ -283,6 +307,13 @@ async function gradeItem(n) {
 }
 
 // Enter grades, then jumps to the next unsolved gap — pure keyboard flow
+// Shift+Enter jumps back to the previous gap
+function focusPrev(n) {
+  for (let k = n - 1; k >= 0; k--) {
+    const el = document.getElementById("gap" + k);
+    if (el) { el.focus(); el.scrollIntoView({ block: "nearest" }); return; }
+  }
+}
 function focusNext(n) {
   for (let pass = 0; pass < 2; pass++) {
     for (let k = (pass ? 0 : n + 1); k < (pass ? n + 1 : rendered); k++) {
@@ -320,6 +351,20 @@ function reveal() {
 document.getElementById("check").onclick = check;
 document.getElementById("reveal").onclick = reveal;
 document.getElementById("latest").onclick = scrollLatest;
+document.getElementById("theme").onclick = () => {
+  const dark = document.body.classList.toggle("dark");
+  document.getElementById("theme").textContent = dark ? "Light" : "Dark";
+  try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch { /* private mode */ }
+};
+try { if (localStorage.getItem("theme") === "dark") document.getElementById("theme").onclick(); } catch { /* fresh */ }
+document.getElementById("fs").oninput = e => {
+  document.documentElement.style.setProperty("--fs", e.target.value + "px");
+  try { localStorage.setItem("fs", e.target.value); } catch { /* private mode */ }
+};
+try {
+  const fs = localStorage.getItem("fs");
+  if (fs) { document.getElementById("fs").value = fs; document.documentElement.style.setProperty("--fs", fs + "px"); }
+} catch { /* fresh */ }
 document.querySelectorAll("#filters button").forEach(b => {
   b.onclick = () => {
     showFilter = b.dataset.f;
