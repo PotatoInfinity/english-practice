@@ -15,6 +15,7 @@ let fetching = false;
 let drained = false;
 let lastSolved = -1;
 let wrongIds = [];    // miss queue -> retried at every 50-row wall, re-queued if missed again
+let everWrong = new Set(); // ids missed at least once: stay queued even after in-place fix
 let nextWallAt = 50;
 let wallBusy = false;
 const FETCH_N = 200;   // rows pulled into memory per batch (tiny JSON, SRS state stays in SQLite)
@@ -30,8 +31,10 @@ async function load() {
   drained = false;
   lastSolved = -1;
   wrongIds = [];
+  everWrong = new Set();
   nextWallAt = 50;
   results = {};
+  gradedUser = {};
   list.innerHTML = "";
   score.textContent = "";
   await fetchMore();
@@ -196,14 +199,19 @@ function renderMore() {
 // every 50 rows: splice the miss queue in for a 2nd chance (miss again -> next wall)
 async function maybeWall() {
   if (wallBusy || rendered < nextWallAt) return;
-  const ids = wrongIds.filter(id => !seenIds.has(id));
-  wrongIds = [];
+  // eligible = queued misses not already loaded (seenIds covers every fetched
+  // row, so it can never be the filter — check items presence instead)
+  const inItems = new Set(items.map(d => d.id));
+  const ids = wrongIds.filter(id => !inItems.has(id));
   nextWallAt += 50;
   if (!ids.length) return;
   wallBusy = true;
+  // dequeue what we are about to render; misses re-queue on next grade
+  wrongIds = wrongIds.filter(id => !ids.includes(id));
   try {
     const rows = await call("items_by_ids", { ids });
-    const fresh = rows.filter(d => !seenIds.has(d.id));
+    const inItems2 = new Set(items.map(d => d.id));
+    const fresh = rows.filter(d => !inItems2.has(d.id));
     if (fresh.length) {
       fresh.forEach(d => seenIds.add(d.id));
       items.splice(rendered, 0, ...fresh);
@@ -237,6 +245,7 @@ function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;
 
 let showFilter = "all";   // all | ok | no
 let results = {};         // idx -> true (correct) | false (wrong)
+let gradedUser = {};      // idx -> last submitted text (stops double SRS on re-Enter)
 
 // topbar solve stats: correct-solve count + trailing-120s solves/min
 // ("_" until the session is 120s old)
@@ -267,11 +276,17 @@ function applyFilter() {
 }
 
 async function gradeItem(n) {
-  if (n in results && results[n] !== "revealed") return results[n];
-  if (results[n] === "revealed") delete results[n];
   const inp = document.getElementById("gap" + n);
   let user = inp.value;
   if (!user.trim()) return null;
+  if (results[n] === "revealed") {
+    // unedited reveal fill is not a solve — user must type something first
+    if (user === items[n].answer) return null;
+    delete results[n];
+  } else if (n in results && gradedUser[n] === user) {
+    return results[n]; // same text re-submitted: no double SRS hit
+  }
+  const prev = results[n];
   // pure keyboard MCQ: type 1-4 or A-D, graded as the option text
   const opts = items[n].options || [];
   if (items[n].category === "mcq" && opts.length) {
@@ -307,10 +322,17 @@ async function gradeItem(n) {
   }
   lastSolved = n;
   results[n] = correct;
+  gradedUser[n] = user;
   if (correct) { solveTimes.push(Date.now()); paintSolveStat(); }
   const wid = items[n].id;
-  if (correct) wrongIds = wrongIds.filter(x => x !== wid);
-  else if (!wrongIds.includes(wid)) wrongIds.push(wid);
+  if (!correct) {
+    everWrong.add(wid);
+    if (!wrongIds.includes(wid)) wrongIds.push(wid);
+  } else if (prev !== false) {
+    // first-try or wall-retry correct: dequeue. In-place fix after a miss
+    // (prev === false) stays queued so the 50-wall still drills it once.
+    wrongIds = wrongIds.filter(x => x !== wid);
+  }
   applyFilter();
   focusNext(n);
   return correct;
@@ -338,11 +360,12 @@ function focusNext(n) {
 async function check() {
   let ok = 0, done = 0;
   for (let n = 0; n < rendered; n++) {
-    if (n in results) {
+    if (results[n] === true || results[n] === "revealed") {
       done++;
-      if (results[n]) ok++;
+      if (results[n] === true) ok++;
       continue;
     }
+    // unsolved + missed rows re-grade; unchanged text returns cached, no double SRS
     const r = await gradeItem(n);
     if (r === null) continue;
     done++;
