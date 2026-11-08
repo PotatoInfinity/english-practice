@@ -51,6 +51,12 @@ async function load() {
     const s = await call("stats", {});
     if (s && typeof s.total === "number") {
       bankstat(s);
+      // backfill the all-time counter from backend history (local key is new)
+      if (Number.isInteger(s.reviews_correct) && s.reviews_correct > totalSolves) {
+        totalSolves = s.reviews_correct;
+        saveSolveTimes();
+        paintSolveStat();
+      }
     }
   } catch { /* browser preview: no backend */ }
 }

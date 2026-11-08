@@ -58,6 +58,7 @@ struct Stats {
   due_now: i64,
   mastered: i64,
   reviews_today: i64,
+  reviews_correct: i64,
   accuracy_7d: f64,
 }
 
@@ -759,7 +760,8 @@ fn stats(state: State<DbState>) -> Result<Stats, String> {
   let rev: i64 = conn.query_row("SELECT COUNT(*) FROM reviews WHERE ts>=?1", params![day_ago], |r| r.get(0)).map_err(|e| e.to_string())?;
   let ok7: i64 = conn.query_row("SELECT COUNT(*) FROM reviews WHERE ts>=?1 AND correct=1", params![now - 7*86400], |r| r.get(0)).map_err(|e| e.to_string())?;
   let all7: i64 = conn.query_row("SELECT COUNT(*) FROM reviews WHERE ts>=?1", params![now - 7*86400], |r| r.get(0)).map_err(|e| e.to_string())?;
-  Ok(Stats { total, due_now, mastered, reviews_today: rev, accuracy_7d: if all7==0 {0.0} else {ok7 as f64/all7 as f64} })
+  let correct_all: i64 = conn.query_row("SELECT COUNT(*) FROM reviews WHERE correct=1", [], |r| r.get(0)).map_err(|e| e.to_string())?;
+  Ok(Stats { total, due_now, mastered, reviews_today: rev, reviews_correct: correct_all, accuracy_7d: if all7==0 {0.0} else {ok7 as f64/all7 as f64} })
 }
 
 #[tauri::command]
