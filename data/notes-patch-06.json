@@ -1,0 +1,1244 @@
+[
+  {
+    "prompt": "His blunt memo annoyed the senior staff. (feathers)",
+    "answer": "ruffled feathers among",
+    "category": "figurative",
+    "notes": "ruffled feathers among = annoyed people greatly."
+  },
+  {
+    "prompt": "His campaign collapsed dramatically amid scandal. (flames)",
+    "answer": "in flames amid",
+    "category": "figurative",
+    "notes": "in flames amid = failed spectacularly in scandal."
+  },
+  {
+    "prompt": "His remark was precisely correct. (nail)",
+    "answer": "the nail on",
+    "category": "figurative",
+    "notes": "the nail on = said exactly the right thing."
+  },
+  {
+    "prompt": "His comment made the argument worse. (fuel)",
+    "answer": "added fuel to",
+    "category": "figurative",
+    "notes": "added fuel to = made the conflict worse."
+  },
+  {
+    "prompt": "His constant complaints annoy everyone in the office. (wall)",
+    "answer": "the wall in",
+    "category": "figurative",
+    "notes": "the wall in = annoyed everyone in the office."
+  },
+  {
+    "prompt": "His remarks stem from jealousy. (grapes)",
+    "answer": "sour grapes after",
+    "category": "figurative",
+    "notes": "sour grapes after = jealous complaint after losing."
+  },
+  {
+    "prompt": "His decision created many new problems. (box)",
+    "answer": "opened Pandora's box",
+    "category": "figurative",
+    "notes": "opened Pandora's box = caused many new problems."
+  },
+  {
+    "prompt": "His excuse was completely absurd to everyone. (UTTERLY)",
+    "answer": "utterly ridiculous",
+    "category": "figurative",
+    "notes": "utterly ridiculous = completely absurd and laughable."
+  },
+  {
+    "prompt": "His instinct warned him against signing. (gut)",
+    "answer": "gut feeling told",
+    "category": "figurative",
+    "notes": "gut feeling told = instinct warned against signing."
+  },
+  {
+    "prompt": "He is always daydreaming. (clouds)",
+    "answer": "the clouds during",
+    "category": "figurative",
+    "notes": "the clouds during = daydreaming inattentively during lessons."
+  },
+  {
+    "prompt": "His illness was an obvious issue nobody discussed. (elephant)",
+    "answer": "the elephant in",
+    "category": "figurative",
+    "notes": "the elephant in = obvious problem nobody discussed."
+  },
+  {
+    "prompt": "His insult about her family was very unfair. (belt)",
+    "answer": "below the belt",
+    "category": "figurative",
+    "notes": "below the belt = unfairly cruel personal remark."
+  },
+  {
+    "prompt": "His joke helped everyone relax at the meeting. (ice)",
+    "answer": "the ice at",
+    "category": "figurative",
+    "notes": "the ice at = eased tension at the meeting."
+  },
+  {
+    "prompt": "His material feels light yet extremely durable. (FEATHER)",
+    "answer": "a feather",
+    "category": "figurative",
+    "notes": "a feather = very light in weight."
+  },
+  {
+    "prompt": "His bike is considered superb. (knees)",
+    "answer": "bee's knees in",
+    "category": "figurative",
+    "notes": "bee's knees in = excellent admired thing."
+  },
+  {
+    "prompt": "His opinion goes against normal ideas. (grain)",
+    "answer": "against the grain",
+    "category": "figurative",
+    "notes": "against the grain = opposed to normal ideas."
+  },
+  {
+    "prompt": "His associate was dishonest. (egg)",
+    "answer": "a bad egg",
+    "category": "figurative",
+    "notes": "a bad egg = dishonest untrustworthy person."
+  },
+  {
+    "prompt": "His plan is unrealistic. (pie)",
+    "answer": "is pie in",
+    "category": "figurative",
+    "notes": "is pie in = unrealistic impossible dream."
+  },
+  {
+    "prompt": "His position after the scandal became completely indefensible. (UTTERLY)",
+    "answer": "utterly untenable",
+    "category": "figurative",
+    "notes": "utterly untenable = completely indefensible position."
+  },
+  {
+    "prompt": "His rude reply was the final problem I could accept. (straw)",
+    "answer": "the last straw",
+    "category": "figurative",
+    "notes": "the last straw = final tolerable problem."
+  },
+  {
+    "prompt": "His resignation disrupted the merger plans. (spanner)",
+    "answer": "a spanner in",
+    "category": "figurative",
+    "notes": "a spanner in = disruption blocking the plans."
+  },
+  {
+    "prompt": "His behaviour was a warning sign. (flag)",
+    "answer": "red flag in",
+    "category": "figurative",
+    "notes": "red flag in = warning sign of trouble."
+  },
+  {
+    "prompt": "His speech was full of wise sayings. (WISDOM)",
+    "answer": "of wisdom for",
+    "category": "figurative",
+    "notes": "of wisdom for = wise helpful sayings."
+  },
+  {
+    "prompt": "His story frightened us. (hair)",
+    "answer": "our hair stand",
+    "category": "figurative",
+    "notes": "our hair stand = frightened us greatly."
+  },
+  {
+    "prompt": "His warning was not empty and must be taken seriously. (IDLE)",
+    "answer": "idle threat",
+    "category": "figurative",
+    "notes": "idle threat = empty warning never serious."
+  },
+  {
+    "prompt": "His work failed to meet the required standard for the scholarship. (mustard)",
+    "answer": "the mustard for",
+    "category": "figurative",
+    "notes": "the mustard for = failed the required standard."
+  },
+  {
+    "prompt": "His younger brother stole the spotlight at the wedding with an impromptu speech. (thunder)",
+    "answer": "his thunder at",
+    "category": "figurative",
+    "notes": "his thunder at = stole the spotlight attention."
+  },
+  {
+    "prompt": "Please wait a moment before deciding. (horses)",
+    "answer": "your horses a",
+    "category": "figurative",
+    "notes": "your horses a = wait briefly before deciding."
+  },
+  {
+    "prompt": "Wait a moment and be patient. (horses)",
+    "answer": "horses and wait",
+    "category": "figurative",
+    "notes": "horses and wait = wait patiently and calmly."
+  },
+  {
+    "prompt": "Be patient and do not rush the negotiations. (horses)",
+    "answer": "your horses during",
+    "category": "figurative",
+    "notes": "your horses during = stay patient without rushing."
+  },
+  {
+    "prompt": "Horror films are not enjoyable for me. (tea)",
+    "answer": "cup of tea",
+    "category": "figurative",
+    "notes": "cup of tea = enjoyable preferred thing."
+  },
+  {
+    "prompt": "Hospitals face a severe lack of nurses. (ACUTE)",
+    "answer": "acute shortage",
+    "category": "figurative",
+    "notes": "acute shortage = severe lack of supply."
+  },
+  {
+    "prompt": "Housing is an urgent worry for young families. (PRESSING)",
+    "answer": "pressing concern",
+    "category": "figurative",
+    "notes": "pressing concern = urgent worrying issue."
+  },
+  {
+    "prompt": "I am awkward with needlework and often prick myself. (thumbs)",
+    "answer": "all thumbs at",
+    "category": "figurative",
+    "notes": "all thumbs at = clumsy with manual work."
+  },
+  {
+    "prompt": "I am exhausted, I am going to bed. (sack)",
+    "answer": "hit the sack",
+    "category": "figurative",
+    "notes": "hit the sack = go to bed."
+  },
+  {
+    "prompt": "Can I postpone to later. (rain)",
+    "answer": "take a rain",
+    "category": "figurative",
+    "notes": "take a rain = postpone until later."
+  },
+  {
+    "prompt": "I refuse to accept cheating under any circumstances. (line)",
+    "answer": "the line at",
+    "category": "figurative",
+    "notes": "the line at = firm limit refusing cheating."
+  },
+  {
+    "prompt": "I feel ill today. (weather)",
+    "answer": "weather and will",
+    "category": "figurative",
+    "notes": "weather and will = feeling ill and resting."
+  },
+  {
+    "prompt": "My voice was hoarse and I could not sing. (frog)",
+    "answer": "a frog in",
+    "category": "figurative",
+    "notes": "a frog in = hoarse throat symptom."
+  },
+  {
+    "prompt": "I felt nervous before the exam. (butterflies)",
+    "answer": "had butterflies in",
+    "category": "figurative",
+    "notes": "had butterflies in = felt nervous and anxious."
+  },
+  {
+    "prompt": "I cannot attend; I have more important matters to handle. (fry)",
+    "answer": "fish to fry",
+    "category": "figurative",
+    "notes": "fish to fry = more important matters to handle."
+  },
+  {
+    "prompt": "I cannot argue now, I have more important matters. (fry)",
+    "answer": "fish to fry",
+    "category": "figurative",
+    "notes": "fish to fry = more important concerns now."
+  },
+  {
+    "prompt": "I heard the news directly from the person involved. (mouth)",
+    "answer": "the horse's mouth",
+    "category": "figurative",
+    "notes": "the horse's mouth = direct reliable source."
+  },
+  {
+    "prompt": "I passed narrowly by a tiny margin. (skin)",
+    "answer": "the skin of",
+    "category": "figurative",
+    "notes": "the skin of = narrowly barely succeeded."
+  },
+  {
+    "prompt": "I said something embarrassing accidentally. (foot)",
+    "answer": "my foot in",
+    "category": "figurative",
+    "notes": "my foot in = said something embarrassing accidentally."
+  },
+  {
+    "prompt": "I suspect he is lying about the money. (rat)",
+    "answer": "a rat about",
+    "category": "figurative",
+    "notes": "a rat about = suspected deception about money."
+  },
+  {
+    "prompt": "I suspect dishonesty in his offer. (rat)",
+    "answer": "a rat in",
+    "category": "figurative",
+    "notes": "a rat in = suspected trick in offer."
+  },
+  {
+    "prompt": "I doubted the rumour. (salt)",
+    "answer": "grain of salt",
+    "category": "figurative",
+    "notes": "grain of salt = healthy scepticism about rumour."
+  },
+  {
+    "prompt": "You accuse the wrong person. (barking)",
+    "answer": "are barking up",
+    "category": "figurative",
+    "notes": "are barking up = accusing the wrong person."
+  },
+  {
+    "prompt": "Importing requires tedious bureaucracy. (tape)",
+    "answer": "of red tape",
+    "category": "figurative",
+    "notes": "of red tape = tedious bureaucratic procedures."
+  },
+  {
+    "prompt": "To summarize briefly, we need more time. (nutshell)",
+    "answer": "In a nutshell",
+    "category": "figurative",
+    "notes": "In a nutshell = briefly in summary."
+  },
+  {
+    "prompt": "Inaction will have terrible results for reefs. (DIRE)",
+    "answer": "dire consequences",
+    "category": "figurative",
+    "notes": "dire consequences = terrible harmful results."
+  },
+  {
+    "prompt": "Inequality in the region is extremely severe. (PROFOUNDLY)",
+    "answer": "profoundly entrenched",
+    "category": "figurative",
+    "notes": "profoundly entrenched = deeply firmly established."
+  },
+  {
+    "prompt": "Inspectors imposed strict controls after the spill. (STRINGENT)",
+    "answer": "stringent measures",
+    "category": "figurative",
+    "notes": "stringent measures = strict tight controls."
+  },
+  {
+    "prompt": "Interns worked through the night before the filing. (OIL)",
+    "answer": "the midnight oil",
+    "category": "figurative",
+    "notes": "the midnight oil = late-night hard work."
+  },
+  {
+    "prompt": "Investing all savings in crypto is taking a dangerous risk. (fire)",
+    "answer": "playing with fire",
+    "category": "figurative",
+    "notes": "playing with fire = taking a dangerous risk."
+  },
+  {
+    "prompt": "The announcement came first-hand from the director. (mouth)",
+    "answer": "the horse's mouth",
+    "category": "figurative",
+    "notes": "the horse's mouth = first-hand direct announcement."
+  },
+  {
+    "prompt": "Working part-time gives freedom and income together. (worlds)",
+    "answer": "of both worlds",
+    "category": "figurative",
+    "notes": "of both worlds = combined double advantages."
+  },
+  {
+    "prompt": "It has rained heavily. (cats)",
+    "answer": "cats and dogs",
+    "category": "figurative",
+    "notes": "cats and dogs = heavy pouring rain."
+  },
+  {
+    "prompt": "A minor committee dominates the whole organization. (tail)",
+    "answer": "the tail wagging",
+    "category": "figurative",
+    "notes": "the tail wagging = minor part controlling the whole."
+  },
+  {
+    "prompt": "Finding his contact is nearly impossible. (haystack)",
+    "answer": "in a haystack",
+    "category": "figurative",
+    "notes": "in a haystack = almost impossible to find."
+  },
+  {
+    "prompt": "It is useless to regret the failure. (milk)",
+    "answer": "over spilt milk",
+    "category": "figurative",
+    "notes": "over spilt milk = useless regret over past."
+  },
+  {
+    "prompt": "It is raining heavily. (cats)",
+    "answer": "cats and dogs",
+    "category": "figurative",
+    "notes": "cats and dogs = raining heavily now."
+  },
+  {
+    "prompt": "Yesterday it rained very heavily. (dogs)",
+    "answer": "cats and dogs",
+    "category": "figurative",
+    "notes": "cats and dogs = rained heavily then."
+  },
+  {
+    "prompt": "It poured heavily during game. (cats)",
+    "answer": "cats and dogs",
+    "category": "figurative",
+    "notes": "cats and dogs = poured heavily during match."
+  },
+  {
+    "prompt": "It takes time to understand a new job. (ropes)",
+    "answer": "learn the ropes",
+    "category": "figurative",
+    "notes": "learn the ropes = learn basic job skills."
+  },
+  {
+    "prompt": "Both sides are responsible for the argument. (tango)",
+    "answer": "two to tango",
+    "category": "figurative",
+    "notes": "two to tango = both share responsibility."
+  },
+  {
+    "prompt": "Searching for that file was a hopeless effort. (goose)",
+    "answer": "a wild goose",
+    "category": "figurative",
+    "notes": "a wild goose = hopeless fruitless search."
+  },
+  {
+    "prompt": "The smartphone was the greatest invention in years. (bread)",
+    "answer": "since sliced bread",
+    "category": "figurative",
+    "notes": "since sliced bread = excellent great innovation."
+  },
+  {
+    "prompt": "It was quiet before trouble. (calm)",
+    "answer": "the calm before",
+    "category": "figurative",
+    "notes": "the calm before = quiet before coming trouble."
+  },
+  {
+    "prompt": "Humour reduces awkwardness. (ice)",
+    "answer": "the ice at",
+    "category": "figurative",
+    "notes": "the ice at = eases social tension."
+  },
+  {
+    "prompt": "Keep the dog away from the children. (bay)",
+    "answer": "dog at bay",
+    "category": "figurative",
+    "notes": "dog at bay = kept safely away."
+  },
+  {
+    "prompt": "Stay positive during hard times. (chin)",
+    "answer": "your chin up",
+    "category": "figurative",
+    "notes": "your chin up = stay optimistic and cheerful."
+  },
+  {
+    "prompt": "Stay cheerful despite the problems. (chin)",
+    "answer": "Keep your chin",
+    "category": "figurative",
+    "notes": "Keep your chin = stay cheerful despite problems."
+  },
+  {
+    "prompt": "She achieved two goals with one action. (birds)",
+    "answer": "two birds with",
+    "category": "figurative",
+    "notes": "two birds with = two goals with one action."
+  },
+  {
+    "prompt": "Land rights remain a disputed topic in parliament. (CONTENTIOUS)",
+    "answer": "contentious issue",
+    "category": "figurative",
+    "notes": "contentious issue = disputed controversial topic."
+  },
+  {
+    "prompt": "Listen to me briefly. (ear)",
+    "answer": "your ear for",
+    "category": "figurative",
+    "notes": "your ear for = listen attentively briefly."
+  },
+  {
+    "prompt": "It is best not to restart the old argument. (sleeping)",
+    "answer": "sleeping dogs lie",
+    "category": "figurative",
+    "notes": "sleeping dogs lie = avoid reviving old conflicts."
+  },
+  {
+    "prompt": "Do not mention old conflicts, leave them alone. (dogs)",
+    "answer": "Let sleeping dogs",
+    "category": "figurative",
+    "notes": "Let sleeping dogs = leave old conflicts alone."
+  },
+  {
+    "prompt": "Let us stop working for today. (day)",
+    "answer": "it a day",
+    "category": "figurative",
+    "notes": "it a day = stop working for today."
+  },
+  {
+    "prompt": "Literacy is of the greatest significance for development. (PARAMOUNT)",
+    "answer": "paramount importance",
+    "category": "figurative",
+    "notes": "paramount importance = greatest crucial significance."
+  },
+  {
+    "prompt": "City life brings double benefits. (worlds)",
+    "answer": "of both worlds",
+    "category": "figurative",
+    "notes": "of both worlds = double combined benefits."
+  },
+  {
+    "prompt": "Local residents are fiercely against the dam project. (BITTERLY)",
+    "answer": "bitterly opposed",
+    "category": "figurative",
+    "notes": "bitterly opposed = fiercely strongly against."
+  },
+  {
+    "prompt": "Missing the bus brought unexpected benefit. (disguise)",
+    "answer": "in disguise for",
+    "category": "figurative",
+    "notes": "in disguise for = hidden benefit for us."
+  },
+  {
+    "prompt": "Losing that job was actually good for him in the end. (disguise)",
+    "answer": "blessing in disguise",
+    "category": "figurative",
+    "notes": "blessing in disguise = hidden advantage eventually."
+  },
+  {
+    "prompt": "Failure brought useful lessons. (silver)",
+    "answer": "a silver lining",
+    "category": "figurative",
+    "notes": "a silver lining = hidden benefit in misfortune."
+  },
+  {
+    "prompt": "Losing the election, the candidate seized on any faint chance. (straws)",
+    "answer": "at straws for",
+    "category": "figurative",
+    "notes": "at straws for = seized any faint hope."
+  },
+  {
+    "prompt": "Management abruptly removed funding from the team. (rug)",
+    "answer": "the rug from",
+    "category": "figurative",
+    "notes": "the rug from = withdrew support abruptly."
+  },
+  {
+    "prompt": "Many companies copied the successful strategy. (bandwagon)",
+    "answer": "on the bandwagon",
+    "category": "figurative",
+    "notes": "on the bandwagon = joined the popular trend."
+  },
+  {
+    "prompt": "Many young soldiers died in that hopeless battle. (farm)",
+    "answer": "the farm in",
+    "category": "figurative",
+    "notes": "the farm in = died in battle."
+  },
+  {
+    "prompt": "Marriage is not always easy and pleasant. (roses)",
+    "answer": "bed of roses",
+    "category": "figurative",
+    "notes": "bed of roses = easy pleasant situation."
+  },
+  {
+    "prompt": "Mistrust is firmly embedded in the institution. (DEEPLY)",
+    "answer": "deeply rooted",
+    "category": "figurative",
+    "notes": "deeply rooted = firmly deeply embedded."
+  },
+  {
+    "prompt": "My brother stays up very late. (owl)",
+    "answer": "night owl who",
+    "category": "figurative",
+    "notes": "night owl who = person staying up late."
+  },
+  {
+    "prompt": "My father became furious when he saw the bill. (roof)",
+    "answer": "the roof when",
+    "category": "figurative",
+    "notes": "the roof when = became very angry."
+  },
+  {
+    "prompt": "My intuition says it is wrong. (gut)",
+    "answer": "gut feeling says",
+    "category": "figurative",
+    "notes": "gut feeling says = intuition says it is wrong."
+  },
+  {
+    "prompt": "My laptop is becoming old. (tooth)",
+    "answer": "in the tooth",
+    "category": "figurative",
+    "notes": "in the tooth = old and outdated now."
+  },
+  {
+    "prompt": "My parents are undecided. (fence)",
+    "answer": "the fence over",
+    "category": "figurative",
+    "notes": "the fence over = undecided and neutral still."
+  },
+  {
+    "prompt": "My sister stays up late and dislikes mornings. (owl)",
+    "answer": "owl and hates",
+    "category": "figurative",
+    "notes": "owl and hates = late sleeper disliking mornings."
+  },
+  {
+    "prompt": "Negotiations collapsed just before success. (HURDLE)",
+    "answer": "at the final hurdle",
+    "category": "figurative",
+    "notes": "at the final hurdle = failed just before success."
+  },
+  {
+    "prompt": "It takes months for newcomers to learn the details of the job. (ropes)",
+    "answer": "learn the ropes",
+    "category": "figurative",
+    "notes": "learn the ropes = learn job details slowly."
+  },
+  {
+    "prompt": "Mai was an unexpected winner nobody predicted. (horse)",
+    "answer": "dark horse of",
+    "category": "figurative",
+    "notes": "dark horse of = unexpected surprise winner."
+  },
+  {
+    "prompt": "One post escalated quickly. (snowball)",
+    "answer": "a snowball effect",
+    "category": "figurative",
+    "notes": "a snowball effect = rapidly growing chain reaction."
+  },
+  {
+    "prompt": "Only a coward would refuse the challenge. (chicken)",
+    "answer": "a chicken would",
+    "category": "figurative",
+    "notes": "a chicken would = coward refusing the challenge."
+  },
+  {
+    "prompt": "Our ambitious project failed completely after the funding was withdrawn. (dust)",
+    "answer": "the dust after",
+    "category": "figurative",
+    "notes": "the dust after = failed completely and ended."
+  },
+  {
+    "prompt": "Our plan was approved. (light)",
+    "answer": "green light for",
+    "category": "figurative",
+    "notes": "green light for = approval to proceed."
+  },
+  {
+    "prompt": "Our monitor is strong and determined. (cookie)",
+    "answer": "tough cookie in",
+    "category": "figurative",
+    "notes": "tough cookie in = strong determined person."
+  },
+  {
+    "prompt": "Our plans are still uncertain. (air)",
+    "answer": "in the air",
+    "category": "figurative",
+    "notes": "in the air = uncertain and undecided still."
+  },
+  {
+    "prompt": "Our team made a serious mistake and lost the client. (ball)",
+    "answer": "ball and lost",
+    "category": "figurative",
+    "notes": "ball and lost = made a costly mistake."
+  },
+  {
+    "prompt": "Our team triumphed impressively in the contest. (colours)",
+    "answer": "flying colours in",
+    "category": "figurative",
+    "notes": "flying colours in = triumphed impressively and easily."
+  },
+  {
+    "prompt": "Suddenly, out of nowhere, he appeared. (blue)",
+    "answer": "of the blue",
+    "category": "figurative",
+    "notes": "of the blue = suddenly unexpectedly appeared."
+  },
+  {
+    "prompt": "Unexpectedly, she called after years. (blue)",
+    "answer": "of the blue",
+    "category": "figurative",
+    "notes": "of the blue = unexpectedly after long absence."
+  },
+  {
+    "prompt": "Moving from one hardship, he fell into an even worse plight. (pan)",
+    "answer": "frying pan into",
+    "category": "figurative",
+    "notes": "frying pan into = from bad to worse plight."
+  },
+  {
+    "prompt": "Escaping a strict boss, she joined an even harsher firm. (pan)",
+    "answer": "frying pan into",
+    "category": "figurative",
+    "notes": "frying pan into = from bad job to worse."
+  },
+  {
+    "prompt": "Parents are extremely worried about online safety. (DEEPLY)",
+    "answer": "deeply concerned",
+    "category": "figurative",
+    "notes": "deeply concerned = extremely worried about safety."
+  },
+  {
+    "prompt": "Parents are extremely worried about safety. (DEEPLY)",
+    "answer": "deeply concerned",
+    "category": "figurative",
+    "notes": "deeply concerned = extremely worried about safety."
+  },
+  {
+    "prompt": "Please trust that he is innocent for now. (doubt)",
+    "answer": "of the doubt",
+    "category": "figurative",
+    "notes": "of the doubt = benefit of trust extended."
+  },
+  {
+    "prompt": "Please watch my luggage briefly. (eye)",
+    "answer": "an eye on",
+    "category": "figurative",
+    "notes": "an eye on = watch carefully and briefly."
+  },
+  {
+    "prompt": "Policy was strongly shaped by colonial history. (HEAVILY)",
+    "answer": "heavily influenced",
+    "category": "figurative",
+    "notes": "heavily influenced = strongly shaped by history."
+  },
+  {
+    "prompt": "Private lessons are costly now. (leg)",
+    "answer": "a leg these",
+    "category": "figurative",
+    "notes": "a leg these = very expensive nowadays."
+  },
+  {
+    "prompt": "Provoking that gang is courting serious danger. (fire)",
+    "answer": "playing with fire",
+    "category": "figurative",
+    "notes": "playing with fire = courting serious danger."
+  },
+  {
+    "prompt": "Public services have declined badly in recent years. (dogs)",
+    "answer": "the dogs in",
+    "category": "figurative",
+    "notes": "the dogs in = declined badly recently."
+  },
+  {
+    "prompt": "Her letter implies more than it says directly. (between)",
+    "answer": "between the lines",
+    "category": "figurative",
+    "notes": "between the lines = hidden implied meaning."
+  },
+  {
+    "prompt": "Reforming salaries will reveal many hidden difficulties. (worms)",
+    "answer": "can of worms",
+    "category": "figurative",
+    "notes": "can of worms = hidden complex difficulties."
+  },
+  {
+    "prompt": "Rising costs create a serious issue for us. (POSES2)",
+    "answer": "problem",
+    "category": "figurative",
+    "notes": "problem = serious difficulty created."
+  },
+  {
+    "prompt": "Save for future trouble. (rainy)",
+    "answer": "for a rainy",
+    "category": "figurative",
+    "notes": "for a rainy = reserved for future need."
+  },
+  {
+    "prompt": "Several workers lost their jobs in the restructuring. (boot)",
+    "answer": "the boot in",
+    "category": "figurative",
+    "notes": "the boot in = dismissed from their jobs."
+  },
+  {
+    "prompt": "She always does more than required. (mile)",
+    "answer": "the extra mile",
+    "category": "figurative",
+    "notes": "the extra mile = extra effort beyond required."
+  },
+  {
+    "prompt": "She stays optimistic in trouble. (lining)",
+    "answer": "a silver lining",
+    "category": "figurative",
+    "notes": "a silver lining = optimism during hardship."
+  },
+  {
+    "prompt": "She tried very hard to help. (backwards)",
+    "answer": "over backwards to",
+    "category": "figurative",
+    "notes": "over backwards to = tried extremely hard."
+  },
+  {
+    "prompt": "She accepted an excessive load. (chew)",
+    "answer": "could chew entering",
+    "category": "figurative",
+    "notes": "could chew entering = overcommitted beyond personal capacity."
+  },
+  {
+    "prompt": "She bravely accepted the painful treatment. (bullet)",
+    "answer": "bullet and accepted",
+    "category": "figurative",
+    "notes": "bullet and accepted = bravely faced unpleasant treatment."
+  },
+  {
+    "prompt": "She eased tension at the party. (ice)",
+    "answer": "the ice",
+    "category": "figurative",
+    "notes": "the ice = eased tension at the party."
+  },
+  {
+    "prompt": "She broke the news gently to the family. (BROKE4)",
+    "answer": "the news",
+    "category": "figurative",
+    "notes": "the news = announced unwelcome news gently."
+  },
+  {
+    "prompt": "Resigning angrily, she destroyed any chance of rejoining. (bridges)",
+    "answer": "her bridges by",
+    "category": "figurative",
+    "notes": "her bridges by = destroyed chance of return."
+  },
+  {
+    "prompt": "She exhausted herself by overworking day and night. (candle)",
+    "answer": "the candle at",
+    "category": "figurative",
+    "notes": "the candle at = overworked day and night."
+  },
+  {
+    "prompt": "She studied late into the night. (midnight)",
+    "answer": "the midnight oil",
+    "category": "figurative",
+    "notes": "the midnight oil = studied late at night."
+  },
+  {
+    "prompt": "She studied until dawn for the bar exam. (oil)",
+    "answer": "midnight oil for",
+    "category": "figurative",
+    "notes": "midnight oil for = studied until dawn."
+  },
+  {
+    "prompt": "She works very late every night to meet the deadline. (midnight)",
+    "answer": "the midnight oil",
+    "category": "figurative",
+    "notes": "the midnight oil = worked late every night."
+  },
+  {
+    "prompt": "She called me unexpectedly after ten years. (blue)",
+    "answer": "the blue after",
+    "category": "figurative",
+    "notes": "the blue after = unexpectedly after long absence."
+  },
+  {
+    "prompt": "She controls everything in the department. (shots)",
+    "answer": "the shots in",
+    "category": "figurative",
+    "notes": "the shots in = controlled everything there."
+  },
+  {
+    "prompt": "She chose her words very carefully indeed. (CAREFULLY)",
+    "answer": "her words carefully",
+    "category": "figurative",
+    "notes": "her words carefully = chose words very carefully."
+  },
+  {
+    "prompt": "She assumed success before it was certain. (chickens)",
+    "answer": "her chickens before",
+    "category": "figurative",
+    "notes": "her chickens before = presumed success too early."
+  },
+  {
+    "prompt": "She lamented instead of acting. (milk)",
+    "answer": "spilled milk instead",
+    "category": "figurative",
+    "notes": "spilled milk instead = regretted uselessly instead of acting."
+  },
+  {
+    "prompt": "She felt fear before performing. (feet)",
+    "answer": "cold feet before",
+    "category": "figurative",
+    "notes": "cold feet before = felt nervous before performing."
+  },
+  {
+    "prompt": "She lost her nerve on the eve of the expedition. (feet)",
+    "answer": "cold feet on",
+    "category": "figurative",
+    "notes": "cold feet on = lost nerve before expedition."
+  },
+  {
+    "prompt": "She eats very little at meals. (BIRD)",
+    "answer": "a bird",
+    "category": "figurative",
+    "notes": "a bird = eats very little."
+  },
+  {
+    "prompt": "She expressed sincere worry for the missing crew. (DEEP2)",
+    "answer": "deep concern",
+    "category": "figurative",
+    "notes": "deep concern = sincere serious worry."
+  },
+  {
+    "prompt": "She felt acute shame after the mistake. (DEEP)",
+    "answer": "deep shame",
+    "category": "figurative",
+    "notes": "deep shame = acute intense shame."
+  },
+  {
+    "prompt": "She felt awkward at the formal party. (fish)",
+    "answer": "a fish out",
+    "category": "figurative",
+    "notes": "a fish out = felt awkward and misplaced."
+  },
+  {
+    "prompt": "She finally accepted the painful restructuring. (BULLET)",
+    "answer": "the bullet",
+    "category": "figurative",
+    "notes": "the bullet = accepted painful necessity."
+  },
+  {
+    "prompt": "She lost her temper instantly when accused unfairly. (handle)",
+    "answer": "the handle when",
+    "category": "figurative",
+    "notes": "the handle when = lost temper instantly."
+  },
+  {
+    "prompt": "She felt anxious before speaking. (butterflies)",
+    "answer": "got butterflies in",
+    "category": "figurative",
+    "notes": "got butterflies in = felt anxious before speaking."
+  },
+  {
+    "prompt": "She suddenly felt afraid to go on stage. (cold)",
+    "answer": "got cold feet",
+    "category": "figurative",
+    "notes": "got cold feet = became afraid to perform."
+  },
+  {
+    "prompt": "She felt nervous before the exam. (feet)",
+    "answer": "cold feet",
+    "category": "figurative",
+    "notes": "cold feet = nervous fear before exam."
+  },
+  {
+    "prompt": "She dismissed the gossip as she had weightier concerns. (fry)",
+    "answer": "to fry than",
+    "category": "figurative",
+    "notes": "to fry than = weightier concerns than gossip."
+  },
+  {
+    "prompt": "She was confused and unaware. (fog)",
+    "answer": "a fog after",
+    "category": "figurative",
+    "notes": "a fog after = confused unaware state."
+  },
+  {
+    "prompt": "She restrained herself from speaking. (tongue)",
+    "answer": "her tongue to",
+    "category": "figurative",
+    "notes": "her tongue to = restrained speech deliberately."
+  },
+  {
+    "prompt": "She had to confess she was wrong and apologize publicly. (crow)",
+    "answer": "crow and apologize",
+    "category": "figurative",
+    "notes": "crow and apologize = admitted fault publicly."
+  },
+  {
+    "prompt": "She keeps thinking obsessively about moving. (bonnet)",
+    "answer": "her bonnet about",
+    "category": "figurative",
+    "notes": "her bonnet about = obsessed with moving abroad."
+  },
+  {
+    "prompt": "She is good with plants. (thumb)",
+    "answer": "a green thumb",
+    "category": "figurative",
+    "notes": "a green thumb = skilled with plants."
+  },
+  {
+    "prompt": "She has a natural talent for languages. (NATURAL)",
+    "answer": "natural talent",
+    "category": "figurative",
+    "notes": "natural talent = innate ability for languages."
+  },
+  {
+    "prompt": "She always has a secret plan ready. (sleeve)",
+    "answer": "up her sleeve",
+    "category": "figurative",
+    "notes": "up her sleeve = secret plan ready."
+  },
+  {
+    "prompt": "Family ties are strongest. (blood)",
+    "answer": "because blood is",
+    "category": "figurative",
+    "notes": "because blood is = family loyalty is strongest."
+  },
+  {
+    "prompt": "She said exactly the right thing. (nail)",
+    "answer": "the nail on",
+    "category": "figurative",
+    "notes": "the nail on = said exactly the right thing."
+  },
+  {
+    "prompt": "She went to bed early. (sack)",
+    "answer": "the sack",
+    "category": "figurative",
+    "notes": "the sack = went to bed early."
+  },
+  {
+    "prompt": "She introduced a new product to the market. (INTRODUCED)",
+    "answer": "introduced a product",
+    "category": "figurative",
+    "notes": "introduced a product = launched new product commercially."
+  },
+  {
+    "prompt": "She stays awake late every night reading. (owl)",
+    "answer": "a night owl",
+    "category": "figurative",
+    "notes": "a night owl = late-night awake person."
+  },
+  {
+    "prompt": "She is practical and realistic. (earth)",
+    "answer": "down to earth",
+    "category": "figurative",
+    "notes": "down to earth = practical realistic person."
+  },
+  {
+    "prompt": "She feels sad today. (blue)",
+    "answer": "a bit blue",
+    "category": "figurative",
+    "notes": "a bit blue = feeling sad today."
+  },
+  {
+    "prompt": "She is very unlikely to agree to the deal. (HIGHLY)",
+    "answer": "highly unlikely",
+    "category": "figurative",
+    "notes": "highly unlikely = very improbable to agree."
+  },
+  {
+    "prompt": "She got into difficulty for being late. (hot)",
+    "answer": "in hot water",
+    "category": "figurative",
+    "notes": "in hot water = in trouble and difficulty."
+  },
+  {
+    "prompt": "She hoped to finish before dying. (bucket)",
+    "answer": "kicking the bucket",
+    "category": "figurative",
+    "notes": "kicking the bucket = dying soon euphemistically."
+  },
+  {
+    "prompt": "She dominates him in marriage. (thumb)",
+    "answer": "under her thumb",
+    "category": "figurative",
+    "notes": "under her thumb = dominated and controlled completely."
+  },
+  {
+    "prompt": "She stayed cheerful despite failure. (chin)",
+    "answer": "her chin up",
+    "category": "figurative",
+    "notes": "her chin up = stayed cheerful despite failure."
+  },
+  {
+    "prompt": "She laboured continuously without rest for the exams. (grindstone)",
+    "answer": "the grindstone for",
+    "category": "figurative",
+    "notes": "the grindstone for = laboured continuously for exams."
+  },
+  {
+    "prompt": "She left suddenly without warning. (hat)",
+    "answer": "of a hat",
+    "category": "figurative",
+    "notes": "of a hat = suddenly without warning."
+  },
+  {
+    "prompt": "She revealed the secret about the party. (cat)",
+    "answer": "the cat out",
+    "category": "figurative",
+    "notes": "the cat out = revealed the secret accidentally."
+  },
+  {
+    "prompt": "She disclosed the secret plan by mistake. (cat)",
+    "answer": "the cat out",
+    "category": "figurative",
+    "notes": "the cat out = disclosed the secret mistakenly."
+  },
+  {
+    "prompt": "She panicked when alarm rang. (head)",
+    "answer": "her head when",
+    "category": "figurative",
+    "notes": "her head when = panicked suddenly then."
+  },
+  {
+    "prompt": "She went straight to the dictionary. (beeline)",
+    "answer": "a beeline for",
+    "category": "figurative",
+    "notes": "a beeline for = went directly there."
+  },
+  {
+    "prompt": "She overreacted to a trivial delay. (molehill)",
+    "answer": "a molehill when",
+    "category": "figurative",
+    "notes": "a molehill when = exaggerated a trivial delay."
+  },
+  {
+    "prompt": "She failed to apply in time and lost the opportunity. (missed)",
+    "answer": "missed the boat",
+    "category": "figurative",
+    "notes": "missed the boat = missed opportunity through lateness."
+  },
+  {
+    "prompt": "She refused responsibility and blamed her partner. (buck)",
+    "answer": "the buck to",
+    "category": "figurative",
+    "notes": "the buck to = shifted blame to partner."
+  },
+  {
+    "prompt": "She argued the opposite side just for discussion. (advocate)",
+    "answer": "devil's advocate just",
+    "category": "figurative",
+    "notes": "devil's advocate just = argued opposite for discussion."
+  },
+  {
+    "prompt": "She presented a persuasive case for reform. (COMPELLING)",
+    "answer": "compelling argument",
+    "category": "figurative",
+    "notes": "compelling argument = persuasive strong case."
+  },
+  {
+    "prompt": "She tried her hardest to win the competition. (stops)",
+    "answer": "the stops to",
+    "category": "figurative",
+    "notes": "the stops to = tried hardest to win."
+  },
+  {
+    "prompt": "She misled investors about the true risks of the scheme. (wool)",
+    "answer": "the wool over",
+    "category": "figurative",
+    "notes": "the wool over = misled investors about risks."
+  },
+  {
+    "prompt": "She invested all her savings in one stock. (basket)",
+    "answer": "one basket with",
+    "category": "figurative",
+    "notes": "one basket with = risked everything on one investment."
+  },
+  {
+    "prompt": "She made an embarrassing remark. (foot)",
+    "answer": "her foot in",
+    "category": "figurative",
+    "notes": "her foot in = made an embarrassing remark."
+  },
+  {
+    "prompt": "She refused to quit. (towel)",
+    "answer": "the towel before",
+    "category": "figurative",
+    "notes": "the towel before = refused to quit early."
+  },
+  {
+    "prompt": "She refused to quit despite difficulties. (throw)",
+    "answer": "to throw in",
+    "category": "figurative",
+    "notes": "to throw in = refused to quit or surrender."
+  },
+  {
+    "prompt": "She spared him embarrassment in public. (face)",
+    "answer": "his face",
+    "category": "figurative",
+    "notes": "his face = spared embarrassment publicly."
+  },
+  {
+    "prompt": "She became furious. (red)",
+    "answer": "saw red when",
+    "category": "figurative",
+    "notes": "saw red when = became furious suddenly."
+  },
+  {
+    "prompt": "She shared a small confidential detail with me. (SNIPPET)",
+    "answer": "a snippet of",
+    "category": "figurative",
+    "notes": "a snippet of = small confidential detail shared."
+  },
+  {
+    "prompt": "She stayed neutral on the matter. (fence)",
+    "answer": "on the fence",
+    "category": "figurative",
+    "notes": "on the fence = neutral and undecided still."
+  },
+  {
+    "prompt": "She sensed something wrong when price dropped. (rat)",
+    "answer": "a rat when",
+    "category": "figurative",
+    "notes": "a rat when = suspected something wrong."
+  },
+  {
+    "prompt": "She suspects his story. (rat)",
+    "answer": "a rat",
+    "category": "figurative",
+    "notes": "a rat = suspected dishonesty here."
+  },
+  {
+    "prompt": "She accidentally told everyone about the surprise party. (beans)",
+    "answer": "the beans about",
+    "category": "figurative",
+    "notes": "the beans about = revealed surprise party secret."
+  },
+  {
+    "prompt": "She revealed the secret. (beans)",
+    "answer": "the beans about",
+    "category": "figurative",
+    "notes": "the beans about = disclosed the secret plan."
+  },
+  {
+    "prompt": "She betrayed her friend by telling lies. (back)",
+    "answer": "in the back",
+    "category": "figurative",
+    "notes": "in the back = betrayed friend treacherously."
+  },
+  {
+    "prompt": "She stayed calm under pressure. (cucumber)",
+    "answer": "a cucumber during",
+    "category": "figurative",
+    "notes": "a cucumber during = calm composed under pressure."
+  },
+  {
+    "prompt": "She took credit for my idea in the meeting. (thunder)",
+    "answer": "my thunder in",
+    "category": "figurative",
+    "notes": "my thunder in = stole attention and credit."
+  },
+  {
+    "prompt": "She was paralyzed with fear during inspection. (headlights)",
+    "answer": "the headlights during",
+    "category": "figurative",
+    "notes": "the headlights during = frozen with fear."
+  },
+  {
+    "prompt": "She told a harmless lie. (white)",
+    "answer": "a white lie",
+    "category": "figurative",
+    "notes": "a white lie = harmless kind lie."
+  },
+  {
+    "prompt": "She took a large loan to buy the flat. (MORTGAGE)",
+    "answer": "a mortgage to",
+    "category": "figurative",
+    "notes": "a mortgage to = large loan for flat."
+  },
+  {
+    "prompt": "She ignored the cheating. (eye)",
+    "answer": "a blind eye",
+    "category": "figurative",
+    "notes": "a blind eye = ignored wrongdoing deliberately."
+  },
+  {
+    "prompt": "She is dreamy and inattentive. (clouds)",
+    "answer": "in the clouds",
+    "category": "figurative",
+    "notes": "in the clouds = dreamy inattentive state."
+  }
+]

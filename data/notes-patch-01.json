@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "The parcel arrived signed, sealed and safe. (DELIVERED)",
+  "answer": "sealed and delivered",
+  "category": "binomial",
+  "notes": "sealed and delivered = formally finished and officially accepted."
+ },
+ {
+  "prompt": "The parish kept waif for the poor. (STRAY)",
+  "answer": "waif and stray for",
+  "category": "binomial",
+  "notes": "waif and stray for = help for homeless people or animals."
+ },
+ {
+  "prompt": "The parties agreed to make into for the term. (ENTER)",
+  "answer": "make and enter into",
+  "category": "binomial",
+  "notes": "make and enter into = formally agree to start an arrangement."
+ },
+ {
+  "prompt": "The passport was valid without let at the border. (HINDRANCE)",
+  "answer": "let or hindrance at",
+  "category": "binomial",
+  "notes": "let or hindrance at = obstacle blocking free movement or action."
+ },
+ {
+  "prompt": "The patient is now safe and stable. (SOUND)",
+  "answer": "safe and sound",
+  "category": "binomial",
+  "notes": "safe and sound = unharmed and safe."
+ },
+ {
+  "prompt": "The patient was deaf, dumb from birth. (BLIND)",
+  "answer": "dumb and blind from",
+  "category": "binomial",
+  "notes": "dumb and blind from = unable to speak or see since birth."
+ },
+ {
+  "prompt": "The patrol arrested them for breaking at night. (ENTERING)",
+  "answer": "breaking and entering at",
+  "category": "binomial",
+  "notes": "breaking and entering at = illegally entering a building at night."
+ },
+ {
+  "prompt": "The pilgrim carried staff for the journey. (SCRIP)",
+  "answer": "staff and scrip for",
+  "category": "binomial",
+  "notes": "staff and scrip for = walking stick and bag for travel."
+ },
+ {
+  "prompt": "The plan went smoothly. (clockwork)",
+  "answer": "like clockwork",
+  "category": "binomial",
+  "notes": "like clockwork = exactly on time and smoothly."
+ },
+ {
+  "prompt": "The policy covered facts of the loss. (CIRCUMSTANCES)",
+  "answer": "facts and circumstances of",
+  "category": "binomial",
+  "notes": "facts and circumstances of = details explaining a loss event."
+ },
+ {
+  "prompt": "The policy would chop with each minister. (CHANGE)",
+  "answer": "chop and change with",
+  "category": "binomial",
+  "notes": "chop and change with = keep changing plans often."
+ },
+ {
+  "prompt": "The preacher warned of fire in his sermon. (BRIMSTONE)",
+  "answer": "fire and brimstone in",
+  "category": "binomial",
+  "notes": "fire and brimstone in = angry warning of hell punishment."
+ },
+ {
+  "prompt": "The prisoner was forced to acknowledge in court. (CONFESS)",
+  "answer": "acknowledge and confess in",
+  "category": "binomial",
+  "notes": "acknowledge and confess in = admit guilt openly in court."
+ },
+ {
+  "prompt": "The proverb promised healthy, wealthy to the good. (WISE)",
+  "answer": "wealthy and wise to",
+  "category": "binomial",
+  "notes": "wealthy and wise to = rich and smart from good habits."
+ },
+ {
+  "prompt": "The punishment was cruel for the crime. (UNUSUAL)",
+  "answer": "cruel and unusual for",
+  "category": "binomial",
+  "notes": "cruel and unusual for = too harsh and unfair punishment."
+ },
+ {
+  "prompt": "The puppy is bright-eyed and bushy cute. (TAILED)",
+  "answer": "bushy-tailed",
+  "category": "binomial",
+  "notes": "bushy-tailed = lively, cheerful and energetic."
+ },
+ {
+  "prompt": "The rank and soldiers grumbled. (FILE)",
+  "answer": "rank and file",
+  "category": "binomial",
+  "notes": "rank and file = ordinary workers, not leaders."
+ },
+ {
+  "prompt": "The regime offered bread to the crowd. (CIRCUSES)",
+  "answer": "bread and circuses to",
+  "category": "binomial",
+  "notes": "bread and circuses to = free food and fun to calm crowd."
+ },
+ {
+  "prompt": "The relic is neither use in the museum. (ORNAMENT)",
+  "answer": "use nor ornament in",
+  "category": "binomial",
+  "notes": "use nor ornament in = neither useful nor decorative."
+ },
+ {
+  "prompt": "The return was true in every detail. (CORRECT)",
+  "answer": "true and correct in",
+  "category": "binomial",
+  "notes": "true and correct in = accurate in every detail."
+ },
+ {
+  "prompt": "The rite required bell, book for the sentence. (CANDLE)",
+  "answer": "book and candle for",
+  "category": "binomial",
+  "notes": "book and candle for = solemn church curse ritual."
+ },
+ {
+  "prompt": "The road has twists and bends. (TURNS)",
+  "answer": "twists and turns",
+  "category": "binomial",
+  "notes": "twists and turns = many bends and surprises."
+ },
+ {
+  "prompt": "The road twists and turns. (twists)",
+  "answer": "twists and turns",
+  "category": "binomial",
+  "notes": "twists and turns = many bends and surprises."
+ },
+ {
+  "prompt": "The room was in chaos after the party. (topsy)",
+  "answer": "topsy-turvy",
+  "category": "binomial",
+  "notes": "topsy-turvy = in complete disorder."
+ },
+ {
+  "prompt": "The rule was hard for all ranks. (FAST)",
+  "answer": "hard and fast for",
+  "category": "binomial",
+  "notes": "hard and fast for = strict rule for everyone."
+ },
+ {
+  "prompt": "The rules are just for everyone. (square)",
+  "answer": "fair and square to",
+  "category": "binomial",
+  "notes": "fair and square to = honest and just for all."
+ },
+ {
+  "prompt": "The rules were appropriate for the college. (PROPER)",
+  "answer": "appropriate and proper for",
+  "category": "binomial",
+  "notes": "appropriate and proper for = suitable for college rules."
+ },
+ {
+  "prompt": "The ruling was final for the parties. (CONCLUSIVE)",
+  "answer": "final and conclusive for",
+  "category": "binomial",
+  "notes": "final and conclusive for = last decision for all parties."
+ },
+ {
+  "prompt": "The rumor is dead and gone. (BURIED)",
+  "answer": "dead and buried",
+  "category": "binomial",
+  "notes": "dead and buried = finished and forgotten forever."
+ },
+ {
+  "prompt": "The scouts ranged far for the trail. (WIDE)",
+  "answer": "far and wide for",
+  "category": "binomial",
+  "notes": "far and wide for = over a large area searching."
+ },
+ {
+  "prompt": "The sermon promised blood to sinners. (THUNDER)",
+  "answer": "blood and thunder to",
+  "category": "binomial",
+  "notes": "blood and thunder to = violent warning to sinners."
+ },
+ {
+  "prompt": "The show relied on smoke for effect. (MIRRORS)",
+  "answer": "smoke and mirrors for",
+  "category": "binomial",
+  "notes": "smoke and mirrors for = tricks creating false effect."
+ },
+ {
+  "prompt": "The siblings will support each other through hardship. (THICK)",
+  "answer": "thick and thin",
+  "category": "binomial",
+  "notes": "thick and thin = good and bad times together."
+ },
+ {
+  "prompt": "The soldiers advanced slowly but steadily. (SURE)",
+  "answer": "slow and sure",
+  "category": "binomial",
+  "notes": "slow and sure = slow but steady and reliable."
+ },
+ {
+  "prompt": "The spy story is cloak and secret. (DAGGER)",
+  "answer": "cloak and dagger",
+  "category": "binomial",
+  "notes": "cloak and dagger = secret spy activity."
+ },
+ {
+  "prompt": "The startup will crash and fail. (BURN)",
+  "answer": "crash and burn",
+  "category": "binomial",
+  "notes": "crash and burn = fail badly and completely."
+ },
+ {
+  "prompt": "The state gave full faith to the union. (CREDIT)",
+  "answer": "faith and credit to",
+  "category": "binomial",
+  "notes": "faith and credit to = full trust to the union."
+ },
+ {
+  "prompt": "The statute imposed pains for theft. (PENALTIES)",
+  "answer": "pains and penalties for",
+  "category": "binomial",
+  "notes": "pains and penalties for = punishments for theft crimes."
+ },
+ {
+  "prompt": "The streets were crowded and chaotic after the final. (HUSTLE)",
+  "answer": "hustle and bustle",
+  "category": "binomial",
+  "notes": "hustle and bustle = busy noise and movement."
+ },
+ {
+  "prompt": "The strike demanded bread for the workers. (ROSES)",
+  "answer": "bread and roses for",
+  "category": "binomial",
+  "notes": "bread and roses for = food and dignity for workers."
+ },
+ {
+  "prompt": "The summons commanded them to bind in writing. (OBLIGATE)",
+  "answer": "bind and obligate in",
+  "category": "binomial",
+  "notes": "bind and obligate in = force to promise in writing."
+ },
+ {
+  "prompt": "The supplier agreed to furnish for the hospital. (SUPPLY)",
+  "answer": "furnish and supply for",
+  "category": "binomial",
+  "notes": "furnish and supply for = provide goods for hospital needs."
+ },
+ {
+  "prompt": "The survey noted the kind of the soil. (NATURE)",
+  "answer": "kind and nature of",
+  "category": "binomial",
+  "notes": "kind and nature of = type of the soil."
+ },
+ {
+  "prompt": "The survey recorded butts of the manor. (BOUNDS)",
+  "answer": "butts and bounds of",
+  "category": "binomial",
+  "notes": "butts and bounds of = land limits of the manor."
+ },
+ {
+  "prompt": "The system is up and working. (RUNNING)",
+  "answer": "up and running",
+  "category": "binomial",
+  "notes": "up and running = working normally now."
+ },
+ {
+  "prompt": "The team was lively before the match. (beans)",
+  "answer": "of beans",
+  "category": "binomial",
+  "notes": "of beans = full of energy and lively."
+ },
+ {
+  "prompt": "The tenant observed use on the estate. (WONT)",
+  "answer": "use and wont on",
+  "category": "binomial",
+  "notes": "use and wont on = old custom on the estate."
+ },
+ {
+  "prompt": "The tenant promised to keep for the term. (PERFORM)",
+  "answer": "keep and perform for",
+  "category": "binomial",
+  "notes": "keep and perform for = obey promises for the term."
+ },
+ {
+  "prompt": "The tenants were bound jointly for the rent. (SEVERALLY)",
+  "answer": "jointly and severally for",
+  "category": "binomial",
+  "notes": "jointly and severally for = together and separately liable for rent."
+ },
+ {
+  "prompt": "The terms were plain in meaning. (ORDINARY)",
+  "answer": "plain and ordinary in",
+  "category": "binomial",
+  "notes": "plain and ordinary in = clear in normal meaning."
+ },
+ {
+  "prompt": "The testimony was evasive and rambling. (HUM)",
+  "answer": "hum and haw",
+  "category": "binomial",
+  "notes": "hum and haw = hesitate with unclear sounds."
+ },
+ {
+  "prompt": "The tide showed ebb in the estuary. (FLOW)",
+  "answer": "ebb and flow in",
+  "category": "binomial",
+  "notes": "ebb and flow in = rise and fall of tide."
+ },
+ {
+  "prompt": "The title was free of debts. (CLEAR)",
+  "answer": "free and clear of",
+  "category": "binomial",
+  "notes": "free and clear of = without debts or claims."
+ },
+ {
+  "prompt": "The treaty secured amity between nations. (COMMERCE)",
+  "answer": "amity and commerce between",
+  "category": "binomial",
+  "notes": "amity and commerce between = friendship and trade between nations."
+ },
+ {
+  "prompt": "The trial raised a hue and outcry. (CRY)",
+  "answer": "hue and cry",
+  "category": "binomial",
+  "notes": "hue and cry = loud public protest."
+ },
+ {
+  "prompt": "The troops were promised aid in the field. (COMFORT)",
+  "answer": "aid and comfort in",
+  "category": "binomial",
+  "notes": "aid and comfort in = help and support in need."
+ },
+ {
+  "prompt": "The trustees were deemed for the post. (CONSIDERED)",
+  "answer": "deemed and considered for",
+  "category": "binomial",
+  "notes": "deemed and considered for = officially judged for the post."
+ },
+ {
+  "prompt": "The tycoon rose by ruthless ambition and cunning. (TOOTH)",
+  "answer": "tooth and nail",
+  "category": "binomial",
+  "notes": "tooth and nail = with fierce effort and fight."
+ },
+ {
+  "prompt": "The vanity project was mere illusion. (SMOKE)",
+  "answer": "smoke and mirrors",
+  "category": "binomial",
+  "notes": "smoke and mirrors = tricks hiding the truth."
+ },
+ {
+  "prompt": "The verdict made him judge, jury for the accused. (EXECUTIONER)",
+  "answer": "jury and executioner for",
+  "category": "binomial",
+  "notes": "jury and executioner for = judge and punisher of accused."
+ },
+ {
+  "prompt": "The verdict was fair and impartial. (FAIR)",
+  "answer": "fair and square",
+  "category": "binomial",
+  "notes": "fair and square = honest and just."
+ },
+ {
+  "prompt": "The village was reduced to rubble by the quake. (DUST)",
+  "answer": "dust and ashes",
+  "category": "binomial",
+  "notes": "dust and ashes = ruins after destruction."
+ },
+ {
+  "prompt": "The vows bade them to have for life. (HOLD)",
+  "answer": "have and hold for",
+  "category": "binomial",
+  "notes": "have and hold for = keep for life in marriage."
+ },
+ {
+  "prompt": "The widow cried alas for her loss. (ALACK)",
+  "answer": "alas and alack for",
+  "category": "binomial",
+  "notes": "alas and alack for = cry of sadness for loss."
+ },
+ {
+  "prompt": "The will did give, devise to his heirs. (BEQUEATH)",
+  "answer": "devise and bequeath to",
+  "category": "binomial",
+  "notes": "devise and bequeath to = give property by will to heirs."
+ },
+ {
+  "prompt": "The will named heirs to the estate. (SUCCESSORS)",
+  "answer": "heirs and successors to",
+  "category": "binomial",
+  "notes": "heirs and successors to = future owners of the estate."
+ },
+ {
+  "prompt": "The witches brewed toil in the cauldron. (TROUBLE)",
+  "answer": "toil and trouble in",
+  "category": "binomial",
+  "notes": "toil and trouble in = hard work in magic spell."
+ },
+ {
+  "prompt": "The witness was sworn to depose in court. (SAY)",
+  "answer": "depose and say in",
+  "category": "binomial",
+  "notes": "depose and say in = testify under oath in court."
+ },
+ {
+  "prompt": "The writ summoned all to the court. (SUNDRY)",
+  "answer": "all and sundry to",
+  "category": "binomial",
+  "notes": "all and sundry to = everyone to the court."
+ },
+ {
+  "prompt": "There is no hard and strict rule. (FAST)",
+  "answer": "hard and fast",
+  "category": "binomial",
+  "notes": "hard and fast = strict and unchanging."
+ },
+ {
+  "prompt": "They are flesh and family. (BLOOD)",
+  "answer": "flesh and blood",
+  "category": "binomial",
+  "notes": "flesh and blood = close family relative."
+ },
+ {
+  "prompt": "They are free and relaxed. (EASY)",
+  "answer": "free and easy",
+  "category": "binomial",
+  "notes": "free and easy = relaxed and casual."
+ },
+ {
+  "prompt": "They are kith and friends. (KIN)",
+  "answer": "kith and kin",
+  "category": "binomial",
+  "notes": "kith and kin = friends and family."
+ },
+ {
+  "prompt": "They debated endlessly for hours. (forth)",
+  "answer": "back and forth",
+  "category": "binomial",
+  "notes": "back and forth = moving one way then back."
+ },
+ {
+  "prompt": "They argued hammer and fiercely. (TONGS)",
+  "answer": "hammer and tongs",
+  "category": "binomial",
+  "notes": "hammer and tongs = with great force and energy."
+ },
+ {
+  "prompt": "They arrived bag at the inn. (BAGGAGE)",
+  "answer": "bag and baggage at",
+  "category": "binomial",
+  "notes": "bag and baggage at = with all belongings."
+ },
+ {
+  "prompt": "They bought a bit for the mare. (BRIDLE)",
+  "answer": "bit and bridle for",
+  "category": "binomial",
+  "notes": "bit and bridle for = horse control gear for mare."
+ },
+ {
+  "prompt": "They changed not a jot in the manuscript. (TITTLE)",
+  "answer": "jot or tittle in",
+  "category": "binomial",
+  "notes": "jot or tittle in = tiny detail in text."
+ },
+ {
+  "prompt": "Choose the fixed option with business. (PLEASURE)",
+  "answer": "business or pleasure in",
+  "category": "binomial",
+  "notes": "business or pleasure in = work or fun as reason."
+ },
+ {
+  "prompt": "Choose the fixed option with feast. (FAMINE)",
+  "answer": "feast or famine in",
+  "category": "binomial",
+  "notes": "feast or famine in = plenty or nothing as result."
+ },
+ {
+  "prompt": "Choose the fixed option with fight. (FLIGHT)",
+  "answer": "fight or flight in",
+  "category": "binomial",
+  "notes": "fight or flight in = attack or escape in danger."
+ },
+ {
+  "prompt": "Choose the fixed option with jot. (TITTLE)",
+  "answer": "jot or tittle in",
+  "category": "binomial",
+  "notes": "jot or tittle in = tiny detail in text."
+ },
+ {
+  "prompt": "Choose the fixed option with kill. (CURE)",
+  "answer": "kill or cure in",
+  "category": "binomial",
+  "notes": "kill or cure in = either fix or destroy as cure."
+ },
+ {
+  "prompt": "Choose the fixed option with publish. (PERISH)",
+  "answer": "publish or perish in",
+  "category": "binomial",
+  "notes": "publish or perish in = publish research or lose job."
+ },
+ {
+  "prompt": "Choose the fixed option with rhyme. (REASON)",
+  "answer": "rhyme or reason in",
+  "category": "binomial",
+  "notes": "rhyme or reason in = sense or logic in action."
+ },
+ {
+  "prompt": "Choose the fixed option with yea. (NAY)",
+  "answer": "yea or nay in",
+  "category": "binomial",
+  "notes": "yea or nay in = yes or no in vote."
+ },
+ {
+  "prompt": "They conspired to aid in the fraud. (ABET)",
+  "answer": "aid and abet in",
+  "category": "binomial",
+  "notes": "aid and abet in = help in a crime."
+ },
+ {
+  "prompt": "They endured trials and suffering. (TRIBULATIONS)",
+  "answer": "trials and tribulations",
+  "category": "binomial",
+  "notes": "trials and tribulations = troubles and suffering."
+ },
+ {
+  "prompt": "They escaped by a tiny margin. (skin)",
+  "answer": "the skin",
+  "category": "binomial",
+  "notes": "the skin = by a very small margin."
+ },
+ {
+  "prompt": "They fell for it hook, line in the scam. (SINKER)",
+  "answer": "line and sinker in",
+  "category": "binomial",
+  "notes": "line and sinker in = fully tricked in the scam."
+ },
+ {
+  "prompt": "They fought tooth for survival. (NAIL)",
+  "answer": "tooth and nail for",
+  "category": "binomial",
+  "notes": "tooth and nail for = fiercely for survival."
+ },
+ {
+  "prompt": "They fought fiercely to win. (nail)",
+  "answer": "tooth and nail",
+  "category": "binomial",
+  "notes": "tooth and nail = fiercely with full effort."
+ },
+ {
+  "prompt": "They found neither hide of him. (HAIR)",
+  "answer": "hide nor hair of",
+  "category": "binomial",
+  "notes": "hide nor hair of = no trace of him."
+ },
+ {
+  "prompt": "They chatted casually over tea. (chit)",
+  "answer": "chit-chat",
+  "category": "binomial",
+  "notes": "chit-chat = light casual talk."
+ },
+ {
+  "prompt": "They kissed and reconciled. (MAKE)",
+  "answer": "made up",
+  "category": "binomial",
+  "notes": "made up = reconciled after quarrel."
+ },
+ {
+  "prompt": "They lamented weal in their letters. (WOE)",
+  "answer": "weal and woe in",
+  "category": "binomial",
+  "notes": "weal and woe in = joy and sorrow in letters."
+ },
+ {
+  "prompt": "They lived for wine, women in the city. (SONG)",
+  "answer": "women and song in",
+  "category": "binomial",
+  "notes": "women and song in = drink, love and music in city."
+ },
+ {
+  "prompt": "Recall the fixed pair with above. (BEYOND)",
+  "answer": "above and beyond in",
+  "category": "binomial",
+  "notes": "above and beyond in = more than required in duty."
+ },
+ {
+  "prompt": "Recall the fixed pair with aid. (COMFORT)",
+  "answer": "aid and comfort in",
+  "category": "binomial",
+  "notes": "aid and comfort in = help and support in need."
+ },
+ {
+  "prompt": "Recall the fixed pair with airs. (GRACES)",
+  "answer": "airs and graces in",
+  "category": "binomial",
+  "notes": "airs and graces in = proud manners in behaviour."
+ },
+ {
+  "prompt": "Recall the fixed pair with alarm. (MUSTER)",
+  "answer": "alarm and muster in",
+  "category": "binomial",
+  "notes": "alarm and muster in = warning and gathering for duty."
+ },
+ {
+  "prompt": "Recall the fixed pair with armed. (DANGEROUS)",
+  "answer": "armed and dangerous in",
+  "category": "binomial",
+  "notes": "armed and dangerous in = carrying weapons and threatening danger."
+ },
+ {
+  "prompt": "Recall the fixed pair with assault. (BATTERY)",
+  "answer": "assault and battery in",
+  "category": "binomial",
+  "notes": "assault and battery in = attack and beating under law."
+ },
+ {
+  "prompt": "Recall the fixed pair with bag. (BAGGAGE)",
+  "answer": "bag and baggage in",
+  "category": "binomial",
+  "notes": "bag and baggage in = with all things in travel."
+ },
+ {
+  "prompt": "Recall the fixed pair with bait. (SWITCH)",
+  "answer": "bait and switch in",
+  "category": "binomial",
+  "notes": "bait and switch in = false offer cheating buyers."
+ },
+ {
+  "prompt": "Recall the fixed pair with ball. (CHAIN)",
+  "answer": "ball and chain in",
+  "category": "binomial",
+  "notes": "ball and chain in = heavy burden in life."
+ },
+ {
+  "prompt": "Recall the fixed pair with barefoot. (PREGNANT)",
+  "answer": "barefoot and pregnant in",
+  "category": "binomial",
+  "notes": "barefoot and pregnant in = traditional home role for mothers."
+ },
+ {
+  "prompt": "Recall the fixed pair with bargain. (SALE)",
+  "answer": "bargain and sale in",
+  "category": "binomial",
+  "notes": "bargain and sale in = deal in property law."
+ },
+ {
+  "prompt": "Recall the fixed pair with beck. (CALL)",
+  "answer": "beck and call in",
+  "category": "binomial",
+  "notes": "beck and call in = ready to obey orders."
+ },
+ {
+  "prompt": "Recall the fixed pair with belt. (BRACES)",
+  "answer": "belt and braces in",
+  "category": "binomial",
+  "notes": "belt and braces in = double safety in protection."
+ },
+ {
+  "prompt": "Recall the fixed pair with bench. (BAR)",
+  "answer": "bench and bar in",
+  "category": "binomial",
+  "notes": "bench and bar in = judges and lawyers in court."
+ },
+ {
+  "prompt": "Recall the fixed pair with big. (BOLD)",
+  "answer": "big and bold in",
+  "category": "binomial",
+  "notes": "big and bold in = large and brave in style."
+ },
+ {
+  "prompt": "Recall the fixed pair with bigger. (BETTER)",
+  "answer": "bigger and better in",
+  "category": "binomial",
+  "notes": "bigger and better in = larger and finer in promise."
+ },
+ {
+  "prompt": "Recall the fixed pair with binge. (PURGE)",
+  "answer": "binge and purge in",
+  "category": "binomial",
+  "notes": "binge and purge in = overeat then vomit in disorder."
+ },
+ {
+  "prompt": "Recall the fixed pair with bits. (BOBS)",
+  "answer": "bits and bobs in",
+  "category": "binomial",
+  "notes": "bits and bobs in = small things in collection."
+ },
+ {
+  "prompt": "Recall the fixed pair with block. (TACKLE)",
+  "answer": "block and tackle in",
+  "category": "binomial",
+  "notes": "block and tackle in = lifting gear for heavy work."
+ },
+ {
+  "prompt": "Recall the fixed pair with blood. (GUTS)",
+  "answer": "blood and guts in",
+  "category": "binomial",
+  "notes": "blood and guts in = violence in story."
+ },
+ {
+  "prompt": "Recall the fixed pair with bob. (WEAVE)",
+  "answer": "bob and weave in",
+  "category": "binomial",
+  "notes": "bob and weave in = quick dodging in boxing."
+ },
+ {
+  "prompt": "Recall the fixed pair with boom. (ZOOM)",
+  "answer": "boom and zoom in",
+  "category": "binomial",
+  "notes": "boom and zoom in = fast climb in flying."
+ },
+ {
+  "prompt": "Recall the fixed pair with born. (BRED)",
+  "answer": "born and bred in",
+  "category": "binomial",
+  "notes": "born and bred in = born and raised in place."
+ },
+ {
+  "prompt": "Recall the fixed pair with bound. (DETERMINED)",
+  "answer": "bound and determined in",
+  "category": "binomial",
+  "notes": "bound and determined in = firmly decided in purpose."
+ },
+ {
+  "prompt": "Recall the fixed pair with bow. (SCRAPE)",
+  "answer": "bow and scrape in",
+  "category": "binomial",
+  "notes": "bow and scrape in = too much respect in flattery."
+ },
+ {
+  "prompt": "Recall the fixed pair with box. (COX)",
+  "answer": "box and cox in",
+  "category": "binomial",
+  "notes": "box and cox in = sharing in turns."
+ },
+ {
+  "prompt": "Recall the fixed pair with breaking. (ENTERING)",
+  "answer": "breaking and entering in",
+  "category": "binomial",
+  "notes": "breaking and entering in = illegal entry under law."
+ },
+ {
+  "prompt": "Recall the fixed pair with brick. (MORTAR)",
+  "answer": "brick and mortar in",
+  "category": "binomial",
+  "notes": "brick and mortar in = real building for shop."
+ },
+ {
+  "prompt": "Recall the fixed pair with brown. (SERVE)",
+  "answer": "brown and serve in",
+  "category": "binomial",
+  "notes": "brown and serve in = heat and serve for meal."
+ },
+ {
+  "prompt": "Recall the fixed pair with bucket. (SPADE)",
+  "answer": "bucket and spade in",
+  "category": "binomial",
+  "notes": "bucket and spade in = beach toys for play."
+ },
+ {
+  "prompt": "Recall the fixed pair with bump. (GRIND)",
+  "answer": "bump and grind in",
+  "category": "binomial",
+  "notes": "bump and grind in = sexy dance in show."
+ },
+ {
+  "prompt": "Recall the fixed pair with cap. (GOWN)",
+  "answer": "cap and gown in",
+  "category": "binomial",
+  "notes": "cap and gown in = school uniform for graduation."
+ },
+ {
+  "prompt": "Recall the fixed pair with car. (DRIVER)",
+  "answer": "car and driver in",
+  "category": "binomial",
+  "notes": "car and driver in = hired car with driver."
+ },
+ {
+  "prompt": "Recall the fixed pair with cash. (CARRY)",
+  "answer": "cash and carry in",
+  "category": "binomial",
+  "notes": "cash and carry in = pay cash in wholesale shop."
+ },
+ {
+  "prompt": "Recall the fixed pair with chalk. (TALK)",
+  "answer": "chalk and talk in",
+  "category": "binomial",
+  "notes": "chalk and talk in = board teaching in class."
+ },
+ {
+  "prompt": "Recall the fixed pair with chapter. (VERSE)",
+  "answer": "chapter and verse in",
+  "category": "binomial",
+  "notes": "chapter and verse in = exact details from source."
+ },
+ {
+  "prompt": "Recall the fixed pair with chicken. (DUMPLINGS)",
+  "answer": "chicken and dumplings in",
+  "category": "binomial",
+  "notes": "chicken and dumplings in = chicken stew as meal."
+ },
+ {
+  "prompt": "Recall the fixed pair with chips. (DIP)",
+  "answer": "chips and dip in",
+  "category": "binomial",
+  "notes": "chips and dip in = snacks for party food."
+ },
+ {
+  "prompt": "Recall the fixed pair with clean. (SOBER)",
+  "answer": "clean and sober in",
+  "category": "binomial",
+  "notes": "clean and sober in = free from drink or drugs."
+ },
+ {
+  "prompt": "Recall the fixed pair with crime. (PUNISHMENT)",
+  "answer": "crime and punishment in",
+  "category": "binomial",
+  "notes": "crime and punishment in = offence and penalty under law."
+ },
+ {
+  "prompt": "Recall the fixed pair with dandelion. (BURDOCK)",
+  "answer": "dandelion and burdock in",
+  "category": "binomial",
+  "notes": "dandelion and burdock in = traditional British soft drink."
+ },
+ {
+  "prompt": "Recall the fixed pair with dead. (GONE)",
+  "answer": "dead and gone in",
+  "category": "binomial",
+  "notes": "dead and gone in = long finished in past."
+ },
+ {
+  "prompt": "Recall the fixed pair with deaf. (DUMB)",
+  "answer": "deaf and dumb in",
+  "category": "binomial",
+  "notes": "deaf and dumb in = unable to hear or speak."
+ },
+ {
+  "prompt": "Recall the fixed pair with death. (TAXES)",
+  "answer": "death and taxes in",
+  "category": "binomial",
+  "notes": "death and taxes in = certain things in life."
+ },
+ {
+  "prompt": "Recall the fixed pair with dollars. (CENTS)",
+  "answer": "dollars and cents in",
+  "category": "binomial",
+  "notes": "dollars and cents in = money in clear terms."
+ },
+ {
+  "prompt": "Recall the fixed pair with doom. (GLOOM)",
+  "answer": "doom and gloom in",
+  "category": "binomial",
+  "notes": "doom and gloom in = sad hopeless talk."
+ },
+ {
+  "prompt": "Recall the fixed pair with dribs. (DRABS)",
+  "answer": "dribs and drabs in",
+  "category": "binomial",
+  "notes": "dribs and drabs in = small amounts in portions."
+ },
+ {
+  "prompt": "Recall the fixed pair with drunk. (DISORDERLY)",
+  "answer": "drunk and disorderly in",
+  "category": "binomial",
+  "notes": "drunk and disorderly in = drunk and rowdy in public."
+ },
+ {
+  "prompt": "Recall the fixed pair with duck. (COVER)",
+  "answer": "duck and cover in",
+  "category": "binomial",
+  "notes": "duck and cover in = hide for safety in attack."
+ },
+ {
+  "prompt": "Recall the fixed pair with eyes. (EARS)",
+  "answer": "eyes and ears in",
+  "category": "binomial",
+  "notes": "eyes and ears in = watchers in the place."
+ },
+ {
+  "prompt": "Recall the fixed pair with facts. (FIGURES)",
+  "answer": "facts and figures in",
+  "category": "binomial",
+  "notes": "facts and figures in = exact numbers in report."
+ },
+ {
+  "prompt": "Recall the fixed pair with fast. (FURIOUS)",
+  "answer": "fast and furious in",
+  "category": "binomial",
+  "notes": "fast and furious in = very fast in action."
+ },
+ {
+  "prompt": "Recall the fixed pair with fast. (LOOSE)",
+  "answer": "fast and loose in",
+  "category": "binomial",
+  "notes": "fast and loose in = careless with rules in behaviour."
+ },
+ {
+  "prompt": "Recall the fixed pair with fear. (LOATHING)",
+  "answer": "fear and loathing in",
+  "category": "binomial",
+  "notes": "fear and loathing in = hate and fear in city."
+ },
+ {
+  "prompt": "Recall the fixed pair with fine. (DANDY)",
+  "answer": "fine and dandy in",
+  "category": "binomial",
+  "notes": "fine and dandy in = well and happy in mood."
+ },
+ {
+  "prompt": "Recall the fixed pair with fingers. (THUMBS)",
+  "answer": "fingers and thumbs in",
+  "category": "binomial",
+  "notes": "fingers and thumbs in = clumsy in handling things."
+ },
+ {
+  "prompt": "Recall the fixed pair with five. (DIME)",
+  "answer": "five and dime in",
+  "category": "binomial",
+  "notes": "five and dime in = cheap shop in America."
+ },
+ {
+  "prompt": "Recall the fixed pair with flesh. (BONE)",
+  "answer": "flesh and bone in",
+  "category": "binomial",
+  "notes": "flesh and bone in = human body in form."
+ },
+ {
+  "prompt": "Recall the fixed pair with flora. (FAUNA)",
+  "answer": "flora and fauna in",
+  "category": "binomial",
+  "notes": "flora and fauna in = plants and animals in nature."
+ },
+ {
+  "prompt": "Recall the fixed pair with flotsam. (JETSAM)",
+  "answer": "flotsam and jetsam in",
+  "category": "binomial",
+  "notes": "flotsam and jetsam in = floating rubbish in sea."
+ },
+ {
+  "prompt": "Recall the fixed pair with footloose. (FANCY-FREE)",
+  "answer": "footloose and fancy-free in",
+  "category": "binomial",
+  "notes": "footloose and fancy-free in = free without duties in life."
+ },
+ {
+  "prompt": "Recall the fixed pair with form. (FUNCTION)",
+  "answer": "form and function in",
+  "category": "binomial",
+  "notes": "form and function in = shape and use in design."
+ },
+ {
+  "prompt": "Recall the fixed pair with front. (CENTER)",
+  "answer": "front and center in",
+  "category": "binomial",
+  "notes": "front and center in = main focus in attention."
+ },
+ {
+  "prompt": "Recall the fixed pair with fur. (FEATHERS)",
+  "answer": "fur and feathers in",
+  "category": "binomial",
+  "notes": "fur and feathers in = animal coverings from hunting."
+ },
+ {
+  "prompt": "Recall the fixed pair with fuss. (BOTHER)",
+  "answer": "fuss and bother in",
+  "category": "binomial",
+  "notes": "fuss and bother in = worry over small trouble."
+ },
+ {
+  "prompt": "Recall the fixed pair with ghosts. (GOBLINS)",
+  "answer": "ghosts and goblins in",
+  "category": "binomial",
+  "notes": "ghosts and goblins in = scary spirits for Halloween."
+ },
+ {
+  "prompt": "Recall the fixed pair with goals. (ASPIRATIONS)",
+  "answer": "goals and aspirations in",
+  "category": "binomial",
+  "notes": "goals and aspirations in = aims in life."
+ },
+ {
+  "prompt": "Recall the fixed pair with goodness. (LIGHT)",
+  "answer": "goodness and light in",
+  "category": "binomial",
+  "notes": "goodness and light in = kindness in character."
+ },
+ {
+  "prompt": "Recall the fixed pair with ground. (POUND)",
+  "answer": "ground and pound in",
+  "category": "binomial",
+  "notes": "ground and pound in = wrestling hits in fighting."
+ },
+ {
+  "prompt": "Recall the fixed pair with hack. (SLASH)",
+  "answer": "hack and slash in",
+  "category": "binomial",
+  "notes": "hack and slash in = violent cuts in games."
+ },
+ {
+  "prompt": "Recall the fixed pair with hearth. (HOME)",
+  "answer": "hearth and home in",
+  "category": "binomial",
+  "notes": "hearth and home in = home comfort in family life."
+ },
+ {
+  "prompt": "Recall the fixed pair with hearts. (MINDS)",
+  "answer": "hearts and minds in",
+  "category": "binomial",
+  "notes": "hearts and minds in = feelings and thoughts in support."
+ },
+ {
+  "prompt": "Recall the fixed pair with high. (TIGHT)",
+  "answer": "high and tight in",
+  "category": "binomial",
+  "notes": "high and tight in = short hair in military style."
+ },
+ {
+  "prompt": "Recall the fixed pair with hire. (FIRE)",
+  "answer": "hire and fire in",
+  "category": "binomial",
+  "notes": "hire and fire in = employ and dismiss in work."
+ },
+ {
+  "prompt": "Recall the fixed pair with hither. (YON)",
+  "answer": "hither and yon in",
+  "category": "binomial",
+  "notes": "hither and yon in = here and there in place."
+ },
+ {
+  "prompt": "Recall the fixed pair with home. (HOSED)",
+  "answer": "home and hosed in",
+  "category": "binomial",
+  "notes": "home and hosed in = finished safely in success."
+ },
+ {
+  "prompt": "Recall the fixed pair with hook. (EYE)",
+  "answer": "hook and eye in",
+  "category": "binomial",
+  "notes": "hook and eye in = small fastener for clothes."
+ },
+ {
+  "prompt": "Recall the fixed pair with hook. (LOOP)",
+  "answer": "hook and loop in",
+  "category": "binomial",
+  "notes": "hook and loop in = sticky fastener for clothes."
+ },
+ {
+  "prompt": "Recall the fixed pair with hoot. (HOLLER)",
+  "answer": "hoot and holler in",
+  "category": "binomial",
+  "notes": "hoot and holler in = shout loudly in fun."
+ },
+ {
+  "prompt": "Recall the fixed pair with horse. (BUGGY)",
+  "answer": "horse and buggy in",
+  "category": "binomial",
+  "notes": "horse and buggy in = old carriage for transport."
+ },
+ {
+  "prompt": "Recall the fixed pair with horse. (CARRIAGE)",
+  "answer": "horse and carriage in",
+  "category": "binomial",
+  "notes": "horse and carriage in = old carriage for transport."
+ },
+ {
+  "prompt": "Recall the fixed pair with hot. (BOTHERED)",
+  "answer": "hot and bothered in",
+  "category": "binomial",
+  "notes": "hot and bothered in = worried and excited in feeling."
+ },
+ {
+  "prompt": "Recall the fixed pair with hot. (HEAVY)",
+  "answer": "hot and heavy in",
+  "category": "binomial",
+  "notes": "hot and heavy in = intense in romance."
+ },
+ {
+  "prompt": "Recall the fixed pair with huff. (PUFF)",
+  "answer": "huff and puff in",
+  "category": "binomial",
+  "notes": "huff and puff in = blow hard in effort."
+ },
+ {
+  "prompt": "Recall the fixed pair with hunger. (THIRST)",
+  "answer": "hunger and thirst in",
+  "category": "binomial",
+  "notes": "hunger and thirst in = need for food and drink."
+ },
+ {
+  "prompt": "Recall the fixed pair with intents. (PURPOSES)",
+  "answer": "intents and purposes in",
+  "category": "binomial",
+  "notes": "intents and purposes in = practical effect in use."
+ },
+ {
+  "prompt": "Recall the fixed pair with kicking. (SCREAMING)",
+  "answer": "kicking and screaming in",
+  "category": "binomial",
+  "notes": "kicking and screaming in = protesting loudly in anger."
+ },
+ {
+  "prompt": "Recall the fixed pair with king. (COUNTRY)",
+  "answer": "king and country in",
+  "category": "binomial",
+  "notes": "king and country in = loyalty to nation in service."
+ },
+ {
+  "prompt": "Recall the fixed pair with kit. (CABOODLE)",
+  "answer": "kit and caboodle in",
+  "category": "binomial",
+  "notes": "kit and caboodle in = all things in collection."
+ },
+ {
+  "prompt": "Recall the fixed pair with lakes. (STREAMS)",
+  "answer": "lakes and streams in",
+  "category": "binomial",
+  "notes": "lakes and streams in = waters in nature."
+ },
+ {
+  "prompt": "Recall the fixed pair with latitude. (LONGITUDE)",
+  "answer": "latitude and longitude in",
+  "category": "binomial",
+  "notes": "latitude and longitude in = map position of place."
+ },
+ {
+  "prompt": "Recall the fixed pair with life. (LIMB)",
+  "answer": "life and limb in",
+  "category": "binomial",
+  "notes": "life and limb in = life and body in danger."
+ },
+ {
+  "prompt": "Recall the fixed pair with live. (LEARN)",
+  "answer": "live and learn in",
+  "category": "binomial",
+  "notes": "live and learn in = learn from experience in life."
+ },
+ {
+  "prompt": "Recall the fixed pair with lo. (BEHOLD)",
+  "answer": "lo and behold in",
+  "category": "binomial",
+  "notes": "lo and behold in = surprise at sight in story."
+ },
+ {
+  "prompt": "Recall the fixed pair with lock. (LOAD)",
+  "answer": "lock and load in",
+  "category": "binomial",
+  "notes": "lock and load in = prepare gun for action."
+ },
+ {
+  "prompt": "Recall the fixed pair with locked. (LOADED)",
+  "answer": "locked and loaded in",
+  "category": "binomial",
+  "notes": "locked and loaded in = ready for action."
+ },
+ {
+  "prompt": "Recall the fixed pair with look. (FEEL)",
+  "answer": "look and feel in",
+  "category": "binomial",
+  "notes": "look and feel in = style in design."
+ },
+ {
+  "prompt": "Recall the fixed pair with loud. (PROUD)",
+  "answer": "loud and proud in",
+  "category": "binomial",
+  "notes": "loud and proud in = openly proud in show."
+ },
+ {
+  "prompt": "Recall the fixed pair with make do. (MEND)",
+  "answer": "do and mend in",
+  "category": "binomial",
+  "notes": "do and mend in = repair with little in need."
+ },
+ {
+  "prompt": "Recall the fixed pair with man. (BOY)",
+  "answer": "man and boy in",
+  "category": "binomial",
+  "notes": "man and boy in = since childhood in life."
+ },
+ {
+  "prompt": "Recall the fixed pair with meek. (MILD)",
+  "answer": "meek and mild in",
+  "category": "binomial",
+  "notes": "meek and mild in = gentle in character."
+ },
+ {
+  "prompt": "Recall the fixed pair with meet. (GREET)",
+  "answer": "meet and greet in",
+  "category": "binomial",
+  "notes": "meet and greet in = welcome guests at event."
+ },
+ {
+  "prompt": "Recall the fixed pair with milk. (HONEY)",
+  "answer": "milk and honey in",
+  "category": "binomial",
+  "notes": "milk and honey in = plenty in promised land."
+ },
+ {
+  "prompt": "Recall the fixed pair with mix. (MATCH)",
+  "answer": "mix and match in",
+  "category": "binomial",
+  "notes": "mix and match in = combine freely in style."
+ },
+ {
+  "prompt": "Recall the fixed pair with mortise. (TENON)",
+  "answer": "mortise and tenon in",
+  "category": "binomial",
+  "notes": "mortise and tenon in = wood joints in craft."
+ },
+ {
+  "prompt": "Recall the fixed pair with movers. (SHAKERS)",
+  "answer": "movers and shakers in",
+  "category": "binomial",
+  "notes": "movers and shakers in = powerful people in group."
+ },
+ {
+  "prompt": "Recall the fixed pair with name. (SHAME)",
+  "answer": "name and shame in",
+  "category": "binomial",
+  "notes": "name and shame in = expose wrongdoers in public."
+ },
+ {
+  "prompt": "Recall the fixed pair with names. (FACES)",
+  "answer": "names and faces in",
+  "category": "binomial",
+  "notes": "names and faces in = people in memory."
+ },
+ {
+  "prompt": "Recall the fixed pair with near. (DEAR)",
+  "answer": "near and dear in",
+  "category": "binomial",
+  "notes": "near and dear in = loved in heart."
+ },
+ {
+  "prompt": "Recall the fixed pair with nook. (CRANNY)",
+  "answer": "nook and cranny in",
+  "category": "binomial",
+  "notes": "nook and cranny in = every corner in place."
+ }
+]

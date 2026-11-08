@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "The room is too dark for us to study in.",
+  "answer": "not light enough",
+  "category": "rephrase",
+  "notes": "not light enough = too dark to study in."
+ },
+ {
+  "prompt": "The rules require that members should be present at noon.",
+  "answer": "be present",
+  "category": "rephrase",
+  "notes": "be present = attend at noon as required."
+ },
+ {
+  "prompt": "The second draft is far better than the first one.",
+  "answer": "lot better",
+  "category": "rephrase",
+  "notes": "lot better = much better than before."
+ },
+ {
+  "prompt": "If the lesson is shorter, students pay more attention.",
+  "answer": "shorter the lesson",
+  "category": "rephrase",
+  "notes": "shorter the lesson = brevity increases student attention."
+ },
+ {
+  "prompt": "The soup is hot enough to eat now.",
+  "answer": "not too cold",
+  "category": "rephrase",
+  "notes": "not too cold = warm enough to eat."
+ },
+ {
+  "prompt": "The species may soon become extinct. (danger)",
+  "answer": "in danger of becoming",
+  "category": "rephrase",
+  "notes": "in danger of becoming = likely to become extinct soon."
+ },
+ {
+  "prompt": "If the coffee is stronger, it keeps you awake longer.",
+  "answer": "stronger the coffee",
+  "category": "rephrase",
+  "notes": "stronger the coffee = strength keeps you awake longer."
+ },
+ {
+  "prompt": "As the wind grows stronger, the sea gets rougher.",
+  "answer": "stronger the wind",
+  "category": "rephrase",
+  "notes": "stronger the wind = wind strength roughens the sea."
+ },
+ {
+  "prompt": "The suspect had a fake passport, so it was possible for him to leave the country.",
+  "answer": "could have",
+  "category": "rephrase",
+  "notes": "could have = was able to leave then."
+ },
+ {
+  "prompt": "The police think it is possible the suspect used a fake passport.",
+  "answer": "may have",
+  "category": "rephrase",
+  "notes": "may have = possibly used a fake passport."
+ },
+ {
+  "prompt": "I am sure the suspect took the wrong train; he arrived in the wrong city an hour late.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = certainly took the wrong train."
+ },
+ {
+  "prompt": "The tea is so hot that I cannot drink it.",
+  "answer": "too hot",
+  "category": "rephrase",
+  "notes": "too hot = excessively hot to drink."
+ },
+ {
+  "prompt": "The teacher caught them copying in the test.",
+  "answer": "them copying in",
+  "category": "rephrase",
+  "notes": "them copying in = caught cheating during test."
+ },
+ {
+  "prompt": "The teacher demanded that phones should be switched off in class.",
+  "answer": "be switched off",
+  "category": "rephrase",
+  "notes": "be switched off = keep phones turned off."
+ },
+ {
+  "prompt": "The teacher allowed the class to leave early.",
+  "answer": "let the class",
+  "category": "rephrase",
+  "notes": "let the class = allowed early departure."
+ },
+ {
+  "prompt": "The teacher forced the pupils to rewrite the essay.",
+  "answer": "made the pupils",
+  "category": "rephrase",
+  "notes": "made the pupils = forced essay rewriting."
+ },
+ {
+  "prompt": "It was compulsory for the team to attend the morning briefing.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = past obligation to attend."
+ },
+ {
+  "prompt": "The test was a lot easier than we had expected.",
+  "answer": "far easier",
+  "category": "rephrase",
+  "notes": "far easier = much easier than expected."
+ },
+ {
+  "prompt": "I am sure the thief knew the security code; the alarm was disabled neatly.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = certainly knew the code."
+ },
+ {
+  "prompt": "The traffic today is much worse than yesterday.",
+  "answer": "far worse",
+  "category": "rephrase",
+  "notes": "far worse = much worse than yesterday."
+ },
+ {
+  "prompt": "The volcano is about to erupt. (verge)",
+  "answer": "on the verge of",
+  "category": "rephrase",
+  "notes": "on the verge of = about to erupt."
+ },
+ {
+  "prompt": "The water is too cold for us to swim in.",
+  "answer": "not warm enough",
+  "category": "rephrase",
+  "notes": "not warm enough = too cold for swimming."
+ },
+ {
+  "prompt": "The wind was too strong for us to go sailing.",
+  "answer": "not calm enough",
+  "category": "rephrase",
+  "notes": "not calm enough = too windy for sailing."
+ },
+ {
+  "prompt": "The younger you start learning English, the better you master it.",
+  "answer": "younger you start",
+  "category": "rephrase",
+  "notes": "younger you start = earlier start, better mastery."
+ },
+ {
+  "prompt": "There are three times more cars here than there were in 2000.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = triple the cars of 2000."
+ },
+ {
+  "prompt": "Because there was a storm approaching, flights were delayed.",
+  "answer": "There being a storm approaching,",
+  "category": "rephrase",
+  "notes": "There being a storm approaching, = storm caused flight delays."
+ },
+ {
+  "prompt": "Because there were many problems to solve, the meeting lasted long.",
+  "answer": "There being many problems to solve,",
+  "category": "rephrase",
+  "notes": "There being many problems to solve, = many issues lengthened meeting."
+ },
+ {
+  "prompt": "Because there was no bus available, we had to walk home.",
+  "answer": "There being no bus available,",
+  "category": "rephrase",
+  "notes": "There being no bus available, = no bus forced walking home."
+ },
+ {
+  "prompt": "Because there was nothing else to do, he watched television.",
+  "answer": "There being nothing else to do,",
+  "category": "rephrase",
+  "notes": "There being nothing else to do, = boredom led to television watching."
+ },
+ {
+  "prompt": "Because there was still time left, we ordered coffee.",
+  "answer": "There being still time left,",
+  "category": "rephrase",
+  "notes": "There being still time left, = spare time allowed coffee."
+ },
+ {
+  "prompt": "She is likely to win the prize. (likelihood)",
+  "answer": "every likelihood of her",
+  "category": "rephrase",
+  "notes": "every likelihood of her = very likely to win."
+ },
+ {
+  "prompt": "He is unlikely to concede after the ruling. (LIKELIHOOD)",
+  "answer": "little likelihood of his conceding",
+  "category": "rephrase",
+  "notes": "little likelihood of his conceding = unlikely to concede."
+ },
+ {
+  "prompt": "It is not worth worrying about. (point)",
+  "answer": "no point in",
+  "category": "rephrase",
+  "notes": "no point in = useless to worry."
+ },
+ {
+  "prompt": "She need not have resigned before the hearing. (NEED)",
+  "answer": "no need for her to have resigned",
+  "category": "rephrase",
+  "notes": "Needn't have = unnecessary past act."
+ },
+ {
+  "prompt": "There were so many people that we could not move. (such)",
+  "answer": "such a crowd that",
+  "category": "rephrase",
+  "notes": "such a crowd that = so many people blocking movement."
+ },
+ {
+  "prompt": "They act like the war never happened.",
+  "answer": "war had never",
+  "category": "rephrase",
+  "notes": "war had never = unreal past comparison."
+ },
+ {
+  "prompt": "They advertise widely with a view to attracting tourists.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to attract tourists."
+ },
+ {
+  "prompt": "They built a library so that pupils could read.",
+  "answer": "in order that",
+  "category": "rephrase",
+  "notes": "in order that = so pupils could read."
+ },
+ {
+  "prompt": "They cancelled the match. (off)",
+  "answer": "called off",
+  "category": "rephrase",
+  "notes": "call off = cancel"
+ },
+ {
+  "prompt": "I am sure they did not finish the marathon; they gave up at kilometre ten.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have = certainly did not finish."
+ },
+ {
+  "prompt": "I am sure they did not hear the announcement; the loudspeakers were broken.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have = certainly did not hear."
+ },
+ {
+  "prompt": "We caught half the fish they caught.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = double the fish we caught."
+ },
+ {
+  "prompt": "They had money, so it was possible for them to buy the house, but they hesitated.",
+  "answer": "could have",
+  "category": "rephrase",
+  "notes": "could have = past chance not taken."
+ },
+ {
+  "prompt": "I am sure they did not reach the summit; the storm closed every route that day.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have = storm made summit impossible."
+ },
+ {
+  "prompt": "I am sure they did not survive the night outdoors; the temperature fell to minus ten.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have = impossible to survive outdoors."
+ },
+ {
+  "prompt": "They demanded that he leave at once.",
+  "answer": "he should leave",
+  "category": "rephrase",
+  "notes": "he should leave = demanded immediate departure."
+ },
+ {
+  "prompt": "They demanded that the cinema should not be demolished this year.",
+  "answer": "not be demolished",
+  "category": "rephrase",
+  "notes": "not be demolished = demanded cinema preservation."
+ },
+ {
+  "prompt": "The doctor felt better, so there was no necessity to operate, and they cancelled surgery.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = surgery proved unnecessary."
+ },
+ {
+  "prompt": "They criticised her for wasting money. (disapproved)",
+  "answer": "disapproved of her",
+  "category": "rephrase",
+  "notes": "criticise for = disapprove of"
+ },
+ {
+  "prompt": "They finished cleaning the room.",
+  "answer": "finished cleaning the",
+  "category": "rephrase",
+  "notes": "finished cleaning the = completed room cleaning."
+ },
+ {
+  "prompt": "They threw away the rubbish. (rid)",
+  "answer": "got rid of",
+  "category": "rephrase",
+  "notes": "get rid of = dispose of"
+ },
+ {
+  "prompt": "They persuaded the architect to revise the plan.",
+  "answer": "got the architect",
+  "category": "rephrase",
+  "notes": "got the architect = persuaded architect to revise."
+ },
+ {
+  "prompt": "They persuaded the babysitter to stay late.",
+  "answer": "got the babysitter",
+  "category": "rephrase",
+  "notes": "got the babysitter = persuaded babysitter to stay."
+ },
+ {
+  "prompt": "They convinced the doctor to sign the certificate.",
+  "answer": "got the doctor",
+  "category": "rephrase",
+  "notes": "got the doctor = convinced doctor to sign."
+ },
+ {
+  "prompt": "They persuaded the engineer to inspect the bridge.",
+  "answer": "got the engineer",
+  "category": "rephrase",
+  "notes": "got the engineer = arranged engineer inspection."
+ },
+ {
+  "prompt": "They grow twice the rice we grow.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = double the rice we grow."
+ },
+ {
+  "prompt": "Customs officers searched all their luggage.",
+  "answer": "had all their luggage searched",
+  "category": "rephrase",
+  "notes": "had all their luggage searched = customs searched their bags."
+ },
+ {
+  "prompt": "They had difficulty solving the puzzle.",
+  "answer": "in solving",
+  "category": "rephrase",
+  "notes": "in solving = struggled to solve puzzle."
+ },
+ {
+  "prompt": "Someone had renovated their villa before Tet.",
+  "answer": "had had their villa renovated",
+  "category": "rephrase",
+  "notes": "had had their villa renovated = villa renovated before Tet."
+ },
+ {
+  "prompt": "They asked the chef to prepare a vegetarian menu.",
+  "answer": "had the chef prepare",
+  "category": "rephrase",
+  "notes": "had the chef prepare = asked chef for vegetarian menu."
+ },
+ {
+  "prompt": "The board terminated their contract suddenly.",
+  "answer": "had their contract terminated",
+  "category": "rephrase",
+  "notes": "had their contract terminated = board suddenly ended contract."
+ },
+ {
+  "prompt": "Someone painted their house blue last month.",
+  "answer": "had their house painted",
+  "category": "rephrase",
+  "notes": "had their house painted = house painted blue."
+ },
+ {
+  "prompt": "They have double the number of students we have.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = double our student number."
+ },
+ {
+  "prompt": "They left early to avoid traffic.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to avoid traffic."
+ },
+ {
+  "prompt": "They left early because they were afraid they would miss the flight.",
+  "answer": "early lest they",
+  "category": "rephrase",
+  "notes": "early lest they = early to avoid missing flight."
+ },
+ {
+  "prompt": "They allowed the prisoner to phone his family.",
+  "answer": "let the prisoner",
+  "category": "rephrase",
+  "notes": "let the prisoner = allowed family phone call."
+ },
+ {
+  "prompt": "They laughed at his accent. (fun)",
+  "answer": "made fun of",
+  "category": "rephrase",
+  "notes": "laugh at = make fun of"
+ },
+ {
+  "prompt": "I am sure they ate too much last night; they both have stomachache this morning.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = certainly overate last night."
+ },
+ {
+  "prompt": "I am sure they hurried to catch the flight; they left the hotel before dawn.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = certainly rushed for flight."
+ },
+ {
+  "prompt": "They proposed that the ceasefire should be observed strictly.",
+  "answer": "be observed",
+  "category": "rephrase",
+  "notes": "be observed = be strictly followed."
+ },
+ {
+  "prompt": "They postponed the meeting. (off)",
+  "answer": "put off",
+  "category": "rephrase",
+  "notes": "put off = postpone"
+ },
+ {
+  "prompt": "They blamed John for the leak. (fault)",
+  "answer": "John's fault",
+  "category": "rephrase",
+  "notes": "John's fault = blamed John for leak."
+ },
+ {
+  "prompt": "They began their journey early. (off)",
+  "answer": "set off",
+  "category": "rephrase",
+  "notes": "set off = start a journey"
+ },
+ {
+  "prompt": "They had better book the tickets in advance.",
+  "answer": "should book the",
+  "category": "rephrase",
+  "notes": "should book the = better to book early."
+ },
+ {
+  "prompt": "They regret ignoring the evacuation order.",
+  "answer": "should have",
+  "category": "rephrase",
+  "notes": "should have = ought to have obeyed order."
+ },
+ {
+  "prompt": "They suggested that she see a specialist.",
+  "answer": "she should see",
+  "category": "rephrase",
+  "notes": "she should see = advised specialist visit."
+ },
+ {
+  "prompt": "They talk like they have known the secret for years.",
+  "answer": "they had known",
+  "category": "rephrase",
+  "notes": "they had known = pretended long knowledge."
+ },
+ {
+  "prompt": "They train hard with a view to breaking records.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to break records."
+ },
+ {
+  "prompt": "They rejected his proposal. (down)",
+  "answer": "turned down",
+  "category": "rephrase",
+  "notes": "turn down = reject"
+ },
+ {
+  "prompt": "They watered the plants because they feared the plants would die.",
+  "answer": "plants lest the",
+  "category": "rephrase",
+  "notes": "plants lest the = watered fearing plant death."
+ },
+ {
+  "prompt": "They went hiking in the mountains.",
+  "answer": "went hiking in",
+  "category": "rephrase",
+  "notes": "went hiking in = hiked in mountains."
+ },
+ {
+  "prompt": "They were forbidden to talk during tests, but they whispered throughout.",
+  "answer": "were not supposed to",
+  "category": "rephrase",
+  "notes": "were not supposed to = forbidden to talk then."
+ },
+ {
+  "prompt": "The homework was set for Monday, but half the class went clubbing instead.",
+  "answer": "were supposed to",
+  "category": "rephrase",
+  "notes": "were supposed to = expected homework duty neglected."
+ },
+ {
+  "prompt": "They were suspected of cheating in the exam.",
+  "answer": "of cheating",
+  "category": "rephrase",
+  "notes": "of cheating = suspected exam dishonesty."
+ },
+ {
+  "prompt": "They prefer to live in the countryside rather than in the city.",
+  "answer": "would rather live",
+  "category": "rephrase",
+  "notes": "would rather live = prefer countryside over city."
+ },
+ {
+  "prompt": "They prefer to visit Ha Long Bay rather than Sapa.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefer Ha Long to Sapa."
+ },
+ {
+  "prompt": "This elephant weighs double what that hippo weighs.",
+  "answer": "as heavy as",
+  "category": "rephrase",
+  "notes": "as heavy as = double hippo weight."
+ },
+ {
+  "prompt": "This exercise is too difficult for me to do in five minutes.",
+  "answer": "not easy enough",
+  "category": "rephrase",
+  "notes": "not easy enough = too hard for five minutes."
+ },
+ {
+  "prompt": "This fabric is much softer than that one.",
+  "answer": "far softer",
+  "category": "rephrase",
+  "notes": "far softer = much softer than that."
+ },
+ {
+  "prompt": "This harvest yields three times the rice last year yielded.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = triple last year's rice."
+ },
+ {
+  "prompt": "I have never eaten such delicious food. (ever)",
+  "answer": "the most delicious food I have ever",
+  "category": "rephrase",
+  "notes": "the most delicious food I have ever = best food ever eaten."
+ },
+ {
+  "prompt": "This laptop is double the price of that one but performs the same.",
+  "answer": "twice as much",
+  "category": "rephrase",
+  "notes": "twice as much = double that laptop price."
+ },
+ {
+  "prompt": "This mountain is far higher than that hill.",
+  "answer": "lot higher",
+  "category": "rephrase",
+  "notes": "lot higher = much higher than hill."
+ },
+ {
+  "prompt": "This novel is much longer than that short story.",
+  "answer": "far longer",
+  "category": "rephrase",
+  "notes": "far longer = much longer than story."
+ },
+ {
+  "prompt": "This problem is a lot more difficult than that one.",
+  "answer": "far more",
+  "category": "rephrase",
+  "notes": "far more = much harder than that."
+ },
+ {
+  "prompt": "This road is far wider than that lane.",
+  "answer": "lot wider",
+  "category": "rephrase",
+  "notes": "lot wider = much wider than lane."
+ },
+ {
+  "prompt": "This skyscraper is far taller than any other building here.",
+  "answer": "lot taller",
+  "category": "rephrase",
+  "notes": "lot taller = tallest building here by far."
+ },
+ {
+  "prompt": "This street is double the width of that alley.",
+  "answer": "as wide as",
+  "category": "rephrase",
+  "notes": "as wide as = double alley width."
+ },
+ {
+  "prompt": "This winter is much colder than last winter.",
+  "answer": "far colder",
+  "category": "rephrase",
+  "notes": "far colder = much colder than last winter."
+ },
+ {
+  "prompt": "Though he was exhausted, he kept working.",
+  "answer": "exhausted, he kept",
+  "category": "rephrase",
+  "notes": "exhausted, he kept = despite exhaustion kept working."
+ },
+ {
+  "prompt": "In spite of his age, he cycles daily.",
+  "answer": "he is old,",
+  "category": "rephrase",
+  "notes": "he is old, = despite age cycles daily."
+ },
+ {
+  "prompt": "Despite the fact that he is young, he leads well.",
+  "answer": "he is young,",
+  "category": "rephrase",
+  "notes": "he is young, = despite youth leads well."
+ },
+ {
+  "prompt": "Despite the rain, they went out. (though)",
+  "answer": "it was raining",
+  "category": "rephrase",
+  "notes": "it was raining = despite rain went out."
+ },
+ {
+  "prompt": "No matter how tired he was, he hardly complained.",
+  "answer": "as he was",
+  "category": "rephrase",
+  "notes": "as he was = tired yet hardly complaining."
+ },
+ {
+  "prompt": "We were amazed that she won. (amazement)",
+  "answer": "our amazement she",
+  "category": "rephrase",
+  "notes": "our amazement she = surprisingly she won."
+ },
+ {
+  "prompt": "Tom should have revised the irregular verbs.",
+  "answer": "wishes he had",
+  "category": "rephrase",
+  "notes": "wishes he had = regrets not revising verbs."
+ },
+ {
+  "prompt": "Travelling by plane is a lot quicker than travelling by train.",
+  "answer": "much quicker",
+  "category": "rephrase",
+  "notes": "much quicker = plane far faster than train."
+ },
+ {
+  "prompt": "No matter how hard he tried, he could not break the record.",
+  "answer": "as he might",
+  "category": "rephrase",
+  "notes": "as he might = however hard he tried."
+ },
+ {
+  "prompt": "Passengers must never smoke on board. (circumstances)",
+  "answer": "no circumstances",
+  "category": "rephrase",
+  "notes": "no circumstances = never smoke on board."
+ },
+ {
+  "prompt": "Unless it is handled with care, the vase will break.",
+  "answer": "Unless handled with care,",
+  "category": "rephrase",
+  "notes": "Unless handled with care, = careless handling breaks vase."
+ },
+ {
+  "prompt": "Pay attention or you will fail. (fail)",
+  "answer": "you will fail",
+  "category": "rephrase",
+  "notes": "you will fail = pay attention or fail."
+ },
+ {
+  "prompt": "Immediately after the announcement was made, prices soared.",
+  "answer": "the announcement being made",
+  "category": "rephrase",
+  "notes": "the announcement being made = right after announcement prices soared."
+ },
+ {
+  "prompt": "As soon as the guests arrived, dinner was served.",
+  "answer": "the arrival of the guests",
+  "category": "rephrase",
+  "notes": "the arrival of the guests = guests arrived, dinner served."
+ },
+ {
+  "prompt": "No matter how urgent the request is, protocol must be followed.",
+  "answer": "as the request is",
+  "category": "rephrase",
+  "notes": "as the request is = however urgent protocol stands."
+ },
+ {
+  "prompt": "Viewed from above, the rice fields form a mosaic.",
+  "answer": "Viewed from above,",
+  "category": "rephrase",
+  "notes": "Viewed from above, = seen from above like mosaic."
+ },
+ {
+  "prompt": "It was mandatory for visitors to register at reception.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = past duty to register."
+ },
+ {
+  "prompt": "Walk quietly because you might wake the patient.",
+  "answer": "quietly lest you",
+  "category": "rephrase",
+  "notes": "quietly lest you = quietly to avoid waking patient."
+ },
+ {
+  "prompt": "Someone will install central heating for us.",
+  "answer": "have central heating installed",
+  "category": "rephrase",
+  "notes": "have central heating installed = arrange heating installation service."
+ },
+ {
+  "prompt": "We booked tickets early so as to sit together.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to sit together."
+ },
+ {
+  "prompt": "The restaurant is always empty, so there was no necessity to book, and we just walked in.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = booking unnecessary, walked in."
+ },
+ {
+  "prompt": "The forecast was clear, so there was no necessity to bring coats, and we left them.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = coats unnecessary in clear weather."
+ },
+ {
+  "prompt": "There was no necessity to call the doctor because he started to feel better, so we did not call.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = doctor call unnecessary after improvement."
+ },
+ {
+  "prompt": "There was no rule to pay for tickets, so we entered free.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = free entry, no payment needed."
+ },
+ {
+  "prompt": "The sun came out, so there was no necessity to take rainwear, and we left it behind.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = rainwear unneeded after sunshine."
+ },
+ {
+  "prompt": "They arrived just after us, so there was no necessity to wait long, and we did not wait.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = arrival timing removed long wait."
+ },
+ {
+  "prompt": "We convinced our neighbour to water the plants.",
+  "answer": "got our neighbour",
+  "category": "rephrase",
+  "notes": "got our neighbour = convinced neighbour to water plants."
+ },
+ {
+  "prompt": "Someone repainted our walls recently.",
+  "answer": "got our walls repainted",
+  "category": "rephrase",
+  "notes": "got our walls repainted = walls repainted by someone."
+ },
+ {
+  "prompt": "We paid the plumber to fix the leak.",
+  "answer": "got the plumber",
+  "category": "rephrase",
+  "notes": "got the plumber = hired plumber to fix leak."
+ },
+ {
+  "prompt": "We persuaded the technician to recover the files.",
+  "answer": "got the technician",
+  "category": "rephrase",
+  "notes": "got the technician = persuaded technician to recover files."
+ },
+ {
+  "prompt": "We should book the tickets in advance.",
+  "answer": "had better",
+  "category": "rephrase",
+  "notes": "had better = should book tickets early."
+ },
+ {
+  "prompt": "We should leave now if we want to catch the train.",
+  "answer": "had better",
+  "category": "rephrase",
+  "notes": "had better = should leave now for train."
+ },
+ {
+  "prompt": "We should leave now if we want to catch the train.",
+  "answer": "had better leave",
+  "category": "rephrase",
+  "notes": "had better leave = should leave now urgently."
+ },
+ {
+  "prompt": "An expert recovered our data after the crash.",
+  "answer": "had our data recovered",
+  "category": "rephrase",
+  "notes": "had our data recovered = expert recovered data after crash."
+ },
+ {
+  "prompt": "The airline cancelled our flight this morning.",
+  "answer": "had our flight cancelled",
+  "category": "rephrase",
+  "notes": "had our flight cancelled = airline cancelled morning flight."
+ },
+ {
+  "prompt": "A photographer took our photos at the beach.",
+  "answer": "had our photos taken",
+  "category": "rephrase",
+  "notes": "had our photos taken = photographer took beach photos."
+ },
+ {
+  "prompt": "We asked the porter to carry the luggage.",
+  "answer": "had the porter carry",
+  "category": "rephrase",
+  "notes": "had the porter carry = asked porter to carry luggage."
+ },
+ {
+  "prompt": "We asked the waiter to bring an extra chair.",
+  "answer": "had the waiter bring",
+  "category": "rephrase",
+  "notes": "had the waiter bring = asked waiter for extra chair."
+ },
+ {
+  "prompt": "We had no option but to queue for two hours for tickets.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = unavoidable past action"
+ },
+ {
+  "prompt": "It was necessary for us to show our passports at the gate.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = past obligation at gate."
+ },
+ {
+  "prompt": "The rule required us to turn off phones during the exam.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = exam rule required phones off."
+ },
+ {
+  "prompt": "Someone cleaned all the windows for us recently.",
+  "answer": "have had all the windows cleaned",
+  "category": "rephrase",
+  "notes": "have had all the windows cleaned = windows cleaned recently by cleaner."
+ },
+ {
+  "prompt": "The garage services our car every six months.",
+  "answer": "have our car serviced",
+  "category": "rephrase",
+  "notes": "have our car serviced = garage services car regularly."
+ },
+ {
+  "prompt": "Someone delivers our furniture on Fridays.",
+  "answer": "have our furniture delivered",
+  "category": "rephrase",
+  "notes": "have our furniture delivered = furniture arrives every Friday."
+ },
+ {
+  "prompt": "We have used all the rice. (out)",
+  "answer": "run out of",
+  "category": "rephrase",
+  "notes": "run out of = have no more"
+ },
+ {
+  "prompt": "We left the tap running all night.",
+  "answer": "tap running all",
+  "category": "rephrase",
+  "notes": "tap running all = left tap flowing overnight."
+ },
+ {
+  "prompt": "We respect our teacher greatly. (up)",
+  "answer": "look up to",
+  "category": "rephrase",
+  "notes": "look up to = respect"
+ },
+ {
+  "prompt": "We prepared all that food, but they phoned to say they would not come.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have = wasted food preparation effort."
+ },
+ {
+  "prompt": "We printed every document, but the office works paperless now.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have = printed documents pointlessly now."
+ },
+ {
+  "prompt": "We took heavy jackets, but it was a hot day. It was pointless.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have = jackets unnecessary on hot day."
+ },
+ {
+  "prompt": "We would rather arrive early than late.",
+  "answer": "prefer arriving early",
+  "category": "rephrase",
+  "notes": "prefer arriving early = favor early over late arrival."
+ },
+ {
+  "prompt": "We would rather spend the holiday at home than abroad.",
+  "answer": "prefer spending the",
+  "category": "rephrase",
+  "notes": "prefer spending the = favor home holiday over abroad."
+ },
+ {
+  "prompt": "You were rude to ignore the scientists warnings about global warming.",
+  "answer": "should not have",
+  "category": "rephrase",
+  "notes": "should not have = wrong to ignore warnings."
+ },
+ {
+  "prompt": "They spent half the budget we spent.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = double their budget spending."
+ },
+ {
+  "prompt": "We water plants daily to keep them alive.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = to keep plants alive."
+ },
+ {
+  "prompt": "The teacher made us work hard. (were)",
+  "answer": "were made",
+  "category": "rephrase",
+  "notes": "were made = teacher forced hard work."
+ },
+ {
+  "prompt": "We had a plan to arrive by ten, but the bus broke down.",
+  "answer": "were supposed to",
+  "category": "rephrase",
+  "notes": "were supposed to = planned ten o'clock arrival failed."
+ },
+ {
+  "prompt": "Someone will repair the roof tomorrow.",
+  "answer": "have the roof repaired",
+  "category": "rephrase",
+  "notes": "have the roof repaired = arrange roof repair tomorrow."
+ },
+ {
+  "prompt": "What a pity we lost the final match.",
+  "answer": "wish we had",
+  "category": "rephrase",
+  "notes": "wish we had = regret losing final match."
+ },
+ {
+  "prompt": "We prefer staying at a hotel to camping.",
+  "answer": "would rather stay",
+  "category": "rephrase",
+  "notes": "would rather stay = prefer hotel to camping."
+ },
+ {
+  "prompt": "You must wear a helmet. (compulsory)",
+  "answer": "is compulsory for",
+  "category": "rephrase",
+  "notes": "is compulsory for = helmet wearing is obligatory."
+ },
+ {
+  "prompt": "If the weather permits, we will climb tomorrow.",
+  "answer": "permitting, we will",
+  "category": "rephrase",
+  "notes": "permitting, we will = good weather allows climb."
+ },
+ {
+  "prompt": "He is not a citizen, so he was not allowed to vote in the election.",
+  "answer": "he a citizen",
+  "category": "rephrase",
+  "notes": "he a citizen = if citizen, could have voted."
+ },
+ {
+  "prompt": "He is lazy, so he failed the audit yesterday.",
+  "answer": "he diligent",
+  "category": "rephrase",
+  "notes": "he diligent = if diligent, would have passed."
+ },
+ {
+  "prompt": "He is illiterate in French, so he misread the contract last month.",
+  "answer": "he literate in French",
+  "category": "rephrase",
+  "notes": "he literate in French = if literate, no misreading."
+ },
+ {
+  "prompt": "He is too young, so he was not admitted to the trial.",
+  "answer": "he older",
+  "category": "rephrase",
+  "notes": "he older = if older, admitted to trial."
+ },
+ {
+  "prompt": "He is not over eighteen, so he was not permitted to enter the casino last night.",
+  "answer": "he over eighteen",
+  "category": "rephrase",
+  "notes": "he over eighteen = if adult, casino entry allowed."
+ },
+ {
+  "prompt": "He is not tall enough, so he was rejected by the basketball academy last year.",
+  "answer": "he tall enough",
+  "category": "rephrase",
+  "notes": "he tall enough = if tall, academy acceptance."
+ },
+ {
+  "prompt": "If I were rich, I would travel. (were)",
+  "answer": "I rich",
+  "category": "rephrase",
+  "notes": "I rich = unreal present wealth wish."
+ },
+ {
+  "prompt": "If it were not for her scholarship, she would have dropped out last term.",
+  "answer": "it not for her scholarship",
+  "category": "rephrase",
+  "notes": "it not for her scholarship = scholarship prevented dropout."
+ },
+ {
+  "prompt": "She is careless, so she lost the original manuscript last week.",
+  "answer": "she more careful",
+  "category": "rephrase",
+  "notes": "she more careful = if careful, manuscript kept."
+ },
+ {
+  "prompt": "She lacks experience, so she made a serious error in surgery yesterday.",
+  "answer": "she more experienced",
+  "category": "rephrase",
+  "notes": "she more experienced = if experienced, no surgical error."
+ },
+ {
+  "prompt": "She is afraid of heights, so she did not join the mountain trip last weekend.",
+  "answer": "she not afraid of heights",
+  "category": "rephrase",
+  "notes": "she not afraid of heights = fearlessness meant mountain trip joining."
+ },
+ {
+  "prompt": "She is short-sighted, so she missed the target in the final round.",
+  "answer": "she not short-sighted",
+  "category": "rephrase",
+  "notes": "she not short-sighted = good vision prevents missed target."
+ },
+ {
+  "prompt": "She does not trust him, so she rejected his offer yesterday.",
+  "answer": "she to trust him",
+  "category": "rephrase",
+  "notes": "she to trust him = trust would have accepted offer."
+ },
+ {
+  "prompt": "What persuaded you to change your mind.",
+  "answer": "got you",
+  "category": "rephrase",
+  "notes": "got you = persuaded you to change mind."
+ },
+ {
+  "prompt": "No matter what difficulties arise, we will not abandon the project.",
+  "answer": "difficulties arise",
+  "category": "rephrase",
+  "notes": "difficulties arise = whatever problems come, persist."
+ },
+ {
+  "prompt": "No matter what he cooks, it tastes delicious.",
+  "answer": "he cooks,",
+  "category": "rephrase",
+  "notes": "he cooks, = anything cooked tastes delicious."
+ },
+ {
+  "prompt": "No matter what he says, I will not change my mind.",
+  "answer": "he says",
+  "category": "rephrase",
+  "notes": "he says = anything said, mind unchanged."
+ },
+ {
+  "prompt": "When he was asked about it, he kept silent.",
+  "answer": "asked about it,",
+  "category": "rephrase",
+  "notes": "asked about it, = when questioned stayed silent."
+ },
+ {
+  "prompt": "When baking a cake, do not open the oven.",
+  "answer": "baking a cake,",
+  "category": "rephrase",
+  "notes": "baking a cake, = keep oven shut while baking."
+ },
+ {
+  "prompt": "In problem-solving, he is much better than I am. (match)",
+  "answer": "I am no match for",
+  "category": "rephrase",
+  "notes": "be no match for = be inferior to"
+ },
+ {
+  "prompt": "When it is viewed under a microscope, the virus looks strange.",
+  "answer": "When viewed under a microscope,",
+  "category": "rephrase",
+  "notes": "When viewed under a microscope, = microscopic view looks strange."
+ },
+ {
+  "prompt": "No matter what time it is, do not call him.",
+  "answer": "it is,",
+  "category": "rephrase",
+  "notes": "it is, = at any time, no call."
+ },
+ {
+  "prompt": "No matter when you call, I will answer.",
+  "answer": "you call,",
+  "category": "rephrase",
+  "notes": "you call, = at any call time answer."
+ },
+ {
+  "prompt": "No matter when you call, the helpline is always busy.",
+  "answer": "you call",
+  "category": "rephrase",
+  "notes": "you call = helpline busy whenever calling."
+ },
+ {
+  "prompt": "No matter where they hide, the police will find them.",
+  "answer": "they hide",
+  "category": "rephrase",
+  "notes": "they hide = police find any hiding place."
+ },
+ {
+  "prompt": "No matter where we go, we enjoy Tet together.",
+  "answer": "we go,",
+  "category": "rephrase",
+  "notes": "we go, = enjoy Tet anywhere together."
+ },
+ {
+  "prompt": "No matter which candidate wins, the policy will remain unchanged.",
+  "answer": "candidate",
+  "category": "rephrase",
+  "notes": "candidate = any winner, same policy."
+ },
+ {
+  "prompt": "No matter which school you choose, study hard.",
+  "answer": "school you choose,",
+  "category": "rephrase",
+  "notes": "school you choose, = any school needs hard study."
+ },
+ {
+  "prompt": "While I was reading the paper, the phone rang.",
+  "answer": "reading the paper,",
+  "category": "rephrase",
+  "notes": "reading the paper, = phone rang during reading."
+ },
+ {
+  "prompt": "While I was walking home, I met an old friend.",
+  "answer": "walking home,",
+  "category": "rephrase",
+  "notes": "walking home, = met friend during walk."
+ },
+ {
+  "prompt": "No matter who helps us, we must try first.",
+  "answer": "helps us,",
+  "category": "rephrase",
+  "notes": "helps us, = try first despite any help."
+ },
+ {
+  "prompt": "No matter who objects, the verdict will be announced tomorrow.",
+  "answer": "objects",
+  "category": "rephrase",
+  "notes": "objects = verdict despite any objection."
+ },
+ {
+  "prompt": "No matter who raises the issue, it must be recorded.",
+  "answer": "raises the issue",
+  "category": "rephrase",
+  "notes": "raises the issue = any raiser, issue recorded."
+ },
+ {
+  "prompt": "Because all the tickets were sold out, we watched the match on TV.",
+  "answer": "With all the tickets sold out,",
+  "category": "rephrase",
+  "notes": "With all the tickets sold out, = sold-out tickets forced TV watching."
+ },
+ {
+  "prompt": "Because her heart was beating fast, she could hardly speak.",
+  "answer": "With her heart beating fast,",
+  "category": "rephrase",
+  "notes": "With her heart beating fast, = racing heart left her speechless."
+ },
+ {
+  "prompt": "Because her luggage was packed for the trip, she went to bed early.",
+  "answer": "With her luggage packed for the trip,",
+  "category": "rephrase",
+  "notes": "With her luggage packed for the trip, = packed luggage allowed early bed."
+ },
+ {
+  "prompt": "Because his hands were tied behind his back, he could not escape.",
+  "answer": "With his hands tied behind his back,",
+  "category": "rephrase",
+  "notes": "With his hands tied behind his back, = tied hands prevented escape."
+ },
+ {
+  "prompt": "Because prices were rising fast, people rushed to buy gold.",
+  "answer": "With prices rising fast,",
+  "category": "rephrase",
+  "notes": "With prices rising fast, = rising prices sparked gold rush."
+ },
+ {
+  "prompt": "Because tempers were rising in the debate, the chairman intervened.",
+  "answer": "With tempers rising in the debate,",
+  "category": "rephrase",
+  "notes": "With tempers rising in the debate, = heated debate needed chairman intervention."
+ },
+ {
+  "prompt": "Because the baby was crying loudly next door, I could not sleep.",
+  "answer": "With the baby crying loudly next door,",
+  "category": "rephrase",
+  "notes": "With the baby crying loudly next door, = crying baby ruined sleep."
+ },
+ {
+  "prompt": "Because the bridge was closed for repair, traffic was diverted.",
+  "answer": "With the bridge closed for repair,",
+  "category": "rephrase",
+  "notes": "With the bridge closed for repair, = closed bridge diverted traffic."
+ },
+ {
+  "prompt": "Because the city was surrounded by water, it was hard to attack.",
+  "answer": "With the city surrounded by water,",
+  "category": "rephrase",
+  "notes": "With the city surrounded by water, = water barrier hindered attack."
+ },
+ {
+  "prompt": "Because the company is growing rapidly, it needs more staff.",
+  "answer": "With the company growing rapidly,",
+  "category": "rephrase",
+  "notes": "With the company growing rapidly, = rapid growth demands more staff."
+ },
+ {
+  "prompt": "Because the dog was barking all night, the neighbours complained.",
+  "answer": "With the dog barking all night,",
+  "category": "rephrase",
+  "notes": "With the dog barking all night, = barking dog angered neighbours."
+ },
+ {
+  "prompt": "When the evidence is examined carefully, the truth will emerge.",
+  "answer": "With the evidence examined carefully,",
+  "category": "rephrase",
+  "notes": "With the evidence examined carefully, = careful examination reveals truth."
+ },
+ {
+  "prompt": "Because the exams are approaching, students study late.",
+  "answer": "With the exams approaching,",
+  "category": "rephrase",
+  "notes": "With the exams approaching, = near exams force late study."
+ }
+]

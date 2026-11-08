@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "We will win only if we play as a team.",
+  "answer": "we play as a team will we win.",
+  "category": "inversion",
+  "notes": "we play as a team will we win. = inverted result clause after only if."
+ },
+ {
+  "prompt": "He will help you only if you ask him politely.",
+  "answer": "you ask him politely will he help you.",
+  "category": "inversion",
+  "notes": "you ask him politely will he help you. = inverted result clause after only if."
+ },
+ {
+  "prompt": "You can borrow my car only if you drive carefully.",
+  "answer": "you drive carefully can you borrow my car.",
+  "category": "inversion",
+  "notes": "you drive carefully can you borrow my car. = inverted result clause after only if."
+ },
+ {
+  "prompt": "The door will open only if you enter the code.",
+  "answer": "you enter the code will the door open.",
+  "category": "inversion",
+  "notes": "you enter the code will the door open. = inverted result clause after only if."
+ },
+ {
+  "prompt": "You can pass only if you study. (only)",
+  "answer": "can you pass",
+  "category": "inversion",
+  "notes": "can you pass = inverted ability clause after only if."
+ },
+ {
+  "prompt": "You will make progress only if you study regularly.",
+  "answer": "you study regularly will you make real progress.",
+  "category": "inversion",
+  "notes": "you study regularly will you make real progress. = inverted result clause after only if."
+ },
+ {
+  "prompt": "Call me only if your cold gets worse.",
+  "answer": "your cold gets worse should you call me.",
+  "category": "inversion",
+  "notes": "your cold gets worse should you call me. = inverted result clause after only if."
+ },
+ {
+  "prompt": "She spoke only in a whisper. (only)",
+  "answer": "did she speak",
+  "category": "inversion",
+  "notes": "did she speak = inverted past action after only phrase."
+ },
+ {
+  "prompt": "The problem can be solved only in this way. (only)",
+  "answer": "can the problem be solved",
+  "category": "inversion",
+  "notes": "can the problem be solved = inverted result clause after only phrase."
+ },
+ {
+  "prompt": "You can achieve your goals only in this way.",
+  "answer": "this way can you achieve your goals.",
+  "category": "inversion",
+  "notes": "this way can you achieve your goals. = inverted result clause after only through phrase."
+ },
+ {
+  "prompt": "He knew the truth only later. (only)",
+  "answer": "did he know the truth",
+  "category": "inversion",
+  "notes": "did he know the truth = inverted past action after only phrase."
+ },
+ {
+  "prompt": "I understood only on reading again. (only)",
+  "answer": "did I understand",
+  "category": "inversion",
+  "notes": "did I understand = inverted past action after only phrase."
+ },
+ {
+  "prompt": "He noticed the error only then. (only)",
+  "answer": "did he notice the error",
+  "category": "inversion",
+  "notes": "did he notice the error = inverted past action after only phrase."
+ },
+ {
+  "prompt": "I realised how exhausted I was only then.",
+  "answer": "did I realise how exhausted I was.",
+  "category": "inversion",
+  "notes": "did I realise how exhausted I was. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "You can master English only through daily practice.",
+  "answer": "daily practice can you master English.",
+  "category": "inversion",
+  "notes": "daily practice can you master English. = inverted result clause after only through phrase."
+ },
+ {
+  "prompt": "He confessed only under pressure. (only)",
+  "answer": "did he confess",
+  "category": "inversion",
+  "notes": "did he confess = inverted past action after only phrase."
+ },
+ {
+  "prompt": "He calmed down only when his mother arrived.",
+  "answer": "his mother arrived did he calm down.",
+  "category": "inversion",
+  "notes": "his mother arrived did he calm down. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "I remembered her name only when I saw her face.",
+  "answer": "I saw her face did I remember her name.",
+  "category": "inversion",
+  "notes": "I saw her face did I remember her name. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "We realised the danger only when it was late. (only)",
+  "answer": "did we realise the danger",
+  "category": "inversion",
+  "notes": "did we realise the danger = inverted late event after only when clause."
+ },
+ {
+  "prompt": "She spoke English fluently only when living abroad.",
+  "answer": "living abroad did she speak English fluently.",
+  "category": "inversion",
+  "notes": "living abroad did she speak English fluently. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "He admitted the truth only when shown the evidence.",
+  "answer": "shown the evidence did he admit the truth.",
+  "category": "inversion",
+  "notes": "shown the evidence did he admit the truth. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "She smiled only when the baby laughed.",
+  "answer": "the baby laughed did she smile.",
+  "category": "inversion",
+  "notes": "the baby laughed did she smile. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "Only when the ledger was seized did the embezzlement come to light. (ONLY)",
+  "answer": "the ledger was seized",
+  "category": "inversion",
+  "notes": "the ledger was seized = inverted late event after only when clause."
+ },
+ {
+  "prompt": "The truth was revealed only when the letter arrived. (only)",
+  "answer": "when the letter arrived",
+  "category": "inversion",
+  "notes": "when the letter arrived = inverted late event after only when clause."
+ },
+ {
+  "prompt": "I felt relieved only when the results came out.",
+  "answer": "the results came out did I feel relieved.",
+  "category": "inversion",
+  "notes": "the results came out did I feel relieved. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "They left the shelter only when the storm passed.",
+  "answer": "the storm passed did they leave the shelter.",
+  "category": "inversion",
+  "notes": "the storm passed did they leave the shelter. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "We understood the rule only when the teacher gave examples.",
+  "answer": "the teacher gave examples did we understand the rule.",
+  "category": "inversion",
+  "notes": "the teacher gave examples did we understand the rule. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "I realised it was broken only when they refilled my glass.",
+  "answer": "they refilled my glass did I realise it was broken.",
+  "category": "inversion",
+  "notes": "they refilled my glass did I realise it was broken. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "We found the key only when we moved the sofa.",
+  "answer": "we moved the sofa did we find the key.",
+  "category": "inversion",
+  "notes": "we moved the sofa did we find the key. = inverted late event after only when clause."
+ },
+ {
+  "prompt": "She succeeded only with her parents support.",
+  "answer": "her parents support did she succeed.",
+  "category": "inversion",
+  "notes": "her parents support did she succeed. = inverted result clause after only through phrase."
+ },
+ {
+  "prompt": "The safe opens only with this key. (only)",
+  "answer": "does the safe open",
+  "category": "inversion",
+  "notes": "does the safe open = inverted present rule after only with phrase."
+ },
+ {
+  "prompt": "One can rarely find such excellent craftsmanship.",
+  "answer": "can one find such excellent craftsmanship.",
+  "category": "inversion",
+  "notes": "can one find such excellent craftsmanship. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "People rarely appreciate the value of time. (rarely)",
+  "answer": "do people appreciate",
+  "category": "inversion",
+  "notes": "do people appreciate = inverted present habit with rarely."
+ },
+ {
+  "prompt": "They rarely agree on political issues.",
+  "answer": "do they agree on political issues.",
+  "category": "inversion",
+  "notes": "do they agree on political issues. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "We rarely go out now. (rarely)",
+  "answer": "do we go out now",
+  "category": "inversion",
+  "notes": "do we go out now = inverted present habit with rarely."
+ },
+ {
+  "prompt": "We rarely see such dedication nowadays.",
+  "answer": "do we see such dedication nowadays.",
+  "category": "inversion",
+  "notes": "do we see such dedication nowadays. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "He rarely accepts help from strangers.",
+  "answer": "does he accept help from strangers.",
+  "category": "inversion",
+  "notes": "does he accept help from strangers. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "He rarely goes to the cinema at weekends.",
+  "answer": "does he go to the cinema at weekends.",
+  "category": "inversion",
+  "notes": "does he go to the cinema at weekends. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "He rarely speaks in public. (rarely)",
+  "answer": "does he speak in public",
+  "category": "inversion",
+  "notes": "does he speak in public = inverted present habit with rarely."
+ },
+ {
+  "prompt": "She rarely arrives late for meetings.",
+  "answer": "does she arrive late for meetings.",
+  "category": "inversion",
+  "notes": "does she arrive late for meetings. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "She rarely complains about her workload.",
+  "answer": "does she complain about her workload.",
+  "category": "inversion",
+  "notes": "does she complain about her workload. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "The museum rarely opens before ten o clock.",
+  "answer": "does the museum open before ten o clock.",
+  "category": "inversion",
+  "notes": "does the museum open before ten o clock. = inverted present habit with rarely."
+ },
+ {
+  "prompt": "He had rarely felt so tired. (rarely)",
+  "answer": "had he felt so tired",
+  "category": "inversion",
+  "notes": "had he felt so tired = inverted past perfect event with rarely."
+ },
+ {
+  "prompt": "They had rarely witnessed such courage. (rarely)",
+  "answer": "had they witnessed",
+  "category": "inversion",
+  "notes": "had they witnessed = inverted past perfect event with rarely."
+ },
+ {
+  "prompt": "Rarely has a dissenting opinion reshaped constitutional debate so swiftly. (RARELY)",
+  "answer": "has a dissenting opinion reshaped constitutional debate",
+  "category": "inversion",
+  "notes": "has a dissenting opinion reshaped constitutional debate = inverted present perfect event with rarely."
+ },
+ {
+  "prompt": "We have rarely witnessed such courage in battle.",
+  "answer": "have we witnessed such courage in battle.",
+  "category": "inversion",
+  "notes": "have we witnessed such courage in battle. = inverted present perfect event with rarely."
+ },
+ {
+  "prompt": "Such talent is rarely encountered in schools.",
+  "answer": "is such talent encountered in schools.",
+  "category": "inversion",
+  "notes": "is such talent encountered in schools. = inverted passive statement with rarely."
+ },
+ {
+  "prompt": "As soon as he left the house, it started to rain heavily.",
+  "answer": "had he left the house when it started to rain heavily.",
+  "category": "inversion",
+  "notes": "had he left the house when it started to rain heavily. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "He had just recovered when he fell ill again. (scarcely)",
+  "answer": "had he recovered when he fell ill again",
+  "category": "inversion",
+  "notes": "had he recovered when he fell ill again = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as he stepped off the plane, it started raining.",
+  "answer": "had he stepped off the plane when it started raining.",
+  "category": "inversion",
+  "notes": "had he stepped off the plane when it started raining. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as I lay down, the baby woke up crying.",
+  "answer": "had I lain down when the baby woke up crying.",
+  "category": "inversion",
+  "notes": "had I lain down when the baby woke up crying. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as she finished her speech, reporters surrounded her.",
+  "answer": "had she finished her speech when reporters surrounded her.",
+  "category": "inversion",
+  "notes": "had she finished her speech when reporters surrounded her. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as she got back into bed, her alarm went off.",
+  "answer": "had she got back into bed when her alarm went off.",
+  "category": "inversion",
+  "notes": "had she got back into bed when her alarm went off. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as the announcement was made, the crowd erupted.",
+  "answer": "had the announcement been made when the crowd erupted.",
+  "category": "inversion",
+  "notes": "had the announcement been made when the crowd erupted. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as the doors opened, the crowd rushed inside.",
+  "answer": "had the doors opened when the crowd rushed inside.",
+  "category": "inversion",
+  "notes": "had the doors opened when the crowd rushed inside. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "The film had just begun when the power failed. (scarcely)",
+  "answer": "had the film begun when the power failed",
+  "category": "inversion",
+  "notes": "had the film begun when the power failed = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as the film started, the projector broke down.",
+  "answer": "had the film started when the projector broke down.",
+  "category": "inversion",
+  "notes": "had the film started when the projector broke down. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "Scarcely had the recount begun when observers cried foul. (SCARCELY)",
+  "answer": "had the recount begun",
+  "category": "inversion",
+  "notes": "had the recount begun = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "Immediately after the speech started, it rained. (scarcely)",
+  "answer": "had the speech started when it rained",
+  "category": "inversion",
+  "notes": "had the speech started when it rained = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "They had just eaten when guests came. (scarcely)",
+  "answer": "had they eaten when the guests came",
+  "category": "inversion",
+  "notes": "had they eaten when the guests came = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as they signed the contract, the market collapsed.",
+  "answer": "had they signed the contract when the market collapsed.",
+  "category": "inversion",
+  "notes": "had they signed the contract when the market collapsed. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "As soon as we began the meeting, the alarm sounded.",
+  "answer": "had we begun the meeting when the alarm sounded.",
+  "category": "inversion",
+  "notes": "had we begun the meeting when the alarm sounded. = inverted immediate past sequence with scarcely when."
+ },
+ {
+  "prompt": "I seldom eat out at restaurants.",
+  "answer": "do I eat out at restaurants.",
+  "category": "inversion",
+  "notes": "do I eat out at restaurants. = inverted present habit with seldom."
+ },
+ {
+  "prompt": "They seldom agree. (seldom)",
+  "answer": "do they agree",
+  "category": "inversion",
+  "notes": "do they agree = inverted present habit with seldom."
+ },
+ {
+  "prompt": "They seldom visit their relatives in winter.",
+  "answer": "do they visit their relatives in winter.",
+  "category": "inversion",
+  "notes": "do they visit their relatives in winter. = inverted present habit with seldom."
+ },
+ {
+  "prompt": "We seldom encounter such dedicated students.",
+  "answer": "do we encounter such dedicated students.",
+  "category": "inversion",
+  "notes": "do we encounter such dedicated students. = inverted present habit with seldom."
+ },
+ {
+  "prompt": "He seldom gets angry even under pressure.",
+  "answer": "does he get angry even under pressure.",
+  "category": "inversion",
+  "notes": "does he get angry even under pressure. = inverted present habit with seldom."
+ },
+ {
+  "prompt": "He seldom speaks in public. (seldom)",
+  "answer": "does he speak",
+  "category": "inversion",
+  "notes": "does he speak = inverted present habit with seldom."
+ },
+ {
+  "prompt": "He seldom talks about his past.",
+  "answer": "does he talk about his past.",
+  "category": "inversion",
+  "notes": "does he talk about his past. = inverted present habit with seldom."
+ },
+ {
+  "prompt": "She seldom complains about anything.",
+  "answer": "does she complain about anything.",
+  "category": "inversion",
+  "notes": "does she complain about anything. = inverted present habit with seldom."
+ },
+ {
+  "prompt": "She seldom complains. (seldom)",
+  "answer": "does she complain",
+  "category": "inversion",
+  "notes": "does she complain = inverted present habit with seldom."
+ },
+ {
+  "prompt": "She rarely visits us. (seldom)",
+  "answer": "does she visit us",
+  "category": "inversion",
+  "notes": "does she visit us = inverted present habit with seldom."
+ },
+ {
+  "prompt": "The committee had seldom faced such fierce opposition. (SELDOM)",
+  "answer": "had the committee faced",
+  "category": "inversion",
+  "notes": "had the committee faced = inverted past perfect event with seldom."
+ },
+ {
+  "prompt": "A politician has seldom been so honest with the public.",
+  "answer": "has a politician been so honest with the public.",
+  "category": "inversion",
+  "notes": "has a politician been so honest with the public. = inverted present perfect event with seldom."
+ },
+ {
+  "prompt": "He has seldom been so excited about a project.",
+  "answer": "has he been so excited about a project.",
+  "category": "inversion",
+  "notes": "has he been so excited about a project. = inverted present perfect event with seldom."
+ },
+ {
+  "prompt": "There has seldom been so much rain in this region.",
+  "answer": "has there been so much rain in this region.",
+  "category": "inversion",
+  "notes": "has there been so much rain in this region. = inverted present perfect event with seldom."
+ },
+ {
+  "prompt": "I have seldom heard such a story. (seldom)",
+  "answer": "have I heard such a story",
+  "category": "inversion",
+  "notes": "have I heard such a story = inverted present perfect event with seldom."
+ },
+ {
+  "prompt": "Such kindness is seldom seen nowadays.",
+  "answer": "is such kindness seen nowadays.",
+  "category": "inversion",
+  "notes": "is such kindness seen nowadays. = inverted passive statement with seldom."
+ },
+ {
+  "prompt": "If a compromise should emerge, notify the mediator at once. (SHOULD)",
+  "answer": "a compromise emerge",
+  "category": "inversion",
+  "notes": "a compromise emerge = inverted first conditional without if."
+ },
+ {
+  "prompt": "If a customer wishes to cancel, they should notify us.",
+  "answer": "a customer wish to cancel, they should notify us.",
+  "category": "inversion",
+  "notes": "a customer wish to cancel, they should notify us. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If anyone should call, take a message. (should)",
+  "answer": "anyone call take a message",
+  "category": "inversion",
+  "notes": "anyone call take a message = inverted first conditional without if."
+ },
+ {
+  "prompt": "If the information proves inaccurate, we will correct it.",
+  "answer": "the information prove inaccurate, we will issue a correction.",
+  "category": "inversion",
+  "notes": "the information prove inaccurate, we will issue a correction. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If the plan should fail, retry. (should)",
+  "answer": "the plan fail retry",
+  "category": "inversion",
+  "notes": "the plan fail retry = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you should arrive late, inform us. (should)",
+  "answer": "you arrive late inform us",
+  "category": "inversion",
+  "notes": "you arrive late inform us = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you change your mind, I will buy the car.",
+  "answer": "you change your mind, I will buy the car.",
+  "category": "inversion",
+  "notes": "you change your mind, I will buy the car. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you ever need pens, they are in the cupboard.",
+  "answer": "you ever need pens, they are in the cupboard.",
+  "category": "inversion",
+  "notes": "you ever need pens, they are in the cupboard. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you should find my keys, please call me.",
+  "answer": "you find my keys, please call me.",
+  "category": "inversion",
+  "notes": "you find my keys, please call me. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you should go into town, get me a cola.",
+  "answer": "you go into town, get me a cola.",
+  "category": "inversion",
+  "notes": "you go into town, get me a cola. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you need assistance, contact reception.",
+  "answer": "you need assistance, contact reception.",
+  "category": "inversion",
+  "notes": "you need assistance, contact reception. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you should need money, ask me. (should)",
+  "answer": "you need money ask me",
+  "category": "inversion",
+  "notes": "you need money ask me = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you do not consent, you may inform the company.",
+  "answer": "you not consent, you may inform the company.",
+  "category": "inversion",
+  "notes": "you not consent, you may inform the company. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If you should require a receipt, ask at the desk.",
+  "answer": "you require a receipt, ask at the desk.",
+  "category": "inversion",
+  "notes": "you require a receipt, ask at the desk. = inverted first conditional without if."
+ },
+ {
+  "prompt": "If your child becomes anxious, inform the leader.",
+  "answer": "your child become anxious, inform the leader.",
+  "category": "inversion",
+  "notes": "your child become anxious, inform the leader. = inverted first conditional without if."
+ },
+ {
+  "prompt": "She was so beautiful that I fell in love immediately.",
+  "answer": "beautiful was she that I fell in love immediately.",
+  "category": "inversion",
+  "notes": "beautiful was she that I fell in love immediately. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The symphony was so beautiful that listeners wept quietly.",
+  "answer": "was the symphony that listeners wept quietly.",
+  "category": "inversion",
+  "notes": "was the symphony that listeners wept quietly. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The lecture was so boring that several students fell asleep.",
+  "answer": "was the lecture that several students fell asleep.",
+  "category": "inversion",
+  "notes": "was the lecture that several students fell asleep. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The light was so bright that we could hardly open our eyes.",
+  "answer": "was the light that we could hardly open our eyes.",
+  "category": "inversion",
+  "notes": "was the light that we could hardly open our eyes. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The puzzle was so clever that even teachers struggled to solve it.",
+  "answer": "was the puzzle that even teachers struggled to solve it.",
+  "category": "inversion",
+  "notes": "was the puzzle that even teachers struggled to solve it. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The day was so cold we lit a fire. (so)",
+  "answer": "was the day that we lit a fire",
+  "category": "inversion",
+  "notes": "was the day that we lit a fire = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The winter was so cold that rivers froze solid.",
+  "answer": "was the winter that rivers froze solid.",
+  "category": "inversion",
+  "notes": "was the winter that rivers froze solid. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The problem is so complex that experts disagree on the solution.",
+  "answer": "is the problem that experts disagree on the solution.",
+  "category": "inversion",
+  "notes": "is the problem that experts disagree on the solution. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The problem was so complex that experts disagreed.",
+  "answer": "complex was the problem that experts disagreed.",
+  "category": "inversion",
+  "notes": "complex was the problem that experts disagreed. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The problem was so complex no one solved it. (so)",
+  "answer": "was the problem that no one solved it",
+  "category": "inversion",
+  "notes": "was the problem that no one solved it = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The instructions were so complicated that few workers understood them.",
+  "answer": "were the instructions that few workers understood them.",
+  "category": "inversion",
+  "notes": "were the instructions that few workers understood them. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The evidence is so convincing that jurors reached a quick verdict.",
+  "answer": "is the evidence that jurors reached a quick verdict.",
+  "category": "inversion",
+  "notes": "is the evidence that jurors reached a quick verdict. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The city is so crowded that tourists can hardly move.",
+  "answer": "is the city that tourists can hardly move.",
+  "category": "inversion",
+  "notes": "is the city that tourists can hardly move. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The rescue was so dangerous that helicopters could not land nearby.",
+  "answer": "was the rescue that helicopters could not land nearby.",
+  "category": "inversion",
+  "notes": "was the rescue that helicopters could not land nearby. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "It was so dark that we lost our way.",
+  "answer": "dark was it that we lost our way.",
+  "category": "inversion",
+  "notes": "dark was it that we lost our way. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The silence was so deep that we heard our own breathing.",
+  "answer": "was the silence that we heard our own breathing.",
+  "category": "inversion",
+  "notes": "was the silence that we heard our own breathing. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The exam was so difficult that many students failed.",
+  "answer": "was the exam that many students failed.",
+  "category": "inversion",
+  "notes": "was the exam that many students failed. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "He was so exhausted that he collapsed at the podium. (SO)",
+  "answer": "exhausted was he",
+  "category": "inversion",
+  "notes": "exhausted was he = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The child was so exhausted that she fell asleep standing.",
+  "answer": "was the child that she fell asleep standing.",
+  "category": "inversion",
+  "notes": "was the child that she fell asleep standing. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The apartment was so expensive that nobody could afford the rent.",
+  "answer": "was the apartment that nobody could afford the rent.",
+  "category": "inversion",
+  "notes": "was the apartment that nobody could afford the rent. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "He ran so fast that no one could catch him.",
+  "answer": "fast did he run that no one could catch him.",
+  "category": "inversion",
+  "notes": "fast did he run that no one could catch him. = inverted result clause after so adverb."
+ },
+ {
+  "prompt": "The movie was so frightening that children cried in the cinema.",
+  "answer": "was the movie that children cried in the cinema.",
+  "category": "inversion",
+  "notes": "was the movie that children cried in the cinema. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "So grave was the breach that the licence was revoked outright. (GRAVE)",
+  "answer": "was the breach",
+  "category": "inversion",
+  "notes": "was the breach = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "Her beauty was so great all stared. (so)",
+  "answer": "was her beauty that all stared",
+  "category": "inversion",
+  "notes": "was her beauty that all stared = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The traffic was so heavy that we missed our flight.",
+  "answer": "was the traffic that we missed our flight.",
+  "category": "inversion",
+  "notes": "was the traffic that we missed our flight. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The mountain is so high that climbers need extra oxygen.",
+  "answer": "is the mountain that climbers need extra oxygen.",
+  "category": "inversion",
+  "notes": "is the mountain that climbers need extra oxygen. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The coffee is so hot that customers burned their tongues.",
+  "answer": "is the coffee that customers burned their tongues.",
+  "category": "inversion",
+  "notes": "is the coffee that customers burned their tongues. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "It was so hot we stayed inside. (so)",
+  "answer": "was it that we stayed inside",
+  "category": "inversion",
+  "notes": "was it that we stayed inside = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "They were so hungry they ate quickly. (so)",
+  "answer": "were they that they ate quickly",
+  "category": "inversion",
+  "notes": "were they that they ate quickly = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The discovery was so important that newspapers reported it worldwide.",
+  "answer": "was the discovery that newspapers reported it worldwide.",
+  "category": "inversion",
+  "notes": "was the discovery that newspapers reported it worldwide. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The pressure was so intense that engineers halted the experiment.",
+  "answer": "was the pressure that engineers halted the experiment.",
+  "category": "inversion",
+  "notes": "was the pressure that engineers halted the experiment. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The crowd was so large that police blocked the streets.",
+  "answer": "was the crowd that police blocked the streets.",
+  "category": "inversion",
+  "notes": "was the crowd that police blocked the streets. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The music was so loud that neighbours called the police.",
+  "answer": "was the music that neighbours called the police.",
+  "category": "inversion",
+  "notes": "was the music that neighbours called the police. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The music was so loud we could not talk. (so)",
+  "answer": "was the music that we could not talk",
+  "category": "inversion",
+  "notes": "was the music that we could not talk = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The music was so loud that windows shook.",
+  "answer": "loud was the music that windows shook.",
+  "category": "inversion",
+  "notes": "loud was the music that windows shook. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The hotel is so luxurious that celebrities stay there regularly.",
+  "answer": "is the hotel that celebrities stay there regularly.",
+  "category": "inversion",
+  "notes": "is the hotel that celebrities stay there regularly. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The river is so polluted that fish cannot survive in it.",
+  "answer": "is the river that fish cannot survive in it.",
+  "category": "inversion",
+  "notes": "is the river that fish cannot survive in it. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "Her speech was so powerful that the audience fell silent.",
+  "answer": "was her speech that the audience fell silent.",
+  "category": "inversion",
+  "notes": "was her speech that the audience fell silent. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "She spoke so quickly that nobody understood her.",
+  "answer": "quickly did she speak that nobody understood her.",
+  "category": "inversion",
+  "notes": "quickly did she speak that nobody understood her. = inverted result clause after so adverb."
+ },
+ {
+  "prompt": "The city grew so fast that infrastructure failed.",
+  "answer": "rapidly did the city grow that infrastructure failed.",
+  "category": "inversion",
+  "notes": "rapidly did the city grow that infrastructure failed. = inverted result clause after so adverb."
+ },
+ {
+  "prompt": "The drought was so severe that farmers lost entire harvests.",
+  "answer": "was the drought that farmers lost entire harvests.",
+  "category": "inversion",
+  "notes": "was the drought that farmers lost entire harvests. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "She was so shocked that she could not speak.",
+  "answer": "shocked was she that she could not speak.",
+  "category": "inversion",
+  "notes": "shocked was she that she could not speak. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The news was so shocking that everyone gasped in disbelief.",
+  "answer": "was the news that everyone gasped in disbelief.",
+  "category": "inversion",
+  "notes": "was the news that everyone gasped in disbelief. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The boxer was so strong that no opponent lasted three rounds.",
+  "answer": "was the boxer that no opponent lasted three rounds.",
+  "category": "inversion",
+  "notes": "was the boxer that no opponent lasted three rounds. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The view is so stunning that photographers gather there daily.",
+  "answer": "is the view that photographers gather there daily.",
+  "category": "inversion",
+  "notes": "is the view that photographers gather there daily. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The results were so surprising that analysts revised their forecasts.",
+  "answer": "were the results that analysts revised their forecasts.",
+  "category": "inversion",
+  "notes": "were the results that analysts revised their forecasts. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The negotiations were so tense that delegates refused to speak.",
+  "answer": "were the negotiations that delegates refused to speak.",
+  "category": "inversion",
+  "notes": "were the negotiations that delegates refused to speak. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The fog was so thick that drivers abandoned their cars.",
+  "answer": "was the fog that drivers abandoned their cars.",
+  "category": "inversion",
+  "notes": "was the fog that drivers abandoned their cars. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "He was so tired that he fell asleep at once.",
+  "answer": "tired was he that he fell asleep at once.",
+  "category": "inversion",
+  "notes": "tired was he that he fell asleep at once. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "He was so tired he fell asleep. (so)",
+  "answer": "was he that he fell asleep",
+  "category": "inversion",
+  "notes": "was he that he fell asleep = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The task is so urgent that managers cancelled all meetings.",
+  "answer": "is the task that managers cancelled all meetings.",
+  "category": "inversion",
+  "notes": "is the task that managers cancelled all meetings. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The desert was so vast that travellers lost their way easily.",
+  "answer": "was the desert that travellers lost their way easily.",
+  "category": "inversion",
+  "notes": "was the desert that travellers lost their way easily. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The storm was so violent that entire villages were evacuated.",
+  "answer": "was the storm that entire villages were evacuated.",
+  "category": "inversion",
+  "notes": "was the storm that entire villages were evacuated. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "The storm was so violent that trees were uprooted.",
+  "answer": "violent was the storm that trees were uprooted.",
+  "category": "inversion",
+  "notes": "violent was the storm that trees were uprooted. = inverted result clause after so adjective."
+ },
+ {
+  "prompt": "It was such a difficult exam that many failed.",
+  "answer": "a difficult exam was it that many failed.",
+  "category": "inversion",
+  "notes": "a difficult exam was it that many failed. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "He told such a funny story that all laughed.",
+  "answer": "a funny story did he tell that all laughed.",
+  "category": "inversion",
+  "notes": "a funny story did he tell that all laughed. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such a loud noise that everyone woke up.",
+  "answer": "a loud noise was it that everyone woke up.",
+  "category": "inversion",
+  "notes": "a loud noise was it that everyone woke up. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such a mess that we needed hours to clean.",
+  "answer": "a mess was it that we needed hours to clean.",
+  "category": "inversion",
+  "notes": "a mess was it that we needed hours to clean. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such a sunset that I had never seen.",
+  "answer": "a sunset was it that I had never seen its equal.",
+  "category": "inversion",
+  "notes": "a sunset was it that I had never seen its equal. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "She is such a talented singer that crowds gather.",
+  "answer": "a talented singer is she that crowds gather.",
+  "category": "inversion",
+  "notes": "a talented singer is she that crowds gather. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "He is such an intelligent boy that teachers praise him.",
+  "answer": "an intelligent boy is he that teachers praise him.",
+  "category": "inversion",
+  "notes": "an intelligent boy is he that teachers praise him. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such chaos that I had never seen.",
+  "answer": "chaos was it that I had never seen its like.",
+  "category": "inversion",
+  "notes": "chaos was it that I had never seen its like. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such good news that we celebrated.",
+  "answer": "good news was it that we celebrated.",
+  "category": "inversion",
+  "notes": "good news was it that we celebrated. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her influence is such that ministers follow her proposals.",
+  "answer": "is her influence that ministers follow her proposals.",
+  "category": "inversion",
+  "notes": "is her influence that ministers follow her proposals. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His dedication is such that colleagues trust him completely.",
+  "answer": "is his dedication that colleagues trust him completely.",
+  "category": "inversion",
+  "notes": "is his dedication that colleagues trust him completely. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The complexity is such that analysts need weeks to finish.",
+  "answer": "is the complexity that analysts need weeks to finish.",
+  "category": "inversion",
+  "notes": "is the complexity that analysts need weeks to finish. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The fog is such that drivers cannot see ahead.",
+  "answer": "is the fog that drivers cannot see ahead.",
+  "category": "inversion",
+  "notes": "is the fog that drivers cannot see ahead. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The pressure is such that divers need special equipment.",
+  "answer": "is the pressure that divers need special equipment.",
+  "category": "inversion",
+  "notes": "is the pressure that divers need special equipment. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The simplicity is such that beginners master it quickly.",
+  "answer": "is the simplicity that beginners master it quickly.",
+  "category": "inversion",
+  "notes": "is the simplicity that beginners master it quickly. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "They are such kind people that neighbours love them.",
+  "answer": "kind people are they that neighbours love them.",
+  "category": "inversion",
+  "notes": "kind people are they that neighbours love them. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her beauty was such that painters queued to portray her.",
+  "answer": "was her beauty that painters queued to portray her.",
+  "category": "inversion",
+  "notes": "was her beauty that painters queued to portray her. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her eloquence was such that audiences listened in silence.",
+  "answer": "was her eloquence that audiences listened in silence.",
+  "category": "inversion",
+  "notes": "was her eloquence that audiences listened in silence. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her grief was such that friends stayed with her daily.",
+  "answer": "was her grief that friends stayed with her daily.",
+  "category": "inversion",
+  "notes": "was her grief that friends stayed with her daily. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her kindness was such that strangers remembered her for years.",
+  "answer": "was her kindness that strangers remembered her for years.",
+  "category": "inversion",
+  "notes": "was her kindness that strangers remembered her for years. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her patience was such that children adored her classes.",
+  "answer": "was her patience that children adored her classes.",
+  "category": "inversion",
+  "notes": "was her patience that children adored her classes. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Her talent was such that orchestras competed to hire her.",
+  "answer": "was her talent that orchestras competed to hire her.",
+  "category": "inversion",
+  "notes": "was her talent that orchestras competed to hire her. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His anger was such that nobody dared to approach him.",
+  "answer": "was his anger that nobody dared to approach him.",
+  "category": "inversion",
+  "notes": "was his anger that nobody dared to approach him. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His arrogance was such that partners ended the contract.",
+  "answer": "was his arrogance that partners ended the contract.",
+  "category": "inversion",
+  "notes": "was his arrogance that partners ended the contract. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His disappointment was such that he refused to speak.",
+  "answer": "was his disappointment that he refused to speak.",
+  "category": "inversion",
+  "notes": "was his disappointment that he refused to speak. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His fame was such that crowds followed him everywhere.",
+  "answer": "was his fame that crowds followed him everywhere.",
+  "category": "inversion",
+  "notes": "was his fame that crowds followed him everywhere. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His generosity was such that charities honoured him publicly.",
+  "answer": "was his generosity that charities honoured him publicly.",
+  "category": "inversion",
+  "notes": "was his generosity that charities honoured him publicly. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His strength was such that he could bend iron bars.",
+  "answer": "was his strength that he could bend iron bars.",
+  "category": "inversion",
+  "notes": "was his strength that he could bend iron bars. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "His wisdom was such that kings sought his advice.",
+  "answer": "was his wisdom that kings sought his advice.",
+  "category": "inversion",
+  "notes": "was his wisdom that kings sought his advice. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such a good book I read twice. (such)",
+  "answer": "was the book that I read it twice",
+  "category": "inversion",
+  "notes": "was the book that I read it twice = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The chaos was such that police closed the station.",
+  "answer": "was the chaos that police closed the station.",
+  "category": "inversion",
+  "notes": "was the chaos that police closed the station. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The cold was such that pipes burst across the town.",
+  "answer": "was the cold that pipes burst across the town.",
+  "category": "inversion",
+  "notes": "was the cold that pipes burst across the town. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The confusion was such that flights were delayed for hours.",
+  "answer": "was the confusion that flights were delayed for hours.",
+  "category": "inversion",
+  "notes": "was the confusion that flights were delayed for hours. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The damage was such that engineers condemned the bridge.",
+  "answer": "was the damage that engineers condemned the bridge.",
+  "category": "inversion",
+  "notes": "was the damage that engineers condemned the bridge. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The demand was such that factories worked through the night.",
+  "answer": "was the demand that factories worked through the night.",
+  "category": "inversion",
+  "notes": "was the demand that factories worked through the night. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The excitement was such that tickets sold out in minutes.",
+  "answer": "was the excitement that tickets sold out in minutes.",
+  "category": "inversion",
+  "notes": "was the excitement that tickets sold out in minutes. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The heat was such that roads began to melt.",
+  "answer": "was the heat that roads began to melt.",
+  "category": "inversion",
+  "notes": "was the heat that roads began to melt. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The hunger was such that volunteers distributed food hourly.",
+  "answer": "was the hunger that volunteers distributed food hourly.",
+  "category": "inversion",
+  "notes": "was the hunger that volunteers distributed food hourly. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The joy was such that villagers celebrated for three days.",
+  "answer": "was the joy that villagers celebrated for three days.",
+  "category": "inversion",
+  "notes": "was the joy that villagers celebrated for three days. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The noise was such that residents could not sleep at all.",
+  "answer": "was the noise that residents could not sleep at all.",
+  "category": "inversion",
+  "notes": "was the noise that residents could not sleep at all. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The panic was such that shoppers trampled the displays.",
+  "answer": "was the panic that shoppers trampled the displays.",
+  "category": "inversion",
+  "notes": "was the panic that shoppers trampled the displays. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The poverty was such that aid agencies intervened urgently.",
+  "answer": "was the poverty that aid agencies intervened urgently.",
+  "category": "inversion",
+  "notes": "was the poverty that aid agencies intervened urgently. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The textile mills were so profitable that merchants built mansions overnight. (SUCH)",
+  "answer": "was the profitability of the textile mills",
+  "category": "inversion",
+  "notes": "was the profitability of the textile mills = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The secrecy was such that reporters uncovered nothing.",
+  "answer": "was the secrecy that reporters uncovered nothing.",
+  "category": "inversion",
+  "notes": "was the secrecy that reporters uncovered nothing. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The storm was so severe that all flights were cancelled. (such)",
+  "answer": "was the severity of the storm",
+  "category": "inversion",
+  "notes": "was the severity of the storm = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The shock was so great we froze. (such)",
+  "answer": "was the shock that we froze",
+  "category": "inversion",
+  "notes": "was the shock that we froze = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "It was such a storm we hid. (such)",
+  "answer": "was the storm that we hid",
+  "category": "inversion",
+  "notes": "was the storm that we hid = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "The tension was such that negotiators walked out twice.",
+  "answer": "was the tension that negotiators walked out twice.",
+  "category": "inversion",
+  "notes": "was the tension that negotiators walked out twice. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Their courage was such that even enemies respected them.",
+  "answer": "was their courage that even enemies respected them.",
+  "category": "inversion",
+  "notes": "was their courage that even enemies respected them. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Their loyalty was such that soldiers never abandoned their posts.",
+  "answer": "was their loyalty that soldiers never abandoned their posts.",
+  "category": "inversion",
+  "notes": "was their loyalty that soldiers never abandoned their posts. = inverted result clause after such phrase."
+ },
+ {
+  "prompt": "Students may never leave the building without permission.",
+  "answer": "are students allowed to leave the building without permission.",
+  "category": "inversion",
+  "notes": "are students allowed to leave the building without permission. = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "Cheating is never allowed under any circumstances. (circumstances)",
+  "answer": "is cheating allowed",
+  "category": "inversion",
+  "notes": "is cheating allowed = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "No one under any circumstances may disclose the proceedings. (CIRCUMSTANCES)",
+  "answer": "may anyone disclose",
+  "category": "inversion",
+  "notes": "may anyone disclose = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "You may never smoke in this hospital.",
+  "answer": "may you smoke in this hospital.",
+  "category": "inversion",
+  "notes": "may you smoke in this hospital. = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "The gate must never be left unlocked at night.",
+  "answer": "must the gate be left unlocked at night.",
+  "category": "inversion",
+  "notes": "must the gate be left unlocked at night. = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "You must not reveal secrets under any circumstances. (circumstances)",
+  "answer": "must you reveal secrets",
+  "category": "inversion",
+  "notes": "must you reveal secrets = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "Children must never travel without an adult.",
+  "answer": "should children travel without an adult.",
+  "category": "inversion",
+  "notes": "should children travel without an adult. = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "Employees must never access files without authorisation.",
+  "answer": "should employees access files without authorisation.",
+  "category": "inversion",
+  "notes": "should employees access files without authorisation. = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "Small children must never play alone near the river.",
+  "answer": "should small children play alone near the river.",
+  "category": "inversion",
+  "notes": "should small children play alone near the river. = inverted prohibition meaning never allowed."
+ },
+ {
+  "prompt": "Preservation of landmarks must never be sacrificed for profit.",
+  "answer": "should the preservation of landmarks be sacrificed for profit.",
+  "category": "inversion",
+  "notes": "should the preservation of landmarks be sacrificed for profit. = inverted prohibition meaning never allowed."
+ }
+]

@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "He persuaded a colleague to cover his shift.",
+  "answer": "got a colleague",
+  "category": "rephrase",
+  "notes": "got a colleague = persuaded a colleague to help."
+ },
+ {
+  "prompt": "Someone fixed his bike yesterday.",
+  "answer": "got his bike fixed",
+  "category": "rephrase",
+  "notes": "got his bike fixed = had his bike repaired by someone."
+ },
+ {
+  "prompt": "He recovered from the shock. (over)",
+  "answer": "got over",
+  "category": "rephrase",
+  "notes": "get over = recover from"
+ },
+ {
+  "prompt": "He convinced the dentist to see him at midnight.",
+  "answer": "got the dentist",
+  "category": "rephrase",
+  "notes": "got the dentist = persuaded the dentist to help."
+ },
+ {
+  "prompt": "A tailor made a new suit for him last week.",
+  "answer": "had a new suit made",
+  "category": "rephrase",
+  "notes": "had a new suit made = ordered a new suit from tailor."
+ },
+ {
+  "prompt": "He had his car repaired yesterday.",
+  "answer": "his car repaired",
+  "category": "rephrase",
+  "notes": "his car repaired = got car fixed by garage."
+ },
+ {
+  "prompt": "The optician tested his eyes this morning.",
+  "answer": "had his eyes tested",
+  "category": "rephrase",
+  "notes": "had his eyes tested = got eyes examined by optician."
+ },
+ {
+  "prompt": "The police revoked his licence last year.",
+  "answer": "had his licence revoked",
+  "category": "rephrase",
+  "notes": "had his licence revoked = lost licence as punishment."
+ },
+ {
+  "prompt": "An editor revised his manuscript carefully.",
+  "answer": "had his manuscript edited",
+  "category": "rephrase",
+  "notes": "had his manuscript edited = got manuscript revised professionally."
+ },
+ {
+  "prompt": "Thieves stole his wallet on the bus.",
+  "answer": "had his wallet stolen",
+  "category": "rephrase",
+  "notes": "had his wallet stolen = lost wallet to thieves."
+ },
+ {
+  "prompt": "He asked the barber to trim his beard.",
+  "answer": "had the barber trim",
+  "category": "rephrase",
+  "notes": "had the barber trim = asked barber to trim beard."
+ },
+ {
+  "prompt": "He told the driver to wait outside.",
+  "answer": "had the driver wait",
+  "category": "rephrase",
+  "notes": "had the driver wait = told driver to wait outside."
+ },
+ {
+  "prompt": "He told the gardener to prune the trees.",
+  "answer": "had the gardener prune",
+  "category": "rephrase",
+  "notes": "had the gardener prune = told gardener to prune trees."
+ },
+ {
+  "prompt": "He instructed the guard to lock the gates.",
+  "answer": "had the guard lock",
+  "category": "rephrase",
+  "notes": "had the guard lock = ordered guard to lock gates."
+ },
+ {
+  "prompt": "He told the receptionist to send the fax.",
+  "answer": "had the receptionist send",
+  "category": "rephrase",
+  "notes": "had the receptionist send = asked receptionist to send fax."
+ },
+ {
+  "prompt": "Circumstances forced him to sell his car cheaply.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = circumstantial necessity"
+ },
+ {
+  "prompt": "The doctor said it was essential for him to stay in bed.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = needed to stay in bed."
+ },
+ {
+  "prompt": "The last time he visited Hanoi was in 2019. (since)",
+  "answer": "not visited Hanoi since",
+  "category": "rephrase",
+  "notes": "not visited Hanoi since = has been absent since 2019."
+ },
+ {
+  "prompt": "His last visit was two months ago. (since)",
+  "answer": "has not visited since",
+  "category": "rephrase",
+  "notes": "last ... ago = has not ... since - correct: for two months"
+ },
+ {
+  "prompt": "He has double the votes she has.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = twice as many votes as."
+ },
+ {
+  "prompt": "He hid because he was afraid the police would find him.",
+  "answer": "hid lest the",
+  "category": "rephrase",
+  "notes": "hid lest the = hid to avoid police finding."
+ },
+ {
+  "prompt": "He insisted that she should attend the meeting.",
+  "answer": "she attend the",
+  "category": "rephrase",
+  "notes": "she attend the = demanded she attend meeting."
+ },
+ {
+  "prompt": "He insisted that she should not pay for dinner.",
+  "answer": "not pay",
+  "category": "rephrase",
+  "notes": "not pay = demanded she pay nothing."
+ },
+ {
+  "prompt": "He invests in stocks with a view to retiring early.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to retire early purposely."
+ },
+ {
+  "prompt": "She invited half the guests he invited.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = twice as many guests as."
+ },
+ {
+  "prompt": "He drives carefully. (careful)",
+  "answer": "a careful",
+  "category": "rephrase",
+  "notes": "a careful = drives in careful way."
+ },
+ {
+  "prompt": "He will probably win. (bound)",
+  "answer": "bound to",
+  "category": "rephrase",
+  "notes": "be bound to V = will probably V"
+ },
+ {
+  "prompt": "He is much more careful than his colleague.",
+  "answer": "far more",
+  "category": "rephrase",
+  "notes": "far more = much more careful than."
+ },
+ {
+  "prompt": "He is too careless to become a surgeon.",
+  "answer": "not careful enough",
+  "category": "rephrase",
+  "notes": "not careful enough = too careless for surgeon."
+ },
+ {
+  "prompt": "He is too young to drive a car. (old)",
+  "answer": "not old enough",
+  "category": "rephrase",
+  "notes": "not old enough = too young to drive."
+ },
+ {
+  "prompt": "He is too young to drive. (old)",
+  "answer": "old enough",
+  "category": "rephrase",
+  "notes": "old enough = sufficiently old to drive."
+ },
+ {
+  "prompt": "People say he is rich. (said)",
+  "answer": "is said to be",
+  "category": "rephrase",
+  "notes": "is said to be = reportedly is rich."
+ },
+ {
+  "prompt": "He is such a famous singer that fans queue overnight.",
+  "answer": "so famous",
+  "category": "rephrase",
+  "notes": "so famous = very famous singer that."
+ },
+ {
+  "prompt": "He is such an intelligent boy that he solved every puzzle.",
+  "answer": "so intelligent",
+  "category": "rephrase",
+  "notes": "so intelligent = very smart boy that."
+ },
+ {
+  "prompt": "He is such a kind man that neighbours love him.",
+  "answer": "so kind",
+  "category": "rephrase",
+  "notes": "so kind = very kind man that."
+ },
+ {
+  "prompt": "He is strong enough to carry the suitcase.",
+  "answer": "too strong",
+  "category": "rephrase",
+  "notes": "too strong = strong enough to carry."
+ },
+ {
+  "prompt": "He joined clubs to make new friends.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to make new friends purposely."
+ },
+ {
+  "prompt": "He locked the door because he feared thieves might enter.",
+  "answer": "lest thieves should",
+  "category": "rephrase",
+  "notes": "lest thieves should = to prevent thieves entering."
+ },
+ {
+  "prompt": "He looks like he has seen a ghost.",
+  "answer": "he had seen",
+  "category": "rephrase",
+  "notes": "he had seen = seemed to have seen ghost."
+ },
+ {
+  "prompt": "He despises people who lie. (looks)",
+  "answer": "looks down on",
+  "category": "rephrase",
+  "notes": "look down on = despise"
+ },
+ {
+  "prompt": "I am sure he drove too fast; the skid marks are twenty metres long.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = deduction from physical evidence"
+ },
+ {
+  "prompt": "I am sure he left the air conditioning on; the office is freezing this morning.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = deduction about past oversight"
+ },
+ {
+  "prompt": "I am sure he missed the bus this morning; he is usually here by now and looks breathless.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = deduction about probable cause"
+ },
+ {
+  "prompt": "He called his ex-girlfriend, which was completely unnecessary.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = unnecessary past act"
+ },
+ {
+  "prompt": "He waited for hours, but the train had already left.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = vain wait"
+ },
+ {
+  "prompt": "He washed the dishes by hand, but I would have put them in the dishwasher.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = offer makes prior act unnecessary"
+ },
+ {
+  "prompt": "He objected to working on Sundays.",
+  "answer": "to working",
+  "category": "rephrase",
+  "notes": "to working = opposed working on Sundays."
+ },
+ {
+  "prompt": "He quickly admitted that he had played tricks on the new boy. (fast)",
+  "answer": "owned up fast to playing tricks",
+  "category": "rephrase",
+  "notes": "own up to + V-ing = admit; fast retained as adverb"
+ },
+ {
+  "prompt": "He owns twice the books I own.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = twice as many books as."
+ },
+ {
+  "prompt": "He noticed the error immediately. (attention)",
+  "answer": "paid attention to",
+  "category": "rephrase",
+  "notes": "notice = pay attention to"
+ },
+ {
+  "prompt": "He would rather be a teacher than a doctor.",
+  "answer": "prefers being a",
+  "category": "rephrase",
+  "notes": "prefers being a = likes teaching more than doctoring."
+ },
+ {
+  "prompt": "He likes novels more than comics. (prefers)",
+  "answer": "prefers novels to",
+  "category": "rephrase",
+  "notes": "prefers novels to = likes novels more than comics."
+ },
+ {
+  "prompt": "He would rather work overtime than lose his job.",
+  "answer": "prefers working overtime",
+  "category": "rephrase",
+  "notes": "prefers working overtime = prefers overtime to job loss."
+ },
+ {
+  "prompt": "He made such rapid progress that teachers praised him.",
+  "answer": "so rapidly",
+  "category": "rephrase",
+  "notes": "so rapidly = progressed very fast that."
+ },
+ {
+  "prompt": "He queued long with a view to buying tickets.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to buy tickets purposely."
+ },
+ {
+  "prompt": "He ran fast enough to win the race.",
+  "answer": "too fast",
+  "category": "rephrase",
+  "notes": "too fast = fast enough to win race."
+ },
+ {
+  "prompt": "He requested that his application should be reconsidered soon.",
+  "answer": "be reconsidered",
+  "category": "rephrase",
+  "notes": "be reconsidered = asked application be reviewed again."
+ },
+ {
+  "prompt": "He resigned because of the scandal. (account)",
+  "answer": "on account of",
+  "category": "rephrase",
+  "notes": "on account of = because of"
+ },
+ {
+  "prompt": "He runs far faster than I do.",
+  "answer": "lot faster",
+  "category": "rephrase",
+  "notes": "lot faster = much faster than me."
+ },
+ {
+  "prompt": "He runs daily in order to stay fit.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = to stay fit purposely."
+ },
+ {
+  "prompt": "He apologised for being late. (sorry)",
+  "answer": "he was sorry for",
+  "category": "rephrase",
+  "notes": "he was sorry for = apologised for being late."
+ },
+ {
+  "prompt": "He said he would come tomorrow. (following)",
+  "answer": "the following",
+  "category": "rephrase",
+  "notes": "the following = next day after statement."
+ },
+ {
+  "prompt": "He started repairing the roof. (about)",
+  "answer": "set about",
+  "category": "rephrase",
+  "notes": "set about + V-ing = start"
+ },
+ {
+  "prompt": "He had better apologise for his rudeness.",
+  "answer": "should apologise for",
+  "category": "rephrase",
+  "notes": "should apologise for = had better apologise now."
+ },
+ {
+  "prompt": "He regrets not listening to his parents advice about a healthy lifestyle.",
+  "answer": "should have",
+  "category": "rephrase",
+  "notes": "should have + pp = regret; action did not happen"
+ },
+ {
+  "prompt": "It was wrong of him to drive through the red light.",
+  "answer": "shouldn't have",
+  "category": "rephrase",
+  "notes": "shouldn't have + pp = past disapproval"
+ },
+ {
+  "prompt": "He was careless to leave the door unlocked.",
+  "answer": "shouldn't have",
+  "category": "rephrase",
+  "notes": "shouldn't have + pp = carelessness criticised"
+ },
+ {
+  "prompt": "He admits it was wrong to lie to the committee.",
+  "answer": "shouldn't have",
+  "category": "rephrase",
+  "notes": "shouldn't have + pp = ethical criticism"
+ },
+ {
+  "prompt": "He feels guilty for shouting at the children.",
+  "answer": "shouldn't have",
+  "category": "rephrase",
+  "notes": "shouldn't have + pp = guilt over committed act"
+ },
+ {
+  "prompt": "He speaks far more persuasively than his opponent.",
+  "answer": "lot more",
+  "category": "rephrase",
+  "notes": "lot more = much more persuasively than."
+ },
+ {
+  "prompt": "He spends hours playing chess every evening.",
+  "answer": "playing chess",
+  "category": "rephrase",
+  "notes": "playing chess = spends evenings playing chess."
+ },
+ {
+  "prompt": "He spoke so fast that nobody understood. (such)",
+  "answer": "such a speed that",
+  "category": "rephrase",
+  "notes": "so adj that = such N that"
+ },
+ {
+  "prompt": "He has worked here for ten years. (ago)",
+  "answer": "ten years ago",
+  "category": "rephrase",
+  "notes": "for + period = ago rewrite"
+ },
+ {
+  "prompt": "He studied abroad to broaden his mind.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to broaden mind purposely."
+ },
+ {
+  "prompt": "He studied hard to pass. (order)",
+  "answer": "in order to succeed in",
+  "category": "rephrase",
+  "notes": "in order to succeed in = studied hard to pass successfully."
+ },
+ {
+  "prompt": "He studies hard to pass the gifted exam.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = to pass gifted exam."
+ },
+ {
+  "prompt": "He managed to solve the puzzle. (succeeded)",
+  "answer": "succeeded in solving",
+  "category": "rephrase",
+  "notes": "succeed in + V-ing = manage to V"
+ },
+ {
+  "prompt": "He suggested going by train.",
+  "answer": "suggested going by",
+  "category": "rephrase",
+  "notes": "suggested going by = proposed travelling by train."
+ },
+ {
+  "prompt": "He behaves like his father. (after)",
+  "answer": "takes after",
+  "category": "rephrase",
+  "notes": "take after = resemble"
+ },
+ {
+  "prompt": "He talks like he owns the place.",
+  "answer": "as though",
+  "category": "rephrase",
+  "notes": "as though = talks as if owning place."
+ },
+ {
+  "prompt": "He tiptoed so that he would not wake the baby.",
+  "answer": "lest he",
+  "category": "rephrase",
+  "notes": "lest he = to avoid waking baby."
+ },
+ {
+  "prompt": "He took the blame to shield his accomplice. (SO)",
+  "answer": "so as to shield",
+  "category": "rephrase",
+  "notes": "so as to shield = to protect accomplice purposely."
+ },
+ {
+  "prompt": "He treats me like I am a child.",
+  "answer": "I were a",
+  "category": "rephrase",
+  "notes": "I were a = treats me as child."
+ },
+ {
+  "prompt": "He turned off lights to save electricity.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = to save electricity purposely."
+ },
+ {
+  "prompt": "He appeared unexpectedly. (up)",
+  "answer": "turned up",
+  "category": "rephrase",
+  "notes": "turn up = appear"
+ },
+ {
+  "prompt": "He walks like he is drunk.",
+  "answer": "though he were",
+  "category": "rephrase",
+  "notes": "though he were = walks as if drunk."
+ },
+ {
+  "prompt": "He was accused of stealing the documents.",
+  "answer": "of stealing",
+  "category": "rephrase",
+  "notes": "of stealing = accused of stealing documents."
+ },
+ {
+  "prompt": "She accused him of stealing. (charged)",
+  "answer": "charged with",
+  "category": "rephrase",
+  "notes": "accuse of = charge with"
+ },
+ {
+  "prompt": "He stole the bike and was punished. (caught)",
+  "answer": "for having stolen",
+  "category": "rephrase",
+  "notes": "for having stolen = punished for stealing bike."
+ },
+ {
+  "prompt": "He had an arrangement to be here and meet his uncle, but he never came.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to + base = unfulfilled arrangement; not advice"
+ },
+ {
+  "prompt": "He had promised to call me last night, but I heard nothing.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to = promised action; should have called also possible but arrangement focus"
+ },
+ {
+  "prompt": "He was used to getting up early.",
+  "answer": "to getting",
+  "category": "rephrase",
+  "notes": "to getting = accustomed to early rising."
+ },
+ {
+  "prompt": "He was under no obligation to take the math class, but he wanted to.",
+  "answer": "wasn't supposed to",
+  "category": "rephrase",
+  "notes": "wasn't supposed to here = no expectation; trap vs should not have which would criticise"
+ },
+ {
+  "prompt": "He whispered so that the baby would not wake.",
+  "answer": "in order that",
+  "category": "rephrase",
+  "notes": "in order that = whispered to keep baby asleep."
+ },
+ {
+  "prompt": "The dentist will extract his tooth tomorrow.",
+  "answer": "have his tooth extracted",
+  "category": "rephrase",
+  "notes": "have his tooth extracted = will get tooth removed tomorrow."
+ },
+ {
+  "prompt": "He is sorry he ate so much cake.",
+  "answer": "wishes he had not",
+  "category": "rephrase",
+  "notes": "wishes he had not = regrets eating much cake."
+ },
+ {
+  "prompt": "He regrets shouting at his younger sister.",
+  "answer": "wishes he had",
+  "category": "rephrase",
+  "notes": "wishes he had = regrets shouting at sister."
+ },
+ {
+  "prompt": "He wants to be taller for the basketball team.",
+  "answer": "wishes he were",
+  "category": "rephrase",
+  "notes": "wishes he were = wants to be taller now."
+ },
+ {
+  "prompt": "He wore a coat so as not to catch cold.",
+  "answer": "in order not to",
+  "category": "rephrase",
+  "notes": "in order not to = wore coat to avoid cold."
+ },
+ {
+  "prompt": "He wore a coat because he was afraid he would catch a cold.",
+  "answer": "coat lest he",
+  "category": "rephrase",
+  "notes": "coat lest he = wore coat fearing cold."
+ },
+ {
+  "prompt": "He works a lot harder than his brother.",
+  "answer": "much harder",
+  "category": "rephrase",
+  "notes": "much harder = works much harder than brother."
+ },
+ {
+  "prompt": "He works on English with the aim of improving. (view)",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = to improve English purposely."
+ },
+ {
+  "prompt": "He prefers coffee to tea.",
+  "answer": "would rather drink",
+  "category": "rephrase",
+  "notes": "would rather drink = prefers coffee over tea."
+ },
+ {
+  "prompt": "He prefers living alone to sharing a flat.",
+  "answer": "would rather live",
+  "category": "rephrase",
+  "notes": "would rather live = prefers living alone to sharing."
+ },
+ {
+  "prompt": "He prefers football to basketball.",
+  "answer": "would rather play",
+  "category": "rephrase",
+  "notes": "would rather play = prefers football to basketball."
+ },
+ {
+  "prompt": "He prefers reading books to watching films.",
+  "answer": "would rather read",
+  "category": "rephrase",
+  "notes": "would rather read = prefers books to films."
+ },
+ {
+  "prompt": "He prefers reading novels to watching films.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefers novels to films."
+ },
+ {
+  "prompt": "He prefers to teach rather than to do research.",
+  "answer": "would rather teach",
+  "category": "rephrase",
+  "notes": "would rather teach = prefers teaching to research."
+ },
+ {
+  "prompt": "He prefers to walk rather than take a taxi.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefers walking to taxi."
+ },
+ {
+  "prompt": "If it is heated, water turns to steam.",
+  "answer": "Heated, water turns",
+  "category": "rephrase",
+  "notes": "Heated, water turns = when heated water becomes steam."
+ },
+ {
+  "prompt": "She wore such an elegant dress that all stared.",
+  "answer": "so elegant",
+  "category": "rephrase",
+  "notes": "so elegant = wore very elegant dress that."
+ },
+ {
+  "prompt": "She has such lovely eyes that photographers admire them.",
+  "answer": "so lovely",
+  "category": "rephrase",
+  "notes": "so lovely = has very lovely eyes that."
+ },
+ {
+  "prompt": "Her hands trembled badly, so she could hardly sign.",
+  "answer": "trembling badly,",
+  "category": "rephrase",
+  "notes": "trembling badly, = hands shook so could not sign."
+ },
+ {
+  "prompt": "She has such good memory that she never forgets names.",
+  "answer": "so good",
+  "category": "rephrase",
+  "notes": "so good = has very good memory that."
+ },
+ {
+  "prompt": "Her new flat is much larger than her old one.",
+  "answer": "far larger",
+  "category": "rephrase",
+  "notes": "far larger = much larger than old one."
+ },
+ {
+  "prompt": "Her parents allowed her to camp overnight.",
+  "answer": "let her",
+  "category": "rephrase",
+  "notes": "let her = allowed her to camp."
+ },
+ {
+  "prompt": "She gave such a brilliant speech that all applauded.",
+  "answer": "so brilliant",
+  "category": "rephrase",
+  "notes": "so brilliant = gave very brilliant speech that."
+ },
+ {
+  "prompt": "Her story caused us to laugh a lot.",
+  "answer": "had us",
+  "category": "rephrase",
+  "notes": "had us = made us laugh a lot."
+ },
+ {
+  "prompt": "He tried hard but could not pass. (failure)",
+  "answer": "ended in failure",
+  "category": "rephrase",
+  "notes": "fail to V = end in failure"
+ },
+ {
+  "prompt": "His English is much better than mine.",
+  "answer": "far better",
+  "category": "rephrase",
+  "notes": "far better = much better than mine."
+ },
+ {
+  "prompt": "Her essay is half the length of his essay.",
+  "answer": "as long as",
+  "category": "rephrase",
+  "notes": "as long as = half length of his essay."
+ },
+ {
+  "prompt": "His explanation was far clearer than the manual.",
+  "answer": "lot clearer",
+  "category": "rephrase",
+  "notes": "lot clearer = much clearer than manual."
+ },
+ {
+  "prompt": "His eyes filled with tears, he waved goodbye.",
+  "answer": "filled with tears,",
+  "category": "rephrase",
+  "notes": "filled with tears, = eyes wet then waved goodbye."
+ },
+ {
+  "prompt": "His house is three times the size of my flat.",
+  "answer": "times as",
+  "category": "rephrase",
+  "notes": "times as = three times size of flat."
+ },
+ {
+  "prompt": "The injury was so severe that he could not continue the tournament. (out)",
+  "answer": "as to rule him out",
+  "category": "rephrase",
+  "notes": "so adj as to rule out = too severe to continue"
+ },
+ {
+  "prompt": "He told such funny jokes that we all laughed.",
+  "answer": "so funny",
+  "category": "rephrase",
+  "notes": "so funny = told very funny jokes that."
+ },
+ {
+  "prompt": "His silence explains his guilt. (accounts)",
+  "answer": "accounts for",
+  "category": "rephrase",
+  "notes": "account for = explain"
+ },
+ {
+  "prompt": "No matter how busy she is, she seldom neglects her family.",
+  "answer": "seldom does she neglect her family",
+  "category": "rephrase",
+  "notes": "seldom does she neglect her family = however busy rarely neglects family."
+ },
+ {
+  "prompt": "No matter how cheap the hotel is, we will not stay.",
+  "answer": "cheap",
+  "category": "rephrase",
+  "notes": "cheap = however cheap will not stay."
+ },
+ {
+  "prompt": "He insisted on pleading innocence despite the footage. (HOWEVER)",
+  "answer": "damning the footage was",
+  "category": "rephrase",
+  "notes": "damning the footage was = however damning footage insisted innocence."
+ },
+ {
+  "prompt": "No matter how difficult the task is, we must finish it today.",
+  "answer": "difficult the task is",
+  "category": "rephrase",
+  "notes": "No matter how + adj = However + adj; fronting"
+ },
+ {
+  "prompt": "No matter how far the school is, he cycles there.",
+  "answer": "far",
+  "category": "rephrase",
+  "notes": "far = however far still cycles there."
+ },
+ {
+  "prompt": "No matter how hard she studies, she feels nervous.",
+  "answer": "hard",
+  "category": "rephrase",
+  "notes": "hard = however hard still feels nervous."
+ },
+ {
+  "prompt": "No matter how late he arrives, he never misses the briefing.",
+  "answer": "never does he miss the briefing",
+  "category": "rephrase",
+  "notes": "never does he miss the briefing = however late always attends briefing."
+ },
+ {
+  "prompt": "No matter how little time we have, we must check every detail.",
+  "answer": "little time we have",
+  "category": "rephrase",
+  "notes": "No matter how little = However little"
+ },
+ {
+  "prompt": "No matter how loudly she shouted, no one heard her.",
+  "answer": "loudly she shouted",
+  "category": "rephrase",
+  "notes": "No matter how + adv = However + adv"
+ },
+ {
+  "prompt": "No matter how many books he reads, he wants more.",
+  "answer": "many books",
+  "category": "rephrase",
+  "notes": "many books = however many books wants more."
+ },
+ {
+  "prompt": "No matter how many obstacles appear, the expedition will continue.",
+  "answer": "many obstacles appear",
+  "category": "rephrase",
+  "notes": "No matter how many = However many"
+ },
+ {
+  "prompt": "No matter how much it costs, we need the equipment.",
+  "answer": "much it costs",
+  "category": "rephrase",
+  "notes": "No matter how much = However much"
+ },
+ {
+  "prompt": "No matter how often I explain, he forgets.",
+  "answer": "often",
+  "category": "rephrase",
+  "notes": "often = however often explains he forgets."
+ },
+ {
+  "prompt": "No matter how often they rehearsed, they never performed flawlessly.",
+  "answer": "never did they perform flawlessly",
+  "category": "rephrase",
+  "notes": "never did they perform flawlessly = however much rehearsed never perfect."
+ },
+ {
+  "prompt": "No matter how persuasively he argued, the jury remained unconvinced.",
+  "answer": "persuasively he argued",
+  "category": "rephrase",
+  "notes": "No matter how + adv = However + adv"
+ },
+ {
+  "prompt": "No matter how poor they were, they never begged for help.",
+  "answer": "never did they beg for help",
+  "category": "rephrase",
+  "notes": "never did they beg for help = however poor never begged."
+ },
+ {
+  "prompt": "No matter how quickly they responded, the fire had already spread.",
+  "answer": "quickly they responded",
+  "category": "rephrase",
+  "notes": "No matter how + adv = However + adv"
+ },
+ {
+  "prompt": "No matter how skilfully she negotiated, the deal still collapsed.",
+  "answer": "skilfully she negotiated",
+  "category": "rephrase",
+  "notes": "No matter how + adv = However + adv"
+ },
+ {
+  "prompt": "No matter how small the gift is, she treasures it.",
+  "answer": "small",
+  "category": "rephrase",
+  "notes": "small = however small treasures gift."
+ },
+ {
+  "prompt": "No matter how tired he was, he finished the essay.",
+  "answer": "tired",
+  "category": "rephrase",
+  "notes": "tired = however tired finished essay."
+ },
+ {
+  "prompt": "The hurricane destroyed hundreds of homes.",
+  "answer": "had their homes destroyed",
+  "category": "rephrase",
+  "notes": "had their homes destroyed = hurricane destroyed homes adversely."
+ },
+ {
+  "prompt": "The hairdresser is cutting my hair now.",
+  "answer": "having my hair cut",
+  "category": "rephrase",
+  "notes": "having my hair cut = getting hair cut now."
+ },
+ {
+  "prompt": "I am looking forward to hearing from you.",
+  "answer": "to hearing",
+  "category": "rephrase",
+  "notes": "to hearing = anticipates receiving reply gladly."
+ },
+ {
+  "prompt": "I cannot help laughing at his jokes.",
+  "answer": "help laughing at",
+  "category": "rephrase",
+  "notes": "help laughing at = cannot stop laughing at jokes."
+ },
+ {
+  "prompt": "I first saw her at the station. (sight)",
+  "answer": "caught sight of",
+  "category": "rephrase",
+  "notes": "catch sight of = see briefly"
+ },
+ {
+  "prompt": "I left my passport at home because there was no requirement to bring it.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to + base = absence of requirement; context shows not done"
+ },
+ {
+  "prompt": "We had plenty of petrol, so there was no necessity to fill up, and we drove straight on.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = had no need to fill."
+ },
+ {
+  "prompt": "I found him lying on the floor.",
+  "answer": "him lying on",
+  "category": "rephrase",
+  "notes": "him lying on = discovered him lying there."
+ },
+ {
+  "prompt": "I finally persuaded my teacher to explain again.",
+  "answer": "got my teacher",
+  "category": "rephrase",
+  "notes": "got my teacher = persuaded teacher to explain again."
+ },
+ {
+  "prompt": "I arranged for someone to type my thesis.",
+  "answer": "got my thesis typed",
+  "category": "rephrase",
+  "notes": "get sth done informal = have sth done"
+ },
+ {
+  "prompt": "I persuaded the mechanic to check the brakes.",
+  "answer": "got the mechanic",
+  "category": "rephrase",
+  "notes": "got the mechanic = persuaded mechanic to check brakes."
+ },
+ {
+  "prompt": "A friend proofread my essay before submission.",
+  "answer": "had my essay proofread",
+  "category": "rephrase",
+  "notes": "had my essay proofread = got essay checked before submission."
+ },
+ {
+  "prompt": "The teacher confiscated my phone during the exam.",
+  "answer": "had my phone confiscated",
+  "category": "rephrase",
+  "notes": "had my phone confiscated = lost phone as punishment."
+ },
+ {
+  "prompt": "I asked the secretary to type the report.",
+  "answer": "had the secretary type",
+  "category": "rephrase",
+  "notes": "had the secretary type = asked secretary to type report."
+ },
+ {
+  "prompt": "I asked the tailor to shorten the trousers.",
+  "answer": "had the tailor shorten",
+  "category": "rephrase",
+  "notes": "had the tailor shorten = asked tailor to shorten trousers."
+ },
+ {
+  "prompt": "My parents made me apologise to the neighbours.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = externally imposed obligation"
+ },
+ {
+  "prompt": "It was necessary for me to finish the project by Friday.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = needed to finish by Friday."
+ },
+ {
+  "prompt": "She has half the experience I have.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = twice as much experience as."
+ },
+ {
+  "prompt": "You have half my workload.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = twice as much workload as."
+ },
+ {
+  "prompt": "I look forward to meeting you next week.",
+  "answer": "to meeting",
+  "category": "rephrase",
+  "notes": "to meeting = anticipates meeting you gladly."
+ },
+ {
+  "prompt": "I think it is possible I left the air conditioning on.",
+  "answer": "might have",
+  "category": "rephrase",
+  "notes": "might have + pp = tentative deduction; stronger than must have"
+ },
+ {
+  "prompt": "I need someone to repair my watch.",
+  "answer": "have my watch repaired",
+  "category": "rephrase",
+  "notes": "have my watch repaired = need watch fixed by someone."
+ },
+ {
+  "prompt": "I hurried to the meeting, but it was cancelled at the last minute.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = hurried in vain"
+ },
+ {
+  "prompt": "I studied so hard, but the test was incredibly easy.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = over-preparation"
+ },
+ {
+  "prompt": "I worried so much, but the presentation went really well.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = needless anxiety"
+ },
+ {
+  "prompt": "He pays a quarter of the rent I pay.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = four times as much rent as."
+ },
+ {
+  "prompt": "I would rather play chess than cards.",
+  "answer": "prefer playing chess",
+  "category": "rephrase",
+  "notes": "prefer playing chess = likes chess more than cards."
+ },
+ {
+  "prompt": "I spent half the time on maths that I spent on physics.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = twice as much time on physics."
+ },
+ {
+  "prompt": "It took me two hours to finish. (spent)",
+  "answer": "spent two hours",
+  "category": "rephrase",
+  "notes": "take time to V = spend time V-ing"
+ },
+ {
+  "prompt": "I cannot speak Japanese.",
+  "answer": "wish I could",
+  "category": "rephrase",
+  "notes": "wish I could = regret inability to speak Japanese."
+ },
+ {
+  "prompt": "I regret not bringing an umbrella.",
+  "answer": "wish I had",
+  "category": "rephrase",
+  "notes": "wish I had = regret not bringing umbrella."
+ },
+ {
+  "prompt": "I regret not learning English earlier.",
+  "answer": "wish I had",
+  "category": "rephrase",
+  "notes": "wish I had = regret not learning English sooner."
+ },
+ {
+  "prompt": "I regret telling her my secret.",
+  "answer": "wish I had not",
+  "category": "rephrase",
+  "notes": "wish I had not = regret telling secret."
+ },
+ {
+  "prompt": "I am sorry I did not study harder for the finals.",
+  "answer": "wish I had",
+  "category": "rephrase",
+  "notes": "wish I had = regret not studying harder."
+ },
+ {
+  "prompt": "I regret not studying harder. (wish)",
+  "answer": "wish I had studied",
+  "category": "rephrase",
+  "notes": "wish I had studied = regret not studying harder."
+ },
+ {
+  "prompt": "I am sorry I do not know how to swim.",
+  "answer": "wish I knew",
+  "category": "rephrase",
+  "notes": "wish I knew = regret inability to swim."
+ },
+ {
+  "prompt": "I want to be able to speak French. (able)",
+  "answer": "were able to speak",
+  "category": "rephrase",
+  "notes": "were able to speak = wish to speak French now."
+ },
+ {
+  "prompt": "It is a pity it is raining now.",
+  "answer": "wish it were",
+  "category": "rephrase",
+  "notes": "wish it were = want rain to stop now."
+ },
+ {
+  "prompt": "It is a pity Lan does not live near us.",
+  "answer": "wish Lan lived",
+  "category": "rephrase",
+  "notes": "wish Lan lived = want Lan living nearby now."
+ },
+ {
+  "prompt": "She keeps interrupting me. It annoys me. (wish)",
+  "answer": "wish she would stop",
+  "category": "rephrase",
+  "notes": "wish she would stop = annoyed by constant interruptions."
+ },
+ {
+  "prompt": "I want the weather to be better tomorrow.",
+  "answer": "wish the weather",
+  "category": "rephrase",
+  "notes": "wish the weather = hope weather improves tomorrow."
+ },
+ {
+  "prompt": "It is a pity we cannot stay longer in Hue.",
+  "answer": "wish we could",
+  "category": "rephrase",
+  "notes": "wish we could = regret short stay in Hue."
+ },
+ {
+  "prompt": "What a pity you cannot come to my birthday party.",
+  "answer": "wish you could",
+  "category": "rephrase",
+  "notes": "wish you could = regret your absence at party."
+ },
+ {
+  "prompt": "I would rather you did not smoke here.",
+  "answer": "would prefer you",
+  "category": "rephrase",
+  "notes": "would prefer you = want you not to smoke."
+ },
+ {
+  "prompt": "I would rather you stayed at home tonight.",
+  "answer": "would prefer you",
+  "category": "rephrase",
+  "notes": "would prefer you = want you to stay home."
+ },
+ {
+  "prompt": "I prefer cycling to driving.",
+  "answer": "would rather cycle",
+  "category": "rephrase",
+  "notes": "would rather cycle = prefer cycling to driving."
+ },
+ {
+  "prompt": "I prefer tea to coffee in the morning.",
+  "answer": "would rather drink",
+  "category": "rephrase",
+  "notes": "would rather drink = prefer tea to coffee mornings."
+ },
+ {
+  "prompt": "I prefer tea to coffee in the morning.",
+  "answer": "would rather drink",
+  "category": "rephrase",
+  "notes": "would rather drink = prefer tea to coffee mornings."
+ },
+ {
+  "prompt": "I prefer tea to coffee. (rather)",
+  "answer": "would rather drink tea than",
+  "category": "rephrase",
+  "notes": "would rather drink tea than = prefer tea over coffee."
+ },
+ {
+  "prompt": "I prefer to eat pho rather than fried rice.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefer pho to fried rice."
+ },
+ {
+  "prompt": "I would prefer to learn French rather than German.",
+  "answer": "would rather learn",
+  "category": "rephrase",
+  "notes": "would rather learn = prefer French to German."
+ },
+ {
+  "prompt": "I want my father to stop smoking.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = want father to quit smoking."
+ },
+ {
+  "prompt": "I prefer my son to wear his uniform to school.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = want son to wear uniform."
+ },
+ {
+  "prompt": "I would prefer to stay at home rather than go out.",
+  "answer": "would rather stay",
+  "category": "rephrase",
+  "notes": "would rather stay = prefer home to going out."
+ },
+ {
+  "prompt": "I prefer to stay in a homestay rather than a hotel.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefer homestay to hotel."
+ },
+ {
+  "prompt": "I prefer walking to jogging in the morning.",
+  "answer": "would rather walk",
+  "category": "rephrase",
+  "notes": "would rather walk = prefer walking to jogging mornings."
+ },
+ {
+  "prompt": "I would prefer you to close the window, please.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = want you to close window."
+ },
+ {
+  "prompt": "I want you to speak English in class.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = want you to speak English."
+ },
+ {
+  "prompt": "I prefer staying at home to going to a crowded party. (sooner)",
+  "answer": "would sooner",
+  "category": "rephrase",
+  "notes": "would sooner V than V = prefer V-ing to V-ing"
+ },
+ {
+  "prompt": "What a pity he missed the opening ceremony.",
+  "answer": "only he had",
+  "category": "rephrase",
+  "notes": "only he had = regret missing opening ceremony."
+ }
+]

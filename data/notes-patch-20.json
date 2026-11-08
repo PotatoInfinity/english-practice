@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "She is sorry she did not invite them to the wedding.",
+  "answer": "should have",
+  "category": "rephrase",
+  "notes": "should have + pp = social omission regretted"
+ },
+ {
+  "prompt": "She regrets not saving money for the trip.",
+  "answer": "should have",
+  "category": "rephrase",
+  "notes": "should have + pp = self-reproach"
+ },
+ {
+  "prompt": "She had better study harder for the final exam.",
+  "answer": "should study harder",
+  "category": "rephrase",
+  "notes": "should study harder = advises harder study for exam."
+ },
+ {
+  "prompt": "She regrets buying that expensive watch; it broke in a week.",
+  "answer": "shouldn't have",
+  "category": "rephrase",
+  "notes": "shouldn't have + pp = purchase happened, now regretted"
+ },
+ {
+  "prompt": "She speaks English well enough to work as a guide.",
+  "answer": "too well",
+  "category": "rephrase",
+  "notes": "too well = speaks well enough to guide."
+ },
+ {
+  "prompt": "She speaks much more fluently than her brother.",
+  "answer": "far more",
+  "category": "rephrase",
+  "notes": "far more = means much more fluently comparatively."
+ },
+ {
+  "prompt": "She speaks slowly to help us understand.",
+  "answer": "in order to help",
+  "category": "rephrase",
+  "notes": "in order to help = expresses purpose of speaking slowly."
+ },
+ {
+  "prompt": "She stares at me like I am a stranger.",
+  "answer": "I were a",
+  "category": "rephrase",
+  "notes": "I were a = imagines being a stranger."
+ },
+ {
+  "prompt": "She stayed up because she had exams. (due)",
+  "answer": "due to",
+  "category": "rephrase",
+  "notes": "because + clause = because of / due to + N"
+ },
+ {
+  "prompt": "She stayed up to finish her project.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = expresses purpose of staying up."
+ },
+ {
+  "prompt": "She talks like she is a queen.",
+  "answer": "she were a",
+  "category": "rephrase",
+  "notes": "she were a = imagines being a queen."
+ },
+ {
+  "prompt": "She took notes because she was afraid she would forget.",
+  "answer": "notes lest she",
+  "category": "rephrase",
+  "notes": "notes lest she = took notes to avoid forgetting."
+ },
+ {
+  "prompt": "She took notes to remember the lesson.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = expresses purpose of note-taking."
+ },
+ {
+  "prompt": "She types much faster than I do.",
+  "answer": "far faster",
+  "category": "rephrase",
+  "notes": "far faster = means much faster comparatively."
+ },
+ {
+  "prompt": "She urged that the prisoners should be released today.",
+  "answer": "be released",
+  "category": "rephrase",
+  "notes": "be released = demands release in subjunctive form."
+ },
+ {
+  "prompt": "She was praised for helping the poor.",
+  "answer": "for helping",
+  "category": "rephrase",
+  "notes": "for helping = states reason for the praise."
+ },
+ {
+  "prompt": "She was expected to finish her duties by nine, under direct orders.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to have + pp = perfective order; should have finished = criticism"
+ },
+ {
+  "prompt": "She was under instruction not to drive the car to school, but she did.",
+  "answer": "wasn't supposed to",
+  "category": "rephrase",
+  "notes": "wasn't supposed to = prohibition expected but broken"
+ },
+ {
+  "prompt": "She whispered because she was afraid someone would overhear.",
+  "answer": "whispered lest anyone",
+  "category": "rephrase",
+  "notes": "whispered lest anyone = whispered to avoid being overheard."
+ },
+ {
+  "prompt": "She wants to study at Harvard, but she cannot.",
+  "answer": "wishes she could",
+  "category": "rephrase",
+  "notes": "wishes she could = wishes for impossible Harvard study."
+ },
+ {
+  "prompt": "She is sorry she broke her mother's vase.",
+  "answer": "wishes she had not",
+  "category": "rephrase",
+  "notes": "wishes she had not = regrets breaking mother's vase."
+ },
+ {
+  "prompt": "She regrets not saving more money last year.",
+  "answer": "wishes she had",
+  "category": "rephrase",
+  "notes": "wishes she had = regrets not saving more money."
+ },
+ {
+  "prompt": "She wore glasses so that she could see clearly.",
+  "answer": "in order that",
+  "category": "rephrase",
+  "notes": "in order that = expresses purpose of wearing glasses."
+ },
+ {
+  "prompt": "She is such a hard worker that she deserved the prize.",
+  "answer": "so hard",
+  "category": "rephrase",
+  "notes": "so hard = means diligent enough to deserve prize."
+ },
+ {
+  "prompt": "She prefers apples to bananas.",
+  "answer": "would rather eat",
+  "category": "rephrase",
+  "notes": "would rather eat = prefers apples over bananas."
+ },
+ {
+  "prompt": "She would prefer to meet on Friday rather than on Monday.",
+  "answer": "would rather meet",
+  "category": "rephrase",
+  "notes": "would rather meet = prefers Friday over Monday meeting."
+ },
+ {
+  "prompt": "She prefers staying at home to going out tonight.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefers staying home over going out."
+ },
+ {
+  "prompt": "She prefers staying indoors to going out in the rain.",
+  "answer": "would rather stay",
+  "category": "rephrase",
+  "notes": "would rather stay = prefers indoors over rainy outing."
+ },
+ {
+  "prompt": "She prefers to teach small children rather than teenagers.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = prefers small children over teenagers."
+ },
+ {
+  "prompt": "She would prefer the tribunal to hear her appeal in camera. (RATHER)",
+  "answer": "rather the tribunal heard her appeal",
+  "category": "rephrase",
+  "notes": "rather the tribunal heard her appeal = prefers tribunal to hear her appeal."
+ },
+ {
+  "prompt": "She would prefer to walk rather than take a taxi.",
+  "answer": "would rather walk",
+  "category": "rephrase",
+  "notes": "would rather walk = prefers walking over taxi ride."
+ },
+ {
+  "prompt": "As soon as the storm stopped, rescue teams left.",
+  "answer": "after the storm stopped,",
+  "category": "rephrase",
+  "notes": "after the storm stopped, = means immediately after storm ended."
+ },
+ {
+  "prompt": "If you should need help, call me. (should)",
+  "answer": "you need help",
+  "category": "rephrase",
+  "notes": "you need help = states a possible present need."
+ },
+ {
+  "prompt": "The team played so badly that the coach resigned the next day.",
+  "answer": "badly did the team play",
+  "category": "rephrase",
+  "notes": "badly did the team play = emphasizes how badly team played."
+ },
+ {
+  "prompt": "The artist sang so beautifully that the audience fell silent.",
+  "answer": "beautifully did the artist sing",
+  "category": "rephrase",
+  "notes": "beautifully did the artist sing = emphasizes beautiful singing."
+ },
+ {
+  "prompt": "The lecture was so boring that half the students fell asleep.",
+  "answer": "boring was the lecture",
+  "category": "rephrase",
+  "notes": "boring was the lecture = emphasizes how boring lecture was."
+ },
+ {
+  "prompt": "The evidence was so compelling that the jury reached a verdict in an hour.",
+  "answer": "compelling was the evidence",
+  "category": "rephrase",
+  "notes": "compelling was the evidence = emphasizes compelling evidence."
+ },
+ {
+  "prompt": "She acted so decisively that the crisis was averted.",
+  "answer": "decisively did she act",
+  "category": "rephrase",
+  "notes": "decisively did she act = emphasizes decisive action."
+ },
+ {
+  "prompt": "The fog was so dense that no flight could take off.",
+  "answer": "dense was the fog",
+  "category": "rephrase",
+  "notes": "dense was the fog = emphasizes dense fog."
+ },
+ {
+  "prompt": "She worked so diligently that she seldom made any error.",
+  "answer": "diligently did she work",
+  "category": "rephrase",
+  "notes": "diligently did she work = emphasizes diligent work."
+ },
+ {
+  "prompt": "They were so exhausted that they barely reached the shelter.",
+  "answer": "exhausted were they",
+  "category": "rephrase",
+  "notes": "exhausted were they = emphasizes extreme exhaustion."
+ },
+ {
+  "prompt": "The city grew so fast that planners could hardly keep up.",
+  "answer": "fast did the city grow",
+  "category": "rephrase",
+  "notes": "fast did the city grow = emphasizes rapid city growth."
+ },
+ {
+  "prompt": "He argued so forcefully that even his rivals were persuaded.",
+  "answer": "forcefully did he argue",
+  "category": "rephrase",
+  "notes": "forcefully did he argue = emphasizes forceful argument."
+ },
+ {
+  "prompt": "Her grief was so great that she could not work for weeks.",
+  "answer": "great was her grief",
+  "category": "rephrase",
+  "notes": "great was her grief = emphasizes overwhelming grief."
+ },
+ {
+  "prompt": "The defeat was so humiliating that the team rarely showed up in public again.",
+  "answer": "humiliating was the defeat",
+  "category": "rephrase",
+  "notes": "humiliating was the defeat = emphasizes humiliating defeat."
+ },
+ {
+  "prompt": "The delay was so long that many passengers missed their connections.",
+  "answer": "long was the delay",
+  "category": "rephrase",
+  "notes": "long was the delay = emphasizes lengthy delay."
+ },
+ {
+  "prompt": "The noise was so loud that we could not hear the announcement.",
+  "answer": "loud was the noise",
+  "category": "rephrase",
+  "notes": "loud was the noise = emphasizes deafening noise."
+ },
+ {
+  "prompt": "He spoke so persuasively that the committee approved the plan.",
+  "answer": "persuasively did he speak",
+  "category": "rephrase",
+  "notes": "persuasively did he speak = emphasizes persuasive speech."
+ },
+ {
+  "prompt": "He drove so recklessly that his licence was revoked.",
+  "answer": "recklessly did he drive",
+  "category": "rephrase",
+  "notes": "recklessly did he drive = emphasizes reckless driving."
+ },
+ {
+  "prompt": "The price rose so sharply that few families could afford the house.",
+  "answer": "sharply did the price rise",
+  "category": "rephrase",
+  "notes": "sharply did the price rise = emphasizes sharp price rise."
+ },
+ {
+  "prompt": "The discovery was so significant that it changed the whole theory.",
+  "answer": "significant was the discovery",
+  "category": "rephrase",
+  "notes": "significant was the discovery = emphasizes significant discovery."
+ },
+ {
+  "prompt": "The pianist played so skilfully that the judges awarded full marks.",
+  "answer": "skilfully did the pianist play",
+  "category": "rephrase",
+  "notes": "skilfully did the pianist play = emphasizes skilful piano playing."
+ },
+ {
+  "prompt": "The finale was so spectacular that critics praised it for months.",
+  "answer": "spectacular was the finale",
+  "category": "rephrase",
+  "notes": "spectacular was the finale = emphasizes spectacular finale."
+ },
+ {
+  "prompt": "I am sure someone close to him leaked the plans; nobody else knew the details.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = only logical explanation"
+ },
+ {
+  "prompt": "Speak slowly because the students might misunderstand.",
+  "answer": "slowly lest the",
+  "category": "rephrase",
+  "notes": "slowly lest the = speak slowly to avoid misunderstanding."
+ },
+ {
+  "prompt": "Steel is five times the weight of aluminium in the same volume.",
+  "answer": "as heavy as",
+  "category": "rephrase",
+  "notes": "as heavy as = compares weight as five times."
+ },
+ {
+  "prompt": "No matter how strong the opposition is, the reform will proceed.",
+  "answer": "as the opposition is",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "Students should not cheat in the gifted exam.",
+  "answer": "had better not",
+  "category": "rephrase",
+  "notes": "had better not = strongly advises against cheating."
+ },
+ {
+  "prompt": "Nothing could possibly justify such cruelty. (imagination)",
+  "answer": "by any stretch of the imagination",
+  "category": "rephrase",
+  "notes": "by no stretch of the imagination = impossible to imagine"
+ },
+ {
+  "prompt": "He became so angry that he could hardly control himself.",
+  "answer": "was his anger",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so angry that"
+ },
+ {
+  "prompt": "The demand for tickets was so high that the venue added a second show.",
+  "answer": "was the demand for tickets",
+  "category": "rephrase",
+  "notes": "was the demand for tickets = shows demand was extremely high."
+ },
+ {
+  "prompt": "It was such a dense forest that sunlight never reached the ground.",
+  "answer": "was the density of the forest",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so dense that"
+ },
+ {
+  "prompt": "The scandal was so enormous that the minister had to resign.",
+  "answer": "was the enormity of the scandal",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so enormous that"
+ },
+ {
+  "prompt": "It was such a grave mistake that the company lost all credibility.",
+  "answer": "was the gravity of the mistake",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so grave that"
+ },
+ {
+  "prompt": "It was such an important meeting that every director attended.",
+  "answer": "was the importance of the meeting",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so important that"
+ },
+ {
+  "prompt": "The tension was so intense that no one dared to speak.",
+  "answer": "was the intensity of the tension",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so intense that"
+ },
+ {
+  "prompt": "The sentence was so lenient that victims protested. (SUCH)",
+  "answer": "was the leniency of the sentence",
+  "category": "rephrase",
+  "notes": "was the leniency of the sentence = shows sentence was extremely lenient."
+ },
+ {
+  "prompt": "It was such a convincing alibi that the police released him at once.",
+  "answer": "was the persuasiveness of the alibi",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so convincing that"
+ },
+ {
+  "prompt": "It was such a profound reform that every institution was affected.",
+  "answer": "was the profundity of the reform",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so profound that"
+ },
+ {
+  "prompt": "It was such a rapid collapse that analysts were stunned.",
+  "answer": "was the rapidity of the collapse",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so rapid that"
+ },
+ {
+  "prompt": "It was such a severe drought that crops failed across the region.",
+  "answer": "was the severity of the drought",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so severe that"
+ },
+ {
+  "prompt": "The news was so shocking we were speechless. (such)",
+  "answer": "was the shock of the news that",
+  "category": "rephrase",
+  "notes": "was the shock of the news that = shows news was extremely shocking."
+ },
+ {
+  "prompt": "The shock was so great that she could hardly speak.",
+  "answer": "was the shock",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so great that; inversion"
+ },
+ {
+  "prompt": "The empire fell so suddenly that historians still debate the cause.",
+  "answer": "was the suddenness of the fall of the empire",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so sudden that"
+ },
+ {
+  "prompt": "The victory was so unexpected that no one had predicted it.",
+  "answer": "was the unexpectedness of the victory",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so unexpected that"
+ },
+ {
+  "prompt": "The storm was so violent that the rescue was postponed.",
+  "answer": "was the violence of the storm",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so violent that"
+ },
+ {
+  "prompt": "They were so excited that they jumped up and down.",
+  "answer": "was their excitement",
+  "category": "rephrase",
+  "notes": "such + be + noun + that = so excited that"
+ },
+ {
+  "prompt": "There was no choice for Susan but to pay the rent in cash.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = no alternative; must have + pp would mean deduction"
+ },
+ {
+  "prompt": "Take an umbrella because it might rain.",
+  "answer": "umbrella lest it",
+  "category": "rephrase",
+  "notes": "umbrella lest it = carry umbrella in case of rain."
+ },
+ {
+  "prompt": "Talking of sport, have you seen the final match?",
+  "answer": "Talking of sport,",
+  "category": "rephrase",
+  "notes": "Talking of sport, = shifts conversation to sport."
+ },
+ {
+  "prompt": "This book costs half the price of that one.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = compares price as half."
+ },
+ {
+  "prompt": "What puzzles analysts is why reserves vanished overnight. (THAT)",
+  "answer": "That reserves vanished",
+  "category": "rephrase",
+  "notes": "That reserves vanished = stresses what puzzles analysts."
+ },
+ {
+  "prompt": "The Mekong is half the length of the Amazon.",
+  "answer": "as long as",
+  "category": "rephrase",
+  "notes": "as long as = compares length as half."
+ },
+ {
+  "prompt": "The announcement surprised everyone. (surprise)",
+  "answer": "took by surprise",
+  "category": "rephrase",
+  "notes": "took by surprise = caught everyone by surprise."
+ },
+ {
+  "prompt": "The announcement was expected to be made at noon, but it never came.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to + passive = scheduled event"
+ },
+ {
+  "prompt": "I am sure the baby woke up early; she was crying at five in the morning.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = is sure baby woke early."
+ },
+ {
+  "prompt": "The bag is light enough for her to carry.",
+  "answer": "not too heavy",
+  "category": "rephrase",
+  "notes": "not too heavy = means light enough to carry."
+ },
+ {
+  "prompt": "The board recommended that profits should be reinvested next year.",
+  "answer": "be reinvested",
+  "category": "rephrase",
+  "notes": "be reinvested = recommends reinvestment in subjunctive form."
+ },
+ {
+  "prompt": "The boss forced the staff to work overtime.",
+  "answer": "made the staff",
+  "category": "rephrase",
+  "notes": "made the staff = forced staff to work overtime."
+ },
+ {
+  "prompt": "The box is too heavy for me to lift. (enough)",
+  "answer": "light enough",
+  "category": "rephrase",
+  "notes": "too adj to = not adj enough to"
+ },
+ {
+  "prompt": "The box is too heavy for the boy to lift.",
+  "answer": "not light enough",
+  "category": "rephrase",
+  "notes": "not light enough = means too heavy for boy."
+ },
+ {
+  "prompt": "The boy is too short to reach the shelf. (tall)",
+  "answer": "not tall enough",
+  "category": "rephrase",
+  "notes": "not tall enough = means too short to reach."
+ },
+ {
+  "prompt": "They started building the bridge in 2020. (underway)",
+  "answer": "been underway since",
+  "category": "rephrase",
+  "notes": "be underway = be in progress"
+ },
+ {
+  "prompt": "I am sure the burglar had a key; there was no sign of forced entry.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = certain deduction about past; not past obligation"
+ },
+ {
+  "prompt": "The captain ordered the soldiers to clear the road.",
+  "answer": "had the soldiers clear",
+  "category": "rephrase",
+  "notes": "had the soldiers clear = ordered soldiers to clear road."
+ },
+ {
+  "prompt": "The captain ordered that the men should fire at dawn.",
+  "answer": "men fire at",
+  "category": "rephrase",
+  "notes": "men fire at = ordered firing in subjunctive form."
+ },
+ {
+  "prompt": "The car suddenly stopped working. (down)",
+  "answer": "broke down",
+  "category": "rephrase",
+  "notes": "break down = stop working"
+ },
+ {
+  "prompt": "The car needs to be washed soon.",
+  "answer": "car needs washing",
+  "category": "rephrase",
+  "notes": "need + V-ing = need to be done"
+ },
+ {
+  "prompt": "The teacher forced the class to rewrite the essay.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = coerced past action"
+ },
+ {
+  "prompt": "As the exam approaches, students feel more nervous.",
+  "answer": "closer the exam",
+  "category": "rephrase",
+  "notes": "closer the exam = means nearer exam, more nerves."
+ },
+ {
+  "prompt": "The coach forced the team to train twice daily.",
+  "answer": "made the team",
+  "category": "rephrase",
+  "notes": "made the team = forced team to train twice daily."
+ },
+ {
+  "prompt": "The coffee is cool enough to drink.",
+  "answer": "not too hot",
+  "category": "rephrase",
+  "notes": "not too hot = means cool enough to drink."
+ },
+ {
+  "prompt": "If the winter is colder, heating costs are higher.",
+  "answer": "colder the winter",
+  "category": "rephrase",
+  "notes": "colder the winter = means colder winter, higher costs."
+ },
+ {
+  "prompt": "The committee demanded that the chairman should resign at once.",
+  "answer": "chairman resign at",
+  "category": "rephrase",
+  "notes": "chairman resign at = demands resignation in subjunctive form."
+ },
+ {
+  "prompt": "The committee proposed that the tax should be cut immediately.",
+  "answer": "be cut",
+  "category": "rephrase",
+  "notes": "be cut = proposes tax cut in subjunctive form."
+ },
+ {
+  "prompt": "The consequences were far worse than we feared.",
+  "answer": "lot worse",
+  "category": "rephrase",
+  "notes": "lot worse = means much worse than feared."
+ },
+ {
+  "prompt": "The council recommended that the bridge should be closed for repairs.",
+  "answer": "be closed",
+  "category": "rephrase",
+  "notes": "be closed = recommends closure in subjunctive form."
+ },
+ {
+  "prompt": "If the night is darker, the stars appear brighter.",
+  "answer": "darker the night",
+  "category": "rephrase",
+  "notes": "darker the night = means darker night, brighter stars."
+ },
+ {
+  "prompt": "If the river is deeper, it flows more slowly.",
+  "answer": "deeper the river",
+  "category": "rephrase",
+  "notes": "deeper the river = means deeper river, slower flow."
+ },
+ {
+  "prompt": "The director instructed the manager to approve my leave.",
+  "answer": "had the manager approve",
+  "category": "rephrase",
+  "notes": "had the manager approve = got manager to approve leave."
+ },
+ {
+  "prompt": "The doctor suggested that he stop smoking.",
+  "answer": "he should stop",
+  "category": "rephrase",
+  "notes": "he should stop = suggests quitting in should-clause form."
+ },
+ {
+  "prompt": "The dog howls like it is in pain.",
+  "answer": "it were in",
+  "category": "rephrase",
+  "notes": "it were in = imagines unreal painful situation."
+ },
+ {
+  "prompt": "The dress is too expensive for me to buy.",
+  "answer": "not cheap enough",
+  "category": "rephrase",
+  "notes": "not cheap enough = means too expensive to buy."
+ },
+ {
+  "prompt": "I am sure the driver fell asleep; the car suddenly veered off the empty road.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = logical conclusion; fall-fell-fallen"
+ },
+ {
+  "prompt": "The earlier you book, the cheaper the tickets are.",
+  "answer": "earlier you book,",
+  "category": "rephrase",
+  "notes": "earlier you book, = means earlier booking, cheaper tickets."
+ },
+ {
+  "prompt": "It is still unknown whether the new measure will be effective. (effectiveness)",
+  "answer": "effectiveness of the",
+  "category": "rephrase",
+  "notes": "remain to be seen = still unknown"
+ },
+ {
+  "prompt": "The exam was far harder than we thought.",
+  "answer": "lot harder",
+  "category": "rephrase",
+  "notes": "lot harder = means much harder than thought."
+ },
+ {
+  "prompt": "The faster he talks, the less I understand.",
+  "answer": "faster he talks,",
+  "category": "rephrase",
+  "notes": "faster he talks, = means faster talk, less understanding."
+ },
+ {
+  "prompt": "As technology advances faster, life changes more dramatically.",
+  "answer": "faster technology advances,",
+  "category": "rephrase",
+  "notes": "faster technology advances, = means faster advance, greater life change."
+ },
+ {
+  "prompt": "The film was so boring that we left early.",
+  "answer": "too boring",
+  "category": "rephrase",
+  "notes": "too boring = means boring enough to leave early."
+ },
+ {
+  "prompt": "The guard watched because the prisoner might escape.",
+  "answer": "watched lest the",
+  "category": "rephrase",
+  "notes": "watched lest the = guarded to stop prisoner escaping."
+ },
+ {
+  "prompt": "If you work harder, you will achieve better results.",
+  "answer": "harder you work,",
+  "category": "rephrase",
+  "notes": "harder you work, = means harder work, better results."
+ },
+ {
+  "prompt": "The heat caused the milk to go sour.",
+  "answer": "made the milk",
+  "category": "rephrase",
+  "notes": "made the milk = caused milk to go sour."
+ },
+ {
+  "prompt": "As the bag is heavier, it is harder to carry.",
+  "answer": "heavier the bag",
+  "category": "rephrase",
+  "notes": "heavier the bag = means heavier bag, harder carry."
+ },
+ {
+  "prompt": "When you climb higher, the air becomes colder.",
+  "answer": "higher you climb,",
+  "category": "rephrase",
+  "notes": "higher you climb, = means higher climb, colder air."
+ },
+ {
+  "prompt": "They are such expensive hotels that we cannot afford them.",
+  "answer": "so expensive",
+  "category": "rephrase",
+  "notes": "so expensive = means too expensive to afford."
+ },
+ {
+  "prompt": "If the soup is hotter, it tastes better.",
+  "answer": "hotter the soup",
+  "category": "rephrase",
+  "notes": "hotter the soup = means hotter soup, better taste."
+ },
+ {
+  "prompt": "The joke caused everyone to laugh loudly.",
+  "answer": "had everyone",
+  "category": "rephrase",
+  "notes": "had everyone = made everyone laugh loudly."
+ },
+ {
+  "prompt": "The judge insisted that the oath should be taken now.",
+  "answer": "be taken",
+  "category": "rephrase",
+  "notes": "be taken = insists on oath in subjunctive form."
+ },
+ {
+  "prompt": "The judge ordered that the accused should be remanded in custody.",
+  "answer": "be remanded",
+  "category": "rephrase",
+  "notes": "be remanded = orders custody in subjunctive form."
+ },
+ {
+  "prompt": "The kids were expected not to spend all day playing games indoors.",
+  "answer": "were not supposed to have",
+  "category": "rephrase",
+  "notes": "be not supposed to = general expectation"
+ },
+ {
+  "prompt": "The ladder is too short to reach the window.",
+  "answer": "not long enough",
+  "category": "rephrase",
+  "notes": "not long enough = means too short to reach."
+ },
+ {
+  "prompt": "The lake is much deeper than the pond.",
+  "answer": "far deeper",
+  "category": "rephrase",
+  "notes": "far deeper = means much deeper comparatively."
+ },
+ {
+  "prompt": "As the city grows larger, traffic congestion becomes worse.",
+  "answer": "larger the city",
+  "category": "rephrase",
+  "notes": "larger the city = means larger city, worse traffic."
+ },
+ {
+  "prompt": "If you leave later, you will get stuck in worse traffic.",
+  "answer": "later you leave,",
+  "category": "rephrase",
+  "notes": "later you leave, = means later leave, worse traffic."
+ },
+ {
+  "prompt": "The law requires that every driver should wear a seatbelt.",
+  "answer": "driver wear a",
+  "category": "rephrase",
+  "notes": "driver wear a = requires seatbelt in subjunctive form."
+ },
+ {
+  "prompt": "People who have less experience make more mistakes.",
+  "answer": "less experience people have, the more",
+  "category": "rephrase",
+  "notes": "less experience people have, the more = means less experience, more mistakes."
+ },
+ {
+  "prompt": "If you save less, you will have less for retirement.",
+  "answer": "the less",
+  "category": "rephrase",
+  "notes": "the less = means less saving, less retirement money."
+ },
+ {
+  "prompt": "The lesson ended, and the students rushed out.",
+  "answer": "lesson ended, the",
+  "category": "rephrase",
+  "notes": "lesson ended, the = describes sequence after lesson ended."
+ },
+ {
+  "prompt": "I am sure the letter did not arrive yesterday; the mailbox was empty.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have = is sure letter never arrived."
+ },
+ {
+  "prompt": "If the film is longer, it becomes more boring.",
+  "answer": "longer the film",
+  "category": "rephrase",
+  "notes": "longer the film = means longer film, more boredom."
+ },
+ {
+  "prompt": "The more the inquiry drags on, the deeper public distrust grows. (LONGER)",
+  "answer": "longer the inquiry drags on",
+  "category": "rephrase",
+  "notes": "longer the inquiry drags on = means longer inquiry, deeper distrust."
+ },
+ {
+  "prompt": "As the story gets longer, it gets more tedious.",
+  "answer": "longer the story",
+  "category": "rephrase",
+  "notes": "longer the story = means longer story, more tedium."
+ },
+ {
+  "prompt": "If you think longer, you will find a better solution.",
+  "answer": "longer you think,",
+  "category": "rephrase",
+  "notes": "longer you think, = means longer thought, better solution."
+ },
+ {
+  "prompt": "As the price falls lower, demand rises higher.",
+  "answer": "lower the price",
+  "category": "rephrase",
+  "notes": "lower the price = means lower price, higher demand."
+ },
+ {
+  "prompt": "The manager promised us that the complaint would be investigated. (looked)",
+  "answer": "would be looked into",
+  "category": "rephrase",
+  "notes": "give an assurance that = promise; look into = investigate"
+ },
+ {
+  "prompt": "The manager requested that staff should be punctual every day.",
+  "answer": "be punctual",
+  "category": "rephrase",
+  "notes": "be punctual = requests punctuality in subjunctive form."
+ },
+ {
+  "prompt": "They cancelled the match because of the storm. (called)",
+  "answer": "was called off",
+  "category": "rephrase",
+  "notes": "was called off = cancelled match because of storm."
+ },
+ {
+  "prompt": "The match was arranged to start at eight, but the rain stopped play.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to = timetable expectation"
+ },
+ {
+  "prompt": "People believe the minister sanctioned the covert payment. (SAID)",
+  "answer": "is said to have sanctioned",
+  "category": "rephrase",
+  "notes": "is said to have sanctioned = reports alleged past approval."
+ },
+ {
+  "prompt": "As soon as he finished dinner, he did homework.",
+  "answer": "minute he finished dinner,",
+  "category": "rephrase",
+  "notes": "minute he finished dinner, = means immediately after finishing dinner."
+ },
+ {
+  "prompt": "As soon as he saved enough, he bought a bike.",
+  "answer": "minute he had saved enough,",
+  "category": "rephrase",
+  "notes": "minute he had saved enough, = means immediately after saving enough."
+ },
+ {
+  "prompt": "As soon as he passed the exam, he applied abroad.",
+  "answer": "minute he passed the exam,",
+  "category": "rephrase",
+  "notes": "minute he passed the exam, = means immediately after passing exam."
+ },
+ {
+  "prompt": "When I heard his voice, I recognised him.",
+  "answer": "minute I heard his voice,",
+  "category": "rephrase",
+  "notes": "minute I heard his voice, = means immediately upon hearing voice."
+ },
+ {
+  "prompt": "As soon as Mai saw the gift, she smiled.",
+  "answer": "minute Mai saw the gift,",
+  "category": "rephrase",
+  "notes": "minute Mai saw the gift, = means immediately after seeing gift."
+ },
+ {
+  "prompt": "He finished and then left immediately. (moment)",
+  "answer": "moment he finished",
+  "category": "rephrase",
+  "notes": "the moment = as soon as"
+ },
+ {
+  "prompt": "When he got home, he turned on the TV.",
+  "answer": "moment he got home,",
+  "category": "rephrase",
+  "notes": "moment he got home, = means immediately after arriving home."
+ },
+ {
+  "prompt": "Immediately after he sat down, the phone rang.",
+  "answer": "moment he sat down,",
+  "category": "rephrase",
+  "notes": "moment he sat down, = means immediately after sitting down."
+ },
+ {
+  "prompt": "As soon as Lan finishes her essay, she will rest.",
+  "answer": "moment Lan finishes her essay,",
+  "category": "rephrase",
+  "notes": "moment Lan finishes her essay, = means immediately after finishing essay."
+ },
+ {
+  "prompt": "When night fell, streets lit up.",
+  "answer": "moment night fell,",
+  "category": "rephrase",
+  "notes": "moment night fell, = means immediately after night fell."
+ },
+ {
+  "prompt": "No sooner had she finished speaking than applause broke out.",
+  "answer": "moment she finished speaking",
+  "category": "rephrase",
+  "notes": "moment she finished speaking = means applause followed speech at once."
+ },
+ {
+  "prompt": "As soon as she opened the letter, she cried.",
+  "answer": "moment she opened the letter,",
+  "category": "rephrase",
+  "notes": "moment she opened the letter, = means immediately after opening letter."
+ },
+ {
+  "prompt": "When the baby woke up, she cried.",
+  "answer": "moment the baby woke up,",
+  "category": "rephrase",
+  "notes": "moment the baby woke up, = means immediately after baby woke."
+ },
+ {
+  "prompt": "As soon as the bell rang, pupils rushed out.",
+  "answer": "moment the bell rang,",
+  "category": "rephrase",
+  "notes": "moment the bell rang, = means immediately after bell rang."
+ },
+ {
+  "prompt": "Hardly had the concert begun when the lights went out.",
+  "answer": "moment the concert began",
+  "category": "rephrase",
+  "notes": "moment the concert began = means lights failed soon after start."
+ },
+ {
+  "prompt": "As soon as the drug takes effect, you will feel better.",
+  "answer": "moment the drug takes effect,",
+  "category": "rephrase",
+  "notes": "moment the drug takes effect, = means relief follows drug effect soon."
+ },
+ {
+  "prompt": "When the film started, lights went off.",
+  "answer": "moment the film started,",
+  "category": "rephrase",
+  "notes": "moment the film started, = means lights dimmed as film started."
+ },
+ {
+  "prompt": "Scarcely had the match started when the captain was injured.",
+  "answer": "moment the match started",
+  "category": "rephrase",
+  "notes": "moment the match started = means injury followed kickoff at once."
+ },
+ {
+  "prompt": "No sooner had the meeting ended than the rumours started.",
+  "answer": "moment the meeting ended",
+  "category": "rephrase",
+  "notes": "moment the meeting ended = means rumours followed meeting at once."
+ },
+ {
+  "prompt": "Hardly had we sat down when we were told to evacuate.",
+  "answer": "moment we sat down",
+  "category": "rephrase",
+  "notes": "moment we sat down = means evacuation followed seating at once."
+ },
+ {
+  "prompt": "The more carefully you drive, the fewer accidents you cause.",
+  "answer": "the fewer accidents",
+  "category": "rephrase",
+  "notes": "the fewer accidents = means careful driving, fewer accidents."
+ },
+ {
+  "prompt": "As he gained more confidence, he spoke more persuasively.",
+  "answer": "the more",
+  "category": "rephrase",
+  "notes": "the more = means more confidence, better speaking."
+ },
+ {
+  "prompt": "The more crowded the beach is, the less clean it becomes.",
+  "answer": "the less clean",
+  "category": "rephrase",
+  "notes": "the less clean = means more crowding, less cleanliness."
+ },
+ {
+  "prompt": "If the task is more difficult, it becomes more interesting.",
+  "answer": "the more",
+  "category": "rephrase",
+  "notes": "the more = means harder task, greater interest."
+ },
+ {
+  "prompt": "If you earn more money, you tend to spend more.",
+  "answer": "the more",
+  "category": "rephrase",
+  "notes": "the more = means higher earnings, higher spending."
+ },
+ {
+  "prompt": "If a child is more neglected, the child behaves worse.",
+  "answer": "more neglected a",
+  "category": "rephrase",
+  "notes": "more neglected a = means more neglect, worse behaviour."
+ },
+ {
+  "prompt": "If you know more people, you get more help.",
+  "answer": "the more",
+  "category": "rephrase",
+  "notes": "the more = means wider network, greater help."
+ },
+ {
+  "prompt": "If you exercise more regularly, you feel healthier.",
+  "answer": "more regularly you exercise, the healthier",
+  "category": "rephrase",
+  "notes": "more regularly you exercise, the healthier = means steadier exercise, better health."
+ },
+ {
+  "prompt": "If you complain more, you will be helped less.",
+  "answer": "more you complain, the less",
+  "category": "rephrase",
+  "notes": "more you complain, the less = means more complaints, less help."
+ },
+ {
+  "prompt": "If you practise more, you will speak more fluently.",
+  "answer": "the more",
+  "category": "rephrase",
+  "notes": "the more = means more practice, greater fluency."
+ },
+ {
+  "prompt": "If you read a lot, your vocabulary improves a lot.",
+  "answer": "the more",
+  "category": "rephrase",
+  "notes": "the more = means wider reading, richer vocabulary."
+ },
+ {
+  "prompt": "It is worth visiting the museum when you are in Hanoi.",
+  "answer": "worth visiting",
+  "category": "rephrase",
+  "notes": "worth visiting = deserves a visit in Hanoi."
+ },
+ {
+  "prompt": "The museum was expected to open in May, but repairs delayed it.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to = publicised plan"
+ },
+ {
+  "prompt": "Compared to the old bridge, the new bridge is much longer.",
+  "answer": "far longer",
+  "category": "rephrase",
+  "notes": "far longer = means much longer comparatively."
+ },
+ {
+  "prompt": "The new method is a lot more efficient than the old one.",
+  "answer": "much more",
+  "category": "rephrase",
+  "notes": "much more = means much more efficient comparatively."
+ },
+ {
+  "prompt": "The new stadium holds double the spectators the old one held.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = compares capacity as double."
+ },
+ {
+  "prompt": "I am sure the news did not spread so fast by itself; someone must have leaked it deliberately.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have = is sure leak needed human help."
+ },
+ {
+  "prompt": "The night bus is a lot slower than the express train.",
+  "answer": "much slower",
+  "category": "rephrase",
+  "notes": "much slower = means much slower comparatively."
+ },
+ {
+  "prompt": "The night was too dark for us to find our way.",
+  "answer": "not bright enough",
+  "category": "rephrase",
+  "notes": "not bright enough = means too dark to find way."
+ },
+ {
+  "prompt": "It was such a loud noise that we woke up. (so)",
+  "answer": "so loud that",
+  "category": "rephrase",
+  "notes": "such N that = so adj that"
+ },
+ {
+  "prompt": "As people get older, they become wiser.",
+  "answer": "older people get,",
+  "category": "rephrase",
+  "notes": "older people get, = means greater age, greater wisdom."
+ },
+ {
+  "prompt": "The opening ceremony went smoothly. (go)",
+  "answer": "went off without a hitch",
+  "category": "rephrase",
+  "notes": "go off without a hitch = go smoothly"
+ },
+ {
+  "prompt": "I am sure the paintings did not dry in an hour; the oil paint was still wet at midnight.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = physical-process impossibility"
+ },
+ {
+  "prompt": "The panel will only ratify the deal if safeguards are added. (CONDITION)",
+  "answer": "condition that safeguards are added",
+  "category": "rephrase",
+  "notes": "condition that safeguards are added = allows deal only with safeguards."
+ },
+ {
+  "prompt": "The police forced the driver to open the boot.",
+  "answer": "made the driver",
+  "category": "rephrase",
+  "notes": "made the driver = forced driver to open boot."
+ },
+ {
+  "prompt": "China has ten times the population of Vietnam.",
+  "answer": "as large as",
+  "category": "rephrase",
+  "notes": "as large as = compares population as ten times."
+ },
+ {
+  "prompt": "They will finish the project next month. (completed)",
+  "answer": "have been completed",
+  "category": "rephrase",
+  "notes": "have been completed = will be finished by deadline."
+ },
+ {
+  "prompt": "The question is easy enough for every pupil to answer.",
+  "answer": "not too difficult",
+  "category": "rephrase",
+  "notes": "not too difficult = means easy enough for all pupils."
+ },
+ {
+  "prompt": "The rain caused the match to be abandoned.",
+  "answer": "had the match",
+  "category": "rephrase",
+  "notes": "had the match = caused match to be abandoned."
+ },
+ {
+  "prompt": "The rain prevented us from leaving early.",
+  "answer": "from leaving",
+  "category": "rephrase",
+  "notes": "from leaving = stopped an early departure."
+ },
+ {
+  "prompt": "It started raining two hours ago. (set)",
+  "answer": "set in",
+  "category": "rephrase",
+  "notes": "set in = started and continued raining."
+ },
+ {
+  "prompt": "The rain prevented us from leaving. (stop)",
+  "answer": "stopped us from",
+  "category": "rephrase",
+  "notes": "stopped us from = prevented us from leaving."
+ },
+ {
+  "prompt": "The accused must have shredded the receipts. (HAVE)",
+  "answer": "must have been shredded",
+  "category": "rephrase",
+  "notes": "must have been shredded = is sure receipts were destroyed."
+ },
+ {
+  "prompt": "The report was due yesterday, but nobody submitted it.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to + passive = deadline expectation"
+ },
+ {
+  "prompt": "The richer he became, the more generous he was.",
+  "answer": "richer he became,",
+  "category": "rephrase",
+  "notes": "richer he became, = means richer man, greater generosity."
+ },
+ {
+  "prompt": "The river is too dangerous for the children to swim in.",
+  "answer": "not safe enough",
+  "category": "rephrase",
+  "notes": "not safe enough = means too dangerous to swim."
+ },
+ {
+  "prompt": "The room is too small for ten people. (enough)",
+  "answer": "not big enough",
+  "category": "rephrase",
+  "notes": "not big enough = means too small for ten."
+ }
+]

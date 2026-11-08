@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "The inquiry shed light on the procurement fraud. (SHED)",
+  "answer": "shed light on",
+  "category": "light_verb",
+  "notes": "shed light on = clarify confusing matter."
+ },
+ {
+  "prompt": "The journalist asked a difficult inquiry to the minister. (PUT)",
+  "answer": "put a difficult question to",
+  "category": "light_verb",
+  "notes": "put a question to = ask formally."
+ },
+ {
+  "prompt": "The kidnappers demanded money for the hostage's release. (SET)",
+  "answer": "set a price on",
+  "category": "light_verb",
+  "notes": "set a price on = demand ransom."
+ },
+ {
+  "prompt": "The king showed compassion to prisoners (HAVE)",
+  "answer": "had mercy",
+  "category": "light_verb",
+  "notes": "have mercy on = show compassion to."
+ },
+ {
+  "prompt": "The law restricts fishing in this area. (limit)",
+  "answer": "limit on",
+  "category": "light_verb",
+  "notes": "put a limit on = restrict."
+ },
+ {
+  "prompt": "The lecture attracted notice to climate feedback loops. (ATTENTION)",
+  "answer": "drew attention to",
+  "category": "light_verb",
+  "notes": "drew attention to = attract notice toward something."
+ },
+ {
+  "prompt": "The letter shows clear official approval. (stamp)",
+  "answer": "stamp of",
+  "category": "light_verb",
+  "notes": "bear stamp of = show mark of."
+ },
+ {
+  "prompt": "The lobby exerts great sway over policy. (INFLUENCE)",
+  "answer": "considerable influence over",
+  "category": "light_verb",
+  "notes": "considerable influence over = strongly affect decisions."
+ },
+ {
+  "prompt": "The lost child wandered off the path. (astray)",
+  "answer": "went astray off",
+  "category": "light_verb",
+  "notes": "go astray = wander/lost."
+ },
+ {
+  "prompt": "The magic show deceived the children. (trick)",
+  "answer": "trick on",
+  "category": "light_verb",
+  "notes": "do a trick on = deceive/play."
+ },
+ {
+  "prompt": "The manuscript would not survive careful checking. (BEAR)",
+  "answer": "bear careful inspection",
+  "category": "light_verb",
+  "notes": "bear inspection = stand up to checking."
+ },
+ {
+  "prompt": "The meat decayed in the heat (GO)",
+  "answer": "went off",
+  "category": "light_verb",
+  "notes": "go off = decay; also ring/leave."
+ },
+ {
+  "prompt": "The mechanic fixed the engine (SET)",
+  "answer": "set the engine right",
+  "category": "light_verb",
+  "notes": "set right = repair/correct."
+ },
+ {
+  "prompt": "The milk turned sour overnight (GO)",
+  "answer": "went sour",
+  "category": "light_verb",
+  "notes": "go sour = turn acidic."
+ },
+ {
+  "prompt": "The minister calmed public panic after the outage. (FEARS)",
+  "answer": "allayed fears after",
+  "category": "light_verb",
+  "notes": "allayed fears after = calmed public worries."
+ },
+ {
+  "prompt": "The minister paid deep respect to the elders. (DO)",
+  "answer": "did deep reverence to",
+  "category": "light_verb",
+  "notes": "do reverence to = pay respect."
+ },
+ {
+  "prompt": "The minister merely paid lip service to reform. (LIP)",
+  "answer": "lip service",
+  "category": "light_verb",
+  "notes": "Pay lip service = insincere support."
+ },
+ {
+  "prompt": "The minister stated a clear view on immigration. (STANCE)",
+  "answer": "a stance",
+  "category": "light_verb",
+  "notes": "a stance = express firm opinion."
+ },
+ {
+  "prompt": "The ministry distributed funds to rural schools. (RESOURCES)",
+  "answer": "allocated resources to",
+  "category": "light_verb",
+  "notes": "allocated resources to = distribute funds officially."
+ },
+ {
+  "prompt": "The monk atoned for his sins by fasting. (DO)",
+  "answer": "did solemn penance for",
+  "category": "light_verb",
+  "notes": "do penance for = atone."
+ },
+ {
+  "prompt": "Nations entered conflict over territory (GO)",
+  "answer": "went to war",
+  "category": "light_verb",
+  "notes": "go to war over = enter conflict."
+ },
+ {
+  "prompt": "The new auditor soon corrected the chaos after the fraud. (PUT)",
+  "answer": "put matters to rights",
+  "category": "light_verb",
+  "notes": "put matters to rights = correct chaos."
+ },
+ {
+  "prompt": "The new drug worked miracles for patients. (wonders)",
+  "answer": "did wonders for",
+  "category": "light_verb",
+  "notes": "do wonders for = work miracles."
+ },
+ {
+  "prompt": "The new irrigation greatly benefited the valley. (DO)",
+  "answer": "did wonders for",
+  "category": "light_verb",
+  "notes": "do wonders for = benefit greatly."
+ },
+ {
+  "prompt": "The new law abolished the death penalty (DO)",
+  "answer": "did away with",
+  "category": "light_verb",
+  "notes": "do away with = abolish."
+ },
+ {
+  "prompt": "The new law affects small firms strongly. (INFLUENCE)",
+  "answer": "great influence over",
+  "category": "light_verb",
+  "notes": "great influence over = strongly affect someone."
+ },
+ {
+  "prompt": "The new law ended corruption in procurement. (PUT)",
+  "answer": "put an end to",
+  "category": "light_verb",
+  "notes": "put an end to = terminate."
+ },
+ {
+  "prompt": "The new law became valid yesterday. (effect)",
+  "answer": "law took effect",
+  "category": "light_verb",
+  "notes": "take effect = become valid."
+ },
+ {
+  "prompt": "The new manager reorganised the firm (PUT)",
+  "answer": "put the house in order",
+  "category": "light_verb",
+  "notes": "put house in order = reorganise."
+ },
+ {
+  "prompt": "The new medicine worked wonders for her health (DO)",
+  "answer": "did wonders",
+  "category": "light_verb",
+  "notes": "do wonders for = greatly improve."
+ },
+ {
+  "prompt": "The new rules were enforced yesterday (PUT)",
+  "answer": "put into effect",
+  "category": "light_verb",
+  "notes": "put into effect = enforce."
+ },
+ {
+  "prompt": "The new strain endangers public health. (THREAT)",
+  "answer": "a threat to",
+  "category": "light_verb",
+  "notes": "a threat to = endanger public safety."
+ },
+ {
+  "prompt": "The news filled everyone with fear. (fear)",
+  "answer": "fear into",
+  "category": "light_verb",
+  "notes": "cast fear into = frighten."
+ },
+ {
+  "prompt": "The news calmed her worries (PUT)",
+  "answer": "put her mind at ease",
+  "category": "light_verb",
+  "notes": "put mind at ease = reassure."
+ },
+ {
+  "prompt": "The novel describes the background in Paris. (scene)",
+  "answer": "its scene in",
+  "category": "light_verb",
+  "notes": "set scene in = locate background."
+ },
+ {
+  "prompt": "The nurses work night shifts every week (DO)",
+  "answer": "do night shifts",
+  "category": "light_verb",
+  "notes": "do shifts = work periods."
+ },
+ {
+  "prompt": "The obituary fairly represented his achievements. (DO)",
+  "answer": "did full justice to",
+  "category": "light_verb",
+  "notes": "do justice to = represent fairly."
+ },
+ {
+  "prompt": "The office deliberately concealed vital records. (INFORMATION)",
+  "answer": "vital information from",
+  "category": "light_verb",
+  "notes": "vital information from = conceal important records."
+ },
+ {
+  "prompt": "The operator connected my call to Hanoi (PUT)",
+  "answer": "put me through",
+  "category": "light_verb",
+  "notes": "put through = connect by phone."
+ },
+ {
+  "prompt": "The pamphlet heaped public disgrace on the governor. (CAST)",
+  "answer": "cast public opprobrium on",
+  "category": "light_verb",
+  "notes": "cast opprobrium on = heap disgrace."
+ },
+ {
+  "prompt": "The panel inferred a result from the survey data. (CONCLUSION)",
+  "answer": "a conclusion from",
+  "category": "light_verb",
+  "notes": "a conclusion from = infer result logically."
+ },
+ {
+  "prompt": "The paper distinguishes two models of governance. (DISTINCTION)",
+  "answer": "a distinction between",
+  "category": "light_verb",
+  "notes": "a distinction between = differentiate two things."
+ },
+ {
+  "prompt": "The picture is upside down. (turn)",
+  "answer": "done a turn",
+  "category": "light_verb",
+  "notes": "do a turn = rotate? rare light use."
+ },
+ {
+  "prompt": "The pilot scheme produced promising early outcomes. (RESULTS)",
+  "answer": "promising results within",
+  "category": "light_verb",
+  "notes": "promising results within = produce good outcomes."
+ },
+ {
+  "prompt": "The pilot took control of the emergency calmly. (CHARGE)",
+  "answer": "took charge of",
+  "category": "light_verb",
+  "notes": "took charge of = assume control calmly."
+ },
+ {
+  "prompt": "The police stopped the illegal races abruptly. (PUT)",
+  "answer": "put a stop to",
+  "category": "light_verb",
+  "notes": "put a stop to = halt."
+ },
+ {
+  "prompt": "The policy shows the clear mark of its author. (BEAR)",
+  "answer": "bears the unmistakable stamp of",
+  "category": "light_verb",
+  "notes": "bear the stamp of = show the mark."
+ },
+ {
+  "prompt": "The policy greatly affected farmers (HAVE)",
+  "answer": "had a great effect",
+  "category": "light_verb",
+  "notes": "have an effect on = affect."
+ },
+ {
+  "prompt": "The policy strongly affected farmers. (effect)",
+  "answer": "effect on",
+  "category": "light_verb",
+  "notes": "have an effect on = affect."
+ },
+ {
+  "prompt": "The policy achieved an equilibrium between growth and conservation. (BALANCE)",
+  "answer": "a balance between",
+  "category": "light_verb",
+  "notes": "a balance between = achieve fair compromise."
+ },
+ {
+  "prompt": "The press cast doubt on the official toll. (CAST)",
+  "answer": "cast doubt on",
+  "category": "light_verb",
+  "notes": "cast doubt on = express disbelief about."
+ },
+ {
+  "prompt": "The press directed distrust towards the treasurer. (CAST)",
+  "answer": "cast unjust suspicion on",
+  "category": "light_verb",
+  "notes": "cast suspicion on = direct distrust."
+ },
+ {
+  "prompt": "The programme narrowed the divide between theory and practice. (GAP)",
+  "answer": "the gap between",
+  "category": "light_verb",
+  "notes": "the gap between = connect divided areas."
+ },
+ {
+  "prompt": "The project started moving quickly. (going)",
+  "answer": "project got going",
+  "category": "light_verb",
+  "notes": "get going = start moving."
+ },
+ {
+  "prompt": "The project received final approval (GET)",
+  "answer": "got the green light",
+  "category": "light_verb",
+  "notes": "get the green light = be approved."
+ },
+ {
+  "prompt": "The project was paused temporarily (PUT)",
+  "answer": "put on hold",
+  "category": "light_verb",
+  "notes": "put on hold = pause/suspend."
+ },
+ {
+  "prompt": "The proposal was voted on today (PUT)",
+  "answer": "put to a vote",
+  "category": "light_verb",
+  "notes": "put to a vote = submit for voting."
+ },
+ {
+  "prompt": "The rain discouraged our picnic plans. (PUT)",
+  "answer": "put a damper on",
+  "category": "light_verb",
+  "notes": "put a damper on = discourage."
+ },
+ {
+  "prompt": "The rain ruined our picnic plans. (paid)",
+  "answer": "paid to",
+  "category": "light_verb",
+  "notes": "put paid to = ruin/end."
+ },
+ {
+  "prompt": "The recession destroyed his plans for expansion. (PUT)",
+  "answer": "put paid to",
+  "category": "light_verb",
+  "notes": "put paid to = destroy, end."
+ },
+ {
+  "prompt": "The recruits underwent basic military instruction (DO)",
+  "answer": "did basic training",
+  "category": "light_verb",
+  "notes": "do training in = undergo instruction."
+ },
+ {
+  "prompt": "The reform opened the path for digital trade. (WAY)",
+  "answer": "the way for",
+  "category": "light_verb",
+  "notes": "the way for = enable future progress."
+ },
+ {
+  "prompt": "The reform started changes in motion (SET)",
+  "answer": "set changes in motion",
+  "category": "light_verb",
+  "notes": "set in motion = initiate."
+ },
+ {
+  "prompt": "The reforms inflicted lasting damage on rural schools. (DO)",
+  "answer": "did lasting damage to",
+  "category": "light_verb",
+  "notes": "do damage to = inflict loss."
+ },
+ {
+  "prompt": "The refugees turned to the UN for protection. (HAVE)",
+  "answer": "had recourse to",
+  "category": "light_verb",
+  "notes": "have recourse to = turn to for help."
+ },
+ {
+  "prompt": "The refugees placed complete confidence in the aid workers. (PUT)",
+  "answer": "put complete faith in",
+  "category": "light_verb",
+  "notes": "put faith in = trust completely."
+ },
+ {
+  "prompt": "The refugees pinned their hopes on resettlement. (SET)",
+  "answer": "set all their hopes on",
+  "category": "light_verb",
+  "notes": "set hopes on = pin hopes."
+ },
+ {
+  "prompt": "The regime strengthened its grip after the election. (POWER)",
+  "answer": "consolidated power after",
+  "category": "light_verb",
+  "notes": "consolidated power after = strengthened control firmly."
+ },
+ {
+  "prompt": "The regime gave free rein to sectarian hatred. (VENT)",
+  "answer": "gave vent to",
+  "category": "light_verb",
+  "notes": "Give vent to = unleash."
+ },
+ {
+  "prompt": "The report clarified the causes of the crisis. (CAST)",
+  "answer": "cast valuable light on",
+  "category": "light_verb",
+  "notes": "cast light on = clarify."
+ },
+ {
+  "prompt": "The report clarifies the mystery. (light)",
+  "answer": "light on",
+  "category": "light_verb",
+  "notes": "cast light on = explain/clarify."
+ },
+ {
+  "prompt": "The report examines the issue deeply (GO)",
+  "answer": "goes into",
+  "category": "light_verb",
+  "notes": "go into = examine in detail."
+ },
+ {
+  "prompt": "The report highlighted serious worries over safety. (CONCERNS)",
+  "answer": "raised concerns over",
+  "category": "light_verb",
+  "notes": "raised concerns over = highlighted serious worries."
+ },
+ {
+  "prompt": "The resignations overshadowed the party conference. (CAST)",
+  "answer": "cast a cloud over",
+  "category": "light_verb",
+  "notes": "cast a cloud over = overshadow."
+ },
+ {
+  "prompt": "The review fairly represented his acting talent (DO)",
+  "answer": "did full justice",
+  "category": "light_verb",
+  "notes": "do justice to = represent fairly."
+ },
+ {
+  "prompt": "The review refuted widespread false beliefs. (MYTHS)",
+  "answer": "dispelled myths about",
+  "category": "light_verb",
+  "notes": "dispelled myths about = refuted false beliefs."
+ },
+ {
+  "prompt": "The room became completely quiet. (silent)",
+  "answer": "room went silent",
+  "category": "light_verb",
+  "notes": "go silent = become quiet."
+ },
+ {
+  "prompt": "The ruins testified eloquently to the city's former grandeur. (BEAR)",
+  "answer": "bore eloquent testimony to",
+  "category": "light_verb",
+  "notes": "bear testimony to = serve as evidence of."
+ },
+ {
+  "prompt": "The ruling created a legal model for later cases (SET)",
+  "answer": "set a legal precedent",
+  "category": "light_verb",
+  "notes": "set a precedent = create model ruling."
+ },
+ {
+  "prompt": "The ruling created an important legal example. (PRECEDENT)",
+  "answer": "a precedent for",
+  "category": "light_verb",
+  "notes": "a precedent for = create legal example."
+ },
+ {
+  "prompt": "The ruling created a model for future cases. (SET)",
+  "answer": "set an important precedent",
+  "category": "light_verb",
+  "notes": "set a precedent = create a model."
+ },
+ {
+  "prompt": "The sailors drew straws to decide who would stand watch. (CAST)",
+  "answer": "cast lots for",
+  "category": "light_verb",
+  "notes": "cast lots for = draw straws to decide."
+ },
+ {
+  "prompt": "The scammer cheated her of her savings (DO)",
+  "answer": "did her out of",
+  "category": "light_verb",
+  "notes": "do out of = cheat of."
+ },
+ {
+  "prompt": "The scandal darkened the whole presidency. (CAST)",
+  "answer": "cast a deep shadow over",
+  "category": "light_verb",
+  "notes": "cast a shadow over = darken prospects."
+ },
+ {
+  "prompt": "The scandal darkened his career. (shadow)",
+  "answer": "shadow over",
+  "category": "light_verb",
+  "notes": "cast shadow over = spoil/gloom."
+ },
+ {
+  "prompt": "The scandal hid the truth for years. (veil)",
+  "answer": "veil over",
+  "category": "light_verb",
+  "notes": "draw a veil over = conceal."
+ },
+ {
+  "prompt": "The school prioritises reading and maths. (PRIORITY)",
+  "answer": "gives priority to",
+  "category": "light_verb",
+  "notes": "gives priority to = treat as most important."
+ },
+ {
+  "prompt": "The school arranged an appointment with parents. (MADE)",
+  "answer": "made an appointment",
+  "category": "light_verb",
+  "notes": "made an appointment = arrange formal meeting."
+ },
+ {
+  "prompt": "The school established high criteria (SET)",
+  "answer": "set high standards",
+  "category": "light_verb",
+  "notes": "set standards = establish criteria."
+ },
+ {
+  "prompt": "The school established high quality levels. (standard)",
+  "answer": "high standards for",
+  "category": "light_verb",
+  "notes": "set standards = establish levels."
+ },
+ {
+  "prompt": "The scout can spot talent unerringly. (HAVE)",
+  "answer": "has an unerring eye for",
+  "category": "light_verb",
+  "notes": "have an eye for = spot readily."
+ },
+ {
+  "prompt": "The ship began its voyage to Hue (SET)",
+  "answer": "set sail",
+  "category": "light_verb",
+  "notes": "set sail for = begin voyage."
+ },
+ {
+  "prompt": "The show was broadcast at eight (GO)",
+  "answer": "went live",
+  "category": "light_verb",
+  "notes": "go live = start broadcasting."
+ },
+ {
+  "prompt": "The signing formally confirmed the alliance. (SET)",
+  "answer": "set the seal on",
+  "category": "light_verb",
+  "notes": "set the seal on = confirm formally."
+ },
+ {
+  "prompt": "The spokesman clarified the facts after the scandal. (PUT)",
+  "answer": "put the record straight",
+  "category": "light_verb",
+  "notes": "put the record straight = clarify facts."
+ },
+ {
+  "prompt": "The startup exploited solar power effectively. (POTENTIAL)",
+  "answer": "harnessed solar potential",
+  "category": "light_verb",
+  "notes": "harnessed solar potential = exploited natural energy."
+ },
+ {
+  "prompt": "The startup gained ground in encrypted payments. (INROADS)",
+  "answer": "inroads into",
+  "category": "light_verb",
+  "notes": "inroads into = gain initial progress."
+ },
+ {
+  "prompt": "The startup collapsed within a year (GO)",
+  "answer": "went bust",
+  "category": "light_verb",
+  "notes": "go bust = collapse financially."
+ },
+ {
+  "prompt": "The storm greatly affected the harvest (HAVE)",
+  "answer": "had a severe impact",
+  "category": "light_verb",
+  "notes": "have an impact on = affect strongly."
+ },
+ {
+  "prompt": "The story continued its natural development. (course)",
+  "answer": "ran its course",
+  "category": "light_verb",
+  "notes": "run its course = develop naturally."
+ },
+ {
+  "prompt": "The sudden death gloomily affected the celebrations. (CAST)",
+  "answer": "cast a pall over",
+  "category": "light_verb",
+  "notes": "cast a pall over = bring gloom."
+ },
+ {
+  "prompt": "The summary misrepresented the report's findings. (DO)",
+  "answer": "did a grave disservice to",
+  "category": "light_verb",
+  "notes": "do disservice to = misrepresent harmfully."
+ },
+ {
+  "prompt": "The surgeon felt uneasy about proceeding without consent. (HAVE)",
+  "answer": "had serious qualms about",
+  "category": "light_verb",
+  "notes": "have qualms about = feel uneasy."
+ },
+ {
+  "prompt": "The teacher fixed a strict submission date (SET)",
+  "answer": "set a strict deadline",
+  "category": "light_verb",
+  "notes": "set a deadline = fix due date."
+ },
+ {
+  "prompt": "The team feels stressed by deadlines (PUT)",
+  "answer": "put under great pressure",
+  "category": "light_verb",
+  "notes": "put under pressure = stress."
+ },
+ {
+  "prompt": "The team supported its assertions with field data. (CLAIMS)",
+  "answer": "its claims with",
+  "category": "light_verb",
+  "notes": "its claims with = support with evidence."
+ },
+ {
+  "prompt": "The teenagers strayed into crime (GO)",
+  "answer": "went astray",
+  "category": "light_verb",
+  "notes": "go astray = stray from right path."
+ },
+ {
+  "prompt": "The thief served five years in prison for robbery (DO)",
+  "answer": "thief did five",
+  "category": "light_verb",
+  "notes": "do time for = serve prison sentence."
+ },
+ {
+  "prompt": "The train arrived behind schedule. (late)",
+  "answer": "train ran late",
+  "category": "light_verb",
+  "notes": "run late = be behind schedule."
+ },
+ {
+  "prompt": "The transition presents a serious difficulty for regulators. (CHALLENGE)",
+  "answer": "a challenge for",
+  "category": "light_verb",
+  "notes": "a challenge for = present serious difficulty."
+ },
+ {
+  "prompt": "The translation distorted the original's meaning. (DO)",
+  "answer": "did violence to",
+  "category": "light_verb",
+  "notes": "do violence to = distort grossly."
+ },
+ {
+  "prompt": "The treasurer examined the ledger with a severe look. (CAST)",
+  "answer": "cast a critical eye over",
+  "category": "light_verb",
+  "notes": "cast a critical eye over = scrutinise."
+ },
+ {
+  "prompt": "The treaty finally confirmed the ceasefire. (PUT)",
+  "answer": "put the seal on",
+  "category": "light_verb",
+  "notes": "put the seal on = confirm formally."
+ },
+ {
+  "prompt": "The treaty created the basis for future cooperation. (FOUNDATION)",
+  "answer": "the foundation for",
+  "category": "light_verb",
+  "notes": "the foundation for = create basis for cooperation."
+ },
+ {
+  "prompt": "The treaty imposed strict conditions on trade. (SET)",
+  "answer": "set strict terms for",
+  "category": "light_verb",
+  "notes": "set terms for = impose conditions."
+ },
+ {
+  "prompt": "The tribunal set a precedent with the ruling. (SET)",
+  "answer": "set a precedent",
+  "category": "light_verb",
+  "notes": "set a precedent = create model ruling."
+ },
+ {
+  "prompt": "The troops pledged loyalty to the crown. (BEAR)",
+  "answer": "bore allegiance to",
+  "category": "light_verb",
+  "notes": "bear allegiance to = owe loyalty to."
+ },
+ {
+  "prompt": "The two brothers look strikingly similar. (BEAR)",
+  "answer": "bear a striking resemblance to",
+  "category": "light_verb",
+  "notes": "bear resemblance to = look like."
+ },
+ {
+  "prompt": "The two firms fought fiercely for market share. (DO)",
+  "answer": "did fierce battle for",
+  "category": "light_verb",
+  "notes": "do battle for = fight for."
+ },
+ {
+  "prompt": "The two firms formed a strategic partnership. (ALLIANCE)",
+  "answer": "an alliance on",
+  "category": "light_verb",
+  "notes": "an alliance on = form strategic partnership."
+ },
+ {
+  "prompt": "The two firms must find a fair compromise. (STRIKE)",
+  "answer": "strike a balance",
+  "category": "light_verb",
+  "notes": "strike a balance = find fair compromise."
+ },
+ {
+  "prompt": "The two manuscripts closely resemble each other. (BEAR)",
+  "answer": "bear a striking resemblance to",
+  "category": "light_verb",
+  "notes": "bear a striking resemblance to = look very similar."
+ },
+ {
+  "prompt": "The tycoon coveted the rival's ports. (HAVE)",
+  "answer": "had designs on",
+  "category": "light_verb",
+  "notes": "have designs on = covet."
+ },
+ {
+  "prompt": "The verdict attached lasting disgrace to his family name. (CAST)",
+  "answer": "cast a lasting stigma on",
+  "category": "light_verb",
+  "notes": "cast a stigma on = attach disgrace."
+ },
+ {
+  "prompt": "The verdict vindicated the defendant's honour. (PUT)",
+  "answer": "put the defendant's honour to rights",
+  "category": "light_verb",
+  "notes": "put to rights = vindicate, restore."
+ },
+ {
+  "prompt": "The verdict triggered public outrage and dispute. (CONTROVERSY)",
+  "answer": "sparked controversy across",
+  "category": "light_verb",
+  "notes": "sparked controversy across = triggered public dispute."
+ },
+ {
+  "prompt": "The vest can resist the impact of a bullet. (WITHSTAND)",
+  "answer": "withstand the impact",
+  "category": "light_verb",
+  "notes": "withstand the impact = resist strong force."
+ },
+ {
+  "prompt": "The veto dashed hopes of a resolution. (PAID)",
+  "answer": "paid to",
+  "category": "light_verb",
+  "notes": "Put paid to = destroy."
+ },
+ {
+  "prompt": "The video spread rapidly online (GO)",
+  "answer": "went viral",
+  "category": "light_verb",
+  "notes": "go viral = spread rapidly."
+ },
+ {
+  "prompt": "The warden posted a guard over the arsenal. (SET)",
+  "answer": "set a strong guard over",
+  "category": "light_verb",
+  "notes": "set a guard over = post watch."
+ },
+ {
+  "prompt": "The waves rocked the boat (SET)",
+  "answer": "set the boat rocking",
+  "category": "light_verb",
+  "notes": "set rocking = cause to move."
+ },
+ {
+  "prompt": "The well became empty in summer. (dry)",
+  "answer": "ran dry in",
+  "category": "light_verb",
+  "notes": "run dry = become empty."
+ },
+ {
+  "prompt": "The whistleblower drew attention to the falsified logs. (DREW)",
+  "answer": "drew attention to",
+  "category": "light_verb",
+  "notes": "drew attention to = attract notice toward something."
+ },
+ {
+  "prompt": "The witch enchanted the prince. (spell)",
+  "answer": "spell on",
+  "category": "light_verb",
+  "notes": "cast a spell on = enchant."
+ },
+ {
+  "prompt": "They researched the topic. (research)",
+  "answer": "out research",
+  "category": "light_verb",
+  "notes": "out research = investigate topic systematically."
+ },
+ {
+  "prompt": "They closed a profitable agreement with the supplier (DO)",
+  "answer": "did a profitable deal",
+  "category": "light_verb",
+  "notes": "do a deal with = reach agreement."
+ },
+ {
+  "prompt": "They investigated the causes of the disease thoroughly (DO)",
+  "answer": "did extensive research",
+  "category": "light_verb",
+  "notes": "do research into = investigate."
+ },
+ {
+  "prompt": "They did background work before the trial. (GROUNDWORK)",
+  "answer": "the groundwork before",
+  "category": "light_verb",
+  "notes": "the groundwork before = prepare background work."
+ },
+ {
+  "prompt": "They renovated the old flat completely (DO)",
+  "answer": "did up",
+  "category": "light_verb",
+  "notes": "do up = renovate."
+ },
+ {
+  "prompt": "They inferred from the evidence. (conclusion)",
+  "answer": "a conclusion from",
+  "category": "light_verb",
+  "notes": "draw a conclusion = infer."
+ },
+ {
+  "prompt": "They promised support for the plan. (assurance)",
+  "answer": "gave assurance for",
+  "category": "light_verb",
+  "notes": "give assurance = promise."
+ },
+ {
+  "prompt": "They supported the victims fully. (support)",
+  "answer": "full support",
+  "category": "light_verb",
+  "notes": "full support = help victims completely."
+ },
+ {
+  "prompt": "They quarrelled bitterly yesterday. (quarrel)",
+  "answer": "a bitter quarrel",
+  "category": "light_verb",
+  "notes": "a bitter quarrel = argue angrily."
+ },
+ {
+  "prompt": "They had to accept the results of their recklessness. (BEAR)",
+  "answer": "bear the consequences of",
+  "category": "light_verb",
+  "notes": "bear the consequences of = suffer results."
+ },
+ {
+  "prompt": "They promised to support the charity long term. (COMMITMENT)",
+  "answer": "a commitment to",
+  "category": "light_verb",
+  "notes": "a commitment to = promise long-term support."
+ },
+ {
+  "prompt": "They suffered a financial loss on the deal. (LOSS)",
+  "answer": "a loss on",
+  "category": "light_verb",
+  "notes": "a loss on = suffer financial deficit."
+ },
+ {
+  "prompt": "They booked a table for Friday. (RESERVATION)",
+  "answer": "a reservation for",
+  "category": "light_verb",
+  "notes": "a reservation for = book table formally."
+ },
+ {
+  "prompt": "They considered his age when judging him. (allowance)",
+  "answer": "allowance for",
+  "category": "light_verb",
+  "notes": "make allowance for = consider mitigating factors."
+ },
+ {
+  "prompt": "They used the library well. (use)",
+  "answer": "good use",
+  "category": "light_verb",
+  "notes": "good use = utilize resources well."
+ },
+ {
+  "prompt": "They reconciled after years. (peace)",
+  "answer": "made peace after",
+  "category": "light_verb",
+  "notes": "made peace after = reconciled after conflict."
+ },
+ {
+  "prompt": "They watched the details carefully. (attention)",
+  "answer": "close attention",
+  "category": "light_verb",
+  "notes": "close attention = watch details carefully."
+ },
+ {
+  "prompt": "They honoured the hero warmly. (tribute)",
+  "answer": "glowing tribute",
+  "category": "light_verb",
+  "notes": "glowing tribute = honor warmly publicly."
+ },
+ {
+  "prompt": "They ended the rumours decisively (PUT)",
+  "answer": "put an end",
+  "category": "light_verb",
+  "notes": "put an end to = stop decisively."
+ },
+ {
+  "prompt": "They delayed the meeting until Friday (PUT)",
+  "answer": "put off",
+  "category": "light_verb",
+  "notes": "put off = postpone."
+ },
+ {
+  "prompt": "They pressured him to resign. (pressure)",
+  "answer": "pressure on",
+  "category": "light_verb",
+  "notes": "put pressure on = coerce."
+ },
+ {
+  "prompt": "They accused him of the error. (blame)",
+  "answer": "blame on",
+  "category": "light_verb",
+  "notes": "put blame on = accuse."
+ },
+ {
+  "prompt": "They blamed the driver for the crash (PUT)",
+  "answer": "put the blame",
+  "category": "light_verb",
+  "notes": "put blame on = hold responsible."
+ },
+ {
+  "prompt": "They risked their lives for others (PUT)",
+  "answer": "put their lives",
+  "category": "light_verb",
+  "notes": "put at risk = endanger."
+ },
+ {
+  "prompt": "They used their skills effectively (PUT)",
+  "answer": "put their skills to good use",
+  "category": "light_verb",
+  "notes": "put to use = utilise."
+ },
+ {
+  "prompt": "They reached a fair deal after long talks. (REACHED)",
+  "answer": "reached an agreement",
+  "category": "light_verb",
+  "notes": "reached an agreement = settle deal mutually."
+ },
+ {
+  "prompt": "They fixed a date for the wedding. (date)",
+  "answer": "a date for",
+  "category": "light_verb",
+  "notes": "set a date = fix date."
+ },
+ {
+  "prompt": "They launched a full inquiry (SET)",
+  "answer": "set a full inquiry in train",
+  "category": "light_verb",
+  "notes": "set in train = initiate formally."
+ },
+ {
+  "prompt": "They defined clear objectives (SET)",
+  "answer": "set clear goals",
+  "category": "light_verb",
+  "notes": "set goals = define objectives."
+ },
+ {
+  "prompt": "They departed on their journey early (SET)",
+  "answer": "set off",
+  "category": "light_verb",
+  "notes": "set off = depart; also trigger."
+ },
+ {
+  "prompt": "They imposed strict limits on spending. (limit)",
+  "answer": "limits on",
+  "category": "light_verb",
+  "notes": "set limits on = restrict."
+ },
+ {
+  "prompt": "They freed the caged birds (SET)",
+  "answer": "set the caged birds free",
+  "category": "light_verb",
+  "notes": "set free = release/liberate."
+ },
+ {
+  "prompt": "They founded a software company (SET)",
+  "answer": "set up",
+  "category": "light_verb",
+  "notes": "set up = found/establish."
+ },
+ {
+  "prompt": "They examined the complaint closely. (look)",
+  "answer": "a close look at",
+  "category": "light_verb",
+  "notes": "a close look at = examine complaint carefully."
+ },
+ {
+  "prompt": "They participated actively in the contest. (part)",
+  "answer": "an active part",
+  "category": "light_verb",
+  "notes": "an active part = participate actively."
+ },
+ {
+  "prompt": "They objected to the unfair rule. (exception)",
+  "answer": "took exception to",
+  "category": "light_verb",
+  "notes": "take exception to = object to."
+ },
+ {
+  "prompt": "They will have to accept the results of the audit. (FACE)",
+  "answer": "face the consequences",
+  "category": "light_verb",
+  "notes": "face the consequences = accept audit results."
+ },
+ {
+  "prompt": "Traditional scholars value meticulous collation very highly. (SET)",
+  "answer": "set great store by",
+  "category": "light_verb",
+  "notes": "set store by = value highly."
+ },
+ {
+  "prompt": "Unions applied intense coercion during negotiations. (PRESSURE)",
+  "answer": "exerted pressure during",
+  "category": "light_verb",
+  "notes": "exerted pressure during = applied intense coercion."
+ },
+ {
+  "prompt": "Unless we act now the policy will fail. (ACTION)",
+  "answer": "take action now",
+  "category": "light_verb",
+  "notes": "take action now = act immediately."
+ },
+ {
+  "prompt": "Vandals ignited the warehouse deliberately. (SET)",
+  "answer": "set light to",
+  "category": "light_verb",
+  "notes": "set light to = ignite (BrE)."
+ },
+ {
+  "prompt": "Vandals burned the old barn. (fire)",
+  "answer": "fire to",
+  "category": "light_verb",
+  "notes": "set fire to = ignite."
+ },
+ {
+  "prompt": "Vietnam exchanges goods with many countries (DO)",
+  "answer": "does a lot of trade",
+  "category": "light_verb",
+  "notes": "do trade with = exchange goods."
+ },
+ {
+  "prompt": "Volunteering serves the community well. (service)",
+  "answer": "service to",
+  "category": "light_verb",
+  "notes": "do service to = serve."
+ },
+ {
+  "prompt": "Voters submitted ballots early. (ballot)",
+  "answer": "cast their ballots",
+  "category": "light_verb",
+  "notes": "cast ballot = vote formally."
+ },
+ {
+  "prompt": "Voters should influence the decision (HAVE)",
+  "answer": "have a say",
+  "category": "light_verb",
+  "notes": "have a say in = influence."
+ },
+ {
+  "prompt": "We can survive without extra funding this year (DO)",
+  "answer": "do without",
+  "category": "light_verb",
+  "notes": "do without = survive lacking."
+ },
+ {
+  "prompt": "We learned a moral from the story. (lesson)",
+  "answer": "a lesson from",
+  "category": "light_verb",
+  "notes": "draw a lesson from = learn moral."
+ },
+ {
+  "prompt": "We deduced the thief from footprints. (inference)",
+  "answer": "an inference from",
+  "category": "light_verb",
+  "notes": "draw an inference = deduce."
+ },
+ {
+  "prompt": "We prioritize education over profit. (priority)",
+  "answer": "priority to",
+  "category": "light_verb",
+  "notes": "give priority to = prioritize."
+ },
+ {
+  "prompt": "We briefly saw the rare bird (GET)",
+  "answer": "got a brief glimpse",
+  "category": "light_verb",
+  "notes": "get a glimpse of = see briefly."
+ },
+ {
+  "prompt": "We chatted noisily during lunch (HAVE)",
+  "answer": "had a noisy chat",
+  "category": "light_verb",
+  "notes": "have a chat = talk variant for dedup safety."
+ },
+ {
+  "prompt": "We must set a limit on cheating. (line)",
+  "answer": "the line at",
+  "category": "light_verb",
+  "notes": "draw the line at = set limit."
+ },
+ {
+  "prompt": "We must differentiate between fact and opinion. (distinction)",
+  "answer": "a distinction between",
+  "category": "light_verb",
+  "notes": "make a distinction between = differentiate."
+ },
+ {
+  "prompt": "We must allow for delays in our plan. (ALLOWANCE)",
+  "answer": "make allowance for",
+  "category": "light_verb",
+  "notes": "make allowance for = consider possible delays."
+ },
+ {
+  "prompt": "We ended the war quickly. (end)",
+  "answer": "end to",
+  "category": "light_verb",
+  "notes": "put an end to = stop."
+ },
+ {
+  "prompt": "We delayed our trip by a week (PUT)",
+  "answer": "put our trip back",
+  "category": "light_verb",
+  "notes": "put back = postpone/delay."
+ },
+ {
+  "prompt": "We applied the theory in real life (PUT)",
+  "answer": "put the theory into practice",
+  "category": "light_verb",
+  "notes": "put into practice = apply."
+ },
+ {
+  "prompt": "We fixed an ambitious aim (SET)",
+  "answer": "set an ambitious target",
+  "category": "light_verb",
+  "notes": "set a target = fix aim."
+ },
+ {
+  "prompt": "We alternated driving on the long trip. (turns)",
+  "answer": "took turns driving",
+  "category": "light_verb",
+  "notes": "take turns = alternate."
+ },
+ {
+  "prompt": "We split the bill equally (GO)",
+  "answer": "went Dutch",
+  "category": "light_verb",
+  "notes": "go Dutch = split bill."
+ },
+ {
+  "prompt": "Workers protested by stopping work. (strike)",
+  "answer": "went on strike",
+  "category": "light_verb",
+  "notes": "go on strike = stop work protest."
+ },
+ {
+  "prompt": "You must respect the safety rules on site. (ABIDE)",
+  "answer": "abide by the rules",
+  "category": "light_verb",
+  "notes": "abide by the rules = obey regulations strictly."
+ },
+ {
+  "prompt": "Remember the fragility of the ceasefire. (BEAR)",
+  "answer": "bear in mind",
+  "category": "light_verb",
+  "notes": "bear in mind = remember."
+ },
+ {
+  "prompt": "You must consider all facts before deciding. (account)",
+  "answer": "account of",
+  "category": "light_verb",
+  "notes": "take account of = consider."
+ },
+ {
+  "prompt": "Remember safety when driving. (mind)",
+  "answer": "in mind",
+  "category": "light_verb",
+  "notes": "bear in mind = remember."
+ },
+ {
+  "prompt": "You should seize the chance to study abroad (HAVE)",
+  "answer": "should have no",
+  "category": "light_verb",
+  "notes": "have the chance to = be offered opportunity."
+ },
+ {
+  "prompt": "You should exploit this opportunity well. (use)",
+  "answer": "use of",
+  "category": "light_verb",
+  "notes": "make use of = utilize."
+ },
+ {
+  "prompt": "Your grade is relevant to your effort. (bearing)",
+  "answer": "bearing on",
+  "category": "light_verb",
+  "notes": "have bearing on = be relevant to."
+ },
+ {
+  "prompt": "A donation was made replacing the customary wreath. (lieu)",
+  "answer": "in lieu of",
+  "category": "prep_idiom",
+  "notes": "in lieu of = instead of something."
+ },
+ {
+  "prompt": "A good editor champions clarity and precision. (stand)",
+  "answer": "stands up for",
+  "category": "prep_idiom",
+  "notes": "stands up for = defend principles firmly."
+ },
+ {
+  "prompt": "A splendid dessert atoned for the mediocre starter. (make)",
+  "answer": "makes up for",
+  "category": "prep_idiom",
+  "notes": "makes up for = compensate for weakness."
+ },
+ {
+  "prompt": "Advisers persuaded the chairman against selling the archives. (talk)",
+  "answer": "talked the chairman out of",
+  "category": "prep_idiom",
+  "notes": "talked the chairman out of = persuaded against action."
+ }
+]

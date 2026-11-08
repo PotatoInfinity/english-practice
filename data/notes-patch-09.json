@@ -1,0 +1,1244 @@
+[
+  {
+    "prompt": "I did not think my pet would die so suddenly.",
+    "answer": "did I think my pet would die so suddenly.",
+    "category": "inversion",
+    "notes": "did I think my pet would die so suddenly = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "She did not imagine she would win the prize.",
+    "answer": "did she imagine she would win the prize.",
+    "category": "inversion",
+    "notes": "did she imagine she would win the prize = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "She did not know then that she would become director.",
+    "answer": "did she know then that she would become director.",
+    "category": "inversion",
+    "notes": "did she know then that she would become director = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "She had no idea what was happening. (little)",
+    "answer": "did she know",
+    "category": "inversion",
+    "notes": "did she know = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "They did not know their journey had just begun.",
+    "answer": "did they know their journey had just begun.",
+    "category": "inversion",
+    "notes": "did they know their journey had just begun = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "They little suspected that the audit would expose them. (LITTLE)",
+    "answer": "did they suspect",
+    "category": "inversion",
+    "notes": "did they suspect = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "They did not suspect what lay ahead of them.",
+    "answer": "did they suspect what lay ahead of them.",
+    "category": "inversion",
+    "notes": "did they suspect what lay ahead of them = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "We did not understand the importance of his decision.",
+    "answer": "did we understand the importance of his decision.",
+    "category": "inversion",
+    "notes": "did we understand the importance of his decision = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "People do not realise how hard it is to be a chef.",
+    "answer": "do people realise how hard it is to be a chef.",
+    "category": "inversion",
+    "notes": "do people realise how hard it is to be a chef = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "They had little expected defeat. (little)",
+    "answer": "had they expected defeat",
+    "category": "inversion",
+    "notes": "had they expected defeat = hardly, fronted negative for emphasis."
+  },
+  {
+    "prompt": "He had never faced such pressure. (never)",
+    "answer": "had he faced such pressure",
+    "category": "inversion",
+    "notes": "had he faced such pressure = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "She had never felt so lonely in her life.",
+    "answer": "had she felt so lonely in her life.",
+    "category": "inversion",
+    "notes": "had she felt so lonely in her life = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "She had never worked so hard. (never)",
+    "answer": "had she worked so hard",
+    "category": "inversion",
+    "notes": "had she worked so hard = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "The town had never seen such a large celebration.",
+    "answer": "had the town seen such a large celebration.",
+    "category": "inversion",
+    "notes": "had the town seen such a large celebration = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "We had never seen so many people in one place.",
+    "answer": "had we seen so many people in one place.",
+    "category": "inversion",
+    "notes": "had we seen so many people in one place = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "He has never admitted his mistake so openly.",
+    "answer": "has he admitted his mistake so openly.",
+    "category": "inversion",
+    "notes": "has he admitted his mistake so openly = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "He has never told a lie. (never)",
+    "answer": "has he told a lie",
+    "category": "inversion",
+    "notes": "has he told a lie = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "She has never seen such a beautiful sight. (never)",
+    "answer": "has she seen",
+    "category": "inversion",
+    "notes": "has she seen = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "The prosecution has never produced such flimsy evidence. (NEVER)",
+    "answer": "has the prosecution produced",
+    "category": "inversion",
+    "notes": "has the prosecution produced = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "I have never been so happy to see someone.",
+    "answer": "have I been so happy to see someone.",
+    "category": "inversion",
+    "notes": "have I been so happy to see someone = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "I have never been so shocked. (never)",
+    "answer": "have I been so shocked",
+    "category": "inversion",
+    "notes": "have I been so shocked = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "I have never even thought about leaving my hometown.",
+    "answer": "have I even thought about leaving my hometown.",
+    "category": "inversion",
+    "notes": "have I even thought about leaving my hometown = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "I have never heard such a ridiculous story.",
+    "answer": "have I heard such a ridiculous story.",
+    "category": "inversion",
+    "notes": "have I heard such a ridiculous story = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "I have never seen such a beautiful building.",
+    "answer": "have I seen such a beautiful building.",
+    "category": "inversion",
+    "notes": "have I seen such a beautiful building = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "I have never seen such beauty. (never)",
+    "answer": "have I seen such beauty",
+    "category": "inversion",
+    "notes": "have I seen such beauty = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "They have never witnessed such bravery before.",
+    "answer": "have they witnessed such bravery before.",
+    "category": "inversion",
+    "notes": "have they witnessed such bravery before = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "We have never faced such a difficult challenge.",
+    "answer": "have we faced such a difficult challenge.",
+    "category": "inversion",
+    "notes": "have we faced such a difficult challenge = at no time, fronted for strong emphasis."
+  },
+  {
+    "prompt": "As soon as he arrived, the argument started.",
+    "answer": "had he arrived than the argument started.",
+    "category": "inversion",
+    "notes": "had he arrived than the argument started = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as he entered the shop, a burglar broke in.",
+    "answer": "had he entered the shop than a burglar broke in.",
+    "category": "inversion",
+    "notes": "had he entered the shop than a burglar broke in = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "He had hardly finished his work when he was asked to help. (sooner)",
+    "answer": "had he finished his work",
+    "category": "inversion",
+    "notes": "had he finished his work = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "Immediately after he finished, he submitted. (sooner)",
+    "answer": "had he finished than he submitted it",
+    "category": "inversion",
+    "notes": "had he finished than he submitted it = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "He had just graduated when he got a job. Rewrite with no sooner. (sooner)",
+    "answer": "had he graduated than he got a job",
+    "category": "inversion",
+    "notes": "had he graduated than he got a job = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "He had barely sat down when the doorbell rang. (sooner)",
+    "answer": "had he sat down",
+    "category": "inversion",
+    "notes": "had he sat down = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as he saw her, he ran away. (sooner)",
+    "answer": "had he seen her than he ran away",
+    "category": "inversion",
+    "notes": "had he seen her than he ran away = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "He stepped outside and then it poured. (sooner)",
+    "answer": "had he stepped outside than it poured",
+    "category": "inversion",
+    "notes": "had he stepped outside than it poured = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as I arrived, it started raining.",
+    "answer": "had I arrived than it started raining.",
+    "category": "inversion",
+    "notes": "had I arrived than it started raining = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as I heard the news, I called. (sooner)",
+    "answer": "had I heard the news than I called",
+    "category": "inversion",
+    "notes": "had I heard the news than I called = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as I walked in the door, the phone rang.",
+    "answer": "had I walked in the door than the phone rang.",
+    "category": "inversion",
+    "notes": "had I walked in the door than the phone rang = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as she arrived, the meeting started. (sooner)",
+    "answer": "had she arrived",
+    "category": "inversion",
+    "notes": "had she arrived = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as she arrived, the meeting was cancelled.",
+    "answer": "had she arrived than the meeting was cancelled.",
+    "category": "inversion",
+    "notes": "had she arrived than the meeting was cancelled = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "She had hardly begun to speak when he interrupted her. (sooner)",
+    "answer": "had she begun to speak",
+    "category": "inversion",
+    "notes": "had she begun to speak = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "She finished her thesis and immediately applied. (sooner)",
+    "answer": "had she finished her thesis than she applied",
+    "category": "inversion",
+    "notes": "had she finished her thesis than she applied = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as she opened the letter, she cried. (sooner)",
+    "answer": "had she opened the letter than she cried",
+    "category": "inversion",
+    "notes": "had she opened the letter than she cried = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as she sat down, the phone rang.",
+    "answer": "had she sat down than the phone rang.",
+    "category": "inversion",
+    "notes": "had she sat down than the phone rang = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as the announcement was made, everyone protested. (sooner)",
+    "answer": "had the announcement been made",
+    "category": "inversion",
+    "notes": "had the announcement been made = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "The moment the bell rang, they stood up. (sooner)",
+    "answer": "had the bell rung than they stood up",
+    "category": "inversion",
+    "notes": "had the bell rung than they stood up = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as the match ended, fans cheered. (sooner)",
+    "answer": "had the match ended than fans cheered",
+    "category": "inversion",
+    "notes": "had the match ended than fans cheered = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "The movie started and then the lights dimmed. Rewrite correctly. (sooner)",
+    "answer": "had the movie started than the lights dimmed",
+    "category": "inversion",
+    "notes": "had the movie started than the lights dimmed = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as the sun rose, we set out. (sooner)",
+    "answer": "had the sun risen than we set out",
+    "category": "inversion",
+    "notes": "had the sun risen than we set out = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as the verdict was announced, chaos erupted in the courtroom. (SOONER)",
+    "answer": "had the verdict been announced",
+    "category": "inversion",
+    "notes": "had the verdict been announced = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "They had scarcely entered the room when the lights went out. (sooner)",
+    "answer": "had they entered the room",
+    "category": "inversion",
+    "notes": "had they entered the room = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as they landed, they were arrested. (sooner)",
+    "answer": "had they landed than they were arrested",
+    "category": "inversion",
+    "notes": "had they landed than they were arrested = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as they signed the contract, the company collapsed.",
+    "answer": "had they signed the contract than the company collapsed.",
+    "category": "inversion",
+    "notes": "had they signed the contract than the company collapsed = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as we arrived, it started to snow. (sooner)",
+    "answer": "had we arrived than it started to snow",
+    "category": "inversion",
+    "notes": "had we arrived than it started to snow = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as we finished dinner, guests started leaving.",
+    "answer": "had we finished dinner than guests started leaving.",
+    "category": "inversion",
+    "notes": "had we finished dinner than guests started leaving = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "We tasted the soup and then we praised it. (sooner)",
+    "answer": "had we tasted the soup than we praised it",
+    "category": "inversion",
+    "notes": "had we tasted the soup than we praised it = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as the park opened, it started raining.",
+    "answer": "was the new park open than it started raining.",
+    "category": "inversion",
+    "notes": "was the new park open than it started raining = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "As soon as the policy was implemented, it faced opposition.",
+    "answer": "was the new policy implemented than it faced opposition.",
+    "category": "inversion",
+    "notes": "was the new policy implemented than it faced opposition = immediately after, paired with than for sequence."
+  },
+  {
+    "prompt": "No way will the board ratify such a reckless merger. (WAY)",
+    "answer": "will the board ratify",
+    "category": "inversion",
+    "notes": "will the board ratify = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "I did not realise until then. (not)",
+    "answer": "did I realise until then",
+    "category": "inversion",
+    "notes": "did I realise until then = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He cheated and he bullied. (not)",
+    "answer": "did he cheat but he also bullied others",
+    "category": "inversion",
+    "notes": "did he cheat but he also bullied others = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "He finished his homework and he cleaned his room.",
+    "answer": "did he finish his homework, but he also cleaned his room.",
+    "category": "inversion",
+    "notes": "did he finish his homework, but he also cleaned his room = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "He not only missed the bus but also forgot his wallet. (only)",
+    "answer": "did he miss the bus",
+    "category": "inversion",
+    "notes": "did he miss the bus = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "It rained and it was cold. (not)",
+    "answer": "did it rain but it was also cold",
+    "category": "inversion",
+    "notes": "did it rain but it was also cold = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She arrived late and she forgot the report.",
+    "answer": "did she arrive late, but she also forgot the report.",
+    "category": "inversion",
+    "notes": "did she arrive late, but she also forgot the report = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She not only forged the signature but also destroyed the ledger. (NOT)",
+    "answer": "did she forge the signature",
+    "category": "inversion",
+    "notes": "did she forge the signature = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She won the award and she got a scholarship.",
+    "answer": "did she win the award, but she also received a scholarship.",
+    "category": "inversion",
+    "notes": "did she win the award, but she also received a scholarship = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She won the match and she came back from behind.",
+    "answer": "did she win the match but she came back from behind.",
+    "category": "inversion",
+    "notes": "did she win the match but she came back from behind = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "They missed the train and they lost luggage.",
+    "answer": "did they miss the train, but they also lost their luggage.",
+    "category": "inversion",
+    "notes": "did they miss the train, but they also lost their luggage = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "They stole and they lied. (not)",
+    "answer": "did they steal but they also lied",
+    "category": "inversion",
+    "notes": "did they steal but they also lied = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "He plays guitar and he sings beautifully.",
+    "answer": "does he play the guitar, but he also sings beautifully.",
+    "category": "inversion",
+    "notes": "does he play the guitar, but he also sings beautifully = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "Overuse of fertiliser degrades soil and threatens ecosystems.",
+    "answer": "does overuse of fertiliser degrade soil, but it also threatens ecosystems.",
+    "category": "inversion",
+    "notes": "does overuse of fertiliser degrade soil, but it also threatens ecosystems = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She not only sings well but also dances beautifully. (only)",
+    "answer": "does she sing well",
+    "category": "inversion",
+    "notes": "does she sing well = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She sings and dances well. (not)",
+    "answer": "does she sing well but she also dances well",
+    "category": "inversion",
+    "notes": "does she sing well but she also dances well = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "He is intelligent and he is hardworking.",
+    "answer": "is he intelligent, but he is also hardworking.",
+    "category": "inversion",
+    "notes": "is he intelligent, but he is also hardworking = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "He is rich and famous. (not)",
+    "answer": "is he rich but he is also famous",
+    "category": "inversion",
+    "notes": "is he rich but he is also famous = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "She is beautiful and intelligent. (only)",
+    "answer": "is she beautiful",
+    "category": "inversion",
+    "notes": "is she beautiful = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "It was cold and it rained every day.",
+    "answer": "was it cold, but it rained every day as well.",
+    "category": "inversion",
+    "notes": "was it cold, but it rained every day as well = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "The hotel was expensive and it was noisy.",
+    "answer": "was the hotel expensive, but it was also very noisy.",
+    "category": "inversion",
+    "notes": "was the hotel expensive, but it was also very noisy = additionally, fronted addition requiring inversion."
+  },
+  {
+    "prompt": "He did not speak until asked directly.",
+    "answer": "asked directly did he speak.",
+    "category": "inversion",
+    "notes": "asked directly did he speak = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not publish the book until editors had approved the draft.",
+    "answer": "did she publish the book.",
+    "category": "inversion",
+    "notes": "did she publish the book = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not cross the bridge until engineers had declared it safe.",
+    "answer": "did they cross the bridge.",
+    "category": "inversion",
+    "notes": "did they cross the bridge = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not forgive him until he had apologised sincerely.",
+    "answer": "did I forgive him.",
+    "category": "inversion",
+    "notes": "did I forgive him = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He did not speak until he had been asked directly.",
+    "answer": "did he speak.",
+    "category": "inversion",
+    "notes": "did he speak = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He did not admit the truth until he had seen the evidence.",
+    "answer": "did he admit the truth.",
+    "category": "inversion",
+    "notes": "did he admit the truth = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He did not retire until his debts had been cleared.",
+    "answer": "did he retire.",
+    "category": "inversion",
+    "notes": "did he retire = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He calmed down only after hours. (until)",
+    "answer": "did he calm down",
+    "category": "inversion",
+    "notes": "did he calm down = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not realise my mistake until I got home.",
+    "answer": "I got home did I realise my mistake.",
+    "category": "inversion",
+    "notes": "I got home did I realise my mistake = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not realise my mistake until I had reached home.",
+    "answer": "did I realise my mistake.",
+    "category": "inversion",
+    "notes": "did I realise my mistake = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not believe the news until I had seen the photos.",
+    "answer": "did I believe the news.",
+    "category": "inversion",
+    "notes": "did I believe the news = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not believe I had won until I heard my name.",
+    "answer": "I heard my name did I believe I had won the race.",
+    "category": "inversion",
+    "notes": "I heard my name did I believe I had won the race = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not understand the problem until it was explained. (until)",
+    "answer": "until it was explained",
+    "category": "inversion",
+    "notes": "until it was explained = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not notice the money was missing until later.",
+    "answer": "later did I notice the money was missing.",
+    "category": "inversion",
+    "notes": "later did I notice the money was missing = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not sign the paper until lawyers had checked every clause.",
+    "answer": "did she sign the paper.",
+    "category": "inversion",
+    "notes": "did she sign the paper = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not find him until midnight.",
+    "answer": "midnight did they find him.",
+    "category": "inversion",
+    "notes": "midnight did they find him = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not find the child until midnight had struck.",
+    "answer": "did they find the child.",
+    "category": "inversion",
+    "notes": "did they find the child = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "We did not discover the truth until much later.",
+    "answer": "much later did we discover the truth.",
+    "category": "inversion",
+    "notes": "much later did we discover the truth = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The police did not act until neighbours had called twice.",
+    "answer": "did the police act.",
+    "category": "inversion",
+    "notes": "did the police act = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The meeting did not begin until she arrived.",
+    "answer": "she arrived did the meeting begin.",
+    "category": "inversion",
+    "notes": "she arrived did the meeting begin = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She spoke only when asked. (until)",
+    "answer": "did she speak",
+    "category": "inversion",
+    "notes": "did she speak = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not smile until the baby had laughed aloud.",
+    "answer": "did she smile.",
+    "category": "inversion",
+    "notes": "did she smile = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not sleep until the baby had stopped crying.",
+    "answer": "did I sleep.",
+    "category": "inversion",
+    "notes": "did I sleep = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "Not until the ceasefire collapsed did diplomats grasp the gravity. (UNTIL)",
+    "answer": "did diplomats grasp",
+    "category": "inversion",
+    "notes": "did diplomats grasp = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not accept the offer until the contract had been revised.",
+    "answer": "did she accept the offer.",
+    "category": "inversion",
+    "notes": "did she accept the offer = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He did not apologise until the damage had been done.",
+    "answer": "did he apologise.",
+    "category": "inversion",
+    "notes": "did he apologise = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The meeting did not begin until the director had arrived.",
+    "answer": "did the meeting begin.",
+    "category": "inversion",
+    "notes": "did the meeting begin = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not calm down until the doctor arrived.",
+    "answer": "the doctor arrived did she calm down.",
+    "category": "inversion",
+    "notes": "the doctor arrived did she calm down = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not calm down until the doctor had examined her son.",
+    "answer": "did she calm down.",
+    "category": "inversion",
+    "notes": "did she calm down = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not notice the loss until the evening had fallen.",
+    "answer": "did I notice the loss.",
+    "category": "inversion",
+    "notes": "did I notice the loss = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He did not recover until the fever had subsided fully.",
+    "answer": "did he recover.",
+    "category": "inversion",
+    "notes": "did he recover = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "We did not discover the truth until the files had been opened.",
+    "answer": "did we discover the truth.",
+    "category": "inversion",
+    "notes": "did we discover the truth = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not rebuild the village until the floods had receded.",
+    "answer": "did they rebuild the village.",
+    "category": "inversion",
+    "notes": "did they rebuild the village = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "We did not start dinner until the guests had arrived.",
+    "answer": "did we start dinner.",
+    "category": "inversion",
+    "notes": "did we start dinner = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "He did not understand the warning until the machine had broken down.",
+    "answer": "did he understand the warning.",
+    "category": "inversion",
+    "notes": "did he understand the warning = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The train did not depart until the passengers had boarded completely.",
+    "answer": "did the train depart.",
+    "category": "inversion",
+    "notes": "did the train depart = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The rescue did not start until the rain had stopped.",
+    "answer": "did the rescue start.",
+    "category": "inversion",
+    "notes": "did the rescue start = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not leave until the rain stopped.",
+    "answer": "the rain stopped did they leave.",
+    "category": "inversion",
+    "notes": "the rain stopped did they leave = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not celebrate until the rescue had been confirmed.",
+    "answer": "did they celebrate.",
+    "category": "inversion",
+    "notes": "did they celebrate = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The museum did not open until the restorers had finished their work.",
+    "answer": "did the museum open.",
+    "category": "inversion",
+    "notes": "did the museum open = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "I did not feel relieved until the results had been published.",
+    "answer": "did I feel relieved.",
+    "category": "inversion",
+    "notes": "did I feel relieved = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "We did not grasp the danger until the river had overflowed.",
+    "answer": "did we grasp the danger.",
+    "category": "inversion",
+    "notes": "did we grasp the danger = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not leave the shelter until the storm had passed.",
+    "answer": "did they leave the shelter.",
+    "category": "inversion",
+    "notes": "did they leave the shelter = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not understand until the teacher explained twice.",
+    "answer": "the teacher explained twice did she understand.",
+    "category": "inversion",
+    "notes": "the teacher explained twice did she understand = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not understand the lesson until the teacher had explained it twice.",
+    "answer": "did she understand the lesson.",
+    "category": "inversion",
+    "notes": "did she understand the lesson = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "They did not announce the results until the votes had been counted.",
+    "answer": "did they announce the results.",
+    "category": "inversion",
+    "notes": "did they announce the results = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "The court did not rule until the witnesses had testified.",
+    "answer": "did the court rule.",
+    "category": "inversion",
+    "notes": "did the court rule = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "We did not relax until we had heard they arrived safely.",
+    "answer": "did we relax.",
+    "category": "inversion",
+    "notes": "did we relax = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "We did not find the key until we had moved the sofa.",
+    "answer": "did we find the key.",
+    "category": "inversion",
+    "notes": "did we find the key = only when, fronted time clause for emphasis."
+  },
+  {
+    "prompt": "She did not speak a word on no account. Correct. (account)",
+    "answer": "did she speak a word",
+    "category": "inversion",
+    "notes": "did she speak a word = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "Dogs may never run free in this park.",
+    "answer": "may dogs run free in this park.",
+    "category": "inversion",
+    "notes": "may dogs run free in this park = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "Visitors may never enter the laboratory alone.",
+    "answer": "may visitors enter the laboratory alone.",
+    "category": "inversion",
+    "notes": "may visitors enter the laboratory alone = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "Employees must never leave the building during working hours.",
+    "answer": "must employees leave the building during working hours.",
+    "category": "inversion",
+    "notes": "must employees leave the building during working hours = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "Passengers must never smoke on this flight.",
+    "answer": "must passengers smoke on this flight.",
+    "category": "inversion",
+    "notes": "must passengers smoke on this flight = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "Staff must never use phones during meetings.",
+    "answer": "must staff use phones during meetings.",
+    "category": "inversion",
+    "notes": "must staff use phones during meetings = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "You must never disclose this information.",
+    "answer": "must you disclose this information.",
+    "category": "inversion",
+    "notes": "must you disclose this information = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "You must never open this door without permission.",
+    "answer": "must you open this door without permission.",
+    "category": "inversion",
+    "notes": "must you open this door without permission = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "You must never share your login details.",
+    "answer": "must you share your login details.",
+    "category": "inversion",
+    "notes": "must you share your login details = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "You must not smoke here on any account. (account)",
+    "answer": "must you smoke here",
+    "category": "inversion",
+    "notes": "must you smoke here = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "Children must never be left unattended by the pool.",
+    "answer": "should children be left unattended by the pool.",
+    "category": "inversion",
+    "notes": "should children be left unattended by the pool = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "The door must never be left unlocked.",
+    "answer": "should the door be left unlocked.",
+    "category": "inversion",
+    "notes": "should the door be left unlocked = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "They will not surrender on no account. (account)",
+    "answer": "will they surrender",
+    "category": "inversion",
+    "notes": "will they surrender = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "The envoy would on no account concede the disputed territory. (ACCOUNT)",
+    "answer": "would the envoy concede",
+    "category": "inversion",
+    "notes": "would the envoy concede = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "He will not accept bribes on any condition. (condition)",
+    "answer": "will he accept bribes",
+    "category": "inversion",
+    "notes": "will he accept bribes = never, fronted prohibition with modal inversion."
+  },
+  {
+    "prompt": "We found the documents only after clerks had searched the archive.",
+    "answer": "did we find the documents.",
+    "category": "inversion",
+    "notes": "did we find the documents = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She smiled again only after doctors had confirmed the recovery.",
+    "answer": "did she smile again.",
+    "category": "inversion",
+    "notes": "did she smile again = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "We understood the risks only after experts had explained the data.",
+    "answer": "did we understand the risks.",
+    "category": "inversion",
+    "notes": "did we understand the risks = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The crop survived only after farmers had installed irrigation.",
+    "answer": "did the crop survive.",
+    "category": "inversion",
+    "notes": "did the crop survive = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He was allowed to play only after he finished his homework.",
+    "answer": "finishing his homework was he allowed to play.",
+    "category": "inversion",
+    "notes": "finishing his homework was he allowed to play = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "I recognised the place only after guides had described its history.",
+    "answer": "did I recognise the place.",
+    "category": "inversion",
+    "notes": "did I recognise the place = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She forgave him only after he had apologised sincerely.",
+    "answer": "did she forgive him.",
+    "category": "inversion",
+    "notes": "did she forgive him = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He was promoted only after he had completed the project.",
+    "answer": "was he promoted.",
+    "category": "inversion",
+    "notes": "was he promoted = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He was allowed to play only after he had finished his homework.",
+    "answer": "was he allowed to play.",
+    "category": "inversion",
+    "notes": "was he allowed to play = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He could afford university only after he had saved for years.",
+    "answer": "could he afford university.",
+    "category": "inversion",
+    "notes": "could he afford university = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He cleared his debts only after he had sold his property.",
+    "answer": "did he clear his debts.",
+    "category": "inversion",
+    "notes": "did he clear his debts = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They were rescued only after helicopters had spotted the signal.",
+    "answer": "were they rescued.",
+    "category": "inversion",
+    "notes": "were they rescued = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "I felt confident only after I had practised the speech repeatedly.",
+    "answer": "did I feel confident.",
+    "category": "inversion",
+    "notes": "did I feel confident = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The truth emerged only after journalists had examined the records.",
+    "answer": "did the truth emerge.",
+    "category": "inversion",
+    "notes": "did the truth emerge = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "Peace returned only after leaders had signed the agreement.",
+    "answer": "did peace return.",
+    "category": "inversion",
+    "notes": "did peace return = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "I understood the real problem only after long discussion.",
+    "answer": "long discussion did I understand the real problem.",
+    "category": "inversion",
+    "notes": "long discussion did I understand the real problem = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She was hired only after managers had checked her references.",
+    "answer": "was she hired.",
+    "category": "inversion",
+    "notes": "was she hired = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The police acted only after neighbours called twice.",
+    "answer": "neighbours called twice did the police act.",
+    "category": "inversion",
+    "notes": "neighbours called twice did the police act = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The police acted only after neighbours had called twice.",
+    "answer": "did the police act.",
+    "category": "inversion",
+    "notes": "did the police act = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He left the hospital only after nurses had removed the bandages.",
+    "answer": "did he leave the hospital.",
+    "category": "inversion",
+    "notes": "did he leave the hospital = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "We appreciated the reform only after officials had implemented it fully.",
+    "answer": "did we appreciate the reform.",
+    "category": "inversion",
+    "notes": "did we appreciate the reform = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She understood only after reading twice. (only)",
+    "answer": "did she understand",
+    "category": "inversion",
+    "notes": "did she understand = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "I could begin the presentation only after she arrived.",
+    "answer": "she arrived could I begin the presentation.",
+    "category": "inversion",
+    "notes": "she arrived could I begin the presentation = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "I could begin the presentation only after she had arrived.",
+    "answer": "could I begin the presentation.",
+    "category": "inversion",
+    "notes": "could I begin the presentation = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The patient recovered only after she had followed strict treatment.",
+    "answer": "did the patient recover.",
+    "category": "inversion",
+    "notes": "did the patient recover = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She understood the truth only after she had read the letter.",
+    "answer": "did she understand the truth.",
+    "category": "inversion",
+    "notes": "did she understand the truth = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She passed the exam only after she had studied for months.",
+    "answer": "did she pass the exam.",
+    "category": "inversion",
+    "notes": "did she pass the exam = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She understood the truth only after she read the letter.",
+    "answer": "she read the letter did she understand the truth.",
+    "category": "inversion",
+    "notes": "she read the letter did she understand the truth = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The house can be rented only after signing the contract. (only)",
+    "answer": "after signing the contract",
+    "category": "inversion",
+    "notes": "after signing the contract = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The patient could walk again only after surgeons had operated successfully.",
+    "answer": "could the patient walk again.",
+    "category": "inversion",
+    "notes": "could the patient walk again = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They launched the product only after testers had approved the design.",
+    "answer": "did they launch the product.",
+    "category": "inversion",
+    "notes": "did they launch the product = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "She could sleep again only after the baby had settled down.",
+    "answer": "could she sleep again.",
+    "category": "inversion",
+    "notes": "could she sleep again = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They could start construction only after the council had granted permission.",
+    "answer": "could they start construction.",
+    "category": "inversion",
+    "notes": "could they start construction = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He apologised only after the damage had been done.",
+    "answer": "did he apologise.",
+    "category": "inversion",
+    "notes": "did he apologise = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He apologised only after the damage was done.",
+    "answer": "the damage was done did he apologise.",
+    "category": "inversion",
+    "notes": "the damage was done did he apologise = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The orchestra performed again only after the hall had been repaired.",
+    "answer": "did the orchestra perform again.",
+    "category": "inversion",
+    "notes": "did the orchestra perform again = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "We could continue the match only after the rain had stopped.",
+    "answer": "could we continue the match.",
+    "category": "inversion",
+    "notes": "could we continue the match = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They discovered the error only after the report had been published.",
+    "answer": "did they discover the error.",
+    "category": "inversion",
+    "notes": "did they discover the error = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They discovered the error only after the report was published.",
+    "answer": "the report was published did they discover the error.",
+    "category": "inversion",
+    "notes": "the report was published did they discover the error = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "He realized the gravity of the verdict only after the sentence was read. (ONLY)",
+    "answer": "the sentence was read",
+    "category": "inversion",
+    "notes": "the sentence was read = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They left the room only after the speech ended. (only)",
+    "answer": "did they leave the room",
+    "category": "inversion",
+    "notes": "did they leave the room = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They realised the mistake only after they had reviewed the evidence.",
+    "answer": "did they realise the mistake.",
+    "category": "inversion",
+    "notes": "did they realise the mistake = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The team won the prize only after they had trained relentlessly.",
+    "answer": "did the team win the prize.",
+    "category": "inversion",
+    "notes": "did the team win the prize = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "They realised the mistake only after they reviewed the evidence.",
+    "answer": "they reviewed the evidence did they realise the mistake.",
+    "category": "inversion",
+    "notes": "they reviewed the evidence did they realise the mistake = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "I understood the problem only after we had discussed it thoroughly.",
+    "answer": "did I understand the problem.",
+    "category": "inversion",
+    "notes": "did I understand the problem = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "We could relax only after we heard they arrived safely.",
+    "answer": "we had heard they had arrived safely could we relax.",
+    "category": "inversion",
+    "notes": "we had heard they had arrived safely could we relax = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "We could relax only after we had received confirmation of their safety.",
+    "answer": "could we relax.",
+    "category": "inversion",
+    "notes": "could we relax = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "The road reopened only after workers had cleared the landslide.",
+    "answer": "did the road reopen.",
+    "category": "inversion",
+    "notes": "did the road reopen = solely following, fronted time phrase with inversion."
+  },
+  {
+    "prompt": "Farmers can secure food supplies only by adopting sustainable practices.",
+    "answer": "adopting sustainable practices can farmers secure food supplies.",
+    "category": "inversion",
+    "notes": "adopting sustainable practices can farmers secure food supplies = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "The patient recovered only by following strict treatment.",
+    "answer": "following strict treatment did the patient recover.",
+    "category": "inversion",
+    "notes": "following strict treatment did the patient recover = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "Success can be achieved only by hard work. (only)",
+    "answer": "by hard work",
+    "category": "inversion",
+    "notes": "by hard work = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "He survived only by remaining calm under pressure.",
+    "answer": "remaining calm under pressure did he survive.",
+    "category": "inversion",
+    "notes": "remaining calm under pressure did he survive = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "Peace can be kept only by respecting the agreement.",
+    "answer": "respecting the agreement can peace be kept.",
+    "category": "inversion",
+    "notes": "respecting the agreement can peace be kept = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "She passed the exam only by studying hard every night.",
+    "answer": "studying hard every night did she pass the exam.",
+    "category": "inversion",
+    "notes": "studying hard every night did she pass the exam = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "The team won only by training relentlessly.",
+    "answer": "training relentlessly did the team win.",
+    "category": "inversion",
+    "notes": "training relentlessly did the team win = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "You will understand only by trying. (only)",
+    "answer": "will you understand",
+    "category": "inversion",
+    "notes": "will you understand = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "He succeeded only by working hard. (only)",
+    "answer": "did he succeed",
+    "category": "inversion",
+    "notes": "did he succeed = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "He will succeed only if he works hard. (only)",
+    "answer": "by working hard",
+    "category": "inversion",
+    "notes": "by working hard = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "We can achieve success only by working together.",
+    "answer": "working together can we achieve success.",
+    "category": "inversion",
+    "notes": "working together can we achieve success = solely through, fronted method phrase with inversion."
+  },
+  {
+    "prompt": "The contract is valid only if both sides sign it.",
+    "answer": "both sides sign it is the contract valid.",
+    "category": "inversion",
+    "notes": "both sides sign it is the contract valid = solely on condition, fronted condition with inversion."
+  },
+  {
+    "prompt": "The plan will succeed only if everyone cooperates.",
+    "answer": "everyone cooperates will the plan succeed.",
+    "category": "inversion",
+    "notes": "everyone cooperates will the plan succeed = solely on condition, fronted condition with inversion."
+  },
+  {
+    "prompt": "She will forgive him only if he apologises sincerely.",
+    "answer": "he apologises sincerely will she forgive him.",
+    "category": "inversion",
+    "notes": "he apologises sincerely will she forgive him = solely on condition, fronted condition with inversion."
+  },
+  {
+    "prompt": "He will recover fully only if he rests enough.",
+    "answer": "he rests enough will he recover fully.",
+    "category": "inversion",
+    "notes": "he rests enough will he recover fully = solely on condition, fronted condition with inversion."
+  },
+  {
+    "prompt": "They will accept the offer only if it is improved. (only)",
+    "answer": "if it is improved",
+    "category": "inversion",
+    "notes": "if it is improved = solely on condition, fronted condition with inversion."
+  }
+]

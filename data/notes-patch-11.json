@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "Valuables must never be left unattended.",
+  "answer": "should valuables be left unattended.",
+  "category": "inversion",
+  "notes": "should valuables be left unattended. = never leave valuables without care."
+ },
+ {
+  "prompt": "You must never give your password to anyone.",
+  "answer": "should you give your password to anyone.",
+  "category": "inversion",
+  "notes": "should you give your password to anyone. = never tell anyone your password."
+ },
+ {
+  "prompt": "You must never open that door during the alarm.",
+  "answer": "should you open that door during the alarm.",
+  "category": "inversion",
+  "notes": "should you open that door during the alarm. = never open that door then."
+ },
+ {
+  "prompt": "If he were honest, he would admit. (were)",
+  "answer": "he honest he would admit it",
+  "category": "inversion",
+  "notes": "he honest he would admit it = imagines he is honest now."
+ },
+ {
+  "prompt": "If I were an animal, I would be a dog.",
+  "answer": "I an animal, I would be a dog.",
+  "category": "inversion",
+  "notes": "I an animal, I would be a dog. = imagines being an animal now."
+ },
+ {
+  "prompt": "If I were in your position, I would wait.",
+  "answer": "I in your position, I would wait.",
+  "category": "inversion",
+  "notes": "I in your position, I would wait. = imagines being in your place."
+ },
+ {
+  "prompt": "If I were taller, I would join. (were)",
+  "answer": "I taller I would join",
+  "category": "inversion",
+  "notes": "I taller I would join = imagines being taller now."
+ },
+ {
+  "prompt": "If I were to accept the role, I would need support.",
+  "answer": "I to accept the role, I would need more support.",
+  "category": "inversion",
+  "notes": "I to accept the role, I would need more support. = imagines accepting the role later."
+ },
+ {
+  "prompt": "If I were you, I would refuse. (were)",
+  "answer": "I you I would refuse",
+  "category": "inversion",
+  "notes": "I you I would refuse = gives advice imagining being you."
+ },
+ {
+  "prompt": "If I were you, I would accept the offer.",
+  "answer": "I you, I would accept the offer.",
+  "category": "inversion",
+  "notes": "I you, I would accept the offer. = gives advice imagining being you."
+ },
+ {
+  "prompt": "If it were cheaper, I would buy. (were)",
+  "answer": "it cheaper I would buy it",
+  "category": "inversion",
+  "notes": "it cheaper I would buy it = imagines it being cheaper now."
+ },
+ {
+  "prompt": "If it were not for your notes, we would restart.",
+  "answer": "it not for your notes, we would have to start again.",
+  "category": "inversion",
+  "notes": "it not for your notes, we would have to start again. = without your notes we restart."
+ },
+ {
+  "prompt": "If she were here, she would know. (were)",
+  "answer": "she here she would know",
+  "category": "inversion",
+  "notes": "she here she would know = imagines her being here now."
+ },
+ {
+  "prompt": "If she were not my daughter, I would call police.",
+  "answer": "she not my daughter, I would call the police.",
+  "category": "inversion",
+  "notes": "she not my daughter, I would call the police. = imagines she is not my daughter."
+ },
+ {
+  "prompt": "If the estimate were accurate, we would still overspend.",
+  "answer": "the estimate accurate, we would still overspend.",
+  "category": "inversion",
+  "notes": "the estimate accurate, we would still overspend. = imagines the estimate being accurate."
+ },
+ {
+  "prompt": "If the supplier cancelled, we would need another plan.",
+  "answer": "the supplier to cancel, we would need another plan.",
+  "category": "inversion",
+  "notes": "the supplier to cancel, we would need another plan. = imagines the supplier cancelling later."
+ },
+ {
+  "prompt": "Were the treaty to collapse, the region would descend into conflict. (WERE)",
+  "answer": "the treaty to collapse",
+  "category": "inversion",
+  "notes": "the treaty to collapse = imagines the treaty collapsing later."
+ },
+ {
+  "prompt": "If they sold their house today, they would profit hugely.",
+  "answer": "they to sell their house today, they would profit hugely.",
+  "category": "inversion",
+  "notes": "they to sell their house today, they would profit hugely. = imagines them selling the house today."
+ },
+ {
+  "prompt": "If we had children, we would need a bigger house.",
+  "answer": "we to have children, we would need a bigger house.",
+  "category": "inversion",
+  "notes": "we to have children, we would need a bigger house. = imagines having children later."
+ },
+ {
+  "prompt": "A new chance emerged for me to work abroad. (AROSE)",
+  "answer": "opportunity arose for",
+  "category": "light_verb",
+  "notes": "opportunity arose for = a new chance appeared."
+ },
+ {
+  "prompt": "A short nap will greatly improve your focus. (WONDERS)",
+  "answer": "do wonders for",
+  "category": "light_verb",
+  "notes": "do wonders for = greatly improves something."
+ },
+ {
+  "prompt": "Activists exerted coercion on the council to act. (PUT)",
+  "answer": "put intense pressure on",
+  "category": "light_verb",
+  "notes": "put pressure on = coerce."
+ },
+ {
+  "prompt": "All food was wasted after the party. (waste)",
+  "answer": "to waste after",
+  "category": "light_verb",
+  "notes": "go to waste = be wasted."
+ },
+ {
+  "prompt": "All suppliers must follow the new standards. (COMPLY)",
+  "answer": "comply with regulations",
+  "category": "light_verb",
+  "notes": "comply with regulations = obey the rules fully."
+ },
+ {
+  "prompt": "Analysts attached little importance to the denial. (STORE)",
+  "answer": "little store by",
+  "category": "light_verb",
+  "notes": "Set store by = value."
+ },
+ {
+  "prompt": "Applicants satisfied the strict selection standards. (CRITERIA)",
+  "answer": "strict criteria for",
+  "category": "light_verb",
+  "notes": "strict criteria for = strict standards for selection."
+ },
+ {
+  "prompt": "Arsonists ignited the warehouse (SET)",
+  "answer": "set fire",
+  "category": "light_verb",
+  "notes": "set fire to = ignite deliberately."
+ },
+ {
+  "prompt": "Beginners struggle with pronunciation (HAVE)",
+  "answer": "have great difficulty",
+  "category": "light_verb",
+  "notes": "have difficulty with = struggle."
+ },
+ {
+  "prompt": "Brave investors often profit most. (RISKS)",
+  "answer": "take risks to",
+  "category": "light_verb",
+  "notes": "take risks to = act bravely despite danger."
+ },
+ {
+  "prompt": "Buses operate a regular service here. (service)",
+  "answer": "a regular service",
+  "category": "light_verb",
+  "notes": "run a service = provide transport."
+ },
+ {
+  "prompt": "Charitable observers viewed his silence kindly. (PUT)",
+  "answer": "put a kindly interpretation on",
+  "category": "light_verb",
+  "notes": "put an interpretation on = construe."
+ },
+ {
+  "prompt": "Charity work creates a lot of benefit for the community (DO)",
+  "answer": "does a lot of good",
+  "category": "light_verb",
+  "notes": "do good for = benefit."
+ },
+ {
+  "prompt": "Citizens voted in the election yesterday. (vote)",
+  "answer": "their vote in",
+  "category": "light_verb",
+  "notes": "cast a vote = vote formally."
+ },
+ {
+  "prompt": "Coastal villages suffered the worst effects of the storm. (BRUNT)",
+  "answer": "the brunt of",
+  "category": "light_verb",
+  "notes": "the brunt of = the worst part of something."
+ },
+ {
+  "prompt": "Collectors prize mint condition very highly. (SET)",
+  "answer": "set a high value on",
+  "category": "light_verb",
+  "notes": "set a high value on = prize."
+ },
+ {
+  "prompt": "Connoisseurs prize provenance very highly. (PUT)",
+  "answer": "put a high value on",
+  "category": "light_verb",
+  "notes": "put a high value on = prize."
+ },
+ {
+  "prompt": "Consumers protested against plastic waste. (STAND)",
+  "answer": "a stand against",
+  "category": "light_verb",
+  "notes": "a stand against = firm opposition to something."
+ },
+ {
+  "prompt": "Courtiers bowed deeply to the emperor. (DO)",
+  "answer": "did humble obeisance to",
+  "category": "light_verb",
+  "notes": "do obeisance to = bow deeply."
+ },
+ {
+  "prompt": "Critics mocked the new theory mercilessly. (CAST)",
+  "answer": "cast cruel derision on",
+  "category": "light_verb",
+  "notes": "cast derision on = mock."
+ },
+ {
+  "prompt": "Critics trivialized the landmark ruling. (LIGHT)",
+  "answer": "light of",
+  "category": "light_verb",
+  "notes": "Make light of = trivialize."
+ },
+ {
+  "prompt": "Critics interpreted his poem negatively. (interpretation)",
+  "answer": "interpretation on",
+  "category": "light_verb",
+  "notes": "put interpretation on = interpret."
+ },
+ {
+  "prompt": "Do not judge him without evidence. (ASSUMPTIONS)",
+  "answer": "make assumptions without",
+  "category": "light_verb",
+  "notes": "make assumptions without = judge without enough proof."
+ },
+ {
+  "prompt": "Do not treat his warnings as unimportant. (LIGHT)",
+  "answer": "make light of",
+  "category": "light_verb",
+  "notes": "make light of = treat as unimportant."
+ },
+ {
+  "prompt": "Do not start the dog barking (SET)",
+  "answer": "set the dog off",
+  "category": "light_verb",
+  "notes": "set off = provoke to start."
+ },
+ {
+  "prompt": "Education can bring positive change to society. (BRING)",
+  "answer": "bring about change",
+  "category": "light_verb",
+  "notes": "bring about change = cause change to happen."
+ },
+ {
+  "prompt": "Exchanges promote mutual comprehension across cultures. (UNDERSTANDING)",
+  "answer": "foster understanding across",
+  "category": "light_verb",
+  "notes": "foster understanding across = help mutual understanding grow."
+ },
+ {
+  "prompt": "Fans behaved violently after the match. (riot)",
+  "answer": "ran riot after",
+  "category": "light_verb",
+  "notes": "run riot = behave violently."
+ },
+ {
+  "prompt": "Farmers hold a vital interest in water rights. (HAVE)",
+  "answer": "have a vital stake in",
+  "category": "light_verb",
+  "notes": "have a stake in = hold interest."
+ },
+ {
+  "prompt": "Frontline nurses suffered the worst of the cuts. (BEAR)",
+  "answer": "bore the brunt of",
+  "category": "light_verb",
+  "notes": "bear the brunt of = suffer the worst part of."
+ },
+ {
+  "prompt": "Think carefully before you answer. (thought)",
+  "answer": "some thought before",
+  "category": "light_verb",
+  "notes": "give thought to = consider."
+ },
+ {
+  "prompt": "Be lenient with him after his loss (GO)",
+  "answer": "easy",
+  "category": "light_verb",
+  "notes": "go easy on = treat leniently."
+ },
+ {
+  "prompt": "Good teachers transmit understanding to each cohort. (KNOWLEDGE)",
+  "answer": "impart knowledge to",
+  "category": "light_verb",
+  "notes": "impart knowledge to = teach knowledge to others."
+ },
+ {
+  "prompt": "Good teaching has a strong effect on results. (IMPACT)",
+  "answer": "significant impact on",
+  "category": "light_verb",
+  "notes": "significant impact on = strong effect on results."
+ },
+ {
+  "prompt": "He takes full responsibility for the team. (BEARS)",
+  "answer": "bears responsibility",
+  "category": "light_verb",
+  "notes": "bears responsibility = carries duty for the team."
+ },
+ {
+  "prompt": "He gave lying evidence against his neighbour. (BEAR)",
+  "answer": "bore false witness against",
+  "category": "light_verb",
+  "notes": "bear false witness against = give lying testimony."
+ },
+ {
+  "prompt": "He felt lasting hostility towards the occupying forces. (BEAR)",
+  "answer": "bore lasting enmity toward",
+  "category": "light_verb",
+  "notes": "bear enmity toward = feel hostility."
+ },
+ {
+  "prompt": "He gave formal proof in court. (testimony)",
+  "answer": "bore testimony in",
+  "category": "light_verb",
+  "notes": "bear testimony = testify."
+ },
+ {
+  "prompt": "He looked briefly at the stranger. (glance)",
+  "answer": "a glance at",
+  "category": "light_verb",
+  "notes": "cast a glance at = look briefly."
+ },
+ {
+  "prompt": "He insulted her reputation with lies. (slur)",
+  "answer": "slur on",
+  "category": "light_verb",
+  "notes": "cast a slur on = insult."
+ },
+ {
+  "prompt": "He looked angrily at his opponent. (look)",
+  "answer": "look at",
+  "category": "light_verb",
+  "notes": "cast a look at = glance."
+ },
+ {
+  "prompt": "He recalled his childhood in the speech. (mind)",
+  "answer": "mind back",
+  "category": "light_verb",
+  "notes": "cast mind back to = recall."
+ },
+ {
+  "prompt": "He fell ill with a bad cold. (cold)",
+  "answer": "a heavy cold",
+  "category": "light_verb",
+  "notes": "a heavy cold = a severe cold illness."
+ },
+ {
+  "prompt": "He studied law at university for four years (DO)",
+  "answer": "did a degree",
+  "category": "light_verb",
+  "notes": "do a degree in = study for."
+ },
+ {
+  "prompt": "He harmed his health greatly. (harm)",
+  "answer": "great harm",
+  "category": "light_verb",
+  "notes": "great harm = serious damage to health."
+ },
+ {
+  "prompt": "He grievously wronged the orphans. (DO)",
+  "answer": "did grievous wrong to",
+  "category": "light_verb",
+  "notes": "do wrong to = wrong grievously."
+ },
+ {
+  "prompt": "He fulfilled his duty as a guard faithfully (DO)",
+  "answer": "did his duty",
+  "category": "light_verb",
+  "notes": "do duty = perform obligation."
+ },
+ {
+  "prompt": "He loyally supported his ageing parents. (DO)",
+  "answer": "did his duty by",
+  "category": "light_verb",
+  "notes": "do duty by = support loyally."
+ },
+ {
+  "prompt": "He performed his share of cooking last night (DO)",
+  "answer": "did his share",
+  "category": "light_verb",
+  "notes": "do share of = perform part."
+ },
+ {
+  "prompt": "He helped me greatly. (favour)",
+  "answer": "me a great favour",
+  "category": "light_verb",
+  "notes": "me a great favour = a great helpful act."
+ },
+ {
+  "prompt": "He washed the dishes after dinner (DO)",
+  "answer": "did the washing-up",
+  "category": "light_verb",
+  "notes": "do the washing-up = wash dishes."
+ },
+ {
+  "prompt": "He served a prison term for fraud. (DO)",
+  "answer": "did time for",
+  "category": "light_verb",
+  "notes": "do time for = serve prison term."
+ },
+ {
+  "prompt": "He got no response from the application. (blank)",
+  "answer": "a blank with",
+  "category": "light_verb",
+  "notes": "draw a blank = get no result."
+ },
+ {
+  "prompt": "He compared prices before buying. (comparison)",
+  "answer": "a comparison between",
+  "category": "light_verb",
+  "notes": "draw a comparison between = compare."
+ },
+ {
+  "prompt": "He found comfort from her words. (comfort)",
+  "answer": "drew comfort from",
+  "category": "light_verb",
+  "notes": "draw comfort from = be comforted by."
+ },
+ {
+  "prompt": "He attracted my attention to the error. (attention)",
+  "answer": "my attention to",
+  "category": "light_verb",
+  "notes": "draw attention to = point out."
+ },
+ {
+  "prompt": "He finally received news from home. (word)",
+  "answer": "got word from",
+  "category": "light_verb",
+  "notes": "get word = receive news."
+ },
+ {
+  "prompt": "He finally accepted the blame for the error. (RESPONSIBILITY)",
+  "answer": "took responsibility for",
+  "category": "light_verb",
+  "notes": "took responsibility for = accepted blame for error."
+ },
+ {
+  "prompt": "He first saw the ocean at the age of ten. (SET)",
+  "answer": "set eyes on",
+  "category": "light_verb",
+  "notes": "set eyes on = see for first time."
+ },
+ {
+  "prompt": "He sighed with relief. (sigh)",
+  "answer": "a sigh",
+  "category": "light_verb",
+  "notes": "a sigh = a deep breath of relief."
+ },
+ {
+  "prompt": "He spoke at the ceremony. (speech)",
+  "answer": "a speech",
+  "category": "light_verb",
+  "notes": "a speech = a formal talk."
+ },
+ {
+  "prompt": "He testified crucially in court. (evidence)",
+  "answer": "crucial evidence",
+  "category": "light_verb",
+  "notes": "crucial evidence = important proof in court."
+ },
+ {
+  "prompt": "He showed proof in court. (evidence)",
+  "answer": "gave evidence in",
+  "category": "light_verb",
+  "notes": "give evidence = testify/provide proof."
+ },
+ {
+  "prompt": "He yielded to despair. (way)",
+  "answer": "gave way to",
+  "category": "light_verb",
+  "notes": "gave way to = yielded to despair."
+ },
+ {
+  "prompt": "He had an opportunity to study abroad. (chance)",
+  "answer": "a chance to",
+  "category": "light_verb",
+  "notes": "get a chance = have opportunity."
+ },
+ {
+  "prompt": "He obtained control of the ball. (hold)",
+  "answer": "hold of",
+  "category": "light_verb",
+  "notes": "get hold of = obtain/grasp."
+ },
+ {
+  "prompt": "He received approval to proceed (GET)",
+  "answer": "got the go-ahead",
+  "category": "light_verb",
+  "notes": "get the go-ahead = receive approval."
+ },
+ {
+  "prompt": "He was dismissed for misconduct (GET)",
+  "answer": "got the sack",
+  "category": "light_verb",
+  "notes": "get the sack = be dismissed."
+ },
+ {
+  "prompt": "He was fired without warning. (sack)",
+  "answer": "the sack without",
+  "category": "light_verb",
+  "notes": "get the sack = be fired."
+ },
+ {
+  "prompt": "He suddenly changed his mind about leaving. (HEART)",
+  "answer": "of heart about",
+  "category": "light_verb",
+  "notes": "of heart about = a sudden change of mind."
+ },
+ {
+  "prompt": "He secretly participated in the fraud. (HAVE)",
+  "answer": "had a secret hand in",
+  "category": "light_verb",
+  "notes": "have a hand in = participate."
+ },
+ {
+  "prompt": "He felt no remorse about dismissing the staff. (HAVE)",
+  "answer": "had no compunction about",
+  "category": "light_verb",
+  "notes": "have no compunction about = feel no remorse."
+ },
+ {
+  "prompt": "He was determined to buy that cottage. (SET)",
+  "answer": "set his heart on",
+  "category": "light_verb",
+  "notes": "set heart on = desire strongly."
+ },
+ {
+  "prompt": "He keenly enjoys fierce debate. (HAVE)",
+  "answer": "has a keen appetite for",
+  "category": "light_verb",
+  "notes": "have an appetite for = enjoy keenly."
+ },
+ {
+  "prompt": "He feels a natural kinship with rural life. (HAVE)",
+  "answer": "has a natural affinity for",
+  "category": "light_verb",
+  "notes": "have an affinity for = feel kinship."
+ },
+ {
+  "prompt": "He is naturally skilled at mending engines. (HAVE)",
+  "answer": "has a natural knack for",
+  "category": "light_verb",
+  "notes": "have a knack for = be skilled."
+ },
+ {
+  "prompt": "He struggles with maths homework (HAVE)",
+  "answer": "has a serious problem",
+  "category": "light_verb",
+  "notes": "have a problem with = struggle."
+ },
+ {
+  "prompt": "He trusts his assistant completely (HAVE)",
+  "answer": "has complete confidence",
+  "category": "light_verb",
+  "notes": "have confidence in = trust."
+ },
+ {
+  "prompt": "He feels sympathy for the poor. (sympathy)",
+  "answer": "sympathy for",
+  "category": "light_verb",
+  "notes": "have sympathy for = sympathize."
+ },
+ {
+  "prompt": "He greatly affects young readers. (influence)",
+  "answer": "influence on",
+  "category": "light_verb",
+  "notes": "have influence on = affect."
+ },
+ {
+  "prompt": "He formally complained about the noise. (COMPLAINT)",
+  "answer": "a complaint about",
+  "category": "light_verb",
+  "notes": "a complaint about = a formal protest about noise."
+ },
+ {
+  "prompt": "He chose to resign yesterday. (DECISION)",
+  "answer": "a decision to",
+  "category": "light_verb",
+  "notes": "a decision to = a choice to resign."
+ },
+ {
+  "prompt": "He complained formally about noise. (complaint)",
+  "answer": "a formal complaint",
+  "category": "light_verb",
+  "notes": "a formal complaint = an official protest about noise."
+ },
+ {
+  "prompt": "He decided quickly. (decision)",
+  "answer": "a hasty decision",
+  "category": "light_verb",
+  "notes": "a hasty decision = a quick choice."
+ },
+ {
+  "prompt": "He tried to compensate for the damage. (amends)",
+  "answer": "made amends for",
+  "category": "light_verb",
+  "notes": "make amends for = compensate."
+ },
+ {
+  "prompt": "He invented a false reason for being late. (excuse)",
+  "answer": "an excuse for",
+  "category": "light_verb",
+  "notes": "make an excuse for = invent justification."
+ },
+ {
+  "prompt": "He treated the problem as unimportant. (light)",
+  "answer": "light of",
+  "category": "light_verb",
+  "notes": "light of = treat as unimportant."
+ },
+ {
+  "prompt": "He needs to earn a living for his family. (LIVING)",
+  "answer": "a living for",
+  "category": "light_verb",
+  "notes": "a living for = income to support family."
+ },
+ {
+  "prompt": "He visited his grandmother. (visit)",
+  "answer": "a visit",
+  "category": "light_verb",
+  "notes": "a visit = a short stay to see."
+ },
+ {
+  "prompt": "He asked me a difficult question. (question)",
+  "answer": "question to",
+  "category": "light_verb",
+  "notes": "put a question to = ask."
+ },
+ {
+  "prompt": "He asked the minister a tough question (PUT)",
+  "answer": "put a tough question",
+  "category": "light_verb",
+  "notes": "put a question to = ask formally."
+ },
+ {
+  "prompt": "He formally suggested the idea to the committee (PUT)",
+  "answer": "put forward",
+  "category": "light_verb",
+  "notes": "put forward = propose formally."
+ },
+ {
+  "prompt": "He pressured her to sign quickly (PUT)",
+  "answer": "put great pressure",
+  "category": "light_verb",
+  "notes": "put pressure on = coerce."
+ },
+ {
+  "prompt": "He relaxed after a long day (PUT)",
+  "answer": "put his feet",
+  "category": "light_verb",
+  "notes": "put feet up = relax."
+ },
+ {
+  "prompt": "He communicated his ideas clearly (PUT)",
+  "answer": "put his ideas across",
+  "category": "light_verb",
+  "notes": "put across = communicate clearly."
+ },
+ {
+  "prompt": "He saved money for emergencies (PUT)",
+  "answer": "put some money aside",
+  "category": "light_verb",
+  "notes": "put aside = save/reserve."
+ },
+ {
+  "prompt": "He corrected the error firmly (PUT)",
+  "answer": "put the error right",
+  "category": "light_verb",
+  "notes": "put right = correct/set right."
+ },
+ {
+  "prompt": "He values honesty highly (PUT)",
+  "answer": "puts a high value",
+  "category": "light_verb",
+  "notes": "put value on = regard highly."
+ },
+ {
+  "prompt": "He corrected the mistake quickly. (right)",
+  "answer": "the mistake right",
+  "category": "light_verb",
+  "notes": "put right = correct."
+ },
+ {
+  "prompt": "He reluctantly began to write his memoirs. (SET)",
+  "answer": "set pen to paper",
+  "category": "light_verb",
+  "notes": "set pen to paper = begin to write."
+ },
+ {
+  "prompt": "He manages a small company well. (business)",
+  "answer": "a small business",
+  "category": "light_verb",
+  "notes": "run a business = manage company."
+ },
+ {
+  "prompt": "He broke the world best mark (SET)",
+  "answer": "set a new world record",
+  "category": "light_verb",
+  "notes": "set a record = achieve best mark."
+ },
+ {
+  "prompt": "He looked directly at the stranger. (eyes)",
+  "answer": "eyes on",
+  "category": "light_verb",
+  "notes": "set eyes on = see/look."
+ },
+ {
+  "prompt": "He looked at the trophy longingly (SET)",
+  "answer": "set his eyes",
+  "category": "light_verb",
+  "notes": "set eyes on = look at desirously."
+ },
+ {
+  "prompt": "He desired promotion strongly (SET)",
+  "answer": "set his heart",
+  "category": "light_verb",
+  "notes": "set heart on = desire strongly."
+ },
+ {
+  "prompt": "He aimed for promotion this year. (sights)",
+  "answer": "sights on",
+  "category": "light_verb",
+  "notes": "set sights on = aim for."
+ },
+ {
+  "prompt": "He embarked to solve the crisis (SET)",
+  "answer": "set out",
+  "category": "light_verb",
+  "notes": "set out to = embark with aim."
+ },
+ {
+  "prompt": "He programmed the clock for six (SET)",
+  "answer": "set the alarm",
+  "category": "light_verb",
+  "notes": "set an alarm for = program to ring."
+ },
+ {
+  "prompt": "He clarified the misunderstanding (SET)",
+  "answer": "set the misunderstanding straight",
+  "category": "light_verb",
+  "notes": "set straight = clarify/correct."
+ },
+ {
+  "prompt": "He values her advice greatly (SET)",
+  "answer": "sets great store",
+  "category": "light_verb",
+  "notes": "set store by = value highly."
+ },
+ {
+  "prompt": "He still resented his former partner. (BEAR)",
+  "answer": "bore a grudge against",
+  "category": "light_verb",
+  "notes": "bear a grudge against = resent persistently."
+ },
+ {
+  "prompt": "He photographed the scene. (photograph)",
+  "answer": "a photograph",
+  "category": "light_verb",
+  "notes": "a photograph = a picture taken."
+ },
+ {
+  "prompt": "He exploited her kindness badly. (advantage)",
+  "answer": "took advantage of",
+  "category": "light_verb",
+  "notes": "take advantage of = exploit/use well."
+ },
+ {
+  "prompt": "He was offended by the joke. (offence)",
+  "answer": "took offence at",
+  "category": "light_verb",
+  "notes": "took offence at = felt insulted by the joke."
+ },
+ {
+  "prompt": "He pitied the beggar. (pity)",
+  "answer": "took pity on",
+  "category": "light_verb",
+  "notes": "took pity on = felt sympathy for the beggar."
+ },
+ {
+  "prompt": "He acted immediately. (action)",
+  "answer": "prompt action",
+  "category": "light_verb",
+  "notes": "prompt action = quick immediate response."
+ },
+ {
+  "prompt": "He avenged his brother after the fight. (revenge)",
+  "answer": "revenge on",
+  "category": "light_verb",
+  "notes": "take revenge on = avenge oneself on."
+ },
+ {
+  "prompt": "He will stand trial for fraud (PUT)",
+  "answer": "put on trial",
+  "category": "light_verb",
+  "notes": "put on trial = submit to trial."
+ },
+ {
+  "prompt": "He lost all his hair at forty (GO)",
+  "answer": "went bald",
+  "category": "light_verb",
+  "notes": "go bald = lose hair."
+ },
+ {
+  "prompt": "He was left asking for food. (begging)",
+  "answer": "went begging for",
+  "category": "light_verb",
+  "notes": "go begging = be left unwanted."
+ },
+ {
+  "prompt": "He blushed with embarrassment (GO)",
+  "answer": "went bright red",
+  "category": "light_verb",
+  "notes": "go red = blush."
+ },
+ {
+  "prompt": "He slowly lost his hearing (GO)",
+  "answer": "went deaf",
+  "category": "light_verb",
+  "notes": "go deaf = lose hearing."
+ },
+ {
+  "prompt": "He became insane with jealousy (GO)",
+  "answer": "went mad",
+  "category": "light_verb",
+  "notes": "go mad = become insane."
+ },
+ {
+  "prompt": "He publicly stated his support. (record)",
+  "answer": "on record in",
+  "category": "light_verb",
+  "notes": "go on record = state publicly."
+ },
+ {
+  "prompt": "He made great efforts to help us (GO)",
+  "answer": "went to great lengths",
+  "category": "light_verb",
+  "notes": "go to lengths to = make great efforts."
+ },
+ {
+  "prompt": "Heavy rain caused the flood. (rise)",
+  "answer": "rise to",
+  "category": "light_verb",
+  "notes": "give rise to = cause."
+ },
+ {
+  "prompt": "Her conduct reflected well on her school. (DO)",
+  "answer": "did great credit to",
+  "category": "light_verb",
+  "notes": "do credit to = reflect well on."
+ },
+ {
+  "prompt": "Her courage provided a model for the whole unit. (SET)",
+  "answer": "set a noble example",
+  "category": "light_verb",
+  "notes": "set an example = provide a model."
+ },
+ {
+  "prompt": "Her speech created a strong positive effect on us. (IMPRESSION)",
+  "answer": "strong impression on",
+  "category": "light_verb",
+  "notes": "strong impression on = strong positive effect on us."
+ },
+ {
+  "prompt": "Her style shows the clear trace of colonial education. (BEAR)",
+  "answer": "bears the clear imprint of",
+  "category": "light_verb",
+  "notes": "bear the imprint of = show the trace."
+ },
+ {
+  "prompt": "His actions opposed his promises (GO)",
+  "answer": "went against",
+  "category": "light_verb",
+  "notes": "go against = oppose."
+ },
+ {
+  "prompt": "His behaviour caused suspicion. (rise)",
+  "answer": "gave rise to",
+  "category": "light_verb",
+  "notes": "gave rise to = caused suspicion."
+ },
+ {
+  "prompt": "His crime is relevant to this case. (relation)",
+  "answer": "relation to",
+  "category": "light_verb",
+  "notes": "bear relation to = be related to."
+ },
+ {
+  "prompt": "His desertion brought dishonour upon his regiment. (CAST)",
+  "answer": "cast lasting dishonour on",
+  "category": "light_verb",
+  "notes": "cast dishonour on = bring shame."
+ },
+ {
+  "prompt": "His diary supports the theory. (credence)",
+  "answer": "credence to",
+  "category": "light_verb",
+  "notes": "give credence to = support/believe."
+ },
+ {
+  "prompt": "His efforts finally produced results. (fruit)",
+  "answer": "finally bore fruit",
+  "category": "light_verb",
+  "notes": "bear fruit = produce results."
+ },
+ {
+  "prompt": "His excuse was logical and believable. (sense)",
+  "answer": "excuse made sense",
+  "category": "light_verb",
+  "notes": "make sense = be logical."
+ },
+ {
+  "prompt": "His expense claims would not withstand close examination. (BEAR)",
+  "answer": "bear close scrutiny",
+  "category": "light_verb",
+  "notes": "bear scrutiny = withstand examination."
+ },
+ {
+  "prompt": "His honesty raises suspicion about the results. (doubt)",
+  "answer": "doubt on",
+  "category": "light_verb",
+  "notes": "cast doubt on = make suspicious."
+ },
+ {
+  "prompt": "His honesty brings honour to the school (DO)",
+  "answer": "does great credit",
+  "category": "light_verb",
+  "notes": "do credit to = bring honour to."
+ },
+ {
+  "prompt": "His long research finally produced results in a breakthrough. (BEAR)",
+  "answer": "bore fruit",
+  "category": "light_verb",
+  "notes": "bear fruit = yield results."
+ },
+ {
+  "prompt": "His memoirs have no connection with historical fact. (BEAR)",
+  "answer": "bear no relation to",
+  "category": "light_verb",
+  "notes": "bear no relation to = be unconnected."
+ },
+ {
+  "prompt": "His opinion carries great importance. (weight)",
+  "answer": "great weight with",
+  "category": "light_verb",
+  "notes": "bear weight = be important."
+ },
+ {
+  "prompt": "His poetry cannot be compared with Shakespeare's. (BEAR)",
+  "answer": "bears no comparison with",
+  "category": "light_verb",
+  "notes": "bear comparison with = be comparable to."
+ },
+ {
+  "prompt": "His remarks discredited the integrity of the committee. (CAST)",
+  "answer": "cast grave reflections on",
+  "category": "light_verb",
+  "notes": "cast reflections on = discredit."
+ },
+ {
+  "prompt": "His report gave a favourable slant to dismal figures. (PUT)",
+  "answer": "put a favourable gloss on",
+  "category": "light_verb",
+  "notes": "put a gloss on = make attractive."
+ },
+ {
+  "prompt": "His speech provoked strong criticism. (fire)",
+  "answer": "drew fire from",
+  "category": "light_verb",
+  "notes": "draw fire = attract criticism."
+ },
+ {
+  "prompt": "His speech created the mood for talks. (tone)",
+  "answer": "the tone for",
+  "category": "light_verb",
+  "notes": "set the tone = establish mood."
+ },
+ {
+  "prompt": "His talk sparked our interest in astronomy. (AROUSED)",
+  "answer": "aroused our interest",
+  "category": "light_verb",
+  "notes": "aroused our interest = sparked our curiosity."
+ },
+ {
+  "prompt": "His testimony is directly relevant to the case. (HAVE)",
+  "answer": "has a direct bearing on",
+  "category": "light_verb",
+  "notes": "have bearing on = be relevant."
+ },
+ {
+  "prompt": "His warning deserves to be repeated at every induction. (BEAR)",
+  "answer": "bears repeating",
+  "category": "light_verb",
+  "notes": "bear repeating = deserve repetition."
+ },
+ {
+  "prompt": "His work cannot compare with hers. (comparison)",
+  "answer": "bear comparison with",
+  "category": "light_verb",
+  "notes": "bear comparison = be comparable."
+ },
+ {
+  "prompt": "Historians believed his memoirs hardly at all. (PUT)",
+  "answer": "put no credence in",
+  "category": "light_verb",
+  "notes": "put credence in = believe."
+ },
+ {
+  "prompt": "Hunters laid a snare for wolves (SET)",
+  "answer": "set a trap",
+  "category": "light_verb",
+  "notes": "set a trap for = lay snare."
+ },
+ {
+  "prompt": "I finally understand the whole situation (GET)",
+  "answer": "get the picture",
+  "category": "light_verb",
+  "notes": "get the picture = understand."
+ },
+ {
+  "prompt": "I finally understand what you mean. (drift)",
+  "answer": "get your drift",
+  "category": "light_verb",
+  "notes": "get drift = understand meaning."
+ },
+ {
+  "prompt": "I finally contacted the manager (GET)",
+  "answer": "got hold of",
+  "category": "light_verb",
+  "notes": "get hold of = contact/reach."
+ },
+ {
+  "prompt": "I understand the whole situation now. (picture)",
+  "answer": "get the picture",
+  "category": "light_verb",
+  "notes": "get the picture = understand."
+ },
+ {
+  "prompt": "I formed the feeling he was hiding something (GET)",
+  "answer": "got the impression",
+  "category": "light_verb",
+  "notes": "get the impression that = feel."
+ },
+ {
+  "prompt": "I oppose the new rule strongly. (objection)",
+  "answer": "objection to",
+  "category": "light_verb",
+  "notes": "have an objection to = oppose."
+ },
+ {
+  "prompt": "I doubt whether he will come (HAVE)",
+  "answer": "have serious doubts",
+  "category": "light_verb",
+  "notes": "have doubts about = be uncertain."
+ },
+ {
+  "prompt": "I doubt the truth of his story. (reservation)",
+  "answer": "serious reservations about",
+  "category": "light_verb",
+  "notes": "have reservations about = doubt."
+ },
+ {
+  "prompt": "I disagree strongly with his proposal. (issue)",
+  "answer": "take issue with",
+  "category": "light_verb",
+  "notes": "take issue with = disagree/object."
+ },
+ {
+  "prompt": "I prefer the blue dress out of all (GO)",
+  "answer": "go for",
+  "category": "light_verb",
+  "notes": "go for = choose/prefer."
+ },
+ {
+  "prompt": "Inflation affects family budgets everywhere. (EFFECT)",
+  "answer": "direct effect on",
+  "category": "light_verb",
+  "notes": "direct effect on = clear influence on budgets."
+ },
+ {
+  "prompt": "Investors paid the cost of the crisis. (cost)",
+  "answer": "cost of",
+  "category": "light_verb",
+  "notes": "bear the cost of = pay for."
+ },
+ {
+  "prompt": "Investors placed great confidence in the central bank. (PUT)",
+  "answer": "put great trust in",
+  "category": "light_verb",
+  "notes": "put trust in = place confidence in."
+ },
+ {
+  "prompt": "It is obvious he will refuse (GO)",
+  "answer": "goes without",
+  "category": "light_verb",
+  "notes": "go without saying = be obvious."
+ },
+ {
+  "prompt": "Jurors heeded the judges warning about publicity. (HEED)",
+  "answer": "heed of",
+  "category": "light_verb",
+  "notes": "heed of = careful attention to warning."
+ },
+ {
+  "prompt": "Keeping a personal journal helps learning. (DIARY)",
+  "answer": "a diary helps",
+  "category": "light_verb",
+  "notes": "a diary helps = keeping a journal aids learning."
+ },
+ {
+  "prompt": "Leaks intensified rumours about the merger. (SPECULATION)",
+  "answer": "fuelled speculation about",
+  "category": "light_verb",
+  "notes": "fuelled speculation about = intensified rumours about the merger."
+ },
+ {
+  "prompt": "Leaks weakened the credibility of the administration. (AUTHORITY)",
+  "answer": "the authority of",
+  "category": "light_verb",
+  "notes": "the authority of = the power of the administration."
+ },
+ {
+  "prompt": "Let me clarify the facts first (PUT)",
+  "answer": "put the record",
+  "category": "light_verb",
+  "notes": "put the record straight = clarify facts."
+ },
+ {
+  "prompt": "Lobbyists created difficulties blocking reform. (PUT)",
+  "answer": "put serious obstacles",
+  "category": "light_verb",
+  "notes": "put obstacles in the way of = hinder."
+ },
+ {
+  "prompt": "Local residents want influence over planning decisions. (HAVE)",
+  "answer": "have a say in",
+  "category": "light_verb",
+  "notes": "have a say in = have influence."
+ },
+ {
+  "prompt": "Local volunteers served the relief effort admirably. (DO)",
+  "answer": "did yeoman service to",
+  "category": "light_verb",
+  "notes": "do yeoman service to = serve admirably."
+ },
+ {
+  "prompt": "Many children suffer hunger daily (GO)",
+  "answer": "go hungry",
+  "category": "light_verb",
+  "notes": "go hungry = suffer hunger."
+ },
+ {
+  "prompt": "Members can use the library freely (HAVE)",
+  "answer": "have full access",
+  "category": "light_verb",
+  "notes": "have access to = be able to use."
+ },
+ {
+  "prompt": "Millions formally registered their choice in the referendum. (CAST)",
+  "answer": "cast their votes for reform",
+  "category": "light_verb",
+  "notes": "cast votes for = register choice."
+ },
+ {
+  "prompt": "My fingers became numb with cold (GO)",
+  "answer": "went numb",
+  "category": "light_verb",
+  "notes": "go numb = lose sensation."
+ },
+ {
+  "prompt": "My mind became empty in the exam. (blank)",
+  "answer": "went blank in",
+  "category": "light_verb",
+  "notes": "go blank = become empty."
+ },
+ {
+  "prompt": "New safety measures were established (PUT)",
+  "answer": "put in place",
+  "category": "light_verb",
+  "notes": "put in place = establish."
+ },
+ {
+  "prompt": "No outsider had ever entered the shrine. (SET)",
+  "answer": "set foot in",
+  "category": "light_verb",
+  "notes": "set foot in = enter."
+ },
+ {
+  "prompt": "No tourist had entered the cave (SET)",
+  "answer": "set foot",
+  "category": "light_verb",
+  "notes": "set foot in = enter (usu. negative)."
+ },
+ {
+  "prompt": "Nurses suffered the worst pressure. (brunt)",
+  "answer": "brunt of",
+  "category": "light_verb",
+  "notes": "bear the brunt of = suffer most."
+ },
+ {
+  "prompt": "One helpful habit is to write observations regularly. (DIARY2)",
+  "answer": "diary",
+  "category": "light_verb",
+  "notes": "diary = a daily journal."
+ },
+ {
+  "prompt": "Opponents misinterpreted her innocent remark. (PUT)",
+  "answer": "put a false construction on",
+  "category": "light_verb",
+  "notes": "put a construction on = interpret, often wrongly."
+ },
+ {
+  "prompt": "Our standards have fallen since funding cuts. (SLIPPED)",
+  "answer": "have slipped since",
+  "category": "light_verb",
+  "notes": "have slipped since = have fallen since the cuts."
+ }
+]

@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "I regret not challenging the forged affidavit. (ONLY)",
+  "answer": "only I had challenged",
+  "category": "rephrase",
+  "notes": "only I had challenged = expresses regret about past inaction."
+ },
+ {
+  "prompt": "I regret missing the scholarship deadline.",
+  "answer": "only I had not",
+  "category": "rephrase",
+  "notes": "only I had not = expresses regret about missed deadline."
+ },
+ {
+  "prompt": "I should have set an alarm clock.",
+  "answer": "only I had",
+  "category": "rephrase",
+  "notes": "only I had = expresses regret about past omission."
+ },
+ {
+  "prompt": "I wish I knew the answer. (only)",
+  "answer": "only I knew",
+  "category": "rephrase",
+  "notes": "only I knew = expresses present wish to know."
+ },
+ {
+  "prompt": "What a pity Nam got up late and missed the bus.",
+  "answer": "only Nam had not got",
+  "category": "rephrase",
+  "notes": "only Nam had not got = expresses regret about lateness."
+ },
+ {
+  "prompt": "It is a pity we do not have a library in our village.",
+  "answer": "only we had",
+  "category": "rephrase",
+  "notes": "only we had = expresses wish for a library."
+ },
+ {
+  "prompt": "It is a pity you did not tell me about the contest sooner.",
+  "answer": "only you had",
+  "category": "rephrase",
+  "notes": "only you had = expresses regret about late information."
+ },
+ {
+  "prompt": "Unless you hurry, you will be late. (miss)",
+  "answer": "you will miss",
+  "category": "rephrase",
+  "notes": "you will miss = predicts lateness without hurrying."
+ },
+ {
+  "prompt": "When the guests left, we cleaned the house.",
+  "answer": "after the guests left,",
+  "category": "rephrase",
+  "notes": "after the guests left, = means following their departure."
+ },
+ {
+  "prompt": "Although she is tired, she keeps working.",
+  "answer": "spite of her tiredness,",
+  "category": "rephrase",
+  "notes": "spite of her tiredness, = means despite being tired."
+ },
+ {
+  "prompt": "Although costs are high, quality stays best.",
+  "answer": "spite of high costs,",
+  "category": "rephrase",
+  "notes": "spite of high costs, = means despite expensive costs."
+ },
+ {
+  "prompt": "Although he apologised, she stayed angry.",
+  "answer": "spite of his apology,",
+  "category": "rephrase",
+  "notes": "spite of his apology, = means despite saying sorry."
+ },
+ {
+  "prompt": "He succeeded although he was tired. (spite)",
+  "answer": "spite of his tiredness",
+  "category": "rephrase",
+  "notes": "spite of his tiredness = means despite being tired."
+ },
+ {
+  "prompt": "Although Mai sings well, she is shy on stage.",
+  "answer": "spite of singing well,",
+  "category": "rephrase",
+  "notes": "spite of singing well, = means despite good singing."
+ },
+ {
+  "prompt": "Although the fact that he is young, he is mature. (spite)",
+  "answer": "spite of the fact that he is young",
+  "category": "rephrase",
+  "notes": "spite of the fact that he is young = means despite youth."
+ },
+ {
+  "prompt": "Although it rained, we went out. (spite)",
+  "answer": "spite of the rain",
+  "category": "rephrase",
+  "notes": "spite of the rain = means despite rainy weather."
+ },
+ {
+  "prompt": "He is intelligent but lazy. (however)",
+  "answer": "though he is",
+  "category": "rephrase",
+  "notes": "though he is = means although smart yet lazy."
+ },
+ {
+  "prompt": "Iron is much heavier than wood.",
+  "answer": "far heavier",
+  "category": "rephrase",
+  "notes": "far heavier = means considerably heavier in weight."
+ },
+ {
+  "prompt": "I thought I saw Adnan, but it was impossible because he was in Greece that week.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = past impossibility; interchangeable with can't have"
+ },
+ {
+  "prompt": "It is crucial that the error should be corrected at once.",
+  "answer": "be corrected",
+  "category": "rephrase",
+  "notes": "be corrected = expresses urgent passive necessity."
+ },
+ {
+  "prompt": "It is essential that documents should be submitted on time.",
+  "answer": "be submitted",
+  "category": "rephrase",
+  "notes": "be submitted = expresses required passive action."
+ },
+ {
+  "prompt": "It is essential that no time should be lost today.",
+  "answer": "be lost",
+  "category": "rephrase",
+  "notes": "be lost = expresses necessity without delay."
+ },
+ {
+  "prompt": "The factory should have installed filters years ago. (TIME)",
+  "answer": "time the factory installed",
+  "category": "rephrase",
+  "notes": "time the factory installed = suggests overdue necessary action."
+ },
+ {
+  "prompt": "You should have left earlier. It is urgent. (high)",
+  "answer": "high time",
+  "category": "rephrase",
+  "notes": "high time = signals overdue urgent action."
+ },
+ {
+  "prompt": "It is imperative that the operation should begin now.",
+  "answer": "the operation begin",
+  "category": "rephrase",
+  "notes": "the operation begin = demands immediate start."
+ },
+ {
+  "prompt": "It is important that he should be told the truth.",
+  "answer": "be told",
+  "category": "rephrase",
+  "notes": "be told = requires informing as necessity."
+ },
+ {
+  "prompt": "There is no point in arguing about it.",
+  "answer": "no point in",
+  "category": "rephrase",
+  "notes": "no point in = means arguing is useless."
+ },
+ {
+  "prompt": "It is pointless to argue with him. (use)",
+  "answer": "no use",
+  "category": "rephrase",
+  "notes": "no use = means arguing is useless."
+ },
+ {
+  "prompt": "It is no use crying over spilt milk.",
+  "answer": "no use crying",
+  "category": "rephrase",
+  "notes": "no use crying = means crying brings no benefit."
+ },
+ {
+  "prompt": "There is no point in complaining. (pointless)",
+  "answer": "is pointless to",
+  "category": "rephrase",
+  "notes": "is pointless to = means complaining has no value."
+ },
+ {
+  "prompt": "The mountain is so high that climbers need oxygen.",
+  "answer": "such a high mountain",
+  "category": "rephrase",
+  "notes": "such a high mountain = emphasizes extreme height."
+ },
+ {
+  "prompt": "It started raining three years ago and still rains. (since)",
+  "answer": "since it started",
+  "category": "rephrase",
+  "notes": "since it started = marks continuous duration from past."
+ },
+ {
+  "prompt": "You should go to bed now. (time)",
+  "answer": "time you went",
+  "category": "rephrase",
+  "notes": "time you went = suggests bedtime is overdue."
+ },
+ {
+  "prompt": "It has been raining for two hours. (set)",
+  "answer": "two hours since it set in",
+  "category": "rephrase",
+  "notes": "set in = begin (of rain); It is + time + since + past simple"
+ },
+ {
+  "prompt": "It is vital that peace should be maintained in the region.",
+  "answer": "be maintained",
+  "category": "rephrase",
+  "notes": "be maintained = expresses vital passive necessity."
+ },
+ {
+  "prompt": "I am sure the trees were shaken by strong wind; look how the branches are scattered everywhere.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = deduction from visible result"
+ },
+ {
+  "prompt": "She spends two hours studying daily. (takes)",
+  "answer": "takes her two hours",
+  "category": "rephrase",
+  "notes": "takes her two hours = states required study time."
+ },
+ {
+  "prompt": "She needed three days to recover. (take)",
+  "answer": "took her three days",
+  "category": "rephrase",
+  "notes": "took her three days = states needed recovery time."
+ },
+ {
+  "prompt": "It was demanded that the team should be disqualified at once.",
+  "answer": "be disqualified",
+  "category": "rephrase",
+  "notes": "be disqualified = expresses demanded passive punishment."
+ },
+ {
+  "prompt": "It was such hot weather that we stayed indoors.",
+  "answer": "so hot",
+  "category": "rephrase",
+  "notes": "so hot = restates extreme heat degree."
+ },
+ {
+  "prompt": "The lesson was so boring that pupils slept.",
+  "answer": "such a boring lesson",
+  "category": "rephrase",
+  "notes": "such a boring lesson = emphasizes extreme boredom."
+ },
+ {
+  "prompt": "The exam was so difficult that nobody finished on time.",
+  "answer": "such a difficult exam",
+  "category": "rephrase",
+  "notes": "such a difficult exam = emphasizes extreme difficulty."
+ },
+ {
+  "prompt": "The problem was too difficult for us. (such)",
+  "answer": "such a difficult problem that",
+  "category": "rephrase",
+  "notes": "such a difficult problem that = emphasizes excessive difficulty."
+ },
+ {
+  "prompt": "It was so late that shops were closed.",
+  "answer": "such a late hour",
+  "category": "rephrase",
+  "notes": "such a late hour = emphasizes extreme lateness."
+ },
+ {
+  "prompt": "The story was so moving that I cried.",
+  "answer": "such a moving story",
+  "category": "rephrase",
+  "notes": "such a moving story = emphasizes deeply touching story."
+ },
+ {
+  "prompt": "It was so noisy in the hall that we could not hear.",
+  "answer": "such a noise",
+  "category": "rephrase",
+  "notes": "such a noise = emphasizes extreme loudness."
+ },
+ {
+  "prompt": "The flood was so serious that villages were evacuated.",
+  "answer": "such a serious flood",
+  "category": "rephrase",
+  "notes": "such a serious flood = emphasizes severe flooding."
+ },
+ {
+  "prompt": "It was so dark that we lost our way.",
+  "answer": "such darkness",
+  "category": "rephrase",
+  "notes": "such darkness = emphasizes complete absence of light."
+ },
+ {
+  "prompt": "It rained so heavily that streets were flooded.",
+  "answer": "such heavy rain",
+  "category": "rephrase",
+  "notes": "such heavy rain = emphasizes intense rainfall."
+ },
+ {
+  "prompt": "It was so hot that we could not go out.",
+  "answer": "such hot weather",
+  "category": "rephrase",
+  "notes": "such hot weather = emphasizes extreme heat."
+ },
+ {
+  "prompt": "It was so hot that we stayed inside. (such)",
+  "answer": "such hot weather that",
+  "category": "rephrase",
+  "notes": "such hot weather that = emphasizes extreme heat."
+ },
+ {
+  "prompt": "The soup was so salty that I could not eat it.",
+  "answer": "such salty soup",
+  "category": "rephrase",
+  "notes": "such salty soup = emphasizes excessive saltiness."
+ },
+ {
+  "prompt": "It was so windy that our tent blew away.",
+  "answer": "such strong wind",
+  "category": "rephrase",
+  "notes": "such strong wind = emphasizes powerful wind."
+ },
+ {
+  "prompt": "It was so foggy that drivers had to stop.",
+  "answer": "such thick fog",
+  "category": "rephrase",
+  "notes": "such thick fog = emphasizes dense fog."
+ },
+ {
+  "prompt": "It was the clerk who leaked the draft ruling. (THAT)",
+  "answer": "that was leaked",
+  "category": "rephrase",
+  "notes": "that was leaked = identifies clerk as leaker."
+ },
+ {
+  "prompt": "Judging from his accent, he must be from the south.",
+  "answer": "Judging from his accent,",
+  "category": "rephrase",
+  "notes": "Judging from his accent, = infers origin from speech."
+ },
+ {
+  "prompt": "Lan prefers singing to dancing at the festival.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = expresses stronger preference."
+ },
+ {
+  "prompt": "If left alone, the baby cries loudly.",
+  "answer": "Left alone,",
+  "category": "rephrase",
+  "notes": "Left alone, = describes condition when isolated."
+ },
+ {
+  "prompt": "Let us start working seriously. (down)",
+  "answer": "get down to",
+  "category": "rephrase",
+  "notes": "get down to + V-ing = start seriously"
+ },
+ {
+  "prompt": "Lisa had agreed to meet me before school, but she never appeared.",
+  "answer": "was supposed to",
+  "category": "rephrase",
+  "notes": "was supposed to = broken agreement"
+ },
+ {
+  "prompt": "He little knew what awaited him. (little)",
+  "answer": "did he know",
+  "category": "rephrase",
+  "notes": "little fronted = did not know"
+ },
+ {
+  "prompt": "Living in the city is far more expensive than living in the village.",
+  "answer": "lot more",
+  "category": "rephrase",
+  "notes": "lot more = means considerably more expensive."
+ },
+ {
+  "prompt": "Mai cannot play the piano well.",
+  "answer": "wishes she could",
+  "category": "rephrase",
+  "notes": "wishes she could = expresses wish for ability."
+ },
+ {
+  "prompt": "I am sure Mo bought milk yesterday; the fridge is full of fresh cartons.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = certain deduction from present evidence"
+ },
+ {
+  "prompt": "Although he admires the chairman, he voted against the motion. (MUCH)",
+  "answer": "Much as he admires the chairman",
+  "category": "rephrase",
+  "notes": "Much as he admires the chairman = concedes admiration despite opposition."
+ },
+ {
+  "prompt": "We were very surprised to hear the result. (much)",
+  "answer": "to our surprise was it",
+  "category": "rephrase",
+  "notes": "to our surprise was it = emphasizes great surprise."
+ },
+ {
+  "prompt": "My father prefers tea without sugar to sweet tea.",
+  "answer": "would rather drink",
+  "category": "rephrase",
+  "notes": "would rather drink = expresses preference for plain tea."
+ },
+ {
+  "prompt": "His house is bigger than mine. (small)",
+  "answer": "smaller than",
+  "category": "rephrase",
+  "notes": "smaller than = compares reduced size."
+ },
+ {
+  "prompt": "My mother would rather sew than buy clothes.",
+  "answer": "mother prefers sewing",
+  "category": "rephrase",
+  "notes": "mother prefers sewing = expresses preference for making clothes."
+ },
+ {
+  "prompt": "My mother prefers me to come home before 10 p.m.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = expresses preference about coming home."
+ },
+ {
+  "prompt": "My brother earns half what my sister earns.",
+  "answer": "twice as much",
+  "category": "rephrase",
+  "notes": "twice as much = means double earnings."
+ },
+ {
+  "prompt": "No one runs faster than Nam. (fastest)",
+  "answer": "the fastest runner",
+  "category": "rephrase",
+  "notes": "the fastest runner = identifies top speed person."
+ },
+ {
+  "prompt": "Nam prefers cycling to walking to school.",
+  "answer": "would rather",
+  "category": "rephrase",
+  "notes": "would rather = expresses preference for cycling."
+ },
+ {
+  "prompt": "Both the unions and management were displeased with the compromise. (NOR)",
+  "answer": "management",
+  "category": "rephrase",
+  "notes": "management = completes neither-nor pair."
+ },
+ {
+  "prompt": "I have never seen such a film. (never)",
+  "answer": "have I seen",
+  "category": "rephrase",
+  "notes": "have I seen = inverts after never fronting."
+ },
+ {
+  "prompt": "A great artist was Picasso. (no)",
+  "answer": "doubt that",
+  "category": "rephrase",
+  "notes": "doubt that = emphasizes certain greatness."
+ },
+ {
+  "prompt": "She is the tallest girl in the class. (taller)",
+  "answer": "is taller than",
+  "category": "rephrase",
+  "notes": "is taller than = compares greater height."
+ },
+ {
+  "prompt": "However beautiful the dress is, it is too small.",
+  "answer": "matter how beautiful",
+  "category": "rephrase",
+  "notes": "matter how beautiful = means regardless of beauty."
+ },
+ {
+  "prompt": "However busy the doctor is, she helps the poor.",
+  "answer": "matter how busy",
+  "category": "rephrase",
+  "notes": "matter how busy = means regardless of workload."
+ },
+ {
+  "prompt": "However carefully she drives, accidents happen.",
+  "answer": "matter how carefully",
+  "category": "rephrase",
+  "notes": "matter how carefully = means regardless of care."
+ },
+ {
+  "prompt": "However cold it gets, they climb daily.",
+  "answer": "matter how cold",
+  "category": "rephrase",
+  "notes": "matter how cold = means regardless of temperature."
+ },
+ {
+  "prompt": "However difficult HSG questions are, practise helps.",
+  "answer": "matter how difficult",
+  "category": "rephrase",
+  "notes": "matter how difficult = means regardless of difficulty."
+ },
+ {
+  "prompt": "However fast you run, you will miss the bus.",
+  "answer": "matter how fast",
+  "category": "rephrase",
+  "notes": "matter how fast = means regardless of speed."
+ },
+ {
+  "prompt": "He tried hard but failed. (matter)",
+  "answer": "matter how hard he tried",
+  "category": "rephrase",
+  "notes": "matter how hard he tried = means regardless of effort."
+ },
+ {
+  "prompt": "However hard he tries, he never wins.",
+  "answer": "matter how hard",
+  "category": "rephrase",
+  "notes": "matter how hard = means regardless of effort."
+ },
+ {
+  "prompt": "However late you arrive, call me first.",
+  "answer": "matter how late",
+  "category": "rephrase",
+  "notes": "matter how late = means regardless of lateness."
+ },
+ {
+  "prompt": "However long the test is, you must finish it.",
+  "answer": "matter how long",
+  "category": "rephrase",
+  "notes": "matter how long = means regardless of length."
+ },
+ {
+  "prompt": "However much it rains, the match continues.",
+  "answer": "matter how much",
+  "category": "rephrase",
+  "notes": "matter how much = means regardless of amount."
+ },
+ {
+  "prompt": "However rich he is, he is unhappy. (matter)",
+  "answer": "matter how rich he is",
+  "category": "rephrase",
+  "notes": "matter how rich he is = means regardless of wealth."
+ },
+ {
+  "prompt": "However rich he is, he is not happy.",
+  "answer": "matter how rich",
+  "category": "rephrase",
+  "notes": "matter how rich = means regardless of wealth."
+ },
+ {
+  "prompt": "Whatever problems arise, keep calm.",
+  "answer": "matter what problems",
+  "category": "rephrase",
+  "notes": "matter what problems = means regardless of issues."
+ },
+ {
+  "prompt": "Whatever you say, I will keep my plan.",
+  "answer": "matter what",
+  "category": "rephrase",
+  "notes": "matter what = means regardless of words."
+ },
+ {
+  "prompt": "He is the best player in the team. (better)",
+  "answer": "is better than",
+  "category": "rephrase",
+  "notes": "is better than = compares superior skill."
+ },
+ {
+  "prompt": "Immediately after arrival, he called. (sooner)",
+  "answer": "sooner had",
+  "category": "rephrase",
+  "notes": "sooner had = marks immediate past sequence."
+ },
+ {
+  "prompt": "He left as soon as he finished. (sooner)",
+  "answer": "sooner had",
+  "category": "rephrase",
+  "notes": "sooner had = marks immediate past sequence."
+ },
+ {
+  "prompt": "As soon as the CEO resigned, shares plummeted.",
+  "answer": "sooner had the CEO resigned",
+  "category": "rephrase",
+  "notes": "sooner had the CEO resigned = marks sudden sequence after resignation."
+ },
+ {
+  "prompt": "As soon as the debt was paid, the company recovered.",
+  "answer": "sooner had the debt been paid",
+  "category": "rephrase",
+  "notes": "sooner had the debt been paid = marks quick recovery sequence."
+ },
+ {
+  "prompt": "The moment the doors opened, the crowd surged forward.",
+  "answer": "sooner had the doors opened",
+  "category": "rephrase",
+  "notes": "sooner had the doors opened = marks immediate crowd surge."
+ },
+ {
+  "prompt": "As soon as the law passed, protests broke out.",
+  "answer": "sooner had the law passed",
+  "category": "rephrase",
+  "notes": "sooner had the law passed = marks immediate protest outbreak."
+ },
+ {
+  "prompt": "As soon as the plane landed, customs officers boarded it.",
+  "answer": "sooner had the plane landed",
+  "category": "rephrase",
+  "notes": "sooner had the plane landed = marks immediate boarding sequence."
+ },
+ {
+  "prompt": "As soon as the plane landed, passengers clapped.",
+  "answer": "sooner had the plane landed than",
+  "category": "rephrase",
+  "notes": "sooner had the plane landed than = marks immediate applause sequence."
+ },
+ {
+  "prompt": "The moment the results were published, the website crashed.",
+  "answer": "sooner had the results been published",
+  "category": "rephrase",
+  "notes": "sooner had the results been published = marks immediate website crash."
+ },
+ {
+  "prompt": "The moment the teacher left, the class became noisy.",
+  "answer": "sooner had the teacher left",
+  "category": "rephrase",
+  "notes": "sooner had the teacher left = marks immediate noise onset."
+ },
+ {
+  "prompt": "He is intelligent and kind. (only)",
+  "answer": "only is he",
+  "category": "rephrase",
+  "notes": "only is he = inverts after only fronting."
+ },
+ {
+  "prompt": "He will not ratify the accord unless parliament is recalled. (UNTIL)",
+  "answer": "until parliament is recalled",
+  "category": "rephrase",
+  "notes": "until parliament is recalled = delays ratification conditionally."
+ },
+ {
+  "prompt": "As soon as we arrived, it began to rain.",
+  "answer": "our arrival,",
+  "category": "rephrase",
+  "notes": "our arrival, = marks time upon arriving."
+ },
+ {
+  "prompt": "Immediately after he signed the contract, he regretted it.",
+  "answer": "signing the contract",
+  "category": "rephrase",
+  "notes": "signing the contract = marks time upon signing."
+ },
+ {
+  "prompt": "Immediately after he took office, he faced a corruption scandal.",
+  "answer": "taking office",
+  "category": "rephrase",
+  "notes": "taking office = marks time upon inauguration."
+ },
+ {
+  "prompt": "As soon as the results came out, parents cheered.",
+  "answer": "the release of the results,",
+  "category": "rephrase",
+  "notes": "the release of the results, = marks time upon announcement."
+ },
+ {
+  "prompt": "The moment the sun rose, farmers went out.",
+  "answer": "the sunrise,",
+  "category": "rephrase",
+  "notes": "the sunrise, = marks time at dawn."
+ },
+ {
+  "prompt": "As soon as he touched the wire, he felt a shock.",
+  "answer": "touching the wire",
+  "category": "rephrase",
+  "notes": "touching the wire = marks time upon contact."
+ },
+ {
+  "prompt": "Success only comes by hard work. (only)",
+  "answer": "by hard work",
+  "category": "rephrase",
+  "notes": "by hard work = limits means to effort."
+ },
+ {
+  "prompt": "Unless the injunction is lifted, the press cannot publish. (LIFTED)",
+  "answer": "the injunction is lifted",
+  "category": "rephrase",
+  "notes": "the injunction is lifted = states condition for publication."
+ },
+ {
+  "prompt": "Our factory produces four times the output of theirs.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = compares quadruple output."
+ },
+ {
+  "prompt": "Our team scored double the goals theirs scored.",
+  "answer": "as many",
+  "category": "rephrase",
+  "notes": "as many = compares double goal number."
+ },
+ {
+  "prompt": "Parents insisted that children should be vaccinated this month.",
+  "answer": "be vaccinated",
+  "category": "rephrase",
+  "notes": "be vaccinated = expresses insisted passive necessity."
+ },
+ {
+  "prompt": "Paul had the key, so it was possible for him to open the door, but he did not try.",
+  "answer": "could have",
+  "category": "rephrase",
+  "notes": "could have + pp = past opportunity unused; not certain deduction"
+ },
+ {
+  "prompt": "Please allow me to use your phone.",
+  "answer": "let me",
+  "category": "rephrase",
+  "notes": "let me = politely requests permission."
+ },
+ {
+  "prompt": "Police closed roads so that crowds stayed safe.",
+  "answer": "in order that",
+  "category": "rephrase",
+  "notes": "in order that = expresses purpose for safety."
+ },
+ {
+  "prompt": "Pollution causes many diseases. (about)",
+  "answer": "brings about",
+  "category": "rephrase",
+  "notes": "bring about = cause"
+ },
+ {
+  "prompt": "The school obliged pupils to wear uniforms every day.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = past rule; must have cannot express obligation"
+ },
+ {
+  "prompt": "No matter how rich he is, he never shows off.",
+  "answer": "as he is",
+  "category": "rephrase",
+  "notes": "as he is = concedes wealth despite modesty."
+ },
+ {
+  "prompt": "She had just left when it rained. (scarcely)",
+  "answer": "had she left when",
+  "category": "rephrase",
+  "notes": "had she left when = marks barely completed departure."
+ },
+ {
+  "prompt": "Immediately after she submitted the thesis, the system crashed.",
+  "answer": "had she submitted the thesis",
+  "category": "rephrase",
+  "notes": "had she submitted the thesis = marks barely completed submission."
+ },
+ {
+  "prompt": "The moment the alarm sounded, workers evacuated.",
+  "answer": "had the alarm sounded",
+  "category": "rephrase",
+  "notes": "had the alarm sounded = marks barely completed warning."
+ },
+ {
+  "prompt": "As soon as the film started, the projector broke down.",
+  "answer": "had the film started",
+  "category": "rephrase",
+  "notes": "had the film started = marks barely begun screening."
+ },
+ {
+  "prompt": "The moment the sun rose, the climbers set off.",
+  "answer": "had the sun risen",
+  "category": "rephrase",
+  "notes": "had the sun risen = marks barely begun dawn."
+ },
+ {
+  "prompt": "The moment the verdict was announced, protests erupted.",
+  "answer": "had the verdict been announced",
+  "category": "rephrase",
+  "notes": "had the verdict been announced = marks barely completed announcement."
+ },
+ {
+  "prompt": "Seen from a distance, the castle looks like a ship.",
+  "answer": "Seen from a distance,",
+  "category": "rephrase",
+  "notes": "Seen from a distance, = gives distant viewpoint."
+ },
+ {
+  "prompt": "No matter how severe the criticism was, the director refused to resign.",
+  "answer": "as the criticism was",
+  "category": "rephrase",
+  "notes": "as the criticism was = concedes severity despite refusal."
+ },
+ {
+  "prompt": "She admitted taking the money.",
+  "answer": "admitted taking the",
+  "category": "rephrase",
+  "notes": "admitted taking the = confesses past stealing."
+ },
+ {
+  "prompt": "She arrived much earlier than the others.",
+  "answer": "far earlier",
+  "category": "rephrase",
+  "notes": "far earlier = means considerably earlier arrival."
+ },
+ {
+  "prompt": "She asked me where I lived. (live)",
+  "answer": "do you live",
+  "category": "rephrase",
+  "notes": "do you live = restores direct question form."
+ },
+ {
+  "prompt": "I am sure she did not buy that phone herself; she has no job and no savings.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = logical impossibility"
+ },
+ {
+  "prompt": "I am sure she did not drive there; her car keys are still on the table.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = impossible deduction from present evidence"
+ },
+ {
+  "prompt": "I am sure she did not sleep well; her eyes are red and swollen.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = deduction from appearance"
+ },
+ {
+  "prompt": "I am sure she did not study at all; she failed every single question.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = near-zero possibility"
+ },
+ {
+  "prompt": "She was good enough to win the race, but she pulled a muscle.",
+  "answer": "could have",
+  "category": "rephrase",
+  "notes": "could have + pp = unrealised ability"
+ },
+ {
+  "prompt": "I am sure she did not cook this dish; she was abroad all last month.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = absence proves impossibility"
+ },
+ {
+  "prompt": "I am sure she did not do it alone; the safe was too heavy to move.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = physical impossibility"
+ },
+ {
+  "prompt": "I am sure she did not send that message; her phone was stolen hours earlier.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = timeline impossibility"
+ },
+ {
+  "prompt": "She cries as if her heart is broken.",
+  "answer": "her heart were",
+  "category": "rephrase",
+  "notes": "her heart were = imagines unreal broken heart."
+ },
+ {
+  "prompt": "The shop was closed, but there was no necessity to call the boss, so she did not call.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = means no need to call."
+ },
+ {
+  "prompt": "The train does not leave for an hour, so there was no necessity to hurry, and she walked slowly.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = ample time, no rush"
+ },
+ {
+  "prompt": "She felt confident, so there was no necessity to revise, and she went out instead.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = chose not to act"
+ },
+ {
+  "prompt": "Her salary is double mine.",
+  "answer": "twice as much",
+  "category": "rephrase",
+  "notes": "twice as much = means double salary."
+ },
+ {
+  "prompt": "She eats less with a view to losing weight.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = expresses purpose for dieting."
+ },
+ {
+  "prompt": "She persuaded her brother to drive her to Hue.",
+  "answer": "got her brother",
+  "category": "rephrase",
+  "notes": "got her brother = persuaded sibling to drive."
+ },
+ {
+  "prompt": "She arranged for someone to shorten her dress.",
+  "answer": "got her dress shortened",
+  "category": "rephrase",
+  "notes": "got her dress shortened = arranged dress alteration."
+ },
+ {
+  "prompt": "She persuaded her friend to proofread the essay.",
+  "answer": "got her friend",
+  "category": "rephrase",
+  "notes": "got her friend = persuaded friend to proofread."
+ },
+ {
+  "prompt": "She got her hair cut last week.",
+  "answer": "hair cut last",
+  "category": "rephrase",
+  "notes": "hair cut last = describes recent haircut service."
+ },
+ {
+  "prompt": "She promised a reward and the children tidied the room.",
+  "answer": "got the children",
+  "category": "rephrase",
+  "notes": "got the children = persuaded kids to tidy."
+ },
+ {
+  "prompt": "She persuaded the hairdresser to come to her home.",
+  "answer": "got the hairdresser",
+  "category": "rephrase",
+  "notes": "got the hairdresser = arranged home visit service."
+ },
+ {
+  "prompt": "She asked her assistant to book the tickets.",
+  "answer": "had her assistant book",
+  "category": "rephrase",
+  "notes": "had her assistant book = ordered tickets booking."
+ },
+ {
+  "prompt": "A thief snatched her bag in the market.",
+  "answer": "had her bag snatched",
+  "category": "rephrase",
+  "notes": "had her bag snatched = suffered bag theft."
+ },
+ {
+  "prompt": "She told her lawyer to review the contract.",
+  "answer": "had her lawyer review",
+  "category": "rephrase",
+  "notes": "had her lawyer review = ordered contract review."
+ },
+ {
+  "prompt": "Someone renewed her passport last week.",
+  "answer": "had her passport renewed",
+  "category": "rephrase",
+  "notes": "had her passport renewed = arranged official renewal."
+ },
+ {
+  "prompt": "An artist painted her portrait last year.",
+  "answer": "had her portrait painted",
+  "category": "rephrase",
+  "notes": "had her portrait painted = commissioned artistic portrait."
+ },
+ {
+  "prompt": "The company cut her salary without notice.",
+  "answer": "had her salary cut",
+  "category": "rephrase",
+  "notes": "had her salary cut = suffered pay reduction."
+ },
+ {
+  "prompt": "The dentist checked her teeth yesterday.",
+  "answer": "had her teeth checked",
+  "category": "rephrase",
+  "notes": "had her teeth checked = received dental examination."
+ },
+ {
+  "prompt": "A designer in Paris created her wedding dress.",
+  "answer": "had her wedding dress designed",
+  "category": "rephrase",
+  "notes": "had her wedding dress designed = commissioned bridal gown creation."
+ },
+ {
+  "prompt": "She told the painter to touch up the wall.",
+  "answer": "had the painter touch up",
+  "category": "rephrase",
+  "notes": "had the painter touch up = ordered wall repair."
+ },
+ {
+  "prompt": "It was necessary for her to come early yesterday.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = expresses past obligation to come."
+ },
+ {
+  "prompt": "She was under orders to guard the gate all night.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = obeying past orders"
+ },
+ {
+  "prompt": "She started learning English five years ago. (learning)",
+  "answer": "been learning English",
+  "category": "rephrase",
+  "notes": "been learning English = stresses five-year continuity."
+ },
+ {
+  "prompt": "Learning English is not easy. (difficulty)",
+  "answer": "difficulty in",
+  "category": "rephrase",
+  "notes": "difficulty in = means learning is hard."
+ },
+ {
+  "prompt": "This is the first time she has driven a car. (never)",
+  "answer": "never driven",
+  "category": "rephrase",
+  "notes": "never driven = stresses first driving experience."
+ },
+ {
+  "prompt": "She insisted on paying for dinner.",
+  "answer": "on paying",
+  "category": "rephrase",
+  "notes": "on paying = insists upon treating dinner."
+ },
+ {
+  "prompt": "She insisted that he should not smoke inside.",
+  "answer": "not smoke",
+  "category": "rephrase",
+  "notes": "not smoke = forbids indoor smoking."
+ },
+ {
+  "prompt": "She speaks English fluently. (fluent)",
+  "answer": "a fluent",
+  "category": "rephrase",
+  "notes": "a fluent = describes skilled English ability."
+ },
+ {
+  "prompt": "She is much taller than her younger sister.",
+  "answer": "lot taller",
+  "category": "rephrase",
+  "notes": "lot taller = means considerably taller height."
+ },
+ {
+  "prompt": "It is believed that she left yesterday. (have)",
+  "answer": "is believed to have left",
+  "category": "rephrase",
+  "notes": "is believed to have left = reports supposed past departure."
+ },
+ {
+  "prompt": "She is busy preparing for the contest.",
+  "answer": "busy preparing for",
+  "category": "rephrase",
+  "notes": "busy preparing for = describes occupied contest preparation."
+ },
+ {
+  "prompt": "She is even more intelligent than her teacher.",
+  "answer": "far more",
+  "category": "rephrase",
+  "notes": "far more = means considerably more intelligent."
+ },
+ {
+  "prompt": "Someone is remodelling her kitchen now.",
+  "answer": "having her kitchen remodelled",
+  "category": "rephrase",
+  "notes": "having her kitchen remodelled = arranges ongoing renovation."
+ },
+ {
+  "prompt": "She is too shy to speak in public.",
+  "answer": "not confident enough",
+  "category": "rephrase",
+  "notes": "not confident enough = means too shy to speak."
+ },
+ {
+  "prompt": "She is too tired to continue working.",
+  "answer": "not rested enough",
+  "category": "rephrase",
+  "notes": "not rested enough = means too tired to continue."
+ },
+ {
+  "prompt": "She is tall enough to reach the shelf.",
+  "answer": "not too short",
+  "category": "rephrase",
+  "notes": "not too short = means tall enough to reach."
+ },
+ {
+  "prompt": "She is clever enough to solve it. (too)",
+  "answer": "too stupid",
+  "category": "rephrase",
+  "notes": "too stupid = means not clever enough to solve."
+ },
+ {
+  "prompt": "She is the best student in class. (second)",
+  "answer": "second to none",
+  "category": "rephrase",
+  "notes": "second to none = the best"
+ },
+ {
+  "prompt": "No other candidate matches her forensic rigour. (SECOND)",
+  "answer": "second to none in",
+  "category": "rephrase",
+  "notes": "second to none in = praises unmatched forensic rigour."
+ },
+ {
+  "prompt": "She is such a beautiful girl that everyone admires her.",
+  "answer": "so beautiful",
+  "category": "rephrase",
+  "notes": "so beautiful = restates extreme beauty degree."
+ },
+ {
+  "prompt": "She is experienced enough to lead the project.",
+  "answer": "too experienced",
+  "category": "rephrase",
+  "notes": "too experienced = means experienced enough to lead."
+ },
+ {
+  "prompt": "She keeps me waiting every morning.",
+  "answer": "me waiting every",
+  "category": "rephrase",
+  "notes": "me waiting every = describes daily waiting habit."
+ },
+ {
+  "prompt": "She kept pace with the class. (up)",
+  "answer": "kept up with",
+  "category": "rephrase",
+  "notes": "keep up with = stay at same level"
+ },
+ {
+  "prompt": "She learns English to get a scholarship.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = expresses purpose for scholarship."
+ },
+ {
+  "prompt": "She locked the door to avoid intruders. (fear)",
+  "answer": "for fear of",
+  "category": "rephrase",
+  "notes": "for fear of + N = to avoid"
+ },
+ {
+  "prompt": "She looks like she has not slept for days.",
+  "answer": "she had not",
+  "category": "rephrase",
+  "notes": "she had not = imagines sleepless past condition."
+ },
+ {
+  "prompt": "She always arrives early to prepare carefully. (point)",
+  "answer": "makes a point of",
+  "category": "rephrase",
+  "notes": "make a point of + V-ing = always do deliberately"
+ },
+ {
+  "prompt": "She did not take my call; possibly she did not hear the phone.",
+  "answer": "may have",
+  "category": "rephrase",
+  "notes": "may/might/could have + pp = possible deduction; trap: not certainty"
+ },
+ {
+  "prompt": "I am sure she felt terrified during the earthquake; the whole building shook violently.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = infers past terror from shaking."
+ },
+ {
+  "prompt": "I am sure she had an accident; there is blood on the kitchen floor.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = deduction linking evidence to past event"
+ },
+ {
+  "prompt": "I am sure she studied very little; how else could she have failed such an easy exam.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have = infers poor study from failure."
+ },
+ {
+  "prompt": "She booked a taxi, but her brother drove her to the airport.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = duplicate arrangement"
+ },
+ {
+  "prompt": "She brought an umbrella, but it did not rain a single drop.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = precaution proved needless"
+ },
+ {
+  "prompt": "She cooked far too much rice, but nobody was hungry.",
+  "answer": "needn't have",
+  "category": "rephrase",
+  "notes": "needn't have + pp = action done, later unnecessary"
+ },
+ {
+  "prompt": "She practises daily with a view to winning gold.",
+  "answer": "in order to",
+  "category": "rephrase",
+  "notes": "in order to = expresses purpose to win gold."
+ },
+ {
+  "prompt": "She practises speaking English daily.",
+  "answer": "practises speaking English",
+  "category": "rephrase",
+  "notes": "practises speaking English = describes daily training habit."
+ },
+ {
+  "prompt": "She would rather cook than order takeaway.",
+  "answer": "prefers cooking to",
+  "category": "rephrase",
+  "notes": "prefers cooking to = expresses food preference."
+ },
+ {
+  "prompt": "She likes tea more than coffee.",
+  "answer": "prefers tea to",
+  "category": "rephrase",
+  "notes": "prefers tea to = expresses drink preference."
+ },
+ {
+  "prompt": "She survived the operation. (through)",
+  "answer": "pulled through",
+  "category": "rephrase",
+  "notes": "pull through = survive"
+ },
+ {
+  "prompt": "She recommended that the house should be sold this spring.",
+  "answer": "be sold",
+  "category": "rephrase",
+  "notes": "be sold = expresses recommended passive sale."
+ },
+ {
+  "prompt": "She saved money so that she would not go hungry.",
+  "answer": "lest she",
+  "category": "rephrase",
+  "notes": "lest she = expresses purpose to avoid hunger."
+ },
+ {
+  "prompt": "She saved money in order to buy a laptop.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = expresses purpose to buy laptop."
+ },
+ {
+  "prompt": "He saved half the money she saved.",
+  "answer": "as much",
+  "category": "rephrase",
+  "notes": "as much = compares half savings doubled."
+ },
+ {
+  "prompt": "She set an alarm to wake up on time.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = expresses purpose for punctual waking."
+ },
+ {
+  "prompt": "She wishes she had arrived on time for the interview.",
+  "answer": "should have",
+  "category": "rephrase",
+  "notes": "should have + pp = wish-like regret"
+ }
+]

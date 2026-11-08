@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "Tourists should not forego the night market experience. (miss)",
+  "answer": "miss out on",
+  "category": "prep_idiom",
+  "notes": "miss out on = fail to enjoy experience."
+ },
+ {
+  "prompt": "Troops occupied the port pretending to conduct exercises. (pretext)",
+  "answer": "under the pretext of",
+  "category": "prep_idiom",
+  "notes": "under the pretext of = pretending with false reason."
+ },
+ {
+  "prompt": "Two inmates escaped from the maximum-security prison. (break)",
+  "answer": "broke out of",
+  "category": "prep_idiom",
+  "notes": "broke out of = escape from prison by force."
+ },
+ {
+  "prompt": "Supported by UNESCO, the dig continued. (AUSPICES)",
+  "answer": "the auspices of",
+  "category": "prep_idiom",
+  "notes": "the auspices of = under support and approval."
+ },
+ {
+  "prompt": "If fire breaks out, use the stairs. (event)",
+  "answer": "in the event of",
+  "category": "prep_idiom",
+  "notes": "in the event of = if something happens."
+ },
+ {
+  "prompt": "Vouchers were issued instead of cash refunds. (lieu)",
+  "answer": "in lieu of",
+  "category": "prep_idiom",
+  "notes": "in lieu of = instead of something else."
+ },
+ {
+  "prompt": "War started in 1914. (break)",
+  "answer": "broke out",
+  "category": "prep_idiom",
+  "notes": "broke out = start suddenly and violently."
+ },
+ {
+  "prompt": "Due to staff shortages, wards were closed. (owing)",
+  "answer": "owing to",
+  "category": "prep_idiom",
+  "notes": "owing to = because of staff shortages."
+ },
+ {
+  "prompt": "We called on the minister to resign. (call)",
+  "answer": "on",
+  "category": "prep_idiom",
+  "notes": "on = publicly demand action."
+ },
+ {
+  "prompt": "We faced unexpected problems with the project. (come)",
+  "answer": "came up against",
+  "category": "prep_idiom",
+  "notes": "came up against = meet unexpected problems."
+ },
+ {
+  "prompt": "We cancelled considering the weather. (light)",
+  "answer": "in light of",
+  "category": "prep_idiom",
+  "notes": "in light of = considering weather conditions."
+ },
+ {
+  "prompt": "We abolished the old regulation. (do)",
+  "answer": "did away with",
+  "category": "prep_idiom",
+  "notes": "did away with = abolish completely."
+ },
+ {
+  "prompt": "We called briefly at our grandparents on the way north. (drop)",
+  "answer": "dropped in on",
+  "category": "prep_idiom",
+  "notes": "dropped in on = visit grandparents briefly."
+ },
+ {
+  "prompt": "Regarding your letter of 5 May, we enclose details. (reference)",
+  "answer": "with reference to",
+  "category": "prep_idiom",
+  "notes": "with reference to = concerning written letter."
+ },
+ {
+  "prompt": "We have only one choice but to borrow again. (OPTION)",
+  "answer": "option but to",
+  "category": "prep_idiom",
+  "notes": "option but to = have no choice except borrowing."
+ },
+ {
+  "prompt": "We have depleted our patience with endless delays. (run)",
+  "answer": "run out of",
+  "category": "prep_idiom",
+  "notes": "run out of = use up completely."
+ },
+ {
+  "prompt": "We anticipate seeing you soon. (look)",
+  "answer": "look forward to",
+  "category": "prep_idiom",
+  "notes": "look forward to = await with pleasure."
+ },
+ {
+  "prompt": "We eagerly anticipate the forthcoming literature festival. (look)",
+  "answer": "look forward to",
+  "category": "prep_idiom",
+  "notes": "look forward to = await festival eagerly."
+ },
+ {
+  "prompt": "We must guard against mistakes. (guard)",
+  "answer": "guard against",
+  "category": "prep_idiom",
+  "notes": "guard against = protect from harm."
+ },
+ {
+  "prompt": "We must take account of all hidden costs. (ACCOUNT)",
+  "answer": "into account",
+  "category": "prep_idiom",
+  "notes": "into account = consider all costs."
+ },
+ {
+  "prompt": "We reached the summit despite the storm. (DESPITE)",
+  "answer": "despite the storm",
+  "category": "prep_idiom",
+  "notes": "despite the storm = although storm raged."
+ },
+ {
+  "prompt": "We read the letter in the moonlight outside. (BY)",
+  "answer": "by the light of the moon",
+  "category": "prep_idiom",
+  "notes": "by the light of the moon = using moonlight to read."
+ },
+ {
+  "prompt": "In view of the weather, we stayed home. (view)",
+  "answer": "in view of",
+  "category": "prep_idiom",
+  "notes": "in view of = considering weather."
+ },
+ {
+  "prompt": "When crops failed, villagers relied upon stored grain. (fall)",
+  "answer": "fell back on",
+  "category": "prep_idiom",
+  "notes": "fell back on = rely on stored grain."
+ },
+ {
+  "prompt": "Aiming to cut costs, the firm outsourced printing. (VIEW)",
+  "answer": "a view to",
+  "category": "prep_idiom",
+  "notes": "a view to = aiming to cut costs."
+ },
+ {
+  "prompt": "Concerning your letter, a refund has been authorised. (reference)",
+  "answer": "reference to",
+  "category": "prep_idiom",
+  "notes": "reference to = concerning your letter."
+ },
+ {
+  "prompt": "With reference to your letter, we enclose details. (reference)",
+  "answer": "with reference to",
+  "category": "prep_idiom",
+  "notes": "with reference to = concerning letter formally."
+ },
+ {
+  "prompt": "Concerning funding, no decision has been made. (REGARD)",
+  "answer": "regard to funding,",
+  "category": "prep_idiom",
+  "notes": "regard to funding, = concerning funding matter."
+ },
+ {
+  "prompt": "Concerning safety standards, the factory was found negligent. (regard)",
+  "answer": "regard to",
+  "category": "prep_idiom",
+  "notes": "regard to = concerning safety matter."
+ },
+ {
+  "prompt": "Relating to ethics, the protocol is very strict. (RESPECT)",
+  "answer": "respect to ethics,",
+  "category": "prep_idiom",
+  "notes": "respect to ethics, = concerning ethics."
+ },
+ {
+  "prompt": "Regarding protocol, the envoy behaved impeccably. (respect)",
+  "answer": "respect to",
+  "category": "prep_idiom",
+  "notes": "respect to = regarding protocol."
+ },
+ {
+  "prompt": "With the exception of John, all came. (exception)",
+  "answer": "with the exception of",
+  "category": "prep_idiom",
+  "notes": "with the exception of = except for John."
+ },
+ {
+  "prompt": "It takes practice to master the software. (HANG)",
+  "answer": "the hang of it",
+  "category": "prep_idiom",
+  "notes": "the hang of it = master skill through practice."
+ },
+ {
+  "prompt": "You cannot escape breaking the rules like that. (get)",
+  "answer": "get away with",
+  "category": "prep_idiom",
+  "notes": "get away with = escape punishment for wrongdoing."
+ },
+ {
+  "prompt": "Young athletes idolise the Olympic champion. (look)",
+  "answer": "look up to",
+  "category": "prep_idiom",
+  "notes": "look up to = admire as role model."
+ },
+ {
+  "prompt": "After a week he became familiar with the new routine. (SWING)",
+  "answer": "got into the swing of",
+  "category": "rephrase",
+  "notes": "get into the swing of = become familiar with"
+ },
+ {
+  "prompt": "I am sure Alex broke the coffee table; the dog was locked outside all afternoon.",
+  "answer": "must have",
+  "category": "rephrase",
+  "notes": "must have + pp = ruling out alternatives"
+ },
+ {
+  "prompt": "If all else fails, we can take the night train.",
+  "answer": "else failing,",
+  "category": "rephrase",
+  "notes": "else failing, = if all else fails."
+ },
+ {
+  "prompt": "All relevant factors were considered, and the plan was approved.",
+  "answer": "things considered,",
+  "category": "rephrase",
+  "notes": "things considered, = after considering everything."
+ },
+ {
+  "prompt": "Despite his age, he runs fast. (although)",
+  "answer": "he is old",
+  "category": "rephrase",
+  "notes": "despite + N = although + clause"
+ },
+ {
+  "prompt": "Despite his poverty, he studies well.",
+  "answer": "he is poor,",
+  "category": "rephrase",
+  "notes": "he is poor, = although he is poor."
+ },
+ {
+  "prompt": "Despite studying hard, Nam failed the test.",
+  "answer": "he studied hard,",
+  "category": "rephrase",
+  "notes": "he studied hard, = although he studied hard."
+ },
+ {
+  "prompt": "Despite working all night, he felt fresh.",
+  "answer": "he worked all night,",
+  "category": "rephrase",
+  "notes": "he worked all night, = although he worked all night."
+ },
+ {
+  "prompt": "Despite the cold, soldiers marched on.",
+  "answer": "it was cold,",
+  "category": "rephrase",
+  "notes": "it was cold, = although it was cold."
+ },
+ {
+  "prompt": "In spite of danger, rescue dogs searched on.",
+  "answer": "it was dangerous,",
+  "category": "rephrase",
+  "notes": "it was dangerous, = although it was dangerous."
+ },
+ {
+  "prompt": "Despite the fact that prices rose, sales grew.",
+  "answer": "prices rose,",
+  "category": "rephrase",
+  "notes": "prices rose, = although prices rose."
+ },
+ {
+  "prompt": "Despite her success, she remains humble.",
+  "answer": "she is successful,",
+  "category": "rephrase",
+  "notes": "she is successful, = although she is successful."
+ },
+ {
+  "prompt": "Despite being ill, the teacher came to class.",
+  "answer": "she was ill,",
+  "category": "rephrase",
+  "notes": "she was ill, = although she was ill."
+ },
+ {
+  "prompt": "In spite of the traffic, we arrived on time.",
+  "answer": "the traffic was heavy,",
+  "category": "rephrase",
+  "notes": "the traffic was heavy, = although traffic was heavy."
+ },
+ {
+  "prompt": "In spite of losing, our team smiled proudly.",
+  "answer": "they lost,",
+  "category": "rephrase",
+  "notes": "they lost, = although they lost."
+ },
+ {
+  "prompt": "Despite hunger, children shared their rice.",
+  "answer": "they were hungry,",
+  "category": "rephrase",
+  "notes": "they were hungry, = although they were hungry."
+ },
+ {
+  "prompt": "The embassy required applicants to submit documents in person.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = institutional past obligation"
+ },
+ {
+  "prompt": "The moment I smelt pho, I felt hungry.",
+  "answer": "soon as I smelt pho,",
+  "category": "rephrase",
+  "notes": "soon as I smelt pho, = immediately after smelling pho."
+ },
+ {
+  "prompt": "The moment prices fell, shoppers queued outside.",
+  "answer": "soon as prices fell,",
+  "category": "rephrase",
+  "notes": "soon as prices fell, = immediately after prices fell."
+ },
+ {
+  "prompt": "The moment she heard the news, she called her mother.",
+  "answer": "soon as she heard the news,",
+  "category": "rephrase",
+  "notes": "soon as she heard the news, = immediately after hearing news."
+ },
+ {
+  "prompt": "The moment the match ended, fans sang loudly.",
+  "answer": "soon as the match ended,",
+  "category": "rephrase",
+  "notes": "soon as the match ended, = immediately after match ended."
+ },
+ {
+  "prompt": "The minute the teacher entered, pupils stood up.",
+  "answer": "soon as the teacher entered,",
+  "category": "rephrase",
+  "notes": "soon as the teacher entered, = immediately after teacher entered."
+ },
+ {
+  "prompt": "Because he was appointed captain, he felt great responsibility.",
+  "answer": "Being appointed captain,",
+  "category": "rephrase",
+  "notes": "Being appointed captain, = because he was appointed captain."
+ },
+ {
+  "prompt": "Because she was blessed with a good voice, she joined the choir.",
+  "answer": "Being blessed with a good voice,",
+  "category": "rephrase",
+  "notes": "Being blessed with a good voice, = because she had good voice."
+ },
+ {
+  "prompt": "Because the village was blessed with rich soil, crops grew well.",
+  "answer": "Being blessed with rich soil,",
+  "category": "rephrase",
+  "notes": "Being blessed with rich soil, = because soil was rich."
+ },
+ {
+  "prompt": "Because he was confused by the question, he gave a vague answer.",
+  "answer": "Being confused by the question,",
+  "category": "rephrase",
+  "notes": "Being confused by the question, = because question confused him."
+ },
+ {
+  "prompt": "Because the island was covered in mist, it looked mysterious.",
+  "answer": "Being covered in mist,",
+  "category": "rephrase",
+  "notes": "Being covered in mist, = because island was misty."
+ },
+ {
+  "prompt": "Because the town was cut off by floods, it needed air support.",
+  "answer": "Being cut off by floods,",
+  "category": "rephrase",
+  "notes": "Being cut off by floods, = because floods isolated town."
+ },
+ {
+  "prompt": "Because he was dressed as a clown, no one recognised him.",
+  "answer": "Being dressed as a clown,",
+  "category": "rephrase",
+  "notes": "Being dressed as a clown, = because he wore clown costume."
+ },
+ {
+  "prompt": "Because she was exhausted by the journey, she fell asleep early.",
+  "answer": "Being exhausted by the journey,",
+  "category": "rephrase",
+  "notes": "Being exhausted by the journey, = because journey tired her."
+ },
+ {
+  "prompt": "Because he was known to the police, he was watched closely.",
+  "answer": "Being known to the police,",
+  "category": "rephrase",
+  "notes": "Being known to the police, = because police knew him."
+ },
+ {
+  "prompt": "Because she was left alone at home, she felt frightened.",
+  "answer": "Being left alone at home,",
+  "category": "rephrase",
+  "notes": "Being left alone at home, = because she was alone home."
+ },
+ {
+  "prompt": "Because the machine was operated incorrectly, it broke down.",
+  "answer": "Being operated incorrectly,",
+  "category": "rephrase",
+  "notes": "Being operated incorrectly, = because machine ran wrongly."
+ },
+ {
+  "prompt": "Because they were pressed for time, they skipped lunch.",
+  "answer": "Being pressed for time,",
+  "category": "rephrase",
+  "notes": "Being pressed for time, = because time was short."
+ },
+ {
+  "prompt": "Because she was raised in Hue, she knows many folk songs.",
+  "answer": "Being raised in Hue,",
+  "category": "rephrase",
+  "notes": "Being raised in Hue, = because she grew up in Hue."
+ },
+ {
+  "prompt": "Because he was surrounded by fans, he could not leave the stadium.",
+  "answer": "Being surrounded by fans,",
+  "category": "rephrase",
+  "notes": "Being surrounded by fans, = because fans crowded him."
+ },
+ {
+  "prompt": "Because the forests were threatened by fire, animals fled.",
+  "answer": "Being threatened by fire,",
+  "category": "rephrase",
+  "notes": "Being threatened by fire, = because fire threatened forests."
+ },
+ {
+  "prompt": "Bored with the lecture, he doodled in his notebook.",
+  "answer": "Bored with the lecture,",
+  "category": "rephrase",
+  "notes": "Bored with the lecture, = because lecture bored him."
+ },
+ {
+  "prompt": "Without legal aid, the defendant would have had no defence. (BUT)",
+  "answer": "for legal aid",
+  "category": "rephrase",
+  "notes": "for legal aid = if not for legal aid."
+ },
+ {
+  "prompt": "Without your help, I would have failed. (but)",
+  "answer": "for your help",
+  "category": "rephrase",
+  "notes": "without = but for + N (conditional 3)"
+ },
+ {
+  "prompt": "No matter how careful the plan is, something always goes wrong.",
+  "answer": "as the plan is",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "No matter how cold it was, the volunteers stayed outdoors.",
+  "answer": "as it was",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "Compared to yours, my essay is short.",
+  "answer": "Compared to yours,",
+  "category": "rephrase",
+  "notes": "Compared to yours, = unlike yours in length."
+ },
+ {
+  "prompt": "No matter how complex the problem is, it can be solved step by step.",
+  "answer": "as the problem is",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "No matter how dangerous the mission is, the soldiers show no fear.",
+  "answer": "as the mission is",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "Although Lan is busy, she helps neighbours.",
+  "answer": "being busy,",
+  "category": "rephrase",
+  "notes": "being busy, = although she is busy."
+ },
+ {
+  "prompt": "Although he is rich, he lives simply.",
+  "answer": "being rich,",
+  "category": "rephrase",
+  "notes": "being rich, = although he is rich."
+ },
+ {
+  "prompt": "Even though she is tired, she works. (despite)",
+  "answer": "being tired",
+  "category": "rephrase",
+  "notes": "even though + clause = despite + V-ing"
+ },
+ {
+  "prompt": "Although she had little money, she donated more.",
+  "answer": "having little money,",
+  "category": "rephrase",
+  "notes": "having little money, = although she had little money."
+ },
+ {
+  "prompt": "Although the film was long, we enjoyed it.",
+  "answer": "its length,",
+  "category": "rephrase",
+  "notes": "its length, = despite film length."
+ },
+ {
+  "prompt": "Although she practised little, she won gold.",
+  "answer": "practising little,",
+  "category": "rephrase",
+  "notes": "practising little, = although she practised little."
+ },
+ {
+  "prompt": "Though the task was hard, they finished early.",
+  "answer": "the hard task,",
+  "category": "rephrase",
+  "notes": "the hard task, = despite hard task."
+ },
+ {
+  "prompt": "Although it rained heavily, we went out.",
+  "answer": "the heavy rain,",
+  "category": "rephrase",
+  "notes": "the heavy rain, = despite heavy rain."
+ },
+ {
+  "prompt": "Although exams are near, pupils stay calm.",
+  "answer": "the near exams,",
+  "category": "rephrase",
+  "notes": "the near exams, = although exams are near."
+ },
+ {
+  "prompt": "Although the room was noisy, he slept well.",
+  "answer": "the noise,",
+  "category": "rephrase",
+  "notes": "the noise, = despite room noise."
+ },
+ {
+  "prompt": "Do not allow rumours to upset you.",
+  "answer": "not let rumours",
+  "category": "rephrase",
+  "notes": "not let rumours = forbid rumours to upset."
+ },
+ {
+  "prompt": "Drivers should not use phones while driving.",
+  "answer": "had better not",
+  "category": "rephrase",
+  "notes": "had better not = should not use phones."
+ },
+ {
+  "prompt": "The law required drivers to fasten seatbelts on that road.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = past legal obligation."
+ },
+ {
+  "prompt": "Because he was ill, he stayed home. (due)",
+  "answer": "to his illness",
+  "category": "rephrase",
+  "notes": "to his illness = because of illness."
+ },
+ {
+  "prompt": "It is essential that every ballot be recounted independently. (SHOULD)",
+  "answer": "should be",
+  "category": "rephrase",
+  "notes": "should be = must be recounted."
+ },
+ {
+  "prompt": "The manager required everyone to work overtime yesterday.",
+  "answer": "had to",
+  "category": "rephrase",
+  "notes": "had to = past requirement from authority"
+ },
+ {
+  "prompt": "Excited about the trip, the children packed early.",
+  "answer": "Excited about the trip,",
+  "category": "rephrase",
+  "notes": "Excited about the trip, = because they felt excited."
+ },
+ {
+  "prompt": "No matter how exhausted she was, she kept working.",
+  "answer": "as she was",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "No matter how far the station is, we will walk there.",
+  "answer": "as the station is",
+  "category": "rephrase",
+  "notes": "Adj + as + S + be = No matter how + adj"
+ },
+ {
+  "prompt": "Farmers built dams to store water.",
+  "answer": "with a view to",
+  "category": "rephrase",
+  "notes": "with a view to = in order to store water."
+ },
+ {
+  "prompt": "Due to fog, flights were cancelled. (because)",
+  "answer": "cancelled because it",
+  "category": "rephrase",
+  "notes": "due to + N = because + clause"
+ },
+ {
+  "prompt": "Lest the jury be swayed, the judge barred cameras. (FEAR)",
+  "answer": "fear that the",
+  "category": "rephrase",
+  "notes": "fear that the = to prevent jury bias."
+ },
+ {
+  "prompt": "As soon as they met, they became friends.",
+  "answer": "the moment they met,",
+  "category": "rephrase",
+  "notes": "the moment they met, = as soon as they met."
+ },
+ {
+  "prompt": "If they are given more time, they will finish well.",
+  "answer": "Given more time,",
+  "category": "rephrase",
+  "notes": "Given more time, = if given more time."
+ },
+ {
+  "prompt": "Grief caused her to look much older.",
+  "answer": "made her",
+  "category": "rephrase",
+  "notes": "made her = caused her to age."
+ },
+ {
+  "prompt": "He broke his leg, so he cannot compete this season.",
+  "answer": "he not broken his leg",
+  "category": "rephrase",
+  "notes": "he not broken his leg = if he had not broken leg."
+ },
+ {
+  "prompt": "He deleted the files, so he has no data for the report today.",
+  "answer": "he not deleted the files",
+  "category": "rephrase",
+  "notes": "he not deleted the files = if he had kept files."
+ },
+ {
+  "prompt": "He had a visa. Otherwise he would have been refused. (had)",
+  "answer": "he not had a visa",
+  "category": "rephrase",
+  "notes": "he not had a visa = if he had lacked visa."
+ },
+ {
+  "prompt": "He lost his passport, so he cannot board the flight today.",
+  "answer": "he not lost his passport",
+  "category": "rephrase",
+  "notes": "he not lost his passport = if passport had been kept."
+ },
+ {
+  "prompt": "He missed the last train, so he is sleeping at the station now.",
+  "answer": "he not missed the last train",
+  "category": "rephrase",
+  "notes": "he not missed the last train = if train had been caught."
+ },
+ {
+  "prompt": "He resigned abruptly, so the department is in chaos today.",
+  "answer": "he not resigned abruptly",
+  "category": "rephrase",
+  "notes": "he not resigned abruptly = if he had stayed."
+ },
+ {
+  "prompt": "He took the sedative, so he is drowsy during the exam now.",
+  "answer": "he not taken the sedative",
+  "category": "rephrase",
+  "notes": "he not taken the sedative = if he had refused sedative."
+ },
+ {
+  "prompt": "He wasted his youth, so he is now a burden on his parents.",
+  "answer": "he not wasted his youth",
+  "category": "rephrase",
+  "notes": "he not wasted his youth = if youth had been well spent."
+ },
+ {
+  "prompt": "If he had trained harder, he would have won. (had)",
+  "answer": "he trained harder",
+  "category": "rephrase",
+  "notes": "he trained harder = if he had trained harder."
+ },
+ {
+  "prompt": "But for antibiotics, the patient would have died in 2020.",
+  "answer": "it not been for antibiotics",
+  "category": "rephrase",
+  "notes": "it not been for antibiotics = without antibiotics help."
+ },
+ {
+  "prompt": "Without his income, the family would be homeless at present.",
+  "answer": "it not been for his income",
+  "category": "rephrase",
+  "notes": "it not been for his income = without his income support."
+ },
+ {
+  "prompt": "Without the ceasefire, the city would have fallen within days.",
+  "answer": "it not been for the ceasefire",
+  "category": "rephrase",
+  "notes": "it not been for the ceasefire = without ceasefire protection."
+ },
+ {
+  "prompt": "Without the dam, the village would have been flooded last year.",
+  "answer": "it not been for the dam",
+  "category": "rephrase",
+  "notes": "it not been for the dam = without dam protection."
+ },
+ {
+  "prompt": "Without the lighthouse, the ship would have sunk during the storm.",
+  "answer": "it not been for the lighthouse",
+  "category": "rephrase",
+  "notes": "it not been for the lighthouse = without lighthouse guidance."
+ },
+ {
+  "prompt": "If it had not been for the rain, the match would still be going on.",
+  "answer": "it not been for the rain",
+  "category": "rephrase",
+  "notes": "it not been for the rain = without rain interruption."
+ },
+ {
+  "prompt": "But for the security guard, the thief would be free now.",
+  "answer": "it not been for the security guard",
+  "category": "rephrase",
+  "notes": "it not been for the security guard = without guard intervention."
+ },
+ {
+  "prompt": "Without your help, we would be in serious trouble now.",
+  "answer": "it not been for your help",
+  "category": "rephrase",
+  "notes": "it not been for your help = without your present help."
+ },
+ {
+  "prompt": "She forgot the password, so she cannot access the archive today.",
+  "answer": "she not forgotten the password",
+  "category": "rephrase",
+  "notes": "she not forgotten the password = if password had been remembered."
+ },
+ {
+  "prompt": "She overslept, so she is stuck in traffic now.",
+  "answer": "she not overslept",
+  "category": "rephrase",
+  "notes": "she not overslept = if she had woken early."
+ },
+ {
+  "prompt": "She spent all her allowance, so she is broke this week.",
+  "answer": "she not spent all her allowance",
+  "category": "rephrase",
+  "notes": "she not spent all her allowance = if money had been saved."
+ },
+ {
+  "prompt": "She did not study medicine, so she is not a surgeon now.",
+  "answer": "she studied medicine",
+  "category": "rephrase",
+  "notes": "she studied medicine = if she had studied medicine."
+ },
+ {
+  "prompt": "The driver was drunk, so the accident is now under investigation.",
+  "answer": "the driver not been drunk",
+  "category": "rephrase",
+  "notes": "the driver not been drunk = if driver had stayed sober."
+ },
+ {
+  "prompt": "They cancelled the project, so dozens are unemployed now.",
+  "answer": "they not cancelled the project",
+  "category": "rephrase",
+  "notes": "they not cancelled the project = if project had continued."
+ },
+ {
+  "prompt": "They ignored the warning, so the factory is closed now.",
+  "answer": "they not ignored the warning",
+  "category": "rephrase",
+  "notes": "they not ignored the warning = if warning had been heeded."
+ },
+ {
+  "prompt": "They invested recklessly, so they are facing bankruptcy now.",
+  "answer": "they not invested recklessly",
+  "category": "rephrase",
+  "notes": "they not invested recklessly = if investment had been prudent."
+ },
+ {
+  "prompt": "They left the gate open, so the cattle are loose now.",
+  "answer": "they not left the gate open",
+  "category": "rephrase",
+  "notes": "they not left the gate open = if gate had stayed closed."
+ },
+ {
+  "prompt": "The moment he saw the police, he fled.",
+  "answer": "had he seen the police",
+  "category": "rephrase",
+  "notes": "had he seen the police = as soon as he saw police."
+ },
+ {
+  "prompt": "As soon as she arrived the phone rang. (hardly)",
+  "answer": "had she arrived when",
+  "category": "rephrase",
+  "notes": "had she arrived when = as soon as she arrived."
+ },
+ {
+  "prompt": "The moment she heard the news, she burst into tears.",
+  "answer": "had she heard the news",
+  "category": "rephrase",
+  "notes": "had she heard the news = as soon as she heard news."
+ },
+ {
+  "prompt": "As soon as the baby woke up, she started crying.",
+  "answer": "had the baby woken up",
+  "category": "rephrase",
+  "notes": "had the baby woken up = as soon as baby woke."
+ },
+ {
+  "prompt": "The moment the bell rang, the students rushed out.",
+  "answer": "had the bell rung",
+  "category": "rephrase",
+  "notes": "had the bell rung = as soon as bell rang."
+ },
+ {
+  "prompt": "The moment the curtain fell, the audience stood up.",
+  "answer": "had the curtain fallen",
+  "category": "rephrase",
+  "notes": "had the curtain fallen = as soon as curtain fell."
+ },
+ {
+  "prompt": "The moment the rain stopped, the match resumed.",
+  "answer": "had the rain stopped",
+  "category": "rephrase",
+  "notes": "had the rain stopped = as soon as rain stopped."
+ },
+ {
+  "prompt": "As soon as the storm passed, rescue teams arrived.",
+  "answer": "had the storm passed",
+  "category": "rephrase",
+  "notes": "had the storm passed = as soon as storm passed."
+ },
+ {
+  "prompt": "As soon as the train left, the fog thickened.",
+  "answer": "had the train left",
+  "category": "rephrase",
+  "notes": "had the train left = as soon as train left."
+ },
+ {
+  "prompt": "As soon as the witness entered, the court fell silent.",
+  "answer": "had the witness entered",
+  "category": "rephrase",
+  "notes": "had the witness entered = as soon as witness entered."
+ },
+ {
+  "prompt": "As soon as they opened the tomb, the alarms went off.",
+  "answer": "had they opened the tomb",
+  "category": "rephrase",
+  "notes": "had they opened the tomb = as soon as tomb was opened."
+ },
+ {
+  "prompt": "After he had apologised for his mistake, he felt much better.",
+  "answer": "Having apologised for his mistake,",
+  "category": "rephrase",
+  "notes": "Having apologised for his mistake, = after apologising for mistake."
+ },
+ {
+  "prompt": "Because she had been bitten by a stray dog, she needed vaccination.",
+  "answer": "Having been bitten by a stray dog,",
+  "category": "rephrase",
+  "notes": "Having been bitten by a stray dog, = because dog bit her."
+ },
+ {
+  "prompt": "After the goods had been checked, they were loaded onto trucks.",
+  "answer": "Having been checked,",
+  "category": "rephrase",
+  "notes": "Having been checked, = after goods were checked."
+ },
+ {
+  "prompt": "Because he had been deprived of sleep, he made many errors.",
+  "answer": "Having been deprived of sleep,",
+  "category": "rephrase",
+  "notes": "Having been deprived of sleep, = because sleep was lost."
+ },
+ {
+  "prompt": "Because he had been exposed to radiation, he needed treatment.",
+  "answer": "Having been exposed to radiation,",
+  "category": "rephrase",
+  "notes": "Having been exposed to radiation, = because radiation harmed him."
+ },
+ {
+  "prompt": "After the town had been hit by a storm, rescue teams arrived.",
+  "answer": "Having been hit by a storm,",
+  "category": "rephrase",
+  "notes": "Having been hit by a storm, = after storm struck town."
+ },
+ {
+  "prompt": "After he had been informed of the risks, he withdrew from the plan.",
+  "answer": "Having been informed of the risks,",
+  "category": "rephrase",
+  "notes": "Having been informed of the risks, = after learning risks."
+ },
+ {
+  "prompt": "After the law had been passed, factories changed their methods.",
+  "answer": "Having been passed,",
+  "category": "rephrase",
+  "notes": "Having been passed, = after law was passed."
+ },
+ {
+  "prompt": "After the suspect had been questioned for hours, he confessed.",
+  "answer": "Having been questioned for hours,",
+  "category": "rephrase",
+  "notes": "Having been questioned for hours, = after long interrogation."
+ },
+ {
+  "prompt": "Because he had been raised by strict parents, he valued discipline.",
+  "answer": "Having been raised by strict parents,",
+  "category": "rephrase",
+  "notes": "Having been raised by strict parents, = because parents raised him strictly."
+ },
+ {
+  "prompt": "After the manuscript had been rejected twice, she rewrote it.",
+  "answer": "Having been rejected twice,",
+  "category": "rephrase",
+  "notes": "Having been rejected twice, = after two rejections."
+ },
+ {
+  "prompt": "After the bridge had been repaired, traffic returned to normal.",
+  "answer": "Having been repaired,",
+  "category": "rephrase",
+  "notes": "Having been repaired, = after bridge was fixed."
+ },
+ {
+  "prompt": "After the documents had been signed, the deal became official.",
+  "answer": "Having been signed,",
+  "category": "rephrase",
+  "notes": "Having been signed, = after documents were signed."
+ },
+ {
+  "prompt": "Because they had been stuck in traffic, they missed the flight.",
+  "answer": "Having been stuck in traffic,",
+  "category": "rephrase",
+  "notes": "Having been stuck in traffic, = because traffic delayed them."
+ },
+ {
+  "prompt": "Because she had been trained as a pilot, she stayed calm.",
+  "answer": "Having been trained as a pilot,",
+  "category": "rephrase",
+  "notes": "Having been trained as a pilot, = because pilot training calmed her."
+ },
+ {
+  "prompt": "Because she had been warned about floods, she moved upstairs.",
+  "answer": "Having been warned about floods,",
+  "category": "rephrase",
+  "notes": "Having been warned about floods, = after flood warning."
+ },
+ {
+  "prompt": "Because he had broken his leg, he could not join the trip.",
+  "answer": "Having broken his leg,",
+  "category": "rephrase",
+  "notes": "Having broken his leg, = because leg was broken."
+ },
+ {
+  "prompt": "After they had completed the project, they celebrated with dinner.",
+  "answer": "Having completed the project,",
+  "category": "rephrase",
+  "notes": "Having completed the project, = after finishing project."
+ },
+ {
+  "prompt": "After they had discussed the plan thoroughly, they reached an agreement.",
+  "answer": "Having discussed the plan thoroughly,",
+  "category": "rephrase",
+  "notes": "Having discussed the plan thoroughly, = after thorough discussion."
+ },
+ {
+  "prompt": "After they had eaten dinner, they went for a walk.",
+  "answer": "Having eaten dinner,",
+  "category": "rephrase",
+  "notes": "Having eaten dinner, = after eating dinner."
+ },
+ {
+  "prompt": "Because they had failed twice, they prepared more carefully this time.",
+  "answer": "Having failed twice,",
+  "category": "rephrase",
+  "notes": "Having failed twice, = because two failures taught them."
+ },
+ {
+  "prompt": "After he had finished his homework, he went out to play.",
+  "answer": "Having finished his homework,",
+  "category": "rephrase",
+  "notes": "Having finished his homework, = after finishing homework."
+ },
+ {
+  "prompt": "He finished his homework, then went out. (having)",
+  "answer": "finished his homework",
+  "category": "rephrase",
+  "notes": "finished his homework = after finishing homework."
+ },
+ {
+  "prompt": "After she had learned the basics, she moved on to advanced topics.",
+  "answer": "Having learned the basics,",
+  "category": "rephrase",
+  "notes": "Having learned the basics, = after learning basics."
+ },
+ {
+  "prompt": "Because he had lived abroad for ten years, he spoke English fluently.",
+  "answer": "Having lived abroad for ten years,",
+  "category": "rephrase",
+  "notes": "Having lived abroad for ten years, = because ten years abroad."
+ },
+ {
+  "prompt": "After she had locked all the doors, she went to bed.",
+  "answer": "Having locked all the doors,",
+  "category": "rephrase",
+  "notes": "Having locked all the doors, = after locking doors."
+ },
+ {
+  "prompt": "After he had lost his job, he decided to start his own business.",
+  "answer": "Having lost his job,",
+  "category": "rephrase",
+  "notes": "Having lost his job, = because job was lost."
+ },
+ {
+  "prompt": "Because he had missed the last bus, he had to walk home.",
+  "answer": "Having missed the last bus,",
+  "category": "rephrase",
+  "notes": "Having missed the last bus, = because bus was missed."
+ },
+ {
+  "prompt": "After she had practised for months, she passed the audition.",
+  "answer": "Having practised for months,",
+  "category": "rephrase",
+  "notes": "Having practised for months, = after months of practice."
+ },
+ {
+  "prompt": "After he had read the instructions carefully, he assembled the device.",
+  "answer": "Having read the instructions carefully,",
+  "category": "rephrase",
+  "notes": "Having read the instructions carefully, = after reading instructions."
+ },
+ {
+  "prompt": "After he had resigned from his post, he moved to the countryside.",
+  "answer": "Having resigned from his post,",
+  "category": "rephrase",
+  "notes": "Having resigned from his post, = after leaving post."
+ },
+ {
+  "prompt": "After she had saved enough money, she bought a new laptop.",
+  "answer": "Having saved enough money,",
+  "category": "rephrase",
+  "notes": "Having saved enough money, = after saving enough money."
+ },
+ {
+  "prompt": "Because she had seen the film before, she did not want to watch it again.",
+  "answer": "Having seen the film before,",
+  "category": "rephrase",
+  "notes": "Having seen the film before, = because film was familiar."
+ },
+ {
+  "prompt": "Because he had spent years in the jungle, he knew how to survive.",
+  "answer": "Having spent years in the jungle,",
+  "category": "rephrase",
+  "notes": "Having spent years in the jungle, = because jungle years taught him."
+ },
+ {
+  "prompt": "After she had submitted the report, she felt relieved.",
+  "answer": "Having submitted the report,",
+  "category": "rephrase",
+  "notes": "having + pp = after + perfect"
+ },
+ {
+  "prompt": "After they had visited several schools, they chose one for their son.",
+  "answer": "Having visited several schools,",
+  "category": "rephrase",
+  "notes": "Having visited several schools, = after visiting schools."
+ },
+ {
+  "prompt": "Because she had worked as a nurse, she remained calm in emergencies.",
+  "answer": "Having worked as a nurse,",
+  "category": "rephrase",
+  "notes": "Having worked as a nurse, = because nursing taught calm."
+ },
+ {
+  "prompt": "After he had written three novels, he finally won recognition.",
+  "answer": "Having written three novels,",
+  "category": "rephrase",
+  "notes": "Having written three novels, = after writing three novels."
+ },
+ {
+  "prompt": "He acts like he is the manager.",
+  "answer": "he were the",
+  "category": "rephrase",
+  "notes": "he were the = as if managing."
+ },
+ {
+  "prompt": "He said sorry for being late. (apologised)",
+  "answer": "apologised for being",
+  "category": "rephrase",
+  "notes": "apologised for being = said sorry for lateness."
+ },
+ {
+  "prompt": "He avoided answering my question.",
+  "answer": "avoided answering my",
+  "category": "rephrase",
+  "notes": "avoided answering my = refused to answer question."
+ },
+ {
+  "prompt": "He pretends he never saw the memorandum. (IF)",
+  "answer": "if he had never seen",
+  "category": "rephrase",
+  "notes": "if he had never seen = as if unaware of memo."
+ },
+ {
+  "prompt": "He boasts like he has won the lottery.",
+  "answer": "he had won",
+  "category": "rephrase",
+  "notes": "he had won = as if lottery winner."
+ },
+ {
+  "prompt": "He thought of a brilliant idea. (up)",
+  "answer": "came up with",
+  "category": "rephrase",
+  "notes": "come up with = think of"
+ },
+ {
+  "prompt": "I am sure he did not pass the test; he left half the questions blank.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = result makes it impossible"
+ },
+ {
+  "prompt": "I am sure he did not steal the bike; he was with me all afternoon.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = alibi makes it impossible"
+ },
+ {
+  "prompt": "I am sure he did not tell the truth; the facts contradict every word he said.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have + pp = impossible given contrary facts"
+ },
+ {
+  "prompt": "I am sure he did not write this essay; the handwriting is completely different.",
+  "answer": "can't have",
+  "category": "rephrase",
+  "notes": "can't have = certainty he did not write it."
+ },
+ {
+  "prompt": "He knew the address, so it was possible for him to visit, but he forgot.",
+  "answer": "could have",
+  "category": "rephrase",
+  "notes": "could have + pp = missed opportunity"
+ },
+ {
+  "prompt": "I am sure he did not fix the engine alone; he has no mechanical training at all.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = lack of skill deduction"
+ },
+ {
+  "prompt": "I am sure he did not pass without studying; the exam was far too difficult.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = certainty it did not happen"
+ },
+ {
+  "prompt": "He was unable to swim across the river last year.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = lacked ability; swim-swam-swum"
+ },
+ {
+  "prompt": "I am sure he did not understand the lecture; it was delivered entirely in Spanish.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = language barrier deduction"
+ },
+ {
+  "prompt": "I am sure he did not win fairly; every referee reported serious cheating.",
+  "answer": "couldn't have",
+  "category": "rephrase",
+  "notes": "couldn't have + pp = moral-factual impossibility"
+ },
+ {
+  "prompt": "He denied breaking the window.",
+  "answer": "denied breaking the",
+  "category": "rephrase",
+  "notes": "denied breaking the = said he did not break it."
+ },
+ {
+  "prompt": "He arrived too late to catch the bus.",
+  "answer": "did not arrive early enough",
+  "category": "rephrase",
+  "notes": "did not arrive early enough = arrived too late."
+ },
+ {
+  "prompt": "He was excused, so there was no necessity to attend the ceremony, and he missed it without blame.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = permitted absence"
+ },
+ {
+  "prompt": "Students had their own books, so there was no necessity to buy the textbook, and he bought nothing.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = only option when action did not happen"
+ },
+ {
+  "prompt": "You can do the transfer online, so there was no necessity to go to the bank, and he stayed home.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = alternative removed necessity"
+ },
+ {
+  "prompt": "The meeting was informal, so there was no necessity to go, and he stayed home.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = stayed away without breach"
+ },
+ {
+  "prompt": "He already knew all the answers, so there was no necessity to study, and he watched a film instead.",
+  "answer": "didn't need to",
+  "category": "rephrase",
+  "notes": "didn't need to = prior knowledge removed necessity; action avoided"
+ },
+ {
+  "prompt": "He was so tenacious that the panel had to concede. (SUCH)",
+  "answer": "such tenacity",
+  "category": "rephrase",
+  "notes": "such tenacity = so tenacious panel conceded."
+ },
+ {
+  "prompt": "He speaks too fast for us to understand.",
+  "answer": "does not speak slowly enough",
+  "category": "rephrase",
+  "notes": "does not speak slowly enough = speaks too fast."
+ },
+ {
+  "prompt": "He drinks double the amount of water she drinks.",
+  "answer": "twice as much",
+  "category": "rephrase",
+  "notes": "twice as much = double amount compared."
+ },
+ {
+  "prompt": "He finished far sooner than expected.",
+  "answer": "lot sooner",
+  "category": "rephrase",
+  "notes": "lot sooner = much earlier than expected."
+ }
+]

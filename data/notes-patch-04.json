@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "The book ____ I bought is interesting.",
+  "answer": "book which I",
+  "category": "blank_fill",
+  "notes": "book which I = refers to a thing mentioned."
+ },
+ {
+  "prompt": "The bridge stretches ____ the widest section of the river.",
+  "answer": "stretches across the",
+  "category": "blank_fill",
+  "notes": "stretches across the = from side to side."
+ },
+ {
+  "prompt": "The bridge ____ built in 1900.",
+  "answer": "bridge was built",
+  "category": "blank_fill",
+  "notes": "bridge was built = was constructed in past."
+ },
+ {
+  "prompt": "The business broke down after the partners quarrelled.",
+  "answer": "broke down after",
+  "category": "blank_fill",
+  "notes": "broke down after = collapse or fail."
+ },
+ {
+  "prompt": "The car ran out of petrol on the motorway.",
+  "answer": "out of",
+  "category": "blank_fill",
+  "notes": "out of = have none left."
+ },
+ {
+  "prompt": "The cat leapt ____ the table and broke a vase.",
+  "answer": "leapt onto the",
+  "category": "blank_fill",
+  "notes": "leapt onto the = movement to the top."
+ },
+ {
+  "prompt": "The caterpillar will eventually turn into a butterfly.",
+  "answer": "turn into into",
+  "category": "blank_fill",
+  "notes": "turn into into = change into something else."
+ },
+ {
+  "prompt": "The children acted up during the long ceremony.",
+  "answer": "acted up during",
+  "category": "blank_fill",
+  "notes": "acted up during = behave badly."
+ },
+ {
+  "prompt": "The city is vibrant, ___ the countryside offers tranquillity.",
+  "answer": "vibrant, while the",
+  "category": "blank_fill",
+  "notes": "vibrant, while the = shows contrast between two facts."
+ },
+ {
+  "prompt": "The club spends a large sum ____ organising charity concerts.",
+  "answer": "sum on organising",
+  "category": "blank_fill",
+  "notes": "sum on organising = pay out for."
+ },
+ {
+  "prompt": "The colour ran in the wash and ruined my shirt.",
+  "answer": "ran in in",
+  "category": "blank_fill",
+  "notes": "ran in in = spread by bleeding dye."
+ },
+ {
+  "prompt": "The committee put together a team of experts for the inquiry.",
+  "answer": "put together together",
+  "category": "blank_fill",
+  "notes": "put together together = assemble."
+ },
+ {
+  "prompt": "The company is phasing out plastic packaging.",
+  "answer": "phasing out plastic",
+  "category": "blank_fill",
+  "notes": "phasing out plastic = discontinue in stages."
+ },
+ {
+  "prompt": "The company put in a new security system over the holidays.",
+  "answer": "put in a",
+  "category": "blank_fill",
+  "notes": "put in a = install."
+ },
+ {
+  "prompt": "The concert turned out to be a great success.",
+  "answer": "turned out to",
+  "category": "blank_fill",
+  "notes": "turned out to = result in the end."
+ },
+ {
+  "prompt": "The conference is held annually ____ July.",
+  "answer": "held annually in",
+  "category": "blank_fill",
+  "notes": "held annually in = during that month."
+ },
+ {
+  "prompt": "The crisis calls for immediate action from all sides.",
+  "answer": "calls for immediate",
+  "category": "blank_fill",
+  "notes": "calls for immediate = demand or require."
+ },
+ {
+  "prompt": "The deal fell through at the final stage of negotiation.",
+  "answer": "fell through at",
+  "category": "blank_fill",
+  "notes": "fell through at = fail to be completed."
+ },
+ {
+  "prompt": "The delay was attributed ____ a fault in the signalling system.",
+  "answer": "attributed to a",
+  "category": "blank_fill",
+  "notes": "attributed to a = explain as caused by."
+ },
+ {
+  "prompt": "The dentist will fill in the gap with a false tooth.",
+  "answer": "fill in the",
+  "category": "blank_fill",
+  "notes": "fill in the = occupy an empty space."
+ },
+ {
+  "prompt": "The dispute stems from a misunderstanding over the contract.",
+  "answer": "stems from a",
+  "category": "blank_fill",
+  "notes": "stems from a = arise from a cause."
+ },
+ {
+  "prompt": "The driver was fined ____ exceeding the speed limit.",
+  "answer": "fined for exceeding",
+  "category": "blank_fill",
+  "notes": "fined for exceeding = punish by payment."
+ },
+ {
+  "prompt": "The economy is heavily dependent ____ imported raw materials.",
+  "answer": "dependent on imported",
+  "category": "blank_fill",
+  "notes": "dependent on imported = relying on."
+ },
+ {
+  "prompt": "The essay, ___ well written, lacked original ideas.",
+  "answer": "essay, however well",
+  "category": "blank_fill",
+  "notes": "essay, however well = despite being well written."
+ },
+ {
+  "prompt": "The evidence is weak, ___ the claim persists.",
+  "answer": "weak, yet the",
+  "category": "blank_fill",
+  "notes": "weak, yet the = but despite that fact."
+ },
+ {
+  "prompt": "The explorers trekked ____ the dense jungle for weeks.",
+  "answer": "trekked through the",
+  "category": "blank_fill",
+  "notes": "trekked through the = from one side to the other."
+ },
+ {
+  "prompt": "The film was over three hours long; ___, nobody left early.",
+  "answer": "hours long; nevertheless",
+  "category": "blank_fill",
+  "notes": "hours long; nevertheless = despite that fact."
+ },
+ {
+  "prompt": "The film was short, ___ memorable.",
+  "answer": "was short, albeit",
+  "category": "blank_fill",
+  "notes": "was short, albeit = although it was short."
+ },
+ {
+  "prompt": "The firefighters soon put out the blaze in the warehouse.",
+  "answer": "put out out",
+  "category": "blank_fill",
+  "notes": "put out out = extinguish."
+ },
+ {
+  "prompt": "The firm was taken over by a foreign competitor.",
+  "answer": "taken over by",
+  "category": "blank_fill",
+  "notes": "taken over by = acquire control of."
+ },
+ {
+  "prompt": "The first draft was vague, ___ the final version is precise.",
+  "answer": "vague, whereas the",
+  "category": "blank_fill",
+  "notes": "vague, whereas the = in contrast with that."
+ },
+ {
+  "prompt": "The ____ prize went to Lan.",
+  "answer": "first prize went",
+  "category": "blank_fill",
+  "notes": "first prize went = top award was given."
+ },
+ {
+  "prompt": "The flood caused severe damage ____ roads and bridges.",
+  "answer": "damage to roads",
+  "category": "blank_fill",
+  "notes": "damage to roads = harm done."
+ },
+ {
+  "prompt": "The girl ____ we met is his sister.",
+  "answer": "girl whom we",
+  "category": "blank_fill",
+  "notes": "girl whom we = female person we met."
+ },
+ {
+  "prompt": "The homeless child longed ____ a warm meal and shelter.",
+  "answer": "longed for a",
+  "category": "blank_fill",
+  "notes": "longed for a = desire strongly."
+ },
+ {
+  "prompt": "The hostages were put through a terrible ordeal.",
+  "answer": "put through a",
+  "category": "blank_fill",
+  "notes": "put through a = subject to suffering."
+ },
+ {
+  "prompt": "The hotel put us up for two nights during the conference.",
+  "answer": "put up us",
+  "category": "blank_fill",
+  "notes": "put up us = provide accommodation."
+ },
+ {
+  "prompt": "The house ____ is quite old.",
+  "answer": "house itself is",
+  "category": "blank_fill",
+  "notes": "house itself is = emphasizes the house itself."
+ },
+ {
+  "prompt": "The house stands just ____ the riverbank.",
+  "answer": "just beside the",
+  "category": "blank_fill",
+  "notes": "just beside the = next to."
+ },
+ {
+  "prompt": "The instructions were unclear, ___ we managed to assemble it.",
+  "answer": "unclear, still we",
+  "category": "blank_fill",
+  "notes": "still = nevertheless in mid-sentence."
+ },
+ {
+  "prompt": "The journey was exhausting; ___, it was worthwhile.",
+  "answer": "was exhausting; nonetheless",
+  "category": "blank_fill",
+  "notes": "was exhausting; nonetheless = despite being exhausting."
+ },
+ {
+  "prompt": "The law prohibits selling tobacco ____ anyone under eighteen.",
+  "answer": "tobacco to anyone",
+  "category": "blank_fill",
+  "notes": "tobacco to anyone = sell goods commercially."
+ },
+ {
+  "prompt": "The lecture filled up the hall within ten minutes.",
+  "answer": "filled up the",
+  "category": "blank_fill",
+  "notes": "filled up the = fill a space completely."
+ },
+ {
+  "prompt": "The letters have ____ posted already.",
+  "answer": "have been posted",
+  "category": "blank_fill",
+  "notes": "have been posted = were sent already."
+ },
+ {
+  "prompt": "The little girl is fond ____ reading fairy tales.",
+  "answer": "fond of reading",
+  "category": "blank_fill",
+  "notes": "fond of reading = like very much."
+ },
+ {
+  "prompt": "The lorry nearly ran over the dog crossing the road.",
+  "answer": "ran over over",
+  "category": "blank_fill",
+  "notes": "ran over over = knock down with a vehicle."
+ },
+ {
+  "prompt": "The machines were transported ____ means of heavy trucks.",
+  "answer": "transported by means",
+  "category": "blank_fill",
+  "notes": "transported by means = with the help of."
+ },
+ {
+  "prompt": "The man ____ lives next door is a doctor.",
+  "answer": "man who lives",
+  "category": "blank_fill",
+  "notes": "man who lives = refers to a person."
+ },
+ {
+  "prompt": "The manager called for an urgent meeting this afternoon.",
+  "answer": "called for an",
+  "category": "blank_fill",
+  "notes": "called for an = request a meeting."
+ },
+ {
+  "prompt": "The manager grew bored ____ repeating the same instructions.",
+  "answer": "bored with repeating",
+  "category": "blank_fill",
+  "notes": "bored with repeating = tired of."
+ },
+ {
+  "prompt": "The match continued, the heavy rain ___.",
+  "answer": "heavy rain notwithstanding",
+  "category": "blank_fill",
+  "notes": "heavy rain notwithstanding = despite heavy rain."
+ },
+ {
+  "prompt": "The match was postponed ____ account of the heavy storm.",
+  "answer": "postponed on account",
+  "category": "blank_fill",
+  "notes": "postponed on account = because of."
+ },
+ {
+  "prompt": "The meeting broke up just before noon.",
+  "answer": "broke up just",
+  "category": "blank_fill",
+  "notes": "broke up just = come to an end."
+ },
+ {
+  "prompt": "The minister called for stricter controls on advertising.",
+  "answer": "called for stricter",
+  "category": "blank_fill",
+  "notes": "called for stricter = demand publicly."
+ },
+ {
+  "prompt": "The minister resigned ____ office after the scandal.",
+  "answer": "resigned from office",
+  "category": "blank_fill",
+  "notes": "resigned from office = leave a position."
+ },
+ {
+  "prompt": "The mountain region is rich ____ deposits of coal and iron.",
+  "answer": "rich in deposits",
+  "category": "blank_fill",
+  "notes": "rich in deposits = containing a lot of."
+ },
+ {
+  "prompt": "The museum attracts visitors ____ all parts of the country.",
+  "answer": "visitors from all",
+  "category": "blank_fill",
+  "notes": "visitors from all = coming out of."
+ },
+ {
+  "prompt": "The new curriculum will be phased in over two terms.",
+  "answer": "phased in over",
+  "category": "blank_fill",
+  "notes": "phased in over = introduced gradually."
+ },
+ {
+  "prompt": "The new policy aims ____ reducing traffic congestion.",
+  "answer": "aims at reducing",
+  "category": "blank_fill",
+  "notes": "aims at reducing = intend to achieve."
+ },
+ {
+  "prompt": "The new policy brought about a sharp fall in crime.",
+  "answer": "brought about a",
+  "category": "blank_fill",
+  "notes": "brought about a = cause to happen."
+ },
+ {
+  "prompt": "The new road will lead ____ faster growth for the mountain district.",
+  "answer": "lead to faster",
+  "category": "blank_fill",
+  "notes": "lead to faster = causes faster growth."
+ },
+ {
+  "prompt": "The new tax accounts for a third of the retail price.",
+  "answer": "accounts for a",
+  "category": "blank_fill",
+  "notes": "accounts for a = constitute a proportion."
+ },
+ {
+  "prompt": "The noise drowned out his voice completely.",
+  "answer": "drowned out his",
+  "category": "blank_fill",
+  "notes": "drowned out his = overpower by louder sound."
+ },
+ {
+  "prompt": "The north is industrial, ___ the south relies on tourism.",
+  "answer": "industrial, whereas the",
+  "category": "blank_fill",
+  "notes": "industrial, whereas the = in contrast north to south."
+ },
+ {
+  "prompt": "The novel is compelling, ___ its ending is rather abrupt.",
+  "answer": "compelling, although its",
+  "category": "blank_fill",
+  "notes": "compelling, although its = despite compelling story."
+ },
+ {
+  "prompt": "The novel is popular ___ its abrupt ending.",
+  "answer": "popular despite its",
+  "category": "blank_fill",
+  "notes": "popular despite its = in spite of ending."
+ },
+ {
+  "prompt": "The nurse dealt ____ the emergency calmly and skilfully.",
+  "answer": "dealt with the",
+  "category": "blank_fill",
+  "notes": "dealt with the = handle."
+ },
+ {
+  "prompt": "The old buses are to be phased out next year.",
+  "answer": "phased out next",
+  "category": "blank_fill",
+  "notes": "phased out next = gradually abolished."
+ },
+ {
+  "prompt": "The old machine works ___ it is serviced regularly.",
+  "answer": "as long as",
+  "category": "blank_fill",
+  "notes": "as long as = on condition serviced regularly."
+ },
+ {
+  "prompt": "The old man dozed off during the sermon.",
+  "answer": "dozed off during",
+  "category": "blank_fill",
+  "notes": "dozed off during = fall lightly asleep."
+ },
+ {
+  "prompt": "The old temple dates back ____ the Ly dynasty.",
+  "answer": "back to the",
+  "category": "blank_fill",
+  "notes": "back to the = originate in."
+ },
+ {
+  "prompt": "The operator put me through to the headmaster immediately.",
+  "answer": "put through me",
+  "category": "blank_fill",
+  "notes": "put through me = connect by phone."
+ },
+ {
+  "prompt": "The organisers called off the race owing to fog.",
+  "answer": "called off the",
+  "category": "blank_fill",
+  "notes": "called off the = cancel an event."
+ },
+ {
+  "prompt": "The organisers put off the match because of heavy rain.",
+  "answer": "put off the",
+  "category": "blank_fill",
+  "notes": "put off the = postpone an event."
+ },
+ {
+  "prompt": "The ____ team played better.",
+  "answer": "other team played",
+  "category": "blank_fill",
+  "notes": "other team played = different team competed."
+ },
+ {
+  "prompt": "The path turns off just beyond the old bridge.",
+  "answer": "turns off just",
+  "category": "blank_fill",
+  "notes": "turns off just = branch away from."
+ },
+ {
+  "prompt": "The patient is suffering ____ a rare lung disease.",
+  "answer": "suffering from a",
+  "category": "blank_fill",
+  "notes": "suffering from a = be affected by."
+ },
+ {
+  "prompt": "The picnic can proceed ___ the weather holds.",
+  "answer": "proceed provided the",
+  "category": "blank_fill",
+  "notes": "proceed provided the = if weather stays good."
+ },
+ {
+  "prompt": "The plan came off despite many difficulties.",
+  "answer": "came off despite",
+  "category": "blank_fill",
+  "notes": "came off despite = succeed."
+ },
+ {
+  "prompt": "The plane flew directly ____ the densely populated city.",
+  "answer": "directly over the",
+  "category": "blank_fill",
+  "notes": "directly over the = above and across."
+ },
+ {
+  "prompt": "The plane took off an hour late owing to fog.",
+  "answer": "took off an",
+  "category": "blank_fill",
+  "notes": "took off an = leave the ground."
+ },
+ {
+  "prompt": "The police quickly ran down the escaped prisoner.",
+  "answer": "ran down down",
+  "category": "blank_fill",
+  "notes": "ran down down = chase and capture."
+ },
+ {
+  "prompt": "The police turned over the evidence to the investigators.",
+  "answer": "turned over the",
+  "category": "blank_fill",
+  "notes": "turned over the = hand over."
+ },
+ {
+  "prompt": "The price varies depending ____ the quality of materials.",
+  "answer": "depending on the",
+  "category": "blank_fill",
+  "notes": "depending on the = be decided by."
+ },
+ {
+  "prompt": "The prize went to him and ____.",
+  "answer": "him and her",
+  "category": "blank_fill",
+  "notes": "him and her = him plus female object."
+ },
+ {
+  "prompt": "The problem is different ____ what we initially imagined.",
+  "answer": "different from what",
+  "category": "blank_fill",
+  "notes": "different from what = not the same as."
+ },
+ {
+  "prompt": "The programme was set up to help unemployed youth.",
+  "answer": "set up to",
+  "category": "blank_fill",
+  "notes": "set up to = establish."
+ },
+ {
+  "prompt": "The project ran over budget by nearly twenty per cent.",
+  "answer": "ran over budget",
+  "category": "blank_fill",
+  "notes": "ran over budget = exceed a limit."
+ },
+ {
+  "prompt": "The rain was heavy; ___, the rescue team carried on.",
+  "answer": "was heavy; nevertheless",
+  "category": "blank_fill",
+  "notes": "was heavy; nevertheless = despite heavy rain."
+ },
+ {
+  "prompt": "The reforms went through despite strong opposition.",
+  "answer": "went through despite",
+  "category": "blank_fill",
+  "notes": "went through despite = be approved."
+ },
+ {
+  "prompt": "The refugees are safe ____ persecution in the neighbouring country.",
+  "answer": "safe from persecution",
+  "category": "blank_fill",
+  "notes": "safe from persecution = protected against."
+ },
+ {
+  "prompt": "The report focuses mainly ____ renewable sources of energy.",
+  "answer": "mainly on renewable",
+  "category": "blank_fill",
+  "notes": "mainly on renewable = focuses attention centrally."
+ },
+ {
+  "prompt": "The responsibility is shared equally ____ the two coordinators.",
+  "answer": "equally between the",
+  "category": "blank_fill",
+  "notes": "equally between the = shared by each."
+ },
+ {
+  "prompt": "The results fell short of our expectations.",
+  "answer": "short of",
+  "category": "blank_fill",
+  "notes": "short of = fail to reach."
+ },
+ {
+  "prompt": "The rich grow richer, ___ the poor fall further behind.",
+  "answer": "richer, while the",
+  "category": "blank_fill",
+  "notes": "richer, while the = shows rich-poor contrast."
+ },
+ {
+  "prompt": "The rich should help ____ poor.",
+  "answer": "should help the",
+  "category": "blank_fill",
+  "notes": "should help the = helps poor people group."
+ },
+ {
+  "prompt": "The rivals put aside their differences to fight the fire.",
+  "answer": "put aside their",
+  "category": "blank_fill",
+  "notes": "put aside their = disregard temporarily."
+ },
+ {
+  "prompt": "The river runs through the centre of the town.",
+  "answer": "runs through the",
+  "category": "blank_fill",
+  "notes": "runs through the = pass across a place."
+ },
+ {
+  "prompt": "The rules were strict, ___ nobody complained.",
+  "answer": "even so",
+  "category": "blank_fill",
+  "notes": "even so = nevertheless."
+ },
+ {
+  "prompt": "The rules, ___ strict, must be applied fairly.",
+  "answer": "rules, however strict,",
+  "category": "blank_fill",
+  "notes": "rules, however strict, = despite being very strict."
+ },
+ {
+  "prompt": "The rumour soon got around the whole village.",
+  "answer": "got around the",
+  "category": "blank_fill",
+  "notes": "got around the = spread from person to person."
+ },
+ {
+  "prompt": "The rumour spread quickly ____ the whole village.",
+  "answer": "quickly through the",
+  "category": "blank_fill",
+  "notes": "quickly through the = across the extent."
+ },
+ {
+  "prompt": "The scientist persisted ____ his research despite repeated failures.",
+  "answer": "persisted in his",
+  "category": "blank_fill",
+  "notes": "persisted in his = continue firmly."
+ },
+ {
+  "prompt": "The secretary put down my name on the waiting list.",
+  "answer": "put down my",
+  "category": "blank_fill",
+  "notes": "put down my = write down or record."
+ },
+ {
+  "prompt": "The shop opens ____ Monday mornings for wholesale customers.",
+  "answer": "opens on Monday",
+  "category": "blank_fill",
+  "notes": "opens on Monday = during that day."
+ },
+ {
+  "prompt": "The smoke cleared away after the windows were opened.",
+  "answer": "cleared away after",
+  "category": "blank_fill",
+  "notes": "cleared away after = disperse gradually."
+ },
+ {
+  "prompt": "The soldiers carried out their orders without question.",
+  "answer": "carried out their",
+  "category": "blank_fill",
+  "notes": "carried out their = execute or perform."
+ },
+ {
+  "prompt": "The soldiers fell back as the enemy advanced.",
+  "answer": "fell back as",
+  "category": "blank_fill",
+  "notes": "fell back as = retreat."
+ },
+ {
+  "prompt": "The solution, ___ temporary, eased the crisis.",
+  "answer": "solution, albeit temporary,",
+  "category": "blank_fill",
+  "notes": "solution, albeit temporary, = although solution was temporary."
+ },
+ {
+  "prompt": "The speaker dwelt at length ____ the history of the village.",
+  "answer": "length on the",
+  "category": "blank_fill",
+  "notes": "length on the = speak at length."
+ },
+ {
+  "prompt": "The station is not far ____ our school.",
+  "answer": "far from our",
+  "category": "blank_fill",
+  "notes": "far from our = at a distance."
+ },
+ {
+  "prompt": "The strike was called off at the last minute.",
+  "answer": "called off at",
+  "category": "blank_fill",
+  "notes": "called off at = cancelled."
+ },
+ {
+  "prompt": "The student ____ bike was stolen reported it.",
+  "answer": "student whose bike",
+  "category": "blank_fill",
+  "notes": "student whose bike = bike belongs to student."
+ },
+ {
+  "prompt": "The students have become familiar ____ the new learning software.",
+  "answer": "familiar with the",
+  "category": "blank_fill",
+  "notes": "familiar with the = knowing well."
+ },
+ {
+  "prompt": "The supply of rice gave out during the famine.",
+  "answer": "gave out during",
+  "category": "blank_fill",
+  "notes": "gave out during = become exhausted."
+ },
+ {
+  "prompt": "The surgeon is skilled ____ performing delicate operations.",
+  "answer": "skilled at performing",
+  "category": "blank_fill",
+  "notes": "skilled at performing = expert in."
+ },
+ {
+  "prompt": "The suspect was released ____ bail pending further investigation.",
+  "answer": "released on bail",
+  "category": "blank_fill",
+  "notes": "released on bail = freed with payment guarantee."
+ },
+ {
+  "prompt": "The talk ran on for almost three hours.",
+  "answer": "ran on for",
+  "category": "blank_fill",
+  "notes": "ran on for = continue longer than expected."
+ },
+ {
+  "prompt": "The task was difficult; ___, we finished it on time.",
+  "answer": "was difficult; however",
+  "category": "blank_fill",
+  "notes": "was difficult; however = despite that difficulty."
+ },
+ {
+  "prompt": "The teacher asked ____ to be quiet.",
+  "answer": "asked us to",
+  "category": "blank_fill",
+  "notes": "asked us to = requested we be quiet."
+ },
+ {
+  "prompt": "The teacher divided the class ____ four discussion groups.",
+  "answer": "class into four",
+  "category": "blank_fill",
+  "notes": "class into four = split into."
+ },
+ {
+  "prompt": "The teacher was satisfied ____ the progress of her class.",
+  "answer": "satisfied with the",
+  "category": "blank_fill",
+  "notes": "satisfied with the = pleased with."
+ },
+ {
+  "prompt": "The team is intent ____ winning the national championship.",
+  "answer": "intent on winning",
+  "category": "blank_fill",
+  "notes": "intent on winning = determined to do."
+ },
+ {
+  "prompt": "The team lost, ___ they had dominated the whole game.",
+  "answer": "even though",
+  "category": "blank_fill",
+  "notes": "even though = despite dominating the game."
+ },
+ {
+  "prompt": "The temperature rarely drops ____ zero in this coastal region.",
+  "answer": "drops below zero",
+  "category": "blank_fill",
+  "notes": "drops below zero = lower than."
+ },
+ {
+  "prompt": "The terrorists gave themselves up to the police.",
+  "answer": "gave up themselves",
+  "category": "blank_fill",
+  "notes": "gave up themselves = surrender."
+ },
+ {
+  "prompt": "The thief made off with the old lady's handbag.",
+  "answer": "off with",
+  "category": "blank_fill",
+  "notes": "off with = steal and escape."
+ },
+ {
+  "prompt": "The tradition stems from centuries of village life.",
+  "answer": "stems from centuries",
+  "category": "blank_fill",
+  "notes": "stems from centuries = originate from."
+ },
+ {
+  "prompt": "The train arrived ____ the station ten minutes late.",
+  "answer": "arrived at the",
+  "category": "blank_fill",
+  "notes": "arrived at the = reach a point."
+ },
+ {
+  "prompt": "The trip will succeed ___ everyone cooperates fully.",
+  "answer": "succeed providing everyone",
+  "category": "blank_fill",
+  "notes": "providing = provided; condition."
+ },
+ {
+  "prompt": "The twins look alike, ___ their characters differ sharply.",
+  "answer": "alike, whereas their",
+  "category": "blank_fill",
+  "notes": "alike, whereas their = in contrast looks versus character."
+ },
+ {
+  "prompt": "The village has turned into a popular tourist resort.",
+  "answer": "turned into a",
+  "category": "blank_fill",
+  "notes": "turned into a = transform into."
+ },
+ {
+  "prompt": "The wall fell down during the storm.",
+  "answer": "fell down during",
+  "category": "blank_fill",
+  "notes": "fell down during = collapse."
+ },
+ {
+  "prompt": "The ____ town was asleep.",
+  "answer": "whole town was",
+  "category": "blank_fill",
+  "notes": "whole town was = entire town was asleep."
+ },
+ {
+  "prompt": "The wind died down towards evening.",
+  "answer": "died down towards",
+  "category": "blank_fill",
+  "notes": "died down towards = become calmer."
+ },
+ {
+  "prompt": "The youth was accused ____ stealing a motorbike from the garage.",
+  "answer": "accused of stealing",
+  "category": "blank_fill",
+  "notes": "accused of stealing = charge with an offence."
+ },
+ {
+  "prompt": "Their house is bigger than ____.",
+  "answer": "bigger than ours",
+  "category": "blank_fill",
+  "notes": "bigger than ours = larger than our house."
+ },
+ {
+  "prompt": "Their marriage soon fell apart after constant quarrels.",
+  "answer": "fell apart after",
+  "category": "blank_fill",
+  "notes": "fell apart after = break up."
+ },
+ {
+  "prompt": "____ team won the match.",
+  "answer": "Their team won",
+  "category": "blank_fill",
+  "notes": "Their team won = team belonging to them won."
+ },
+ {
+  "prompt": "There are a ____ shops near here.",
+  "answer": "a few shops",
+  "category": "blank_fill",
+  "notes": "a few shops = several shops nearby."
+ },
+ {
+  "prompt": "____ are many people outside.",
+  "answer": "There are many",
+  "category": "blank_fill",
+  "notes": "There are many = many people exist outside."
+ },
+ {
+  "prompt": "There has been a sharp rise ____ the price of essential goods.",
+  "answer": "rise in the",
+  "category": "blank_fill",
+  "notes": "rise in the = increase in."
+ },
+ {
+  "prompt": "There is a growing demand ____ engineers skilled in artificial intelligence.",
+  "answer": "demand for engineers",
+  "category": "blank_fill",
+  "notes": "demand for engineers = need for."
+ },
+ {
+  "prompt": "There is a ____ hope left.",
+  "answer": "a little hope",
+  "category": "blank_fill",
+  "notes": "a little hope = some hope remains."
+ },
+ {
+  "prompt": "There is ____ milk left.",
+  "answer": "is no milk",
+  "category": "blank_fill",
+  "notes": "is no milk = no milk remains."
+ },
+ {
+  "prompt": "There is ____ in the box.",
+  "answer": "is nothing in",
+  "category": "blank_fill",
+  "notes": "is nothing in = box contains nothing."
+ },
+ {
+  "prompt": "____ shoes are too small.",
+  "answer": "These shoes are",
+  "category": "blank_fill",
+  "notes": "These shoes are = refers to nearby shoes."
+ },
+ {
+  "prompt": "They blame ____ for the loss.",
+  "answer": "blame themselves for",
+  "category": "blank_fill",
+  "notes": "blame themselves for = blame their own group."
+ },
+ {
+  "prompt": "They called on the government to act against pollution.",
+  "answer": "called on on",
+  "category": "blank_fill",
+  "notes": "called on on = publicly appeal to."
+ },
+ {
+  "prompt": "They caught up with the rest of the class quickly.",
+  "answer": "caught up with",
+  "category": "blank_fill",
+  "notes": "caught up with = reach the same level."
+ },
+ {
+  "prompt": "They could not account for the delay at the border.",
+  "answer": "account for the",
+  "category": "blank_fill",
+  "notes": "account for the = explain satisfactorily."
+ },
+ {
+  "prompt": "They ____ not understand the rule.",
+  "answer": "do not understand",
+  "category": "blank_fill",
+  "notes": "do not understand = fail to comprehend rule."
+ },
+ {
+  "prompt": "They engaged ____ a lively discussion about climate change.",
+  "answer": "engaged in a",
+  "category": "blank_fill",
+  "notes": "engaged in a = take part."
+ },
+ {
+  "prompt": "They exchanged the old printer ____ a newer model.",
+  "answer": "printer for a",
+  "category": "blank_fill",
+  "notes": "printer for a = swap with."
+ },
+ {
+  "prompt": "They got out of the debt by selling the car.",
+  "answer": "out of",
+  "category": "blank_fill",
+  "notes": "out of = escape from a difficulty."
+ },
+ {
+  "prompt": "They had to turn back because of the snowstorm.",
+  "answer": "turn back because",
+  "category": "blank_fill",
+  "notes": "turn back because = return in the opposite direction."
+ },
+ {
+  "prompt": "They ____ finished their work already.",
+  "answer": "have finished their",
+  "category": "blank_fill",
+  "notes": "have finished their = completed work already."
+ },
+ {
+  "prompt": "They haven't finished, ____ they?",
+  "answer": "haven't finished, have",
+  "category": "blank_fill",
+  "notes": "haven't finished, have = asks to confirm unfinished work."
+ },
+ {
+  "prompt": "They held out against the enemy for six weeks.",
+  "answer": "held out against",
+  "category": "blank_fill",
+  "notes": "held out against = resist strongly."
+ },
+ {
+  "prompt": "They kept climbing ___ feeling exhausted.",
+  "answer": "in spite of",
+  "category": "blank_fill",
+  "notes": "in spite of = despite feeling exhausted."
+ },
+ {
+  "prompt": "They love each ____ deeply.",
+  "answer": "love each other",
+  "category": "blank_fill",
+  "notes": "love each other = love one another mutually."
+ },
+ {
+  "prompt": "They ____ join us later.",
+  "answer": "might join us",
+  "category": "blank_fill",
+  "notes": "might join us = may possibly join later."
+ },
+ {
+  "prompt": "They put aside a sum of money for their children's education.",
+  "answer": "put aside aside",
+  "category": "blank_fill",
+  "notes": "put aside aside = save for future use."
+ },
+ {
+  "prompt": "They put up a large tent in the school yard.",
+  "answer": "put up a",
+  "category": "blank_fill",
+  "notes": "put up a = erect or build."
+ },
+ {
+  "prompt": "They ran up huge debts during the renovation.",
+  "answer": "ran up huge",
+  "category": "blank_fill",
+  "notes": "ran up huge = accumulate debts."
+ },
+ {
+  "prompt": "They risked their lives ____ the sake of the nation.",
+  "answer": "lives for the",
+  "category": "blank_fill",
+  "notes": "lives for the = for the benefit of."
+ },
+ {
+  "prompt": "They sorted out their differences without going to court.",
+  "answer": "sorted out their",
+  "category": "blank_fill",
+  "notes": "sorted out their = resolve satisfactorily."
+ },
+ {
+  "prompt": "They stopped to fill up the tank before the long journey.",
+  "answer": "fill up the",
+  "category": "blank_fill",
+  "notes": "fill up the = fill completely with fuel."
+ },
+ {
+  "prompt": "They turned down his application for lack of experience.",
+  "answer": "turned down down",
+  "category": "blank_fill",
+  "notes": "turned down down = reject an offer."
+ },
+ {
+  "prompt": "They ____ playing football at six yesterday.",
+  "answer": "were playing football",
+  "category": "blank_fill",
+  "notes": "were playing football = played continuously in past."
+ },
+ {
+  "prompt": "Thick curtains protect the furniture ____ direct sunlight.",
+  "answer": "furniture from direct",
+  "category": "blank_fill",
+  "notes": "furniture from direct = keep safe."
+ },
+ {
+  "prompt": "This book is better than ____ one.",
+  "answer": "better than that",
+  "category": "blank_fill",
+  "notes": "better than that = compares to that one."
+ },
+ {
+  "prompt": "This dictionary is a revised edition ____ the 2015 original.",
+  "answer": "edition of the",
+  "category": "blank_fill",
+  "notes": "edition of the = version of."
+ },
+ {
+  "prompt": "This is my book; that one is ____.",
+  "answer": "one is yours",
+  "category": "blank_fill",
+  "notes": "one is yours = book belongs to you."
+ },
+ {
+  "prompt": "This novel differs considerably ____ the film adapted from it.",
+  "answer": "considerably from the",
+  "category": "blank_fill",
+  "notes": "considerably from the = be unlike."
+ },
+ {
+  "prompt": "This pen is ____, not yours.",
+  "answer": "pen is mine",
+  "category": "blank_fill",
+  "notes": "pen is mine = pen belongs to me."
+ },
+ {
+  "prompt": "This tradition belongs ____ the Cham ethnic community.",
+  "answer": "belongs to the",
+  "category": "blank_fill",
+  "notes": "belongs to the = be owned by."
+ },
+ {
+  "prompt": "This wine is made ____ fermented grapes grown in the valley.",
+  "answer": "made from fermented",
+  "category": "blank_fill",
+  "notes": "made from fermented = transformed raw ingredient."
+ },
+ {
+  "prompt": "____ days will never return.",
+  "answer": "Those days will",
+  "category": "blank_fill",
+  "notes": "Those days will = past days gone forever."
+ },
+ {
+  "prompt": "___ she was exhausted, she finished the report on time.",
+  "answer": "though she was",
+  "category": "blank_fill",
+  "notes": "though = although; slightly more informal."
+ },
+ {
+  "prompt": "___ the film was long, nobody left the cinema early.",
+  "answer": "though the film",
+  "category": "blank_fill",
+  "notes": "though the film = despite film being long."
+ },
+ {
+  "prompt": "Time crept by as we waited for news.",
+  "answer": "crept by as",
+  "category": "blank_fill",
+  "notes": "crept by as = pass slowly."
+ },
+ {
+  "prompt": "Tired ___ they were, the hikers kept climbing to the summit.",
+  "answer": "though they were,",
+  "category": "blank_fill",
+  "notes": "though they were, = despite being very tired."
+ },
+ {
+  "prompt": "Tom is outgoing, ___ his sister is painfully shy.",
+  "answer": "outgoing, while his",
+  "category": "blank_fill",
+  "notes": "while = whereas contrast."
+ },
+ {
+  "prompt": "Too much detail would only fill out the report unnecessarily.",
+  "answer": "fill out the",
+  "category": "blank_fill",
+  "notes": "fill out the = expand in size."
+ },
+ {
+  "prompt": "Tourists benefit greatly ____ the new express railway.",
+  "answer": "greatly from the",
+  "category": "blank_fill",
+  "notes": "greatly from the = gain advantage."
+ },
+ {
+  "prompt": "Traditional markets are declining, ___ online sales keep rising.",
+  "answer": "declining, while online",
+  "category": "blank_fill",
+  "notes": "declining, while online = shows opposite sales trends."
+ },
+ {
+  "prompt": "___ it rains, we will play football tomorrow.",
+  "answer": "unless it rains,",
+  "category": "blank_fill",
+  "notes": "unless = if not."
+ },
+ {
+  "prompt": "___ otherwise stated, all prices include tax.",
+  "answer": "unless otherwise stated,",
+  "category": "blank_fill",
+  "notes": "unless otherwise stated, = except if stated differently."
+ },
+ {
+  "prompt": "___ warned in advance, most people will panic.",
+  "answer": "unless warned in",
+  "category": "blank_fill",
+  "notes": "unless warned in = if people are not warned."
+ },
+ {
+  "prompt": "Water turns ____ ice when the temperature falls below zero.",
+  "answer": "turns into ice",
+  "category": "blank_fill",
+  "notes": "turns into ice = become ice."
+ },
+ {
+  "prompt": "We are grateful ____ your timely assistance during the flood.",
+  "answer": "grateful for your",
+  "category": "blank_fill",
+  "notes": "grateful for your = thankful for."
+ },
+ {
+  "prompt": "We are interested ____ preserving traditional crafts.",
+  "answer": "interested in preserving",
+  "category": "blank_fill",
+  "notes": "interested in preserving = keen to learn or do."
+ },
+ {
+  "prompt": "We can barely get by on such a small salary.",
+  "answer": "get by on",
+  "category": "blank_fill",
+  "notes": "get by on = manage to survive."
+ },
+ {
+  "prompt": "We congratulated Mai ____ winning the English Olympiad.",
+  "answer": "Mai on winning",
+  "category": "blank_fill",
+  "notes": "Mai on winning = praise for success."
+ },
+ {
+  "prompt": "We could no longer put up with the noise from the factory.",
+  "answer": "up with",
+  "category": "blank_fill",
+  "notes": "up with = tolerate."
+ },
+ {
+  "prompt": "We have not heard ____ him since he moved overseas.",
+  "answer": "heard from him",
+  "category": "blank_fill",
+  "notes": "heard from him = receive news."
+ },
+ {
+  "prompt": "We received an invitation ____ the museum's opening ceremony.",
+  "answer": "invitation to the",
+  "category": "blank_fill",
+  "notes": "invitation to the = summons to attend."
+ },
+ {
+  "prompt": "We ____ overcome one day.",
+  "answer": "shall overcome one",
+  "category": "blank_fill",
+  "notes": "shall overcome one = we will overcome someday."
+ },
+ {
+  "prompt": "We should help one ____ in trouble.",
+  "answer": "one another in",
+  "category": "blank_fill",
+  "notes": "one another in = help each other mutually."
+ },
+ {
+  "prompt": "We waited patiently ____ the arrival of the rescue team.",
+  "answer": "patiently for the",
+  "category": "blank_fill",
+  "notes": "patiently for the = expect patiently."
+ },
+ {
+  "prompt": "____ a lovely day it is!",
+  "answer": "What a lovely",
+  "category": "blank_fill",
+  "notes": "What a lovely = expresses strong admiration."
+ },
+ {
+  "prompt": "____ you say matters a lot.",
+  "answer": "What you say",
+  "category": "blank_fill",
+  "notes": "What you say = things you say matter."
+ },
+ {
+  "prompt": "___ most birds migrate, penguins remain in winter.",
+  "answer": "whereas most birds",
+  "category": "blank_fill",
+  "notes": "whereas most birds = in contrast birds differ."
+ },
+ {
+  "prompt": "___ rich or poor, everyone deserves respect.",
+  "answer": "whether rich or",
+  "category": "blank_fill",
+  "notes": "whether rich or = regardless of wealth status."
+ },
+ {
+  "prompt": "____ of you broke the glass?",
+  "answer": "Which of you",
+  "category": "blank_fill",
+  "notes": "Which of you = asks who broke glass."
+ },
+ {
+  "prompt": "___ I accept your apology, I cannot forget what happened.",
+  "answer": "while I accept",
+  "category": "blank_fill",
+  "notes": "while I accept = although I accept apology."
+ }
+]

@@ -1,0 +1,1244 @@
+[
+  {
+    "prompt": "Recall the fixed pair with noughts. (CROSSES)",
+    "answer": "noughts and crosses in",
+    "category": "binomial",
+    "notes": "noughts and crosses in = tic-tac-toe paper game."
+  },
+  {
+    "prompt": "Recall the fixed pair with off. (AWAY)",
+    "answer": "off and away in",
+    "category": "binomial",
+    "notes": "off and away in = far away immediately."
+  },
+  {
+    "prompt": "Recall the fixed pair with one. (DONE)",
+    "answer": "one and done in",
+    "category": "binomial",
+    "notes": "one and done in = finished after one attempt."
+  },
+  {
+    "prompt": "Recall the fixed pair with one. (ONLY)",
+    "answer": "one and only in",
+    "category": "binomial",
+    "notes": "one and only in = unique special person."
+  },
+  {
+    "prompt": "Recall the fixed pair with onwards. (UPWARDS)",
+    "answer": "onwards and upwards in",
+    "category": "binomial",
+    "notes": "onwards and upwards in = improving toward better future."
+  },
+  {
+    "prompt": "Recall the fixed pair with pain. (SUFFERING)",
+    "answer": "pain and suffering in",
+    "category": "binomial",
+    "notes": "pain and suffering in = great physical distress."
+  },
+  {
+    "prompt": "Recall the fixed pair with peaches. (CREAM)",
+    "answer": "peaches and cream in",
+    "category": "binomial",
+    "notes": "peaches and cream in = smooth perfect situation."
+  },
+  {
+    "prompt": "Recall the fixed pair with perform. (DISCHARGE)",
+    "answer": "perform and discharge in",
+    "category": "binomial",
+    "notes": "perform and discharge in = carry out duties formally."
+  },
+  {
+    "prompt": "Recall the fixed pair with power. (AUTHORITY)",
+    "answer": "power and authority in",
+    "category": "binomial",
+    "notes": "power and authority in = legal control right."
+  },
+  {
+    "prompt": "Recall the fixed pair with pump. (DUMP)",
+    "answer": "pump and dump in",
+    "category": "binomial",
+    "notes": "pump and dump in = inflate then sell fraud."
+  },
+  {
+    "prompt": "Recall the fixed pair with rest. (RELAXATION)",
+    "answer": "rest and relaxation in",
+    "category": "binomial",
+    "notes": "rest and relaxation in = holiday repose."
+  },
+  {
+    "prompt": "Recall the fixed pair with rocks. (SHOALS)",
+    "answer": "rocks and shoals in",
+    "category": "binomial",
+    "notes": "rocks and shoals in = hidden dangers difficulties."
+  },
+  {
+    "prompt": "Recall the fixed pair with rough. (TOUGH)",
+    "answer": "rough and tough in",
+    "category": "binomial",
+    "notes": "rough and tough in = strong resilient men."
+  },
+  {
+    "prompt": "Recall the fixed pair with rules. (REGULATIONS)",
+    "answer": "rules and regulations in",
+    "category": "binomial",
+    "notes": "rules and regulations in = official requirements."
+  },
+  {
+    "prompt": "Recall the fixed pair with run. (GUN)",
+    "answer": "run and gun in",
+    "category": "binomial",
+    "notes": "run and gun in = fast attacking play."
+  },
+  {
+    "prompt": "Recall the fixed pair with safe. (SECURE)",
+    "answer": "safe and secure in",
+    "category": "binomial",
+    "notes": "safe and secure in = fully protected."
+  },
+  {
+    "prompt": "Recall the fixed pair with search. (SEIZURE)",
+    "answer": "search and seizure in",
+    "category": "binomial",
+    "notes": "search and seizure in = police inspection confiscation."
+  },
+  {
+    "prompt": "Recall the fixed pair with shake. (BAKE)",
+    "answer": "shake and bake in",
+    "category": "binomial",
+    "notes": "shake and bake in = quick easy combination."
+  },
+  {
+    "prompt": "Recall the fixed pair with shock. (AWE)",
+    "answer": "shock and awe in",
+    "category": "binomial",
+    "notes": "shock and awe in = overwhelming military force."
+  },
+  {
+    "prompt": "Recall the fixed pair with short. (STOUT)",
+    "answer": "short and stout in",
+    "category": "binomial",
+    "notes": "short and stout in = small fat person."
+  },
+  {
+    "prompt": "Recall the fixed pair with shot. (SHELL)",
+    "answer": "shot and shell in",
+    "category": "binomial",
+    "notes": "shot and shell in = gunfire bombardment."
+  },
+  {
+    "prompt": "Recall the fixed pair with shower. (SHAVE)",
+    "answer": "shower and shave in",
+    "category": "binomial",
+    "notes": "shower and shave in = morning washing routine."
+  },
+  {
+    "prompt": "Recall the fixed pair with shuck. (JIVE)",
+    "answer": "shuck and jive in",
+    "category": "binomial",
+    "notes": "shuck and jive in = deceive with smooth talk."
+  },
+  {
+    "prompt": "Recall the fixed pair with signs. (SYMPTOMS)",
+    "answer": "signs and symptoms in",
+    "category": "binomial",
+    "notes": "signs and symptoms in = illness indications."
+  },
+  {
+    "prompt": "Recall the fixed pair with signs. (WONDERS)",
+    "answer": "signs and wonders in",
+    "category": "binomial",
+    "notes": "signs and wonders in = miracles."
+  },
+  {
+    "prompt": "Recall the fixed pair with skull. (CROSSBONES)",
+    "answer": "skull and crossbones in",
+    "category": "binomial",
+    "notes": "skull and crossbones in = pirate death symbol."
+  },
+  {
+    "prompt": "Recall the fixed pair with slip. (FALL)",
+    "answer": "slip and fall in",
+    "category": "binomial",
+    "notes": "slip and fall in = accidental tumble injury."
+  },
+  {
+    "prompt": "Recall the fixed pair with slip. (SLIDE)",
+    "answer": "slip and slide in",
+    "category": "binomial",
+    "notes": "slip and slide in = slippery playground slide."
+  },
+  {
+    "prompt": "Recall the fixed pair with slow. (STEADY)",
+    "answer": "slow and steady in",
+    "category": "binomial",
+    "notes": "slow and steady in = careful reliable progress."
+  },
+  {
+    "prompt": "Recall the fixed pair with snakes. (LADDERS)",
+    "answer": "snakes and ladders in",
+    "category": "binomial",
+    "notes": "snakes and ladders in = board game of ups and downs."
+  },
+  {
+    "prompt": "Recall the fixed pair with sound. (FURY)",
+    "answer": "sound and fury in",
+    "category": "binomial",
+    "notes": "sound and fury in = empty angry noise."
+  },
+  {
+    "prompt": "Recall the fixed pair with spit. (POLISH)",
+    "answer": "spit and polish in",
+    "category": "binomial",
+    "notes": "spit and polish in = smart clean appearance."
+  },
+  {
+    "prompt": "Recall the fixed pair with stash. (DASH)",
+    "answer": "stash and dash in",
+    "category": "binomial",
+    "notes": "stash and dash in = hide then leave quickly."
+  },
+  {
+    "prompt": "Recall the fixed pair with straight. (NARROW)",
+    "answer": "straight and narrow in",
+    "category": "binomial",
+    "notes": "straight and narrow in = honest moral life."
+  },
+  {
+    "prompt": "Recall the fixed pair with stress. (STRAIN)",
+    "answer": "stress and strain in",
+    "category": "binomial",
+    "notes": "stress and strain in = pressure tension."
+  },
+  {
+    "prompt": "Recall the fixed pair with sugar. (SPICE)",
+    "answer": "sugar and spice in",
+    "category": "binomial",
+    "notes": "sugar and spice in = sweet girlish charm."
+  },
+  {
+    "prompt": "Recall the fixed pair with suit. (TIE)",
+    "answer": "suit and tie in",
+    "category": "binomial",
+    "notes": "suit and tie in = formal business dress."
+  },
+  {
+    "prompt": "Recall the fixed pair with supply. (DEMAND)",
+    "answer": "supply and demand in",
+    "category": "binomial",
+    "notes": "supply and demand in = market balance."
+  },
+  {
+    "prompt": "Recall the fixed pair with swings. (ROUNDABOUTS)",
+    "answer": "swings and roundabouts in",
+    "category": "binomial",
+    "notes": "swings and roundabouts in = gains balance losses."
+  },
+  {
+    "prompt": "Recall the fixed pair with sword. (SANDAL)",
+    "answer": "sword and sandal in",
+    "category": "binomial",
+    "notes": "sword and sandal in = ancient epic films."
+  },
+  {
+    "prompt": "Recall the fixed pair with terms. (CONDITIONS)",
+    "answer": "terms and conditions in",
+    "category": "binomial",
+    "notes": "terms and conditions in = contract rules."
+  },
+  {
+    "prompt": "Recall the fixed pair with time. (TIDE)",
+    "answer": "time and tide in",
+    "category": "binomial",
+    "notes": "time and tide in = unstoppable passing time."
+  },
+  {
+    "prompt": "Recall the fixed pair with top. (TAIL)",
+    "answer": "top and tail in",
+    "category": "binomial",
+    "notes": "top and tail in = trim both ends."
+  },
+  {
+    "prompt": "Recall the fixed pair with track. (FIELD)",
+    "answer": "track and field in",
+    "category": "binomial",
+    "notes": "track and field in = running athletics sports."
+  },
+  {
+    "prompt": "Recall the fixed pair with tried. (TESTED)",
+    "answer": "tried and tested in",
+    "category": "binomial",
+    "notes": "tried and tested in = proven reliable."
+  },
+  {
+    "prompt": "Recall the fixed pair with tried. (TRUE)",
+    "answer": "tried and true in",
+    "category": "binomial",
+    "notes": "tried and true in = loyal proven."
+  },
+  {
+    "prompt": "Recall the fixed pair with truck. (TRAILER)",
+    "answer": "truck and trailer in",
+    "category": "binomial",
+    "notes": "truck and trailer in = lorry with trailer."
+  },
+  {
+    "prompt": "Recall the fixed pair with true. (CORRECT)",
+    "answer": "true and correct in",
+    "category": "binomial",
+    "notes": "true and correct in = fully accurate."
+  },
+  {
+    "prompt": "Recall the fixed pair with warm. (FUZZY)",
+    "answer": "warm and fuzzy in",
+    "category": "binomial",
+    "notes": "warm and fuzzy in = cozy affectionate feeling."
+  },
+  {
+    "prompt": "Recall the fixed pair with warp. (WEFT)",
+    "answer": "warp and weft in",
+    "category": "binomial",
+    "notes": "warp and weft in = weaving threads structure."
+  },
+  {
+    "prompt": "Recall the fixed pair with wash. (WEAR)",
+    "answer": "wash and wear in",
+    "category": "binomial",
+    "notes": "wash and wear in = easy-care clothes."
+  },
+  {
+    "prompt": "Recall the fixed pair with watch. (WARD)",
+    "answer": "watch and ward in",
+    "category": "binomial",
+    "notes": "watch and ward in = guard duty."
+  },
+  {
+    "prompt": "Recall the fixed pair with wax. (WANE)",
+    "answer": "wax and wane in",
+    "category": "binomial",
+    "notes": "wax and wane in = grow then shrink."
+  },
+  {
+    "prompt": "Recall the fixed pair with ways. (MEANS)",
+    "answer": "ways and means in",
+    "category": "binomial",
+    "notes": "ways and means in = methods resources."
+  },
+  {
+    "prompt": "Recall the fixed pair with weed. (FEED)",
+    "answer": "weed and feed in",
+    "category": "binomial",
+    "notes": "weed and feed in = lawn treatment product."
+  },
+  {
+    "prompt": "Recall the fixed pair with weep. (WAIL)",
+    "answer": "weep and wail in",
+    "category": "binomial",
+    "notes": "weep and wail in = loud crying grief."
+  },
+  {
+    "prompt": "Recall the fixed pair with wet. (WILD)",
+    "answer": "wet and wild in",
+    "category": "binomial",
+    "notes": "wet and wild in = exciting water fun."
+  },
+  {
+    "prompt": "Recall the fixed pair with wheeling. (DEALING)",
+    "answer": "wheeling and dealing in",
+    "category": "binomial",
+    "notes": "wheeling and dealing in = clever business bargaining."
+  },
+  {
+    "prompt": "Recall the fixed pair with wild. (WOOLLY)",
+    "answer": "wild and woolly in",
+    "category": "binomial",
+    "notes": "wild and woolly in = rough uncivilized."
+  },
+  {
+    "prompt": "Recall the fixed pair with will. (TESTAMENT)",
+    "answer": "will and testament in",
+    "category": "binomial",
+    "notes": "will and testament in = legal inheritance document."
+  },
+  {
+    "prompt": "Recall the fixed pair with witches. (WARLOCKS)",
+    "answer": "witches and warlocks in",
+    "category": "binomial",
+    "notes": "witches and warlocks in = magical people."
+  },
+  {
+    "prompt": "Recall the fixed pair with words. (PHRASES)",
+    "answer": "words and phrases in",
+    "category": "binomial",
+    "notes": "words and phrases in = vocabulary expressions."
+  },
+  {
+    "prompt": "They must cease and stop. (DESIST)",
+    "answer": "cease and desist",
+    "category": "binomial",
+    "notes": "cease and desist = stop illegal action immediately."
+  },
+  {
+    "prompt": "They paced to in the hall. (FRO)",
+    "answer": "to and fro in",
+    "category": "binomial",
+    "notes": "to and fro in = back and forth movement."
+  },
+  {
+    "prompt": "They paid in dribs for months. (DRABS)",
+    "answer": "dribs and drabs for",
+    "category": "binomial",
+    "notes": "dribs and drabs for = tiny scattered amounts."
+  },
+  {
+    "prompt": "They paid over for the work. (ABOVE)",
+    "answer": "over and above for",
+    "category": "binomial",
+    "notes": "over and above for = extra beyond normal."
+  },
+  {
+    "prompt": "They ran neck and close. (NECK)",
+    "answer": "neck and neck",
+    "category": "binomial",
+    "notes": "neck and neck = exactly level in race."
+  },
+  {
+    "prompt": "They rebuilt bit by piece. (BIT)",
+    "answer": "bit by bit",
+    "category": "binomial",
+    "notes": "bit by bit = gradually in small steps."
+  },
+  {
+    "prompt": "They recalled days of wine with nostalgia. (ROSES)",
+    "answer": "wine and roses with",
+    "category": "binomial",
+    "notes": "wine and roses with = easy pleasant life."
+  },
+  {
+    "prompt": "They survived the storm unhurt. (sound)",
+    "answer": "safe and sound after",
+    "category": "binomial",
+    "notes": "safe and sound after = unharmed completely."
+  },
+  {
+    "prompt": "They repented in sackcloth for their sins. (ASHES)",
+    "answer": "sackcloth and ashes for",
+    "category": "binomial",
+    "notes": "sackcloth and ashes for = public repentance mourning."
+  },
+  {
+    "prompt": "They roamed hither for shelter. (YON)",
+    "answer": "hither and yon for",
+    "category": "binomial",
+    "notes": "hither and yon for = here and there."
+  },
+  {
+    "prompt": "They rose bright for the march. (EARLY)",
+    "answer": "bright and early for",
+    "category": "binomial",
+    "notes": "bright and early for = very early morning."
+  },
+  {
+    "prompt": "They salvaged odds from the site. (SODS)",
+    "answer": "odds and sods from",
+    "category": "binomial",
+    "notes": "odds and sods from = miscellaneous leftover people."
+  },
+  {
+    "prompt": "They searched every nook for the keys. (CRANNY)",
+    "answer": "nook and cranny for",
+    "category": "binomial",
+    "notes": "nook and cranny for = every hidden corner."
+  },
+  {
+    "prompt": "They searched thoroughly and systematically. (HIGH)",
+    "answer": "high and low",
+    "category": "binomial",
+    "notes": "high and low = everywhere thoroughly."
+  },
+  {
+    "prompt": "They stayed together through thick and hardship. (THIN)",
+    "answer": "thick and thin",
+    "category": "binomial",
+    "notes": "thick and thin = through good and bad times."
+  },
+  {
+    "prompt": "They believed the story completely. (sinker)",
+    "answer": "line and sinker",
+    "category": "binomial",
+    "notes": "line and sinker = completely tricked belief."
+  },
+  {
+    "prompt": "They waited for time on the shore. (TIDE)",
+    "answer": "time and tide on",
+    "category": "binomial",
+    "notes": "time and tide on = unstoppable time."
+  },
+  {
+    "prompt": "They wandered hither through the hills. (THITHER)",
+    "answer": "hither and thither through",
+    "category": "binomial",
+    "notes": "hither and thither through = in many directions."
+  },
+  {
+    "prompt": "They went at it hammer through the night. (TONGS)",
+    "answer": "hammer and tongs through",
+    "category": "binomial",
+    "notes": "hammer and tongs through = with great energy force."
+  },
+  {
+    "prompt": "They split the bill equally. (halves)",
+    "answer": "went halves on",
+    "category": "binomial",
+    "notes": "went halves on = shared cost equally."
+  },
+  {
+    "prompt": "They wined and treated clients. (DINE)",
+    "answer": "wined and dined",
+    "category": "binomial",
+    "notes": "wined and dined = entertained lavishly with food."
+  },
+  {
+    "prompt": "They won by hook in the end. (CROOK)",
+    "answer": "hook or crook in",
+    "category": "binomial",
+    "notes": "hook or crook in = by any means necessary."
+  },
+  {
+    "prompt": "They worked together on the task. (side)",
+    "answer": "by side",
+    "category": "binomial",
+    "notes": "by side = next to each other."
+  },
+  {
+    "prompt": "They would move heaven for the child. (EARTH)",
+    "answer": "heaven and earth for",
+    "category": "binomial",
+    "notes": "heaven and earth for = everything possible."
+  },
+  {
+    "prompt": "Thieves did a smash and robbery. (GRAB)",
+    "answer": "smash and grab",
+    "category": "binomial",
+    "notes": "smash and grab = quick shop robbery."
+  },
+  {
+    "prompt": "This exam is make or fail. (BREAK)",
+    "answer": "make or break",
+    "category": "binomial",
+    "notes": "make or break = decisive critical moment."
+  },
+  {
+    "prompt": "Trading is rough and competitive. (TUMBLE)",
+    "answer": "rough and tumble",
+    "category": "binomial",
+    "notes": "rough and tumble = violent disorderly struggle."
+  },
+  {
+    "prompt": "Voters demand law and justice. (ORDER)",
+    "answer": "law and order",
+    "category": "binomial",
+    "notes": "law and order = peaceful rule system."
+  },
+  {
+    "prompt": "We fought tooth and hard. (NAIL)",
+    "answer": "tooth and nail",
+    "category": "binomial",
+    "notes": "tooth and nail = fiercely with full effort."
+  },
+  {
+    "prompt": "We hike rain or snow. (SHINE)",
+    "answer": "rain or shine",
+    "category": "binomial",
+    "notes": "rain or shine = whatever weather happens."
+  },
+  {
+    "prompt": "We learned by trial and practice. (ERROR)",
+    "answer": "trial and error",
+    "category": "binomial",
+    "notes": "trial and error = testing methods until success."
+  },
+  {
+    "prompt": "We left bright and at dawn. (EARLY)",
+    "answer": "bright and early at",
+    "category": "binomial",
+    "notes": "bright and early at = very early morning."
+  },
+  {
+    "prompt": "We must live and let others. (LET)",
+    "answer": "live and let",
+    "category": "binomial",
+    "notes": "live and let = tolerate others freely."
+  },
+  {
+    "prompt": "We vowed we can for the cause. (WILL)",
+    "answer": "can and will for",
+    "category": "binomial",
+    "notes": "can and will for = determination to act."
+  },
+  {
+    "prompt": "We watched and hoped. (WAIT)",
+    "answer": "watched and waited",
+    "category": "binomial",
+    "notes": "watched and waited = observed patiently."
+  },
+  {
+    "prompt": "We will finish come hell or flood. (WATER)",
+    "answer": "high water",
+    "category": "binomial",
+    "notes": "high water = highest flood level."
+  },
+  {
+    "prompt": "Wealthy elites often behave arrogantly. (MIGHTY)",
+    "answer": "high and mighty",
+    "category": "binomial",
+    "notes": "high and mighty = arrogantly superior."
+  },
+  {
+    "prompt": "You cannot pick and take. (CHOOSE)",
+    "answer": "pick and choose",
+    "category": "binomial",
+    "notes": "pick and choose = select carefully."
+  },
+  {
+    "prompt": "You must grin and endure it. (BEAR)",
+    "answer": "bear it",
+    "category": "binomial",
+    "notes": "bear it = endure suffering bravely."
+  },
+  {
+    "prompt": "A ____ friends visited me yesterday.",
+    "answer": "few friends visited",
+    "category": "blank_fill",
+    "notes": "few friends visited = a small number came."
+  },
+  {
+    "prompt": "A strange car turned up outside our house last night.",
+    "answer": "turned up outside",
+    "category": "blank_fill",
+    "notes": "turned up outside = appeared unexpectedly."
+  },
+  {
+    "prompt": "All citizens must comply ____ traffic regulations.",
+    "answer": "comply with traffic",
+    "category": "blank_fill",
+    "notes": "comply with traffic = obey rules."
+  },
+  {
+    "prompt": "All of ____ were invited.",
+    "answer": "of them were",
+    "category": "blank_fill",
+    "notes": "of them were = those people were invited."
+  },
+  {
+    "prompt": "____ students must attend.",
+    "answer": "All students must",
+    "category": "blank_fill",
+    "notes": "All students must = every student must attend."
+  },
+  {
+    "prompt": "___ gifted in mathematics, he struggles with time management.",
+    "answer": "although gifted in",
+    "category": "blank_fill",
+    "notes": "although gifted in = despite talent in maths."
+  },
+  {
+    "prompt": "___ having practised for months, she still felt nervous.",
+    "answer": "although having practised",
+    "category": "blank_fill",
+    "notes": "although having practised = despite long practice."
+  },
+  {
+    "prompt": "___ he is shy, he gave an excellent presentation.",
+    "answer": "although he is",
+    "category": "blank_fill",
+    "notes": "although he is = despite shyness."
+  },
+  {
+    "prompt": "___ it was raining heavily, the match continued.",
+    "answer": "although it was",
+    "category": "blank_fill",
+    "notes": "although it was = despite heavy rain."
+  },
+  {
+    "prompt": "___ much criticised, the policy was never withdrawn.",
+    "answer": "although much criticised,",
+    "category": "blank_fill",
+    "notes": "although much criticised, = despite strong criticism."
+  },
+  {
+    "prompt": "___ the road was flooded, the rescue team carried on.",
+    "answer": "although the road",
+    "category": "blank_fill",
+    "notes": "although the road = despite flooded road."
+  },
+  {
+    "prompt": "____ child could answer that.",
+    "answer": "Any child could",
+    "category": "blank_fill",
+    "notes": "Any child could = every child could answer."
+  },
+  {
+    "prompt": "____ can solve this puzzle.",
+    "answer": "Anyone can solve",
+    "category": "blank_fill",
+    "notes": "Anyone can solve = anybody can solve it."
+  },
+  {
+    "prompt": "Applicants must fill out the questionnaire in black ink.",
+    "answer": "fill out out",
+    "category": "blank_fill",
+    "notes": "fill out out = complete a form fully."
+  },
+  {
+    "prompt": "___ prices keep rising, demand will eventually fall.",
+    "answer": "as long as",
+    "category": "blank_fill",
+    "notes": "as long as = on condition that prices rise."
+  },
+  {
+    "prompt": "Between you and ____, he is wrong.",
+    "answer": "you and me",
+    "category": "blank_fill",
+    "notes": "you and me = object pronoun after between."
+  },
+  {
+    "prompt": "____ answers are correct.",
+    "answer": "Both answers are",
+    "category": "blank_fill",
+    "notes": "Both answers are = two answers are correct."
+  },
+  {
+    "prompt": "Childish ___ his excuse sounds, it is actually true.",
+    "answer": "although his excuse",
+    "category": "blank_fill",
+    "notes": "although his excuse = despite childish excuse."
+  },
+  {
+    "prompt": "Clever ___ he is, he often makes careless mistakes.",
+    "answer": "though he is,",
+    "category": "blank_fill",
+    "notes": "though he is, = despite cleverness."
+  },
+  {
+    "prompt": "Could I have a ____ sugar, please?",
+    "answer": "a little sugar,",
+    "category": "blank_fill",
+    "notes": "a little sugar, = small amount of sugar."
+  },
+  {
+    "prompt": "Could you fill me in on what happened at the meeting?",
+    "answer": "fill in me",
+    "category": "blank_fill",
+    "notes": "fill in me = inform me fully."
+  },
+  {
+    "prompt": "____ you open the window, please?",
+    "answer": "Could you open",
+    "category": "blank_fill",
+    "notes": "Could you open = polite request to open."
+  },
+  {
+    "prompt": "___ all objections, the plan was approved.",
+    "answer": "despite all objections,",
+    "category": "blank_fill",
+    "notes": "despite all objections, = ignoring all opposition."
+  },
+  {
+    "prompt": "___ being exhausted, she finished the report on time.",
+    "answer": "despite being exhausted,",
+    "category": "blank_fill",
+    "notes": "despite being exhausted, = though very tired."
+  },
+  {
+    "prompt": "___ feeling unwell, the singer performed brilliantly.",
+    "answer": "despite feeling unwell,",
+    "category": "blank_fill",
+    "notes": "despite feeling unwell, = though sick."
+  },
+  {
+    "prompt": "___ having studied hard, he failed the entrance exam.",
+    "answer": "despite having studied",
+    "category": "blank_fill",
+    "notes": "despite having studied = though studied hard."
+  },
+  {
+    "prompt": "___ the fact that prices rose, demand remained high.",
+    "answer": "despite the fact",
+    "category": "blank_fill",
+    "notes": "despite the fact = although prices rose."
+  },
+  {
+    "prompt": "___ the heavy rain, the match continued.",
+    "answer": "despite the heavy",
+    "category": "blank_fill",
+    "notes": "despite the heavy = during heavy rain."
+  },
+  {
+    "prompt": "___ the noise, the baby slept soundly.",
+    "answer": "despite the noise,",
+    "category": "blank_fill",
+    "notes": "despite the noise, = ignoring loud noise."
+  },
+  {
+    "prompt": "___ what he promised, nothing has changed.",
+    "answer": "despite what he",
+    "category": "blank_fill",
+    "notes": "despite what he = contrary to promises."
+  },
+  {
+    "prompt": "Detectives are looking into the cause of the fire.",
+    "answer": "looking into the",
+    "category": "blank_fill",
+    "notes": "looking into the = investigating fire cause."
+  },
+  {
+    "prompt": "____ they visit the museum yesterday?",
+    "answer": "Did they visit",
+    "category": "blank_fill",
+    "notes": "Did they visit = past question about visit."
+  },
+  {
+    "prompt": "Dinner is ____ cooked at the moment.",
+    "answer": "is being cooked",
+    "category": "blank_fill",
+    "notes": "is being cooked = passive cooking now."
+  },
+  {
+    "prompt": "Do you have ____ questions?",
+    "answer": "you have any",
+    "category": "blank_fill",
+    "notes": "you have any = any questions at all."
+  },
+  {
+    "prompt": "____ you speak French?",
+    "answer": "Do you speak",
+    "category": "blank_fill",
+    "notes": "Do you speak = ask about French ability."
+  },
+  {
+    "prompt": "Dogs are loyal, ___ cats are independent.",
+    "answer": "loyal, whereas cats",
+    "category": "blank_fill",
+    "notes": "loyal, whereas cats = contrast with cats."
+  },
+  {
+    "prompt": "____ child received a gift.",
+    "answer": "Each child received",
+    "category": "blank_fill",
+    "notes": "Each child received = every child got gift."
+  },
+  {
+    "prompt": "Each member is responsible ____ keeping the classroom clean.",
+    "answer": "responsible for keeping",
+    "category": "blank_fill",
+    "notes": "responsible for keeping = duty to keep clean."
+  },
+  {
+    "prompt": "____ of the boys has a ticket.",
+    "answer": "Each of the",
+    "category": "blank_fill",
+    "notes": "Each of the = each boy has ticket."
+  },
+  {
+    "prompt": "____ of them will help you.",
+    "answer": "Either of them",
+    "category": "blank_fill",
+    "notes": "Either of them = one of two people."
+  },
+  {
+    "prompt": "____ road leads to the station.",
+    "answer": "Either road leads",
+    "category": "blank_fill",
+    "notes": "Either road leads = one of two roads."
+  },
+  {
+    "prompt": "Electric trams are being phased in across the city.",
+    "answer": "phased in across",
+    "category": "blank_fill",
+    "notes": "phased in across = introduced gradually citywide."
+  },
+  {
+    "prompt": "English spelling is tricky, ___ pronunciation is even trickier.",
+    "answer": "tricky, whereas pronunciation",
+    "category": "blank_fill",
+    "notes": "tricky, whereas pronunciation = contrast with pronunciation."
+  },
+  {
+    "prompt": "____ food was prepared for guests.",
+    "answer": "Enough food was",
+    "category": "blank_fill",
+    "notes": "Enough food was = sufficient food was prepared."
+  },
+  {
+    "prompt": "Enthusiasm for the scheme soon ran out.",
+    "answer": "soon ran out",
+    "category": "blank_fill",
+    "notes": "soon ran out = quickly finished."
+  },
+  {
+    "prompt": "___ it rains, we will still go hiking.",
+    "answer": "even if",
+    "category": "blank_fill",
+    "notes": "even if = regardless whether it rains."
+  },
+  {
+    "prompt": "___ warned beforehand, few would have listened.",
+    "answer": "even if",
+    "category": "blank_fill",
+    "notes": "even if = even with prior warning."
+  },
+  {
+    "prompt": "___ exhausted, the doctor treated ten more patients.",
+    "answer": "even though",
+    "category": "blank_fill",
+    "notes": "even though = despite exhaustion."
+  },
+  {
+    "prompt": "___ he earns little, he donates to charity regularly.",
+    "answer": "even though",
+    "category": "blank_fill",
+    "notes": "even though = despite low income."
+  },
+  {
+    "prompt": "___ he had studied hard, he failed the entrance exam.",
+    "answer": "even though",
+    "category": "blank_fill",
+    "notes": "even though = despite hard study."
+  },
+  {
+    "prompt": "___ she is only twelve, she reads novels in English.",
+    "answer": "even though",
+    "category": "blank_fill",
+    "notes": "even though = despite young age."
+  },
+  {
+    "prompt": "___ warned repeatedly, he kept driving without a licence.",
+    "answer": "even though",
+    "category": "blank_fill",
+    "notes": "even though = despite repeated warnings."
+  },
+  {
+    "prompt": "___ wealthy, the family lived frugally.",
+    "answer": "even though",
+    "category": "blank_fill",
+    "notes": "even though = despite wealth."
+  },
+  {
+    "prompt": "____ house on the street looks the same.",
+    "answer": "Every house on",
+    "category": "blank_fill",
+    "notes": "Every house on = each house looks same."
+  },
+  {
+    "prompt": "Every student is encouraged to participate ____ extracurricular activities.",
+    "answer": "participate in extracurricular",
+    "category": "blank_fill",
+    "notes": "participate in extracurricular = join outside activities."
+  },
+  {
+    "prompt": "____ knows the answer.",
+    "answer": "Everybody knows the",
+    "category": "blank_fill",
+    "notes": "Everybody knows the = all people know answer."
+  },
+  {
+    "prompt": "Expenses soon ran away with the entire budget.",
+    "answer": "away with",
+    "category": "blank_fill",
+    "notes": "away with = consumed whole budget."
+  },
+  {
+    "prompt": "____ people knew the truth.",
+    "answer": "Few people knew",
+    "category": "blank_fill",
+    "notes": "Few people knew = almost nobody knew truth."
+  },
+  {
+    "prompt": "Give ____ to me, please.",
+    "answer": "it to me,",
+    "category": "blank_fill",
+    "notes": "it to me, = give it to me."
+  },
+  {
+    "prompt": "Goods are sold here ____ fixed prices with no bargaining.",
+    "answer": "here at fixed",
+    "category": "blank_fill",
+    "notes": "here at fixed = sold for set prices."
+  },
+  {
+    "prompt": "Ha Long Bay is famous ____ its limestone islands and caves.",
+    "answer": "famous for its",
+    "category": "blank_fill",
+    "notes": "famous for its = known for islands."
+  },
+  {
+    "prompt": "____ the class was absent.",
+    "answer": "Half the class",
+    "category": "blank_fill",
+    "notes": "Half the class = fifty percent absent."
+  },
+  {
+    "prompt": "Hard-working ___ she is, she lacks confidence in exams.",
+    "answer": "though she is,",
+    "category": "blank_fill",
+    "notes": "though she is, = despite hard work."
+  },
+  {
+    "prompt": "Hardly ____ we started when it rained.",
+    "answer": "had we started",
+    "category": "blank_fill",
+    "notes": "had we started = we had just started."
+  },
+  {
+    "prompt": "He accepted the job, ___ with some hesitation.",
+    "answer": "job, albeit with",
+    "category": "blank_fill",
+    "notes": "job, albeit with = though with hesitation."
+  },
+  {
+    "prompt": "He acted ____ accordance with the committee's decision.",
+    "answer": "acted in accordance",
+    "category": "blank_fill",
+    "notes": "acted in accordance = followed committee decision."
+  },
+  {
+    "prompt": "He argued heatedly ____ his brother over the inheritance.",
+    "answer": "heatedly with his",
+    "category": "blank_fill",
+    "notes": "heatedly with his = quarrelled angrily with brother."
+  },
+  {
+    "prompt": "He became addicted ____ playing online games late at night.",
+    "answer": "addicted to playing",
+    "category": "blank_fill",
+    "notes": "addicted to playing = hooked on games."
+  },
+  {
+    "prompt": "He called up his mother to wish her happy birthday.",
+    "answer": "called up his",
+    "category": "blank_fill",
+    "notes": "called up his = telephoned his mother."
+  },
+  {
+    "prompt": "He ____ solve the puzzle easily.",
+    "answer": "can solve the",
+    "category": "blank_fill",
+    "notes": "can solve the = able to solve easily."
+  },
+  {
+    "prompt": "He can stay ___ he keeps quiet.",
+    "answer": "as long as",
+    "category": "blank_fill",
+    "notes": "as long as = on condition of quiet."
+  },
+  {
+    "prompt": "He can swim, ____ he?",
+    "answer": "can swim, can't",
+    "category": "blank_fill",
+    "notes": "can swim, can't = tag question with can."
+  },
+  {
+    "prompt": "He claims to be busy, ___ in fact he does very little.",
+    "answer": "busy, while in",
+    "category": "blank_fill",
+    "notes": "busy, while in = whereas actually idle."
+  },
+  {
+    "prompt": "He ____ not mention it again.",
+    "answer": "dare not mention",
+    "category": "blank_fill",
+    "notes": "dare not mention = does not dare mention."
+  },
+  {
+    "prompt": "He ____ not eat meat.",
+    "answer": "does not eat",
+    "category": "blank_fill",
+    "notes": "does not eat = refuses meat."
+  },
+  {
+    "prompt": "He failed to put across his ideas clearly in the debate.",
+    "answer": "put across his",
+    "category": "blank_fill",
+    "notes": "put across his = communicated ideas clearly."
+  },
+  {
+    "prompt": "He failed twice; ___, he refused to give up.",
+    "answer": "failed twice; nevertheless",
+    "category": "blank_fill",
+    "notes": "failed twice; nevertheless = despite failure persisted."
+  },
+  {
+    "prompt": "He fell behind with his rent after losing his job.",
+    "answer": "fell behind with",
+    "category": "blank_fill",
+    "notes": "fell behind with = failed to pay rent."
+  },
+  {
+    "prompt": "He fell out with his best friend over money.",
+    "answer": "fell out with",
+    "category": "blank_fill",
+    "notes": "fell out with = quarrelled with friend."
+  },
+  {
+    "prompt": "He filled out the registration form without a single error.",
+    "answer": "filled out the",
+    "category": "blank_fill",
+    "notes": "filled out the = completed form perfectly."
+  },
+  {
+    "prompt": "He finished the test just ____ time to review his answers.",
+    "answer": "just in time",
+    "category": "blank_fill",
+    "notes": "just in time = before deadline with spare time."
+  },
+  {
+    "prompt": "He got ahead by working late every evening.",
+    "answer": "got ahead by",
+    "category": "blank_fill",
+    "notes": "got ahead by = progressed through late work."
+  },
+  {
+    "prompt": "He got into trouble for forging his father's signature.",
+    "answer": "got into trouble",
+    "category": "blank_fill",
+    "notes": "got into trouble = entered difficulty for forgery."
+  },
+  {
+    "prompt": "He got through the examination despite his illness.",
+    "answer": "got through the",
+    "category": "blank_fill",
+    "notes": "got through the = passed exam despite illness."
+  },
+  {
+    "prompt": "He had difficulty ____ expressing his ideas in English.",
+    "answer": "difficulty in expressing",
+    "category": "blank_fill",
+    "notes": "difficulty in expressing = trouble expressing ideas."
+  },
+  {
+    "prompt": "He had little money; ___, he donated generously.",
+    "answer": "little money; still",
+    "category": "blank_fill",
+    "notes": "little money; still = despite poverty donated."
+  },
+  {
+    "prompt": "He has been working here ____ last September.",
+    "answer": "here since last",
+    "category": "blank_fill",
+    "notes": "here since last = from September until now."
+  },
+  {
+    "prompt": "He has ____ working since morning.",
+    "answer": "has been working",
+    "category": "blank_fill",
+    "notes": "has been working = continuous work since morning."
+  },
+  {
+    "prompt": "He has fully recovered ____ the injuries sustained in the crash.",
+    "answer": "recovered from the",
+    "category": "blank_fill",
+    "notes": "recovered from the = healed after crash injuries."
+  },
+  {
+    "prompt": "He helps everyone, ___ their background.",
+    "answer": "regardless of",
+    "category": "blank_fill",
+    "notes": "regardless of = irrespective of background."
+  },
+  {
+    "prompt": "He ____ admitted the mistake.",
+    "answer": "himself admitted the",
+    "category": "blank_fill",
+    "notes": "himself admitted the = personally confessed mistake."
+  },
+  {
+    "prompt": "He is afraid ____ speaking in public.",
+    "answer": "afraid of speaking",
+    "category": "blank_fill",
+    "notes": "afraid of speaking = fears public speaking."
+  },
+  {
+    "prompt": "He is notorious ____ writing controversial articles.",
+    "answer": "notorious for writing",
+    "category": "blank_fill",
+    "notes": "notorious for writing = known for controversial writing."
+  },
+  {
+    "prompt": "He is ____ I can trust.",
+    "answer": "is someone I",
+    "category": "blank_fill",
+    "notes": "is someone I = person I trust."
+  },
+  {
+    "prompt": "He is very good ____ memorising long passages.",
+    "answer": "good at memorising",
+    "category": "blank_fill",
+    "notes": "good at memorising = skilled at remembering passages."
+  },
+  {
+    "prompt": "He is young, ___ he writes with great maturity.",
+    "answer": "young, yet he",
+    "category": "blank_fill",
+    "notes": "young, yet he = despite youth writes maturely."
+  },
+  {
+    "prompt": "He jumped ____ the pool to rescue the drowning boy.",
+    "answer": "jumped into the",
+    "category": "blank_fill",
+    "notes": "jumped into the = leapt into pool."
+  },
+  {
+    "prompt": "He objected strongly ____ extending the school day.",
+    "answer": "strongly to extending",
+    "category": "blank_fill",
+    "notes": "strongly to extending = opposed lengthening school day."
+  },
+  {
+    "prompt": "He ____ to apologise for his behaviour.",
+    "answer": "ought to apologise",
+    "category": "blank_fill",
+    "notes": "ought to apologise = should apologise."
+  },
+  {
+    "prompt": "He owned up to breaking the window.",
+    "answer": "up to",
+    "category": "blank_fill",
+    "notes": "up to = confessed to breakage."
+  },
+  {
+    "prompt": "He passed the test ___ missing half the lessons.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite missing lessons."
+  },
+  {
+    "prompt": "He plays ____ piano very well.",
+    "answer": "plays the piano",
+    "category": "blank_fill",
+    "notes": "plays the piano = performs piano skilfully."
+  },
+  {
+    "prompt": "He prides himself ____ his ability to speak three languages.",
+    "answer": "himself on his",
+    "category": "blank_fill",
+    "notes": "himself on his = takes pride in ability."
+  },
+  {
+    "prompt": "He promised to help, ___ he knew it would cost him dearly.",
+    "answer": "help, though he",
+    "category": "blank_fill",
+    "notes": "help, though he = although costly help promised."
+  },
+  {
+    "prompt": "He showed great affection ____ stray animals in the neighbourhood.",
+    "answer": "affection for stray",
+    "category": "blank_fill",
+    "notes": "affection for stray = love for homeless animals."
+  },
+  {
+    "prompt": "He spent frugally, ___ his wife spent lavishly.",
+    "answer": "frugally, whereas his",
+    "category": "blank_fill",
+    "notes": "frugally, whereas his = contrast wife spent lavishly."
+  }
+]

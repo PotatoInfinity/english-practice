@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "The committee will decide between two bids. (ADJUDICATE)",
+  "answer": "adjudicate on",
+  "category": "prep_idiom",
+  "notes": "adjudicate on = judge between competing claims."
+ },
+ {
+  "prompt": "The company is about to face bankruptcy. (brink)",
+  "answer": "on the brink of",
+  "category": "prep_idiom",
+  "notes": "on the brink of = very close to collapse."
+ },
+ {
+  "prompt": "The conference was held with the sponsorship of the Academy. (auspices)",
+  "answer": "under the auspices of",
+  "category": "prep_idiom",
+  "notes": "under the auspices of = with official support from."
+ },
+ {
+  "prompt": "The construction was halted amid corruption allegations. (MIDST)",
+  "answer": "the midst of",
+  "category": "prep_idiom",
+  "notes": "the midst of = in the middle of something."
+ },
+ {
+  "prompt": "The contractor violated the safety protocol. (BREACH)",
+  "answer": "breach of",
+  "category": "prep_idiom",
+  "notes": "breach of = violating an agreement."
+ },
+ {
+  "prompt": "The convoy proceeded regardless of the sandstorm. (FACE)",
+  "answer": "the face of",
+  "category": "prep_idiom",
+  "notes": "the face of = despite danger or opposition."
+ },
+ {
+  "prompt": "The corrupt official evaded prosecution for over a decade. (get)",
+  "answer": "got away with",
+  "category": "prep_idiom",
+  "notes": "got away with = escaped punishment for wrongdoing."
+ },
+ {
+  "prompt": "The council endorsed the mayoral initiative unanimously. (go)",
+  "answer": "went along with",
+  "category": "prep_idiom",
+  "notes": "went along with = agreed to support proposal."
+ },
+ {
+  "prompt": "The counsellor deterred her from abandoning the course. (talk)",
+  "answer": "talked her out of",
+  "category": "prep_idiom",
+  "notes": "talked her out of = persuaded her against leaving."
+ },
+ {
+  "prompt": "The couple preserved appearances to protect the children. (sake)",
+  "answer": "for the sake of",
+  "category": "prep_idiom",
+  "notes": "for the sake of = for the benefit of someone."
+ },
+ {
+  "prompt": "The court ruled supporting the defendant. (favour)",
+  "answer": "in favour of",
+  "category": "prep_idiom",
+  "notes": "in favour of = supporting one side officially."
+ },
+ {
+  "prompt": "The court ruled supporting the plaintiff. (favour)",
+  "answer": "in favour of",
+  "category": "prep_idiom",
+  "notes": "in favour of = supporting one side officially."
+ },
+ {
+  "prompt": "The crash caused damage. (in)",
+  "answer": "crash resulted in",
+  "category": "prep_idiom",
+  "notes": "crash resulted in = caused damage as consequence."
+ },
+ {
+  "prompt": "The curriculum is admirable except concerning assessment. (regards)",
+  "answer": "as regards",
+  "category": "prep_idiom",
+  "notes": "as regards = concerning a particular topic."
+ },
+ {
+  "prompt": "The dam harmed downstream fisheries. (DETRIMENT)",
+  "answer": "the detriment of",
+  "category": "prep_idiom",
+  "notes": "the detriment of = causing harm to something."
+ },
+ {
+  "prompt": "The deal was signed with no delay. (HESITATION)",
+  "answer": "without hesitation at",
+  "category": "prep_idiom",
+  "notes": "without hesitation at = immediately without delaying."
+ },
+ {
+  "prompt": "The decision rests on the chairman. (rest)",
+  "answer": "rests on",
+  "category": "prep_idiom",
+  "notes": "rests on = depends on someone."
+ },
+ {
+  "prompt": "The defence insisted upon full disclosure. (INSIST)",
+  "answer": "insisted on",
+  "category": "prep_idiom",
+  "notes": "insisted on = demanded firmly without yielding."
+ },
+ {
+  "prompt": "The defendant remained silent on legal advice. (COUNSEL)",
+  "answer": "the advice of counsel",
+  "category": "prep_idiom",
+  "notes": "the advice of counsel = following a lawyer guidance."
+ },
+ {
+  "prompt": "The deficit surpassed ten percent of GDP. (excess)",
+  "answer": "in excess of",
+  "category": "prep_idiom",
+  "notes": "in excess of = more than a limit."
+ },
+ {
+  "prompt": "The delegates stormed away from the futile negotiations. (walk)",
+  "answer": "walked out on",
+  "category": "prep_idiom",
+  "notes": "walked out on = left abruptly in protest."
+ },
+ {
+  "prompt": "The delegation arrived ahead of schedule. (ADVANCE)",
+  "answer": "advance of",
+  "category": "prep_idiom",
+  "notes": "advance of = before scheduled time."
+ },
+ {
+  "prompt": "The delegation met intending to secure a ceasefire. (view)",
+  "answer": "with a view to",
+  "category": "prep_idiom",
+  "notes": "with a view to = intending to achieve something."
+ },
+ {
+  "prompt": "The department cut costs, thereby harming staff morale. (detriment)",
+  "answer": "to the detriment of",
+  "category": "prep_idiom",
+  "notes": "to the detriment of = causing harm to others."
+ },
+ {
+  "prompt": "The deputy substituted for the minister at the summit. (stand)",
+  "answer": "stood in for",
+  "category": "prep_idiom",
+  "notes": "stood in for = substituted temporarily for someone."
+ },
+ {
+  "prompt": "The detective finally reached the fugitive in the port city. (catch)",
+  "answer": "caught up with",
+  "category": "prep_idiom",
+  "notes": "caught up with = reached after long pursuit."
+ },
+ {
+  "prompt": "The dissent was suppressed by force. (VIRTUE)",
+  "answer": "virtue of",
+  "category": "prep_idiom",
+  "notes": "virtue of = by means of something ironically."
+ },
+ {
+  "prompt": "The diva was about to announce her retirement. (verge)",
+  "answer": "on the verge of",
+  "category": "prep_idiom",
+  "notes": "on the verge of = about to happen soon."
+ },
+ {
+  "prompt": "The economy is very close to collapse. (brink)",
+  "answer": "on the brink of",
+  "category": "prep_idiom",
+  "notes": "on the brink of = very close to collapse."
+ },
+ {
+  "prompt": "The economy is close to collapse after the default. (verge)",
+  "answer": "on the verge of",
+  "category": "prep_idiom",
+  "notes": "on the verge of = about to happen soon."
+ },
+ {
+  "prompt": "The engineer devised a brilliant solution to the crisis. (come)",
+  "answer": "came up with",
+  "category": "prep_idiom",
+  "notes": "came up with = devised a new idea."
+ },
+ {
+  "prompt": "The envoy was sent instead of the foreign minister. (LIEU)",
+  "answer": "lieu of",
+  "category": "prep_idiom",
+  "notes": "lieu of = instead of something formally."
+ },
+ {
+  "prompt": "The exit was forced using a crowbar. (means)",
+  "answer": "by means of",
+  "category": "prep_idiom",
+  "notes": "by means of = using something as method."
+ },
+ {
+  "prompt": "The expedition encountered ferocious storms in the strait. (come)",
+  "answer": "came up against",
+  "category": "prep_idiom",
+  "notes": "came up against = encountered serious difficulty."
+ },
+ {
+  "prompt": "The facade matches the building's historic character. (keeping)",
+  "answer": "in keeping with",
+  "category": "prep_idiom",
+  "notes": "in keeping with = consistent with something else."
+ },
+ {
+  "prompt": "The factory has curbed its carbon emissions sharply. (cut)",
+  "answer": "cut down on",
+  "category": "prep_idiom",
+  "notes": "cut down on = reduced sharply in amount."
+ },
+ {
+  "prompt": "Obeying emission limits, the factory installed filters. (compliance)",
+  "answer": "in compliance with",
+  "category": "prep_idiom",
+  "notes": "in compliance with = obeying rules strictly."
+ },
+ {
+  "prompt": "The festival was organised with the official backing of UNESCO. (auspices)",
+  "answer": "under the auspices of",
+  "category": "prep_idiom",
+  "notes": "under the auspices of = with official support from."
+ },
+ {
+  "prompt": "The film did not meet its reputation. (live)",
+  "answer": "live up to",
+  "category": "prep_idiom",
+  "notes": "live up to = meet expected standards."
+ },
+ {
+  "prompt": "Differing from earlier drafts, the final text is conciliatory. (contrast)",
+  "answer": "in contrast to",
+  "category": "prep_idiom",
+  "notes": "in contrast to = differing from something else."
+ },
+ {
+  "prompt": "The findings contradict the government's claims. (odds)",
+  "answer": "at odds with",
+  "category": "prep_idiom",
+  "notes": "at odds with = in conflict with something."
+ },
+ {
+  "prompt": "Adhering to data laws, the firm encrypted records. (compliance)",
+  "answer": "in compliance with",
+  "category": "prep_idiom",
+  "notes": "in compliance with = obeying rules strictly."
+ },
+ {
+  "prompt": "The flatterer curried favour with the committee chairman. (play)",
+  "answer": "played up to",
+  "category": "prep_idiom",
+  "notes": "played up to = flattered someone for favour."
+ },
+ {
+  "prompt": "The flight was delayed because of fog. (account)",
+  "answer": "on account of",
+  "category": "prep_idiom",
+  "notes": "on account of = because of something formally."
+ },
+ {
+  "prompt": "The flight was delayed because of dense fog. (owing)",
+  "answer": "owing to",
+  "category": "prep_idiom",
+  "notes": "owing to = because of something."
+ },
+ {
+  "prompt": "The fortress held firm in the middle of the siege. (midst)",
+  "answer": "in the midst of",
+  "category": "prep_idiom",
+  "notes": "in the midst of = in the middle of something."
+ },
+ {
+  "prompt": "As for your inquiry, the goods are in stock. (reference)",
+  "answer": "with reference to",
+  "category": "prep_idiom",
+  "notes": "with reference to = concerning a particular matter."
+ },
+ {
+  "prompt": "The harvest failed due to prolonged drought. (owing)",
+  "answer": "owing to",
+  "category": "prep_idiom",
+  "notes": "owing to = because of something."
+ },
+ {
+  "prompt": "The headmaster refused to accept cheating in any form. (put)",
+  "answer": "put up with",
+  "category": "prep_idiom",
+  "notes": "put up with = tolerate unwillingly."
+ },
+ {
+  "prompt": "The heir befriended a dubious circle of gamblers. (take)",
+  "answer": "took up with",
+  "category": "prep_idiom",
+  "notes": "took up with = befriended dubious people."
+ },
+ {
+  "prompt": "The hostage finally fled from his captors. (break)",
+  "answer": "broke out of",
+  "category": "prep_idiom",
+  "notes": "broke out of = escaped from confinement."
+ },
+ {
+  "prompt": "The hotel certainly matched its five-star reputation. (live)",
+  "answer": "lived up to",
+  "category": "prep_idiom",
+  "notes": "lived up to = matched expected reputation."
+ },
+ {
+  "prompt": "The increase stems from higher energy costs. (STEM)",
+  "answer": "stems from",
+  "category": "prep_idiom",
+  "notes": "stems from = originates from a cause."
+ },
+ {
+  "prompt": "The inspector paid a brief visit to the rural school. (drop)",
+  "answer": "dropped in on",
+  "category": "prep_idiom",
+  "notes": "dropped in on = visited briefly unannounced."
+ },
+ {
+  "prompt": "The issue is now beyond any control. (HAND)",
+  "answer": "out of hand",
+  "category": "prep_idiom",
+  "notes": "out of hand = beyond control completely."
+ },
+ {
+  "prompt": "The jam stopped them arriving on time. (FROM)",
+  "answer": "them from arriving",
+  "category": "prep_idiom",
+  "notes": "them from arriving = prevented from arriving on time."
+ },
+ {
+  "prompt": "The landlord broke his promise to repair the roof. (go)",
+  "answer": "went back on",
+  "category": "prep_idiom",
+  "notes": "went back on = broke a promise."
+ },
+ {
+  "prompt": "The launch was postponed because of adverse weather. (light)",
+  "answer": "in light of",
+  "category": "prep_idiom",
+  "notes": "in light of = considering new information."
+ },
+ {
+  "prompt": "The law bears directly upon free speech. (BEAR)",
+  "answer": "bears upon",
+  "category": "prep_idiom",
+  "notes": "bears upon = relates to something directly."
+ },
+ {
+  "prompt": "The lawyer spoke representing the defendant. (behalf)",
+  "answer": "on behalf of",
+  "category": "prep_idiom",
+  "notes": "on behalf of = representing someone officially."
+ },
+ {
+  "prompt": "The lawyer defended the rights of the homeless. (stand)",
+  "answer": "stood up for",
+  "category": "prep_idiom",
+  "notes": "stood up for = defended publicly with courage."
+ },
+ {
+  "prompt": "Owing to illness, the lecture was postponed. (account)",
+  "answer": "on account of",
+  "category": "prep_idiom",
+  "notes": "on account of = because of something formally."
+ },
+ {
+  "prompt": "The library has no more copies of the set text. (run)",
+  "answer": "run out of",
+  "category": "prep_idiom",
+  "notes": "run out of = have nothing left."
+ },
+ {
+  "prompt": "The manuscript was completed before the outbreak of war. (prior)",
+  "answer": "prior to",
+  "category": "prep_idiom",
+  "notes": "prior to = before something formally."
+ },
+ {
+  "prompt": "The match was abandoned because of the waterlogged pitch. (view)",
+  "answer": "in view of",
+  "category": "prep_idiom",
+  "notes": "in view of = considering known facts."
+ },
+ {
+  "prompt": "The match was abandoned because of heavy rain. (account)",
+  "answer": "on account of",
+  "category": "prep_idiom",
+  "notes": "on account of = because of something formally."
+ },
+ {
+  "prompt": "The match was abandoned because of a flooded pitch. (owing)",
+  "answer": "owing to",
+  "category": "prep_idiom",
+  "notes": "owing to = because of something."
+ },
+ {
+  "prompt": "Considering the rain, the match was cancelled. (light)",
+  "answer": "in light of",
+  "category": "prep_idiom",
+  "notes": "in light of = considering new information."
+ },
+ {
+  "prompt": "Considering the storm, the match was cancelled. (light)",
+  "answer": "in light of",
+  "category": "prep_idiom",
+  "notes": "in light of = considering new information."
+ },
+ {
+  "prompt": "The match was cancelled because of torrential rain. (account)",
+  "answer": "on account of",
+  "category": "prep_idiom",
+  "notes": "on account of = because of something formally."
+ },
+ {
+  "prompt": "The match was postponed because of rain. (owing)",
+  "answer": "owing to",
+  "category": "prep_idiom",
+  "notes": "owing to = because of something."
+ },
+ {
+  "prompt": "The matron regularly monitors the condition of patients. (check)",
+  "answer": "checks up on",
+  "category": "prep_idiom",
+  "notes": "checks up on = monitors condition regularly."
+ },
+ {
+  "prompt": "The mayor visited the flood victims unexpectedly. (drop)",
+  "answer": "dropped in on",
+  "category": "prep_idiom",
+  "notes": "dropped in on = visited briefly unannounced."
+ },
+ {
+  "prompt": "The merger was approved due to solid quarterly figures. (strength)",
+  "answer": "on the strength of",
+  "category": "prep_idiom",
+  "notes": "on the strength of = based on solid evidence."
+ },
+ {
+  "prompt": "The merger was approved pending regulatory clearance. (SUBJECT)",
+  "answer": "subject to",
+  "category": "prep_idiom",
+  "notes": "subject to = conditional on approval."
+ },
+ {
+  "prompt": "The minister received severe criticism for his remarks. (come)",
+  "answer": "came in for",
+  "category": "prep_idiom",
+  "notes": "came in for = received severe criticism."
+ },
+ {
+  "prompt": "The minister must confront the consequences of the scandal. (face)",
+  "answer": "face up to",
+  "category": "prep_idiom",
+  "notes": "face up to = confront bravely without fear."
+ },
+ {
+  "prompt": "The minister resigned over the expenses scandal. (BACK)",
+  "answer": "the back of",
+  "category": "prep_idiom",
+  "notes": "On the back of = as result."
+ },
+ {
+  "prompt": "The minister's actions contradict his stated principles. (variance)",
+  "answer": "at variance with",
+  "category": "prep_idiom",
+  "notes": "at variance with = in conflict with something formally."
+ },
+ {
+  "prompt": "The model explains regional disparities in growth. (ACCOUNT)",
+  "answer": "accounts for",
+  "category": "prep_idiom",
+  "notes": "accounts for = explains as cause."
+ },
+ {
+  "prompt": "The museum retains its most precious manuscripts. (hold)",
+  "answer": "holds on to",
+  "category": "prep_idiom",
+  "notes": "holds on to = keeps possession tightly."
+ },
+ {
+  "prompt": "Yielding to local sensitivities, the museum postponed the exhibit. (deference)",
+  "answer": "in deference to",
+  "category": "prep_idiom",
+  "notes": "in deference to = respecting others wishes."
+ },
+ {
+  "prompt": "The negotiators finally began discussing concrete terms. (get)",
+  "answer": "got down to",
+  "category": "prep_idiom",
+  "notes": "got down to = began serious work."
+ },
+ {
+  "prompt": "The new ambassador coexists congenially with all factions. (get)",
+  "answer": "gets along with",
+  "category": "prep_idiom",
+  "notes": "gets along with = has friendly relations with."
+ },
+ {
+  "prompt": "The new tariffs apply starting 1 August. (effect)",
+  "answer": "with effect from",
+  "category": "prep_idiom",
+  "notes": "with effect from = starting on specified date."
+ },
+ {
+  "prompt": "The novel earned unstinting admiration from reviewers. (come)",
+  "answer": "came in for",
+  "category": "prep_idiom",
+  "notes": "came in for = earned great admiration."
+ },
+ {
+  "prompt": "The nurse visited the patient briefly during the night. (look)",
+  "answer": "looked in on",
+  "category": "prep_idiom",
+  "notes": "looked in on = visited briefly to check."
+ },
+ {
+  "prompt": "The officer commands the investigation. (charge)",
+  "answer": "in charge of",
+  "category": "prep_idiom",
+  "notes": "in charge of = responsible for managing."
+ },
+ {
+  "prompt": "The old cinema was demolished to make way for a car park. (favour)",
+  "answer": "in favour of",
+  "category": "prep_idiom",
+  "notes": "in favour of = to be replaced by something."
+ },
+ {
+  "prompt": "The old cottage was offered for purchase. (SALE)",
+  "answer": "up for sale",
+  "category": "prep_idiom",
+  "notes": "up for sale = available for purchase."
+ },
+ {
+  "prompt": "The old house was offered for sale. (put)",
+  "answer": "put up for",
+  "category": "prep_idiom",
+  "notes": "put up for = offered for sale."
+ },
+ {
+  "prompt": "The outcome depends critically on rainfall. (HINGE)",
+  "answer": "hinges on",
+  "category": "prep_idiom",
+  "notes": "hinges on = depends on completely."
+ },
+ {
+  "prompt": "The outpost fell because there were no reinforcements. (WANT)",
+  "answer": "want of",
+  "category": "prep_idiom",
+  "notes": "For want of = lack."
+ },
+ {
+  "prompt": "After signing, the parties disputed terms. (subsequent)",
+  "answer": "subsequent to",
+  "category": "prep_idiom",
+  "notes": "subsequent to = after something formally."
+ },
+ {
+  "prompt": "The pensioner struggles to match the pace of inflation. (keep)",
+  "answer": "keep up with",
+  "category": "prep_idiom",
+  "notes": "keep up with = match the pace of."
+ },
+ {
+  "prompt": "The permit was refused because of environmental concerns. (grounds)",
+  "answer": "on the grounds of",
+  "category": "prep_idiom",
+  "notes": "on the grounds of = because of stated reasons."
+ },
+ {
+  "prompt": "On the point of leaving, the phone rang. (point)",
+  "answer": "on the point of",
+  "category": "prep_idiom",
+  "notes": "on the point of = about to happen soon."
+ },
+ {
+  "prompt": "The pianist always resorts to muscle memory under stress. (fall)",
+  "answer": "falls back on",
+  "category": "prep_idiom",
+  "notes": "falls back on = resorts to habitually."
+ },
+ {
+  "prompt": "The plan encountered strong opposition. (come)",
+  "answer": "came up against",
+  "category": "prep_idiom",
+  "notes": "came up against = encountered serious difficulty."
+ },
+ {
+  "prompt": "The plane departed on time. (take)",
+  "answer": "took off",
+  "category": "prep_idiom",
+  "notes": "took off = left the ground."
+ },
+ {
+  "prompt": "Following safety regulations, the plant was shut down. (accordance)",
+  "answer": "in accordance with",
+  "category": "prep_idiom",
+  "notes": "in accordance with = following rules strictly."
+ },
+ {
+  "prompt": "The police worked together with Interpol. (tandem)",
+  "answer": "in tandem with",
+  "category": "prep_idiom",
+  "notes": "in tandem with = working jointly with someone."
+ },
+ {
+  "prompt": "The policy attracted praise from environmental groups. (come)",
+  "answer": "came in for",
+  "category": "prep_idiom",
+  "notes": "came in for = attracted public praise."
+ },
+ {
+  "prompt": "Before 1900, the practice was widespread. (prior)",
+  "answer": "prior to",
+  "category": "prep_idiom",
+  "notes": "prior to = before something formally."
+ },
+ {
+  "prompt": "The price decreased over time. (go)",
+  "answer": "went down by",
+  "category": "prep_idiom",
+  "notes": "went down by = decreased by an amount."
+ },
+ {
+  "prompt": "The prisoners escaped from jail. (break)",
+  "answer": "broke out of",
+  "category": "prep_idiom",
+  "notes": "broke out of = escaped from confinement."
+ },
+ {
+  "prompt": "The prisoners communicated through coded tapping. (means)",
+  "answer": "by means of",
+  "category": "prep_idiom",
+  "notes": "by means of = using something as method."
+ },
+ {
+  "prompt": "The prize was bestowed upon the young laureate. (CONFER)",
+  "answer": "conferred on",
+  "category": "prep_idiom",
+  "notes": "conferred on = granted formally to someone."
+ },
+ {
+  "prompt": "The project failed because there was no reliable data. (want)",
+  "answer": "for want of",
+  "category": "prep_idiom",
+  "notes": "for want of = due to lack of something."
+ },
+ {
+  "prompt": "The project is now under review by experts. (REVIEW)",
+  "answer": "under review by",
+  "category": "prep_idiom",
+  "notes": "under review by = being examined currently."
+ },
+ {
+  "prompt": "For want of money, the project stopped. (want)",
+  "answer": "for want of",
+  "category": "prep_idiom",
+  "notes": "for want of = due to lack of something."
+ },
+ {
+  "prompt": "Given his record, promotion was deemed inappropriate. (view)",
+  "answer": "in view of",
+  "category": "prep_idiom",
+  "notes": "in view of = considering known facts."
+ },
+ {
+  "prompt": "The proposal received sharp scrutiny from the press. (come)",
+  "answer": "came in for",
+  "category": "prep_idiom",
+  "notes": "came in for = faced intense scrutiny."
+ },
+ {
+  "prompt": "The proposal collapsed because no one could estimate the costs. (want)",
+  "answer": "for want of",
+  "category": "prep_idiom",
+  "notes": "for want of = due to lack of something."
+ },
+ {
+  "prompt": "The quote was wrongly credited to the minister. (ASCRIBE)",
+  "answer": "ascribed to",
+  "category": "prep_idiom",
+  "notes": "ascribed to = credited to as source."
+ },
+ {
+  "prompt": "The referee received abuse from angry supporters. (come)",
+  "answer": "came in for",
+  "category": "prep_idiom",
+  "notes": "came in for = suffered verbal abuse."
+ },
+ {
+  "prompt": "The referee received fierce criticism from both managers. (come)",
+  "answer": "came in for",
+  "category": "prep_idiom",
+  "notes": "came in for = received fierce criticism."
+ },
+ {
+  "prompt": "The reform eliminated hereditary privileges. (do)",
+  "answer": "did away with",
+  "category": "prep_idiom",
+  "notes": "did away with = abolished completely."
+ },
+ {
+  "prompt": "The regime reneged on its pledge of free elections. (go)",
+  "answer": "went back on",
+  "category": "prep_idiom",
+  "notes": "went back on = broke a promise."
+ },
+ {
+  "prompt": "The regulations are stringent in respect of data storage. (regard)",
+  "answer": "with regard to",
+  "category": "prep_idiom",
+  "notes": "with regard to = concerning a particular matter."
+ },
+ {
+  "prompt": "The relief operation was conducted with the protection of the Red Cross. (auspices)",
+  "answer": "under the auspices of",
+  "category": "prep_idiom",
+  "notes": "under the auspices of = with official support from."
+ },
+ {
+  "prompt": "When set against the original, the remake is inferior. (comparison)",
+  "answer": "in comparison with",
+  "category": "prep_idiom",
+  "notes": "in comparison with = contrasted with something else."
+ },
+ {
+  "prompt": "As regards safety, the report demands urgent action. (reference)",
+  "answer": "with reference to",
+  "category": "prep_idiom",
+  "notes": "with reference to = concerning a particular matter."
+ },
+ {
+  "prompt": "The republic abolished the outdated censorship law. (do)",
+  "answer": "did away with",
+  "category": "prep_idiom",
+  "notes": "did away with = abolished completely."
+ },
+ {
+  "prompt": "The residents tolerate the nightly noise from the factory. (put)",
+  "answer": "put up with",
+  "category": "prep_idiom",
+  "notes": "put up with = tolerate unwillingly."
+ },
+ {
+  "prompt": "The revised figures disagree with the initial audit report. (variance)",
+  "answer": "at variance with",
+  "category": "prep_idiom",
+  "notes": "at variance with = in conflict with something formally."
+ },
+ {
+  "prompt": "The rule was bent to preserve unity. (sake)",
+  "answer": "for the sake of",
+  "category": "prep_idiom",
+  "notes": "for the sake of = for the benefit of someone."
+ },
+ {
+  "prompt": "The ruling favoured the plaintiff to the exclusion of others. (PREJUDICE)",
+  "answer": "prejudice to",
+  "category": "prep_idiom",
+  "notes": "prejudice to = without harming other claims."
+ },
+ {
+  "prompt": "The runaway began keeping company with smugglers. (take)",
+  "answer": "took up with",
+  "category": "prep_idiom",
+  "notes": "took up with = befriended dubious people."
+ },
+ {
+  "prompt": "The sequel failed to meet the expectations of critics. (live)",
+  "answer": "live up to",
+  "category": "prep_idiom",
+  "notes": "live up to = meet expected standards."
+ },
+ {
+  "prompt": "The shareholders agreed to the proposed merger. (go)",
+  "answer": "went along with",
+  "category": "prep_idiom",
+  "notes": "went along with = agreed to support proposal."
+ },
+ {
+  "prompt": "The signal is transmitted using fibre optics. (means)",
+  "answer": "by means of",
+  "category": "prep_idiom",
+  "notes": "by means of = using something as method."
+ },
+ {
+  "prompt": "The site is off-limits before decontamination. (BOUNDS)",
+  "answer": "of bounds",
+  "category": "prep_idiom",
+  "notes": "of bounds = forbidden to enter."
+ },
+ {
+  "prompt": "The solicitor accepted the award representing her client. (behalf)",
+  "answer": "on behalf of",
+  "category": "prep_idiom",
+  "notes": "on behalf of = representing someone officially."
+ },
+ {
+  "prompt": "Regarding clause five, legal advice is required. (reference)",
+  "answer": "with reference to",
+  "category": "prep_idiom",
+  "notes": "with reference to = concerning a particular matter."
+ },
+ {
+  "prompt": "The north remains arid whereas the south is fertile. (contrast)",
+  "answer": "in contrast to",
+  "category": "prep_idiom",
+  "notes": "in contrast to = differing from something else."
+ },
+ {
+  "prompt": "The staff await the annual pay review with optimism. (look)",
+  "answer": "look forward to",
+  "category": "prep_idiom",
+  "notes": "look forward to = await eagerly with pleasure."
+ },
+ {
+  "prompt": "The statistics contradict the ministerial claims. (variance)",
+  "answer": "at variance with",
+  "category": "prep_idiom",
+  "notes": "at variance with = in conflict with something formally."
+ },
+ {
+  "prompt": "The stepbrothers never had a harmonious relationship. (get)",
+  "answer": "got along with",
+  "category": "prep_idiom",
+  "notes": "got along with = had harmonious relations with."
+ },
+ {
+  "prompt": "Having little money, the student lived cheaply. (shoestring)",
+  "answer": "on a shoestring",
+  "category": "prep_idiom",
+  "notes": "on a shoestring = with very little money."
+ },
+ {
+  "prompt": "The summit collapsed during a grave crisis. (midst)",
+  "answer": "in the midst of",
+  "category": "prep_idiom",
+  "notes": "in the midst of = in the middle of something."
+ },
+ {
+  "prompt": "The summit was cancelled because of credible threats. (LIGHT)",
+  "answer": "the light of",
+  "category": "prep_idiom",
+  "notes": "In the light of = because of."
+ },
+ {
+  "prompt": "The supervisor oversees the progress of trainees weekly. (check)",
+  "answer": "checks up on",
+  "category": "prep_idiom",
+  "notes": "checks up on = monitors condition regularly."
+ },
+ {
+  "prompt": "The suspects were released before the trial commenced. (prior)",
+  "answer": "prior to",
+  "category": "prep_idiom",
+  "notes": "prior to = before something formally."
+ },
+ {
+  "prompt": "The team competed against the champions. (compete)",
+  "answer": "competed against",
+  "category": "prep_idiom",
+  "notes": "competed against = contested with rivals."
+ },
+ {
+  "prompt": "The team won promotion through a late unbeaten run. (dint)",
+  "answer": "by dint of",
+  "category": "prep_idiom",
+  "notes": "by dint of = through hard effort."
+ },
+ {
+  "prompt": "The tenor abruptly deserted his troupe mid-season. (walk)",
+  "answer": "walked out on",
+  "category": "prep_idiom",
+  "notes": "walked out on = left abruptly in protest."
+ },
+ {
+  "prompt": "The thesis focuses extensively on gender roles. (DWELL)",
+  "answer": "dwells on",
+  "category": "prep_idiom",
+  "notes": "dwells on = discusses at length."
+ },
+ {
+  "prompt": "The toddler has caught a nasty bout of flu. (come)",
+  "answer": "come down with",
+  "category": "prep_idiom",
+  "notes": "come down with = caught an illness."
+ },
+ {
+  "prompt": "The treaty is binding because of international law. (virtue)",
+  "answer": "by virtue of",
+  "category": "prep_idiom",
+  "notes": "by virtue of = because of formal authority."
+ },
+ {
+  "prompt": "The treaty is binding through ratification by all parties. (virtue)",
+  "answer": "by virtue of",
+  "category": "prep_idiom",
+  "notes": "by virtue of = because of formal authority."
+ },
+ {
+  "prompt": "The treaty was signed despite grave misgivings. (TEETH)",
+  "answer": "the teeth of",
+  "category": "prep_idiom",
+  "notes": "In the teeth of = despite."
+ },
+ {
+  "prompt": "The trial was conducted following established procedure. (accordance)",
+  "answer": "in accordance with",
+  "category": "prep_idiom",
+  "notes": "in accordance with = following rules strictly."
+ },
+ {
+  "prompt": "The trial was conducted following international law. (accordance)",
+  "answer": "in accordance with",
+  "category": "prep_idiom",
+  "notes": "in accordance with = following rules strictly."
+ },
+ {
+  "prompt": "The two editions differ in terms of illustrations. (respect)",
+  "answer": "with respect to",
+  "category": "prep_idiom",
+  "notes": "with respect to = regarding a specific issue."
+ },
+ {
+  "prompt": "The two labs cooperate closely with the WHO. (tandem)",
+  "answer": "in tandem with",
+  "category": "prep_idiom",
+  "notes": "in tandem with = working jointly with someone."
+ },
+ {
+  "prompt": "The two sisters have an excellent relationship. (get)",
+  "answer": "get on with",
+  "category": "prep_idiom",
+  "notes": "get on with = has good relations with."
+ },
+ {
+  "prompt": "The two views are in direct conflict. (ODDS)",
+  "answer": "at odds on",
+  "category": "prep_idiom",
+  "notes": "at odds on = in direct conflict."
+ },
+ {
+  "prompt": "The union supported sacked workers throughout the strike. (stand)",
+  "answer": "stood up for",
+  "category": "prep_idiom",
+  "notes": "stood up for = defended publicly with courage."
+ },
+ {
+  "prompt": "The union objected to the new shift system. (take)",
+  "answer": "took exception to",
+  "category": "prep_idiom",
+  "notes": "took exception to = opposed formally strongly."
+ },
+ {
+  "prompt": "The verdict conflicts with precedent. (VARIANCE)",
+  "answer": "variance with",
+  "category": "prep_idiom",
+  "notes": "variance with = conflicting with something formally."
+ },
+ {
+  "prompt": "The verdict aligns with established legal precedent. (keeping)",
+  "answer": "in keeping with",
+  "category": "prep_idiom",
+  "notes": "in keeping with = consistent with something else."
+ },
+ {
+  "prompt": "Given the new evidence, the verdict was overturned. (light)",
+  "answer": "in light of",
+  "category": "prep_idiom",
+  "notes": "in light of = considering new information."
+ },
+ {
+  "prompt": "The verdict was quashed due to procedural errors. (ACCOUNT)",
+  "answer": "account of",
+  "category": "prep_idiom",
+  "notes": "account of = because of something formally."
+ },
+ {
+  "prompt": "The vessel sailed conforming to maritime safety codes. (compliance)",
+  "answer": "in compliance with",
+  "category": "prep_idiom",
+  "notes": "in compliance with = obeying rules strictly."
+ },
+ {
+  "prompt": "The veteran recalls his schooldays with nostalgia. (look)",
+  "answer": "looks back on",
+  "category": "prep_idiom",
+  "notes": "looks back on = recalls with nostalgia."
+ },
+ {
+  "prompt": "The violinist continued playing amid the blackout. (midst)",
+  "answer": "in the midst of",
+  "category": "prep_idiom",
+  "notes": "in the midst of = in the middle of something."
+ },
+ {
+  "prompt": "The warden checks the dormitories every evening. (look)",
+  "answer": "looks in on",
+  "category": "prep_idiom",
+  "notes": "looks in on = visits briefly to check."
+ },
+ {
+  "prompt": "The whole village respects the elderly physician. (look)",
+  "answer": "looks up to",
+  "category": "prep_idiom",
+  "notes": "looks up to = respects as example."
+ },
+ {
+  "prompt": "The witness tried to evade answering awkward questions. (get)",
+  "answer": "get out of",
+  "category": "prep_idiom",
+  "notes": "get out of = evade a duty."
+ },
+ {
+  "prompt": "The young mayor fulfilled every campaign promise. (live)",
+  "answer": "lived up to",
+  "category": "prep_idiom",
+  "notes": "lived up to = matched expected reputation."
+ },
+ {
+  "prompt": "Prices rose sharply in all sectors. (INCREASE)",
+  "answer": "increase in",
+  "category": "prep_idiom",
+  "notes": "increase in = growth in amount."
+ },
+ {
+  "prompt": "They charged him with theft. (of)",
+  "answer": "accused him of",
+  "category": "prep_idiom",
+  "notes": "accused him of = charged with wrongdoing."
+ },
+ {
+  "prompt": "They reached agreement by common consent. (CONSENT)",
+  "answer": "common consent",
+  "category": "prep_idiom",
+  "notes": "common consent = agreed by everyone."
+ },
+ {
+  "prompt": "They agreed on the plan. (agree)",
+  "answer": "agreed on",
+  "category": "prep_idiom",
+  "notes": "agreed on = reached same opinion."
+ },
+ {
+  "prompt": "They knew the danger. (of)",
+  "answer": "are aware of",
+  "category": "prep_idiom",
+  "notes": "are aware of = knowing about something."
+ },
+ {
+  "prompt": "They blamed him for the accident. (blame)",
+  "answer": "blamed him for",
+  "category": "prep_idiom",
+  "notes": "blamed him for = held responsible for accident."
+ },
+ {
+  "prompt": "They abandoned tradition. (with)",
+  "answer": "They broke with",
+  "category": "prep_idiom",
+  "notes": "They broke with = abandoned tradition abruptly."
+ },
+ {
+  "prompt": "They proposed a plan to reduce operating costs. (come)",
+  "answer": "came up with",
+  "category": "prep_idiom",
+  "notes": "came up with = devised a new idea."
+ },
+ {
+  "prompt": "They fully comply with safety rules. (COMPLY2)",
+  "answer": "with",
+  "category": "prep_idiom",
+  "notes": "with = obeying rules fully."
+ },
+ {
+  "prompt": "They praised him for winning. (on)",
+  "answer": "congratulated him on",
+  "category": "prep_idiom",
+  "notes": "congratulated him on = praised for achievement."
+ },
+ {
+  "prompt": "They denied him his rights. (of)",
+  "answer": "deprived him of",
+  "category": "prep_idiom",
+  "notes": "deprived him of = took rights away from."
+ },
+ {
+  "prompt": "They are unlike others. (from)",
+  "answer": "They differ from",
+  "category": "prep_idiom",
+  "notes": "They differ from = are unlike others."
+ },
+ {
+  "prompt": "Under cover of darkness, they escaped. (cover)",
+  "answer": "under cover of",
+  "category": "prep_idiom",
+  "notes": "under cover of = hidden by darkness."
+ },
+ {
+  "prompt": "Lacking a better venue, they held the summit in a warehouse. (want)",
+  "answer": "for want of",
+  "category": "prep_idiom",
+  "notes": "for want of = due to lack of something."
+ },
+ {
+  "prompt": "They hired analysts for the purpose of cutting costs. (view)",
+  "answer": "with a view to",
+  "category": "prep_idiom",
+  "notes": "with a view to = intending to achieve something."
+ },
+ {
+  "prompt": "They despise poor people. (look)",
+  "answer": "look down on",
+  "category": "prep_idiom",
+  "notes": "look down on = despise as inferior."
+ },
+ {
+  "prompt": "They compensated for the loss with hard work. (make)",
+  "answer": "made up for",
+  "category": "prep_idiom",
+  "notes": "made up for = compensated for loss."
+ },
+ {
+  "prompt": "On pain of death, they obeyed. (pain)",
+  "answer": "on pain of",
+  "category": "prep_idiom",
+  "notes": "on pain of = under threat of punishment."
+ },
+ {
+  "prompt": "They opposed the plan. (to)",
+  "answer": "objected to the",
+  "category": "prep_idiom",
+  "notes": "objected to the = opposed a plan formally."
+ },
+ {
+  "prompt": "They offered extra leave instead of a pay rise. (lieu)",
+  "answer": "in lieu of",
+  "category": "prep_idiom",
+  "notes": "in lieu of = instead of something formally."
+ },
+ {
+  "prompt": "They protested against the new tax law. (AGAINST)",
+  "answer": "protested against the",
+  "category": "prep_idiom",
+  "notes": "protested against the = opposed publicly in protest."
+ },
+ {
+  "prompt": "They blamed the error on young age. (DOWN)",
+  "answer": "down to",
+  "category": "prep_idiom",
+  "notes": "down to = attributed to a cause."
+ },
+ {
+  "prompt": "They attributed the mistake to youth. (put)",
+  "answer": "put the mistake down to",
+  "category": "prep_idiom",
+  "notes": "put the mistake down to = attributed mistake to youth."
+ },
+ {
+  "prompt": "On good terms with neighbours, they share meals. (terms)",
+  "answer": "on good terms with",
+  "category": "prep_idiom",
+  "notes": "on good terms with = friendly with neighbours."
+ },
+ {
+  "prompt": "They stayed together for the benefit of the children. (sake)",
+  "answer": "for the sake of",
+  "category": "prep_idiom",
+  "notes": "for the sake of = for the benefit of someone."
+ },
+ {
+  "prompt": "They supplied the army with weapons. (supply)",
+  "answer": "with",
+  "category": "prep_idiom",
+  "notes": "with = supplied with something."
+ },
+ {
+  "prompt": "At the mercy of the enemy, they surrendered. (mercy)",
+  "answer": "at the mercy of",
+  "category": "prep_idiom",
+  "notes": "at the mercy of = powerless before others."
+ },
+ {
+  "prompt": "They are proud of success. (pride)",
+  "answer": "pride in",
+  "category": "prep_idiom",
+  "notes": "pride in = feeling proud of success."
+ },
+ {
+  "prompt": "They tasked him with organising the event. (task)",
+  "answer": "tasked him with",
+  "category": "prep_idiom",
+  "notes": "tasked him with = assigned work to someone."
+ },
+ {
+  "prompt": "They travelled seeking better opportunities. (search)",
+  "answer": "in search of",
+  "category": "prep_idiom",
+  "notes": "in search of = seeking better opportunities."
+ },
+ {
+  "prompt": "They warned us against smoking. (warn)",
+  "answer": "warned us against",
+  "category": "prep_idiom",
+  "notes": "warned us against = advised not to do."
+ },
+ {
+  "prompt": "They accepted the proposal without question. (go)",
+  "answer": "went along with",
+  "category": "prep_idiom",
+  "notes": "went along with = agreed to support proposal."
+ },
+ {
+  "prompt": "They were fined under the new safety law. (UNDER)",
+  "answer": "under the act",
+  "category": "prep_idiom",
+  "notes": "under the act = according to new law."
+ },
+ {
+  "prompt": "They won by a narrow margin overall. (MARGIN)",
+  "answer": "narrow margin",
+  "category": "prep_idiom",
+  "notes": "narrow margin = by a small difference."
+ },
+ {
+  "prompt": "Thieves entered the house by force. (break)",
+  "answer": "broke into",
+  "category": "prep_idiom",
+  "notes": "broke into = entered by force."
+ },
+ {
+  "prompt": "Tourism expanded damaging the fragile reef ecosystem. (detriment)",
+  "answer": "to the detriment of",
+  "category": "prep_idiom",
+  "notes": "to the detriment of = causing harm to others."
+ }
+]

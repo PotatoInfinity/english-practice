@@ -1,0 +1,1244 @@
+[
+ {
+  "prompt": "His ___ attitude towards the poor surprised everyone. (PART)",
+  "answer": "partial",
+  "category": "wordform",
+  "notes": "partial = biased/fond; impartial = neutral"
+ },
+ {
+  "prompt": "His ___ finally earned him a scholarship. (PERSIST)",
+  "answer": "persistence",
+  "category": "wordform",
+  "notes": "persistence = continuing effort despite difficulty."
+ },
+ {
+  "prompt": "His remark was not wanted and caused anger. (DESIRABLE)",
+  "answer": "undesirable",
+  "category": "wordform",
+  "notes": "undesirable = not wanted or unpleasant."
+ },
+ {
+  "prompt": "His report was full of errors. (ACCURATE)",
+  "answer": "inaccurate",
+  "category": "wordform",
+  "notes": "inaccurate = not correct, with errors."
+ },
+ {
+  "prompt": "His rude reply was deeply disrespectful to the elderly. (RESPECT)",
+  "answer": "disrespectful",
+  "category": "wordform",
+  "notes": "disrespectful = showing no respect."
+ },
+ {
+  "prompt": "His stories often change and do not match. (CONSISTENT)",
+  "answer": "inconsistent",
+  "category": "wordform",
+  "notes": "inconsistent = changing, not matching."
+ },
+ {
+  "prompt": "His sudden ___ at the party surprised us. (APPEAR)",
+  "answer": "appearance",
+  "category": "wordform",
+  "notes": "appearance = act of coming into sight."
+ },
+ {
+  "prompt": "His ticket was no longer usable. (VALID)",
+  "answer": "invalid",
+  "category": "wordform",
+  "notes": "invalid = no longer usable or legal."
+ },
+ {
+  "prompt": "His ___ prevents him from admitting mistakes. (VAIN)",
+  "answer": "vanity",
+  "category": "wordform",
+  "notes": "vanity = too much pride in looks."
+ },
+ {
+  "prompt": "Hopefully the weather will improve soon, we said to each other. (HOPE)",
+  "answer": "Hopefully",
+  "category": "wordform",
+  "notes": "Hopefully = expressing hope for good result."
+ },
+ {
+  "prompt": "Hunting wild tigers is against the law. (LEGAL)",
+  "answer": "illegal",
+  "category": "wordform",
+  "notes": "illegal = against the law."
+ },
+ {
+  "prompt": "I admire his ___ in admitting the mistake. (HONEST)",
+  "answer": "honesty",
+  "category": "wordform",
+  "notes": "honesty = quality of telling truth."
+ },
+ {
+  "prompt": "I am not sure about the answer. (SURE)",
+  "answer": "unsure",
+  "category": "wordform",
+  "notes": "unsure = not certain."
+ },
+ {
+  "prompt": "I do not share your view on this film. (AGREE)",
+  "answer": "disagree",
+  "category": "wordform",
+  "notes": "disagree = have different opinion."
+ },
+ {
+  "prompt": "I put my keys in the wrong place. (PLACE)",
+  "answer": "misplaced",
+  "category": "wordform",
+  "notes": "misplaced = put in wrong place."
+ },
+ {
+  "prompt": "I got the lesson wrong because I heard it badly. (UNDERSTAND)",
+  "answer": "misunderstood",
+  "category": "wordform",
+  "notes": "misunderstood = understood wrongly."
+ },
+ {
+  "prompt": "I really hate broccoli. (LIKE)",
+  "answer": "dislike",
+  "category": "wordform",
+  "notes": "dislike = not like."
+ },
+ {
+  "prompt": "It is completely illogical to blame the weather. (LOGIC)",
+  "answer": "illogical",
+  "category": "wordform",
+  "notes": "illogical = not reasonable, senseless."
+ },
+ {
+  "prompt": "It is doubtful whether he will come on time. (DOUBT)",
+  "answer": "doubtful",
+  "category": "wordform",
+  "notes": "doubtful = uncertain, possibly untrue."
+ },
+ {
+  "prompt": "It is impossible to finish by Friday. (POSSIBLE)",
+  "answer": "impossible",
+  "category": "wordform",
+  "notes": "impossible = cannot happen or be done."
+ },
+ {
+  "prompt": "It is ___ to finish without extra help. (POSSIBLE)",
+  "answer": "impossible",
+  "category": "wordform",
+  "notes": "im- + possible; impossible = cannot happen"
+ },
+ {
+  "prompt": "It is ___ that he will come if it rains. (PROBABLE)",
+  "answer": "improbable",
+  "category": "wordform",
+  "notes": "im- + probable = unlikely; probable = likely"
+ },
+ {
+  "prompt": "It is my firm ___ that he is innocent. (BELIEVE)",
+  "answer": "belief",
+  "category": "wordform",
+  "notes": "belief = firm idea something is true."
+ },
+ {
+  "prompt": "It is natural to feel nervous before an exam. (NATURE)",
+  "answer": "natural",
+  "category": "wordform",
+  "notes": "natural = normal, from nature."
+ },
+ {
+  "prompt": "It is ___ to wear a seatbelt. (SENSE)",
+  "answer": "sensible",
+  "category": "wordform",
+  "notes": "sensible = wise; sensitive = easily hurt"
+ },
+ {
+  "prompt": "It is unreasonable to expect him to finish in one day. (REASON)",
+  "answer": "unreasonable",
+  "category": "wordform",
+  "notes": "unreasonable = unfair, not sensible."
+ },
+ {
+  "prompt": "It is strange to see snow in April. (USUAL)",
+  "answer": "unusual",
+  "category": "wordform",
+  "notes": "unusual = strange, not common."
+ },
+ {
+  "prompt": "It is your ___ to lock the door. (RESPONSIBLE)",
+  "answer": "responsibility",
+  "category": "wordform",
+  "notes": "responsibility = duty to do something."
+ },
+ {
+  "prompt": "It rained heavily during the night. (HEAVY)",
+  "answer": "heavily",
+  "category": "wordform",
+  "notes": "heavily = strongly, in heavy way."
+ },
+ {
+  "prompt": "It took a great deal of ___ to change his mind. (PERSUADE)",
+  "answer": "persuasion",
+  "category": "wordform",
+  "notes": "persuasion = act of convincing someone."
+ },
+ {
+  "prompt": "It was a bright and sunny morning for a picnic. (SUN)",
+  "answer": "sunny",
+  "category": "wordform",
+  "notes": "sunny = bright with sun."
+ },
+ {
+  "prompt": "It was a ___ to meet such a famous author. (PLEASE)",
+  "answer": "pleasure",
+  "category": "wordform",
+  "notes": "pleasure = feeling of enjoyment."
+ },
+ {
+  "prompt": "It was careless of him to leave the door unlocked. (CARE)",
+  "answer": "careless",
+  "category": "wordform",
+  "notes": "careless = not careful."
+ },
+ {
+  "prompt": "It was rude to push past the old lady. (POLITE)",
+  "answer": "impolite",
+  "category": "wordform",
+  "notes": "impolite = rude, bad-mannered."
+ },
+ {
+  "prompt": "It was obvious that he had not studied. (OBVIOUS)",
+  "answer": "was obvious that",
+  "category": "wordform",
+  "notes": "was obvious that = was clear that."
+ },
+ {
+  "prompt": "It was thoughtful of her to bring soup for the sick. (THOUGHT)",
+  "answer": "thoughtful",
+  "category": "wordform",
+  "notes": "thoughtful = kind, thinking of others."
+ },
+ {
+  "prompt": "It was thoughtless of him to forget her birthday. (THOUGHT)",
+  "answer": "thoughtless",
+  "category": "wordform",
+  "notes": "thoughtless = not thinking of others."
+ },
+ {
+  "prompt": "It was ___ of him to leave the door open. (THOUGHT)",
+  "answer": "thoughtless",
+  "category": "wordform",
+  "notes": "thoughtless = inconsiderate"
+ },
+ {
+  "prompt": "It was cruel to laugh at the boy. (KIND)",
+  "answer": "unkind",
+  "category": "wordform",
+  "notes": "unkind = cruel, not kind."
+ },
+ {
+  "prompt": "It was very ___ of you to send flowers. (CONSIDER)",
+  "answer": "considerate",
+  "category": "wordform",
+  "notes": "considerate = kind/thoughtful; considerable = large"
+ },
+ {
+  "prompt": "It would be sensible to bring an umbrella today. (SENSE)",
+  "answer": "sensible",
+  "category": "wordform",
+  "notes": "sensible = wise and reasonable."
+ },
+ {
+  "prompt": "It would be ___ to leave now. (SENSE)",
+  "answer": "sensible",
+  "category": "wordform",
+  "notes": "sensible = wise"
+ },
+ {
+  "prompt": "Its central location is highly advantageous for business. (ADVANTAGE)",
+  "answer": "advantageous",
+  "category": "wordform",
+  "notes": "advantageous = giving benefit, useful."
+ },
+ {
+  "prompt": "Leaving the dog alone was irresponsible of him. (RESPONSIBLE)",
+  "answer": "irresponsible",
+  "category": "wordform",
+  "notes": "irresponsible = careless, not responsible."
+ },
+ {
+  "prompt": "Life does not exist on Mars. (EXISTENT)",
+  "answer": "non-existent",
+  "category": "wordform",
+  "notes": "non-existent = not existing."
+ },
+ {
+  "prompt": "Littering shows a lack of care for the city. (RESPONSIBLE)",
+  "answer": "irresponsible",
+  "category": "wordform",
+  "notes": "irresponsible = careless, not responsible."
+ },
+ {
+  "prompt": "Losing the key was a drawback for us. (ADVANTAGE)",
+  "answer": "disadvantage",
+  "category": "wordform",
+  "notes": "disadvantage = bad point, drawback."
+ },
+ {
+  "prompt": "Luckily, the rain stopped before the match began. (LUCK)",
+  "answer": "Luckily",
+  "category": "wordform",
+  "notes": "Luckily = fortunately, by good luck."
+ },
+ {
+  "prompt": "Many adults in the village cannot read. (LITERATE)",
+  "answer": "illiterate",
+  "category": "wordform",
+  "notes": "illiterate = unable to read or write."
+ },
+ {
+  "prompt": "Missing the bus was my own fault. (FAIL)",
+  "answer": "failure",
+  "category": "wordform",
+  "notes": "failure = lack of success."
+ },
+ {
+  "prompt": "Money cannot buy ___. (HAPPY)",
+  "answer": "happiness",
+  "category": "wordform",
+  "notes": "happiness = state of being happy."
+ },
+ {
+  "prompt": "My ___ to the magazine expires next month. (SUBSCRIBE)",
+  "answer": "subscription",
+  "category": "wordform",
+  "notes": "subscription = paid regular order."
+ },
+ {
+  "prompt": "New technology has raised workers' ___. (PRODUCTIVE)",
+  "answer": "productivity",
+  "category": "wordform",
+  "notes": "productivity = rate of making goods."
+ },
+ {
+  "prompt": "One bottle of water is not enough for five people. (ADEQUATE)",
+  "answer": "inadequate",
+  "category": "wordform",
+  "notes": "inadequate = not enough, insufficient."
+ },
+ {
+  "prompt": "Only adults are legally responsible for the damage. (RESPONSIBLE)",
+  "answer": "legally responsible for",
+  "category": "wordform",
+  "notes": "legally responsible for = legally must answer for."
+ },
+ {
+  "prompt": "Our ___ on oil harms the environment. (DEPEND)",
+  "answer": "dependence",
+  "category": "wordform",
+  "notes": "dependence = reliance on something."
+ },
+ {
+  "prompt": "Our trip by plane was delayed by fog. (FLY)",
+  "answer": "flight",
+  "category": "wordform",
+  "notes": "flight = journey by plane."
+ },
+ {
+  "prompt": "Our guide was very knowledgeable about local history. (KNOW)",
+  "answer": "knowledgeable",
+  "category": "wordform",
+  "notes": "knowledgeable = knowing a lot."
+ },
+ {
+  "prompt": "Our ___ is quiet and friendly. (NEIGHBOUR)",
+  "answer": "neighbourhood",
+  "category": "wordform",
+  "notes": "neighbourhood = district where people live."
+ },
+ {
+  "prompt": "Our work is only half done. (COMPLETE)",
+  "answer": "incomplete",
+  "category": "wordform",
+  "notes": "incomplete = not finished, half done."
+ },
+ {
+  "prompt": "Outdoor ___ is good for children's health. (ACTIVE)",
+  "answer": "activity",
+  "category": "wordform",
+  "notes": "activity = lively movement or exercise."
+ },
+ {
+  "prompt": "Plants show rapid increase in spring. (GROW)",
+  "answer": "growth",
+  "category": "wordform",
+  "notes": "growth = increase in size."
+ },
+ {
+  "prompt": "Please be ___; the doctor will come soon. (PATIENCE)",
+  "answer": "patient",
+  "category": "wordform",
+  "notes": "patient (adj) = calm; impatient = restless"
+ },
+ {
+  "prompt": "Please be ___ of other passengers. (RESPECT)",
+  "answer": "respectful",
+  "category": "wordform",
+  "notes": "respectful = showing respect; respective = separate"
+ },
+ {
+  "prompt": "Please pull the plug to cut power. (CONNECT)",
+  "answer": "disconnect",
+  "category": "wordform",
+  "notes": "disconnect = cut power connection."
+ },
+ {
+  "prompt": "Please measure the ___ of the table. (LONG)",
+  "answer": "length",
+  "category": "wordform",
+  "notes": "length = how long something is."
+ },
+ {
+  "prompt": "Political ___ is essential for economic growth. (STABLE)",
+  "answer": "stability",
+  "category": "wordform",
+  "notes": "stability = steady, unchanging state."
+ },
+ {
+  "prompt": "Poor time ___ caused him to miss the deadline. (MANAGE)",
+  "answer": "management",
+  "category": "wordform",
+  "notes": "management = skill of controlling well."
+ },
+ {
+  "prompt": "Prices rose dramatically after the shortage. (DRAMA)",
+  "answer": "dramatically",
+  "category": "wordform",
+  "notes": "dramatically = sharply, greatly."
+ },
+ {
+  "prompt": "Prolonged ___ to the sun can cause skin cancer. (EXPOSE)",
+  "answer": "exposure",
+  "category": "wordform",
+  "notes": "exposure = being under sun or light."
+ },
+ {
+  "prompt": "Rain tomorrow is highly ___. (PROBABLE)",
+  "answer": "is highly probable",
+  "category": "wordform",
+  "notes": "probable = likely; improbable = unlikely"
+ },
+ {
+  "prompt": "Regardless, we went hiking despite the heavy rain. (REGARD)",
+  "answer": "Regardless",
+  "category": "wordform",
+  "notes": "Regardless = despite that, anyway."
+ },
+ {
+  "prompt": "Regular ___ at classes is compulsory. (ATTEND)",
+  "answer": "attendance",
+  "category": "wordform",
+  "notes": "attendance = being present regularly."
+ },
+ {
+  "prompt": "Regular practice is essential for mastering English. (ESSENCE)",
+  "answer": "essential",
+  "category": "wordform",
+  "notes": "essential = very necessary."
+ },
+ {
+  "prompt": "Regular revision is a highly effective way to learn vocabulary. (EFFECT)",
+  "answer": "effective",
+  "category": "wordform",
+  "notes": "effective = giving good result."
+ },
+ {
+  "prompt": "Religious ___ is vital in a multi-ethnic society. (TOLERANT)",
+  "answer": "tolerance",
+  "category": "wordform",
+  "notes": "tolerance = accepting different views."
+ },
+ {
+  "prompt": "Scientists doubt the ___ of life on Mars. (EXIST)",
+  "answer": "existence",
+  "category": "wordform",
+  "notes": "existence = state of being real."
+ },
+ {
+  "prompt": "Scientists reached the ___ that the vaccine is safe. (CONCLUDE)",
+  "answer": "conclusion",
+  "category": "wordform",
+  "notes": "conclusion = final decision after study."
+ },
+ {
+  "prompt": "She always wears fashionable clothes. (FASHION)",
+  "answer": "fashionable",
+  "category": "wordform",
+  "notes": "fashionable = trendy, in style."
+ },
+ {
+  "prompt": "She answered all the questions decisively and left no doubt. (DECIDE)",
+  "answer": "decisively",
+  "category": "wordform",
+  "notes": "decisively = firmly, without doubt."
+ },
+ {
+  "prompt": "She bought a fashionable ___ handbag. (LEATHER)",
+  "answer": "a fashionable leather",
+  "category": "wordform",
+  "notes": "a fashionable leather = trendy leather bag."
+ },
+ {
+  "prompt": "She bought an ___ blue Japanese car. (EXPENSE)",
+  "answer": "expensive",
+  "category": "wordform",
+  "notes": "expensive = costing a lot."
+ },
+ {
+  "prompt": "She carried a small black ___ bag. (LEATHER)",
+  "answer": "small black leather",
+  "category": "wordform",
+  "notes": "small black leather = little dark leather bag."
+ },
+ {
+  "prompt": "She chose a stylish ___ jacket for winter. (DENIM)",
+  "answer": "stylish denim jacket",
+  "category": "wordform",
+  "notes": "stylish denim jacket = fashionable strong cotton jacket."
+ },
+ {
+  "prompt": "She chose a ___ arrangement of flowers. (TASTE)",
+  "answer": "tasteful",
+  "category": "wordform",
+  "notes": "tasteful = elegant; tasty = delicious"
+ },
+ {
+  "prompt": "She complains ___ about the noise next door. (CONSTANT)",
+  "answer": "constantly",
+  "category": "wordform",
+  "notes": "constantly = all the time, repeatedly."
+ },
+ {
+  "prompt": "She decorated the room beautifully for Tet. (BEAUTY)",
+  "answer": "beautifully",
+  "category": "wordform",
+  "notes": "beautifully = in beautiful way."
+ },
+ {
+  "prompt": "She drives a small ___ car to save petrol. (ECONOMY)",
+  "answer": "economical",
+  "category": "wordform",
+  "notes": "economical = thrifty/saving money"
+ },
+ {
+  "prompt": "She earned a ___ reputation with her clients. (RESPECT)",
+  "answer": "respectable",
+  "category": "wordform",
+  "notes": "respectable = worthy of respect; respectful = showing respect"
+ },
+ {
+  "prompt": "She explained the lesson helpfully to the new student. (HELP)",
+  "answer": "helpfully",
+  "category": "wordform",
+  "notes": "helpfully = in helpful way."
+ },
+ {
+  "prompt": "She felt deeply unhappy about the broken vase. (HAPPY)",
+  "answer": "unhappy",
+  "category": "wordform",
+  "notes": "unhappy = sad, not happy."
+ },
+ {
+  "prompt": "She felt embarrassed when she forgot her lines. (EMBARRASS)",
+  "answer": "embarrassed",
+  "category": "wordform",
+  "notes": "embarrassed = ashamed, shy feeling."
+ },
+ {
+  "prompt": "She felt ___ of making such an error. (CAPABLE)",
+  "answer": "incapable",
+  "category": "wordform",
+  "notes": "in- + capable = not able"
+ },
+ {
+  "prompt": "She felt nervous before her first job interview. (NERVE)",
+  "answer": "nervous",
+  "category": "wordform",
+  "notes": "nervous = worried, afraid."
+ },
+ {
+  "prompt": "She gave a brief historical account of the war. (HISTORY)",
+  "answer": "historical",
+  "category": "wordform",
+  "notes": "historical = about past history."
+ },
+ {
+  "prompt": "She gave a confident smile before starting her speech. (CONFIDENCE)",
+  "answer": "confident",
+  "category": "wordform",
+  "notes": "confident = sure of self."
+ },
+ {
+  "prompt": "She gave a ___ account of the accident. (CREDIBLE)",
+  "answer": "a credible account",
+  "category": "wordform",
+  "notes": "credible = believable"
+ },
+ {
+  "prompt": "She gave a tactful answer that offended no one. (TACT)",
+  "answer": "tactful",
+  "category": "wordform",
+  "notes": "tactful = polite, careful with words."
+ },
+ {
+  "prompt": "She gave an ___ answer to every question. (HONEST)",
+  "answer": "an honest answer",
+  "category": "wordform",
+  "notes": "an honest answer = truthful reply."
+ },
+ {
+  "prompt": "She gave him a delicate ___ ring. (GOLD)",
+  "answer": "golden",
+  "category": "wordform",
+  "notes": "golden = made of gold."
+ },
+ {
+  "prompt": "She had great ___ in solving the puzzle. (DIFFICULT)",
+  "answer": "difficulty",
+  "category": "wordform",
+  "notes": "difficulty = hard problem."
+ },
+ {
+  "prompt": "She had to make a hard pick between jobs. (CHOOSE)",
+  "answer": "choice",
+  "category": "wordform",
+  "notes": "choice = act of picking."
+ },
+ {
+  "prompt": "She has a comfortable new ___ sofa. (VELVET)",
+  "answer": "comfortable new velvet",
+  "category": "wordform",
+  "notes": "comfortable new velvet = cosy new velvet sofa."
+ },
+ {
+  "prompt": "She has a strong ___ for classical music. (PREFER)",
+  "answer": "preference",
+  "category": "wordform",
+  "notes": "preference = liking one thing more."
+ },
+ {
+  "prompt": "She has long ___ black hair. (BEAUTY)",
+  "answer": "beautiful",
+  "category": "wordform",
+  "notes": "beautiful = pretty, pleasing to look at."
+ },
+ {
+  "prompt": "She is afraid of the ___. (DARK)",
+  "answer": "darkness",
+  "category": "wordform",
+  "notes": "darkness = lack of light."
+ },
+ {
+  "prompt": "She lifted the box with surprising ___. (STRONG)",
+  "answer": "strength",
+  "category": "wordform",
+  "notes": "strength = great physical power."
+ },
+ {
+  "prompt": "She lives in a narrow grey ___ house. (STONE)",
+  "answer": "narrow grey stone",
+  "category": "wordform",
+  "notes": "narrow grey stone = slim grey stone house."
+ },
+ {
+  "prompt": "She looked at the excuse rather doubtfully. (DOUBT)",
+  "answer": "doubtfully",
+  "category": "wordform",
+  "notes": "doubtfully = uncertainly, with doubt."
+ },
+ {
+  "prompt": "She rewrote the essay before handing it in. (REVISE)",
+  "answer": "revision",
+  "category": "wordform",
+  "notes": "revision = rewritten improved version."
+ },
+ {
+  "prompt": "She read his silence the wrong way. (INTERPRET)",
+  "answer": "misinterpreted",
+  "category": "wordform",
+  "notes": "misinterpreted = understood wrongly."
+ },
+ {
+  "prompt": "She said the word wrongly in class. (PRONOUNCE)",
+  "answer": "mispronounced",
+  "category": "wordform",
+  "notes": "mispronounced = said wrongly."
+ },
+ {
+  "prompt": "She packed the glasses carefully in layers of newspaper. (CARE)",
+  "answer": "carefully",
+  "category": "wordform",
+  "notes": "carefully = with care."
+ },
+ {
+  "prompt": "She painted a bright yellow ___ door. (MUSTARD)",
+  "answer": "bright yellow mustard",
+  "category": "wordform",
+  "notes": "bright yellow mustard = vivid yellow brown shade."
+ },
+ {
+  "prompt": "She runs a highly ___ online business. (SUCCEED)",
+  "answer": "successful",
+  "category": "wordform",
+  "notes": "successful (-ful) = achieving success"
+ },
+ {
+  "prompt": "She sent a kind offer to help. (PROPOSE)",
+  "answer": "proposal",
+  "category": "wordform",
+  "notes": "proposal = kind offer."
+ },
+ {
+  "prompt": "She shouted angrily when the bike was stolen. (ANGER)",
+  "answer": "angrily",
+  "category": "wordform",
+  "notes": "angrily = with anger."
+ },
+ {
+  "prompt": "She spent her ___ in the countryside. (CHILD)",
+  "answer": "childhood",
+  "category": "wordform",
+  "notes": "childhood = time of being child."
+ },
+ {
+  "prompt": "She spoke in a serious voice about the accident. (SERIOUS)",
+  "answer": "a serious voice",
+  "category": "wordform",
+  "notes": "a serious voice = grave, solemn tone."
+ },
+ {
+  "prompt": "She spoke with great ___ at the interview. (CONFIDENT)",
+  "answer": "confidence",
+  "category": "wordform",
+  "notes": "confidence = self-belief, calm trust."
+ },
+ {
+  "prompt": "She tapped her foot, too impatient to wait longer. (PATIENT)",
+  "answer": "impatient",
+  "category": "wordform",
+  "notes": "impatient = unable to wait calmly."
+ },
+ {
+  "prompt": "She took leave during the final month of ___. (PREGNANT)",
+  "answer": "pregnancy",
+  "category": "wordform",
+  "notes": "pregnancy = state of expecting baby."
+ },
+ {
+  "prompt": "She trained as a ___ pianist from age six. (CLASS)",
+  "answer": "classical",
+  "category": "wordform",
+  "notes": "classical = traditional/Western art form"
+ },
+ {
+  "prompt": "She was completely insensitive to other people's feelings. (SENSE)",
+  "answer": "insensitive",
+  "category": "wordform",
+  "notes": "insensitive = not caring about feelings."
+ },
+ {
+  "prompt": "She was annoyed by the noisy neighbour. (PLEASED)",
+  "answer": "displeased",
+  "category": "wordform",
+  "notes": "displeased = annoyed, unhappy."
+ },
+ {
+  "prompt": "She was overcome with ___ at her father's death. (GRIEVE)",
+  "answer": "grief",
+  "category": "wordform",
+  "notes": "grief = deep sadness."
+ },
+ {
+  "prompt": "She could not walk after the injury. (ABLE)",
+  "answer": "unable",
+  "category": "wordform",
+  "notes": "unable = not able."
+ },
+ {
+  "prompt": "She had bad luck after losing her wallet. (FORTUNATE)",
+  "answer": "unfortunate",
+  "category": "wordform",
+  "notes": "unfortunate = unlucky."
+ },
+ {
+  "prompt": "She wore a short blue ___ skirt. (COTTON)",
+  "answer": "short blue cotton",
+  "category": "wordform",
+  "notes": "short blue cotton = brief blue cotton skirt."
+ },
+ {
+  "prompt": "She wore a warm thick ___ sweater. (WOOL)",
+  "answer": "woollen",
+  "category": "wordform",
+  "notes": "woollen = made of wool."
+ },
+ {
+  "prompt": "She wore an elegant long ___ dress. (SILK)",
+  "answer": "elegant long silk",
+  "category": "wordform",
+  "notes": "elegant long silk = graceful long silk dress."
+ },
+ {
+  "prompt": "She wrote a ___ letter to thank him. (THOUGHT)",
+  "answer": "thoughtful",
+  "category": "wordform",
+  "notes": "thoughtful = considerate; thoughtless = rude"
+ },
+ {
+  "prompt": "Shouting at elders is rude and impolite. (RESPECTFUL)",
+  "answer": "disrespectful",
+  "category": "wordform",
+  "notes": "disrespectful = showing no respect."
+ },
+ {
+  "prompt": "Smoking is harmful to your health. (HARM)",
+  "answer": "harmful",
+  "category": "wordform",
+  "notes": "harmful = causing damage."
+ },
+ {
+  "prompt": "Smoking poses a serious risk to your ___. (HEAL)",
+  "answer": "health",
+  "category": "wordform",
+  "notes": "health = state of being well."
+ },
+ {
+  "prompt": "Some mushrooms in this forest are highly poisonous. (POISON)",
+  "answer": "poisonous",
+  "category": "wordform",
+  "notes": "poisonous = deadly by poison."
+ },
+ {
+  "prompt": "Some villagers are still superstitious about black cats. (SUPERSTITION)",
+  "answer": "superstitious",
+  "category": "wordform",
+  "notes": "superstitious = believing in unlucky signs."
+ },
+ {
+  "prompt": "Speaking daily helps you improve practically. (PRACTICE)",
+  "answer": "practically",
+  "category": "wordform",
+  "notes": "practically = usefully, in practice."
+ },
+ {
+  "prompt": "Stop asking such ___ questions in public. (CHILD)",
+  "answer": "childish",
+  "category": "wordform",
+  "notes": "childish = silly (negative); childlike = innocent (positive)"
+ },
+ {
+  "prompt": "Stray dogs are not received well here. (WELCOME)",
+  "answer": "unwelcome",
+  "category": "wordform",
+  "notes": "unwelcome = not welcome."
+ },
+ {
+  "prompt": "Such a mistake is ___ in a busy hospital. (AVOID)",
+  "answer": "unavoidable",
+  "category": "wordform",
+  "notes": "un- + avoid + -able = cannot be avoided"
+ },
+ {
+  "prompt": "Swimming in this river is extremely dangerous after heavy rain. (DANGER)",
+  "answer": "dangerous",
+  "category": "wordform",
+  "notes": "dangerous = full of risk."
+ },
+ {
+  "prompt": "Teaching young children requires a lot of ___. (PATIENT)",
+  "answer": "patience",
+  "category": "wordform",
+  "notes": "patience = calm waiting ability."
+ },
+ {
+  "prompt": "Thank you for your ___ to my family. (KIND)",
+  "answer": "kindness",
+  "category": "wordform",
+  "notes": "kindness = being kind."
+ },
+ {
+  "prompt": "That detective story is a ___ of the genre. (CLASS)",
+  "answer": "classic",
+  "category": "wordform",
+  "notes": "classic (noun/adj) = excellent example; classical = ancient/traditional style"
+ },
+ {
+  "prompt": "That remark is ___ to our discussion. (APPLY)",
+  "answer": "inapplicable",
+  "category": "wordform",
+  "notes": "inapplicable = not relevant"
+ },
+ {
+  "prompt": "The accident could not be prevented. (AVOIDABLE)",
+  "answer": "unavoidable",
+  "category": "wordform",
+  "notes": "unavoidable = cannot be avoided."
+ },
+ {
+  "prompt": "The army moved closer to the border. (TRUST)",
+  "answer": "distrust",
+  "category": "wordform",
+  "notes": "distrust = lack of trust."
+ },
+ {
+  "prompt": "The author earns a ___ on every book sold. (ROYAL)",
+  "answer": "royalty",
+  "category": "wordform",
+  "notes": "royalty = payment to author or owner."
+ },
+ {
+  "prompt": "The autumn here is often cold and rainy. (RAIN)",
+  "answer": "rainy",
+  "category": "wordform",
+  "notes": "rainy = with much rain."
+ },
+ {
+  "prompt": "The baby bird looked lost and ___. (HELP)",
+  "answer": "helpless",
+  "category": "wordform",
+  "notes": "helpless = unable to help oneself"
+ },
+ {
+  "prompt": "The baby cried noisily through the night. (NOISE)",
+  "answer": "noisily",
+  "category": "wordform",
+  "notes": "noisily = loudly, with noise."
+ },
+ {
+  "prompt": "The baby cannot feed itself yet. (CAPABLE)",
+  "answer": "incapable",
+  "category": "wordform",
+  "notes": "incapable = not able."
+ },
+ {
+  "prompt": "The beach is easily ___ by car. (ACCESS)",
+  "answer": "accessible",
+  "category": "wordform",
+  "notes": "accessible (-ible) = can be reached"
+ },
+ {
+  "prompt": "The beauty of the canyon cannot be put into words. (DESCRIBABLE)",
+  "answer": "indescribable",
+  "category": "wordform",
+  "notes": "indescribable = too great for words."
+ },
+ {
+  "prompt": "The boy refused to follow the rules. (OBEY)",
+  "answer": "disobeyed",
+  "category": "wordform",
+  "notes": "disobeyed = refused to obey."
+ },
+ {
+  "prompt": "The boy did not say thanks for the gift. (GRATEFUL)",
+  "answer": "ungrateful",
+  "category": "wordform",
+  "notes": "ungrateful = not thankful."
+ },
+ {
+  "prompt": "The bridge was completed recently. (RECENT)",
+  "answer": "recently",
+  "category": "wordform",
+  "notes": "recently = not long ago."
+ },
+ {
+  "prompt": "The bus runs all night without stopping. (STOP)",
+  "answer": "non-stop",
+  "category": "wordform",
+  "notes": "non-stop = without stopping."
+ },
+ {
+  "prompt": "The cake smells so good you cannot resist it. (RESISTIBLE)",
+  "answer": "irresistible",
+  "category": "wordform",
+  "notes": "irresistible = too attractive to resist."
+ },
+ {
+  "prompt": "The car is still ___ after the accident. (USE)",
+  "answer": "usable",
+  "category": "wordform",
+  "notes": "usable (-able) = fit for use; useful = helpful"
+ },
+ {
+  "prompt": "The charity concert was highly successful and raised a lot of money. (SUCCESS)",
+  "answer": "successful",
+  "category": "wordform",
+  "notes": "successful = achieving success."
+ },
+ {
+  "prompt": "The charity helps homeless children in the city. (HOME)",
+  "answer": "homeless",
+  "category": "wordform",
+  "notes": "homeless = having no home."
+ },
+ {
+  "prompt": "The child feels unsafe in the dark. (SECURE)",
+  "answer": "insecure",
+  "category": "wordform",
+  "notes": "insecure = unsafe, not confident."
+ },
+ {
+  "prompt": "The child acted badly at the party. (BEHAVE)",
+  "answer": "misbehaved",
+  "category": "wordform",
+  "notes": "misbehaved = behaved badly."
+ },
+ {
+  "prompt": "The child was ___ and refused to sit still. (PATIENCE)",
+  "answer": "impatient",
+  "category": "wordform",
+  "notes": "impatient = unable to wait calmly."
+ },
+ {
+  "prompt": "The children have great musical talent and are gifted. (MUSIC)",
+  "answer": "musical",
+  "category": "wordform",
+  "notes": "musical = about music, talented in music."
+ },
+ {
+  "prompt": "The children played happily in the park. (HAPPY)",
+  "answer": "happily",
+  "category": "wordform",
+  "notes": "happily = in happy way."
+ },
+ {
+  "prompt": "The children were excited about the school trip. (EXCITE)",
+  "answer": "were excited about",
+  "category": "wordform",
+  "notes": "were excited about = felt happy enthusiasm for."
+ },
+ {
+  "prompt": "The choir sang wonderfully at the school festival. (WONDER)",
+  "answer": "wonderfully",
+  "category": "wordform",
+  "notes": "wonderfully = very well, marvellously."
+ },
+ {
+  "prompt": "The class listened quietly and were very obedient. (OBEY)",
+  "answer": "obedient",
+  "category": "wordform",
+  "notes": "obedient = following orders well."
+ },
+ {
+  "prompt": "The classroom was too noisy to hear the bell. (NOISE)",
+  "answer": "noisy",
+  "category": "wordform",
+  "notes": "noisy = loud, full of noise."
+ },
+ {
+  "prompt": "The climber stood fearless on the edge of the cliff. (FEAR)",
+  "answer": "fearless",
+  "category": "wordform",
+  "notes": "fearless = brave, without fear."
+ },
+ {
+  "prompt": "The club promotes a spirit of ___ among members. (BROTHER)",
+  "answer": "brotherhood",
+  "category": "wordform",
+  "notes": "brotherhood = feeling of brotherly unity."
+ },
+ {
+  "prompt": "The ___ between the two ships caused an oil spill. (COLLIDE)",
+  "answer": "collision",
+  "category": "wordform",
+  "notes": "collision = violent crash together."
+ },
+ {
+  "prompt": "The committee rejected the proposal. (APPROVE)",
+  "answer": "disapproved",
+  "category": "wordform",
+  "notes": "disapproved = rejected, said no to."
+ },
+ {
+  "prompt": "The committee's ___ surprised everyone. (DECIDE)",
+  "answer": "decision",
+  "category": "wordform",
+  "notes": "decision = choice after thinking."
+ },
+ {
+  "prompt": "The country faces serious economic problems this year. (ECONOMY)",
+  "answer": "economic",
+  "category": "wordform",
+  "notes": "economic = about economy."
+ },
+ {
+  "prompt": "The crowd grew restless waiting for the bus. (PATIENT)",
+  "answer": "impatient",
+  "category": "wordform",
+  "notes": "impatient = unable to wait calmly."
+ },
+ {
+  "prompt": "The ___ of the war shocked the world. (CRUEL)",
+  "answer": "cruelty",
+  "category": "wordform",
+  "notes": "cruelty = cruel behaviour."
+ },
+ {
+  "prompt": "The deadline for the ___ of essays is Friday. (SUBMIT)",
+  "answer": "submission",
+  "category": "wordform",
+  "notes": "submission = act of handing in."
+ },
+ {
+  "prompt": "The delay was ___. (AVOID)",
+  "answer": "avoidable",
+  "category": "wordform",
+  "notes": "avoidable = could be avoided; unavoidable = certain"
+ },
+ {
+  "prompt": "The ___ of the train was delayed by fog. (DEPART)",
+  "answer": "departure",
+  "category": "wordform",
+  "notes": "departure = act of leaving."
+ },
+ {
+  "prompt": "The ___ of the lake exceeds thirty metres. (DEEP)",
+  "answer": "depth",
+  "category": "wordform",
+  "notes": "depth = how deep something is."
+ },
+ {
+  "prompt": "The portrait of the king hangs in the hall. (DESCRIBE)",
+  "answer": "description",
+  "category": "wordform",
+  "notes": "description = words picturing something."
+ },
+ {
+  "prompt": "The ___ of new vaccines takes years. (DEVELOP)",
+  "answer": "development",
+  "category": "wordform",
+  "notes": "development = growth and improvement process."
+ },
+ {
+  "prompt": "The discovery was a major scientific breakthrough. (SCIENCE)",
+  "answer": "scientific",
+  "category": "wordform",
+  "notes": "scientific = about science."
+ },
+ {
+  "prompt": "The disease cannot be cured by drugs. (CURABLE)",
+  "answer": "incurable",
+  "category": "wordform",
+  "notes": "incurable = cannot be cured."
+ },
+ {
+  "prompt": "The dish is traditionally cooked with coconut milk. (TRADITION)",
+  "answer": "traditionally",
+  "category": "wordform",
+  "notes": "traditionally = in traditional way."
+ },
+ {
+  "prompt": "The ___ from Hanoi to Hue is about 600 km. (DISTANT)",
+  "answer": "distance",
+  "category": "wordform",
+  "notes": "distance = space between places."
+ },
+ {
+  "prompt": "The ___ of labour increases productivity. (DIVIDE)",
+  "answer": "division",
+  "category": "wordform",
+  "notes": "division = splitting into parts."
+ },
+ {
+  "prompt": "The doctor advised him to lose ___. (WEIGH)",
+  "answer": "weight",
+  "category": "wordform",
+  "notes": "weight = how heavy something is."
+ },
+ {
+  "prompt": "The doctor wrote an order for medicine. (PRESCRIBE)",
+  "answer": "prescription",
+  "category": "wordform",
+  "notes": "prescription = written medicine order."
+ },
+ {
+  "prompt": "The document was fake and not genuine. (LEGITIMATE)",
+  "answer": "illegitimate",
+  "category": "wordform",
+  "notes": "illegitimate = illegal, not genuine."
+ },
+ {
+  "prompt": "The dog sat obediently and waited for orders. (OBEY)",
+  "answer": "obediently",
+  "category": "wordform",
+  "notes": "obediently = in obedient way."
+ },
+ {
+  "prompt": "The dog stayed faithful to its master for years. (FAITH)",
+  "answer": "faithful",
+  "category": "wordform",
+  "notes": "faithful = loyal and true."
+ },
+ {
+  "prompt": "The dutiful soldier guarded the gate all night. (DUTY)",
+  "answer": "dutiful",
+  "category": "wordform",
+  "notes": "dutiful = doing duty responsibly."
+ },
+ {
+  "prompt": "The ___ of the new machine saves energy. (EFFICIENT)",
+  "answer": "efficiency",
+  "category": "wordform",
+  "notes": "efficiency = saving time and energy."
+ },
+ {
+  "prompt": "The elderly need financial ___ from the state. (ASSIST)",
+  "answer": "assistance",
+  "category": "wordform",
+  "notes": "assistance = help and support."
+ },
+ {
+  "prompt": "The ___ of her dress caught everyone's eye. (ELEGANT)",
+  "answer": "elegance",
+  "category": "wordform",
+  "notes": "elegance = graceful beauty."
+ },
+ {
+  "prompt": "The factory uses resources poorly and wastes a lot. (EFFICIENT)",
+  "answer": "inefficient",
+  "category": "wordform",
+  "notes": "inefficient = wasting resources."
+ },
+ {
+  "prompt": "The ___ of the crops caused a famine. (FAIL)",
+  "answer": "failure",
+  "category": "wordform",
+  "notes": "failure = lack of success."
+ },
+ {
+  "prompt": "The famous actor was surrounded by fans at the airport. (FAME)",
+  "answer": "famous",
+  "category": "wordform",
+  "notes": "famous = well known."
+ },
+ {
+  "prompt": "The ___ of the soil ensures good harvests. (FERTILE)",
+  "answer": "fertility",
+  "category": "wordform",
+  "notes": "fertility = ability to grow well."
+ },
+ {
+  "prompt": "The festival was filled with colourful lanterns. (COLOUR)",
+  "answer": "colourful",
+  "category": "wordform",
+  "notes": "colourful = bright with colours."
+ },
+ {
+  "prompt": "The final match was tense and exciting. (EXCITE)",
+  "answer": "tense and exciting",
+  "category": "wordform",
+  "notes": "tense and exciting = nervous but thrilling."
+ },
+ {
+  "prompt": "The firm reported a heavy deficit last year. (LOSE)",
+  "answer": "loss",
+  "category": "wordform",
+  "notes": "loss = losing money or something lost."
+ }
+]

@@ -1,0 +1,1244 @@
+[
+  {
+    "prompt": "He stands out as the best player in the team.",
+    "answer": "stands out as",
+    "category": "blank_fill",
+    "notes": "stands out as = be clearly noticeable."
+  },
+  {
+    "prompt": "He succeeded ___ his disability.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite disability."
+  },
+  {
+    "prompt": "He succeeded ____ spite of persistent health problems.",
+    "answer": "succeeded in spite",
+    "category": "blank_fill",
+    "notes": "succeeded in spite = succeeded despite illness."
+  },
+  {
+    "prompt": "He turned against his former allies after the dispute.",
+    "answer": "turned against his",
+    "category": "blank_fill",
+    "notes": "turned against his = became hostile to allies."
+  },
+  {
+    "prompt": "He turned over a new leaf after leaving prison.",
+    "answer": "turned over a",
+    "category": "blank_fill",
+    "notes": "turned over a = started behaving better."
+  },
+  {
+    "prompt": "He ____ to smoke heavily.",
+    "answer": "used to smoke",
+    "category": "blank_fill",
+    "notes": "used to smoke = smoked regularly in the past."
+  },
+  {
+    "prompt": "He was angry ____ his friend for revealing the secret.",
+    "answer": "angry with his",
+    "category": "blank_fill",
+    "notes": "angry with his = annoyed at a friend."
+  },
+  {
+    "prompt": "He was brought up by his grandmother in the countryside.",
+    "answer": "brought up by",
+    "category": "blank_fill",
+    "notes": "brought up by = raised by grandmother."
+  },
+  {
+    "prompt": "He was charged ____ smuggling prohibited goods.",
+    "answer": "charged with smuggling",
+    "category": "blank_fill",
+    "notes": "charged with smuggling = accused formally of smuggling."
+  },
+  {
+    "prompt": "He was found guilty ____ forging the signature.",
+    "answer": "guilty of forging",
+    "category": "blank_fill",
+    "notes": "guilty of forging = responsible for forgery offence."
+  },
+  {
+    "prompt": "He was knocked down by a cyclist on the pavement.",
+    "answer": "knocked down by",
+    "category": "blank_fill",
+    "notes": "knocked down by = hit down by a cyclist."
+  },
+  {
+    "prompt": "He was prevented ____ attending the meeting on time.",
+    "answer": "prevented from attending",
+    "category": "blank_fill",
+    "notes": "prevented from attending = stopped from attending meeting."
+  },
+  {
+    "prompt": "He was released ___ he report weekly.",
+    "answer": "on condition that",
+    "category": "blank_fill",
+    "notes": "on condition that = only if reporting weekly."
+  },
+  {
+    "prompt": "He was warned repeatedly; ___, he drove carelessly.",
+    "answer": "warned repeatedly; nonetheless",
+    "category": "blank_fill",
+    "notes": "nonetheless = nevertheless."
+  },
+  {
+    "prompt": "He whispered ___ anyone should overhear us.",
+    "answer": "whispered lest anyone",
+    "category": "blank_fill",
+    "notes": "whispered lest anyone = whispered to avoid being overheard."
+  },
+  {
+    "prompt": "He ____ call you tonight.",
+    "answer": "will call you",
+    "category": "blank_fill",
+    "notes": "will call you = promise to call tonight."
+  },
+  {
+    "prompt": "He will lend you money ___ you repay it soon.",
+    "answer": "provided that",
+    "category": "blank_fill",
+    "notes": "provided that = only if repaying soon."
+  },
+  {
+    "prompt": "Health is preferable ____ wealth in the opinion of many doctors.",
+    "answer": "preferable to wealth",
+    "category": "blank_fill",
+    "notes": "preferable to wealth = better than wealth."
+  },
+  {
+    "prompt": "Her handwriting is similar ____ her elder sister's.",
+    "answer": "similar to her",
+    "category": "blank_fill",
+    "notes": "similar to her = nearly same as sister's."
+  },
+  {
+    "prompt": "Her interest in medicine stems from her father's influence.",
+    "answer": "stems from her",
+    "category": "blank_fill",
+    "notes": "stems from her = comes from father's influence."
+  },
+  {
+    "prompt": "Her success is accounted for by sheer hard work.",
+    "answer": "accounted for by",
+    "category": "blank_fill",
+    "notes": "accounted for by = explained by hard work."
+  },
+  {
+    "prompt": "____ brother works in a bank.",
+    "answer": "His brother works",
+    "category": "blank_fill",
+    "notes": "His brother works = his brother has a job."
+  },
+  {
+    "prompt": "His courage held up throughout the trial.",
+    "answer": "held up throughout",
+    "category": "blank_fill",
+    "notes": "held up throughout = remained strong during trial."
+  },
+  {
+    "prompt": "His illness accounts for his absence from school.",
+    "answer": "accounts for his",
+    "category": "blank_fill",
+    "notes": "accounts for his = explains his absence."
+  },
+  {
+    "prompt": "His name was put forward as a candidate for chairman.",
+    "answer": "put forward as",
+    "category": "blank_fill",
+    "notes": "put forward as = nominated as candidate."
+  },
+  {
+    "prompt": "His prompt reaction ____ the fire saved many lives.",
+    "answer": "reaction to the",
+    "category": "blank_fill",
+    "notes": "reaction to the = response to the fire."
+  },
+  {
+    "prompt": "His shyness stems from a lack of confidence as a child.",
+    "answer": "stems from a",
+    "category": "blank_fill",
+    "notes": "stems from a = originates in lack of confidence."
+  },
+  {
+    "prompt": "Honesty is the key ____ winning people's trust.",
+    "answer": "key to winning",
+    "category": "blank_fill",
+    "notes": "key to winning = means of gaining trust."
+  },
+  {
+    "prompt": "How do you account for the missing funds?",
+    "answer": "account for the",
+    "category": "blank_fill",
+    "notes": "account for the = explain the missing funds."
+  },
+  {
+    "prompt": "___ clever the excuse sounds, I do not believe it.",
+    "answer": "however clever the",
+    "category": "blank_fill",
+    "notes": "however clever the = no matter how clever."
+  },
+  {
+    "prompt": "___ hard he tried, he could not solve the puzzle.",
+    "answer": "however hard he",
+    "category": "blank_fill",
+    "notes": "however hard he = no matter how hard trying."
+  },
+  {
+    "prompt": "___ long the delay, please wait for further notice.",
+    "answer": "however long the",
+    "category": "blank_fill",
+    "notes": "however long the = no matter how long delayed."
+  },
+  {
+    "prompt": "___ much they objected, the plan was approved.",
+    "answer": "however much they",
+    "category": "blank_fill",
+    "notes": "however much they = no matter how much objected."
+  },
+  {
+    "prompt": "___ wealthy he becomes, he will remain frugal.",
+    "answer": "however wealthy he",
+    "category": "blank_fill",
+    "notes": "however wealthy he = no matter how wealthy becoming."
+  },
+  {
+    "prompt": "I am busy, but I ____ help you later.",
+    "answer": "I will help",
+    "category": "blank_fill",
+    "notes": "I will help = promise future help."
+  },
+  {
+    "prompt": "I did it all by ____.",
+    "answer": "all by myself",
+    "category": "blank_fill",
+    "notes": "all by myself = alone without help."
+  },
+  {
+    "prompt": "I ____ believe every word you say.",
+    "answer": "do believe every",
+    "category": "blank_fill",
+    "notes": "do believe every = truly believe every word."
+  },
+  {
+    "prompt": "I had ____ sandwich for lunch.",
+    "answer": "had a sandwich",
+    "category": "blank_fill",
+    "notes": "had a sandwich = ate one sandwich."
+  },
+  {
+    "prompt": "I have ____ time to spare.",
+    "answer": "have little time",
+    "category": "blank_fill",
+    "notes": "have little time = have almost no free time."
+  },
+  {
+    "prompt": "I ____ never seen snow.",
+    "answer": "have never seen",
+    "category": "blank_fill",
+    "notes": "have never seen = have no experience of snow."
+  },
+  {
+    "prompt": "I have ____ left to give you.",
+    "answer": "have none left",
+    "category": "blank_fill",
+    "notes": "have none left = have nothing remaining."
+  },
+  {
+    "prompt": "I have two cats; one is white and the ____ is black.",
+    "answer": "the other is",
+    "category": "blank_fill",
+    "notes": "the other is = the second of two."
+  },
+  {
+    "prompt": "I like films and so ____ my sister.",
+    "answer": "so does my",
+    "category": "blank_fill",
+    "notes": "so does my = my sister also likes films."
+  },
+  {
+    "prompt": "I like ____ music they played last night.",
+    "answer": "like the music",
+    "category": "blank_fill",
+    "notes": "like the music = like the specific music played."
+  },
+  {
+    "prompt": "I ran into an old school friend at the market.",
+    "answer": "ran into an",
+    "category": "blank_fill",
+    "notes": "ran into an = met by chance."
+  },
+  {
+    "prompt": "I saw ____ playing in the park.",
+    "answer": "saw them playing",
+    "category": "blank_fill",
+    "notes": "saw them playing = saw them playing there."
+  },
+  {
+    "prompt": "I suggest that he ____ present.",
+    "answer": "that he be",
+    "category": "blank_fill",
+    "notes": "that he be = should be present."
+  },
+  {
+    "prompt": "I wish I ____ taller.",
+    "answer": "wish I were",
+    "category": "blank_fill",
+    "notes": "wish I were = want to be taller."
+  },
+  {
+    "prompt": "I would help you ___ you never thanked me.",
+    "answer": "even if",
+    "category": "blank_fill",
+    "notes": "even if = despite never being thanked."
+  },
+  {
+    "prompt": "I would like ____ more tea.",
+    "answer": "like some more",
+    "category": "blank_fill",
+    "notes": "like some more = want additional tea."
+  },
+  {
+    "prompt": "I ____ rather stay at home tonight.",
+    "answer": "would rather stay",
+    "category": "blank_fill",
+    "notes": "would rather stay = prefer staying at home."
+  },
+  {
+    "prompt": "If only she ____ here now.",
+    "answer": "she were here",
+    "category": "blank_fill",
+    "notes": "she were here = wish she were present."
+  },
+  {
+    "prompt": "In an emergency, fall back on your training.",
+    "answer": "back on",
+    "category": "blank_fill",
+    "notes": "back on = depend on in difficulty."
+  },
+  {
+    "prompt": "___ being warned, he kept driving carelessly.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite being warned."
+  },
+  {
+    "prompt": "___ having little money, he donates regularly.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite having little money."
+  },
+  {
+    "prompt": "___ herself, she burst into laughter.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = could not help laughing."
+  },
+  {
+    "prompt": "___ repeated warnings, few people evacuated.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite repeated warnings."
+  },
+  {
+    "prompt": "___ the delay, we arrived on time.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite the delay."
+  },
+  {
+    "prompt": "___ the fact that he is shy, he gave a fine speech.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite being shy."
+  },
+  {
+    "prompt": "___ the heavy rain, the match continued.",
+    "answer": "in spite of",
+    "category": "blank_fill",
+    "notes": "in spite of = despite heavy rain."
+  },
+  {
+    "prompt": "Is there ____ I can do?",
+    "answer": "there anything I",
+    "category": "blank_fill",
+    "notes": "there anything I = offer of any help."
+  },
+  {
+    "prompt": "____ is raining heavily now.",
+    "answer": "It is raining",
+    "category": "blank_fill",
+    "notes": "It is raining = weather is rainy now."
+  },
+  {
+    "prompt": "It turned out that nobody had locked the front door.",
+    "answer": "turned out that",
+    "category": "blank_fill",
+    "notes": "turned out that = proved to be the case."
+  },
+  {
+    "prompt": "It was cold; ___, nobody complained.",
+    "answer": "was cold; however",
+    "category": "blank_fill",
+    "notes": "was cold; however = cold but nobody complained."
+  },
+  {
+    "prompt": "It was John ____ broke the window.",
+    "answer": "John who broke",
+    "category": "blank_fill",
+    "notes": "John who broke = John was the culprit."
+  },
+  {
+    "prompt": "Lead-based paint was phased out for safety reasons.",
+    "answer": "phased out for",
+    "category": "blank_fill",
+    "notes": "phased out for = removed gradually for safety."
+  },
+  {
+    "prompt": "Let us get down to business without further delay.",
+    "answer": "down to",
+    "category": "blank_fill",
+    "notes": "down to = start dealing with seriously."
+  },
+  {
+    "prompt": "Let us run through the plan once more before the inspection.",
+    "answer": "run through the",
+    "category": "blank_fill",
+    "notes": "run through the = rehearse the plan quickly."
+  },
+  {
+    "prompt": "Many families travel together ____ Tet.",
+    "answer": "travel together at",
+    "category": "blank_fill",
+    "notes": "travel together at = travel during Tet holiday."
+  },
+  {
+    "prompt": "Many of our customs stem from ancient agricultural rites.",
+    "answer": "stem from ancient",
+    "category": "blank_fill",
+    "notes": "stem from ancient = originate in ancient rites."
+  },
+  {
+    "prompt": "Many species are threatened ____ extinction due to deforestation.",
+    "answer": "threatened with extinction",
+    "category": "blank_fill",
+    "notes": "threatened with extinction = face extinction as risk."
+  },
+  {
+    "prompt": "____ students passed the exam.",
+    "answer": "Many students passed",
+    "category": "blank_fill",
+    "notes": "Many students passed = many passed the exam."
+  },
+  {
+    "prompt": "____ I borrow your pen?",
+    "answer": "May I borrow",
+    "category": "blank_fill",
+    "notes": "May I borrow = request permission politely."
+  },
+  {
+    "prompt": "____ birds can fly.",
+    "answer": "Most birds can",
+    "category": "blank_fill",
+    "notes": "Most birds can = almost all birds fly."
+  },
+  {
+    "prompt": "Most of ____ agreed with him.",
+    "answer": "of us agreed",
+    "category": "blank_fill",
+    "notes": "of us agreed = we agreed with him."
+  },
+  {
+    "prompt": "Most villagers are opposed ____ building a factory near the river.",
+    "answer": "opposed to building",
+    "category": "blank_fill",
+    "notes": "opposed to building = against building a factory."
+  },
+  {
+    "prompt": "Mount Everest is ____ highest mountain.",
+    "answer": "is the highest",
+    "category": "blank_fill",
+    "notes": "is the highest = is the tallest mountain."
+  },
+  {
+    "prompt": "___ he hates flying, he travels abroad often.",
+    "answer": "much as",
+    "category": "blank_fill",
+    "notes": "much as = although hating flying."
+  },
+  {
+    "prompt": "___ I admire his talent, I dislike his arrogance.",
+    "answer": "much as",
+    "category": "blank_fill",
+    "notes": "much as = although; formal concessive."
+  },
+  {
+    "prompt": "___ I respect the teacher, I cannot accept this decision.",
+    "answer": "much as",
+    "category": "blank_fill",
+    "notes": "much as = although respecting the teacher."
+  },
+  {
+    "prompt": "Much as they complained, the fee remained ___ all protests.",
+    "answer": "remained despite all",
+    "category": "blank_fill",
+    "notes": "remained despite all = stayed despite all protests."
+  },
+  {
+    "prompt": "___ we wanted to stay, we had to catch the last train.",
+    "answer": "much as",
+    "category": "blank_fill",
+    "notes": "much as = although wanting to stay."
+  },
+  {
+    "prompt": "Much criticised ___ it was, the book became a bestseller.",
+    "answer": "criticised although it",
+    "category": "blank_fill",
+    "notes": "criticised although it = although heavily criticised book."
+  },
+  {
+    "prompt": "____ effort is needed to succeed.",
+    "answer": "Much effort is",
+    "category": "blank_fill",
+    "notes": "Much effort is = much effort is needed."
+  },
+  {
+    "prompt": "My brother likes football, ___ I prefer chess.",
+    "answer": "football, whereas I",
+    "category": "blank_fill",
+    "notes": "football, whereas I = football but I prefer chess."
+  },
+  {
+    "prompt": "____ left leg hurts.",
+    "answer": "My left leg",
+    "category": "blank_fill",
+    "notes": "My left leg = my leg hurts."
+  },
+  {
+    "prompt": "My old school valued discipline, ___ my new one encourages creativity.",
+    "answer": "discipline, whereas my",
+    "category": "blank_fill",
+    "notes": "discipline, whereas my = discipline but new school encourages creativity."
+  },
+  {
+    "prompt": "____ of the answers is correct.",
+    "answer": "Neither of the",
+    "category": "blank_fill",
+    "notes": "Neither of the = neither answer is correct."
+  },
+  {
+    "prompt": "Neither twin looks like the ____.",
+    "answer": "like the other",
+    "category": "blank_fill",
+    "notes": "like the other = like the other twin."
+  },
+  {
+    "prompt": "Never ____ I seen such beauty.",
+    "answer": "have I seen",
+    "category": "blank_fill",
+    "notes": "have I seen = never seen such beauty."
+  },
+  {
+    "prompt": "___ hard he tries, he keeps failing.",
+    "answer": "no matter how",
+    "category": "blank_fill",
+    "notes": "no matter how = regardless how hard trying."
+  },
+  {
+    "prompt": "___ happens, keep calm and carry on.",
+    "answer": "no matter what",
+    "category": "blank_fill",
+    "notes": "no matter what = regardless what happens calmly."
+  },
+  {
+    "prompt": "No sooner ____ she arrived than he left.",
+    "answer": "sooner had she",
+    "category": "blank_fill",
+    "notes": "sooner had she = immediately after she arrived."
+  },
+  {
+    "prompt": "____ student failed this time.",
+    "answer": "No student failed",
+    "category": "blank_fill",
+    "notes": "No student failed = every student passed."
+  },
+  {
+    "prompt": "____ came to the meeting.",
+    "answer": "Nobody came to",
+    "category": "blank_fill",
+    "notes": "Nobody came to = no one attended the meeting."
+  },
+  {
+    "prompt": "Noise pollution results ____ stress and loss of concentration.",
+    "answer": "results in stress",
+    "category": "blank_fill",
+    "notes": "results in stress = causes stress and distraction."
+  },
+  {
+    "prompt": "Not only ____ they win but they broke the record.",
+    "answer": "only did they",
+    "category": "blank_fill",
+    "notes": "only did they = they not only won."
+  },
+  {
+    "prompt": "Nothing will change ___ the law is reformed.",
+    "answer": "change unless the",
+    "category": "blank_fill",
+    "notes": "change unless the = only if law is reformed."
+  },
+  {
+    "prompt": "___ his poverty, he remained generous.",
+    "answer": "notwithstanding his poverty,",
+    "category": "blank_fill",
+    "notes": "notwithstanding his poverty, = despite poverty remained generous."
+  },
+  {
+    "prompt": "___ the delay, the parcel arrived intact.",
+    "answer": "notwithstanding the delay,",
+    "category": "blank_fill",
+    "notes": "notwithstanding the delay, = despite delay arrived intact."
+  },
+  {
+    "prompt": "____ should always keep promises.",
+    "answer": "One should always",
+    "category": "blank_fill",
+    "notes": "One should always = everyone should keep promises."
+  },
+  {
+    "prompt": "Only a handful of people turned up for the lecture.",
+    "answer": "turned up for",
+    "category": "blank_fill",
+    "notes": "turned up for = attended the lecture."
+  },
+  {
+    "prompt": "____ say he will resign soon.",
+    "answer": "Others say he",
+    "category": "blank_fill",
+    "notes": "Others say he = other people predict resignation."
+  },
+  {
+    "prompt": "____ school is very large.",
+    "answer": "Our school is",
+    "category": "blank_fill",
+    "notes": "Our school is = our school is large."
+  },
+  {
+    "prompt": "Owls usually hunt ____ night.",
+    "answer": "usually hunt at",
+    "category": "blank_fill",
+    "notes": "usually hunt at = hunt during the night."
+  },
+  {
+    "prompt": "Parents should be aware ____ the risks of social media.",
+    "answer": "aware of the",
+    "category": "blank_fill",
+    "notes": "aware of the = conscious of social media risks."
+  },
+  {
+    "prompt": "Please be here ____ time for the important briefing.",
+    "answer": "here on time",
+    "category": "blank_fill",
+    "notes": "here on time = punctual for the briefing."
+  },
+  {
+    "prompt": "Please concentrate ____ the task instead of chatting.",
+    "answer": "concentrate on the",
+    "category": "blank_fill",
+    "notes": "concentrate on the = focus on the task."
+  },
+  {
+    "prompt": "Please fill in your name and address on this form.",
+    "answer": "fill in in",
+    "category": "blank_fill",
+    "notes": "fill in in = complete with information."
+  },
+  {
+    "prompt": "Please refer ____ page forty for detailed instructions.",
+    "answer": "refer to page",
+    "category": "blank_fill",
+    "notes": "refer to page = consult page forty."
+  },
+  {
+    "prompt": "Police are searching ____ the missing documents.",
+    "answer": "searching for the",
+    "category": "blank_fill",
+    "notes": "searching for the = looking for missing documents."
+  },
+  {
+    "prompt": "Prices fell by ten per cent last month.",
+    "answer": "fell by ten",
+    "category": "blank_fill",
+    "notes": "fell by ten = decreased by ten percent."
+  },
+  {
+    "prompt": "Prices have risen sharply ____ the past few months.",
+    "answer": "sharply within the",
+    "category": "blank_fill",
+    "notes": "sharply within the = during recent past months."
+  },
+  {
+    "prompt": "Prices rose sharply; ___, demand remained high.",
+    "answer": "rose sharply; nonetheless",
+    "category": "blank_fill",
+    "notes": "rose sharply; nonetheless = rose but demand stayed high."
+  },
+  {
+    "prompt": "Prices went up sharply after the drought.",
+    "answer": "went up sharply",
+    "category": "blank_fill",
+    "notes": "went up sharply = increased sharply after drought."
+  },
+  {
+    "prompt": "Profits are divided ____ all members of the cooperative.",
+    "answer": "divided among all",
+    "category": "blank_fill",
+    "notes": "divided among all = shared within the cooperative."
+  },
+  {
+    "prompt": "___ all members agree, the proposal will pass.",
+    "answer": "provided all members",
+    "category": "blank_fill",
+    "notes": "provided all members = only if all members agree."
+  },
+  {
+    "prompt": "Rarely ____ he lose his temper.",
+    "answer": "does he lose",
+    "category": "blank_fill",
+    "notes": "does he lose = rarely loses his temper."
+  },
+  {
+    "prompt": "___ the cost, the monument must be restored.",
+    "answer": "regardless of",
+    "category": "blank_fill",
+    "notes": "regardless of = despite the cost."
+  },
+  {
+    "prompt": "Regular readers gain free access ____ the online archive.",
+    "answer": "access to the",
+    "category": "blank_fill",
+    "notes": "access to the = right to use the archive."
+  },
+  {
+    "prompt": "Responsibility falls ____ the organising committee if anything goes wrong.",
+    "answer": "falls on the",
+    "category": "blank_fill",
+    "notes": "falls on the = becomes the committee duty."
+  },
+  {
+    "prompt": "Rumours of a merger broke out yesterday morning.",
+    "answer": "broke out yesterday",
+    "category": "blank_fill",
+    "notes": "broke out yesterday = started suddenly yesterday."
+  },
+  {
+    "prompt": "Save your work frequently ___ the power fails.",
+    "answer": "in case",
+    "category": "blank_fill",
+    "notes": "in case = precaution against power failure."
+  },
+  {
+    "prompt": "Science seeks proof, ___ faith requires belief.",
+    "answer": "proof, whereas faith",
+    "category": "blank_fill",
+    "notes": "proof, whereas faith = science seeks proof but faith believes."
+  },
+  {
+    "prompt": "____ people complained about the noise.",
+    "answer": "Several people complained",
+    "category": "blank_fill",
+    "notes": "Several people complained = several complained about noise."
+  },
+  {
+    "prompt": "She agrees ____ my proposal to plant more trees.",
+    "answer": "agrees with my",
+    "category": "blank_fill",
+    "notes": "agrees with my = shares my proposal view."
+  },
+  {
+    "prompt": "She and ____ are good friends.",
+    "answer": "She and I are",
+    "category": "blank_fill",
+    "notes": "She and I are = we are good friends."
+  },
+  {
+    "prompt": "She apologized ____ her rude behaviour at the ceremony.",
+    "answer": "apologized for her",
+    "category": "blank_fill",
+    "notes": "apologized for her = expressed regret for rudeness."
+  },
+  {
+    "prompt": "She applied ____ a scholarship to study abroad.",
+    "answer": "applied for a",
+    "category": "blank_fill",
+    "notes": "applied for a = requested a scholarship formally."
+  },
+  {
+    "prompt": "She arrived ____ Hanoi early yesterday morning.",
+    "answer": "arrived in Hanoi",
+    "category": "blank_fill",
+    "notes": "arrived in Hanoi = reached Hanoi yesterday."
+  },
+  {
+    "prompt": "She believes strongly ____ the power of education.",
+    "answer": "strongly in the",
+    "category": "blank_fill",
+    "notes": "strongly in the = firmly believes in education."
+  },
+  {
+    "prompt": "She borrowed several reference books ____ the municipal library.",
+    "answer": "books from the",
+    "category": "blank_fill",
+    "notes": "books from the = borrowed from the library."
+  },
+  {
+    "prompt": "She brushed aside all criticism of her novel.",
+    "answer": "brushed aside all",
+    "category": "blank_fill",
+    "notes": "brushed aside all = dismissed all criticism abruptly."
+  },
+  {
+    "prompt": "She called in an expert to examine the paintings.",
+    "answer": "called in an",
+    "category": "blank_fill",
+    "notes": "called in an = summoned an expert for help."
+  },
+  {
+    "prompt": "She called ____ all citizens to donate blood.",
+    "answer": "called on all",
+    "category": "blank_fill",
+    "notes": "called on all = appealed to all citizens."
+  },
+  {
+    "prompt": "She came across an interesting article in the library.",
+    "answer": "came across an",
+    "category": "blank_fill",
+    "notes": "came across an = found an article by chance."
+  },
+  {
+    "prompt": "She cares ____ her ageing grandparents wholeheartedly.",
+    "answer": "cares for her",
+    "category": "blank_fill",
+    "notes": "cares for her = looks after her grandparents."
+  },
+  {
+    "prompt": "She ____ enjoy classical music.",
+    "answer": "does enjoy classical",
+    "category": "blank_fill",
+    "notes": "does enjoy classical = truly enjoys classical music."
+  },
+  {
+    "prompt": "She fell for his charming manners at once.",
+    "answer": "fell for his",
+    "category": "blank_fill",
+    "notes": "fell for his = charmed by his manners."
+  },
+  {
+    "prompt": "She felt ashamed ____ cheating in the examination.",
+    "answer": "ashamed of cheating",
+    "category": "blank_fill",
+    "notes": "ashamed of cheating = embarrassed by cheating exam."
+  },
+  {
+    "prompt": "She filled in for her sick colleague all week.",
+    "answer": "in for",
+    "category": "blank_fill",
+    "notes": "in for = substituted temporarily for colleague."
+  },
+  {
+    "prompt": "She filled up the bottle with fresh water.",
+    "answer": "filled up the",
+    "category": "blank_fill",
+    "notes": "filled up the = filled the bottle completely."
+  },
+  {
+    "prompt": "She gave me ____ chance.",
+    "answer": "gave me another",
+    "category": "blank_fill",
+    "notes": "gave me another = gave one more chance."
+  },
+  {
+    "prompt": "She gets along with all her classmates.",
+    "answer": "gets along with",
+    "category": "blank_fill",
+    "notes": "gets along with = has friendly relationship with classmates."
+  },
+  {
+    "prompt": "She gets through a great deal of work every day.",
+    "answer": "gets through a",
+    "category": "blank_fill",
+    "notes": "gets through a = completes much work daily."
+  },
+  {
+    "prompt": "She graduated ____ university with honours last June.",
+    "answer": "graduated from university",
+    "category": "blank_fill",
+    "notes": "graduated from university = completed university studies."
+  },
+  {
+    "prompt": "She ____ left before we arrived.",
+    "answer": "had left before",
+    "category": "blank_fill",
+    "notes": "had left before = left earlier than arrival."
+  },
+  {
+    "prompt": "She has been learning the piano ____ five years.",
+    "answer": "piano for five",
+    "category": "blank_fill",
+    "notes": "piano for five = learning piano for five years."
+  },
+  {
+    "prompt": "She has been married ____ her classmate for ten years.",
+    "answer": "married to her",
+    "category": "blank_fill",
+    "notes": "married to her = wedded to a classmate."
+  },
+  {
+    "prompt": "She has little experience ____ conducting scientific experiments.",
+    "answer": "experience in conducting",
+    "category": "blank_fill",
+    "notes": "experience in conducting = practice in scientific experiments."
+  },
+  {
+    "prompt": "She ____ lived here since 2010.",
+    "answer": "has lived here",
+    "category": "blank_fill",
+    "notes": "has lived here = living here since 2010."
+  },
+  {
+    "prompt": "She hurried ___ she miss the final bus.",
+    "answer": "hurried lest she",
+    "category": "blank_fill",
+    "notes": "hurried lest she = hurried to avoid missing bus."
+  },
+  {
+    "prompt": "She hurt ____ while cooking.",
+    "answer": "hurt herself while",
+    "category": "blank_fill",
+    "notes": "hurt herself while = injured herself while cooking."
+  },
+  {
+    "prompt": "She insisted ____ paying for her own meal.",
+    "answer": "insisted on paying",
+    "category": "blank_fill",
+    "notes": "insisted on paying = demanded paying for own meal."
+  },
+  {
+    "prompt": "She is ____ honest person.",
+    "answer": "is an honest",
+    "category": "blank_fill",
+    "notes": "is an honest = one honest person."
+  },
+  {
+    "prompt": "She is bad ____ managing her personal finances.",
+    "answer": "bad at managing",
+    "category": "blank_fill",
+    "notes": "bad at managing = unskilled in managing finances."
+  },
+  {
+    "prompt": "She is capable ____ solving complex mathematical problems.",
+    "answer": "capable of solving",
+    "category": "blank_fill",
+    "notes": "capable of solving = able to solve complex problems."
+  },
+  {
+    "prompt": "She ____ going to have a baby.",
+    "answer": "is going to",
+    "category": "blank_fill",
+    "notes": "is going to = will have a baby."
+  },
+  {
+    "prompt": "She ____ reading a book now.",
+    "answer": "is reading a",
+    "category": "blank_fill",
+    "notes": "is reading a = currently reading a book."
+  },
+  {
+    "prompt": "She is strict, ___ fair with every pupil.",
+    "answer": "strict, yet fair",
+    "category": "blank_fill",
+    "notes": "strict, yet fair = strict but fair."
+  },
+  {
+    "prompt": "She is tired, ____ she?",
+    "answer": "is tired, isn't",
+    "category": "blank_fill",
+    "notes": "is tired, isn't = asks for confirmation."
+  },
+  {
+    "prompt": "She kept her job ___ arriving late every day.",
+    "answer": "job despite arriving",
+    "category": "blank_fill",
+    "notes": "job despite arriving = kept job although often late."
+  },
+  {
+    "prompt": "She lived up to her reputation as a fine singer.",
+    "answer": "up to",
+    "category": "blank_fill",
+    "notes": "up to = fulfilled singer expectations."
+  },
+  {
+    "prompt": "She mistook his politeness ____ genuine affection.",
+    "answer": "politeness for genuine",
+    "category": "blank_fill",
+    "notes": "politeness for genuine = confused politeness with affection."
+  },
+  {
+    "prompt": "She ____ wear glasses for reading.",
+    "answer": "must wear glasses",
+    "category": "blank_fill",
+    "notes": "must wear glasses = needs glasses for reading."
+  },
+  {
+    "prompt": "She placed the keys ____ the shelf by the door.",
+    "answer": "keys upon the",
+    "category": "blank_fill",
+    "notes": "keys upon the = keys on the shelf."
+  },
+  {
+    "prompt": "She prefers tea ____ coffee in the morning.",
+    "answer": "tea to coffee",
+    "category": "blank_fill",
+    "notes": "tea to coffee = likes tea more than coffee."
+  },
+  {
+    "prompt": "She put forward an ingenious proposal to reduce waste.",
+    "answer": "put forward forward",
+    "category": "blank_fill",
+    "notes": "put forward forward = suggested ingenious proposal."
+  },
+  {
+    "prompt": "She put in an application for the scholarship last week.",
+    "answer": "put in an",
+    "category": "blank_fill",
+    "notes": "put in an = submitted an application formally."
+  },
+  {
+    "prompt": "She put off making a decision about university until June.",
+    "answer": "put off making",
+    "category": "blank_fill",
+    "notes": "put off making = delayed university decision until June."
+  },
+  {
+    "prompt": "She rarely speaks ___ spoken to first.",
+    "answer": "speaks unless spoken",
+    "category": "blank_fill",
+    "notes": "speaks unless spoken = speaks only if spoken to."
+  },
+  {
+    "prompt": "She refused to put up with her neighbour's rude behaviour.",
+    "answer": "up with",
+    "category": "blank_fill",
+    "notes": "up with = endured rude behaviour unwillingly."
+  },
+  {
+    "prompt": "She seems content ____ her simple life in the countryside.",
+    "answer": "content with her",
+    "category": "blank_fill",
+    "notes": "content with her = satisfied with simple life."
+  },
+  {
+    "prompt": "She specialises ____ treating diseases of the heart.",
+    "answer": "specialises in treating",
+    "category": "blank_fill",
+    "notes": "specialises in treating = focuses on heart diseases."
+  },
+  {
+    "prompt": "She spoke briefly, ___ clearly and persuasively.",
+    "answer": "briefly, albeit clearly",
+    "category": "blank_fill",
+    "notes": "briefly, albeit clearly = briefly but clearly and persuasively."
+  },
+  {
+    "prompt": "She takes great pride ____ her handmade embroidery.",
+    "answer": "pride in her",
+    "category": "blank_fill",
+    "notes": "pride in her = proud of handmade embroidery."
+  },
+  {
+    "prompt": "She thrives on pressure, ___ her colleague avoids it.",
+    "answer": "pressure, whereas her",
+    "category": "blank_fill",
+    "notes": "pressure, whereas her = thrives but colleague avoids pressure."
+  },
+  {
+    "prompt": "She told me ____ about the trip.",
+    "answer": "me everything about",
+    "category": "blank_fill",
+    "notes": "me everything about = told all trip details."
+  },
+  {
+    "prompt": "She took months to get over the loss of her dog.",
+    "answer": "get over the",
+    "category": "blank_fill",
+    "notes": "get over the = recover from dog loss."
+  },
+  {
+    "prompt": "She turned down the invitation owing to a prior engagement.",
+    "answer": "turned down the",
+    "category": "blank_fill",
+    "notes": "turned down the = declined invitation politely."
+  },
+  {
+    "prompt": "She turned to her teacher for advice on the essay.",
+    "answer": "turned to to",
+    "category": "blank_fill",
+    "notes": "turned to to = sought help from teacher."
+  },
+  {
+    "prompt": "She walked slowly ____ the beach collecting seashells.",
+    "answer": "slowly along the",
+    "category": "blank_fill",
+    "notes": "slowly along the = walked following the beach."
+  },
+  {
+    "prompt": "She was exhausted; ___, she kept working.",
+    "answer": "was exhausted; nevertheless",
+    "category": "blank_fill",
+    "notes": "was exhausted; nevertheless = exhausted but kept working."
+  },
+  {
+    "prompt": "She was worn out after nursing her mother all night.",
+    "answer": "worn out after",
+    "category": "blank_fill",
+    "notes": "worn out after = extremely tired after nursing."
+  },
+  {
+    "prompt": "She will attend ___ her expenses are covered.",
+    "answer": "providing that",
+    "category": "blank_fill",
+    "notes": "providing that = only if expenses are covered."
+  },
+  {
+    "prompt": "She ____ often read for hours as a child.",
+    "answer": "would often read",
+    "category": "blank_fill",
+    "notes": "would often read = repeatedly read as a child."
+  },
+  {
+    "prompt": "She writes textbooks ____ teaching full-time at school.",
+    "answer": "textbooks besides teaching",
+    "category": "blank_fill",
+    "notes": "textbooks besides teaching = writes plus teaching full-time."
+  },
+  {
+    "prompt": "Smart meters will be phased in throughout the region.",
+    "answer": "phased in throughout",
+    "category": "blank_fill",
+    "notes": "phased in throughout = introduced gradually region-wide."
+  },
+  {
+    "prompt": "Smoking has a harmful effect ____ the respiratory system.",
+    "answer": "effect on the",
+    "category": "blank_fill",
+    "notes": "effect on the = influence upon respiratory system."
+  },
+  {
+    "prompt": "Smoking will tell on your health in later years.",
+    "answer": "tell on your",
+    "category": "blank_fill",
+    "notes": "tell on your = harm health in future."
+  },
+  {
+    "prompt": "___ you try your best, nobody will blame you.",
+    "answer": "so long as",
+    "category": "blank_fill",
+    "notes": "so long as = as long as."
+  },
+  {
+    "prompt": "____ birds cannot fly.",
+    "answer": "Some birds cannot",
+    "category": "blank_fill",
+    "notes": "Some birds cannot = some lack flying ability."
+  },
+  {
+    "prompt": "Some of ____ was wasted.",
+    "answer": "of it was",
+    "category": "blank_fill",
+    "notes": "of it was = some was wasted."
+  },
+  {
+    "prompt": "Some students revise daily, ___ others cram at the last minute.",
+    "answer": "daily, while others",
+    "category": "blank_fill",
+    "notes": "daily, while others = some revise daily others cram."
+  },
+  {
+    "prompt": "____ is wrong with my phone.",
+    "answer": "Something is wrong",
+    "category": "blank_fill",
+    "notes": "Something is wrong = phone has a problem."
+  },
+  {
+    "prompt": "Speaking ____ behalf of the whole class, she thanked the teacher.",
+    "answer": "on behalf of",
+    "category": "blank_fill",
+    "notes": "on behalf of = representing the whole class."
+  },
+  {
+    "prompt": "Strange ___ it may seem, the shy boy won the debating contest.",
+    "answer": "though it may",
+    "category": "blank_fill",
+    "notes": "though it may = although strangely seeming."
+  },
+  {
+    "prompt": "Students may leave early ___ they have permission.",
+    "answer": "provided that",
+    "category": "blank_fill",
+    "notes": "provided that = only if having permission."
+  },
+  {
+    "prompt": "____ behaviour cannot be tolerated.",
+    "answer": "Such behaviour cannot",
+    "category": "blank_fill",
+    "notes": "Such behaviour cannot = such conduct is intolerable."
+  },
+  {
+    "prompt": "Take an umbrella ___ it rains later.",
+    "answer": "in case",
+    "category": "blank_fill",
+    "notes": "in case = precaution against later rain."
+  },
+  {
+    "prompt": "Teenagers are keen ____ trying the latest fashion trends.",
+    "answer": "keen on trying",
+    "category": "blank_fill",
+    "notes": "keen on trying = enthusiastic about latest fashion."
+  },
+  {
+    "prompt": "That is the house ____ Jack built.",
+    "answer": "house that Jack",
+    "category": "blank_fill",
+    "notes": "house that Jack = house Jack built."
+  },
+  {
+    "prompt": "The accident was the cause ____ a massive traffic jam.",
+    "answer": "cause of a",
+    "category": "blank_fill",
+    "notes": "cause of a = reason for traffic jam."
+  },
+  {
+    "prompt": "The army quickly put down the rebellion in the province.",
+    "answer": "put down down",
+    "category": "blank_fill",
+    "notes": "put down down = suppressed rebellion by force."
+  },
+  {
+    "prompt": "The athlete coped ____ intense pressure before the final.",
+    "answer": "coped with intense",
+    "category": "blank_fill",
+    "notes": "coped with intense = managed intense pressure successfully."
+  },
+  {
+    "prompt": "The bill was passed over without discussion.",
+    "answer": "passed over without",
+    "category": "blank_fill",
+    "notes": "passed over without = ignored without any discussion."
+  },
+  {
+    "prompt": "The board put off the meeting until next Monday.",
+    "answer": "put off the",
+    "category": "blank_fill",
+    "notes": "put off the = postponed the meeting."
+  }
+]

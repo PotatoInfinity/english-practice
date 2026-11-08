@@ -1,0 +1,1244 @@
+[
+  {
+    "prompt": "The staff are completely controlled by the strict director. (thumb)",
+    "answer": "strict director's thumb",
+    "category": "figurative",
+    "notes": "strict director's thumb = completely controlled."
+  },
+  {
+    "prompt": "The staff made great efforts. (backwards)",
+    "answer": "over backwards for",
+    "category": "figurative",
+    "notes": "over backwards for = great effort."
+  },
+  {
+    "prompt": "The stars cast a soft glow on the lake. (CAST)",
+    "answer": "cast light",
+    "category": "figurative",
+    "notes": "cast light = shine softly."
+  },
+  {
+    "prompt": "The startup risked everything on one product. (BASKET)",
+    "answer": "all its eggs in one basket",
+    "category": "figurative",
+    "notes": "all its eggs in one basket = risk everything on one plan."
+  },
+  {
+    "prompt": "The startup failed spectacularly after the product launch. (flames)",
+    "answer": "in flames after",
+    "category": "figurative",
+    "notes": "in flames after = fail spectacularly."
+  },
+  {
+    "prompt": "The strike sabotaged our production schedule. (spanner)",
+    "answer": "a spanner in",
+    "category": "figurative",
+    "notes": "a spanner in = sabotage schedule."
+  },
+  {
+    "prompt": "The students became impatient while waiting. (ants)",
+    "answer": "got ants in",
+    "category": "figurative",
+    "notes": "got ants in = restless impatient."
+  },
+  {
+    "prompt": "The students succeeded brilliantly in the final exams. (colours)",
+    "answer": "flying colours in",
+    "category": "figurative",
+    "notes": "flying colours in = succeed brilliantly."
+  },
+  {
+    "prompt": "The subsidy had only a tiny effect on output. (NEGLIGIBLE)",
+    "answer": "negligible impact",
+    "category": "figurative",
+    "notes": "negligible impact = very small effect."
+  },
+  {
+    "prompt": "The sudden review ruined the team's launch excitement. (parade)",
+    "answer": "the team's parade",
+    "category": "figurative",
+    "notes": "the team's parade = ruin excitement."
+  },
+  {
+    "prompt": "The stone surface was extremely hard to cut. (ROCK)",
+    "answer": "as rock to",
+    "category": "figurative",
+    "notes": "as rock to = hard as rock."
+  },
+  {
+    "prompt": "The surgery was very costly. (arm)",
+    "answer": "arm and a",
+    "category": "figurative",
+    "notes": "arm and a = very expensive."
+  },
+  {
+    "prompt": "The survey revealed a built-in prejudice against migrants. (INHERENT)",
+    "answer": "inherent bias",
+    "category": "figurative",
+    "notes": "inherent bias = built-in prejudice."
+  },
+  {
+    "prompt": "The system is intrinsically prone to instability. (INHERENTLY)",
+    "answer": "inherently unstable",
+    "category": "figurative",
+    "notes": "inherently unstable = naturally unstable."
+  },
+  {
+    "prompt": "Junior staff dictate policy to senior managers. (tail)",
+    "answer": "tail is wagging",
+    "category": "figurative",
+    "notes": "tail is wagging = juniors dictate to seniors."
+  },
+  {
+    "prompt": "The teacher makes special efforts to help students. (extra)",
+    "answer": "the extra mile",
+    "category": "figurative",
+    "notes": "the extra mile = do more than required."
+  },
+  {
+    "prompt": "The teacher watches the class closely. (eye)",
+    "answer": "an eye on",
+    "category": "figurative",
+    "notes": "an eye on = watch carefully."
+  },
+  {
+    "prompt": "The team finally scored. (drought)",
+    "answer": "goal drought on",
+    "category": "figurative",
+    "notes": "goal drought on = lack period."
+  },
+  {
+    "prompt": "The team is in danger. (ice)",
+    "answer": "thin ice before",
+    "category": "figurative",
+    "notes": "thin ice before = risky situation."
+  },
+  {
+    "prompt": "The team endured all difficulties. (thick)",
+    "answer": "thick and thin",
+    "category": "figurative",
+    "notes": "thick and thin = loyalty hardship."
+  },
+  {
+    "prompt": "The team was extremely upset by the defeat. (BITTERLY)",
+    "answer": "bitterly disappointed",
+    "category": "figurative",
+    "notes": "bitterly disappointed = extremely disappointed."
+  },
+  {
+    "prompt": "The thief was caught in the act. (red-handed)",
+    "answer": "caught red-handed in",
+    "category": "figurative",
+    "notes": "caught red-handed in = caught in act."
+  },
+  {
+    "prompt": "The thief was caught while committing the crime. (red-handed)",
+    "answer": "was caught red-handed",
+    "category": "figurative",
+    "notes": "was caught red-handed = caught in act."
+  },
+  {
+    "prompt": "The tourists headed directly to the pagoda. (beeline)",
+    "answer": "a beeline for",
+    "category": "figurative",
+    "notes": "a beeline for = go directly."
+  },
+  {
+    "prompt": "The tourists were easy targets for thieves. (duck)",
+    "answer": "were sitting duck",
+    "category": "figurative",
+    "notes": "were sitting duck = easy target."
+  },
+  {
+    "prompt": "The treaty is generally accepted as binding. (WIDELY)",
+    "answer": "widely accepted",
+    "category": "figurative",
+    "notes": "widely accepted = accepted by many people."
+  },
+  {
+    "prompt": "The trial outcome was extremely upsetting for the team. (BITTERLY)",
+    "answer": "bitterly disappointing",
+    "category": "figurative",
+    "notes": "bitterly disappointing = extremely upsetting."
+  },
+  {
+    "prompt": "The trip was very pricey. (leg)",
+    "answer": "arm and a leg",
+    "category": "figurative",
+    "notes": "arm and a leg = very costly."
+  },
+  {
+    "prompt": "The two communities remain deeply split on policy. (DEEPLY2)",
+    "answer": "deeply divided",
+    "category": "figurative",
+    "notes": "deeply divided = strongly split."
+  },
+  {
+    "prompt": "The two communities remain profoundly split on reform. (DEEPLY)",
+    "answer": "deeply divided",
+    "category": "figurative",
+    "notes": "deeply divided = strongly split."
+  },
+  {
+    "prompt": "The two dialects are fundamentally different in syntax. (UTTERLY)",
+    "answer": "utterly different",
+    "category": "figurative",
+    "notes": "utterly different = completely different."
+  },
+  {
+    "prompt": "The two manuscripts are remarkably alike in structure. (STRIKINGLY)",
+    "answer": "strikingly similar",
+    "category": "figurative",
+    "notes": "strikingly similar = remarkably alike."
+  },
+  {
+    "prompt": "The schools are equally matched. (neck)",
+    "answer": "neck and neck",
+    "category": "figurative",
+    "notes": "neck and neck = equal level."
+  },
+  {
+    "prompt": "The tycoon started from nothing. (BOOTSTRAPS)",
+    "answer": "himself up by his bootstraps",
+    "category": "figurative",
+    "notes": "himself up by his bootstraps = succeed from nothing alone."
+  },
+  {
+    "prompt": "The vaccine is now easily obtainable nationwide. (WIDELY)",
+    "answer": "widely available",
+    "category": "figurative",
+    "notes": "widely available = easy to obtain everywhere."
+  },
+  {
+    "prompt": "The veteran technician is highly experienced in procedures. (ropes)",
+    "answer": "knows the ropes",
+    "category": "figurative",
+    "notes": "knows the ropes = highly experienced."
+  },
+  {
+    "prompt": "The procedure suffers bureaucracy. (tape)",
+    "answer": "in red tape",
+    "category": "figurative",
+    "notes": "in red tape = bureaucracy."
+  },
+  {
+    "prompt": "The volunteers helped us. (hand)",
+    "answer": "a hand with",
+    "category": "figurative",
+    "notes": "a hand with = help."
+  },
+  {
+    "prompt": "The walls need just a thin coat of paint. (LICK)",
+    "answer": "a lick of",
+    "category": "figurative",
+    "notes": "a lick of = thin coat."
+  },
+  {
+    "prompt": "The warning distracted us from the real deficit. (HERRING)",
+    "answer": "red herring",
+    "category": "figurative",
+    "notes": "red herring = misleading distraction."
+  },
+  {
+    "prompt": "The whistleblower exposed entrenched graft. (LID)",
+    "answer": "the lid off",
+    "category": "figurative",
+    "notes": "the lid off = expose hidden wrongdoing."
+  },
+  {
+    "prompt": "He is her most beloved child. (apple)",
+    "answer": "the apple of",
+    "category": "figurative",
+    "notes": "the apple of = beloved pride."
+  },
+  {
+    "prompt": "Their row is trivial fuss. (teacup)",
+    "answer": "a teacup over",
+    "category": "figurative",
+    "notes": "a teacup over = trivial fuss."
+  },
+  {
+    "prompt": "Their methods are totally unlike in every way. (ENTIRELY)",
+    "answer": "entirely different",
+    "category": "figurative",
+    "notes": "entirely different = totally unlike."
+  },
+  {
+    "prompt": "Their business collapsed quickly. (dust)",
+    "answer": "the dust after",
+    "category": "figurative",
+    "notes": "the dust after = fail collapse."
+  },
+  {
+    "prompt": "Their truce barely conceals mutual contempt. (THREAD)",
+    "answer": "by a thread",
+    "category": "figurative",
+    "notes": "by a thread = barely survive."
+  },
+  {
+    "prompt": "Their views on tax are completely opposite. (FUNDAMENTALLY)",
+    "answer": "fundamentally different",
+    "category": "figurative",
+    "notes": "fundamentally different = completely opposite."
+  },
+  {
+    "prompt": "There is a strong feeling of haste in the office. (URGENCY)",
+    "answer": "of urgency in",
+    "category": "figurative",
+    "notes": "of urgency in = sense of urgency."
+  },
+  {
+    "prompt": "There is a sharp difference between urban and rural incomes. (STARK)",
+    "answer": "stark contrast",
+    "category": "figurative",
+    "notes": "stark contrast = sharp difference."
+  },
+  {
+    "prompt": "There is solid proof linking him to fraud. (COMPELLING)",
+    "answer": "compelling evidence",
+    "category": "figurative",
+    "notes": "compelling evidence = strong convincing proof."
+  },
+  {
+    "prompt": "Demand for housing is rising fast. (GROWING)",
+    "answer": "growing demand",
+    "category": "figurative",
+    "notes": "growing demand = rapidly rising need."
+  },
+  {
+    "prompt": "Criticism of the plan is growing daily. (MOUNTING)",
+    "answer": "mounting concern",
+    "category": "figurative",
+    "notes": "mounting concern = growing worry."
+  },
+  {
+    "prompt": "There is no point regretting past mistakes. (milk)",
+    "answer": "over spilt milk",
+    "category": "figurative",
+    "notes": "over spilt milk = regret past."
+  },
+  {
+    "prompt": "There is a strong demand for skilled nurses. (STRONG2)",
+    "answer": "demand",
+    "category": "figurative",
+    "notes": "demand = strong need."
+  },
+  {
+    "prompt": "The area saw an unusual cluster of thefts. (SPATE)",
+    "answer": "a spate of",
+    "category": "figurative",
+    "notes": "a spate of = sudden cluster of events."
+  },
+  {
+    "prompt": "Panic spread quickly after the announcement. (WIDESPREAD)",
+    "answer": "widespread panic",
+    "category": "figurative",
+    "notes": "widespread panic = panic spreading widely."
+  },
+  {
+    "prompt": "These complaints are only a small sign of bigger problems. (iceberg)",
+    "answer": "of the iceberg",
+    "category": "figurative",
+    "notes": "of the iceberg = small sign of bigger."
+  },
+  {
+    "prompt": "They have been close since childhood. (thieves)",
+    "answer": "as thick as thieves",
+    "category": "figurative",
+    "notes": "as thick as thieves = very close."
+  },
+  {
+    "prompt": "They are in sharp dispute over pay. (loggerheads)",
+    "answer": "at loggerheads",
+    "category": "figurative",
+    "notes": "at loggerheads = in dispute."
+  },
+  {
+    "prompt": "They are in trouble for cheating. (water)",
+    "answer": "in hot water",
+    "category": "figurative",
+    "notes": "in hot water = in trouble."
+  },
+  {
+    "prompt": "They are strongly against the new motorway. (STRONGLY)",
+    "answer": "strongly opposed",
+    "category": "figurative",
+    "notes": "strongly opposed = firmly against."
+  },
+  {
+    "prompt": "They reconciled after the quarrel. (hatchet)",
+    "answer": "the hatchet",
+    "category": "figurative",
+    "notes": "the hatchet = reconcile."
+  },
+  {
+    "prompt": "They worked late before exams. (oil)",
+    "answer": "the midnight oil",
+    "category": "figurative",
+    "notes": "the midnight oil = work late."
+  },
+  {
+    "prompt": "They barely escaped the fire. (skin)",
+    "answer": "the skin of",
+    "category": "figurative",
+    "notes": "the skin of = narrow escape."
+  },
+  {
+    "prompt": "They became deeply infatuated. (heels)",
+    "answer": "over heels after",
+    "category": "figurative",
+    "notes": "over heels after = deeply in love."
+  },
+  {
+    "prompt": "They made peace after conflict. (hatchet)",
+    "answer": "the hatchet after",
+    "category": "figurative",
+    "notes": "the hatchet after = make peace."
+  },
+  {
+    "prompt": "They formed a close bond during training. (CLOSE)",
+    "answer": "close bond",
+    "category": "figurative",
+    "notes": "close bond = strong relationship."
+  },
+  {
+    "prompt": "They ignored him completely at the party. (cold)",
+    "answer": "him the cold",
+    "category": "figurative",
+    "notes": "him the cold = ignore someone."
+  },
+  {
+    "prompt": "Everyone avoids mentioning the obvious problem. (elephant)",
+    "answer": "the elephant in",
+    "category": "figurative",
+    "notes": "the elephant in = obvious problem ignored."
+  },
+  {
+    "prompt": "They stored food for hardship. (rainy)",
+    "answer": "for a rainy",
+    "category": "figurative",
+    "notes": "for a rainy = future need."
+  },
+  {
+    "prompt": "They tried everything to find her. (stone)",
+    "answer": "no stone unturned",
+    "category": "figurative",
+    "notes": "no stone unturned = try everything."
+  },
+  {
+    "prompt": "They live in extreme poverty in the slums. (ABJECT)",
+    "answer": "abject poverty",
+    "category": "figurative",
+    "notes": "abject poverty = extreme poverty."
+  },
+  {
+    "prompt": "They live in luxury. (lap)",
+    "answer": "in the lap",
+    "category": "figurative",
+    "notes": "in the lap = live in luxury."
+  },
+  {
+    "prompt": "They unfairly changed the rules during the game. (goalposts)",
+    "answer": "the goalposts during",
+    "category": "figurative",
+    "notes": "the goalposts during = change rules unfairly."
+  },
+  {
+    "prompt": "They partied exuberantly all night downtown. (red)",
+    "answer": "town red all",
+    "category": "figurative",
+    "notes": "town red all = party exuberantly."
+  },
+  {
+    "prompt": "They proposed a believable account of the collapse. (PLAUSIBLE)",
+    "answer": "plausible explanation",
+    "category": "figurative",
+    "notes": "plausible explanation = believable account."
+  },
+  {
+    "prompt": "They teased him with the joke. (leg)",
+    "answer": "his leg",
+    "category": "figurative",
+    "notes": "his leg = tease."
+  },
+  {
+    "prompt": "They reached a friendly divorce settlement. (AMICABLE)",
+    "answer": "amicable settlement",
+    "category": "figurative",
+    "notes": "amicable settlement = friendly agreement."
+  },
+  {
+    "prompt": "They fully agreed. (eye)",
+    "answer": "eye to eye",
+    "category": "figurative",
+    "notes": "eye to eye = fully agree."
+  },
+  {
+    "prompt": "A repeat offender will not reform. (leopard)",
+    "answer": "a leopard cannot",
+    "category": "figurative",
+    "notes": "a leopard cannot = unchangeable nature."
+  },
+  {
+    "prompt": "Family loyalty comes first here. (blood)",
+    "answer": "say blood is",
+    "category": "figurative",
+    "notes": "say blood is = family loyalty."
+  },
+  {
+    "prompt": "They stayed loyal in good and bad times. (thick)",
+    "answer": "thick and thin",
+    "category": "figurative",
+    "notes": "thick and thin = loyalty hardship."
+  },
+  {
+    "prompt": "They stayed loyal during good and bad times. (thin)",
+    "answer": "thick and thin",
+    "category": "figurative",
+    "notes": "thick and thin = good and bad times."
+  },
+  {
+    "prompt": "They struggle to earn enough to live. (meet)",
+    "answer": "make ends meet",
+    "category": "figurative",
+    "notes": "make ends meet = earn enough to live."
+  },
+  {
+    "prompt": "They hid the financial errors to avoid criticism. (carpet)",
+    "answer": "the carpet to",
+    "category": "figurative",
+    "notes": "the carpet to = hide errors."
+  },
+  {
+    "prompt": "They finally persuaded him to join the trip. (twist)",
+    "answer": "twisted his arm",
+    "category": "figurative",
+    "notes": "twisted his arm = persuade forcefully."
+  },
+  {
+    "prompt": "They seldom visit grandparents. (moon)",
+    "answer": "a blue moon",
+    "category": "figurative",
+    "notes": "a blue moon = very rarely."
+  },
+  {
+    "prompt": "They waited with little hope the minister would come. (VAIN)",
+    "answer": "vain hope",
+    "category": "figurative",
+    "notes": "vain hope = hopeless expectation."
+  },
+  {
+    "prompt": "They were overjoyed. (cloud)",
+    "answer": "on cloud nine",
+    "category": "figurative",
+    "notes": "on cloud nine = very happy."
+  },
+  {
+    "prompt": "This garden is his pride. (apple)",
+    "answer": "the apple of",
+    "category": "figurative",
+    "notes": "the apple of = beloved pride."
+  },
+  {
+    "prompt": "This new method saves time and money at once. (stone)",
+    "answer": "with one stone",
+    "category": "figurative",
+    "notes": "with one stone = two benefits at once."
+  },
+  {
+    "prompt": "This pizza perfectly satisfies my hunger. (spot)",
+    "answer": "hits the spot",
+    "category": "figurative",
+    "notes": "hits the spot = satisfy perfectly."
+  },
+  {
+    "prompt": "This puzzle is very difficult to solve. (nut)",
+    "answer": "hard nut to",
+    "category": "figurative",
+    "notes": "hard nut to = difficult problem."
+  },
+  {
+    "prompt": "This is an excellent chance. (golden)",
+    "answer": "a golden opportunity",
+    "category": "figurative",
+    "notes": "a golden opportunity = excellent chance."
+  },
+  {
+    "prompt": "To start conversation, she introduced herself warmly. (ice)",
+    "answer": "break the ice",
+    "category": "figurative",
+    "notes": "break the ice = relieve tension."
+  },
+  {
+    "prompt": "Briefly, the trip was a disaster. (short)",
+    "answer": "long story short",
+    "category": "figurative",
+    "notes": "long story short = briefly."
+  },
+  {
+    "prompt": "Tourists pay excessive prices here. (nose)",
+    "answer": "the nose for",
+    "category": "figurative",
+    "notes": "the nose for = overpay heavily."
+  },
+  {
+    "prompt": "Traffic is a serious challenge in the city. (PRESSING)",
+    "answer": "pressing problem",
+    "category": "figurative",
+    "notes": "pressing problem = urgent serious issue."
+  },
+  {
+    "prompt": "Unemployment remains a serious issue for youth. (MAJOR)",
+    "answer": "major problem",
+    "category": "figurative",
+    "notes": "major problem = serious issue."
+  },
+  {
+    "prompt": "Voters remain undecided. (fence)",
+    "answer": "the fence about",
+    "category": "figurative",
+    "notes": "the fence about = undecided."
+  },
+  {
+    "prompt": "Water sharing is a difficult problem for neighbours. (THORNY)",
+    "answer": "thorny issue",
+    "category": "figurative",
+    "notes": "thorny issue = difficult problem."
+  },
+  {
+    "prompt": "We are all in the same difficult situation. (boat)",
+    "answer": "the same boat",
+    "category": "figurative",
+    "notes": "the same boat = same difficulty."
+  },
+  {
+    "prompt": "We exerted ourselves enormously to meet the deadline. (gut)",
+    "answer": "a gut to",
+    "category": "figurative",
+    "notes": "a gut to = exert enormously."
+  },
+  {
+    "prompt": "We challenged his threat, doubting he would act. (bluff)",
+    "answer": "called his bluff",
+    "category": "figurative",
+    "notes": "called his bluff = challenge threat."
+  },
+  {
+    "prompt": "We do not share the same opinion on this issue. (eye)",
+    "answer": "see eye to",
+    "category": "figurative",
+    "notes": "see eye to = agree fully."
+  },
+  {
+    "prompt": "We very rarely eat out. (moon)",
+    "answer": "a blue moon",
+    "category": "figurative",
+    "notes": "a blue moon = very rarely."
+  },
+  {
+    "prompt": "We escaped danger by a very narrow margin. (teeth)",
+    "answer": "of our teeth",
+    "category": "figurative",
+    "notes": "of our teeth = narrow escape."
+  },
+  {
+    "prompt": "We rarely go hiking. (moon)",
+    "answer": "a blue moon",
+    "category": "figurative",
+    "notes": "a blue moon = very rarely."
+  },
+  {
+    "prompt": "We had a wonderful time at the beach. (whale)",
+    "answer": "a whale of",
+    "category": "figurative",
+    "notes": "a whale of = great enjoyment."
+  },
+  {
+    "prompt": "We heard the news directly from the original source. (mouth)",
+    "answer": "the horse's mouth",
+    "category": "figurative",
+    "notes": "the horse's mouth = direct original source."
+  },
+  {
+    "prompt": "We hold a firm belief in free speech. (FIRM)",
+    "answer": "firm belief",
+    "category": "figurative",
+    "notes": "firm belief = strong conviction."
+  },
+  {
+    "prompt": "We lost a valuable opportunity by hesitating too long. (boat)",
+    "answer": "the boat by",
+    "category": "figurative",
+    "notes": "the boat by = miss opportunity."
+  },
+  {
+    "prompt": "We must agree on the plan before starting. (page)",
+    "answer": "same page before",
+    "category": "figurative",
+    "notes": "same page before = agree understand same."
+  },
+  {
+    "prompt": "We must set a limit on bad behaviour. (draw)",
+    "answer": "must draw the",
+    "category": "figurative",
+    "notes": "must draw the = set limit."
+  },
+  {
+    "prompt": "We must study seriously this weekend. (hit)",
+    "answer": "must hit the",
+    "category": "figurative",
+    "notes": "must hit the = study hard."
+  },
+  {
+    "prompt": "We need to shed light on the expenses. (SHED)",
+    "answer": "shed light",
+    "category": "figurative",
+    "notes": "shed light = explain clearly."
+  },
+  {
+    "prompt": "We stopped working for today. (day)",
+    "answer": "it a day",
+    "category": "figurative",
+    "notes": "it a day = stop work."
+  },
+  {
+    "prompt": "We sprinted extremely fast to catch the train. (WIND)",
+    "answer": "the wind",
+    "category": "figurative",
+    "notes": "the wind = run very fast."
+  },
+  {
+    "prompt": "We should assume she is telling the truth. (benefit)",
+    "answer": "the benefit of",
+    "category": "figurative",
+    "notes": "the benefit of = trust innocent."
+  },
+  {
+    "prompt": "We wished our friend success before his piano recital. (leg)",
+    "answer": "a leg before",
+    "category": "figurative",
+    "notes": "a leg before = wish success."
+  },
+  {
+    "prompt": "We doubted the truth of his boastful stories. (salt)",
+    "answer": "pinch of salt",
+    "category": "figurative",
+    "notes": "pinch of salt = doubt truth."
+  },
+  {
+    "prompt": "We waited anxiously for the results. (pins)",
+    "answer": "pins and needles",
+    "category": "figurative",
+    "notes": "pins and needles = anxious nervous."
+  },
+  {
+    "prompt": "We must be very careful not to upset her. (eggshells)",
+    "answer": "on eggshells around",
+    "category": "figurative",
+    "notes": "on eggshells around = be very careful."
+  },
+  {
+    "prompt": "We will deal with that problem when it happens. (bridge)",
+    "answer": "that bridge when",
+    "category": "figurative",
+    "notes": "that bridge when = deal later."
+  },
+  {
+    "prompt": "We proceed regardless of weather. (shine)",
+    "answer": "rain or shine",
+    "category": "figurative",
+    "notes": "rain or shine = regardless."
+  },
+  {
+    "prompt": "We have no plan, we will improvise. (ear)",
+    "answer": "it by ear",
+    "category": "figurative",
+    "notes": "it by ear = improvise."
+  },
+  {
+    "prompt": "Winning now is unlikely but possible. (shot)",
+    "answer": "a long shot",
+    "category": "figurative",
+    "notes": "a long shot = unlikely chance."
+  },
+  {
+    "prompt": "The win was an extra bonus. (icing)",
+    "answer": "the icing on",
+    "category": "figurative",
+    "notes": "the icing on = extra bonus."
+  },
+  {
+    "prompt": "Winning that game will be simple for us. (piece)",
+    "answer": "a piece of",
+    "category": "figurative",
+    "notes": "a piece of = very easy."
+  },
+  {
+    "prompt": "Our system is vulnerable to hackers. (duck)",
+    "answer": "sitting duck for",
+    "category": "figurative",
+    "notes": "sitting duck for = vulnerable target."
+  },
+  {
+    "prompt": "You are accusing the wrong person. (tree)",
+    "answer": "the wrong tree",
+    "category": "figurative",
+    "notes": "the wrong tree = accuse wrong person."
+  },
+  {
+    "prompt": "You exaggerate a minor problem. (molehill)",
+    "answer": "a molehill over",
+    "category": "figurative",
+    "notes": "a molehill over = exaggerate trivial issue."
+  },
+  {
+    "prompt": "Do not judge people by appearance only. (cover)",
+    "answer": "by its cover",
+    "category": "figurative",
+    "notes": "by its cover = do not judge by appearance."
+  },
+  {
+    "prompt": "Accept punishment for mistake. (face)",
+    "answer": "must face the",
+    "category": "figurative",
+    "notes": "must face the = accept consequences."
+  },
+  {
+    "prompt": "You must understand the hidden meaning in his words. (lines)",
+    "answer": "between the lines",
+    "category": "figurative",
+    "notes": "between the lines = understand hidden meaning."
+  },
+  {
+    "prompt": "You are doing things in the wrong order. (cart)",
+    "answer": "the cart before",
+    "category": "figurative",
+    "notes": "the cart before = wrong order."
+  },
+  {
+    "prompt": "He never arrived on time at any time. (time)",
+    "answer": "did he arrive on time",
+    "category": "inversion",
+    "notes": "did he arrive on time = never happened."
+  },
+  {
+    "prompt": "He never showed any sign of regret.",
+    "answer": "did he show any sign of regret.",
+    "category": "inversion",
+    "notes": "did he show any sign of regret. = never happened."
+  },
+  {
+    "prompt": "The witness never lied to the police.",
+    "answer": "did the witness lie to the police.",
+    "category": "inversion",
+    "notes": "did the witness lie to the police. = never happened."
+  },
+  {
+    "prompt": "She never felt safe during the journey.",
+    "answer": "during the journey did she feel safe.",
+    "category": "inversion",
+    "notes": "during the journey did she feel safe. = never happened."
+  },
+  {
+    "prompt": "The victim was never present during the trial.",
+    "answer": "during the trial was the victim present.",
+    "category": "inversion",
+    "notes": "during the trial was the victim present. = never happened."
+  },
+  {
+    "prompt": "He had never been late at no time before. Correct. (time)",
+    "answer": "had he been late before",
+    "category": "inversion",
+    "notes": "had he been late before = never happened."
+  },
+  {
+    "prompt": "The guard never left his post that night.",
+    "answer": "that night did the guard leave his post.",
+    "category": "inversion",
+    "notes": "that night did the guard leave his post. = never happened."
+  },
+  {
+    "prompt": "The machine was never switched off.",
+    "answer": "was the machine switched off.",
+    "category": "inversion",
+    "notes": "was the machine switched off. = never happened."
+  },
+  {
+    "prompt": "The price was never mentioned in the talk.",
+    "answer": "was the price mentioned in the talk.",
+    "category": "inversion",
+    "notes": "was the price mentioned in the talk. = never happened."
+  },
+  {
+    "prompt": "The passengers were never in danger.",
+    "answer": "were the passengers in danger.",
+    "category": "inversion",
+    "notes": "were the passengers in danger. = never happened."
+  },
+  {
+    "prompt": "They were never told the full truth.",
+    "answer": "were they told the full truth.",
+    "category": "inversion",
+    "notes": "were they told the full truth. = never happened."
+  },
+  {
+    "prompt": "We were never informed of the change.",
+    "answer": "were we informed of the change.",
+    "category": "inversion",
+    "notes": "were we informed of the change. = never happened."
+  },
+  {
+    "prompt": "As soon as he entered the restaurant, he smelt delicious food.",
+    "answer": "had he entered the restaurant when he smelt delicious food.",
+    "category": "inversion",
+    "notes": "had he entered the restaurant when he smelt delicious food. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as he hung up, another call came through.",
+    "answer": "had he hung up when another call came through.",
+    "category": "inversion",
+    "notes": "had he hung up when another call came through. = one event just finished when next began."
+  },
+  {
+    "prompt": "He had just left home when the storm began. (barely)",
+    "answer": "had he left home when the storm began",
+    "category": "inversion",
+    "notes": "had he left home when the storm began = one event just finished when next began."
+  },
+  {
+    "prompt": "I had just closed the door when the bell rang. (barely)",
+    "answer": "had I closed the door when the bell rang",
+    "category": "inversion",
+    "notes": "had I closed the door when the bell rang = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as I nodded off, the noise woke me up.",
+    "answer": "had I nodded off when the noise woke me up.",
+    "category": "inversion",
+    "notes": "had I nodded off when the noise woke me up. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as she got into bed, the phone rang again.",
+    "answer": "had she got into bed when the phone rang again.",
+    "category": "inversion",
+    "notes": "had she got into bed when the phone rang again. = one event just finished when next began."
+  },
+  {
+    "prompt": "She had just spoken when he interrupted. (barely)",
+    "answer": "had she spoken when he interrupted",
+    "category": "inversion",
+    "notes": "had she spoken when he interrupted = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as she submitted the form, the system crashed.",
+    "answer": "had she submitted the form when the system crashed.",
+    "category": "inversion",
+    "notes": "had she submitted the form when the system crashed. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as the lesson ended, the students rushed out.",
+    "answer": "had the lesson ended when the students rushed out.",
+    "category": "inversion",
+    "notes": "had the lesson ended when the students rushed out. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as the match kicked off, it began to pour.",
+    "answer": "had the match kicked off when it began to pour.",
+    "category": "inversion",
+    "notes": "had the match kicked off when it began to pour. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as the sun set, the temperature dropped sharply.",
+    "answer": "had the sun set when the temperature dropped sharply.",
+    "category": "inversion",
+    "notes": "had the sun set when the temperature dropped sharply. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as they left the hotel, the storm broke out.",
+    "answer": "had they left the hotel when the storm broke out.",
+    "category": "inversion",
+    "notes": "had they left the hotel when the storm broke out. = one event just finished when next began."
+  },
+  {
+    "prompt": "They had just met when they quarrelled. (barely)",
+    "answer": "had they met when they quarrelled",
+    "category": "inversion",
+    "notes": "had they met when they quarrelled = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as we unpacked our bags, guests arrived.",
+    "answer": "had we unpacked our bags when guests arrived.",
+    "category": "inversion",
+    "notes": "had we unpacked our bags when guests arrived. = one event just finished when next began."
+  },
+  {
+    "prompt": "If he had driven carefully, no crash. (had)",
+    "answer": "he driven carefully there would have been no crash",
+    "category": "inversion",
+    "notes": "he driven carefully there would have been no crash = if it had happened."
+  },
+  {
+    "prompt": "If he had studied, he would pass. Mixed? Correct to had. (had)",
+    "answer": "he studied he would have passed",
+    "category": "inversion",
+    "notes": "he studied he would have passed = if it had happened."
+  },
+  {
+    "prompt": "If I had known, I would help. (had)",
+    "answer": "I known I would have helped",
+    "category": "inversion",
+    "notes": "I known I would have helped = if it had happened."
+  },
+  {
+    "prompt": "If I had known the answer, I would have raised my hand.",
+    "answer": "I known the answer, I would have raised my hand.",
+    "category": "inversion",
+    "notes": "I known the answer, I would have raised my hand. = if it had happened."
+  },
+  {
+    "prompt": "If I had not been busy, I would have attended.",
+    "answer": "I not been busy, I would have attended the meeting.",
+    "category": "inversion",
+    "notes": "I not been busy, I would have attended the meeting. = if it had happened."
+  },
+  {
+    "prompt": "If I had seen the sign, I would have stopped.",
+    "answer": "I seen the sign, I would have stopped.",
+    "category": "inversion",
+    "notes": "I seen the sign, I would have stopped. = if it had happened."
+  },
+  {
+    "prompt": "If it had not rained, we would go. Correct form. (had)",
+    "answer": "it not rained we would have gone",
+    "category": "inversion",
+    "notes": "it not rained we would have gone = if it had happened."
+  },
+  {
+    "prompt": "If it had not rained, we would have partied outside.",
+    "answer": "it not rained, we would have partied outside.",
+    "category": "inversion",
+    "notes": "it not rained, we would have partied outside. = if it had happened."
+  },
+  {
+    "prompt": "If Margaret had realised, she would never have agreed.",
+    "answer": "Margaret realised, she would never have agreed to go.",
+    "category": "inversion",
+    "notes": "Margaret realised, she would never have agreed to go. = if it had happened."
+  },
+  {
+    "prompt": "If she had asked, I would tell. (had)",
+    "answer": "she asked I would have told her",
+    "category": "inversion",
+    "notes": "she asked I would have told her = if it had happened."
+  },
+  {
+    "prompt": "If the evidence had surfaced earlier, the verdict would have differed. (HAD)",
+    "answer": "the evidence surfaced earlier",
+    "category": "inversion",
+    "notes": "the evidence surfaced earlier = if it had happened."
+  },
+  {
+    "prompt": "If the files had been preserved, comparison would be possible.",
+    "answer": "the files been preserved, comparison would have been possible.",
+    "category": "inversion",
+    "notes": "the files been preserved, comparison would have been possible. = if it had happened."
+  },
+  {
+    "prompt": "If they had known, they would have acted earlier.",
+    "answer": "they known, they would have acted earlier.",
+    "category": "inversion",
+    "notes": "they known, they would have acted earlier. = if it had happened."
+  },
+  {
+    "prompt": "If they had left earlier, they would arrive. (had)",
+    "answer": "they left earlier they would have arrived",
+    "category": "inversion",
+    "notes": "they left earlier they would have arrived = if it had happened."
+  },
+  {
+    "prompt": "If we had left earlier, we would have arrived on time.",
+    "answer": "we left earlier, we would have arrived on time.",
+    "category": "inversion",
+    "notes": "we left earlier, we would have arrived on time. = if it had happened."
+  },
+  {
+    "prompt": "If we had lost that match, it would have been a disaster.",
+    "answer": "we lost that match, it would have been a disaster.",
+    "category": "inversion",
+    "notes": "we lost that match, it would have been a disaster. = if it had happened."
+  },
+  {
+    "prompt": "If you had not refused, you would have enjoyed it.",
+    "answer": "you not refused my invitation, you would have enjoyed it.",
+    "category": "inversion",
+    "notes": "you not refused my invitation, you would have enjoyed it. = if it had happened."
+  },
+  {
+    "prompt": "He had no sooner closed the door than the phone rang. (hardly)",
+    "answer": "had he closed the door",
+    "category": "inversion",
+    "notes": "had he closed the door = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as he finished speaking, the crowd applauded.",
+    "answer": "had he finished speaking when the crowd applauded.",
+    "category": "inversion",
+    "notes": "had he finished speaking when the crowd applauded. = one event just finished when next began."
+  },
+  {
+    "prompt": "He had no sooner left the house than it began to rain. (hardly)",
+    "answer": "had he left the house",
+    "category": "inversion",
+    "notes": "had he left the house = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as he left the house, it started to rain.",
+    "answer": "had he left the house when it started to rain.",
+    "category": "inversion",
+    "notes": "had he left the house when it started to rain. = one event just finished when next began."
+  },
+  {
+    "prompt": "He had no sooner left than trouble started. Correct to hardly form. (hardly)",
+    "answer": "had he left when trouble started",
+    "category": "inversion",
+    "notes": "had he left when trouble started = one event just finished when next began."
+  },
+  {
+    "prompt": "He had barely recovered from surgery when the summons arrived. (HARDLY)",
+    "answer": "had he recovered from surgery",
+    "category": "inversion",
+    "notes": "had he recovered from surgery = one event just finished when next began."
+  },
+  {
+    "prompt": "He had barely recovered when he fell ill again. (hardly)",
+    "answer": "had he recovered",
+    "category": "inversion",
+    "notes": "had he recovered = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as he sat down, the lights went out. (hardly)",
+    "answer": "had he sat down when the lights went out",
+    "category": "inversion",
+    "notes": "had he sat down when the lights went out = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as I closed my eyes, the alarm went off.",
+    "answer": "had I closed my eyes when the alarm went off.",
+    "category": "inversion",
+    "notes": "had I closed my eyes when the alarm went off. = one event just finished when next began."
+  },
+  {
+    "prompt": "It had just stopped raining when we left. (hardly)",
+    "answer": "had it stopped raining when we left",
+    "category": "inversion",
+    "notes": "had it stopped raining when we left = one event just finished when next began."
+  },
+  {
+    "prompt": "She had just arrived when he called. (hardly)",
+    "answer": "had she arrived when he called",
+    "category": "inversion",
+    "notes": "had she arrived when he called = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as she finished, they applauded. (hardly)",
+    "answer": "had she finished when they applauded",
+    "category": "inversion",
+    "notes": "had she finished when they applauded = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as she opened the letter, she burst into tears.",
+    "answer": "had she opened the letter when she burst into tears.",
+    "category": "inversion",
+    "notes": "had she opened the letter when she burst into tears. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as she sat down, the phone rang.",
+    "answer": "had she sat down when the phone rang.",
+    "category": "inversion",
+    "notes": "had she sat down when the phone rang. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as the concert began, his phone rang loudly.",
+    "answer": "had the concert begun when his phone rang loudly.",
+    "category": "inversion",
+    "notes": "had the concert begun when his phone rang loudly. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as the plane took off, the engine failed.",
+    "answer": "had the plane taken off when the engine failed.",
+    "category": "inversion",
+    "notes": "had the plane taken off when the engine failed. = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as the teacher entered, the students fell silent.",
+    "answer": "had the teacher entered when the students fell silent.",
+    "category": "inversion",
+    "notes": "had the teacher entered when the students fell silent. = one event just finished when next began."
+  },
+  {
+    "prompt": "The train had just departed when we arrived. (hardly)",
+    "answer": "had the train departed when we arrived",
+    "category": "inversion",
+    "notes": "had the train departed when we arrived = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as they reached the station, the train departed.",
+    "answer": "had they reached the station when the train departed.",
+    "category": "inversion",
+    "notes": "had they reached the station when the train departed. = one event just finished when next began."
+  },
+  {
+    "prompt": "We had just sat down when the show ended. (hardly)",
+    "answer": "had we sat down when the show ended",
+    "category": "inversion",
+    "notes": "had we sat down when the show ended = one event just finished when next began."
+  },
+  {
+    "prompt": "As soon as we started eating, the power went out.",
+    "answer": "had we started eating when the power went out.",
+    "category": "inversion",
+    "notes": "had we started eating when the power went out. = one event just finished when next began."
+  },
+  {
+    "prompt": "You cannot leave the room in no case. (case)",
+    "answer": "can you leave the room",
+    "category": "inversion",
+    "notes": "can you leave the room = absolutely never."
+  },
+  {
+    "prompt": "They should not cheat in any way. (way)",
+    "answer": "should they cheat",
+    "category": "inversion",
+    "notes": "should they cheat = absolutely never."
+  },
+  {
+    "prompt": "He did not guess the truth would shock everyone.",
+    "answer": "did he guess the truth would shock everyone.",
+    "category": "inversion",
+    "notes": "did he guess the truth would shock everyone. = hardly happened."
+  },
+  {
+    "prompt": "He did not realise the danger he was in.",
+    "answer": "did he realise the danger he was in.",
+    "category": "inversion",
+    "notes": "did he realise the danger he was in. = hardly happened."
+  },
+  {
+    "prompt": "He did not realise the risk until too late. (little)",
+    "answer": "did he realise",
+    "category": "inversion",
+    "notes": "did he realise = hardly happened."
+  },
+  {
+    "prompt": "He little realised the risk. (little)",
+    "answer": "did he realise the risk",
+    "category": "inversion",
+    "notes": "little = did not"
+  },
+  {
+    "prompt": "I did not expect the news to change everything.",
+    "answer": "did I expect the news to change everything.",
+    "category": "inversion",
+    "notes": "did I expect the news to change everything. = hardly happened."
+  }
+]

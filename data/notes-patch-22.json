@@ -1,0 +1,1244 @@
+[
+  {
+    "prompt": "Because the fields were covered with snow, children played indoors.",
+    "answer": "With the fields covered with snow,",
+    "category": "rephrase",
+    "notes": "With the fields covered with snow, = because snow covered the fields."
+  },
+  {
+    "prompt": "Because the gate was locked for the night, visitors had to return.",
+    "answer": "With the gate locked for the night,",
+    "category": "rephrase",
+    "notes": "With the gate locked for the night, = because gate was locked overnight."
+  },
+  {
+    "prompt": "When the homework is finished, you may watch television.",
+    "answer": "With the homework finished,",
+    "category": "rephrase",
+    "notes": "With the homework finished, = when homework is finished."
+  },
+  {
+    "prompt": "Because the lights were flickering in the hall, the speech paused.",
+    "answer": "With the lights flickering in the hall,",
+    "category": "rephrase",
+    "notes": "With the lights flickering in the hall, = because lights were flickering there."
+  },
+  {
+    "prompt": "When the lights were turned off, the hall looked solemn.",
+    "answer": "With the lights turned off,",
+    "category": "rephrase",
+    "notes": "With the lights turned off, = when lights were switched off."
+  },
+  {
+    "prompt": "Because the number of tourists is increasing each year, hotels expand.",
+    "answer": "With the number of tourists increasing each year,",
+    "category": "rephrase",
+    "notes": "With the number of tourists increasing each year, = because tourist numbers grow yearly."
+  },
+  {
+    "prompt": "Because the rain was pouring down, the match was cancelled.",
+    "answer": "With the rain pouring down,",
+    "category": "rephrase",
+    "notes": "With the rain pouring down, = because rain was falling heavily."
+  },
+  {
+    "prompt": "When the reports are written, submit them to the office.",
+    "answer": "With the reports written,",
+    "category": "rephrase",
+    "notes": "With the reports written, = when reports are completed."
+  },
+  {
+    "prompt": "Because the river was flowing swiftly, crossing was dangerous.",
+    "answer": "With the river flowing swiftly,",
+    "category": "rephrase",
+    "notes": "With the river flowing swiftly, = because river flowed very fast."
+  },
+  {
+    "prompt": "Because the road was blocked by snow, we took a long detour.",
+    "answer": "With the road blocked by snow,",
+    "category": "rephrase",
+    "notes": "With the road blocked by snow, = because snow blocked the road."
+  },
+  {
+    "prompt": "Because the streets were crowded with fans, the bus moved slowly.",
+    "answer": "With the streets crowded with fans,",
+    "category": "rephrase",
+    "notes": "With the streets crowded with fans, = because fans crowded the streets."
+  },
+  {
+    "prompt": "Because the sun was setting behind the hills, the sky turned red.",
+    "answer": "With the sun setting behind the hills,",
+    "category": "rephrase",
+    "notes": "With the sun setting behind the hills, = as sun sank behind hills."
+  },
+  {
+    "prompt": "When the table is set for dinner, please call me.",
+    "answer": "With the table set for dinner,",
+    "category": "rephrase",
+    "notes": "With the table set for dinner, = when table is ready."
+  },
+  {
+    "prompt": "Because the wind was blowing hard, the ferry stopped operating.",
+    "answer": "With the wind blowing hard,",
+    "category": "rephrase",
+    "notes": "With the wind blowing hard, = because wind blew very hard."
+  },
+  {
+    "prompt": "When the windows are broken, the house becomes very cold.",
+    "answer": "With the windows broken,",
+    "category": "rephrase",
+    "notes": "With the windows broken, = if windows are broken."
+  },
+  {
+    "prompt": "Because time was running out, we had to decide quickly.",
+    "answer": "With time running out,",
+    "category": "rephrase",
+    "notes": "With time running out, = because little time remained."
+  },
+  {
+    "prompt": "Because traffic was building up downtown, police rerouted cars.",
+    "answer": "With traffic building up downtown,",
+    "category": "rephrase",
+    "notes": "With traffic building up downtown, = because downtown traffic grew heavy."
+  },
+  {
+    "prompt": "If he had studied, he would have passed. (without)",
+    "answer": "his studying",
+    "category": "rephrase",
+    "notes": "his studying = studying he failed to do."
+  },
+  {
+    "prompt": "I am sure you did not see Adnan this morning; he is in Greece this week.",
+    "answer": "can't have",
+    "category": "rephrase",
+    "notes": "can't have = surely did not happen."
+  },
+  {
+    "prompt": "You cannot enter unless you have a ticket. (without)",
+    "answer": "enter without a",
+    "category": "rephrase",
+    "notes": "enter without a = entry requires a ticket."
+  },
+  {
+    "prompt": "You had plenty of time, so it was possible for you to play better.",
+    "answer": "could have",
+    "category": "rephrase",
+    "notes": "could have + pp = criticism of wasted ability"
+  },
+  {
+    "prompt": "You should apply for the scholarship today.",
+    "answer": "had better",
+    "category": "rephrase",
+    "notes": "had better = should; strong advice to act."
+  },
+  {
+    "prompt": "You should bring an umbrella; it looks like rain.",
+    "answer": "had better",
+    "category": "rephrase",
+    "notes": "had better = should; strong advice to act."
+  },
+  {
+    "prompt": "You should hurry or you will miss the bus.",
+    "answer": "had better hurry",
+    "category": "rephrase",
+    "notes": "had better hurry = should hurry urgently."
+  },
+  {
+    "prompt": "You should hurry up or you will be late.",
+    "answer": "had better",
+    "category": "rephrase",
+    "notes": "had better = should; strong advice to act."
+  },
+  {
+    "prompt": "You should keep quiet in the library.",
+    "answer": "had better",
+    "category": "rephrase",
+    "notes": "had better = should; strong advice to act."
+  },
+  {
+    "prompt": "You ought not to have cross-examined the minor without counsel. (BETTER)",
+    "answer": "better not have cross-examined",
+    "category": "rephrase",
+    "notes": "better not have cross-examined = should not have questioned minor."
+  },
+  {
+    "prompt": "You should not smoke here. (better)",
+    "answer": "had better not",
+    "category": "rephrase",
+    "notes": "had better not = should not; strong warning."
+  },
+  {
+    "prompt": "You should not smoke in this hospital.",
+    "answer": "had better not",
+    "category": "rephrase",
+    "notes": "had better not = should not; strong warning."
+  },
+  {
+    "prompt": "You should not stay up so late.",
+    "answer": "had better not",
+    "category": "rephrase",
+    "notes": "had better not = should not; strong warning."
+  },
+  {
+    "prompt": "You should revise carefully before the HSG exam.",
+    "answer": "had better",
+    "category": "rephrase",
+    "notes": "had better = should; strong advice to act."
+  },
+  {
+    "prompt": "I think you should see a dentist about that tooth.",
+    "answer": "had better",
+    "category": "rephrase",
+    "notes": "had better = should; strong advice to act."
+  },
+  {
+    "prompt": "You should see a doctor at once.",
+    "answer": "had better see",
+    "category": "rephrase",
+    "notes": "had better + bare infinitive = should"
+  },
+  {
+    "prompt": "It is advisable for you to take an umbrella.",
+    "answer": "had better take",
+    "category": "rephrase",
+    "notes": "had better take = should take; firm advice."
+  },
+  {
+    "prompt": "I have a third of the patience you have.",
+    "answer": "as much",
+    "category": "rephrase",
+    "notes": "as much = comparison showing triple amount."
+  },
+  {
+    "prompt": "You bought so much food, but half the guests did not show up. It was a waste.",
+    "answer": "needn't have",
+    "category": "rephrase",
+    "notes": "needn't have + pp = did but unnecessary; action happened"
+  },
+  {
+    "prompt": "You brought dessert, but we already had plenty. Thank you anyway.",
+    "answer": "needn't have",
+    "category": "rephrase",
+    "notes": "needn't have + pp = British preference for wasted action"
+  },
+  {
+    "prompt": "You left such a big tip; the service was already included.",
+    "answer": "needn't have",
+    "category": "rephrase",
+    "notes": "needn't have + pp = money wasted"
+  },
+  {
+    "prompt": "You ran to the station, but the train was delayed by an hour.",
+    "answer": "needn't have",
+    "category": "rephrase",
+    "notes": "needn't have = did unnecessarily; wasted run."
+  },
+  {
+    "prompt": "You sold your car so cheaply; the prices rose the next week.",
+    "answer": "needn't have",
+    "category": "rephrase",
+    "notes": "needn't have + pp = regret over hasty act"
+  },
+  {
+    "prompt": "Reading in dim light is not advisable. (avoid)",
+    "answer": "avoid reading",
+    "category": "rephrase",
+    "notes": "avoid reading = do not read in dim light."
+  },
+  {
+    "prompt": "It was too late to call the bank. You missed the chance earlier today.",
+    "answer": "should have",
+    "category": "rephrase",
+    "notes": "should have + pp = opposite of needn't have; should = right thing undone"
+  },
+  {
+    "prompt": "You lost the match because you did not play better.",
+    "answer": "should have",
+    "category": "rephrase",
+    "notes": "should have + pp = unfulfilled expectation of effort"
+  },
+  {
+    "prompt": "You failed because you did not study for the test last night.",
+    "answer": "should have",
+    "category": "rephrase",
+    "notes": "should have + pp = advice in hindsight"
+  },
+  {
+    "prompt": "You forgot your promise to prepare something special.",
+    "answer": "should have",
+    "category": "rephrase",
+    "notes": "should have + pp = expected information withheld"
+  },
+  {
+    "prompt": "You made an error not warning me earlier.",
+    "answer": "should have",
+    "category": "rephrase",
+    "notes": "should have + pp = reproach for omission"
+  },
+  {
+    "prompt": "You should ask someone to test your eyes.",
+    "answer": "have your eyes tested",
+    "category": "rephrase",
+    "notes": "have your eyes tested = get eyes examined by someone."
+  },
+  {
+    "prompt": "You had better not tell anyone about this.",
+    "answer": "should not tell",
+    "category": "rephrase",
+    "notes": "should not tell = must keep secret."
+  },
+  {
+    "prompt": "You had better wear a helmet when riding a motorbike.",
+    "answer": "should wear a",
+    "category": "rephrase",
+    "notes": "should wear a = must wear helmet."
+  },
+  {
+    "prompt": "It was a mistake for you to tell them our secret. You kept nothing confidential.",
+    "answer": "shouldn't have",
+    "category": "rephrase",
+    "notes": "shouldn't have + pp = criticism; action did happen"
+  },
+  {
+    "prompt": "You had strict orders not to stay here, but you remained.",
+    "answer": "were not supposed to",
+    "category": "rephrase",
+    "notes": "be not supposed to = rule; should not have stayed = criticism"
+  },
+  {
+    "prompt": "You had a duty to say sorry when you hurt his feelings, but you stayed silent.",
+    "answer": "were supposed to",
+    "category": "rephrase",
+    "notes": "be supposed to = social expectation"
+  },
+  {
+    "prompt": "You were expected to wear a uniform, yet you came in jeans.",
+    "answer": "were supposed to",
+    "category": "rephrase",
+    "notes": "were supposed to = dress-code expectation; should have worn = criticism"
+  },
+  {
+    "prompt": "No matter how young he is, he talks like an expert.",
+    "answer": "as he is",
+    "category": "rephrase",
+    "notes": "as he is = however young he is."
+  },
+  {
+    "prompt": "My garden produces half the vegetables yours produces.",
+    "answer": "as many",
+    "category": "rephrase",
+    "notes": "as many = comparing double amount."
+  },
+  {
+    "prompt": "A ___ mistake cost them the match. (CARE)",
+    "answer": "careless",
+    "category": "wordform",
+    "notes": "careless (-less) = without care"
+  },
+  {
+    "prompt": "A cure is scientifically ___. (POSSIBLE)",
+    "answer": "is scientifically possible",
+    "category": "wordform",
+    "notes": "possible = can happen; impossible = cannot"
+  },
+  {
+    "prompt": "A dictionary is a very useful tool for learners. (USE)",
+    "answer": "useful",
+    "category": "wordform",
+    "notes": "useful = helpful; practical for use."
+  },
+  {
+    "prompt": "A good leader must be calm and decisive in a crisis. (DECIDE)",
+    "answer": "decisive",
+    "category": "wordform",
+    "notes": "decisive = firm; making quick decisions."
+  },
+  {
+    "prompt": "A good teacher is tolerant with slow learners. (TOLERATE)",
+    "answer": "tolerant",
+    "category": "wordform",
+    "notes": "tolerant = patient with slow learners."
+  },
+  {
+    "prompt": "A life without goals feels meaningless and empty. (MEAN)",
+    "answer": "meaningless",
+    "category": "wordform",
+    "notes": "meaningless = without meaning; empty."
+  },
+  {
+    "prompt": "A mysterious letter arrived with no name on it. (MYSTERY)",
+    "answer": "mysterious",
+    "category": "wordform",
+    "notes": "mysterious = strange; hard to explain."
+  },
+  {
+    "prompt": "A raincoat is more practical than an umbrella on a bike. (PRACTICE)",
+    "answer": "practical",
+    "category": "wordform",
+    "notes": "practical = useful in real life."
+  },
+  {
+    "prompt": "After 18 she lived on her own, free from parents. (DEPENDENT)",
+    "answer": "independent",
+    "category": "wordform",
+    "notes": "independent = free; not controlled by others."
+  },
+  {
+    "prompt": "After graduation she wants to be financially independent of her family. (DEPEND)",
+    "answer": "independent",
+    "category": "wordform",
+    "notes": "independent = free; not controlled by others."
+  },
+  {
+    "prompt": "After retirement she longed for peace and ___. (SOLITARY)",
+    "answer": "solitude",
+    "category": "wordform",
+    "notes": "solitude = being alone; quiet loneliness."
+  },
+  {
+    "prompt": "After the marathon he felt completely exhausted. (EXHAUST)",
+    "answer": "felt completely exhausted",
+    "category": "wordform",
+    "notes": "felt completely exhausted = very tired after effort."
+  },
+  {
+    "prompt": "After the meal we felt full and satisfied. (SATISFY)",
+    "answer": "satisfied",
+    "category": "wordform",
+    "notes": "satisfied = pleased; feeling full and content."
+  },
+  {
+    "prompt": "After years of ___ , the writer finally became famous. (OBSCURE)",
+    "answer": "obscurity",
+    "category": "wordform",
+    "notes": "obscurity = being unknown; lack of fame."
+  },
+  {
+    "prompt": "Airport ___ has been tightened recently. (SECURE)",
+    "answer": "security",
+    "category": "wordform",
+    "notes": "security = safety; protection against threats."
+  },
+  {
+    "prompt": "Art gives ___ pleasure to many people. (MEAN)",
+    "answer": "meaningful",
+    "category": "wordform",
+    "notes": "meaningful = significant; meaningless = empty"
+  },
+  {
+    "prompt": "Bacteria are developing ___ to antibiotics. (RESIST)",
+    "answer": "resistance",
+    "category": "wordform",
+    "notes": "resistance = fighting against antibiotic drugs."
+  },
+  {
+    "prompt": "Be careful when crossing the busy road. (CARE)",
+    "answer": "careful",
+    "category": "wordform",
+    "notes": "careful = cautious; paying close attention."
+  },
+  {
+    "prompt": "Be ___ with glass when you carry it. (CARE)",
+    "answer": "careful",
+    "category": "wordform",
+    "notes": "careful = cautious; careless = negligent"
+  },
+  {
+    "prompt": "Blind ___ to orders can be dangerous. (OBEDIENT)",
+    "answer": "obedience",
+    "category": "wordform",
+    "notes": "obedience = obeying orders; compliance."
+  },
+  {
+    "prompt": "Both sides signed the peace ___ yesterday. (AGREE)",
+    "answer": "agreement",
+    "category": "wordform",
+    "notes": "agreement = shared decision; peace deal."
+  },
+  {
+    "prompt": "Buying in bulk is more economical for large families. (ECONOMY)",
+    "answer": "economical",
+    "category": "wordform",
+    "notes": "economical = cheap; saving money for families."
+  },
+  {
+    "prompt": "Cheating in exams is ___. (HONEST)",
+    "answer": "dishonest",
+    "category": "wordform",
+    "notes": "dishonest = cheating; not honest."
+  },
+  {
+    "prompt": "Cheating in the exam is wrong and unethical. (MORAL)",
+    "answer": "immoral",
+    "category": "wordform",
+    "notes": "immoral = wrong; against moral rules."
+  },
+  {
+    "prompt": "Children's ___ about nature should be encouraged. (CURIOUS)",
+    "answer": "curiosity",
+    "category": "wordform",
+    "notes": "curiosity = desire to learn about nature."
+  },
+  {
+    "prompt": "Choosing a career is a difficult ___ for many students. (CHOOSE)",
+    "answer": "choice",
+    "category": "wordform",
+    "notes": "choice = decision; option selected."
+  },
+  {
+    "prompt": "Clean water is an invaluable resource for every village. (VALUE)",
+    "answer": "invaluable",
+    "category": "wordform",
+    "notes": "invaluable = very precious; priceless."
+  },
+  {
+    "prompt": "Climbing Everest without oxygen seems not feasible. (POSSIBLE)",
+    "answer": "impossible",
+    "category": "wordform",
+    "notes": "impossible = cannot happen; unfeasible."
+  },
+  {
+    "prompt": "Customers must pay for any ___ in the shop. (BREAK)",
+    "answer": "breakage",
+    "category": "wordform",
+    "notes": "breakage = damage; broken items to pay."
+  },
+  {
+    "prompt": "Cutting trees in this area would be ___. (SENSE)",
+    "answer": "senseless",
+    "category": "wordform",
+    "notes": "senseless = foolish/pointless; -less = without"
+  },
+  {
+    "prompt": "Despite difficulties, she remains optimistic about the future. (OPTIMIST)",
+    "answer": "optimistic",
+    "category": "wordform",
+    "notes": "optimistic = hopeful about future."
+  },
+  {
+    "prompt": "Despite fame, she is admired for her ___. (HUMBLE)",
+    "answer": "humility",
+    "category": "wordform",
+    "notes": "humility = being humble; modesty."
+  },
+  {
+    "prompt": "Despite the rain, the team remains hopeful of winning. (HOPE)",
+    "answer": "hopeful",
+    "category": "wordform",
+    "notes": "hopeful = expecting good results."
+  },
+  {
+    "prompt": "Details like food are not important now. (IMPORTANT)",
+    "answer": "unimportant",
+    "category": "wordform",
+    "notes": "unimportant = not important; minor."
+  },
+  {
+    "prompt": "Dogs are highly sensitive to strange sounds. (SENSE)",
+    "answer": "sensitive",
+    "category": "wordform",
+    "notes": "sensitive = quickly noticing strange sounds."
+  },
+  {
+    "prompt": "Dogs are known to be faithful and ___ companions. (OBEY)",
+    "answer": "obedient",
+    "category": "wordform",
+    "notes": "obedient = obeying; well behaved."
+  },
+  {
+    "prompt": "Dolphins are ___ and intelligent animals. (FRIEND)",
+    "answer": "friendly",
+    "category": "wordform",
+    "notes": "friendly = kind and pleasant."
+  },
+  {
+    "prompt": "Each group went to its ___ classroom. (RESPECT)",
+    "answer": "respective",
+    "category": "wordform",
+    "notes": "respective = belonging separately to each"
+  },
+  {
+    "prompt": "Earthquakes are a rare ___ in this region. (OCCUR)",
+    "answer": "occurrence",
+    "category": "wordform",
+    "notes": "occurrence = happening; rare event."
+  },
+  {
+    "prompt": "Entry is by ___ ticket only. (ADMIT)",
+    "answer": "admission",
+    "category": "wordform",
+    "notes": "admission = entry; permission to enter."
+  },
+  {
+    "prompt": "Every ___ of the dancer was graceful. (MOVE)",
+    "answer": "movement",
+    "category": "wordform",
+    "notes": "movement = motion; graceful way of moving."
+  },
+  {
+    "prompt": "Everyone admired the ___ of her performance. (BRILLIANT)",
+    "answer": "brilliance",
+    "category": "wordform",
+    "notes": "brilliance = great excellence; brightness."
+  },
+  {
+    "prompt": "Factories must cut carbon ___ levels urgently. (EMIT)",
+    "answer": "emission",
+    "category": "wordform",
+    "notes": "emission = gas released; discharge."
+  },
+  {
+    "prompt": "False ads trick customers into buying. (LEAD)",
+    "answer": "mislead",
+    "category": "wordform",
+    "notes": "mislead = trick; give wrong idea."
+  },
+  {
+    "prompt": "Fast food every day is not good for health. (HEALTHY)",
+    "answer": "unhealthy",
+    "category": "wordform",
+    "notes": "unhealthy = bad for health."
+  },
+  {
+    "prompt": "Fear spread quickly because laughter is contagious. (CONTAGION)",
+    "answer": "contagious",
+    "category": "wordform",
+    "notes": "contagious = spreading quickly to others."
+  },
+  {
+    "prompt": "Firefighters made a courageous rescue during the flood. (COURAGE)",
+    "answer": "courageous",
+    "category": "wordform",
+    "notes": "courageous = brave; fearless in danger."
+  },
+  {
+    "prompt": "Fish are ___ to live out of water. (ABLE)",
+    "answer": "unable",
+    "category": "wordform",
+    "notes": "un- + able; unable = cannot"
+  },
+  {
+    "prompt": "For your ___ , the bank opens on Saturdays. (CONVENIENT)",
+    "answer": "convenience",
+    "category": "wordform",
+    "notes": "convenience = ease; suitable comfort for customers."
+  },
+  {
+    "prompt": "Fortunately he missed the bus but met an old friend. (FORTUNE)",
+    "answer": "Fortunately",
+    "category": "wordform",
+    "notes": "Fortunately = luckily; by good fortune."
+  },
+  {
+    "prompt": "Further ___ is available at the reception desk. (INFORM)",
+    "answer": "information",
+    "category": "wordform",
+    "notes": "information = facts; news provided."
+  },
+  {
+    "prompt": "Germs cannot be seen without a microscope. (VISIBLE)",
+    "answer": "invisible",
+    "category": "wordform",
+    "notes": "invisible = cannot be seen."
+  },
+  {
+    "prompt": "Glass is easily ___. (BREAK)",
+    "answer": "breakable",
+    "category": "wordform",
+    "notes": "breakable = can be broken"
+  },
+  {
+    "prompt": "Good conduct is praised in this school. (BEHAVE)",
+    "answer": "behaviour",
+    "category": "wordform",
+    "notes": "behaviour = conduct; way of acting."
+  },
+  {
+    "prompt": "He acted sensibly and saved money for the trip. (SENSE)",
+    "answer": "sensibly",
+    "category": "wordform",
+    "notes": "sensibly = wisely; with good sense."
+  },
+  {
+    "prompt": "He bought a cheap red ___ toy. (PLASTIC)",
+    "answer": "cheap red plastic",
+    "category": "wordform",
+    "notes": "cheap red plastic = inexpensive red plastic toy."
+  },
+  {
+    "prompt": "He bought a small ___ white puppy. (LOVE)",
+    "answer": "lovely",
+    "category": "wordform",
+    "notes": "lovely = beautiful; charming puppy."
+  },
+  {
+    "prompt": "He completed the experiment successfully after months of failure. (SUCCESS)",
+    "answer": "successfully",
+    "category": "wordform",
+    "notes": "successfully = with success; well done."
+  },
+  {
+    "prompt": "He drives a fast red ___ car. (ITALY)",
+    "answer": "Italian",
+    "category": "wordform",
+    "notes": "Italian = from Italy; Italian origin."
+  },
+  {
+    "prompt": "He enjoys reading ___ novels about the war. (HISTORY)",
+    "answer": "historical",
+    "category": "wordform",
+    "notes": "historical = set in/based on history"
+  },
+  {
+    "prompt": "He fell and twisted his ankle painfully. (PAIN)",
+    "answer": "painfully",
+    "category": "wordform",
+    "notes": "painfully = with pain; hurting badly."
+  },
+  {
+    "prompt": "He felt pain and unease after sitting long. (COMFORT)",
+    "answer": "discomfort",
+    "category": "wordform",
+    "notes": "discomfort = pain; lack of comfort."
+  },
+  {
+    "prompt": "He felt sad after hearing the news. (HAPPY)",
+    "answer": "unhappy",
+    "category": "wordform",
+    "notes": "unhappy = sad; not happy."
+  },
+  {
+    "prompt": "He found a clover and felt lucky all day. (LUCK)",
+    "answer": "lucky",
+    "category": "wordform",
+    "notes": "lucky = fortunate; having good luck."
+  },
+  {
+    "prompt": "He found a tiny ___ kitten under the chair. (GREY)",
+    "answer": "tiny grey kitten",
+    "category": "wordform",
+    "notes": "tiny grey kitten = small grey young cat."
+  },
+  {
+    "prompt": "He gave a humorous speech that made everyone laugh. (HUMOUR)",
+    "answer": "humorous",
+    "category": "wordform",
+    "notes": "humorous = funny; making people laugh."
+  },
+  {
+    "prompt": "He gave a long boring ___ lecture. (SCIENCE)",
+    "answer": "scientific",
+    "category": "wordform",
+    "notes": "scientific = about science; systematic study."
+  },
+  {
+    "prompt": "He gave his rival an envious look when he lost. (ENVY)",
+    "answer": "envious",
+    "category": "wordform",
+    "notes": "envious = jealous; wanting what others have."
+  },
+  {
+    "prompt": "He gave me a hint without saying it plainly. (DIRECT)",
+    "answer": "indirect",
+    "category": "wordform",
+    "notes": "indirect = not direct; roundabout."
+  },
+  {
+    "prompt": "He has deep understanding of maths. (KNOW)",
+    "answer": "knowledge",
+    "category": "wordform",
+    "notes": "knowledge = understanding; what is known."
+  },
+  {
+    "prompt": "He is a ___ supplier who always delivers on time. (TRUST)",
+    "answer": "a trusted supplier",
+    "category": "wordform",
+    "notes": "trusted (pp adj) = relied upon; trustworthy = deserving trust"
+  },
+  {
+    "prompt": "He is ___ of looking after himself. (CAPABLE)",
+    "answer": "is capable of",
+    "category": "wordform",
+    "notes": "capable of = able to; incapable of = unable"
+  },
+  {
+    "prompt": "He cannot make up his mind quickly. (DECISIVE)",
+    "answer": "indecisive",
+    "category": "wordform",
+    "notes": "indecisive = hesitating; cannot decide."
+  },
+  {
+    "prompt": "He is cold and does not care about others. (SENSITIVE)",
+    "answer": "insensitive",
+    "category": "wordform",
+    "notes": "insensitive = uncaring; lacking feeling."
+  },
+  {
+    "prompt": "He is under ___ pressure to finish the report. (CONSTANCY)",
+    "answer": "constant",
+    "category": "wordform",
+    "notes": "constant = continuous; unchanging pressure."
+  },
+  {
+    "prompt": "He issued a strong rejection of the charge. (DENY)",
+    "answer": "denial",
+    "category": "wordform",
+    "notes": "denial = saying no; rejection."
+  },
+  {
+    "prompt": "He listened attentively to every instruction. (ATTEND)",
+    "answer": "attentively",
+    "category": "wordform",
+    "notes": "attentively = carefully; with full attention."
+  },
+  {
+    "prompt": "He loves true stories, not invented ones. (FICTION)",
+    "answer": "non-fiction",
+    "category": "wordform",
+    "notes": "non-fiction = true stories; factual books."
+  },
+  {
+    "prompt": "He made a ___ effort to help the victims. (CONSIDER)",
+    "answer": "considerable",
+    "category": "wordform",
+    "notes": "considerable = large; considerate = kind"
+  },
+  {
+    "prompt": "He missed a week of school due to ___. (ILL)",
+    "answer": "illness",
+    "category": "wordform",
+    "notes": "illness = sickness; poor health."
+  },
+  {
+    "prompt": "He used his power in the wrong way. (USE)",
+    "answer": "misused",
+    "category": "wordform",
+    "notes": "misused = used wrongly; abused."
+  },
+  {
+    "prompt": "He mumbled something ___ under his breath. (MEAN)",
+    "answer": "meaningless",
+    "category": "wordform",
+    "notes": "meaningless (-less) = without meaning"
+  },
+  {
+    "prompt": "He owns a rare ancient ___ vase. (CHINA)",
+    "answer": "Chinese",
+    "category": "wordform",
+    "notes": "Chinese = from China; Chinese origin."
+  },
+  {
+    "prompt": "He did not pay heed to the warning. (ATTEND)",
+    "answer": "attention",
+    "category": "wordform",
+    "notes": "attention = notice; careful listening."
+  },
+  {
+    "prompt": "He pursued his goal quite ambitiously. (AMBITION)",
+    "answer": "ambitiously",
+    "category": "wordform",
+    "notes": "ambitiously = with ambition; eagerly."
+  },
+  {
+    "prompt": "He read an interesting old ___ book. (ENGLAND)",
+    "answer": "English",
+    "category": "wordform",
+    "notes": "English = from England; English origin."
+  },
+  {
+    "prompt": "He refuses to face the ___ of his failure. (REAL)",
+    "answer": "reality",
+    "category": "wordform",
+    "notes": "reality = truth; real life."
+  },
+  {
+    "prompt": "He served a delicious hot ___ soup. (TOMATO)",
+    "answer": "delicious hot tomato",
+    "category": "wordform",
+    "notes": "delicious hot tomato = tasty hot tomato soup."
+  },
+  {
+    "prompt": "He served the company faithfully for twenty years. (FAITH)",
+    "answer": "faithfully",
+    "category": "wordform",
+    "notes": "faithfully = loyally; with devotion."
+  },
+  {
+    "prompt": "He shows a ___ beyond his age. (MATURE)",
+    "answer": "maturity",
+    "category": "wordform",
+    "notes": "maturity = adulthood; grown-up quality."
+  },
+  {
+    "prompt": "He solved the puzzle quite creatively using bottle caps. (CREATE)",
+    "answer": "creatively",
+    "category": "wordform",
+    "notes": "creatively = with creativity; imaginatively."
+  },
+  {
+    "prompt": "He spent an uncomfortable night on the hard bench. (COMFORT)",
+    "answer": "uncomfortable",
+    "category": "wordform",
+    "notes": "uncomfortable = not comfortable; uneasy."
+  },
+  {
+    "prompt": "He spent another sleepless night before the exam. (SLEEP)",
+    "answer": "sleepless",
+    "category": "wordform",
+    "notes": "sleepless = without sleep; awake."
+  },
+  {
+    "prompt": "He spent his time usefully by helping neighbours. (USE)",
+    "answer": "usefully",
+    "category": "wordform",
+    "notes": "usefully = helpfully; in useful way."
+  },
+  {
+    "prompt": "He spoke naturally and made everyone relax. (NATURE)",
+    "answer": "naturally",
+    "category": "wordform",
+    "notes": "naturally = in natural way."
+  },
+  {
+    "prompt": "He stressed the ___ of learning English. (IMPORTANT)",
+    "answer": "importance",
+    "category": "wordform",
+    "notes": "importance = value; significance."
+  },
+  {
+    "prompt": "He takes great ___ in his children's success. (PROUD)",
+    "answer": "pride",
+    "category": "wordform",
+    "notes": "pride = feeling proud; self-respect."
+  },
+  {
+    "prompt": "He waited patiently for his turn. (PATIENT)",
+    "answer": "patiently",
+    "category": "wordform",
+    "notes": "patiently = with patience; calmly."
+  },
+  {
+    "prompt": "He was banned from driving for speeding. (QUALIFIED)",
+    "answer": "disqualified",
+    "category": "wordform",
+    "notes": "disqualified = banned; ruled unfit."
+  },
+  {
+    "prompt": "He did not pay attention in class. (ATTENTIVE)",
+    "answer": "inattentive",
+    "category": "wordform",
+    "notes": "inattentive = not paying attention."
+  },
+  {
+    "prompt": "He was late again, obviously from his excuse. (OBVIOUS)",
+    "answer": "obviously",
+    "category": "wordform",
+    "notes": "obviously = clearly; evidently."
+  },
+  {
+    "prompt": "He was seriously injured and taken to hospital. (SERIOUS)",
+    "answer": "seriously",
+    "category": "wordform",
+    "notes": "seriously = severely; gravely."
+  },
+  {
+    "prompt": "He did not know about the danger. (AWARE)",
+    "answer": "unaware",
+    "category": "wordform",
+    "notes": "unaware = not knowing; ignorant."
+  },
+  {
+    "prompt": "He was unfaithful to his promise and never returned. (FAITH)",
+    "answer": "unfaithful",
+    "category": "wordform",
+    "notes": "unfaithful = disloyal; breaking promise."
+  },
+  {
+    "prompt": "He was out of luck all day. (LUCKY)",
+    "answer": "unlucky",
+    "category": "wordform",
+    "notes": "unlucky = unfortunate; without luck."
+  },
+  {
+    "prompt": "He could not find work because he lacked training. (SKILLED)",
+    "answer": "unskilled",
+    "category": "wordform",
+    "notes": "unskilled = untrained; lacking skills."
+  },
+  {
+    "prompt": "He was ___ to admit his mistake. (WILL)",
+    "answer": "unwilling",
+    "category": "wordform",
+    "notes": "unwilling = refusing; not willing."
+  },
+  {
+    "prompt": "He wore a smart new ___ suit. (WOOL)",
+    "answer": "woollen",
+    "category": "wordform",
+    "notes": "woollen = made of wool."
+  },
+  {
+    "prompt": "He wore jeans to the formal dinner. (FORMAL)",
+    "answer": "informal",
+    "category": "wordform",
+    "notes": "informal = casual; not formal."
+  },
+  {
+    "prompt": "He wrote with a sharp black ___ pen. (METAL)",
+    "answer": "sharp black metal",
+    "category": "wordform",
+    "notes": "sharp black metal = pointed black metal pen."
+  },
+  {
+    "prompt": "Her ___ into medical school delighted the family. (ACCEPT)",
+    "answer": "acceptance",
+    "category": "wordform",
+    "notes": "acceptance = being accepted; approval."
+  },
+  {
+    "prompt": "Her ___ has made her unpopular with colleagues. (ARROGANT)",
+    "answer": "arrogance",
+    "category": "wordform",
+    "notes": "arrogance = pride; rude self-importance."
+  },
+  {
+    "prompt": "Her beauty was said to be ___. (COMPARE)",
+    "answer": "incomparable",
+    "category": "wordform",
+    "notes": "incomparable = without equal"
+  },
+  {
+    "prompt": "Her ___ laughter filled the whole room. (CHILD)",
+    "answer": "childlike",
+    "category": "wordform",
+    "notes": "childlike = innocent/charming; -like positive"
+  },
+  {
+    "prompt": "Her ___ of the thief helped the police. (DESCRIBE)",
+    "answer": "description",
+    "category": "wordform",
+    "notes": "description = account; written details."
+  },
+  {
+    "prompt": "Her ___ towards the poor is well known. (GENEROUS)",
+    "answer": "generosity",
+    "category": "wordform",
+    "notes": "generosity = kindness; giving freely."
+  },
+  {
+    "prompt": "Her heartbeat was unsteady after the run. (REGULAR)",
+    "answer": "irregular",
+    "category": "wordform",
+    "notes": "irregular = uneven; not regular."
+  },
+  {
+    "prompt": "Her ___ in the national team was well deserved. (INCLUDE)",
+    "answer": "inclusion",
+    "category": "wordform",
+    "notes": "inclusion = being included; membership."
+  },
+  {
+    "prompt": "Her ___ of her sister ruined their friendship. (JEALOUS)",
+    "answer": "jealousy",
+    "category": "wordform",
+    "notes": "jealousy = envy; resentment."
+  },
+  {
+    "prompt": "Her ___ in the final exam was outstanding. (PERFORM)",
+    "answer": "performance",
+    "category": "wordform",
+    "notes": "performance = show; how well done."
+  },
+  {
+    "prompt": "Her room is always dirty and messy. (TIDY)",
+    "answer": "untidy",
+    "category": "wordform",
+    "notes": "untidy = messy; not tidy."
+  },
+  {
+    "prompt": "Her schedule is rigid and cannot change. (FLEXIBLE)",
+    "answer": "inflexible",
+    "category": "wordform",
+    "notes": "inflexible = rigid; cannot change."
+  },
+  {
+    "prompt": "Her signature was clear and ___. (READ)",
+    "answer": "legible",
+    "category": "wordform",
+    "notes": "legible = readable; illegible = unreadable"
+  },
+  {
+    "prompt": "His ___ to solve problems is remarkable. (ABLE)",
+    "answer": "ability",
+    "category": "wordform",
+    "notes": "ability = skill; power to do."
+  },
+  {
+    "prompt": "His ___ from school was due to illness. (ABSENT)",
+    "answer": "absence",
+    "category": "wordform",
+    "notes": "absence = being away; lack."
+  },
+  {
+    "prompt": "His words of counsel helped me a lot. (ADVISE)",
+    "answer": "advice",
+    "category": "wordform",
+    "notes": "advice = guidance; suggestions."
+  },
+  {
+    "prompt": "His advice did not help at all. (HELPFUL)",
+    "answer": "unhelpful",
+    "category": "wordform",
+    "notes": "unhelpful = useless; not helpful."
+  },
+  {
+    "prompt": "His argument was clear, calm and logical. (LOGIC)",
+    "answer": "logical",
+    "category": "wordform",
+    "notes": "logical = reasonable; sensible."
+  },
+  {
+    "prompt": "His coming was late by an hour. (ARRIVE)",
+    "answer": "arrival",
+    "category": "wordform",
+    "notes": "arrival = coming; reaching place."
+  },
+  {
+    "prompt": "His behaviour was completely ___. (ACCEPT)",
+    "answer": "unacceptable",
+    "category": "wordform",
+    "notes": "unacceptable = not acceptable; too bad."
+  },
+  {
+    "prompt": "His cheating was shameless and disappointed us all. (SHAME)",
+    "answer": "shameless",
+    "category": "wordform",
+    "notes": "shameless = without shame; bold."
+  },
+  {
+    "prompt": "His claim was shown to be true. (PROVE)",
+    "answer": "proven",
+    "category": "wordform",
+    "notes": "proven = shown true; confirmed."
+  },
+  {
+    "prompt": "His clumsy fall was truly embarrassing to watch. (EMBARRASS)",
+    "answer": "embarrassing",
+    "category": "wordform",
+    "notes": "embarrassing = causing shame; awkward."
+  },
+  {
+    "prompt": "His ___ of the charges surprised the court. (DENY)",
+    "answer": "denial",
+    "category": "wordform",
+    "notes": "denial = saying no; rejection."
+  },
+  {
+    "prompt": "His desk is always messy and chaotic. (ORGANISED)",
+    "answer": "disorganised",
+    "category": "wordform",
+    "notes": "disorganised = messy; poorly arranged."
+  },
+  {
+    "prompt": "His excuse sounded convincing to the teacher. (CONVINCE)",
+    "answer": "sounded convincing to",
+    "category": "wordform",
+    "notes": "sounded convincing to = seemed believable to listeners."
+  },
+  {
+    "prompt": "His excuse was so strange it cannot be explained. (EXPLICABLE)",
+    "answer": "inexplicable",
+    "category": "wordform",
+    "notes": "inexplicable = cannot be explained; strange."
+  },
+  {
+    "prompt": "His excuse was so ___ that no one believed him. (FOOL)",
+    "answer": "foolish",
+    "category": "wordform",
+    "notes": "foolish (-ish) = silly; foolproof = certain to work"
+  },
+  {
+    "prompt": "His excuse was totally ___. (CREDIBLE)",
+    "answer": "incredible",
+    "category": "wordform",
+    "notes": "incredible = unbelievable; credible = believable"
+  },
+  {
+    "prompt": "His excuse could not be accepted. (ACCEPTABLE)",
+    "answer": "unacceptable",
+    "category": "wordform",
+    "notes": "unacceptable = not acceptable; too bad."
+  },
+  {
+    "prompt": "His account of the game was very clear. (EXPLAIN)",
+    "answer": "explanation",
+    "category": "wordform",
+    "notes": "explanation = reason; clear account."
+  },
+  {
+    "prompt": "His ___ with computers helped him get the job. (FAMILIAR)",
+    "answer": "familiarity",
+    "category": "wordform",
+    "notes": "familiarity = knowing well; closeness."
+  },
+  {
+    "prompt": "His ___ in French impressed the examiners. (FLUENT)",
+    "answer": "fluency",
+    "category": "wordform",
+    "notes": "fluency = smooth speaking; ease."
+  },
+  {
+    "prompt": "His ___ gives him an advantage in basketball. (HIGH)",
+    "answer": "height",
+    "category": "wordform",
+    "notes": "height = tallness; vertical size."
+  },
+  {
+    "prompt": "His idea makes no sense at all. (LOGICAL)",
+    "answer": "illogical",
+    "category": "wordform",
+    "notes": "illogical = unreasonable; senseless."
+  },
+  {
+    "prompt": "His ___ of the law is no excuse. (IGNORANT)",
+    "answer": "ignorance",
+    "category": "wordform",
+    "notes": "ignorance = lack of knowledge."
+  },
+  {
+    "prompt": "His illness was declared ___. (CURE)",
+    "answer": "incurable",
+    "category": "wordform",
+    "notes": "in- + curable = cannot be cured"
+  },
+  {
+    "prompt": "His injury was extremely ___. (PAIN)",
+    "answer": "painful",
+    "category": "wordform",
+    "notes": "painful = causing pain; painless = without pain"
+  },
+  {
+    "prompt": "His instructions were vague and not clear. (CLEAR)",
+    "answer": "unclear",
+    "category": "wordform",
+    "notes": "unclear = vague; not clear."
+  },
+  {
+    "prompt": "His joke was childish for a grown man. (MATURE)",
+    "answer": "immature",
+    "category": "wordform",
+    "notes": "immature = childish; not mature."
+  },
+  {
+    "prompt": "His ___ of history is truly impressive. (KNOW)",
+    "answer": "knowledge",
+    "category": "wordform",
+    "notes": "knowledge = understanding; what is known."
+  },
+  {
+    "prompt": "His ___ to the company was rewarded. (LOYAL)",
+    "answer": "loyalty",
+    "category": "wordform",
+    "notes": "loyalty = faithfulness; devotion."
+  }
+]
