@@ -1,0 +1,2146 @@
+[
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "COOL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "cool",
+  "options": [
+   "Keep a ____ head in the crisis, the captain ordered.",
+   "The novel met with a ____ reception from conservative critics.",
+   "A ____ breeze swept the terrace after the storm."
+  ],
+  "alternatives": [],
+  "notes": "cool head; cool reception; cool breeze",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SHORT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "short",
+  "options": [
+   "Supplies of clean water ran ____ during the long drought.",
+   "Her patience is notoriously ____ with careless assistants.",
+   "They made a ____ stop in Hue before flying south."
+  ],
+  "alternatives": [],
+  "notes": "run short; short with; short stop",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "HIGH",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "high",
+  "options": [
+   "Prices ran ____ after two poor harvests in a row.",
+   "Guards remained on ____ alert throughout the summit.",
+   "She holds a ____ opinion of her former mentor."
+  ],
+  "alternatives": [],
+  "notes": "run high; on high alert; high opinion",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DEEP",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "deep",
+  "options": [
+   "The interview probed ____ into the causes of the scandal.",
+   "The two rivals have a ____ distrust dating back years.",
+   "Farmers sank a ____ well to reach clean water."
+  ],
+  "alternatives": [],
+  "notes": "probe deep; deep distrust; deep well",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CLEAR",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "clear",
+  "options": [
+   "The jury reached a ____ verdict after only an hour.",
+   "Once fog lifted the mountain path became ____ again.",
+   "She has a ____ grasp of the new regulations."
+  ],
+  "alternatives": [],
+  "notes": "clear verdict; clear path; clear grasp",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SHARP",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sharp",
+  "options": [
+   "The lawyer drew a ____ distinction between negligence and fraud.",
+   "Prices took a ____ fall when the market reopened.",
+   "She has a ____ eye for typographical errors."
+  ],
+  "alternatives": [],
+  "notes": "sharp distinction; sharp fall; sharp eye",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FLAT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "flat",
+  "options": [
+   "The proposal fell ____ after the budget cuts were announced.",
+   "The tyre went ____ miles from the nearest garage.",
+   "She gave a ____ denial of the rumours."
+  ],
+  "alternatives": [],
+  "notes": "fall flat; go flat; flat denial",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "LIGHT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "light",
+  "options": [
+   "A ____ lunch will help you stay alert this afternoon.",
+   "The court gave him a ____ sentence owing to his age.",
+   "Keep the commentary ____ or the audience will drift."
+  ],
+  "alternatives": [],
+  "notes": "light lunch; light sentence; keep it light",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "HARD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "hard",
+  "options": [
+   "The drought left the ground ____ as concrete.",
+   "The defeat was ____ on the younger players.",
+   "He took a ____ line against any further delay."
+  ],
+  "alternatives": [],
+  "notes": "hard ground; hard on; hard line",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SOFT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "soft",
+  "options": [
+   "The chairman took a ____ approach to the wage dispute.",
+   "Prices went ____ when demand suddenly faded.",
+   "Her voice dropped to a ____ whisper in the library."
+  ],
+  "alternatives": [],
+  "notes": "soft approach; go soft; soft whisper",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SOUND",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sound",
+  "options": [
+   "The old bridge is still ____ enough for light traffic.",
+   "Her reasoning on the budget proved remarkably ____.",
+   "The baby slept ____ through the thunderstorm."
+  ],
+  "alternatives": [],
+  "notes": "sound bridge; sound reasoning; sleep sound",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FAIR",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "fair",
+  "options": [
+   "The students demanded a ____ hearing before any punishment.",
+   "He has a ____ chance of winning the scholarship.",
+   "The forecast promises ____ weather for the weekend."
+  ],
+  "alternatives": [],
+  "notes": "fair hearing; fair chance; fair weather",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "PLAIN",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "plain",
+  "options": [
+   "The truth is ____ for anyone willing to look.",
+   "She gave a ____ account with no attempt to excuse herself.",
+   "They prefer ____ cooking without rich sauces."
+  ],
+  "alternatives": [],
+  "notes": "plain truth; plain account; plain cooking",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BRIGHT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "bright",
+  "options": [
+   "A ____ future awaits graduates with digital skills.",
+   "The room needs a ____ lamp for evening reading.",
+   "She is remarkably ____ at mental arithmetic."
+  ],
+  "alternatives": [],
+  "notes": "bright future; bright lamp; bright at",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DARK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "dark",
+  "options": [
+   "The motive behind the attack remains ____ to police.",
+   "They held the meeting in a ____ room with no windows.",
+   "Those years were a ____ chapter in the nation's history."
+  ],
+  "alternatives": [],
+  "notes": "dark motive; dark room; dark chapter",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "HEAVY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "heavy",
+  "options": [
+   "Traffic was ____ on the motorway after the accident.",
+   "The boxer took a ____ blow to his confidence.",
+   "She bears a ____ responsibility for the whole team."
+  ],
+  "alternatives": [],
+  "notes": "heavy traffic; heavy blow; heavy responsibility",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FAINT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "faint",
+  "options": [
+   "Doctors hold out only a ____ hope of full recovery.",
+   "A ____ smell of paint lingered in the corridor.",
+   "The old ink has grown ____ with the years."
+  ],
+  "alternatives": [],
+  "notes": "faint hope; faint smell; grow faint",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TIGHT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "tight",
+  "options": [
+   "Security was ____ around the stadium before the final.",
+   "Money is ____ since the factory closed down.",
+   "Keep a ____ grip on the rope while crossing."
+  ],
+  "alternatives": [],
+  "notes": "tight security; money tight; tight grip",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "LOOSE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "loose",
+  "options": [
+   "A ____ tooth ached whenever he drank cold water.",
+   "The knot came ____ during the storm.",
+   "The dog broke ____ and ran into the street."
+  ],
+  "alternatives": [],
+  "notes": "loose tooth; come loose; break loose",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FIRM",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "firm",
+  "options": [
+   "She gave a ____ handshake before the interview began.",
+   "The government took a ____ stand against corruption.",
+   "Prices held ____ despite weak demand."
+  ],
+  "alternatives": [],
+  "notes": "firm handshake; firm stand; hold firm",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STEADY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "steady",
+  "options": [
+   "The patient needs complete rest and a ____ diet.",
+   "His gaze remained ____ throughout the interrogation.",
+   "Trade has shown a ____ recovery since spring."
+  ],
+  "alternatives": [],
+  "notes": "steady diet; steady gaze; steady recovery",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STILL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "still",
+  "options": [
+   "The lake lay ____ in the early morning mist.",
+   "Keep ____ while the photograph is taken.",
+   "The house stands ____ empty after all these years."
+  ],
+  "alternatives": [],
+  "notes": "lie still; keep still; still empty",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "QUIET",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "quiet",
+  "options": [
+   "The library demands a ____ atmosphere after six.",
+   "She had a ____ word with the manager about pay.",
+   "On ____ reflection he decided to withdraw."
+  ],
+  "alternatives": [],
+  "notes": "quiet atmosphere; quiet word; quiet reflection",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "LOUD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "loud",
+  "options": [
+   "The decision drew ____ protests from rural voters.",
+   "Her dress was too ____ for a formal interview.",
+   "The engine gave a ____ bang and then stopped."
+  ],
+  "alternatives": [],
+  "notes": "loud protests; too loud dress; loud bang",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "WILD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "wild",
+  "options": [
+   "The garden had run ____ after years of neglect.",
+   "The rumour spread like ____ fire through the school.",
+   "He made a ____ guess at the final figure."
+  ],
+  "alternatives": [],
+  "notes": "run wild; like wild fire; wild guess",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "MILD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "mild",
+  "options": [
+   "The accused received only a ____ rebuke from the judge.",
+   "Winters here are surprisingly ____ for the latitude.",
+   "She has only a ____ interest in professional football."
+  ],
+  "alternatives": [],
+  "notes": "mild rebuke; mild winter; mild interest",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STARK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "stark",
+  "options": [
+   "The report paints a ____ picture of rural poverty.",
+   "The two versions stand in ____ contrast to each other.",
+   "Naked branches stood ____ against the grey sky."
+  ],
+  "alternatives": [],
+  "notes": "stark picture; stark contrast; stand stark",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SHEER",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sheer",
+  "options": [
+   "The cliff drops by ____ rock to the sea below.",
+   "It was ____ luck that the parcel arrived on time.",
+   "The curtain was ____ enough to see through."
+  ],
+  "alternatives": [],
+  "notes": "sheer rock; sheer luck; sheer curtain",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "UTTER",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "utter",
+  "options": [
+   "The meeting ended in ____ chaos after the walkout.",
+   "She stared at him in ____ disbelief.",
+   "His excuse was ____ nonsense from start to finish."
+  ],
+  "alternatives": [],
+  "notes": "utter chaos; utter disbelief; utter nonsense",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "MERE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "mere",
+  "options": [
+   "A ____ slip could have cost the climber his life.",
+   "The delay was a ____ pretext for cancelling the deal.",
+   "He earns a ____ fraction of his predecessor's salary."
+  ],
+  "alternatives": [],
+  "notes": "mere slip; mere pretext; mere fraction",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BARE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "bare",
+  "options": [
+   "The trees stood ____ after the early frost.",
+   "She gave only the ____ facts without any comment.",
+   "The cupboard was ____ except for a tin of rice."
+  ],
+  "alternatives": [],
+  "notes": "stand bare; bare facts; bare cupboard",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "RAW",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "raw",
+  "options": [
+   "The refugees lacked shelter and ____ materials.",
+   "The wind was ____ on the exposed hillside.",
+   "His nerves were still ____ after the accident."
+  ],
+  "alternatives": [],
+  "notes": "raw materials; raw wind; raw nerves",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "ROUGH",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "rough",
+  "options": [
+   "The crossing was ____ and half the crew felt ill.",
+   "Her first draft was ____ but showed real promise.",
+   "They gave him a ____ welcome at the border post."
+  ],
+  "alternatives": [],
+  "notes": "rough crossing; rough draft; rough welcome",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TOUGH",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "tough",
+  "options": [
+   "The exam set a ____ challenge even for top students.",
+   "Smugglers face ____ penalties under the new law.",
+   "Meat from the old animal proved ____ to chew."
+  ],
+  "alternatives": [],
+  "notes": "tough challenge; tough penalties; tough meat",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TENDER",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "tender",
+  "options": [
+   "The committee issued a ____ for the new bridge project.",
+   "Her ankle is still ____ where she twisted it.",
+   "He received a ____ look of sympathy from his mother."
+  ],
+  "alternatives": [],
+  "notes": "issue tender; tender ankle; tender look",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BITTER",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "bitter",
+  "options": [
+   "The dispute left a ____ taste long after the trial.",
+   "Winds turned ____ on the mountain pass at night.",
+   "Their divorce followed a ____ struggle over custody."
+  ],
+  "alternatives": [],
+  "notes": "bitter taste; bitter wind; bitter struggle",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SWEET",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sweet",
+  "options": [
+   "The victory tasted all the ____ after last year's defeat.",
+   "She has a ____ tooth and avoids plain chocolate.",
+   "Keep the offer ____ and simple to win support."
+  ],
+  "alternatives": [],
+  "notes": "taste sweet; sweet tooth; short and sweet",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CLEAN",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "clean",
+  "options": [
+   "The driver holds a ____ licence with no endorsements.",
+   "She made a ____ break from her former associates.",
+   "The surgeon insisted on a ____ cut to avoid infection."
+  ],
+  "alternatives": [],
+  "notes": "clean licence; clean break; clean cut",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CLOSE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "close",
+  "options": [
+   "The police kept a ____ watch on the suspect's house.",
+   "The final was a ____ contest until the last minute.",
+   "They formed a ____ friendship during the exchange year."
+  ],
+  "alternatives": [],
+  "notes": "close watch; close contest; close friendship",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FAST",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "fast",
+  "options": [
+   "She pulled a ____ one by changing the rules overnight.",
+   "The patient is in ____ decline despite treatment.",
+   "Hold ____ to the rail when the boat turns."
+  ],
+  "alternatives": [],
+  "notes": "fast one; fast decline; hold fast",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "LATE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "late",
+  "options": [
+   "The rescue came too ____ to save the crops.",
+   "She keeps ____ hours to finish her thesis.",
+   "They paid a ____ tribute to the fallen soldiers."
+  ],
+  "alternatives": [],
+  "notes": "too late; late hours; late tribute = dead",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "EARLY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "early",
+  "options": [
+   "The pilot issued an ____ warning of engine trouble.",
+   "They reached an ____ settlement before costs mounted.",
+   "Mozart showed ____ promise as a small child."
+  ],
+  "alternatives": [],
+  "notes": "early warning; early settlement; early promise",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "WARM",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "warm",
+  "options": [
+   "The proposal received a ____ welcome from donors.",
+   "Keep the soup ____ until the guests arrive.",
+   "She has a ____ regard for her old tutor."
+  ],
+  "alternatives": [],
+  "notes": "warm welcome; keep warm; warm regard",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "COLD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "cold",
+  "options": [
+   "The appeal met with a ____ response from officials.",
+   "She gave him the ____ shoulder after the quarrel.",
+   "The murder was committed in ____ blood."
+  ],
+  "alternatives": [],
+  "notes": "cold response; cold shoulder; cold blood",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DRY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "dry",
+  "options": [
+   "The lecture was too ____ to hold the students' attention.",
+   "The region suffers a ____ season lasting six months.",
+   "Keep your powder ____ until negotiations collapse."
+  ],
+  "alternatives": [],
+  "notes": "dry lecture; dry season; keep powder dry",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "THIN",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "thin",
+  "options": [
+   "The evidence for fraud looks rather ____ to me.",
+   "Her voice wore ____ after hours of shouting.",
+   "The mist thinned to a ____ veil over the fields."
+  ],
+  "alternatives": [],
+  "notes": "thin evidence; wear thin; thin veil",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "THICK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "thick",
+  "options": [
+   "The fog lay ____ over the runway until noon.",
+   "Tensions ran ____ before the verdict was read.",
+   "Her accent is too ____ for strangers to follow."
+  ],
+  "alternatives": [],
+  "notes": "thick fog; thick tension; thick accent",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "WIDE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "wide",
+  "options": [
+   "News of the scandal spread far and ____.",
+   "She stared at him with ____ eyes in horror.",
+   "The two views stand ____ apart on taxation."
+  ],
+  "alternatives": [],
+  "notes": "far and wide; wide eyes; wide apart",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "NARROW",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "narrow",
+  "options": [
+   "He won by the ____ margin of a single vote.",
+   "The truck squeezed through the ____ lane with care.",
+   "She holds a ____ view of what art should be."
+  ],
+  "alternatives": [],
+  "notes": "narrow margin; narrow lane; narrow view",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BROAD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "broad",
+  "options": [
+   "The committee backed the plan in ____ terms.",
+   "She dropped a ____ hint about her promotion.",
+   "Daylight revealed a ____ expanse of marshland."
+  ],
+  "alternatives": [],
+  "notes": "broad terms; broad hint; broad expanse",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STEEP",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "steep",
+  "options": [
+   "The shop faces a ____ rise in wholesale costs.",
+   "The path climbs by a ____ flight of stone steps.",
+   "His claim demands a ____ learning curve for beginners."
+  ],
+  "alternatives": [],
+  "notes": "steep rise; steep steps; steep learning curve",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SHALLOW",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "shallow",
+  "options": [
+   "The film offers only a ____ treatment of the war.",
+   "The river runs ____ here in the dry season.",
+   "She took a ____ breath before answering."
+  ],
+  "alternatives": [],
+  "notes": "shallow treatment; shallow river; shallow breath",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SOLID",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "solid",
+  "options": [
+   "The bridge rests on ____ foundations of granite.",
+   "He has a ____ grasp of contract law.",
+   "The firm shows a ____ profit despite the crisis."
+  ],
+  "alternatives": [],
+  "notes": "solid foundations; solid grasp; solid profit",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "EMPTY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "empty",
+  "options": [
+   "The promise proved a set of ____ words.",
+   "Staring at a blank screen, his mind went ____.",
+   "The streets stood ____ after the curfew siren."
+  ],
+  "alternatives": [],
+  "notes": "empty words; empty mind; empty streets",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FULL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "full",
+  "options": [
+   "The hall was ____ to overflowing for the debate.",
+   "She gave a ____ account of the accident to police.",
+   "After years abroad he returned in ____ knowledge of the facts."
+  ],
+  "alternatives": [],
+  "notes": "full hall; full account; full knowledge",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "RICH",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "rich",
+  "options": [
+   "The valley is famous for its ____ soil and orchards.",
+   "The novel gives a ____ portrait of colonial life.",
+   "Cake that ____ will not suit a weak stomach."
+  ],
+  "alternatives": [],
+  "notes": "rich soil; rich portrait; rich cake",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "POOR",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "poor",
+  "options": [
+   "The crop failed on the ____ soil near the dunes.",
+   "He gave a ____ excuse for missing the hearing.",
+   "She takes a ____ view of endless committees."
+  ],
+  "alternatives": [],
+  "notes": "poor soil; poor excuse; poor view",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SICK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sick",
+  "options": [
+   "The endless delays made her ____ with anxiety.",
+   "You look ____ ; you should see a doctor at once.",
+   "He is ____ of hearing the same empty pledges."
+  ],
+  "alternatives": [],
+  "notes": "sick with; look sick; sick of",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FIT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "fit",
+  "options": [
+   "The athlete was declared ____ for the final match.",
+   "The punishment was made to ____ the offence.",
+   "She threw a ____ when the flight was cancelled."
+  ],
+  "alternatives": [],
+  "notes": "fit for; fit crime; throw a fit",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "APT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "apt",
+  "options": [
+   "He made an ____ remark that silenced the room.",
+   "She is ____ to forget names under pressure.",
+   "The river is ____ to flood after heavy rain."
+  ],
+  "alternatives": [],
+  "notes": "apt remark; apt to forget; apt to flood",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "PRONE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "prone",
+  "options": [
+   "The low fields are ____ to flooding every spring.",
+   "He lies ____ on the bench after training.",
+   "Careless travellers are ____ to petty theft here."
+  ],
+  "alternatives": [],
+  "notes": "prone to; lie prone; prone to",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "KEEN",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "keen",
+  "options": [
+   "She takes a ____ interest in marine biology.",
+   "Prices remain ____ for fresh organic produce.",
+   "He is ____ on cycling to work each day."
+  ],
+  "alternatives": [],
+  "notes": "keen interest; keen prices; keen on",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "EAGER",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "eager",
+  "options": [
+   "The volunteers were ____ to start before dawn.",
+   "Buyers waited in ____ anticipation for the launch.",
+   "She is an ____ reader of historical novels."
+  ],
+  "alternatives": [],
+  "notes": "eager to; eager anticipation; eager reader",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "PROUD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "proud",
+  "options": [
+   "The regiment has a ____ record in mountain warfare.",
+   "She took a ____ delight in her daughter's prize.",
+   "He refused ____ favours and paid his own way."
+  ],
+  "alternatives": [],
+  "notes": "proud record; proud delight; proud favours=disdain charity",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "JEALOUS",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "jealous",
+  "options": [
+   "The rivals cast ____ glances at the winner's medal.",
+   "She guards her private life with ____ care.",
+   "He is fiercely ____ of his elder brother's success."
+  ],
+  "alternatives": [],
+  "notes": "jealous glances; jealous care; jealous of",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "ANXIOUS",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "anxious",
+  "options": [
+   "Parents waited with ____ faces for the results.",
+   "She is ____ about her mother's operation.",
+   "The board is ____ to avoid further publicity."
+  ],
+  "alternatives": [],
+  "notes": "anxious faces; anxious about; anxious to",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CALM",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "calm",
+  "options": [
+   "The pilot kept ____ under heavy gunfire.",
+   "After the storm the sea turned ____ again.",
+   "She made a ____ appeal for witnesses to step forward."
+  ],
+  "alternatives": [],
+  "notes": "keep calm; calm sea; calm appeal",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BLUNT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "blunt",
+  "options": [
+   "He gave a ____ warning that funds would run out.",
+   "She asked a ____ question about his salary.",
+   "His manner is ____ but he means no harm."
+  ],
+  "alternatives": [],
+  "notes": "blunt warning; blunt question; blunt manner",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "EARNEST",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "earnest",
+  "options": [
+   "The students held an ____ debate on voting reform.",
+   "She is an ____ worker who never idles.",
+   "In ____ , we cannot afford another delay."
+  ],
+  "alternatives": [],
+  "notes": "earnest debate; earnest worker; in earnest",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TRUE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "true",
+  "options": [
+   "The portrait gives a ____ likeness of the poet.",
+   "Her story proved ____ in every detail.",
+   "The wheel ran ____ after careful adjustment."
+  ],
+  "alternatives": [],
+  "notes": "true likeness; true story; run true",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "RIGHT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "right",
+  "options": [
+   "She took the ____ turning and got badly lost.",
+   "He is the ____ person to lead the appeal.",
+   "Hold the map ____ side up or we err."
+  ],
+  "alternatives": [],
+  "notes": "right turning? left; right person; right side up",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "WRONG",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "wrong",
+  "options": [
+   "They took the ____ train and ended up north.",
+   "She got on the ____ side of the chairman.",
+   "The clock shows the ____ time since the storm."
+  ],
+  "alternatives": [],
+  "notes": "wrong train; wrong side; wrong time",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "JUST",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "just",
+  "options": [
+   "The ruling was widely seen as fair and ____.",
+   "It is ____ past midnight and the streets are empty.",
+   "She looks ____ like her grandmother at that age."
+  ],
+  "alternatives": [],
+  "notes": "fair and just; just past; just like",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "EVEN",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "even",
+  "options": [
+   "The teams look ____ matched this season.",
+   "She kept her voice ____ despite the insult.",
+   "Add sugar to ____ out the bitter taste."
+  ],
+  "alternatives": [],
+  "notes": "even matched; even voice; even out",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "ODD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "odd",
+  "options": [
+   "The porter did ____ jobs to pay his fees.",
+   "The number 17 feels ____ beside all those evens.",
+   "It is ____ that no witness came forward."
+  ],
+  "alternatives": [],
+  "notes": "odd jobs; odd number; odd that",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "RARE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "rare",
+  "options": [
+   "First editions in this condition are extremely ____.",
+   "The chef grills the steak ____ for regulars.",
+   "We had a ____ glimpse of the shy snow leopard."
+  ],
+  "alternatives": [],
+  "notes": "rare books; rare steak; rare glimpse",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CRUDE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "crude",
+  "options": [
+   "The hut was built from ____ planks and tarpaulin.",
+   "His joke was too ____ for the formal dinner.",
+   "Oil prices rose as ____ stocks fell sharply."
+  ],
+  "alternatives": [],
+  "notes": "crude planks; crude joke; crude oil",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FINE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "fine",
+  "options": [
+   "There is a ____ line between courage and folly.",
+   "She paid a ____ for parking on the pavement.",
+   "The weather turned ____ just before the match."
+  ],
+  "alternatives": [],
+  "notes": "fine line; fine ticket; fine weather",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "GRAND",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "grand",
+  "options": [
+   "The hotel lobby makes a ____ impression on guests.",
+   "She lives on a ____ scale despite modest income.",
+   "The total amounts to the ____ sum of fifty thousand."
+  ],
+  "alternatives": [],
+  "notes": "grand impression; grand scale; grand sum",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "VAST",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "vast",
+  "options": [
+   "The desert stretches in ____ silence for miles.",
+   "The scheme wasted a ____ amount of public money.",
+   "Engineers hold a ____ store of data on the dam."
+  ],
+  "alternatives": [],
+  "notes": "vast silence; vast amount; vast store",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DENSE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "dense",
+  "options": [
+   "The path vanished into ____ forest beyond the river.",
+   "The textbook is too ____ for a quick revision.",
+   "Crowds stood in ____ ranks before the palace."
+  ],
+  "alternatives": [],
+  "notes": "dense forest; dense book; dense ranks",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "REMOTE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "remote",
+  "options": [
+   "The crash site lies in a ____ valley with no roads.",
+   "The chance of rescue now seems ____ indeed.",
+   "She has only a ____ connection to the founders."
+  ],
+  "alternatives": [],
+  "notes": "remote valley; remote chance; remote connection",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DISTANT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "distant",
+  "options": [
+   "They heard a ____ rumble of guns beyond the hills.",
+   "She greeted him with a ____ smile and no handshake.",
+   "In the ____ past this port thrived on spice."
+  ],
+  "alternatives": [],
+  "notes": "distant rumble; distant smile; distant past",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DIRECT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "direct",
+  "options": [
+   "The user asked for a ____ answer with no evasion.",
+   "The train runs ____ from the capital to the coast.",
+   "She bears ____ responsibility for the failure."
+  ],
+  "alternatives": [],
+  "notes": "direct answer; direct train; direct responsibility",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STRAIGHT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "straight",
+  "options": [
+   "She gave a ____ answer without any hedging.",
+   "The road runs ____ for ten miles across the plain.",
+   "Keep a ____ face while hearing the verdict."
+  ],
+  "alternatives": [],
+  "notes": "straight answer; straight road; straight face",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "LEVEL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "level",
+  "options": [
+   "The runway must stay perfectly ____ in all winds.",
+   "She kept her voice ____ during the cross-examination.",
+   "The teams finished ____ on points after the season."
+  ],
+  "alternatives": [],
+  "notes": "level runway; level voice; level on points",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "EQUAL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "equal",
+  "options": [
+   "All citizens stand ____ before the law here.",
+   "She divided the prize into three ____ shares.",
+   "It took an ____ effort from every department."
+  ],
+  "alternatives": [],
+  "notes": "equal before law; equal shares; equal effort",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "RIGID",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "rigid",
+  "options": [
+   "The school enforces a ____ code on uniform and hair.",
+   "Frost left the canvas ____ as a board.",
+   "Talks collapsed over his ____ stance on borders."
+  ],
+  "alternatives": [],
+  "notes": "rigid code; rigid canvas; rigid stance",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FLEXIBLE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "flexible",
+  "options": [
+   "Parents need ____ hours to collect young children.",
+   "The rules allow a ____ interpretation for emergencies.",
+   "She keeps a ____ attitude towards weekend work."
+  ],
+  "alternatives": [],
+  "notes": "flexible hours; flexible interpretation; flexible attitude",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "VIVID",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "vivid",
+  "options": [
+   "The witness gave a ____ description of the robber.",
+   "The new lamp casts a ____ glow across the desk.",
+   "She retains a ____ memory of the evacuation."
+  ],
+  "alternatives": [],
+  "notes": "vivid description; vivid glow; vivid memory",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "VAGUE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "vague",
+  "options": [
+   "He offered only a ____ outline of his plans.",
+   "She felt a ____ unease she could not explain.",
+   "The shape loomed ____ through the morning mist."
+  ],
+  "alternatives": [],
+  "notes": "vague outline; vague unease; vague shape",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DIM",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "dim",
+  "options": [
+   "The corridor was lit by a single ____ bulb.",
+   "Prospects for a quick deal look ____ at best.",
+   "Her eyes grew ____ with age and strain."
+  ],
+  "alternatives": [],
+  "notes": "dim bulb; dim prospects; dim eyes",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "PALE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "pale",
+  "options": [
+   "A ____ moon rose over the silent dunes.",
+   "She wore a ____ imitation of last year's design.",
+   "His excuse sounded ____ beside the hard facts."
+  ],
+  "alternatives": [],
+  "notes": "pale moon; pale imitation; pale excuse",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BLIND",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "blind",
+  "options": [
+   "The pilot flew ____ through the ash cloud.",
+   "She turned a ____ eye to minor breaches.",
+   "They followed ____ obedience rather than reason."
+  ],
+  "alternatives": [],
+  "notes": "fly blind; blind eye; blind obedience",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DEAF",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "deaf",
+  "options": [
+   "The manager turned a ____ ear to all complaints.",
+   "The explosion left him ____ in one ear.",
+   "Her pleas fell on ____ ears at the ministry."
+  ],
+  "alternatives": [],
+  "notes": "deaf ear; deaf in ear; deaf ears",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "GRAVE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "grave",
+  "options": [
+   "The doctors expressed ____ concern over his heart.",
+   "She dug a shallow ____ for the fallen bird.",
+   "His voice dropped to a ____ whisper in court."
+  ],
+  "alternatives": [],
+  "notes": "grave concern; grave pit; grave whisper",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "FRAIL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "frail",
+  "options": [
+   "The ____ patient needs constant nursing care.",
+   "Their alliance rests on a ____ basis of trust.",
+   "The bridge looks ____ after decades of neglect."
+  ],
+  "alternatives": [],
+  "notes": "frail patient; frail basis; frail bridge",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STURDY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sturdy",
+  "options": [
+   "The hikers wore ____ boots for the rocky trail.",
+   "She built a ____ defence against the charges.",
+   "The table is ____ enough to hold the engine."
+  ],
+  "alternatives": [],
+  "notes": "sturdy boots; sturdy defence; sturdy table",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "HOLLOW",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "hollow",
+  "options": [
+   "The old oak sounded ____ when the ranger tapped it.",
+   "He issued a ____ threat nobody took seriously.",
+   "Her victory felt ____ without her friend beside her."
+  ],
+  "alternatives": [],
+  "notes": "hollow sound; hollow threat; hollow victory",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SCARCE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "scarce",
+  "options": [
+   "Jobs grew ____ after the mine closures.",
+   "Details remain ____ about the overnight raid.",
+   "Water made itself ____ in the long dry spell."
+  ],
+  "alternatives": [],
+  "notes": "scarce jobs; scarce details; make scarce",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STALE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "stale",
+  "options": [
+   "The room smelt of ____ smoke and old beer.",
+   "The debate has gone ____ after months of repetition.",
+   "She cleared the ____ bread for the birds."
+  ],
+  "alternatives": [],
+  "notes": "stale smoke; stale debate; stale bread",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TIMID",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "timid",
+  "options": [
+   "The ____ recruit barely raised his voice.",
+   "After losses the board grew ____ about expansion.",
+   "Deer remain ____ where hunting is common."
+  ],
+  "alternatives": [],
+  "notes": "timid recruit; timid about; timid deer",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BOLD",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "bold",
+  "options": [
+   "The general made a ____ bid to end the siege.",
+   "She wore a ____ pattern quite unlike the rest.",
+   "The headline stood in ____ type across the page."
+  ],
+  "alternatives": [],
+  "notes": "bold bid; bold pattern; bold type",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "HARSH",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "harsh",
+  "options": [
+   "The desert imposes a ____ climate on travellers.",
+   "Critics gave the film a ____ review in May.",
+   "The lamp cast a ____ glare on the papers."
+  ],
+  "alternatives": [],
+  "notes": "harsh climate; harsh review; harsh glare",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "GENTLE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "gentle",
+  "options": [
+   "The nurse spoke with a ____ voice to calm him.",
+   "The path climbs by a ____ slope to the ridge.",
+   "Critics gave the debut a ____ praise overall."
+  ],
+  "alternatives": [],
+  "notes": "gentle voice; gentle slope; gentle praise",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STRICT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "strict",
+  "options": [
+   "The new coach imposes ____ discipline on diet.",
+   "Entry follows a ____ order based on tickets.",
+   "She gave ____ instructions not to be disturbed."
+  ],
+  "alternatives": [],
+  "notes": "strict discipline; strict order; strict instructions",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SLACK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "slack",
+  "options": [
+   "Trade turned ____ after the holiday season.",
+   "The rope hung ____ between the two posts.",
+   "Discipline grew ____ under the careless warden."
+  ],
+  "alternatives": [],
+  "notes": "slack trade; slack rope; slack discipline",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TENSE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "tense",
+  "options": [
+   "Talks resumed in a ____ atmosphere after the leak.",
+   "Her shoulders felt ____ from hours at the desk.",
+   "The final set stayed ____ until the last point."
+  ],
+  "alternatives": [],
+  "notes": "tense atmosphere; tense shoulders; tense match",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CRISP",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "crisp",
+  "options": [
+   "She bit into a ____ apple fresh from the orchard.",
+   "The officer gave a ____ reply and marched off.",
+   "The banknote felt ____ and new in his hand."
+  ],
+  "alternatives": [],
+  "notes": "crisp apple; crisp reply; crisp note",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SMOOTH",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "smooth",
+  "options": [
+   "The car gives a ____ ride even on gravel.",
+   "Talks opened the way for a ____ handover.",
+   "She delivered the speech in a ____ flow."
+  ],
+  "alternatives": [],
+  "notes": "smooth ride; smooth handover; smooth flow",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SLICK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "slick",
+  "options": [
+   "Rain left the deck dangerously ____ underfoot.",
+   "His ____ excuse fooled nobody in the room.",
+   "The campaign ran a ____ operation across the media."
+  ],
+  "alternatives": [],
+  "notes": "slick deck; slick excuse; slick operation",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "GIDDY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "giddy",
+  "options": [
+   "The climb left her ____ on the narrow ledge.",
+   "Success made the young star ____ with praise.",
+   "The children felt ____ after spinning round fast."
+  ],
+  "alternatives": [],
+  "notes": "giddy on ledge; giddy with praise; feel giddy",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "NUMB",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "numb",
+  "options": [
+   "His fingers went ____ in the freezing wind.",
+   "She felt ____ with shock at the verdict.",
+   "The dentist left half her face ____ for hours."
+  ],
+  "alternatives": [],
+  "notes": "numb fingers; numb with shock; numb face",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SORE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sore",
+  "options": [
+   "Defeat left the players ____ and silent.",
+   "She has a ____ throat from shouting instructions.",
+   "The tax rise remains a ____ point with voters."
+  ],
+  "alternatives": [],
+  "notes": "sore players; sore throat; sore point",
+  "difficulty": 2
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DAMP",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "damp",
+  "options": [
+   "The cellar walls felt ____ to the touch.",
+   "Enthusiasm for the plan proved rather ____.",
+   "They pitched the tent on ____ ground near the lake."
+  ],
+  "alternatives": [],
+  "notes": "damp walls; damp enthusiasm; damp ground",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "HUMID",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "humid",
+  "options": [
+   "The greenhouse stays hot and ____ all year.",
+   "August brings ____ nights with little relief.",
+   "The air felt ____ before the thunderstorm broke."
+  ],
+  "alternatives": [],
+  "notes": "humid greenhouse; humid nights; humid air",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "STUFFY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "stuffy",
+  "options": [
+   "The committee room felt hot and ____ by noon.",
+   "She found the ceremony formal and ____.",
+   "The old rules seem ____ to younger members."
+  ],
+  "alternatives": [],
+  "notes": "stuffy room; stuffy ceremony; stuffy rules",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "AIRY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "airy",
+  "options": [
+   "The loft was converted into a bright ____ studio.",
+   "She dismissed the claim with an ____ wave.",
+   "His tone was light and ____ despite the loss."
+  ],
+  "alternatives": [],
+  "notes": "airy studio; airy wave; airy tone",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BLEAK",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "bleak",
+  "options": [
+   "The moor looked ____ under a low grey sky.",
+   "Job prospects seem ____ for school leavers.",
+   "The report gives a ____ assessment of funding."
+  ],
+  "alternatives": [],
+  "notes": "bleak moor; bleak prospects; bleak assessment",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DREARY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "dreary",
+  "options": [
+   "The town looks ____ in the winter rain.",
+   "The lecture was long and ____ for freshmen.",
+   "They drove through ____ miles of flat fields."
+  ],
+  "alternatives": [],
+  "notes": "dreary town; dreary lecture; dreary miles",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "ROSY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "rosy",
+  "options": [
+   "The sunset cast a ____ glow over the harbour.",
+   "Analysts do not share his ____ view of profits.",
+   "Her cheeks turned ____ with embarrassment."
+  ],
+  "alternatives": [],
+  "notes": "rosy glow; rosy view; rosy cheeks",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "THORNY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "thorny",
+  "options": [
+   "The garden path was blocked by ____ bushes.",
+   "Negotiators face a ____ issue of fishing rights.",
+   "His manner proved ____ whenever money arose."
+  ],
+  "alternatives": [],
+  "notes": "thorny bushes; thorny issue; thorny manner",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "TESTY",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "testy",
+  "options": [
+   "The manager grew ____ under repeated questioning.",
+   "The debate turned ____ when funds were mentioned.",
+   "Tired travellers become ____ after long delays."
+  ],
+  "alternatives": [],
+  "notes": "testy manager; testy debate; testy travellers",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CURT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "curt",
+  "options": [
+   "She sent a ____ reply refusing further talks.",
+   "His manner was ____ to the point of rudeness.",
+   "The notice gave ____ warning of the closure."
+  ],
+  "alternatives": [],
+  "notes": "curt reply; curt manner; curt warning",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "GRUFF",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "gruff",
+  "options": [
+   "The sergeant gave a ____ order to fall in.",
+   "Behind his ____ voice he is genuinely kind.",
+   "The dog gave a ____ bark at strangers."
+  ],
+  "alternatives": [],
+  "notes": "gruff order; gruff voice; gruff bark",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "VACANT",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "vacant",
+  "options": [
+   "The factory stands ____ since the closure.",
+   "She stared with a ____ expression at the wall.",
+   "They advertised a ____ post for a lab assistant."
+  ],
+  "alternatives": [],
+  "notes": "vacant factory; vacant expression; vacant post",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "ACUTE",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "acute",
+  "options": [
+   "The hospital treats only ____ cases at night.",
+   "She felt an ____ pain behind her eyes.",
+   "There is an ____ shortage of trained nurses."
+  ],
+  "alternatives": [],
+  "notes": "acute cases; acute pain; acute shortage",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "CHRONIC",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "chronic",
+  "options": [
+   "The city faces a ____ shortage of affordable homes.",
+   "He suffers from ____ asthma since childhood.",
+   "Underfunding remains a ____ ailment of the service."
+  ],
+  "alternatives": [],
+  "notes": "chronic shortage; chronic asthma; chronic ailment",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DRASTIC",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "drastic",
+  "options": [
+   "The firm took ____ steps to cut its debts.",
+   "The flood caused a ____ fall in output.",
+   "Only ____ reform will save the failing system."
+  ],
+  "alternatives": [],
+  "notes": "drastic steps; drastic fall; drastic reform",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "RADICAL",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "radical",
+  "options": [
+   "The party demands ____ change to the voting law.",
+   "Surgery was deemed too ____ for his weak heart.",
+   "Her views seem ____ to older colleagues."
+  ],
+  "alternatives": [],
+  "notes": "radical change; radical surgery; radical views",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "SWEEPING",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "sweeping",
+  "options": [
+   "The inquiry led to ____ changes in safety rules.",
+   "Police launched ____ raids across three districts.",
+   "She made a ____ gesture towards the valley below."
+  ],
+  "alternatives": [],
+  "notes": "sweeping changes; sweeping raids; sweeping gesture",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BLINDING",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "blinding",
+  "options": [
+   "A ____ flash lit the courtyard for a second.",
+   "She felt a ____ headache behind her eyes.",
+   "The snow gave off a ____ glare at midday."
+  ],
+  "alternatives": [],
+  "notes": "blinding flash; blinding headache; blinding glare",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "DEAFENING",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "deafening",
+  "options": [
+   "The stadium erupted in ____ cheers at the goal.",
+   "The machinery keeps up a ____ roar all day.",
+   "Silence followed the ____ blast in the quarry."
+  ],
+  "alternatives": [],
+  "notes": "deafening cheers; deafening roar; deafening blast",
+  "difficulty": 3
+ },
+ {
+  "category": "three_in_one",
+  "prompt": "Fill ONE word that fits all three sentences",
+  "keyword": "BURNING",
+  "gap_prefix": "",
+  "gap_suffix": "",
+  "answer": "burning",
+  "options": [
+   "Firefighters tackled the ____ warehouse till dawn.",
+   "She felt a ____ desire to prove them wrong.",
+   "The issue remains a ____ question in parliament."
+  ],
+  "alternatives": [],
+  "notes": "burning warehouse; burning desire; burning question",
+  "difficulty": 2
+ }
+]

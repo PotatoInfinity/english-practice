@@ -1,0 +1,2114 @@
+[
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Please ____ a seat while you wait for the doctor.",
+      "The trip to London will ____ nearly three hours.",
+      "The baby seems to ____ after his father in every way."
+    ],
+    "alternatives": [],
+    "notes": "take: sit down; require time; resemble",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "You must not ____ photos inside the museum.",
+      "Good students always ____ notes during the lecture.",
+      "Don't be afraid to ____ a chance and enter the contest."
+    ],
+    "alternatives": [],
+    "notes": "take: photograph; write down; use an opportunity",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "The plane will ____ off in ten minutes.",
+      "Please ____ off your coat and stay for tea.",
+      "You should ____ part in the school play."
+    ],
+    "alternatives": [],
+    "notes": "take: leave ground; remove; participate",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "She will ____ pride in her neat handwriting.",
+      "You must ____ care when you cross the busy road.",
+      "The soldiers had to ____ cover behind the wall."
+    ],
+    "alternatives": [],
+    "notes": "take: feel pride; be careful; seek shelter",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "We usually ____ the bus to school in the morning.",
+      "Remember to ____ your medicine after meals.",
+      "He was quick to ____ offence at the harmless joke."
+    ],
+    "alternatives": [],
+    "notes": "take: use transport; swallow; feel insulted",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "The children must ____ turns on the swing.",
+      "Come and ____ a look at these old photos.",
+      "Let's ____ a short break before the next test."
+    ],
+    "alternatives": [],
+    "notes": "take: alternate; look; rest",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "The new rule will ____ effect from Monday.",
+      "Panic began to ____ hold of the crowd.",
+      "Their plan will gradually ____ shape this spring."
+    ],
+    "alternatives": [],
+    "notes": "take: become active; grip; develop",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "You should not ____ advantage of his kindness.",
+      "She always ____ pity on stray animals.",
+      "We must ____ responsibility for our own actions."
+    ],
+    "alternatives": [],
+    "notes": "take: exploit; feel pity; accept duty",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "The meeting will ____ place in the main hall.",
+      "A new captain will ____ control of the team.",
+      "It's time to ____ charge of your own studies."
+    ],
+    "alternatives": [],
+    "notes": "take: happen; gain control; assume charge",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Can I ____ a message if she calls back?",
+      "All pupils must ____ an English test in June.",
+      "You should ____ an umbrella in case it rains."
+    ],
+    "alternatives": [],
+    "notes": "take: receive message; sit test; carry",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Let's ____ a short walk after dinner.",
+      "The baby needs to ____ a nap every afternoon.",
+      "You may ____ a deep breath before you dive."
+    ],
+    "alternatives": [],
+    "notes": "take: go for walk; have nap; inhale",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "You should ____ my advice and study harder.",
+      "Soldiers must ____ orders without question.",
+      "We can ____ courage from their brave example."
+    ],
+    "alternatives": [],
+    "notes": "take: accept advice; obey; gain courage",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Please ____ aim carefully before you throw.",
+      "The actors will ____ a bow at the end.",
+      "Allow me to ____ a closer look at the map."
+    ],
+    "alternatives": [],
+    "notes": "take: aim; bow; look",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "It's time to ____ stock of what we have learnt.",
+      "You must not ____ sides in their quarrel.",
+      "New ideas may ____ root very slowly."
+    ],
+    "alternatives": [],
+    "notes": "take: assess; support; establish",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Long illness will ____ its toll on the family.",
+      "Good manners will ____ you far in life.",
+      "Safety must ____ precedence over speed."
+    ],
+    "alternatives": [],
+    "notes": "take: exact toll; carry far; have priority",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Don't ____ everything he says too seriously.",
+      "You should never ____ small problems lightly.",
+      "We must not ____ his help for granted."
+    ],
+    "alternatives": [],
+    "notes": "take: treat seriously; treat lightly; assume",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Let me ____ you home after the party.",
+      "They will ____ over the business next month.",
+      "Please ____ this form to the front desk."
+    ],
+    "alternatives": [],
+    "notes": "take: accompany; assume control; carry",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "You may ____ exception to the general rule.",
+      "We should ____ comfort in the good news.",
+      "He tried to ____ interest in stamp collecting."
+    ],
+    "alternatives": [],
+    "notes": "take: make exception; feel comfort; show interest",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Don't ____ too long over your breakfast.",
+      "They promised to ____ us to the museum.",
+      "She wanted to ____ the lead in the race."
+    ],
+    "alternatives": [],
+    "notes": "take: spend time; bring; gain lead",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "We must ____ action to protect the river.",
+      "You should ____ pity on the lost dog.",
+      "It's impolite to ____ offence so easily."
+    ],
+    "alternatives": [],
+    "notes": "take: act; pity; offence collocations",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "Please ____ my hand when we cross the street.",
+      "You will ____ second place if you lose.",
+      "They hope to ____ heart from the kind words."
+    ],
+    "alternatives": [],
+    "notes": "take: hold; accept place; gain courage",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "take",
+    "options": [
+      "We should ____ shelter under the trees.",
+      "You must ____ care of your little sister.",
+      "He will ____ pride in a job well done."
+    ],
+    "alternatives": [],
+    "notes": "take: shelter; care; pride",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The children love to ____ pictures of animals.",
+      "Please ____ the curtains and let the light in.",
+      "His speech can ____ attention from a big crowd."
+    ],
+    "alternatives": [],
+    "notes": "draw: sketch; pull; attract",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "She had to ____ money from the bank before noon.",
+      "They will ____ lots to decide who starts.",
+      "Take a moment to ____ breath before you answer."
+    ],
+    "alternatives": [],
+    "notes": "draw: withdraw; pick; inhale",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "You must ____ a line under each answer.",
+      "We should ____ a distinction between fact and guess.",
+      "You cannot ____ a conclusion from one test."
+    ],
+    "alternatives": [],
+    "notes": "draw: mark; make; reach",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Winter seems to ____ near earlier each year.",
+      "A good show will ____ a large crowd.",
+      "Her singing will ____ applause every time."
+    ],
+    "alternatives": [],
+    "notes": "draw: approach; attract; earn",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Can you ____ a map of the village for me?",
+      "The architect will ____ a plan for the library.",
+      "The artist hopes to ____ a portrait of the mayor."
+    ],
+    "alternatives": [],
+    "notes": "draw: sketch map, plan, portrait",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "You should ____ back the chair before you sit.",
+      "The car began to ____ away from the kerb.",
+      "He had to ____ aside to let them pass."
+    ],
+    "alternatives": [],
+    "notes": "draw: pull back, away, aside",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The film may ____ criticism for its long ending.",
+      "A free concert will ____ fans from miles around.",
+      "Bad manners always ____ complaints from guests."
+    ],
+    "alternatives": [],
+    "notes": "draw: provoke; attract; bring",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Let's ____ up a list of what we need.",
+      "They plan to ____ up chairs around the fire.",
+      "The lawyer will ____ up a contract tomorrow."
+    ],
+    "alternatives": [],
+    "notes": "draw up: prepare, arrange, draft",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The teams look likely to ____ the match tonight.",
+      "You must ____ level with him on points to qualify.",
+      "Our discussion seemed to ____ to a close."
+    ],
+    "alternatives": [],
+    "notes": "draw: tie; equal; come",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "He likes to ____ comparisons with his old school.",
+      "We can ____ lessons from the failed trip.",
+      "You may ____ comfort from her kind letter."
+    ],
+    "alternatives": [],
+    "notes": "draw: make; gain; take",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Don't ____ the curtains when the play starts.",
+      "The nurse will ____ blood for the test.",
+      "The well may ____ dry in hot summers."
+    ],
+    "alternatives": [],
+    "notes": "draw: close; take; run",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The horse will ____ the cart up the hill.",
+      "The engine can ____ three heavy carriages.",
+      "Oxen used to ____ ploughs across these fields."
+    ],
+    "alternatives": [],
+    "notes": "draw: pull load",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "You can ____ inspiration from nature walks.",
+      "She hopes to ____ strength from her friends.",
+      "They tried to ____ hope from the small news."
+    ],
+    "alternatives": [],
+    "notes": "draw: gain inspiration, strength, hope",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Please ____ a circle round the right answer.",
+      "The teacher will ____ a diagram on the board.",
+      "Can you ____ a line between the two towns?"
+    ],
+    "alternatives": [],
+    "notes": "draw: sketch shapes and lines",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The holidays seem to ____ closer every week.",
+      "The train began to ____ into the station.",
+      "Night will ____ on before they arrive."
+    ],
+    "alternatives": [],
+    "notes": "draw: approach, enter, fall",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "You must ____ the veil over the painful past.",
+      "They hope to ____ a veil across the scandal.",
+      "Let's ____ a line under the whole affair."
+    ],
+    "alternatives": [],
+    "notes": "draw: cover; hide; end",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Smokers should not ____ deeply in this room.",
+      "He paused to ____ breath after the climb.",
+      "You must ____ air slowly through the tube."
+    ],
+    "alternatives": [],
+    "notes": "draw: inhale",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The stranger stopped to ____ water from the well.",
+      "In spring they ____ sap from the maple trees.",
+      "We can ____ oil from these small seeds."
+    ],
+    "alternatives": [],
+    "notes": "draw: extract water, sap, oil",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Don't ____ attention to your torn sleeve.",
+      "Good adverts always ____ interest from buyers.",
+      "Bright lights will ____ moths after dark."
+    ],
+    "alternatives": [],
+    "notes": "draw: attract notice, interest, moths",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "You should ____ on your past wins for courage.",
+      "Banks may ____ on funds held abroad.",
+      "Writers often ____ on childhood for ideas."
+    ],
+    "alternatives": [],
+    "notes": "draw on: use as source",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "The winner must ____ a ticket from the box.",
+      "Pupils will ____ names for the team game.",
+      "It's fair to ____ straws for the last cake."
+    ],
+    "alternatives": [],
+    "notes": "draw: pick by chance",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "draw",
+    "options": [
+      "Let's ____ together against the common danger.",
+      "The family will ____ closer after the trouble.",
+      "Rivals can ____ apart over small insults."
+    ],
+    "alternatives": [],
+    "notes": "draw: come together, closer, apart",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Leave the soup to ____ for a few minutes.",
+      "The evening breeze will ____ the hot room.",
+      "You should let the engine ____ before you touch it."
+    ],
+    "alternatives": [],
+    "notes": "cool: become or make colder",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Try to ____ down before you answer angrily.",
+      "Take a walk and ____ off after the quarrel.",
+      "You must ____ your temper during the match."
+    ],
+    "alternatives": [],
+    "notes": "cool: calm down, control temper",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "The rain will ____ the hot air overnight.",
+      "Cold water will ____ your feet after the run.",
+      "A short swim will ____ us in this heat."
+    ],
+    "alternatives": [],
+    "notes": "cool: lower heat of air, feet, people",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Bad news may ____ their enthusiasm for the trip.",
+      "Rising prices will ____ demand for new houses.",
+      "Delay is likely to ____ public interest in the plan."
+    ],
+    "alternatives": [],
+    "notes": "cool: lessen enthusiasm, demand, interest",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Let the pie ____ on the window sill.",
+      "You must ____ the milk before it spoils.",
+      "They opened windows to ____ the classroom."
+    ],
+    "alternatives": [],
+    "notes": "cool: food, drink, room",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "He tried to ____ his anger with slow breaths.",
+      "Time will ____ his passion for revenge.",
+      "Rest will ____ her fevered mind after exams."
+    ],
+    "alternatives": [],
+    "notes": "cool: soothe anger, passion, mind",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Wash your face to ____ down in summer.",
+      "Fans will ____ down the crowded hall.",
+      "A wet towel can ____ down a hot forehead."
+    ],
+    "alternatives": [],
+    "notes": "cool down: refresh person, room, skin",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "They must ____ off towards the risky idea.",
+      "A defeat may ____ off the young team.",
+      "Critics hope to ____ off the wild craze."
+    ],
+    "alternatives": [],
+    "notes": "cool off: lose warmth for idea, team, craze",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "The night air will ____ our sunburnt skin.",
+      "Ice will ____ the drinks before guests come.",
+      "Snow will ____ the mountain paths by dusk."
+    ],
+    "alternatives": [],
+    "notes": "cool: chill skin, drinks, paths",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "He told himself to ____ and think clearly.",
+      "You should ____ down and listen first.",
+      "Keep ____ and carry on, said the notice."
+    ],
+    "alternatives": [],
+    "notes": "cool imperative: stay calm",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Don't let success ____ your careful habits.",
+      "Praise should not ____ his hard work.",
+      "Fame did not ____ her kind nature."
+    ],
+    "alternatives": [],
+    "notes": "cool as lessen? here keep steady; control",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "The doctor said cold cloths would ____ the burn.",
+      "Shade will ____ the baby's pram at noon.",
+      "Trees can ____ the street in August."
+    ],
+    "alternatives": [],
+    "notes": "cool: relieve burn, pram, street",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Relations may ____ between the two clubs.",
+      "Their friendship began to ____ after the row.",
+      "His love for football did not ____ with age."
+    ],
+    "alternatives": [],
+    "notes": "cool: become less warm, friendly",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Let the iron ____ before you put it away.",
+      "Allow the oven to ____ after baking.",
+      "The kettle will ____ quickly by the window."
+    ],
+    "alternatives": [],
+    "notes": "cool: household objects lose heat",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "A breeze will ____ the sweat on his back.",
+      "Morning dew will ____ the dry grass.",
+      "Light rain can ____ the dusty road."
+    ],
+    "alternatives": [],
+    "notes": "cool: refresh by air and water",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Try to ____ your head before the big test.",
+      "You must ____ down the angry crowd.",
+      "She hoped to ____ his hot temper with a joke."
+    ],
+    "alternatives": [],
+    "notes": "cool: keep head, crowd, temper calm",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "The market began to ____ after the boom.",
+      "Investors watched prices ____ day by day.",
+      "Hype will ____ once the facts appear."
+    ],
+    "alternatives": [],
+    "notes": "cool: market, prices, hype weaken",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Store the cake in a place to ____ fast.",
+      "Leave bottles to ____ in the shade.",
+      "You can ____ fruit with cold water."
+    ],
+    "alternatives": [],
+    "notes": "cool: chill food and drink",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "He needed time to ____ off after the race.",
+      "Horses must ____ down after hard exercise.",
+      "Athletes walk slowly to ____ their legs."
+    ],
+    "alternatives": [],
+    "notes": "cool down after sport",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Logic will ____ heated words in debate.",
+      "A pause can ____ a tense meeting.",
+      "Kind words may ____ a bitter quarrel."
+    ],
+    "alternatives": [],
+    "notes": "cool: soften debate, meeting, quarrel",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Autumn winds will ____ the lake by October.",
+      "The pool will ____ overnight without a cover.",
+      "The river will ____ quickly after sunset."
+    ],
+    "alternatives": [],
+    "notes": "cool: water becomes cold",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "cool",
+    "options": [
+      "Don't ____ down too fast after exercise.",
+      "You should ____ off before a hard talk.",
+      "Just ____ it and start again tomorrow."
+    ],
+    "alternatives": [],
+    "notes": "cool imperatives for calm behaviour",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Take a breath and ____ down before the interview.",
+      "Soft music will ____ the crying baby.",
+      "The teacher tried to ____ the fears of the class."
+    ],
+    "alternatives": [],
+    "notes": "calm: relax, soothe baby, fears",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "You must ____ your nerves before the speech.",
+      "Warm milk may ____ the restless child.",
+      "A smile can ____ an angry customer."
+    ],
+    "alternatives": [],
+    "notes": "calm: settle nerves, child, customer",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "They hoped to ____ the crowd after the delay.",
+      "Police appealed to ____ the angry fans.",
+      "Leaders must ____ public panic in a storm."
+    ],
+    "alternatives": [],
+    "notes": "calm: quiet crowd, fans, public",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Keep ____ and read the questions twice.",
+      "Stay ____ during the fire drill.",
+      "Please remain ____ while we check tickets."
+    ],
+    "alternatives": [],
+    "notes": "calm as adjective after keep, stay, remain",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Oil on troubled waters will ____ the waves.",
+      "After midnight the wind will ____ a little.",
+      "Dawn will ____ the rough sea at last."
+    ],
+    "alternatives": [],
+    "notes": "calm: still wind and sea",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "You should ____ down the barking dog.",
+      "Gentle words will ____ a frightened horse.",
+      "Food and rest will ____ the tired puppy."
+    ],
+    "alternatives": [],
+    "notes": "calm: soothe animals",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "He tried to ____ his temper with counting.",
+      "Yoga can ____ a busy mind.",
+      "Tea and quiet will ____ his frayed nerves."
+    ],
+    "alternatives": [],
+    "notes": "calm: temper, mind, nerves",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "The nurse will ____ the worried parents.",
+      "A clear plan can ____ anxious minds.",
+      "Kind talk will ____ a crying toddler."
+    ],
+    "alternatives": [],
+    "notes": "calm: reassure people",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Let's ____ the debate before voices rise.",
+      "A joke may ____ the tense mood.",
+      "Music will ____ the long wait."
+    ],
+    "alternatives": [],
+    "notes": "calm: ease debate, mood, wait",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Breathe slowly to ____ yourself before exams.",
+      "Count to ten to ____ down after a shock.",
+      "Sit still and ____ your breathing first."
+    ],
+    "alternatives": [],
+    "notes": "calm: self-control techniques",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "The pilot asked all to stay ____ and seated.",
+      "The hall stayed ____ during the sad news.",
+      "The village remained ____ through the night."
+    ],
+    "alternatives": [],
+    "notes": "calm: stay, remain, keep quiet",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Good news will ____ troubled hearts.",
+      "Rest will ____ his angry thoughts.",
+      "Time alone can ____ wild grief."
+    ],
+    "alternatives": [],
+    "notes": "calm: hearts, thoughts, grief",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "We must ____ fears of floods with facts.",
+      "Data can ____ worries about the test.",
+      "Clear rules will ____ doubts about safety."
+    ],
+    "alternatives": [],
+    "notes": "calm: fears, worries, doubts",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "They tried to ____ the storm of protest.",
+      "Wise words may ____ rising anger.",
+      "Patience will ____ most quarrels in class."
+    ],
+    "alternatives": [],
+    "notes": "calm: protest, anger, quarrels",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Keep ____ when the dog starts to bark.",
+      "Stay ____ and hold my hand tightly.",
+      "Remain ____ until the lights come back."
+    ],
+    "alternatives": [],
+    "notes": "calm imperatives",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "A lullaby will ____ the baby to sleep.",
+      "A story can ____ the twins at bedtime.",
+      "Warm cocoa may ____ small children."
+    ],
+    "alternatives": [],
+    "notes": "calm: bedtime soothing",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "The lake lay ____ and smooth at dawn.",
+      "The night stayed ____ without a breeze.",
+      "The harbour looked ____ after the gale."
+    ],
+    "alternatives": [],
+    "notes": "calm: still water, night, harbour",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Please ____ down and tell me slowly.",
+      "Try to ____ down before you phone back.",
+      "Go out and ____ down in the garden."
+    ],
+    "alternatives": [],
+    "notes": "calm down phrasal use",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "You must ____ your voice in the library.",
+      "Lower lights will ____ the noisy room.",
+      "Soft steps will not ____ the sleeping cat."
+    ],
+    "alternatives": [],
+    "notes": "calm: soften voice, room, disturb",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Meditation will ____ even a restless heart.",
+      "A walk can ____ a troubled conscience.",
+      "Gardening may ____ an impatient temper."
+    ],
+    "alternatives": [],
+    "notes": "calm: meditation, walk, garden",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "The head girl spoke to ____ the first-years.",
+      "The coach called to ____ the nervous team.",
+      "The captain waved to ____ the waiting crowd."
+    ],
+    "alternatives": [],
+    "notes": "calm: reassure groups",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "calm",
+    "options": [
+      "Keep a ____ voice when you answer.",
+      "He answered in a ____ and steady tone.",
+      "She kept a ____ face during the news."
+    ],
+    "alternatives": [],
+    "notes": "calm: voice, tone, face",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You must ____ this secret and tell nobody.",
+      "Please ____ quiet while the baby sleeps.",
+      "Athletes train daily to ____ fit for contests."
+    ],
+    "alternatives": [],
+    "notes": "keep: secret; silent; fit",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You should ____ in touch after you move.",
+      "We must ____ track of all expenses.",
+      "Please ____ an eye on my bag."
+    ],
+    "alternatives": [],
+    "notes": "keep: contact; track; watch",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "They promised to ____ their word at all costs.",
+      "Good friends always ____ promises they make.",
+      "You must ____ faith with your teammates."
+    ],
+    "alternatives": [],
+    "notes": "keep: honour word, promise, faith",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "Please ____ off the fresh grass.",
+      "Dogs must ____ on the lead in the park.",
+      "Cars should ____ to the right in town."
+    ],
+    "alternatives": [],
+    "notes": "keep: position rules",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You must ____ calm during the drill.",
+      "Try hard to ____ still for the photo.",
+      "Please ____ awake until the guest arrives."
+    ],
+    "alternatives": [],
+    "notes": "keep + adjective: calm, still, awake",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "She hopes to ____ hens in the back garden.",
+      "They used to ____ bees for honey.",
+      "We cannot ____ a dog in this flat."
+    ],
+    "alternatives": [],
+    "notes": "keep: own animals",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You should ____ a diary of your travels.",
+      "The shop must ____ records of all sales.",
+      "Please ____ a list of the missing books."
+    ],
+    "alternatives": [],
+    "notes": "keep: maintain diary, records, list",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "The old clock still ____ good time.",
+      "You must ____ pace with the front group.",
+      "Try to ____ step with the music."
+    ],
+    "alternatives": [],
+    "notes": "keep: time, pace, step",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "We must ____ going despite the rain.",
+      "Don't ____ talking after lights out.",
+      "You should ____ trying until you succeed."
+    ],
+    "alternatives": [],
+    "notes": "keep + -ing: continue",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You may ____ the change after shopping.",
+      "Can we ____ the leftover cake for tomorrow?",
+      "Please ____ this pen as a small gift."
+    ],
+    "alternatives": [],
+    "notes": "keep: retain, store, accept",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "They will ____ house for us at Easter.",
+      "She has to ____ house while her mother works.",
+      "Grandma used to ____ lodgers long ago."
+    ],
+    "alternatives": [],
+    "notes": "keep: maintain home, lodgers",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You must ____ away from the cliff edge.",
+      "Please ____ back from the platform line.",
+      "We should ____ clear of trouble tonight."
+    ],
+    "alternatives": [],
+    "notes": "keep away, back, clear",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You should ____ your coat on in the hall.",
+      "Please ____ your shoes on for the tour.",
+      "They must ____ their hats on in the sun."
+    ],
+    "alternatives": [],
+    "notes": "keep on: remain wearing",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "We must ____ down the noise after ten.",
+      "You should ____ costs down this year.",
+      "Please ____ your voice down in church."
+    ],
+    "alternatives": [],
+    "notes": "keep down: reduce, control",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "The doctors will ____ him under watch tonight.",
+      "Police had to ____ the road closed till dawn.",
+      "You must ____ the gate locked at night."
+    ],
+    "alternatives": [],
+    "notes": "keep: maintain state",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "Don't ____ back the truth from us.",
+      "You should never ____ secrets from doctors.",
+      "Please do not ____ information from the police."
+    ],
+    "alternatives": [],
+    "notes": "keep back: withhold",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You must ____ up with the new words.",
+      "It's hard to ____ up with the fast class.",
+      "Athletes train to ____ up their speed."
+    ],
+    "alternatives": [],
+    "notes": "keep up: pace, maintain",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "Please ____ your room tidy every day.",
+      "Gardeners ____ the park neat and clean.",
+      "We must ____ the kitchen free of flies."
+    ],
+    "alternatives": [],
+    "notes": "keep: maintain order",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You should ____ out for bikes on this road.",
+      "Lookouts must ____ watch through the night.",
+      "Guards will ____ guard at the main gate."
+    ],
+    "alternatives": [],
+    "notes": "keep: watch, guard, lookout",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "We will ____ the meeting short and clear.",
+      "Please ____ your answer brief and neat.",
+      "Try to ____ letters short for the contest."
+    ],
+    "alternatives": [],
+    "notes": "keep: make brief",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "You must ____ faith even in hard times.",
+      "They tried to ____ hope after the storm.",
+      "We should ____ courage before the final."
+    ],
+    "alternatives": [],
+    "notes": "keep: faith, hope, courage",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "keep",
+    "options": [
+      "The inn will ____ us for the night.",
+      "Farmers used to ____ travellers till dawn.",
+      "The hostel can ____ thirty pupils at once."
+    ],
+    "alternatives": [],
+    "notes": "keep: shelter, lodge",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "They will ____ a cafe near the station next year.",
+      "Who will ____ the school shop this term?",
+      "She hopes to ____ her own business one day."
+    ],
+    "alternatives": [],
+    "notes": "run: manage shop, business",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "We must ____ errands before the shops close.",
+      "He had to ____ late for the morning train.",
+      "Don't ____ across the road without looking."
+    ],
+    "alternatives": [],
+    "notes": "run: do errands; be late; cross fast",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "The tap was left to ____ all night.",
+      "Tears began to ____ down her cheeks.",
+      "Sweat will ____ down his face in the heat."
+    ],
+    "alternatives": [],
+    "notes": "run: flow liquid",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "We may ____ out of milk before Sunday.",
+      "The car will ____ short of fuel soon.",
+      "Don't let the printer ____ dry of paper."
+    ],
+    "alternatives": [],
+    "notes": "run out, short, dry: lack",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "He hopes to ____ for class president.",
+      "She will ____ against two rivals in May.",
+      "They plan to ____ for a seat on the council."
+    ],
+    "alternatives": [],
+    "notes": "run for: stand in election",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "You must not ____ a risk with broken brakes.",
+      "Drivers should not ____ risks in thick fog.",
+      "Don't ____ the risk of missing the bus."
+    ],
+    "alternatives": [],
+    "notes": "run a risk",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "The doctor will ____ a blood test tomorrow.",
+      "Teachers often ____ quizzes before exams.",
+      "Scientists must ____ trials many times."
+    ],
+    "alternatives": [],
+    "notes": "run: conduct test, quiz, trial",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Red hair seems to ____ in their family.",
+      "Politeness will ____ through all his letters.",
+      "A love of boats will ____ in his blood."
+    ],
+    "alternatives": [],
+    "notes": "run: occur in family, through, in blood",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Let's ____ through the lines once more.",
+      "You should ____ over your notes tonight.",
+      "We can ____ across the list in five minutes."
+    ],
+    "alternatives": [],
+    "notes": "run through, over, across: review",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Buses will ____ every ten minutes today.",
+      "Trains should ____ on time despite the snow.",
+      "Ferries may ____ late in rough seas."
+    ],
+    "alternatives": [],
+    "notes": "run: operate transport",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "You must ____ the engine to warm it up.",
+      "He left the engine to ____ in the yard.",
+      "Mechanics will ____ tests on the new car."
+    ],
+    "alternatives": [],
+    "notes": "run: operate engine, tests",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "The path will ____ along the river bank.",
+      "The fence will ____ round the whole field.",
+      "The road must ____ past the old mill."
+    ],
+    "alternatives": [],
+    "notes": "run: extend path, fence, road",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Don't ____ away when I call you.",
+      "The thief tried to ____ off with the bag.",
+      "The dog will ____ after the ball."
+    ],
+    "alternatives": [],
+    "notes": "run away, off, after",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "You can ____ a bath while I cook.",
+      "Please ____ the water till it turns hot.",
+      "She forgot to ____ the tap off again."
+    ],
+    "alternatives": [],
+    "notes": "run: fill bath, flow water, tap",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "The club will ____ a trip to the lakes.",
+      "The school will ____ courses in summer.",
+      "They hope to ____ classes for beginners."
+    ],
+    "alternatives": [],
+    "notes": "run: organise trip, course, class",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "A shiver will ____ down her spine.",
+      "Goose pimples will ____ up his arms.",
+      "A thrill may ____ through the crowd."
+    ],
+    "alternatives": [],
+    "notes": "run: shiver, pimples, thrill",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Costs will ____ high if we delay.",
+      "Feelings will ____ high before the final.",
+      "The bill may ____ into hundreds this month."
+    ],
+    "alternatives": [],
+    "notes": "run high, into: reach level",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "You must ____ to catch the last bus.",
+      "The children love to ____ in the park.",
+      "Athletes train to ____ fast in spring."
+    ],
+    "alternatives": [],
+    "notes": "run: move fast",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Please ____ an eye over the report.",
+      "You should ____ a check on the tyres.",
+      "We must ____ a survey among pupils."
+    ],
+    "alternatives": [],
+    "notes": "run: cast eye, check, survey",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "The firm will ____ into trouble without cash.",
+      "Ships should not ____ aground on the sandbank.",
+      "Cars must not ____ into debt for repairs."
+    ],
+    "alternatives": [],
+    "notes": "run into, aground: meet trouble",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "Ink will ____ if the paper gets wet.",
+      "Paint may ____ in heavy rain.",
+      "Dye will ____ when you wash the shirt."
+    ],
+    "alternatives": [],
+    "notes": "run: spread colour",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "run",
+    "options": [
+      "The story will ____ in next week's paper.",
+      "The serial will ____ for six weeks.",
+      "Adverts will ____ during the match."
+    ],
+    "alternatives": [],
+    "notes": "run: appear, last, show",
+    "difficulty": 3
+  }
+]

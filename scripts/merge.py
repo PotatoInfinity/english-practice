@@ -88,6 +88,25 @@ def validate(e):
         reasons.append("difficulty not int")
     return reasons
 
+def derive_full(r):
+    """Synthesize full_answer for types whose spec omits it (mcq, three_in_one)."""
+    if r.get("full_answer") and str(r["full_answer"]).strip():
+        return r
+    cat, ans = r.get("category"), re.sub(r"\s+", " ", str(r.get("answer", ""))).strip()
+    if not ans:
+        return r
+    if cat == "mcq":
+        pre = re.sub(r"\s+", " ", str(r.get("gap_prefix", ""))).strip()
+        suf = re.sub(r"\s+", " ", str(r.get("gap_suffix", ""))).strip()
+        r["full_answer"] = (pre + " " + ans + " " + suf).strip()
+        if r["full_answer"] in ("", ans):
+            p = re.sub(r"\s+", " ", str(r.get("prompt", ""))).strip()
+            r["full_answer"] = p.replace("____", ans) if "____" in p else (p + " " + ans).strip()
+    elif cat == "three_in_one":
+        opts = [re.sub(r"\s+", " ", a).strip() for a in (r.get("options") or []) if a and a.strip()]
+        r["full_answer"] = " / ".join(s.replace("____", ans.upper()) for s in opts[:3]) if opts else ans
+    return r
+
 def canon(e):
     """Canonicalize whitespace/case/difficulty/alternatives."""
     try:
@@ -142,6 +161,7 @@ def main():
         if err:
             quarantine.append({"file": f, "entry": None, "reasons": [err]})
         for i, r in enumerate(rows):
+            r = derive_full(r) if isinstance(r, dict) else r
             bad = validate(r) if isinstance(r, dict) else ["not an object"]
             if bad:
                 quarantine.append({"file": f, "index": i, "entry": r, "reasons": bad})
@@ -178,10 +198,11 @@ def main():
                 stats["warn:" + x] += 1
             raw.append((f, i, e))
 
-    # dedup 1: exact normalized gap triple
+    # dedup 1: exact normalized gap triple (+options: mcq/3-in-1 frames live in options)
     seen_exact, uniq = set(), []
     for f, i, e in raw:
-        k = (e["category"], norm(e["gap_prefix"]), norm(e["answer"]), norm(e["gap_suffix"]))
+        optk = tuple(norm(a) for a in e["options"])
+        k = (e["category"], norm(e["gap_prefix"]), norm(e["answer"]), norm(e["gap_suffix"]), optk)
         if k in seen_exact:
             quarantine.append({"file": f, "index": i, "entry": e, "reasons": ["exact duplicate"]})
             stats["dup_exact"] += 1
@@ -198,11 +219,12 @@ def main():
             continue
         seen_bag.add(bag)
         deduped.append((f, i, e))
-    # conflict: same prompt AND same gap frame, different answer -> keep first, quarantine rest
-    # (prompt is in the key: shared triggers like "Hardly ___" across items are legitimate)
+    # conflict: same prompt AND same gap frame AND same options, different answer -> keep first
+    # (shared triggers like "Hardly ___" are legitimate; t3/mcq frames include their options)
     seen_gap, out = {}, []
     for f, i, e in deduped:
-        gk = (e["category"], norm(e["prompt"]), norm(e["gap_prefix"]), norm(e["gap_suffix"]))
+        optk = tuple(norm(a) for a in e["options"])
+        gk = (e["category"], norm(e["prompt"]), norm(e["gap_prefix"]), norm(e["gap_suffix"]), optk)
         if gk in seen_gap and norm(seen_gap[gk]["answer"]) != norm(e["answer"]):
             quarantine.append({"file": f, "index": i, "entry": e,
                                "reasons": [f"gap conflict: kept {seen_gap[gk]['answer']!r}"]})

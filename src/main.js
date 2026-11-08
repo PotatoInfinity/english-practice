@@ -14,6 +14,9 @@ let rendered = 0;
 let fetching = false;
 let drained = false;
 let lastSolved = -1;
+let wrongIds = [];    // miss queue -> retried at every 100-row wall, re-queued if missed again
+let nextWallAt = 100;
+let wallBusy = false;
 const FETCH_N = 200;   // rows pulled into memory per batch (tiny JSON, SRS state stays in SQLite)
 const RENDER_N = 25;   // rows painted per scroll step (keeps DOM light)
 const CAP = 400;       // in-memory/DOM ceiling per set; Next starts a fresh 200
@@ -27,6 +30,8 @@ async function load() {
   rendered = 0;
   drained = false;
   lastSolved = -1;
+  wrongIds = [];
+  nextWallAt = 100;
   results = {};
   list.innerHTML = "";
   score.textContent = "";
@@ -149,13 +154,43 @@ function inpFor(d, n) {  const inp = document.createElement("input");
 
 function renderMore() {
   const next = items.slice(rendered, rendered + RENDER_N);
-  next.forEach((d, k) => list.appendChild(rowFor(d, rendered + k)));
+  const frag = document.createDocumentFragment();
+  next.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
+  list.appendChild(frag);
   rendered += next.length;
   if (!items.length && !list.children.length) {
     const li = document.createElement("li");
     li.textContent = "No due items — bank empty or all mastered. Try another category.";
     list.appendChild(li);
   }
+  maybeWall();
+}
+
+// every 100 rows: splice the miss queue in for a 2nd chance (miss again -> next wall)
+async function maybeWall() {
+  if (wallBusy || rendered < nextWallAt) return;
+  const ids = wrongIds.filter(id => !seenIds.has(id));
+  wrongIds = [];
+  nextWallAt += 100;
+  if (!ids.length) return;
+  wallBusy = true;
+  try {
+    const rows = await call("items_by_ids", { ids });
+    const fresh = rows.filter(d => !seenIds.has(d.id));
+    if (fresh.length) {
+      fresh.forEach(d => seenIds.add(d.id));
+      items.splice(rendered, 0, ...fresh);
+      const div = document.createElement("li");
+      div.className = "walldiv";
+      div.textContent = `— retry wall: ${fresh.length} second chance${fresh.length > 1 ? "s" : ""} —`;
+      list.appendChild(div);
+      const frag = document.createDocumentFragment();
+      fresh.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
+      list.appendChild(frag);
+      rendered += fresh.length;
+    }
+  } catch { /* wall skipped this block */ }
+  wallBusy = false;
 }
 
 // infinite scroll: paint more as the sentinel nears the viewport, fetch when low
@@ -215,6 +250,9 @@ async function gradeItem(n) {
   if (dot) { dot.classList.remove("ok", "no"); dot.classList.add(correct ? "ok" : "no"); }
   lastSolved = n;
   results[n] = correct;
+  const wid = items[n].id;
+  if (correct) wrongIds = wrongIds.filter(x => x !== wid);
+  else if (!wrongIds.includes(wid)) wrongIds.push(wid);
   applyFilter();
   focusNext(n);
   return correct;
@@ -234,7 +272,7 @@ function focusNext(n) {
 
 async function check() {
   let ok = 0, done = 0;
-  for (let n = 0; n < items.length; n++) {
+  for (let n = 0; n < rendered; n++) {
     const r = await gradeItem(n);
     if (r === null) continue;
     done++;
@@ -244,13 +282,15 @@ async function check() {
 }
 
 function reveal() {
-  items.forEach((d, n) => {
+  for (let n = 0; n < rendered; n++) {
+    const d = items[n];
     const ans = document.getElementById("ans" + n);
     const inp = document.getElementById("gap" + n);
+    if (!ans || !inp) continue;
     inp.value = d.answer;
     ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}`;
     ans.classList.add("show");
-  });
+  }
 }
 
 document.getElementById("next").onclick = load;

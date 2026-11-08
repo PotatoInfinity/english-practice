@@ -1,0 +1,2567 @@
+[
+ {
+  "category": "mcq",
+  "prompt": "The director requested that no one ____ told about the merger until Monday.",
+  "keyword": "",
+  "gap_prefix": "The director requested that no one ",
+  "gap_suffix": " told about the merger until Monday.",
+  "answer": "be",
+  "options": [
+   "be",
+   "is",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "mandative subjunctive: request that + base form, no -s",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The judge insisted that the witness ____ present at the retrial.",
+  "keyword": "",
+  "gap_prefix": "The judge insisted that the witness ",
+  "gap_suffix": " present at the retrial.",
+  "answer": "be",
+  "options": [
+   "is",
+   "be",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "insist + subjunctive base be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is essential that every candidate ____ valid identification.",
+  "keyword": "",
+  "gap_prefix": "It is essential that every candidate ",
+  "gap_suffix": " valid identification.",
+  "answer": "have",
+  "options": [
+   "has",
+   "had",
+   "have",
+   "having"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "it is essential that + base",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The committee recommended that she ____ the proposal before Friday.",
+  "keyword": "",
+  "gap_prefix": "The committee recommended that she ",
+  "gap_suffix": " the proposal before Friday.",
+  "answer": "submit",
+  "options": [
+   "submits",
+   "submitted",
+   "has submitted",
+   "submit"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "recommend + base, not indicative",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He demanded that the car park ____ locked at night.",
+  "keyword": "",
+  "gap_prefix": "He demanded that the car park ",
+  "gap_suffix": " locked at night.",
+  "answer": "not be",
+  "options": [
+   "not be",
+   "is not",
+   "was not",
+   "not being"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "negative subjunctive: not + base",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The board proposed that the meeting ____ place on Monday.",
+  "keyword": "",
+  "gap_prefix": "The board proposed that the meeting ",
+  "gap_suffix": " place on Monday.",
+  "answer": "take",
+  "options": [
+   "takes",
+   "take",
+   "took",
+   "taking"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "propose that + base",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was vital that no soldier ____ left behind.",
+  "keyword": "",
+  "gap_prefix": "It was vital that no soldier ",
+  "gap_suffix": " left behind.",
+  "answer": "be",
+  "options": [
+   "is",
+   "was",
+   "be",
+   "were being"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "vital that + be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She suggested that he ____ the course immediately.",
+  "keyword": "",
+  "gap_prefix": "She suggested that he ",
+  "gap_suffix": " the course immediately.",
+  "answer": "take",
+  "options": [
+   "takes",
+   "took",
+   "has taken",
+   "take"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "suggest + subjunctive, not indicative",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The manager ordered that all phones ____ switched off.",
+  "keyword": "",
+  "gap_prefix": "The manager ordered that all phones ",
+  "gap_suffix": " switched off.",
+  "answer": "be",
+  "options": [
+   "be",
+   "are",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "order that + be",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is important that a car ____ waiting when we arrive.",
+  "keyword": "",
+  "gap_prefix": "It is important that a car ",
+  "gap_suffix": " waiting when we arrive.",
+  "answer": "be",
+  "options": [
+   "is",
+   "be",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "important that + be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They insisted that he ____ the execution at once.",
+  "keyword": "",
+  "gap_prefix": "They insisted that he ",
+  "gap_suffix": " the execution at once.",
+  "answer": "stay",
+  "options": [
+   "stays",
+   "stayed",
+   "stay",
+   "had stayed"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "insist + base stay",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The university requires that each thesis ____ submitted in triplicate.",
+  "keyword": "",
+  "gap_prefix": "The university requires that each thesis ",
+  "gap_suffix": " submitted in triplicate.",
+  "answer": "be",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "be"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "require that + be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He asked that she ____ disturbed under no circumstances.",
+  "keyword": "",
+  "gap_prefix": "He asked that she ",
+  "gap_suffix": " disturbed under no circumstances.",
+  "answer": "not be",
+  "options": [
+   "not be",
+   "is not",
+   "was not",
+   "has not been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "ask that + not be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is crucial that the report ____ finished by dawn.",
+  "keyword": "",
+  "gap_prefix": "It is crucial that the report ",
+  "gap_suffix": " finished by dawn.",
+  "answer": "be",
+  "options": [
+   "is",
+   "be",
+   "was",
+   "were"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "crucial that + base",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The doctors advised that the patient ____ in bed for a week.",
+  "keyword": "",
+  "gap_prefix": "The doctors advised that the patient ",
+  "gap_suffix": " in bed for a week.",
+  "answer": "remain",
+  "options": [
+   "remains",
+   "remained",
+   "remain",
+   "has remained"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "advise + subjunctive",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Long ____ the king! The crowd shouted as the carriage passed.",
+  "keyword": "",
+  "gap_prefix": "Long ",
+  "gap_suffix": " the king! The crowd shouted as the carriage passed.",
+  "answer": "live",
+  "options": [
+   "lives",
+   "lived",
+   "living",
+   "live"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "fixed subjunctive formula",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "God ____ America, sang the choir at the ceremony.",
+  "keyword": "",
+  "gap_prefix": "God ",
+  "gap_suffix": " America, sang the choir at the ceremony.",
+  "answer": "bless",
+  "options": [
+   "bless",
+   "blesses",
+   "blessed",
+   "blessing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fixed expression subjunctive",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The regulations stipulate that all visitors ____ in at reception.",
+  "keyword": "",
+  "gap_prefix": "The regulations stipulate that all visitors ",
+  "gap_suffix": " in at reception.",
+  "answer": "sign",
+  "options": [
+   "signs",
+   "sign",
+   "signed",
+   "have signed"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "stipulate that + base",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is imperative that he ____ informed immediately.",
+  "keyword": "",
+  "gap_prefix": "It is imperative that he ",
+  "gap_suffix": " informed immediately.",
+  "answer": "be",
+  "options": [
+   "is",
+   "was",
+   "be",
+   "has been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "imperative that + be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She proposed that the work hours ____ reduced.",
+  "keyword": "",
+  "gap_prefix": "She proposed that the work hours ",
+  "gap_suffix": " reduced.",
+  "answer": "be",
+  "options": [
+   "are",
+   "were",
+   "have been",
+   "be"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "propose that + be passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The board recommended that he ____ dismissed for misconduct.",
+  "keyword": "",
+  "gap_prefix": "The board recommended that he ",
+  "gap_suffix": " dismissed for misconduct.",
+  "answer": "not be",
+  "options": [
+   "not be",
+   "is not",
+   "was not",
+   "has not been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "negative passive subjunctive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He insisted that she ____ present, though she was ill.",
+  "keyword": "",
+  "gap_prefix": "He insisted that she ",
+  "gap_suffix": " present, though she was ill.",
+  "answer": "should be",
+  "options": [
+   "is",
+   "should be",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "British should-subjunctive alternative accepted",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was essential that we ____ the following day.",
+  "keyword": "",
+  "gap_prefix": "It was essential that we ",
+  "gap_suffix": " the following day.",
+  "answer": "should vote",
+  "options": [
+   "vote",
+   "voted",
+   "should vote",
+   "had voted"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "should + base as subjunctive equivalent",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They demanded that the question ____ answered in sequence.",
+  "keyword": "",
+  "gap_prefix": "They demanded that the question ",
+  "gap_suffix": " answered in sequence.",
+  "answer": "be",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "be"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "demand that + be passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We have made a request that we ____ disturbed during the talks.",
+  "keyword": "",
+  "gap_prefix": "We have made a request that we ",
+  "gap_suffix": " disturbed during the talks.",
+  "answer": "not be",
+  "options": [
+   "not be",
+   "are not",
+   "were not",
+   "have not been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "request that + not be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ put the keys in the drawer; they are not there now.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " put the keys in the drawer; they are not there now.",
+  "answer": "can't have put",
+  "options": [
+   "mustn't have put",
+   "can't have put",
+   "shouldn't have put",
+   "wouldn't have put"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can't have + pp = impossible in past",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The lights are on. They ____ arrived already.",
+  "keyword": "",
+  "gap_prefix": "The lights are on. They ",
+  "gap_suffix": " arrived already.",
+  "answer": "must have",
+  "options": [
+   "can have",
+   "should have",
+   "must have",
+   "would have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "must have = certain deduction",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ taken the wrong bus; she knew the route well.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " taken the wrong bus; she knew the route well.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "shouldn't have",
+   "can't have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "can't have = impossibility",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ forgotten your birthday; he never forgets dates.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " forgotten your birthday; he never forgets dates.",
+  "answer": "can't have",
+  "options": [
+   "can't have",
+   "mustn't have",
+   "needn't have",
+   "didn't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "can't have forgotten",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ left your umbrella on the train; it's pouring outside.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " left your umbrella on the train; it's pouring outside.",
+  "answer": "must have",
+  "options": [
+   "can have",
+   "must have",
+   "should have",
+   "would have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "must have left",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ heard the news yet; they look completely shocked.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " heard the news yet; they look completely shocked.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "can't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "can't have heard",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He speaks fluent French. He ____ lived in Paris for years.",
+  "keyword": "",
+  "gap_prefix": "He speaks fluent French. He ",
+  "gap_suffix": " lived in Paris for years.",
+  "answer": "must have",
+  "options": [
+   "can have",
+   "should have",
+   "would have",
+   "must have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "must have lived",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The ground is wet. It ____ rained in the night.",
+  "keyword": "",
+  "gap_prefix": "The ground is wet. It ",
+  "gap_suffix": " rained in the night.",
+  "answer": "must have",
+  "options": [
+   "must have",
+   "can have",
+   "should have",
+   "would have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "deduction from evidence",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ seen the email; she replied within minutes.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " seen the email; she replied within minutes.",
+  "answer": "must have",
+  "options": [
+   "can't have",
+   "must have",
+   "shouldn't have",
+   "needn't have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "must have seen",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ stolen the money; he was abroad all week.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " stolen the money; he was abroad all week.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "can't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "alibi => can't have",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ been at home last night; I rang three times.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " been at home last night; I rang three times.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "shouldn't have",
+   "can't have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "can't have been",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ paid so much; the tickets were half price.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " paid so much; the tickets were half price.",
+  "answer": "can't have",
+  "options": [
+   "can't have",
+   "mustn't have",
+   "needn't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "context: impossible amount",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ worked hard; he passed with distinction.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " worked hard; he passed with distinction.",
+  "answer": "must have",
+  "options": [
+   "can have",
+   "must have",
+   "might have not",
+   "would have not"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "must have worked",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ told him; he already knew everything.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " told him; he already knew everything.",
+  "answer": "must have",
+  "options": [
+   "can't have",
+   "needn't have",
+   "must have",
+   "mustn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "ambiguous: pick must have as deduction",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The burglar ____ had a key; there was no forced entry.",
+  "keyword": "",
+  "gap_prefix": "The burglar ",
+  "gap_suffix": " had a key; there was no forced entry.",
+  "answer": "must have",
+  "options": [
+   "can have",
+   "should have",
+   "would have",
+   "must have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "classic must have deduction",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ eaten all that; you feel sick now.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " eaten all that; you feel sick now.",
+  "answer": "must have",
+  "options": [
+   "must have",
+   "can have",
+   "should have not",
+   "would have not"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "must have eaten",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ arrived yet; his coat is still dry.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " arrived yet; his coat is still dry.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "can't have",
+   "needn't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can't have arrived",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ left early; her car is still outside.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " left early; her car is still outside.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "can't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "can't have left",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ finished already; they only started an hour ago.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " finished already; they only started an hour ago.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "shouldn't have",
+   "can't have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "can't have finished",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ lied to you; he is brutally honest.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " lied to you; he is brutally honest.",
+  "answer": "can't have",
+  "options": [
+   "can't have",
+   "mustn't have",
+   "needn't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "character => can't have",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ seen her; she was in hospital all month.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " seen her; she was in hospital all month.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "can't have",
+   "needn't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can't have seen",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ written it; the style is exactly hers.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " written it; the style is exactly hers.",
+  "answer": "must have",
+  "options": [
+   "can't have",
+   "shouldn't have",
+   "must have",
+   "needn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "must have written",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ missed the bus; he is always punctual.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " missed the bus; he is always punctual.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "needn't have",
+   "shouldn't have",
+   "can't have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "can't have missed",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ understood; they nodded throughout.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " understood; they nodded throughout.",
+  "answer": "must have",
+  "options": [
+   "must have",
+   "can't have",
+   "shouldn't have",
+   "needn't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "must have understood",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The letter ____ got lost; it arrived yesterday.",
+  "keyword": "",
+  "gap_prefix": "The letter ",
+  "gap_suffix": " got lost; it arrived yesterday.",
+  "answer": "can't have",
+  "options": [
+   "mustn't have",
+   "can't have",
+   "needn't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can't have got lost",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ bought so much food; only three of us are staying.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " bought so much food; only three of us are staying.",
+  "answer": "needn't have",
+  "options": [
+   "mustn't have",
+   "can't have",
+   "needn't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "needn't have + pp = unnecessary but done",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Thanks, but you ____ waited for me; it all turned out fine.",
+  "keyword": "",
+  "gap_prefix": "Thanks, but you ",
+  "gap_suffix": " waited for me; it all turned out fine.",
+  "answer": "needn't have",
+  "options": [
+   "mustn't have",
+   "can't have",
+   "couldn't have",
+   "needn't have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "needn't have waited",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ get up early because it was a holiday.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " get up early because it was a holiday.",
+  "answer": "didn't need to",
+  "options": [
+   "didn't need to",
+   "needn't have got",
+   "mustn't",
+   "can't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "didn't need to = unnecessary and not done (slept late)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ reveal where you got the information.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " reveal where you got the information.",
+  "answer": "mustn't",
+  "options": [
+   "don't have to",
+   "mustn't",
+   "needn't have",
+   "didn't need to"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "mustn't = prohibition",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ arrive before seven; you can come any time.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " arrive before seven; you can come any time.",
+  "answer": "don't have to",
+  "options": [
+   "mustn't",
+   "can't have",
+   "don't have to",
+   "needn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "don't have to = no obligation",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Tell him he ____ wash the dishes; I'll do it later.",
+  "keyword": "",
+  "gap_prefix": "Tell him he ",
+  "gap_suffix": " wash the dishes; I'll do it later.",
+  "answer": "needn't",
+  "options": [
+   "mustn't",
+   "can't",
+   "shouldn't have",
+   "needn't"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "needn't = no necessity specific occasion",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ find a hotel, so we slept in the car.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " find a hotel, so we slept in the car.",
+  "answer": "couldn't",
+  "options": [
+   "couldn't",
+   "mustn't have",
+   "needn't have",
+   "didn't need to"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "couldn't = past inability",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ forget to take your medicine.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " forget to take your medicine.",
+  "answer": "mustn't",
+  "options": [
+   "don't have to",
+   "mustn't",
+   "needn't have",
+   "didn't need to"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "mustn't forget = prohibition",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ made that decision; it was a disaster.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " made that decision; it was a disaster.",
+  "answer": "shouldn't have",
+  "options": [
+   "needn't have",
+   "can't have",
+   "shouldn't have",
+   "must have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "shouldn't have = criticism",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ have paid so much? The price was inflated.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " have paid so much? The price was inflated.",
+  "answer": "Need",
+  "options": [
+   "Must",
+   "Can",
+   "Should",
+   "Need"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "Need you have paid = was it necessary",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "All you ____ bring are sheets for the camp.",
+  "keyword": "",
+  "gap_prefix": "All you ",
+  "gap_suffix": " bring are sheets for the camp.",
+  "answer": "need",
+  "options": [
+   "need",
+   "must",
+   "should",
+   "can"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "need + bare infinitive formal",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ tell you; you already know the work is dangerous.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " tell you; you already know the work is dangerous.",
+  "answer": "need hardly",
+  "options": [
+   "must hardly",
+   "need hardly",
+   "can't hardly",
+   "should hardly"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "need hardly tell you = you know",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If she wants anything, she ____ ask.",
+  "keyword": "",
+  "gap_prefix": "If she wants anything, she ",
+  "gap_suffix": " ask.",
+  "answer": "need only",
+  "options": [
+   "must only",
+   "can't only",
+   "need only",
+   "should only"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "need only ask formal",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ have worried; the results were excellent.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " have worried; the results were excellent.",
+  "answer": "needn't",
+  "options": [
+   "mustn't",
+   "can't",
+   "shouldn't",
+   "needn't"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "needn't have worried (bare needn't + have)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ to confirm our reservations before Friday.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " to confirm our reservations before Friday.",
+  "answer": "need",
+  "options": [
+   "need",
+   "must",
+   "should",
+   "would"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "need to = necessity (use need to in positive)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ have left his coat; it's still on the chair.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " have left his coat; it's still on the chair.",
+  "answer": "can't",
+  "options": [
+   "mustn't",
+   "can't",
+   "needn't",
+   "shouldn't"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can't have left (impossible)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ have called me as soon as you arrived.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " have called me as soon as you arrived.",
+  "answer": "were supposed to",
+  "options": [
+   "must have",
+   "can't have",
+   "were supposed to",
+   "needn't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "were supposed to = expectation",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Passengers ____ smoke anywhere on the plane.",
+  "keyword": "",
+  "gap_prefix": "Passengers ",
+  "gap_suffix": " smoke anywhere on the plane.",
+  "answer": "mustn't",
+  "options": [
+   "don't have to",
+   "needn't",
+   "didn't need to",
+   "mustn't"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "mustn't = prohibited",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Visitors ____ remove their shoes; it's optional.",
+  "keyword": "",
+  "gap_prefix": "Visitors ",
+  "gap_suffix": " remove their shoes; it's optional.",
+  "answer": "don't have to",
+  "options": [
+   "don't have to",
+   "mustn't",
+   "needn't have",
+   "can't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "no obligation",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ have booked; the restaurant was empty.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " have booked; the restaurant was empty.",
+  "answer": "needn't",
+  "options": [
+   "mustn't",
+   "needn't",
+   "can't",
+   "shouldn't"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "needn't have booked",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ have told me; I would have helped.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " have told me; I would have helped.",
+  "answer": "should",
+  "options": [
+   "must",
+   "can",
+   "should",
+   "will"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "should have told = reproach (truncated)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ study tonight; the exam is tomorrow.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " study tonight; the exam is tomorrow.",
+  "answer": "must",
+  "options": [
+   "needn't have",
+   "can't have",
+   "mustn't",
+   "must"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "must = necessity",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ hurry; the train is delayed an hour.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " hurry; the train is delayed an hour.",
+  "answer": "don't need to",
+  "options": [
+   "don't need to",
+   "mustn't",
+   "can't have",
+   "shouldn't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "no need due to delay",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ have missed it; she was standing there.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " have missed it; she was standing there.",
+  "answer": "can't",
+  "options": [
+   "mustn't",
+   "can't",
+   "needn't",
+   "shouldn't"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can't have missed",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ have met before; your face is familiar.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " have met before; your face is familiar.",
+  "answer": "must",
+  "options": [
+   "can't",
+   "needn't",
+   "must",
+   "mustn't"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "must have met",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If I ____ you, I would accept the offer.",
+  "keyword": "",
+  "gap_prefix": "If I ",
+  "gap_suffix": " you, I would accept the offer.",
+  "answer": "were",
+  "options": [
+   "was",
+   "am",
+   "be",
+   "were"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "subjunctive were for all persons",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If she ____ here, she would know what to do.",
+  "keyword": "",
+  "gap_prefix": "If she ",
+  "gap_suffix": " here, she would know what to do.",
+  "answer": "were",
+  "options": [
+   "were",
+   "was being",
+   "is",
+   "has been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "second conditional were",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If I had money now, I ____ buy a car.",
+  "keyword": "",
+  "gap_prefix": "If I had money now, I ",
+  "gap_suffix": " buy a car.",
+  "answer": "would",
+  "options": [
+   "will",
+   "would",
+   "shall",
+   "can"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "second conditional would",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If he ____ rich, he would be happy.",
+  "keyword": "",
+  "gap_prefix": "If he ",
+  "gap_suffix": " rich, he would be happy.",
+  "answer": "were",
+  "options": [
+   "is",
+   "will be",
+   "were",
+   "has been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "were + would",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If we ____ work, we would have more options.",
+  "keyword": "",
+  "gap_prefix": "If we ",
+  "gap_suffix": " work, we would have more options.",
+  "answer": "could",
+  "options": [
+   "can",
+   "will",
+   "shall",
+   "could"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "could in if-clause",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ I rich, I would travel the world.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " I rich, I would travel the world.",
+  "answer": "Were",
+  "options": [
+   "Were",
+   "Was",
+   "Am",
+   "Be"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inversion without if",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ he to leave this job, he would need support.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " he to leave this job, he would need support.",
+  "answer": "Were",
+  "options": [
+   "Was",
+   "Were",
+   "Is",
+   "Has"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "were to + infinitive unlikely future",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Had I known the answer, I ____ asked you.",
+  "keyword": "",
+  "gap_prefix": "Had I known the answer, I ",
+  "gap_suffix": " asked you.",
+  "answer": "wouldn't have",
+  "options": [
+   "won't have",
+   "don't have",
+   "wouldn't have",
+   "haven't"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "third conditional",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If you had come to the party, you ____ met him.",
+  "keyword": "",
+  "gap_prefix": "If you had come to the party, you ",
+  "gap_suffix": " met him.",
+  "answer": "would have",
+  "options": [
+   "will have",
+   "would",
+   "will",
+   "would have"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "third conditional full",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If I leave this job, I ____ go to Boston.",
+  "keyword": "",
+  "gap_prefix": "If I leave this job, I ",
+  "gap_suffix": " go to Boston.",
+  "answer": "will",
+  "options": [
+   "will",
+   "would",
+   "would have",
+   "had"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "first conditional likely",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "When I know the answer, I ____ tell you.",
+  "keyword": "",
+  "gap_prefix": "When I know the answer, I ",
+  "gap_suffix": " tell you.",
+  "answer": "will",
+  "options": [
+   "would",
+   "will",
+   "would have",
+   "had"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "when + will in main clause",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If that ____ the case, I intend to report it.",
+  "keyword": "",
+  "gap_prefix": "If that ",
+  "gap_suffix": " the case, I intend to report it.",
+  "answer": "be",
+  "options": [
+   "is",
+   "was",
+   "be",
+   "has been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "formal subjunctive be after if",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Whether he ____ prepared or not, we must start.",
+  "keyword": "",
+  "gap_prefix": "Whether he ",
+  "gap_suffix": " prepared or not, we must start.",
+  "answer": "be",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "be"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "whether + subjunctive be",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If I ____ more money, I could buy a car.",
+  "keyword": "",
+  "gap_prefix": "If I ",
+  "gap_suffix": " more money, I could buy a car.",
+  "answer": "had",
+  "options": [
+   "had",
+   "have",
+   "will have",
+   "would have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "second conditional had",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Had I more money, I ____ buy a car.",
+  "keyword": "",
+  "gap_prefix": "Had I more money, I ",
+  "gap_suffix": " buy a car.",
+  "answer": "could",
+  "options": [
+   "can",
+   "could",
+   "will",
+   "shall"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "inversion had = if I had",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If you ____ breakfast, you'll feel hungry.",
+  "keyword": "",
+  "gap_prefix": "If you ",
+  "gap_suffix": " breakfast, you'll feel hungry.",
+  "answer": "skip",
+  "options": [
+   "will skip",
+   "would skip",
+   "skip",
+   "had skipped"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "first conditional present in if",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If it rains, we ____ stay at home.",
+  "keyword": "",
+  "gap_prefix": "If it rains, we ",
+  "gap_suffix": " stay at home.",
+  "answer": "will",
+  "options": [
+   "would",
+   "would have",
+   "had",
+   "will"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "first conditional",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If he studied harder, he ____ pass.",
+  "keyword": "",
+  "gap_prefix": "If he studied harder, he ",
+  "gap_suffix": " pass.",
+  "answer": "would",
+  "options": [
+   "would",
+   "will",
+   "would have",
+   "has"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "second conditional",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If they had trained, they ____ won the match.",
+  "keyword": "",
+  "gap_prefix": "If they had trained, they ",
+  "gap_suffix": " won the match.",
+  "answer": "would have",
+  "options": [
+   "will have",
+   "would have",
+   "would",
+   "will"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "third conditional",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Had she arrived earlier, she ____ seen him.",
+  "keyword": "",
+  "gap_prefix": "Had she arrived earlier, she ",
+  "gap_suffix": " seen him.",
+  "answer": "would have",
+  "options": [
+   "will have",
+   "would",
+   "would have",
+   "will"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "inversion third",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Should you need help, ____ me a call.",
+  "keyword": "",
+  "gap_prefix": "Should you need help, ",
+  "gap_suffix": " me a call.",
+  "answer": "give",
+  "options": [
+   "would give",
+   "had given",
+   "will have given",
+   "give"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "should inversion = if you need",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ you need help, give me a call.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " you need help, give me a call.",
+  "answer": "Should",
+  "options": [
+   "Should",
+   "Would",
+   "Had",
+   "Were"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inversion Should fronted",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Unless we act now, the policy ____ fail.",
+  "keyword": "",
+  "gap_prefix": "Unless we act now, the policy ",
+  "gap_suffix": " fail.",
+  "answer": "will",
+  "options": [
+   "would",
+   "will",
+   "would have",
+   "had"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "unless + will",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ long as you pay, you can stay.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " long as you pay, you can stay.",
+  "answer": "As",
+  "options": [
+   "If",
+   "Unless",
+   "As",
+   "Whether"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "as long as = condition",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Provided that you pay, you ____ stay.",
+  "keyword": "",
+  "gap_prefix": "Provided that you pay, you ",
+  "gap_suffix": " stay.",
+  "answer": "can",
+  "options": [
+   "could have",
+   "would have",
+   "had",
+   "can"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "provided that first conditional",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "In case it rains, ____ an umbrella.",
+  "keyword": "",
+  "gap_prefix": "In case it rains, ",
+  "gap_suffix": " an umbrella.",
+  "answer": "take",
+  "options": [
+   "take",
+   "would take",
+   "would have taken",
+   "had taken"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in case + present, not will",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Supposing he comes, what ____ we do?",
+  "keyword": "",
+  "gap_prefix": "Supposing he comes, what ",
+  "gap_suffix": " we do?",
+  "answer": "will",
+  "options": [
+   "would",
+   "will",
+   "would have",
+   "had"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "supposing future",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Even if he apologises, I ____ forgive him.",
+  "keyword": "",
+  "gap_prefix": "Even if he apologises, I ",
+  "gap_suffix": " forgive him.",
+  "answer": "won't",
+  "options": [
+   "wouldn't have",
+   "hadn't",
+   "won't",
+   "wouldn't"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "even if + future refusal",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If only John ____ here now!",
+  "keyword": "",
+  "gap_prefix": "If only John ",
+  "gap_suffix": " here now!",
+  "answer": "were",
+  "options": [
+   "is",
+   "will be",
+   "has been",
+   "were"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "if only + were present wish",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I wish she ____ invited me to the party.",
+  "keyword": "",
+  "gap_prefix": "I wish she ",
+  "gap_suffix": " invited me to the party.",
+  "answer": "had",
+  "options": [
+   "had",
+   "has",
+   "will",
+   "would"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "wish + past perfect past regret",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I wish he ____ arrive on time in future.",
+  "keyword": "",
+  "gap_prefix": "I wish he ",
+  "gap_suffix": " arrive on time in future.",
+  "answer": "would",
+  "options": [
+   "will",
+   "would",
+   "had",
+   "has"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "wish + would future wish",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He talks as if he ____ everything.",
+  "keyword": "",
+  "gap_prefix": "He talks as if he ",
+  "gap_suffix": " everything.",
+  "answer": "knew",
+  "options": [
+   "knows",
+   "will know",
+   "knew",
+   "has know"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "as if + past unreal",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She acts as though she ____ the owner.",
+  "keyword": "",
+  "gap_prefix": "She acts as though she ",
+  "gap_suffix": " the owner.",
+  "answer": "were",
+  "options": [
+   "is",
+   "will be",
+   "has been",
+   "were"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "as though + were",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I'd rather you ____ now; it's getting late.",
+  "keyword": "",
+  "gap_prefix": "I'd rather you ",
+  "gap_suffix": " now; it's getting late.",
+  "answer": "left",
+  "options": [
+   "left",
+   "leave",
+   "will leave",
+   "have left"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "would rather + past",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It's time you ____ to bed.",
+  "keyword": "",
+  "gap_prefix": "It's time you ",
+  "gap_suffix": " to bed.",
+  "answer": "went",
+  "options": [
+   "go",
+   "went",
+   "will go",
+   "have gone"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "it's time + past",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It's high time he ____ the truth.",
+  "keyword": "",
+  "gap_prefix": "It's high time he ",
+  "gap_suffix": " the truth.",
+  "answer": "told",
+  "options": [
+   "tells",
+   "will tell",
+   "told",
+   "has told"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "high time + past",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If I ____ seen him, I would have greeted him.",
+  "keyword": "",
+  "gap_prefix": "If I ",
+  "gap_suffix": " seen him, I would have greeted him.",
+  "answer": "had",
+  "options": [
+   "have",
+   "will have",
+   "would have",
+   "had"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "third if-clause had + pp",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Without your help, we ____ failed.",
+  "keyword": "",
+  "gap_prefix": "Without your help, we ",
+  "gap_suffix": " failed.",
+  "answer": "would have",
+  "options": [
+   "would have",
+   "will have",
+   "would",
+   "will"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "without = if it hadn't been for",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "But for your help, we ____ failed.",
+  "keyword": "",
+  "gap_prefix": "But for your help, we ",
+  "gap_suffix": " failed.",
+  "answer": "would have",
+  "options": [
+   "will have",
+   "would have",
+   "would",
+   "will"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "but for + would have",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Mix: If he ____ harder, he would be rich now.",
+  "keyword": "",
+  "gap_prefix": "Mix: If he ",
+  "gap_suffix": " harder, he would be rich now.",
+  "answer": "had worked",
+  "options": [
+   "works",
+   "will work",
+   "had worked",
+   "would work"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "mixed past action present result",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ be quiet in the library.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " be quiet in the library.",
+  "answer": "must",
+  "options": [
+   "needn't have",
+   "can't have",
+   "would have",
+   "must"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "must = obligation",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ talk loudly here; it's forbidden.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " talk loudly here; it's forbidden.",
+  "answer": "mustn't",
+  "options": [
+   "mustn't",
+   "don't have to",
+   "needn't",
+   "didn't need to"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "mustn't prohibition",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ swim very well when he was five.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " swim very well when he was five.",
+  "answer": "could",
+  "options": [
+   "can",
+   "could",
+   "will",
+   "shall"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "could past ability",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ speak three languages last year.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " speak three languages last year.",
+  "answer": "could",
+  "options": [
+   "can",
+   "will",
+   "could",
+   "shall"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "could ability",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ able to finish despite the noise.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " able to finish despite the noise.",
+  "answer": "were",
+  "options": [
+   "are",
+   "will",
+   "have",
+   "were"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "were able to specific past achievement",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ see a doctor about that cough.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " see a doctor about that cough.",
+  "answer": "should",
+  "options": [
+   "should",
+   "mustn't",
+   "can't have",
+   "needn't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "should advice",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ to know better at your age.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " to know better at your age.",
+  "answer": "ought",
+  "options": [
+   "mustn't",
+   "ought",
+   "can't",
+   "needn't"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "ought to know better",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ better leave now or you'll miss it.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " better leave now or you'll miss it.",
+  "answer": "had",
+  "options": [
+   "have",
+   "would",
+   "had",
+   "should"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "had better + base",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ rather stay home tonight.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " rather stay home tonight.",
+  "answer": "would",
+  "options": [
+   "will",
+   "shall",
+   "had",
+   "would"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "would rather preference",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ not come; it's up to him.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " not come; it's up to him.",
+  "answer": "may",
+  "options": [
+   "may",
+   "must",
+   "has",
+   "will have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "may = permission/possibility",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It ____ rain tomorrow; take a coat.",
+  "keyword": "",
+  "gap_prefix": "It ",
+  "gap_suffix": " rain tomorrow; take a coat.",
+  "answer": "might",
+  "options": [
+   "mustn't",
+   "might",
+   "needn't",
+   "can't have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "might possibility",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ have told me earlier; now it's too late.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " have told me earlier; now it's too late.",
+  "answer": "should",
+  "options": [
+   "must",
+   "can",
+   "should",
+   "will"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "should have reproach",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ have finished by now; let's check.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " have finished by now; let's check.",
+  "answer": "should",
+  "options": [
+   "mustn't",
+   "can't",
+   "needn't",
+   "should"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "should have expectation",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ dare to criticise the boss.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " dare to criticise the boss.",
+  "answer": "wouldn't",
+  "options": [
+   "wouldn't",
+   "mustn't",
+   "needn't",
+   "can't have"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "dare = courage",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You ____ try the new restaurant; it's excellent.",
+  "keyword": "",
+  "gap_prefix": "You ",
+  "gap_suffix": " try the new restaurant; it's excellent.",
+  "answer": "must",
+  "options": [
+   "mustn't",
+   "must",
+   "can't have",
+   "needn't have"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "must recommendation emphatic",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ I ask you to accompany me, sir?",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " I ask you to accompany me, sir?",
+  "answer": "Might",
+  "options": [
+   "Mustn't",
+   "Needn't",
+   "Might",
+   "Can't have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "Might I = very polite request",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Would you ____ me, please? I need help.",
+  "keyword": "",
+  "gap_prefix": "Would you ",
+  "gap_suffix": " me, please? I need help.",
+  "answer": "help",
+  "options": [
+   "helped",
+   "have helped",
+   "helping",
+   "help"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "Would you help polite",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ help you if you asked him.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " help you if you asked him.",
+  "answer": "would",
+  "options": [
+   "would",
+   "will",
+   "shall",
+   "has"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "would hypothetical willingness",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "If you ____ me to choose, I'd pick the red one.",
+  "keyword": "",
+  "gap_prefix": "If you ",
+  "gap_suffix": " me to choose, I'd pick the red one.",
+  "answer": "were",
+  "options": [
+   "are",
+   "were",
+   "will be",
+   "have been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "were to choose formal",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Strange as it ____ seem, hope takes no subjunctive.",
+  "keyword": "",
+  "gap_prefix": "Strange as it ",
+  "gap_suffix": " seem, hope takes no subjunctive.",
+  "answer": "may",
+  "options": [
+   "must",
+   "should have",
+   "may",
+   "would have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "fixed concessive may",
+  "difficulty": 3
+ }
+]

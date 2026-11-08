@@ -1,0 +1,2662 @@
+[
+ {
+  "category": "mcq",
+  "prompt": "You're coming to the meeting, ____?",
+  "keyword": "",
+  "gap_prefix": "You're coming to the meeting, ",
+  "gap_suffix": "?",
+  "answer": "aren't you",
+  "options": [
+   "aren't you",
+   "isn't you",
+   "don't you",
+   "are you"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: be-verb positive -> negative tag",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She speaks three languages, ____?",
+  "keyword": "",
+  "gap_prefix": "She speaks three languages, ",
+  "gap_suffix": "?",
+  "answer": "doesn't she",
+  "options": [
+   "don't she",
+   "doesn't she",
+   "isn't she",
+   "does she"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: present simple 3rd singular -> doesn't she",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They didn't call yesterday, ____?",
+  "keyword": "",
+  "gap_prefix": "They didn't call yesterday, ",
+  "gap_suffix": "?",
+  "answer": "did they",
+  "options": [
+   "didn't they",
+   "do they",
+   "did they",
+   "don't they"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: negative past -> positive did they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He has finished his homework, ____?",
+  "keyword": "",
+  "gap_prefix": "He has finished his homework, ",
+  "gap_suffix": "?",
+  "answer": "hasn't he",
+  "options": [
+   "has he",
+   "doesn't he",
+   "isn't he",
+   "hasn't he"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: present perfect -> hasn't he",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You won't be late, ____?",
+  "keyword": "",
+  "gap_prefix": "You won't be late, ",
+  "gap_suffix": "?",
+  "answer": "will you",
+  "options": [
+   "will you",
+   "won't you",
+   "do you",
+   "shall you"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: negative will -> positive will you",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Let's go for a walk, ____?",
+  "keyword": "",
+  "gap_prefix": "Let's go for a walk, ",
+  "gap_suffix": "?",
+  "answer": "shall we",
+  "options": [
+   "shan't we",
+   "shall we",
+   "will we",
+   "don't we"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: Let's -> shall we",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Open the window, ____?",
+  "keyword": "",
+  "gap_prefix": "Open the window, ",
+  "gap_suffix": "?",
+  "answer": "will you",
+  "options": [
+   "did you",
+   "do you",
+   "will you",
+   "are you"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: positive imperative -> will you",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Don't make so much noise, ____?",
+  "keyword": "",
+  "gap_prefix": "Don't make so much noise, ",
+  "gap_suffix": "?",
+  "answer": "will you",
+  "options": [
+   "won't you",
+   "do you",
+   "don't you",
+   "will you"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: negative imperative -> will you",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I'm your best friend, ____?",
+  "keyword": "",
+  "gap_prefix": "I'm your best friend, ",
+  "gap_suffix": "?",
+  "answer": "aren't I",
+  "options": [
+   "aren't I",
+   "amn't I",
+   "isn't I",
+   "don't I"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: special I am -> aren't I",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "There's no milk left, ____?",
+  "keyword": "",
+  "gap_prefix": "There's no milk left, ",
+  "gap_suffix": "?",
+  "answer": "is there",
+  "options": [
+   "isn't there",
+   "is there",
+   "does there",
+   "is it"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: there is negative sense -> is there",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She rarely visits us, ____?",
+  "keyword": "",
+  "gap_prefix": "She rarely visits us, ",
+  "gap_suffix": "?",
+  "answer": "does she",
+  "options": [
+   "doesn't she",
+   "is she",
+   "does she",
+   "has she"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: rarely = negative -> positive tag",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He never complains, ____?",
+  "keyword": "",
+  "gap_prefix": "He never complains, ",
+  "gap_suffix": "?",
+  "answer": "does he",
+  "options": [
+   "doesn't he",
+   "is he",
+   "will he",
+   "does he"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: never = negative -> positive tag",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You'd rather stay here, ____?",
+  "keyword": "",
+  "gap_prefix": "You'd rather stay here, ",
+  "gap_suffix": "?",
+  "answer": "wouldn't you",
+  "options": [
+   "wouldn't you",
+   "hadn't you",
+   "didn't you",
+   "shouldn't you"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: would rather -> wouldn't you",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She can hardly swim, ____?",
+  "keyword": "",
+  "gap_prefix": "She can hardly swim, ",
+  "gap_suffix": "?",
+  "answer": "can she",
+  "options": [
+   "can't she",
+   "can she",
+   "does she",
+   "is she"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: hardly = negative -> positive tag",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They must leave now, ____?",
+  "keyword": "",
+  "gap_prefix": "They must leave now, ",
+  "gap_suffix": "?",
+  "answer": "mustn't they",
+  "options": [
+   "don't they",
+   "must they",
+   "mustn't they",
+   "haven't they"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: must -> mustn't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He should have called, ____?",
+  "keyword": "",
+  "gap_prefix": "He should have called, ",
+  "gap_suffix": "?",
+  "answer": "shouldn't he",
+  "options": [
+   "should he",
+   "hadn't he",
+   "didn't he",
+   "shouldn't he"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: should have -> shouldn't he",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You have been to London, ____?",
+  "keyword": "",
+  "gap_prefix": "You have been to London, ",
+  "gap_suffix": "?",
+  "answer": "haven't you",
+  "options": [
+   "haven't you",
+   "have you",
+   "don't you",
+   "didn't you"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: present perfect -> haven't you",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The weather is nice today, ____?",
+  "keyword": "",
+  "gap_prefix": "The weather is nice today, ",
+  "gap_suffix": "?",
+  "answer": "isn't it",
+  "options": [
+   "is it",
+   "isn't it",
+   "doesn't it",
+   "wasn't it"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: be present -> isn't it",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Your parents were at home, ____?",
+  "keyword": "",
+  "gap_prefix": "Your parents were at home, ",
+  "gap_suffix": "?",
+  "answer": "weren't they",
+  "options": [
+   "wasn't they",
+   "didn't they",
+   "weren't they",
+   "aren't they"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: past be plural -> weren't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She works in a bank, ____?",
+  "keyword": "",
+  "gap_prefix": "She works in a bank, ",
+  "gap_suffix": "?",
+  "answer": "doesn't she",
+  "options": [
+   "does she",
+   "isn't she",
+   "won't she",
+   "doesn't she"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: present simple -> doesn't she",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They will help us, ____?",
+  "keyword": "",
+  "gap_prefix": "They will help us, ",
+  "gap_suffix": "?",
+  "answer": "won't they",
+  "options": [
+   "won't they",
+   "will they",
+   "don't they",
+   "shall they"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: will -> won't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He didn't have to go, ____?",
+  "keyword": "",
+  "gap_prefix": "He didn't have to go, ",
+  "gap_suffix": "?",
+  "answer": "did he",
+  "options": [
+   "didn't he",
+   "did he",
+   "had he",
+   "does he"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: negative past -> did he",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You couldn't hear me, ____?",
+  "keyword": "",
+  "gap_prefix": "You couldn't hear me, ",
+  "gap_suffix": "?",
+  "answer": "could you",
+  "options": [
+   "couldn't you",
+   "can't you",
+   "could you",
+   "did you"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: negative could -> could you",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Let's not argue about it, ____?",
+  "keyword": "",
+  "gap_prefix": "Let's not argue about it, ",
+  "gap_suffix": "?",
+  "answer": "shall we",
+  "options": [
+   "shan't we",
+   "will we",
+   "don't we",
+   "shall we"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: Let's negative still -> shall we",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Pass me the salt, ____?",
+  "keyword": "",
+  "gap_prefix": "Pass me the salt, ",
+  "gap_suffix": "?",
+  "answer": "will you",
+  "options": [
+   "will you",
+   "did you",
+   "do you",
+   "are you"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: imperative request -> will you",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She would love to join us, ____?",
+  "keyword": "",
+  "gap_prefix": "She would love to join us, ",
+  "gap_suffix": "?",
+  "answer": "wouldn't she",
+  "options": [
+   "would she",
+   "wouldn't she",
+   "hadn't she",
+   "didn't she"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: would -> wouldn't she",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He used to smoke, ____?",
+  "keyword": "",
+  "gap_prefix": "He used to smoke, ",
+  "gap_suffix": "?",
+  "answer": "didn't he",
+  "options": [
+   "usedn't he",
+   "doesn't he",
+   "didn't he",
+   "hadn't he"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: used to -> didn't he",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "There were many people there, ____?",
+  "keyword": "",
+  "gap_prefix": "There were many people there, ",
+  "gap_suffix": "?",
+  "answer": "weren't there",
+  "options": [
+   "wasn't there",
+   "didn't there",
+   "aren't there",
+   "weren't there"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: there were -> weren't there",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You think he is lying, ____?",
+  "keyword": "",
+  "gap_prefix": "You think he is lying, ",
+  "gap_suffix": "?",
+  "answer": "don't you",
+  "options": [
+   "don't you",
+   "do you",
+   "isn't he",
+   "doesn't he"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: main-clause tag with think",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nothing was said about the plan, ____?",
+  "keyword": "",
+  "gap_prefix": "Nothing was said about the plan, ",
+  "gap_suffix": "?",
+  "answer": "was it",
+  "options": [
+   "wasn't it",
+   "was it",
+   "were they",
+   "did they"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: nothing + passive -> was it",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nobody called last night, ____?",
+  "keyword": "",
+  "gap_prefix": "Nobody called last night, ",
+  "gap_suffix": "?",
+  "answer": "did they",
+  "options": [
+   "didn't they",
+   "have they",
+   "did they",
+   "do they"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: nobody = negative, plural they -> did they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nobody has finished the report, ____?",
+  "keyword": "",
+  "gap_prefix": "Nobody has finished the report, ",
+  "gap_suffix": "?",
+  "answer": "have they",
+  "options": [
+   "has he",
+   "hasn't he",
+   "did they",
+   "have they"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: nobody + has -> have they",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everybody enjoyed the party, ____?",
+  "keyword": "",
+  "gap_prefix": "Everybody enjoyed the party, ",
+  "gap_suffix": "?",
+  "answer": "didn't they",
+  "options": [
+   "didn't they",
+   "did they",
+   "don't they",
+   "weren't they"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: everybody positive -> didn't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everyone has arrived, ____?",
+  "keyword": "",
+  "gap_prefix": "Everyone has arrived, ",
+  "gap_suffix": "?",
+  "answer": "haven't they",
+  "options": [
+   "hasn't he",
+   "haven't they",
+   "don't they",
+   "didn't they"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: everyone has -> haven't they",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Someone left the door open, ____?",
+  "keyword": "",
+  "gap_prefix": "Someone left the door open, ",
+  "gap_suffix": "?",
+  "answer": "didn't they",
+  "options": [
+   "did they",
+   "hasn't he",
+   "didn't they",
+   "don't they"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: someone positive -> didn't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "No one knows the answer, ____?",
+  "keyword": "",
+  "gap_prefix": "No one knows the answer, ",
+  "gap_suffix": "?",
+  "answer": "do they",
+  "options": [
+   "don't they",
+   "does he",
+   "do he",
+   "do they"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: no one = negative -> do they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Somebody can help me, ____?",
+  "keyword": "",
+  "gap_prefix": "Somebody can help me, ",
+  "gap_suffix": "?",
+  "answer": "can't they",
+  "options": [
+   "can't they",
+   "can they",
+   "couldn't they",
+   "don't they"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: somebody positive -> can't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everybody was invited, ____?",
+  "keyword": "",
+  "gap_prefix": "Everybody was invited, ",
+  "gap_suffix": "?",
+  "answer": "weren't they",
+  "options": [
+   "wasn't he",
+   "weren't they",
+   "didn't they",
+   "was he"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: everybody was -> weren't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nobody wants to fail, ____?",
+  "keyword": "",
+  "gap_prefix": "Nobody wants to fail, ",
+  "gap_suffix": "?",
+  "answer": "do they",
+  "options": [
+   "don't they",
+   "does he",
+   "do they",
+   "doesn't he"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: nobody wants -> do they",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everyone could hear the music, ____?",
+  "keyword": "",
+  "gap_prefix": "Everyone could hear the music, ",
+  "gap_suffix": "?",
+  "answer": "couldn't they",
+  "options": [
+   "could they",
+   "can't they",
+   "didn't they",
+   "couldn't they"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: everyone positive -> couldn't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nothing matters now, ____?",
+  "keyword": "",
+  "gap_prefix": "Nothing matters now, ",
+  "gap_suffix": "?",
+  "answer": "does it",
+  "options": [
+   "does it",
+   "doesn't it",
+   "is it",
+   "did it"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: nothing -> does it",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nothing was stolen, ____?",
+  "keyword": "",
+  "gap_prefix": "Nothing was stolen, ",
+  "gap_suffix": "?",
+  "answer": "was it",
+  "options": [
+   "wasn't it",
+   "was it",
+   "were they",
+   "did it"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: nothing was -> was it",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everything is ready, ____?",
+  "keyword": "",
+  "gap_prefix": "Everything is ready, ",
+  "gap_suffix": "?",
+  "answer": "isn't it",
+  "options": [
+   "is it",
+   "doesn't it",
+   "isn't it",
+   "hasn't it"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: everything positive -> isn't it",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Something is wrong with him, ____?",
+  "keyword": "",
+  "gap_prefix": "Something is wrong with him, ",
+  "gap_suffix": "?",
+  "answer": "isn't it",
+  "options": [
+   "is it",
+   "doesn't it",
+   "wasn't it",
+   "isn't it"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: something positive -> isn't it",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "None of the students passed, ____?",
+  "keyword": "",
+  "gap_prefix": "None of the students passed, ",
+  "gap_suffix": "?",
+  "answer": "did they",
+  "options": [
+   "did they",
+   "didn't they",
+   "do they",
+   "have they"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: none = negative -> did they",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Neither of them came, ____?",
+  "keyword": "",
+  "gap_prefix": "Neither of them came, ",
+  "gap_suffix": "?",
+  "answer": "did they",
+  "options": [
+   "didn't they",
+   "did they",
+   "do they",
+   "have they"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: neither = negative -> did they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everybody should bring ID, ____?",
+  "keyword": "",
+  "gap_prefix": "Everybody should bring ID, ",
+  "gap_suffix": "?",
+  "answer": "shouldn't they",
+  "options": [
+   "should they",
+   "don't they",
+   "shouldn't they",
+   "mustn't they"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "tag: everybody should -> shouldn't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "No one would object, ____?",
+  "keyword": "",
+  "gap_prefix": "No one would object, ",
+  "gap_suffix": "?",
+  "answer": "would they",
+  "options": [
+   "wouldn't they",
+   "will they",
+   "do they",
+   "would they"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "tag: no one + would -> would they",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Someone has taken my bag, ____?",
+  "keyword": "",
+  "gap_prefix": "Someone has taken my bag, ",
+  "gap_suffix": "?",
+  "answer": "haven't they",
+  "options": [
+   "haven't they",
+   "hasn't he",
+   "didn't they",
+   "don't they"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "tag: someone has -> haven't they",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everyone will be there, ____?",
+  "keyword": "",
+  "gap_prefix": "Everyone will be there, ",
+  "gap_suffix": "?",
+  "answer": "won't they",
+  "options": [
+   "will they",
+   "won't they",
+   "don't they",
+   "shan't they"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "tag: everyone will -> won't they",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ Mount Everest is the highest mountain in the world.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " Mount Everest is the highest mountain in the world.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "an",
+   "no article",
+   "the"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: proper noun mountain peak -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She plays ____ violin very well.",
+  "keyword": "",
+  "gap_prefix": "She plays ",
+  "gap_suffix": " violin very well.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "no article",
+   "the"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: musical instrument -> the",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He had ____ breakfast with his family this morning.",
+  "keyword": "",
+  "gap_prefix": "He had ",
+  "gap_suffix": " breakfast with his family this morning.",
+  "answer": "no article",
+  "options": [
+   "no article",
+   "a",
+   "an",
+   "the"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: meal by name -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I saw ____ interesting film last night.",
+  "keyword": "",
+  "gap_prefix": "I saw ",
+  "gap_suffix": " interesting film last night.",
+  "answer": "an",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "no article"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: vowel sound -> an",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ sun rises in the east.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " sun rises in the east.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "No article"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: unique object -> The",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She is ____ honest person.",
+  "keyword": "",
+  "gap_prefix": "She is ",
+  "gap_suffix": " honest person.",
+  "answer": "an",
+  "options": [
+   "a",
+   "the",
+   "no article",
+   "an"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: silent h vowel sound -> an",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Poor children go to ____ school on foot every day.",
+  "keyword": "",
+  "gap_prefix": "Poor children go to ",
+  "gap_suffix": " school on foot every day.",
+  "answer": "no article",
+  "options": [
+   "no article",
+   "a",
+   "an",
+   "the"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: go to school as pupil -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "My father goes to ____ church every Sunday to pray.",
+  "keyword": "",
+  "gap_prefix": "My father goes to ",
+  "gap_suffix": " church every Sunday to pray.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "no article",
+   "an",
+   "the"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: church for worship -> no article",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ French are famous for their cuisine.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " French are famous for their cuisine.",
+  "answer": "The",
+  "options": [
+   "A",
+   "An",
+   "The",
+   "No article"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: nationality group -> The",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He is in ____ prison for robbery.",
+  "keyword": "",
+  "gap_prefix": "He is in ",
+  "gap_suffix": " prison for robbery.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "no article"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: in prison as prisoner -> no article",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We visited ____ Eiffel Tower last summer.",
+  "keyword": "",
+  "gap_prefix": "We visited ",
+  "gap_suffix": " Eiffel Tower last summer.",
+  "answer": "the",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "no article"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: famous monument -> the",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She has ____ headache.",
+  "keyword": "",
+  "gap_prefix": "She has ",
+  "gap_suffix": " headache.",
+  "answer": "a",
+  "options": [
+   "an",
+   "a",
+   "the",
+   "no article"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: illness have a headache -> a",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "My mother caught ____ flu last winter.",
+  "keyword": "",
+  "gap_prefix": "My mother caught ",
+  "gap_suffix": " flu last winter.",
+  "answer": "the",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "no article"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: the flu fixed phrase",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He wants to be ____ engineer.",
+  "keyword": "",
+  "gap_prefix": "He wants to be ",
+  "gap_suffix": " engineer.",
+  "answer": "an",
+  "options": [
+   "a",
+   "the",
+   "no article",
+   "an"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: job vowel sound -> an",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ honesty is the best policy.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " honesty is the best policy.",
+  "answer": "no article",
+  "options": [
+   "no article",
+   "A",
+   "An",
+   "The"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: abstract noun general -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I like listening to ____ music in the evening.",
+  "keyword": "",
+  "gap_prefix": "I like listening to ",
+  "gap_suffix": " music in the evening.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "no article",
+   "an",
+   "the"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: music general -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She bought ____ umbrella yesterday.",
+  "keyword": "",
+  "gap_prefix": "She bought ",
+  "gap_suffix": " umbrella yesterday.",
+  "answer": "an",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "no article"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: vowel initial -> an",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was taken to ____ hospital after the accident.",
+  "keyword": "",
+  "gap_prefix": "He was taken to ",
+  "gap_suffix": " hospital after the accident.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "no article"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: BrE patient -> no article",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ water is essential for life.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " water is essential for life.",
+  "answer": "no article",
+  "options": [
+   "no article",
+   "A",
+   "An",
+   "The"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: uncountable general -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She was ____ first person to arrive.",
+  "keyword": "",
+  "gap_prefix": "She was ",
+  "gap_suffix": " first person to arrive.",
+  "answer": "the",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "no article"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: ordinal -> the",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They had ____ lunch together at noon.",
+  "keyword": "",
+  "gap_prefix": "They had ",
+  "gap_suffix": " lunch together at noon.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "an",
+   "no article",
+   "the"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: meal -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He plays ____ football every afternoon.",
+  "keyword": "",
+  "gap_prefix": "He plays ",
+  "gap_suffix": " football every afternoon.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "no article"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: sport -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She is learning to play ____ piano.",
+  "keyword": "",
+  "gap_prefix": "She is learning to play ",
+  "gap_suffix": " piano.",
+  "answer": "the",
+  "options": [
+   "the",
+   "a",
+   "an",
+   "no article"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: instrument -> the",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ Amazon is the longest river in South America.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " Amazon is the longest river in South America.",
+  "answer": "The",
+  "options": [
+   "A",
+   "The",
+   "An",
+   "No article"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: river -> The",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I need ____ hour to finish this report.",
+  "keyword": "",
+  "gap_prefix": "I need ",
+  "gap_suffix": " hour to finish this report.",
+  "answer": "an",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "no article"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: silent h -> an",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He is ____ university student.",
+  "keyword": "",
+  "gap_prefix": "He is ",
+  "gap_suffix": " university student.",
+  "answer": "a",
+  "options": [
+   "an",
+   "the",
+   "no article",
+   "a"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: /ju/ consonant sound -> a",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ poor need more support from the government.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " poor need more support from the government.",
+  "answer": "The",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "No article"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "article: adjective as group -> The",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She went to ____ bed early last night.",
+  "keyword": "",
+  "gap_prefix": "She went to ",
+  "gap_suffix": " bed early last night.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "no article",
+   "an",
+   "the"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "article: go to bed idiom -> no article",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was elected ____ president of the club.",
+  "keyword": "",
+  "gap_prefix": "He was elected ",
+  "gap_suffix": " president of the club.",
+  "answer": "no article",
+  "options": [
+   "a",
+   "an",
+   "no article",
+   "the"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "article: elected president title -> no article",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "What ____ beautiful day we are having!",
+  "keyword": "",
+  "gap_prefix": "What ",
+  "gap_suffix": " beautiful day we are having!",
+  "answer": "a",
+  "options": [
+   "an",
+   "the",
+   "no article",
+   "a"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "article: exclamation what a -> a",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Neither of the answers ____ correct.",
+  "keyword": "",
+  "gap_prefix": "Neither of the answers ",
+  "gap_suffix": " correct.",
+  "answer": "is",
+  "options": [
+   "is",
+   "are",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: neither of + singular -> is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Each of the students ____ a laptop.",
+  "keyword": "",
+  "gap_prefix": "Each of the students ",
+  "gap_suffix": " a laptop.",
+  "answer": "has",
+  "options": [
+   "have",
+   "has",
+   "are having",
+   "have had"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: each of -> singular has",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The number of cases ____ increasing rapidly.",
+  "keyword": "",
+  "gap_prefix": "The number of cases ",
+  "gap_suffix": " increasing rapidly.",
+  "answer": "is",
+  "options": [
+   "are",
+   "were",
+   "is",
+   "have been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: the number -> singular is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A number of students ____ absent today.",
+  "keyword": "",
+  "gap_prefix": "A number of students ",
+  "gap_suffix": " absent today.",
+  "answer": "were",
+  "options": [
+   "was",
+   "is",
+   "has been",
+   "were"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: a number of -> plural",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Neither John nor his friends ____ coming.",
+  "keyword": "",
+  "gap_prefix": "Neither John nor his friends ",
+  "gap_suffix": " coming.",
+  "answer": "are",
+  "options": [
+   "are",
+   "is",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: nor proximity plural -> are",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Either the teacher or the students ____ responsible.",
+  "keyword": "",
+  "gap_prefix": "Either the teacher or the students ",
+  "gap_suffix": " responsible.",
+  "answer": "are",
+  "options": [
+   "is",
+   "are",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: or proximity plural -> are",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The committee ____ decided to postpone the meeting.",
+  "keyword": "",
+  "gap_prefix": "The committee ",
+  "gap_suffix": " decided to postpone the meeting.",
+  "answer": "has",
+  "options": [
+   "have",
+   "are",
+   "has",
+   "were"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: collective singular -> has",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The police ____ investigating the case.",
+  "keyword": "",
+  "gap_prefix": "The police ",
+  "gap_suffix": " investigating the case.",
+  "answer": "are",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "are"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: police always plural -> are",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Mathematics ____ my favourite subject.",
+  "keyword": "",
+  "gap_prefix": "Mathematics ",
+  "gap_suffix": " my favourite subject.",
+  "answer": "is",
+  "options": [
+   "is",
+   "are",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: -ics subject singular -> is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Ten dollars ____ too much to pay for that.",
+  "keyword": "",
+  "gap_prefix": "Ten dollars ",
+  "gap_suffix": " too much to pay for that.",
+  "answer": "is",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: sum of money -> is",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The news ____ shocking to us all.",
+  "keyword": "",
+  "gap_prefix": "The news ",
+  "gap_suffix": " shocking to us all.",
+  "answer": "is",
+  "options": [
+   "are",
+   "were",
+   "is",
+   "have been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: news singular -> is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "There ____ many reasons for his failure.",
+  "keyword": "",
+  "gap_prefix": "There ",
+  "gap_suffix": " many reasons for his failure.",
+  "answer": "are",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "are"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: there + plural -> are",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Not only he but also I ____ invited to the ceremony.",
+  "keyword": "",
+  "gap_prefix": "Not only he but also I ",
+  "gap_suffix": " invited to the ceremony.",
+  "answer": "am",
+  "options": [
+   "am",
+   "is",
+   "are",
+   "were"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: proximity I -> am",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "One of my friends ____ living abroad.",
+  "keyword": "",
+  "gap_prefix": "One of my friends ",
+  "gap_suffix": " living abroad.",
+  "answer": "is",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: one of -> singular is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Everybody ____ done their homework.",
+  "keyword": "",
+  "gap_prefix": "Everybody ",
+  "gap_suffix": " done their homework.",
+  "answer": "has",
+  "options": [
+   "have",
+   "are",
+   "has",
+   "were"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: everybody singular -> has",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The majority of the damage ____ been repaired.",
+  "keyword": "",
+  "gap_prefix": "The majority of the damage ",
+  "gap_suffix": " been repaired.",
+  "answer": "has",
+  "options": [
+   "have",
+   "are",
+   "were",
+   "has"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: majority of uncountable -> has",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The majority of voters ____ chosen change.",
+  "keyword": "",
+  "gap_prefix": "The majority of voters ",
+  "gap_suffix": " chosen change.",
+  "answer": "have",
+  "options": [
+   "have",
+   "has",
+   "is",
+   "was"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: majority of countable -> have",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Bread and butter ____ my favourite breakfast.",
+  "keyword": "",
+  "gap_prefix": "Bread and butter ",
+  "gap_suffix": " my favourite breakfast.",
+  "answer": "is",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: single dish -> is",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The captain, along with his crew, ____ rescued.",
+  "keyword": "",
+  "gap_prefix": "The captain, along with his crew, ",
+  "gap_suffix": " rescued.",
+  "answer": "was",
+  "options": [
+   "were",
+   "are",
+   "was",
+   "have been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: parenthetical ignored -> was",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Neither poverty nor wealth ____ happiness.",
+  "keyword": "",
+  "gap_prefix": "Neither poverty nor wealth ",
+  "gap_suffix": " happiness.",
+  "answer": "brings",
+  "options": [
+   "bring",
+   "have brought",
+   "are bringing",
+   "brings"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: neither nor singular -> brings",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "All of the water ____ contaminated.",
+  "keyword": "",
+  "gap_prefix": "All of the water ",
+  "gap_suffix": " contaminated.",
+  "answer": "is",
+  "options": [
+   "is",
+   "are",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: all of uncountable -> is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "All of the apples ____ rotten.",
+  "keyword": "",
+  "gap_prefix": "All of the apples ",
+  "gap_suffix": " rotten.",
+  "answer": "are",
+  "options": [
+   "is",
+   "are",
+   "was",
+   "has been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: all of countable -> are",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Cattle ____ grazing in the field.",
+  "keyword": "",
+  "gap_prefix": "Cattle ",
+  "gap_suffix": " grazing in the field.",
+  "answer": "are",
+  "options": [
+   "is",
+   "was",
+   "are",
+   "has been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: cattle plural -> are",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The audience ____ applauding loudly.",
+  "keyword": "",
+  "gap_prefix": "The audience ",
+  "gap_suffix": " applauding loudly.",
+  "answer": "are",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "are"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: collective plural sense -> are",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nobody in the class ____ the answer.",
+  "keyword": "",
+  "gap_prefix": "Nobody in the class ",
+  "gap_suffix": " the answer.",
+  "answer": "knows",
+  "options": [
+   "knows",
+   "know",
+   "have known",
+   "are knowing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: nobody singular -> knows",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Two-thirds of the work ____ finished.",
+  "keyword": "",
+  "gap_prefix": "Two-thirds of the work ",
+  "gap_suffix": " finished.",
+  "answer": "is",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: fraction of uncountable -> is",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Two-thirds of the students ____ present.",
+  "keyword": "",
+  "gap_prefix": "Two-thirds of the students ",
+  "gap_suffix": " present.",
+  "answer": "were",
+  "options": [
+   "was",
+   "is",
+   "were",
+   "has been"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "SVA: fraction of countable -> were",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The Philippines ____ many beautiful islands.",
+  "keyword": "",
+  "gap_prefix": "The Philippines ",
+  "gap_suffix": " many beautiful islands.",
+  "answer": "has",
+  "options": [
+   "have",
+   "are",
+   "were",
+   "has"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "SVA: country name singular -> has",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The United States ____ a large economy.",
+  "keyword": "",
+  "gap_prefix": "The United States ",
+  "gap_suffix": " a large economy.",
+  "answer": "has",
+  "options": [
+   "has",
+   "have",
+   "are",
+   "were"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "SVA: country singular -> has",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "His knowledge of languages ____ impressive.",
+  "keyword": "",
+  "gap_prefix": "His knowledge of languages ",
+  "gap_suffix": " impressive.",
+  "answer": "is",
+  "options": [
+   "are",
+   "is",
+   "were",
+   "have been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "SVA: head noun knowledge -> is",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She had her car ____ yesterday.",
+  "keyword": "",
+  "gap_prefix": "She had her car ",
+  "gap_suffix": " yesterday.",
+  "answer": "repaired",
+  "options": [
+   "repair",
+   "to repair",
+   "repaired",
+   "repairing"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "causative: have sth done -> repaired",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He got his hair ____ last week.",
+  "keyword": "",
+  "gap_prefix": "He got his hair ",
+  "gap_suffix": " last week.",
+  "answer": "cut",
+  "options": [
+   "to cut",
+   "cutting",
+   "cuts",
+   "cut"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "causative: get sth done -> cut",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They made him ____ the whole night.",
+  "keyword": "",
+  "gap_prefix": "They made him ",
+  "gap_suffix": " the whole night.",
+  "answer": "work",
+  "options": [
+   "work",
+   "to work",
+   "working",
+   "worked"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "causative: make sb do bare infinitive",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She was made ____ overtime yesterday.",
+  "keyword": "",
+  "gap_prefix": "She was made ",
+  "gap_suffix": " overtime yesterday.",
+  "answer": "to work",
+  "options": [
+   "work",
+   "to work",
+   "working",
+   "worked"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "passive causative: be made to work",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I had my brother ____ my luggage upstairs.",
+  "keyword": "",
+  "gap_prefix": "I had my brother ",
+  "gap_suffix": " my luggage upstairs.",
+  "answer": "carry",
+  "options": [
+   "to carry",
+   "carrying",
+   "carry",
+   "carried"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "causative: have sb do -> carry",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We got the technician ____ our computer.",
+  "keyword": "",
+  "gap_prefix": "We got the technician ",
+  "gap_suffix": " our computer.",
+  "answer": "to fix",
+  "options": [
+   "fix",
+   "fixing",
+   "fixed",
+   "to fix"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "causative: get sb to do -> to fix",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The bridge ____ built last year.",
+  "keyword": "",
+  "gap_prefix": "The bridge ",
+  "gap_suffix": " built last year.",
+  "answer": "was",
+  "options": [
+   "was",
+   "is",
+   "has",
+   "will be"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "passive: past event -> was built",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The room ____ cleaned every day.",
+  "keyword": "",
+  "gap_prefix": "The room ",
+  "gap_suffix": " cleaned every day.",
+  "answer": "is",
+  "options": [
+   "was",
+   "is",
+   "were",
+   "had been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "passive: routine -> is cleaned",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "By the time we arrived, all the tickets ____.",
+  "keyword": "",
+  "gap_prefix": "By the time we arrived, all the tickets ",
+  "gap_suffix": ".",
+  "answer": "had been sold",
+  "options": [
+   "had sold",
+   "have sold",
+   "had been sold",
+   "were selling"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "passive: past perfect -> had been sold",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "This shirt ____ of cotton.",
+  "keyword": "",
+  "gap_prefix": "This shirt ",
+  "gap_suffix": " of cotton.",
+  "answer": "is made",
+  "options": [
+   "is making",
+   "makes",
+   "has made",
+   "is made"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "passive: material -> is made of",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ promoted last month.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " promoted last month.",
+  "answer": "was",
+  "options": [
+   "was",
+   "is",
+   "has",
+   "will be"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "passive: past -> was promoted",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The documents ____ signed by the manager yesterday.",
+  "keyword": "",
+  "gap_prefix": "The documents ",
+  "gap_suffix": " signed by the manager yesterday.",
+  "answer": "were",
+  "options": [
+   "was",
+   "were",
+   "are",
+   "has been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "passive: plural past -> were signed",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She got her house ____ before Tet.",
+  "keyword": "",
+  "gap_prefix": "She got her house ",
+  "gap_suffix": " before Tet.",
+  "answer": "painted",
+  "options": [
+   "paint",
+   "to paint",
+   "painted",
+   "painting"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "causative: get sth done -> painted",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He had his phone ____ during the meeting.",
+  "keyword": "",
+  "gap_prefix": "He had his phone ",
+  "gap_suffix": " during the meeting.",
+  "answer": "switched off",
+  "options": [
+   "switch off",
+   "to switch off",
+   "switching off",
+   "switched off"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "causative: have sth done -> switched off",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Let him ____ his own decision.",
+  "keyword": "",
+  "gap_prefix": "Let him ",
+  "gap_suffix": " his own decision.",
+  "answer": "make",
+  "options": [
+   "make",
+   "to make",
+   "making",
+   "made"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "causative: let sb do -> make",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The teacher had the essays ____ by Friday.",
+  "keyword": "",
+  "gap_prefix": "The teacher had the essays ",
+  "gap_suffix": " by Friday.",
+  "answer": "collected",
+  "options": [
+   "collect",
+   "collected",
+   "to collect",
+   "collecting"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "causative: have sth done -> collected",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I will have you ____ this parcel immediately.",
+  "keyword": "",
+  "gap_prefix": "I will have you ",
+  "gap_suffix": " this parcel immediately.",
+  "answer": "deliver",
+  "options": [
+   "to deliver",
+   "delivering",
+   "deliver",
+   "delivered"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "causative: have sb do -> deliver",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They got the problem ____ quickly.",
+  "keyword": "",
+  "gap_prefix": "They got the problem ",
+  "gap_suffix": " quickly.",
+  "answer": "solved",
+  "options": [
+   "solve",
+   "to solve",
+   "solving",
+   "solved"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "causative: get sth done -> solved",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The new law will ____ into effect next month.",
+  "keyword": "",
+  "gap_prefix": "The new law will ",
+  "gap_suffix": " into effect next month.",
+  "answer": "be put",
+  "options": [
+   "be put",
+   "put",
+   "have put",
+   "putting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "passive: future -> be put",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "English ____ in many countries around the world.",
+  "keyword": "",
+  "gap_prefix": "English ",
+  "gap_suffix": " in many countries around the world.",
+  "answer": "is spoken",
+  "options": [
+   "speaks",
+   "is spoken",
+   "spoke",
+   "has spoke"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "passive: fact -> is spoken",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The thief ____ arrested yesterday.",
+  "keyword": "",
+  "gap_prefix": "The thief ",
+  "gap_suffix": " arrested yesterday.",
+  "answer": "was",
+  "options": [
+   "is",
+   "has",
+   "was",
+   "will be"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "passive: past -> was arrested",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She enjoys ____ praised by others.",
+  "keyword": "",
+  "gap_prefix": "She enjoys ",
+  "gap_suffix": " praised by others.",
+  "answer": "being",
+  "options": [
+   "be",
+   "to be",
+   "been",
+   "being"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "passive gerund: enjoy being done",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He dislikes ____ kept waiting.",
+  "keyword": "",
+  "gap_prefix": "He dislikes ",
+  "gap_suffix": " kept waiting.",
+  "answer": "being",
+  "options": [
+   "being",
+   "be",
+   "to be",
+   "been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "passive gerund: dislike being done",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The car needs ____. It is very dirty.",
+  "keyword": "",
+  "gap_prefix": "The car needs ",
+  "gap_suffix": ". It is very dirty.",
+  "answer": "repairing",
+  "options": [
+   "to repair",
+   "repairing",
+   "repair",
+   "repaired"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "passive sense: need doing -> repairing",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Your hair is too long. It needs ____.",
+  "keyword": "",
+  "gap_prefix": "Your hair is too long. It needs ",
+  "gap_suffix": ".",
+  "answer": "cutting",
+  "options": [
+   "to cut",
+   "cut",
+   "cutting",
+   "cuts"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "passive sense: need doing -> cutting",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I remember ____ taken to the zoo as a child.",
+  "keyword": "",
+  "gap_prefix": "I remember ",
+  "gap_suffix": " taken to the zoo as a child.",
+  "answer": "being",
+  "options": [
+   "be",
+   "to be",
+   "been",
+   "being"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "passive gerund: remember being done",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He had his wallet ____ in the crowd.",
+  "keyword": "",
+  "gap_prefix": "He had his wallet ",
+  "gap_suffix": " in the crowd.",
+  "answer": "stolen",
+  "options": [
+   "stolen",
+   "steal",
+   "to steal",
+   "stealing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "causative suffer: have sth stolen",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We got our roof ____ in the storm last night.",
+  "keyword": "",
+  "gap_prefix": "We got our roof ",
+  "gap_suffix": " in the storm last night.",
+  "answer": "damaged",
+  "options": [
+   "damage",
+   "damaged",
+   "to damage",
+   "damaging"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "causative suffer: get sth damaged",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The proposal ____ approved unanimously.",
+  "keyword": "",
+  "gap_prefix": "The proposal ",
+  "gap_suffix": " approved unanimously.",
+  "answer": "was",
+  "options": [
+   "is",
+   "has",
+   "was",
+   "will be"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "passive: past -> was approved",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A new school ____ in our district at the moment.",
+  "keyword": "",
+  "gap_prefix": "A new school ",
+  "gap_suffix": " in our district at the moment.",
+  "answer": "is being built",
+  "options": [
+   "is built",
+   "builds",
+   "has built",
+   "is being built"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "passive: present continuous -> is being built",
+  "difficulty": 3
+ }
+]

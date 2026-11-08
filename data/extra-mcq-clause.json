@@ -1,0 +1,2700 @@
+[
+ {
+  "category": "mcq",
+  "prompt": "You cannot enter the hall ____ you show your pass at the door.",
+  "keyword": "",
+  "gap_prefix": "You cannot enter the hall",
+  "gap_suffix": " you show your pass at the door.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "provided",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "unless + affirmative = except if; if needs negation.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ it rains tomorrow, the final will be played outdoors as planned.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " it rains tomorrow, the final will be played outdoors as planned.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Provided",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless it rains = if it does not rain.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We will cancel the picnic ____ the storm warning is lifted by noon.",
+  "keyword": "",
+  "gap_prefix": "We will cancel the picnic",
+  "gap_suffix": " the storm warning is lifted by noon.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "since",
+   "although"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "unless = except on condition that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ you practise daily, you will never master the accent.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " you practise daily, you will never master the accent.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Inasmuch as",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless + present for future condition.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The contract stands ____ both parties agree to amend it in writing.",
+  "keyword": "",
+  "gap_prefix": "The contract stands",
+  "gap_suffix": " both parties agree to amend it in writing.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "inasmuch as",
+   "so that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "stands unless = remains valid except if.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ we receive payment by Friday, the order will be suspended.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " we receive payment by Friday, the order will be suspended.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If not",
+   "Provided",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless we receive = if we do not receive; 'if not' ungrammatical here.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He would not sign the petition ____ his lawyer approved every clause.",
+  "keyword": "",
+  "gap_prefix": "He would not sign the petition",
+  "gap_suffix": " his lawyer approved every clause.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "lest",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "would not ... unless = only if.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ told otherwise, assume the meeting starts at eight.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " told otherwise, assume the meeting starts at eight.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Though",
+   "As"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless told otherwise = fixed formula.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The seeds won't germinate ____ they are kept constantly moist.",
+  "keyword": "",
+  "gap_prefix": "The seeds won't germinate",
+  "gap_suffix": " they are kept constantly moist.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "provided",
+   "while"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "won't ... unless = only if kept.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ an emergency arises, the nurses must not leave the ward.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " an emergency arises, the nurses must not leave the ward.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Since",
+   "Much as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless an emergency arises.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You won't pass the medical ____ you lose at least five kilos.",
+  "keyword": "",
+  "gap_prefix": "You won't pass the medical",
+  "gap_suffix": " you lose at least five kilos.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "although",
+   "inasmuch as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "won't ... unless.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the referee stops the bout, the champion keeps his title.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the referee stops the bout, the champion keeps his title.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Because",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless stops = except if stops.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Nothing will change ____ the board approves the reform this month.",
+  "keyword": "",
+  "gap_prefix": "Nothing will change",
+  "gap_suffix": " the board approves the reform this month.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "as",
+   "while"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Nothing will change unless.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ you hurry, you will miss the last ferry to the island.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " you hurry, you will miss the last ferry to the island.",
+  "answer": "Unless",
+  "options": [
+   "Unless",
+   "If",
+   "Provided",
+   "Since"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Unless you hurry = if you don't hurry.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The system shuts down automatically ____ the override code is entered.",
+  "keyword": "",
+  "gap_prefix": "The system shuts down automatically",
+  "gap_suffix": " the override code is entered.",
+  "answer": "unless",
+  "options": [
+   "unless",
+   "if",
+   "though",
+   "because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "shuts down unless code entered.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You may borrow the car ____ you return it with a full tank.",
+  "keyword": "",
+  "gap_prefix": "You may borrow the car",
+  "gap_suffix": " you return it with a full tank.",
+  "answer": "provided that",
+  "options": [
+   "provided that",
+   "unless",
+   "although",
+   "inasmuch as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "provided that = on condition that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The expedition can proceed ____ the weather holds for three more days.",
+  "keyword": "",
+  "gap_prefix": "The expedition can proceed",
+  "gap_suffix": " the weather holds for three more days.",
+  "answer": "provided",
+  "options": [
+   "provided",
+   "unless",
+   "though",
+   "because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "provided = if and only if.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ funding is guaranteed, the laboratory will hire ten assistants.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " funding is guaranteed, the laboratory will hire ten assistants.",
+  "answer": "Provided",
+  "options": [
+   "Provided",
+   "Unless",
+   "Though",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Provided funding is = conditional.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Children may enter the gallery ____ accompanied by an adult.",
+  "keyword": "",
+  "gap_prefix": "Children may enter the gallery",
+  "gap_suffix": " accompanied by an adult.",
+  "answer": "provided they are",
+  "options": [
+   "provided they are",
+   "unless they are",
+   "though they are",
+   "because they are"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "provided they are accompanied; unless reverses meaning.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We will sign the treaty ____ clause 7 is deleted entirely.",
+  "keyword": "",
+  "gap_prefix": "We will sign the treaty",
+  "gap_suffix": " clause 7 is deleted entirely.",
+  "answer": "provided",
+  "options": [
+   "provided",
+   "unless",
+   "although",
+   "whereas"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "provided clause deleted = condition.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The discount applies ____ payment is made within seven days.",
+  "keyword": "",
+  "gap_prefix": "The discount applies",
+  "gap_suffix": " payment is made within seven days.",
+  "answer": "provided",
+  "options": [
+   "provided",
+   "unless",
+   "though",
+   "since"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "applies provided payment made.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ you water the orchids twice a week, they will bloom for months.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " you water the orchids twice a week, they will bloom for months.",
+  "answer": "As long as",
+  "options": [
+   "As long as",
+   "Unless",
+   "Although",
+   "Inasmuch as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "as long as = duration/condition.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The tenant may keep pets ____ they cause no disturbance to neighbours.",
+  "keyword": "",
+  "gap_prefix": "The tenant may keep pets",
+  "gap_suffix": " they cause no disturbance to neighbours.",
+  "answer": "so long as",
+  "options": [
+   "so long as",
+   "unless",
+   "though",
+   "lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so long as = provided.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The university will fund the trip ____ you submit receipts for everything.",
+  "keyword": "",
+  "gap_prefix": "The university will fund the trip",
+  "gap_suffix": " you submit receipts for everything.",
+  "answer": "providing",
+  "options": [
+   "providing",
+   "unless",
+   "though",
+   "whereas"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "providing = provided that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Entry is free ____ visitors register online in advance.",
+  "keyword": "",
+  "gap_prefix": "Entry is free",
+  "gap_suffix": " visitors register online in advance.",
+  "answer": "provided",
+  "options": [
+   "provided",
+   "unless",
+   "although",
+   "much as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "free provided register.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the alarm functions, the warehouse may remain unlocked overnight.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the alarm functions, the warehouse may remain unlocked overnight.",
+  "answer": "Providing",
+  "options": [
+   "Providing",
+   "Unless",
+   "Though",
+   "Since"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Providing alarm functions.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You can keep the bonus ____ targets were met honestly and on time.",
+  "keyword": "",
+  "gap_prefix": "You can keep the bonus",
+  "gap_suffix": " targets were met honestly and on time.",
+  "answer": "as long as",
+  "options": [
+   "as long as",
+   "unless",
+   "although",
+   "lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "as long as = conditional duration.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The merger was approved, ____ it promised two hundred new jobs.",
+  "keyword": "",
+  "gap_prefix": "The merger was approved,",
+  "gap_suffix": " it promised two hundred new jobs.",
+  "answer": "inasmuch as",
+  "options": [
+   "inasmuch as",
+   "unless",
+   "though",
+   "lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inasmuch as = because/since (formal).",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the two leaders distrusted each other, negotiations stalled for weeks.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the two leaders distrusted each other, negotiations stalled for weeks.",
+  "answer": "Inasmuch as",
+  "options": [
+   "Inasmuch as",
+   "Unless",
+   "Provided",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Inasmuch as + clause = since.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She excelled at debate ____ she could marshal evidence faster than anyone.",
+  "keyword": "",
+  "gap_prefix": "She excelled at debate",
+  "gap_suffix": " she could marshal evidence faster than anyone.",
+  "answer": "in that",
+  "options": [
+   "in that",
+   "unless",
+   "provided",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in that = in the respect that.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The theory is flawed ____ it ignores the role of friction entirely.",
+  "keyword": "",
+  "gap_prefix": "The theory is flawed",
+  "gap_suffix": " it ignores the role of friction entirely.",
+  "answer": "inasmuch as",
+  "options": [
+   "inasmuch as",
+   "unless",
+   "provided",
+   "so that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "flawed inasmuch as ignores.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the data are incomplete, no firm conclusion can yet be drawn.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the data are incomplete, no firm conclusion can yet be drawn.",
+  "answer": "Insofar as",
+  "options": [
+   "Insofar as",
+   "Unless",
+   "Provided",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "insofar as = to the extent that.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He is guilty ____ he signed the forged cheques himself.",
+  "keyword": "",
+  "gap_prefix": "He is guilty",
+  "gap_suffix": " he signed the forged cheques himself.",
+  "answer": "in that",
+  "options": [
+   "in that",
+   "unless",
+   "lest",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "guilty in that he signed.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The verdict was lenient, ____ the defendant had cooperated fully.",
+  "keyword": "",
+  "gap_prefix": "The verdict was lenient,",
+  "gap_suffix": " the defendant had cooperated fully.",
+  "answer": "inasmuch as",
+  "options": [
+   "inasmuch as",
+   "unless",
+   "provided",
+   "whereas"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "lenient inasmuch as cooperated.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ we know, the manuscript is the only surviving copy.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " we know, the manuscript is the only surviving copy.",
+  "answer": "Insofar as",
+  "options": [
+   "Insofar as",
+   "Unless",
+   "Provided",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "insofar as we know = as far as.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The plan is risky ____ it depends on a single supplier.",
+  "keyword": "",
+  "gap_prefix": "The plan is risky",
+  "gap_suffix": " it depends on a single supplier.",
+  "answer": "in that",
+  "options": [
+   "in that",
+   "unless",
+   "so that",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "risky in that depends.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ language shapes thought, translators bear great responsibility.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " language shapes thought, translators bear great responsibility.",
+  "answer": "Inasmuch as",
+  "options": [
+   "Inasmuch as",
+   "Unless",
+   "Provided",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Inasmuch as = since/because.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The report is valuable ____ it collects every statistic in one place.",
+  "keyword": "",
+  "gap_prefix": "The report is valuable",
+  "gap_suffix": " it collects every statistic in one place.",
+  "answer": "in that",
+  "options": [
+   "in that",
+   "unless",
+   "lest",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "valuable in that collects.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the forecast was favourable, the launch went ahead at dawn.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the forecast was favourable, the launch went ahead at dawn.",
+  "answer": "Inasmuch as",
+  "options": [
+   "Inasmuch as",
+   "Unless",
+   "Provided that not",
+   "Much as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Inasmuch as forecast favourable.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ I admire his courage, I cannot endorse his reckless plan.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " I admire his courage, I cannot endorse his reckless plan.",
+  "answer": "Much as",
+  "options": [
+   "Much as",
+   "Unless",
+   "Provided",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much as + clause = although.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ hard as she tried, the stain would not come out.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " hard as she tried, the stain would not come out.",
+  "answer": "Try",
+  "options": [
+   "Try",
+   "Unless",
+   "Provided",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Try hard as she tried = however hard; verb-front concession.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ respected as the professor is, his latest book convinced no one.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " respected as the professor is, his latest book convinced no one.",
+  "answer": "Much",
+  "options": [
+   "Much",
+   "Unless",
+   "Provided",
+   "If"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much respected as = although much respected.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ as the storm raged, the crew refused to abandon ship.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " as the storm raged, the crew refused to abandon ship.",
+  "answer": "Fierce",
+  "options": [
+   "Fierce",
+   "Unless",
+   "Provided",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Fierce as raged = however fierce.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ I like you, I must reject your application outright.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " I like you, I must reject your application outright.",
+  "answer": "Much as",
+  "options": [
+   "Much as",
+   "Unless",
+   "Provided",
+   "Since"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much as I like you.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ tired as they were, the hikers pressed on to the summit.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " tired as they were, the hikers pressed on to the summit.",
+  "answer": "Tired",
+  "options": [
+   "Tired",
+   "Unless",
+   "Provided",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Tired as they were = although tired.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ disliked as he was, the chairman survived the vote of no confidence.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " disliked as he was, the chairman survived the vote of no confidence.",
+  "answer": "Much",
+  "options": [
+   "Much",
+   "Unless",
+   "Provided",
+   "While"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much disliked as = although.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ as he wanted to stay, duty compelled him to leave at once.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " as he wanted to stay, duty compelled him to leave at once.",
+  "answer": "Much",
+  "options": [
+   "Much",
+   "Unless",
+   "Provided",
+   "If"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much as wanted = although.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ brilliant as the essay is, its conclusion is entirely unproven.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " brilliant as the essay is, its conclusion is entirely unproven.",
+  "answer": "Brilliant",
+  "options": [
+   "Brilliant",
+   "Unless",
+   "Provided",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Brilliant as = although brilliant.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ as the twins look alike, their characters differ completely.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " as the twins look alike, their characters differ completely.",
+  "answer": "Much",
+  "options": [
+   "Much",
+   "Unless",
+   "Provided",
+   "Since"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much as look alike.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ young as she is, she argues like a seasoned barrister.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " young as she is, she argues like a seasoned barrister.",
+  "answer": "Young",
+  "options": [
+   "Young",
+   "Unless",
+   "Provided",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Young as she is = although young.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ hated as the tax was, the parliament passed it by a wide margin.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " hated as the tax was, the parliament passed it by a wide margin.",
+  "answer": "Much",
+  "options": [
+   "Much",
+   "Unless",
+   "Provided",
+   "If"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much hated as.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ as I wanted to believe her, the evidence pointed the other way.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " as I wanted to believe her, the evidence pointed the other way.",
+  "answer": "Much",
+  "options": [
+   "Much",
+   "Unless",
+   "Provided",
+   "Since"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Much as I wanted.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ exhausted as the team was, it volunteered for extra shifts.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " exhausted as the team was, it volunteered for extra shifts.",
+  "answer": "Exhausted",
+  "options": [
+   "Exhausted",
+   "Unless",
+   "Provided",
+   "Because"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Exhausted as team was.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Strange ____ it may seem, the village has no mobile signal at all.",
+  "keyword": "",
+  "gap_prefix": "Strange",
+  "gap_suffix": " it may seem, the village has no mobile signal at all.",
+  "answer": "as",
+  "options": [
+   "as",
+   "unless",
+   "provided",
+   "though that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Strange as it may seem = fixed.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Try ____ she might, she could not lift the crate unaided.",
+  "keyword": "",
+  "gap_prefix": "Try",
+  "gap_suffix": " she might, she could not lift the crate unaided.",
+  "answer": "as",
+  "options": [
+   "as",
+   "unless",
+   "provided",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Try as she might = however hard.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the rain, the match continued for another hour.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the rain, the match continued for another hour.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although",
+   "Though",
+   "Even though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Despite + noun; although needs clause.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ raining hard, the match continued for another hour.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " raining hard, the match continued for another hour.",
+  "answer": "Despite it",
+  "options": [
+   "Despite it",
+   "Although it was",
+   "Though was",
+   "Even though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Despite + noun/pronoun; clause needs verb.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ it was raining hard, the match continued.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " it was raining hard, the match continued.",
+  "answer": "Although",
+  "options": [
+   "Although",
+   "Despite",
+   "In spite",
+   "Despite of"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Although + clause; despite of wrong.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ she is exhausted, she keeps working through the night.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " she is exhausted, she keeps working through the night.",
+  "answer": "Though",
+  "options": [
+   "Though",
+   "Despite",
+   "In spite",
+   "Despite of"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Though + clause.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ being exhausted, she keeps working through the night.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " being exhausted, she keeps working through the night.",
+  "answer": "Despite",
+  "options": [
+   "Despite",
+   "Although she is",
+   "Though she is",
+   "Even though she is"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Despite being = despite + gerund.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the delay, the surgeon operated with perfect calm.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the delay, the surgeon operated with perfect calm.",
+  "answer": "In spite of",
+  "options": [
+   "In spite of",
+   "Although",
+   "Though",
+   "Even though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "In spite of + noun.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ difficult the exam was, every candidate finished on time.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " difficult the exam was, every candidate finished on time.",
+  "answer": "However",
+  "options": [
+   "However",
+   "Although",
+   "Despite",
+   "Though that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "However difficult + adjective.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ tired, the rescuers refused to rest until dawn.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " tired, the rescuers refused to rest until dawn.",
+  "answer": "Tired though they were",
+  "options": [
+   "Tired though they were",
+   "Despite they were",
+   "Although being",
+   "In spite they were"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Tired though they were = inversion concession.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ his wealth, he lives in a tiny rented flat.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " his wealth, he lives in a tiny rented flat.",
+  "answer": "For all",
+  "options": [
+   "For all",
+   "Although",
+   "Though",
+   "Even though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "For all + noun = despite.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ he is wealthy, he lives in a tiny rented flat.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " he is wealthy, he lives in a tiny rented flat.",
+  "answer": "Although",
+  "options": [
+   "Although",
+   "Despite",
+   "In spite",
+   "For all of"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Although + clause.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ much experience she has, she still prepares meticulously.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " much experience she has, she still prepares meticulously.",
+  "answer": "For all her",
+  "options": [
+   "For all her",
+   "Although her",
+   "Despite she has",
+   "Though her"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "For all her experience.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the fog, flights were delayed until noon.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the fog, flights were delayed until noon.",
+  "answer": "Owing to",
+  "options": [
+   "Owing to",
+   "Although",
+   "Though",
+   "Even though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Owing to + cause; concession wrong.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was ____ hot that the tarmac began to melt.",
+  "keyword": "",
+  "gap_prefix": "It was",
+  "gap_suffix": " hot that the tarmac began to melt.",
+  "answer": "so",
+  "options": [
+   "so",
+   "such",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so + adj + that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was ____ a hot day that the tarmac began to melt.",
+  "keyword": "",
+  "gap_prefix": "It was",
+  "gap_suffix": " a hot day that the tarmac began to melt.",
+  "answer": "such",
+  "options": [
+   "such",
+   "so",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "such + a + adj + noun + that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She spoke ____ quietly that no one heard a word.",
+  "keyword": "",
+  "gap_prefix": "She spoke",
+  "gap_suffix": " quietly that no one heard a word.",
+  "answer": "so",
+  "options": [
+   "so",
+   "such",
+   "too",
+   "as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so quietly that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He is ____ a brilliant surgeon that patients queue for months.",
+  "keyword": "",
+  "gap_prefix": "He is",
+  "gap_suffix": " a brilliant surgeon that patients queue for months.",
+  "answer": "such",
+  "options": [
+   "such",
+   "so",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "such a brilliant surgeon that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "There was ____ chaos in the hall that police were called.",
+  "keyword": "",
+  "gap_prefix": "There was",
+  "gap_suffix": " chaos in the hall that police were called.",
+  "answer": "such",
+  "options": [
+   "such",
+   "so",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "such chaos (uncountable, no a).",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The music was ____ loud that the windows rattled.",
+  "keyword": "",
+  "gap_prefix": "The music was",
+  "gap_suffix": " loud that the windows rattled.",
+  "answer": "so",
+  "options": [
+   "so",
+   "such",
+   "too much",
+   "as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so loud that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was ____ an absurd excuse that nobody believed it.",
+  "keyword": "",
+  "gap_prefix": "It was",
+  "gap_suffix": " an absurd excuse that nobody believed it.",
+  "answer": "such",
+  "options": [
+   "such",
+   "so",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "such an absurd excuse.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ran ____ fast that she broke the school record.",
+  "keyword": "",
+  "gap_prefix": "She ran",
+  "gap_suffix": " fast that she broke the school record.",
+  "answer": "so",
+  "options": [
+   "so",
+   "such",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so fast that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They faced ____ difficulties that the project nearly collapsed.",
+  "keyword": "",
+  "gap_prefix": "They faced",
+  "gap_suffix": " difficulties that the project nearly collapsed.",
+  "answer": "such",
+  "options": [
+   "such",
+   "so",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "such difficulties (plural, no a).",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The cliff was ____ steep that only experts dared climb it.",
+  "keyword": "",
+  "gap_prefix": "The cliff was",
+  "gap_suffix": " steep that only experts dared climb it.",
+  "answer": "so",
+  "options": [
+   "so",
+   "such",
+   "too",
+   "as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so steep that.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Maya speaks fluent Arabic, and ____ her younger brother.",
+  "keyword": "",
+  "gap_prefix": "Maya speaks fluent Arabic, and",
+  "gap_suffix": " her younger brother.",
+  "answer": "so does",
+  "options": [
+   "so does",
+   "so is",
+   "so speaks",
+   "doing so"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so does = same verb echo with do.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He refused to apologise, and in ____ lost the support of the committee.",
+  "keyword": "",
+  "gap_prefix": "He refused to apologise, and in",
+  "gap_suffix": " lost the support of the committee.",
+  "answer": "doing so",
+  "options": [
+   "doing so",
+   "so doing",
+   "so does",
+   "doing such"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in doing so = by that act.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The minister resigned, thereby ____ faith in the cabinet.",
+  "keyword": "",
+  "gap_prefix": "The minister resigned, thereby",
+  "gap_suffix": " faith in the cabinet.",
+  "answer": "doing so undermining",
+  "options": [
+   "doing so undermining",
+   "so does undermine",
+   "so undermines",
+   "doing so to undermine"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "thereby doing so undermining awkward; correct frame varies — pick idiomatic.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Plastics pollute the oceans; ____ discarded fishing nets.",
+  "keyword": "",
+  "gap_prefix": "Plastics pollute the oceans;",
+  "gap_suffix": " discarded fishing nets.",
+  "answer": "so do",
+  "options": [
+   "so do",
+   "so does",
+   "doing so",
+   "so is"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so do + plural subject.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She had never flown before, and ____ her parents.",
+  "keyword": "",
+  "gap_prefix": "She had never flown before, and",
+  "gap_suffix": " her parents.",
+  "answer": "neither had",
+  "options": [
+   "neither had",
+   "so had",
+   "neither did",
+   "so did"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "neither had = negative echo past perfect.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He claims the data were faked, and ____ thereby the integrity of the trial.",
+  "keyword": "",
+  "gap_prefix": "He claims the data were faked, and",
+  "gap_suffix": " thereby the integrity of the trial.",
+  "answer": "doing so impugns",
+  "options": [
+   "doing so impugns",
+   "so does impugn",
+   "so impugns",
+   "doing so to impugning"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "doing so impugns = that claim attacks.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They recycle everything, thus ____ their carbon footprint.",
+  "keyword": "",
+  "gap_prefix": "They recycle everything, thus",
+  "gap_suffix": " their carbon footprint.",
+  "answer": "doing so reducing",
+  "options": [
+   "doing so reducing",
+   "so does reduce",
+   "so reduces",
+   "doing so to reducing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "thus doing so reducing awkward; intended: thereby reducing — trap with participle.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "You must sign every page, and ____ each witness.",
+  "keyword": "",
+  "gap_prefix": "You must sign every page, and",
+  "gap_suffix": " each witness.",
+  "answer": "so must",
+  "options": [
+   "so must",
+   "so does",
+   "doing so",
+   "so is"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so must each witness = inversion.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She loves opera, and ____ I.",
+  "keyword": "",
+  "gap_prefix": "She loves opera, and",
+  "gap_suffix": " I.",
+  "answer": "so do",
+  "options": [
+   "so do",
+   "so does",
+   "so am",
+   "doing so"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so do I with love.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He did not attend, nor ____ his deputy.",
+  "keyword": "",
+  "gap_prefix": "He did not attend, nor",
+  "gap_suffix": " his deputy.",
+  "answer": "did",
+  "options": [
+   "did",
+   "so did",
+   "does",
+   "doing so"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "nor did his deputy.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "By publishing the letters he betrayed a trust, ____ ruining his career.",
+  "keyword": "",
+  "gap_prefix": "By publishing the letters he betrayed a trust,",
+  "gap_suffix": " ruining his career.",
+  "answer": "thereby",
+  "options": [
+   "thereby",
+   "so does",
+   "doing so",
+   "so that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "thereby ruining (no doing so needed).",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The twins cheat in exams, and in ____ jeopardise their futures.",
+  "keyword": "",
+  "gap_prefix": "The twins cheat in exams, and in",
+  "gap_suffix": " jeopardise their futures.",
+  "answer": "doing so",
+  "options": [
+   "doing so",
+   "so doing",
+   "so do",
+   "doing such"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in doing so jeopardise.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The CEO denies the scandal, and ____ encourage others to speak out.",
+  "keyword": "",
+  "gap_prefix": "The CEO denies the scandal, and",
+  "gap_suffix": " encourage others to speak out.",
+  "answer": "so doing discourages",
+  "options": [
+   "so doing discourages",
+   "so does discourage",
+   "doing so discourages",
+   "so discourage"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "and so doing discourages? trap: 'doing so discourages'.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Critics praised the novel, and ____ the general public.",
+  "keyword": "",
+  "gap_prefix": "Critics praised the novel, and",
+  "gap_suffix": " the general public.",
+  "answer": "so did",
+  "options": [
+   "so did",
+   "so does",
+   "doing so",
+   "so do"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so did public (past).",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ it was already midnight, we decided to stay overnight.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " it was already midnight, we decided to stay overnight.",
+  "answer": "Since",
+  "options": [
+   "Since",
+   "Unless",
+   "Provided",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Since = because (time-cause).",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He wore a heavy coat, ____ the wind was bitter.",
+  "keyword": "",
+  "gap_prefix": "He wore a heavy coat,",
+  "gap_suffix": " the wind was bitter.",
+  "answer": "for",
+  "options": [
+   "for",
+   "because of",
+   "since that",
+   "as that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "for + clause (formal, after comma).",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ you have finished, you may leave the hall quietly.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " you have finished, you may leave the hall quietly.",
+  "answer": "Now that",
+  "options": [
+   "Now that",
+   "Unless",
+   "Lest",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Now that finished = cause.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ it was raining, we stayed indoors all afternoon.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " it was raining, we stayed indoors all afternoon.",
+  "answer": "Seeing as",
+  "options": [
+   "Seeing as",
+   "Unless",
+   "Provided",
+   "Much as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Seeing as = since (informal).",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She failed ____ she had never opened the textbook.",
+  "keyword": "",
+  "gap_prefix": "She failed",
+  "gap_suffix": " she had never opened the textbook.",
+  "answer": "because",
+  "options": [
+   "because",
+   "because of",
+   "despite",
+   "although"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "because + clause; because of + noun.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She failed ____ never opening the textbook.",
+  "keyword": "",
+  "gap_prefix": "She failed",
+  "gap_suffix": " never opening the textbook.",
+  "answer": "because of",
+  "options": [
+   "because of",
+   "because",
+   "since",
+   "as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "because of + gerund/noun.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the night was cold, the guards lit a second fire.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the night was cold, the guards lit a second fire.",
+  "answer": "As",
+  "options": [
+   "As",
+   "Unless",
+   "Provided",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "As = since (formal).",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He cannot drive, ____ he has never held a licence.",
+  "keyword": "",
+  "gap_prefix": "He cannot drive,",
+  "gap_suffix": " he has never held a licence.",
+  "answer": "seeing that",
+  "options": [
+   "seeing that",
+   "unless",
+   "provided",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "seeing that = because.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The match was abandoned ____ the fog made play impossible.",
+  "keyword": "",
+  "gap_prefix": "The match was abandoned",
+  "gap_suffix": " the fog made play impossible.",
+  "answer": "on the grounds that",
+  "options": [
+   "on the grounds that",
+   "unless",
+   "provided",
+   "though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "on the grounds that = formal because.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ a child, he had already mastered three languages.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " a child, he had already mastered three languages.",
+  "answer": "For",
+  "options": [
+   "For",
+   "Because",
+   "Since",
+   "As"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "For a child = considering he is; trap.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ some prefer tea, others insist on coffee at breakfast.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " some prefer tea, others insist on coffee at breakfast.",
+  "answer": "While",
+  "options": [
+   "While",
+   "When",
+   "Because",
+   "So that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "While = whereas contrast.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ I was cooking, the phone rang twice.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " I was cooking, the phone rang twice.",
+  "answer": "While",
+  "options": [
+   "While",
+   "Whereas",
+   "Unless",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "While = during.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The north is industrial, ____ the south remains largely rural.",
+  "keyword": "",
+  "gap_prefix": "The north is industrial,",
+  "gap_suffix": " the south remains largely rural.",
+  "answer": "whereas",
+  "options": [
+   "whereas",
+   "when",
+   "because",
+   "so that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "whereas = in contrast.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Call me ____ you arrive at the station.",
+  "keyword": "",
+  "gap_prefix": "Call me",
+  "gap_suffix": " you arrive at the station.",
+  "answer": "when",
+  "options": [
+   "when",
+   "while",
+   "whereas",
+   "unless not"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "when = at the moment.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ you need help, the helpline operates day and night.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " you need help, the helpline operates day and night.",
+  "answer": "Whenever",
+  "options": [
+   "Whenever",
+   "While",
+   "Whereas",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Whenever = every time.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the manager was away, decisions piled up unmade.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the manager was away, decisions piled up unmade.",
+  "answer": "While",
+  "options": [
+   "While",
+   "Whereas",
+   "Unless",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "While away = during.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She listens to podcasts ____ jogging every morning.",
+  "keyword": "",
+  "gap_prefix": "She listens to podcasts",
+  "gap_suffix": " jogging every morning.",
+  "answer": "while",
+  "options": [
+   "while",
+   "whereas",
+   "unless",
+   "lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "while jogging = during.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ prices rise, wages have barely moved for a decade.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " prices rise, wages have barely moved for a decade.",
+  "answer": "While",
+  "options": [
+   "While",
+   "When",
+   "Because",
+   "So that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "While = whereas.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He phones home ____ he feels homesick in the dormitory.",
+  "keyword": "",
+  "gap_prefix": "He phones home",
+  "gap_suffix": " he feels homesick in the dormitory.",
+  "answer": "whenever",
+  "options": [
+   "whenever",
+   "while",
+   "whereas",
+   "unless"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "whenever feels = each time.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the baby slept, the house stayed perfectly silent.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the baby slept, the house stayed perfectly silent.",
+  "answer": "While",
+  "options": [
+   "While",
+   "Whereas",
+   "Unless",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "While slept = during.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I doubt ____ the bridge will reopen before Friday.",
+  "keyword": "",
+  "gap_prefix": "I doubt",
+  "gap_suffix": " the bridge will reopen before Friday.",
+  "answer": "whether",
+  "options": [
+   "whether",
+   "unless",
+   "lest",
+   "provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "doubt whether; if possible but whether formal.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Ask ____ he is willing to testify in court.",
+  "keyword": "",
+  "gap_prefix": "Ask",
+  "gap_suffix": " he is willing to testify in court.",
+  "answer": "whether",
+  "options": [
+   "whether",
+   "unless",
+   "lest",
+   "inasmuch as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Ask whether = indirect yes/no.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Study hard ____ you fail the entrance exam.",
+  "keyword": "",
+  "gap_prefix": "Study hard",
+  "gap_suffix": " you fail the entrance exam.",
+  "answer": "lest",
+  "options": [
+   "lest",
+   "unless",
+   "whether",
+   "provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "lest you fail = for fear that.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Take an umbrella ____ it rains later.",
+  "keyword": "",
+  "gap_prefix": "Take an umbrella",
+  "gap_suffix": " it rains later.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "lest",
+   "unless",
+   "whether"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in case rains = precaution.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She trembled ____ the ice should crack beneath her.",
+  "keyword": "",
+  "gap_prefix": "She trembled",
+  "gap_suffix": " the ice should crack beneath her.",
+  "answer": "lest",
+  "options": [
+   "lest",
+   "unless",
+   "whether",
+   "provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "lest + should = fear.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is unclear ____ the letter ever arrived.",
+  "keyword": "",
+  "gap_prefix": "It is unclear",
+  "gap_suffix": " the letter ever arrived.",
+  "answer": "whether",
+  "options": [
+   "whether",
+   "unless",
+   "lest",
+   "provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "unclear whether arrived.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He hid the file ____ anyone should steal the idea.",
+  "keyword": "",
+  "gap_prefix": "He hid the file",
+  "gap_suffix": " anyone should steal the idea.",
+  "answer": "lest",
+  "options": [
+   "lest",
+   "unless",
+   "whether",
+   "inasmuch as"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hid lest anyone steal.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I cannot decide ____ to accept or decline the offer.",
+  "keyword": "",
+  "gap_prefix": "I cannot decide",
+  "gap_suffix": " to accept or decline the offer.",
+  "answer": "whether",
+  "options": [
+   "whether",
+   "unless",
+   "lest",
+   "provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "whether to accept.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Keep a copy ____ the original is lost in the post.",
+  "keyword": "",
+  "gap_prefix": "Keep a copy",
+  "gap_suffix": " the original is lost in the post.",
+  "answer": "in case",
+  "options": [
+   "in case",
+   "unless",
+   "lest",
+   "whether"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in case lost = precaution.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ or not it rains, the ceremony proceeds outdoors.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " or not it rains, the ceremony proceeds outdoors.",
+  "answer": "Whether",
+  "options": [
+   "Whether",
+   "Unless",
+   "Lest",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Whether or not rains.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ had the speech begun than the lights went out.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " had the speech begun than the lights went out.",
+  "answer": "No sooner",
+  "options": [
+   "No sooner",
+   "No soon",
+   "Hardly not",
+   "Scarcely not"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "No sooner ... than.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ had I sat down when the phone started ringing.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " had I sat down when the phone started ringing.",
+  "answer": "Hardly",
+  "options": [
+   "Hardly",
+   "No sooner than",
+   "Unless",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Hardly ... when.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ had the snow stopped than traffic resumed downtown.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " had the snow stopped than traffic resumed downtown.",
+  "answer": "Scarcely",
+  "options": [
+   "Scarcely",
+   "Unless",
+   "Provided",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Scarcely ... than/when.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ only is she talented, but she is also tireless.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " only is she talented, but she is also tireless.",
+  "answer": "Not",
+  "options": [
+   "Not",
+   "No",
+   "Never",
+   "Hardly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Not only ... but also.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ had the team landed than it was rushed to quarantine.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " had the team landed than it was rushed to quarantine.",
+  "answer": "No sooner",
+  "options": [
+   "No sooner",
+   "Hardly when",
+   "Unless",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "No sooner landed than.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ does he write novels, but he also directs films.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " does he write novels, but he also directs films.",
+  "answer": "Not only",
+  "options": [
+   "Not only",
+   "No sooner",
+   "Hardly",
+   "Unless"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Not only does he write.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ had the bell rung before pupils flooded the corridor.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " had the bell rung before pupils flooded the corridor.",
+  "answer": "Hardly",
+  "options": [
+   "Hardly",
+   "Unless",
+   "Provided",
+   "Though"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Hardly had rung before/when.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ Rashmi sings, but she composes as well.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " Rashmi sings, but she composes as well.",
+  "answer": "Not only does",
+  "options": [
+   "Not only does",
+   "No sooner does",
+   "Hardly does",
+   "Unless does"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Not only does sing.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ did the fog lift than the harbour reopened.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " did the fog lift than the harbour reopened.",
+  "answer": "No sooner",
+  "options": [
+   "No sooner",
+   "Hardly when",
+   "Unless",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "No sooner did lift than.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ had they met than they began to argue fiercely.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " had they met than they began to argue fiercely.",
+  "answer": "No sooner",
+  "options": [
+   "No sooner",
+   "Hardly when not",
+   "Unless",
+   "Provided"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "No sooner met than.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ only the manager but also the staff opposed the merger.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " only the manager but also the staff opposed the merger.",
+  "answer": "Not",
+  "options": [
+   "Not",
+   "No sooner",
+   "Hardly",
+   "Unless"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Not only manager but also staff.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He whispered ____ no one behind could overhear a word.",
+  "keyword": "",
+  "gap_prefix": "He whispered",
+  "gap_suffix": " no one behind could overhear a word.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "so as",
+   "such that",
+   "too that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so that + could (purpose).",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She saved for months ____ she could buy the violin outright.",
+  "keyword": "",
+  "gap_prefix": "She saved for months",
+  "gap_suffix": " she could buy the violin outright.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "so as",
+   "such that",
+   "too that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so that she could.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He left early ____ he might catch the last train north.",
+  "keyword": "",
+  "gap_prefix": "He left early",
+  "gap_suffix": " he might catch the last train north.",
+  "answer": "in order that",
+  "options": [
+   "in order that",
+   "unless",
+   "though",
+   "whereas"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in order that + might.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The doctor spoke slowly ____ the patient grasp every detail.",
+  "keyword": "",
+  "gap_prefix": "The doctor spoke slowly",
+  "gap_suffix": " the patient grasp every detail.",
+  "answer": "so that",
+  "options": [
+   "so that",
+   "so as",
+   "such that",
+   "lest not"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so that grasp (subjunctive).",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Even ____ the task is difficult, it must be finished tonight.",
+  "keyword": "",
+  "gap_prefix": "Even",
+  "gap_suffix": " the task is difficult, it must be finished tonight.",
+  "answer": "though",
+  "options": [
+   "though",
+   "despite",
+   "in spite",
+   "unless not"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Even though + clause.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ difficult as the task is, it must be finished tonight.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " difficult as the task is, it must be finished tonight.",
+  "answer": "Difficult",
+  "options": [
+   "Difficult",
+   "Unless",
+   "Provided",
+   "Lest"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Difficult as = however difficult.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Strange ____ it sounds, the remedy actually works.",
+  "keyword": "",
+  "gap_prefix": "Strange",
+  "gap_suffix": " it sounds, the remedy actually works.",
+  "answer": "as",
+  "options": [
+   "as",
+   "unless",
+   "provided",
+   "though that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "Strange as it sounds.",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He trains daily ____ to win the regional title in spring.",
+  "keyword": "",
+  "gap_prefix": "He trains daily",
+  "gap_suffix": " to win the regional title in spring.",
+  "answer": "so as",
+  "options": [
+   "so as",
+   "so that win",
+   "such that",
+   "too that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so as to win (infinitive).",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She spoke too quickly ____ anyone to follow her argument.",
+  "keyword": "",
+  "gap_prefix": "She spoke too quickly",
+  "gap_suffix": " anyone to follow her argument.",
+  "answer": "for",
+  "options": [
+   "for",
+   "so that",
+   "such that",
+   "in order"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "too quickly for anyone to follow.",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It rained so hard ____ the match was abandoned at half-time.",
+  "keyword": "",
+  "gap_prefix": "It rained so hard",
+  "gap_suffix": " the match was abandoned at half-time.",
+  "answer": "that",
+  "options": [
+   "that",
+   "so that",
+   "such that",
+   "for"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so hard that (result).",
+  "difficulty": 2
+ }
+]

@@ -1,0 +1,2567 @@
+[
+  {
+    "category": "mcq",
+    "prompt": "She always ____ her best to help her classmates.",
+    "keyword": "",
+    "gap_prefix": "She always ",
+    "gap_suffix": " her best to help her classmates.",
+    "answer": "does",
+    "options": [
+      "does",
+      "makes",
+      "commits",
+      "takes"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Our company ____ business with several suppliers abroad.",
+    "keyword": "",
+    "gap_prefix": "Our company ",
+    "gap_suffix": " business with several suppliers abroad.",
+    "answer": "does",
+    "options": [
+      "makes",
+      "does",
+      "commits",
+      "takes"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a silly mistake in the final calculation.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a silly mistake in the final calculation.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "You must ____ an effort to arrive on time.",
+    "keyword": "",
+    "gap_prefix": "You must ",
+    "gap_suffix": " an effort to arrive on time.",
+    "answer": "make",
+    "options": [
+      "do",
+      "commit",
+      "pay",
+      "make"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a promise not to be late again.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a promise not to be late again.",
+    "answer": "made",
+    "options": [
+      "made",
+      "did",
+      "gave",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "I need to ____ an appointment with the dentist tomorrow.",
+    "keyword": "",
+    "gap_prefix": "I need to ",
+    "gap_suffix": " an appointment with the dentist tomorrow.",
+    "answer": "make",
+    "options": [
+      "do",
+      "make",
+      "commit",
+      "draw"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "The flood ____ serious damage to the village.",
+    "keyword": "",
+    "gap_prefix": "The flood ",
+    "gap_suffix": " serious damage to the village.",
+    "answer": "did",
+    "options": [
+      "made",
+      "committed",
+      "did",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Could you ____ me a favour and close the window?",
+    "keyword": "",
+    "gap_prefix": "Could you ",
+    "gap_suffix": " me a favour and close the window?",
+    "answer": "do",
+    "options": [
+      "make",
+      "commit",
+      "give",
+      "do"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a formal complaint about the noise upstairs.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a formal complaint about the noise upstairs.",
+    "answer": "made",
+    "options": [
+      "made",
+      "did",
+      "took",
+      "gave"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "For this project you must ____ research on renewable energy.",
+    "keyword": "",
+    "gap_prefix": "For this project you must ",
+    "gap_suffix": " research on renewable energy.",
+    "answer": "do",
+    "options": [
+      "make",
+      "do",
+      "commit",
+      "pay"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ his homework before dinner every day.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " his homework before dinner every day.",
+    "answer": "does",
+    "options": [
+      "makes",
+      "commits",
+      "does",
+      "pays"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a difficult decision to close the factory.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a difficult decision to close the factory.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Regular walks ____ you good after long hours of work.",
+    "keyword": "",
+    "gap_prefix": "Regular walks ",
+    "gap_suffix": " you good after long hours of work.",
+    "answer": "do",
+    "options": [
+      "do",
+      "make",
+      "commit",
+      "pay"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Smoking ____ harm to your lungs.",
+    "keyword": "",
+    "gap_prefix": "Smoking ",
+    "gap_suffix": " harm to your lungs.",
+    "answer": "does",
+    "options": [
+      "makes",
+      "does",
+      "commits",
+      "gives"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ the shopping yesterday morning.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " the shopping yesterday morning.",
+    "answer": "did",
+    "options": [
+      "made",
+      "committed",
+      "did",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ well in his final exams last term.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " well in his final exams last term.",
+    "answer": "did",
+    "options": [
+      "made",
+      "committed",
+      "paid",
+      "did"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "You ____ a good job on this presentation.",
+    "keyword": "",
+    "gap_prefix": "You ",
+    "gap_suffix": " a good job on this presentation.",
+    "answer": "did",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "paid"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a course in business English last year.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a course in business English last year.",
+    "answer": "did",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "paid"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She is ____ her hair for the party tonight.",
+    "keyword": "",
+    "gap_prefix": "She is ",
+    "gap_suffix": " her hair for the party tonight.",
+    "answer": "doing",
+    "options": [
+      "making",
+      "committing",
+      "doing",
+      "taking"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Do not ____ fun of your classmates.",
+    "keyword": "",
+    "gap_prefix": "Do not ",
+    "gap_suffix": " fun of your classmates.",
+    "answer": "make",
+    "options": [
+      "do",
+      "commit",
+      "take",
+      "make"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "The new policy will ____ a difference to the poor.",
+    "keyword": "",
+    "gap_prefix": "The new policy will ",
+    "gap_suffix": " a difference to the poor.",
+    "answer": "make",
+    "options": [
+      "make",
+      "do",
+      "commit",
+      "pay"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "His speech ____ a strong impression on the audience.",
+    "keyword": "",
+    "gap_prefix": "His speech ",
+    "gap_suffix": " a strong impression on the audience.",
+    "answer": "made",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "paid"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "We need to ____ a choice between the two offers.",
+    "keyword": "",
+    "gap_prefix": "We need to ",
+    "gap_suffix": " a choice between the two offers.",
+    "answer": "make",
+    "options": [
+      "do",
+      "commit",
+      "make",
+      "pay"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ rapid progress in English this year.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " rapid progress in English this year.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ peace after years of conflict.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " peace after years of conflict.",
+    "answer": "made",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "paid"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ trouble for everyone with his lies.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " trouble for everyone with his lies.",
+    "answer": "made",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ her duty without complaint.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " her duty without complaint.",
+    "answer": "did",
+    "options": [
+      "made",
+      "committed",
+      "did",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "We must ____ something about climate change now.",
+    "keyword": "",
+    "gap_prefix": "We must ",
+    "gap_suffix": " something about climate change now.",
+    "answer": "do",
+    "options": [
+      "make",
+      "commit",
+      "pay",
+      "do"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ an excuse for being late again.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " an excuse for being late again.",
+    "answer": "made",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ plans for the summer holiday yesterday.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " plans for the summer holiday yesterday.",
+    "answer": "made",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ friends easily at her new school.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " friends easily at her new school.",
+    "answer": "makes",
+    "options": [
+      "does",
+      "commits",
+      "makes",
+      "takes"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "The noise ____ it hard to concentrate.",
+    "keyword": "",
+    "gap_prefix": "The noise ",
+    "gap_suffix": " it hard to concentrate.",
+    "answer": "makes",
+    "options": [
+      "does",
+      "commits",
+      "takes",
+      "makes"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "It ____ no difference which route you take.",
+    "keyword": "",
+    "gap_prefix": "It ",
+    "gap_suffix": " no difference which route you take.",
+    "answer": "makes",
+    "options": [
+      "makes",
+      "does",
+      "commits",
+      "pays"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ money by selling old books online.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " money by selling old books online.",
+    "answer": "makes",
+    "options": [
+      "does",
+      "makes",
+      "commits",
+      "pays"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ sure the doors were locked.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " sure the doors were locked.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ certain that everyone was informed.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " certain that everyone was informed.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a suggestion to delay the meeting.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a suggestion to delay the meeting.",
+    "answer": "made",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ an exception for late submissions.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " an exception for late submissions.",
+    "answer": "made",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "We ____ our way through the crowded market.",
+    "keyword": "",
+    "gap_prefix": "We ",
+    "gap_suffix": " our way through the crowded market.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ light of the serious warning.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " light of the serious warning.",
+    "answer": "made",
+    "options": [
+      "did",
+      "committed",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a serious crime last year.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a serious crime last year.",
+    "answer": "committed",
+    "options": [
+      "committed",
+      "did",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ perjury by lying in court.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " perjury by lying in court.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He is said to have ____ suicide during the war.",
+    "keyword": "",
+    "gap_prefix": "He is said to have ",
+    "gap_suffix": " suicide during the war.",
+    "answer": "committed",
+    "options": [
+      "done",
+      "made",
+      "committed",
+      "taken"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a robbery in the city centre.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a robbery in the city centre.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "committed"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ murder and was sentenced to life.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " murder and was sentenced to life.",
+    "answer": "committed",
+    "options": [
+      "committed",
+      "did",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a sin she could never forgive herself for.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a sin she could never forgive herself for.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The soldiers ____ atrocities against civilians.",
+    "keyword": "",
+    "gap_prefix": "The soldiers ",
+    "gap_suffix": " atrocities against civilians.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ an offence by driving without a licence.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " an offence by driving without a licence.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "committed"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ fraud to gain extra money.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " fraud to gain extra money.",
+    "answer": "committed",
+    "options": [
+      "committed",
+      "did",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ an act of vandalism last night.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " an act of vandalism last night.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ herself fully to the project.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " herself fully to the project.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ herself to helping the poor.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " herself to helping the poor.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "committed"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The judge had him ____ to prison for theft.",
+    "keyword": "",
+    "gap_prefix": "The judge had him ",
+    "gap_suffix": " to prison for theft.",
+    "answer": "committed",
+    "options": [
+      "committed",
+      "done",
+      "made",
+      "taken"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ extra resources to the relief effort.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " extra resources to the relief effort.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ funds to the new hospital project.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " funds to the new hospital project.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Do not ____ a crime, however desperate you are.",
+    "keyword": "",
+    "gap_prefix": "Do not ",
+    "gap_suffix": " a crime, however desperate you are.",
+    "answer": "commit",
+    "options": [
+      "do",
+      "make",
+      "take",
+      "commit"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "To ____ murder is unforgivable.",
+    "keyword": "",
+    "gap_prefix": "To ",
+    "gap_suffix": " murder is unforgivable.",
+    "answer": "commit",
+    "options": [
+      "commit",
+      "do",
+      "make",
+      "take"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Terrorists ____ an attack at dawn.",
+    "keyword": "",
+    "gap_prefix": "Terrorists ",
+    "gap_suffix": " an attack at dawn.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "committed",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ an indiscretion in her youth.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " an indiscretion in her youth.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ treason against the state.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " treason against the state.",
+    "answer": "committed",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "committed"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The scientists ____ a conclusion from the experimental data.",
+    "keyword": "",
+    "gap_prefix": "The scientists ",
+    "gap_suffix": " a conclusion from the experimental data.",
+    "answer": "drew",
+    "options": [
+      "drew",
+      "did",
+      "made",
+      "committed"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "After hours of debate, the jury ____ a verdict of guilty.",
+    "keyword": "",
+    "gap_prefix": "After hours of debate, the jury ",
+    "gap_suffix": " a verdict of guilty.",
+    "answer": "reached",
+    "options": [
+      "did",
+      "reached",
+      "made",
+      "committed"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They finally ____ at a conclusion after hours of debate.",
+    "keyword": "",
+    "gap_prefix": "They finally ",
+    "gap_suffix": " at a conclusion after hours of debate.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "drew",
+      "arrived",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "We eventually ____ to an agreement on the contract terms.",
+    "keyword": "",
+    "gap_prefix": "We eventually ",
+    "gap_suffix": " to an agreement on the contract terms.",
+    "answer": "came",
+    "options": [
+      "reached",
+      "drew",
+      "made",
+      "came"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "The two sides ____ an agreement after weeks of talks.",
+    "keyword": "",
+    "gap_prefix": "The two sides ",
+    "gap_suffix": " an agreement after weeks of talks.",
+    "answer": "reached",
+    "options": [
+      "reached",
+      "drew",
+      "did",
+      "committed"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ to a decision after much thought.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " to a decision after much thought.",
+    "answer": "came",
+    "options": [
+      "reached",
+      "came",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The committee ____ a decision on the proposal yesterday.",
+    "keyword": "",
+    "gap_prefix": "The committee ",
+    "gap_suffix": " a decision on the proposal yesterday.",
+    "answer": "reached",
+    "options": [
+      "did",
+      "committed",
+      "reached",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ at a decision that satisfied everyone.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " at a decision that satisfied everyone.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "drew",
+      "made",
+      "arrived"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Investigators ____ the conclusion that the fire was accidental.",
+    "keyword": "",
+    "gap_prefix": "Investigators ",
+    "gap_suffix": " the conclusion that the fire was accidental.",
+    "answer": "reached",
+    "options": [
+      "reached",
+      "did",
+      "made",
+      "committed"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ to the conclusion that he had been misled.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " to the conclusion that he had been misled.",
+    "answer": "came",
+    "options": [
+      "reached",
+      "came",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The board ____ a compromise on budget cuts.",
+    "keyword": "",
+    "gap_prefix": "The board ",
+    "gap_suffix": " a compromise on budget cuts.",
+    "answer": "reached",
+    "options": [
+      "did",
+      "committed",
+      "reached",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ at a compromise after tough negotiation.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " at a compromise after tough negotiation.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "drew",
+      "made",
+      "arrived"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The parties ____ to a compromise acceptable to all.",
+    "keyword": "",
+    "gap_prefix": "The parties ",
+    "gap_suffix": " to a compromise acceptable to all.",
+    "answer": "came",
+    "options": [
+      "came",
+      "reached",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a judgement on his character too quickly.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a judgement on his character too quickly.",
+    "answer": "made",
+    "options": [
+      "did",
+      "made",
+      "committed",
+      "paid"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The court ____ a settlement in the land dispute.",
+    "keyword": "",
+    "gap_prefix": "The court ",
+    "gap_suffix": " a settlement in the land dispute.",
+    "answer": "reached",
+    "options": [
+      "did",
+      "committed",
+      "reached",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ at a settlement acceptable to both sides.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " at a settlement acceptable to both sides.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "drew",
+      "made",
+      "arrived"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Experts ____ an understanding of the risks involved.",
+    "keyword": "",
+    "gap_prefix": "Experts ",
+    "gap_suffix": " an understanding of the risks involved.",
+    "answer": "reached",
+    "options": [
+      "reached",
+      "did",
+      "committed",
+      "paid"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ to an understanding after mediation.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " to an understanding after mediation.",
+    "answer": "came",
+    "options": [
+      "reached",
+      "came",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ to terms with his long illness.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " to terms with his long illness.",
+    "answer": "came",
+    "options": [
+      "reached",
+      "drew",
+      "came",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a resolution to the conflict.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a resolution to the conflict.",
+    "answer": "reached",
+    "options": [
+      "did",
+      "committed",
+      "paid",
+      "reached"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "The inquiry ____ to a conclusion last week.",
+    "keyword": "",
+    "gap_prefix": "The inquiry ",
+    "gap_suffix": " to a conclusion last week.",
+    "answer": "came",
+    "options": [
+      "came",
+      "reached",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Police ____ the conclusion that it was an accident.",
+    "keyword": "",
+    "gap_prefix": "Police ",
+    "gap_suffix": " the conclusion that it was an accident.",
+    "answer": "drew",
+    "options": [
+      "did",
+      "drew",
+      "made",
+      "committed"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The council ____ at a verdict on the planning application.",
+    "keyword": "",
+    "gap_prefix": "The council ",
+    "gap_suffix": " at a verdict on the planning application.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "drew",
+      "arrived",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Shareholders ____ an accord on the merger.",
+    "keyword": "",
+    "gap_prefix": "Shareholders ",
+    "gap_suffix": " an accord on the merger.",
+    "answer": "reached",
+    "options": [
+      "drew",
+      "committed",
+      "paid",
+      "reached"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The committee ____ to a verdict after three days.",
+    "keyword": "",
+    "gap_prefix": "The committee ",
+    "gap_suffix": " to a verdict after three days.",
+    "answer": "came",
+    "options": [
+      "came",
+      "reached",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ at the decision to study abroad last year.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " at the decision to study abroad last year.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "arrived",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a consensus on climate action.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a consensus on climate action.",
+    "answer": "reached",
+    "options": [
+      "did",
+      "committed",
+      "reached",
+      "paid"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "The team finally ____ at a consensus on the plan.",
+    "keyword": "",
+    "gap_prefix": "The team finally ",
+    "gap_suffix": " at a consensus on the plan.",
+    "answer": "arrived",
+    "options": [
+      "reached",
+      "drew",
+      "made",
+      "arrived"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ to a realisation that she needed help.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " to a realisation that she needed help.",
+    "answer": "came",
+    "options": [
+      "came",
+      "reached",
+      "drew",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "Analysts ____ a distinction between the two cases.",
+    "keyword": "",
+    "gap_prefix": "Analysts ",
+    "gap_suffix": " a distinction between the two cases.",
+    "answer": "drew",
+    "options": [
+      "did",
+      "drew",
+      "made",
+      "committed"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "You must ____ attention to road safety.",
+    "keyword": "",
+    "gap_prefix": "You must ",
+    "gap_suffix": " attention to road safety.",
+    "answer": "pay",
+    "options": [
+      "give",
+      "take",
+      "pay",
+      "make"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "You should ____ heed to my warnings about floods.",
+    "keyword": "",
+    "gap_prefix": "You should ",
+    "gap_suffix": " heed to my warnings about floods.",
+    "answer": "pay",
+    "options": [
+      "give",
+      "take",
+      "make",
+      "pay"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a compliment on her presentation.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a compliment on her presentation.",
+    "answer": "paid",
+    "options": [
+      "paid",
+      "did",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ tribute to the victims of the disaster.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " tribute to the victims of the disaster.",
+    "answer": "paid",
+    "options": [
+      "did",
+      "paid",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They had to ____ a fee for visa processing.",
+    "keyword": "",
+    "gap_prefix": "They had to ",
+    "gap_suffix": " a fee for visa processing.",
+    "answer": "pay",
+    "options": [
+      "give",
+      "take",
+      "pay",
+      "make"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a visit to his grandparents last weekend.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a visit to his grandparents last weekend.",
+    "answer": "paid",
+    "options": [
+      "gave",
+      "took",
+      "did",
+      "paid"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ close attention to every detail.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " close attention to every detail.",
+    "answer": "paid",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "The poster ____ attention to the charity event.",
+    "keyword": "",
+    "gap_prefix": "The poster ",
+    "gap_suffix": " attention to the charity event.",
+    "answer": "drew",
+    "options": [
+      "paid",
+      "drew",
+      "gave",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "I would like to ____ your attention to this chart.",
+    "keyword": "",
+    "gap_prefix": "I would like to ",
+    "gap_suffix": " your attention to this chart.",
+    "answer": "draw",
+    "options": [
+      "pay",
+      "give",
+      "draw",
+      "take"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "May I ____ your attention to item three on the agenda?",
+    "keyword": "",
+    "gap_prefix": "May I ",
+    "gap_suffix": " your attention to item three on the agenda?",
+    "answer": "draw",
+    "options": [
+      "pay",
+      "give",
+      "take",
+      "draw"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ little attention to his health.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " little attention to his health.",
+    "answer": "paid",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Students should ____ heed of the safety rules.",
+    "keyword": "",
+    "gap_prefix": "Students should ",
+    "gap_suffix": " heed of the safety rules.",
+    "answer": "take",
+    "options": [
+      "pay",
+      "take",
+      "give",
+      "make"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ notice of the change in schedule.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " notice of the change in schedule.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ good care of the injured dog.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " good care of the injured dog.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ advantage of the opportunity to study abroad.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " advantage of the opportunity to study abroad.",
+    "answer": "took",
+    "options": [
+      "took",
+      "paid",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ part in the school play last year.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " part in the school play last year.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "took",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ pride in his work.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " pride in his work.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ offence at his thoughtless joke.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " offence at his thoughtless joke.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ pity on the stray cat and fed it.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " pity on the stray cat and fed it.",
+    "answer": "took",
+    "options": [
+      "took",
+      "paid",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a photo of the castle at sunset.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a photo of the castle at sunset.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "took",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a deep breath before speaking.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a deep breath before speaking.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a big risk starting his own business.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a big risk starting his own business.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ turns to present their findings.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " turns to present their findings.",
+    "answer": "took",
+    "options": [
+      "took",
+      "paid",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ the initiative to organise help for flood victims.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " the initiative to organise help for flood victims.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "took",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ the lead in the negotiations.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " the lead in the negotiations.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ advice from her mentor before deciding.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " advice from her mentor before deciding.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "gave",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ thanks to the volunteers for their help.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " thanks to the volunteers for their help.",
+    "answer": "gave",
+    "options": [
+      "gave",
+      "paid",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ birth to twins last month.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " birth to twins last month.",
+    "answer": "gave",
+    "options": [
+      "paid",
+      "gave",
+      "took",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ evidence in court yesterday.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " evidence in court yesterday.",
+    "answer": "gave",
+    "options": [
+      "paid",
+      "took",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a speech at graduation.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a speech at graduation.",
+    "answer": "gave",
+    "options": [
+      "paid",
+      "took",
+      "made",
+      "gave"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a lie to avoid punishment.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a lie to avoid punishment.",
+    "answer": "told",
+    "options": [
+      "told",
+      "did",
+      "made",
+      "committed"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ an oath to tell the truth.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " an oath to tell the truth.",
+    "answer": "took",
+    "options": [
+      "paid",
+      "took",
+      "gave",
+      "made"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ short of money after the trip.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " short of money after the trip.",
+    "answer": "ran",
+    "options": [
+      "did",
+      "made",
+      "ran",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ full responsibility for the error.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " full responsibility for the error.",
+    "answer": "took",
+    "options": [
+      "did",
+      "made",
+      "paid",
+      "took"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ swift action to solve the problem.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " swift action to solve the problem.",
+    "answer": "took",
+    "options": [
+      "took",
+      "did",
+      "made",
+      "paid"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ control of the project last month.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " control of the project last month.",
+    "answer": "took",
+    "options": [
+      "did",
+      "took",
+      "made",
+      "paid"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "Police ____ an investigation into the accident.",
+    "keyword": "",
+    "gap_prefix": "Police ",
+    "gap_suffix": " an investigation into the accident.",
+    "answer": "conducted",
+    "options": [
+      "did",
+      "made",
+      "conducted",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ a short break after lunch.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " a short break after lunch.",
+    "answer": "took",
+    "options": [
+      "did",
+      "made",
+      "gave",
+      "took"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a rare chance to study abroad.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a rare chance to study abroad.",
+    "answer": "took",
+    "options": [
+      "took",
+      "did",
+      "made",
+      "gave"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a meeting to discuss budget cuts.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a meeting to discuss budget cuts.",
+    "answer": "held",
+    "options": [
+      "did",
+      "held",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  },
+  {
+    "category": "mcq",
+    "prompt": "She ____ an interesting conversation with her manager.",
+    "keyword": "",
+    "gap_prefix": "She ",
+    "gap_suffix": " an interesting conversation with her manager.",
+    "answer": "had",
+    "options": [
+      "did",
+      "made",
+      "had",
+      "took"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ a heavy cold last week.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " a heavy cold last week.",
+    "answer": "caught",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "caught"
+    ],
+    "alternatives": [
+      "D"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "They ____ a fire to keep warm.",
+    "keyword": "",
+    "gap_prefix": "They ",
+    "gap_suffix": " a fire to keep warm.",
+    "answer": "made",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "took"
+    ],
+    "alternatives": [
+      "A"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "He ____ drunk at the party.",
+    "keyword": "",
+    "gap_prefix": "He ",
+    "gap_suffix": " drunk at the party.",
+    "answer": "got",
+    "options": [
+      "did",
+      "got",
+      "made",
+      "took"
+    ],
+    "alternatives": [
+      "B"
+    ],
+    "notes": "collocation",
+    "difficulty": 2
+  },
+  {
+    "category": "mcq",
+    "prompt": "You should ____ in mind the risks before investing.",
+    "keyword": "",
+    "gap_prefix": "You should ",
+    "gap_suffix": " in mind the risks before investing.",
+    "answer": "bear",
+    "options": [
+      "do",
+      "make",
+      "bear",
+      "take"
+    ],
+    "alternatives": [
+      "C"
+    ],
+    "notes": "collocation",
+    "difficulty": 3
+  }
+]

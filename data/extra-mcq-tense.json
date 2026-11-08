@@ -1,0 +1,2605 @@
+[
+ {
+  "category": "mcq",
+  "prompt": "She ____ in Hanoi since 2019, so she knows the city very well.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " in Hanoi since 2019, so she knows the city very well.",
+  "answer": "has lived",
+  "options": [
+   "has lived",
+   "lived",
+   "was living",
+   "had lived"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "present perfect with since for unfinished state",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ my keys. I can't find them anywhere this morning.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " my keys. I can't find them anywhere this morning.",
+  "answer": "have lost",
+  "options": [
+   "lost",
+   "have lost",
+   "was losing",
+   "had lost"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "present perfect for present result",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ for the company for ten years before it went bankrupt.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " for the company for ten years before it went bankrupt.",
+  "answer": "had worked",
+  "options": [
+   "has worked",
+   "works",
+   "had worked",
+   "is working"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect for earlier duration before past event",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Look! The water level in the river ____ steadily since dawn.",
+  "keyword": "",
+  "gap_prefix": "Look! The water level in the river ",
+  "gap_suffix": " steadily since dawn.",
+  "answer": "has been rising",
+  "options": [
+   "rose",
+   "was rising",
+   "had risen",
+   "has been rising"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "present perfect continuous for ongoing change",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ three novels so far this year, which is remarkable.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " three novels so far this year, which is remarkable.",
+  "answer": "has written",
+  "options": [
+   "has written",
+   "wrote",
+   "was writing",
+   "had written"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "present perfect with so far",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ each other since we were children, so we never quarrel.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " each other since we were children, so we never quarrel.",
+  "answer": "have known",
+  "options": [
+   "knew",
+   "have known",
+   "were knowing",
+   "had known"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "stative verb in present perfect, not continuous",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ a lot recently; his reports show steady improvement.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " a lot recently; his reports show steady improvement.",
+  "answer": "has been practising",
+  "options": [
+   "practised",
+   "was practising",
+   "has been practising",
+   "had practised"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "present perfect continuous for repeated recent activity",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The museum ____ closed after the fire in 2021 and never reopened.",
+  "keyword": "",
+  "gap_prefix": "The museum ",
+  "gap_suffix": " closed after the fire in 2021 and never reopened.",
+  "answer": "was",
+  "options": [
+   "has been",
+   "had been being",
+   "is",
+   "was"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past simple for finished historical event",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ never seen such a demanding exam before last Friday.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " never seen such a demanding exam before last Friday.",
+  "answer": "had",
+  "options": [
+   "had",
+   "have",
+   "did",
+   "was"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect with never before past reference",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ married for twenty years next month.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " married for twenty years next month.",
+  "answer": "will have been",
+  "options": [
+   "have been",
+   "will have been",
+   "were",
+   "had been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future perfect continuous implied duration — trap present perfect",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "How long ____ English when you moved to Canada?",
+  "keyword": "",
+  "gap_prefix": "How long ",
+  "gap_suffix": " English when you moved to Canada?",
+  "answer": "had you been learning",
+  "options": [
+   "have you been learning",
+   "were you learning",
+   "had you been learning",
+   "did you learn"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect continuous before past move",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ his ankle, so he can't play in the final tomorrow.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " his ankle, so he can't play in the final tomorrow.",
+  "answer": "has sprained",
+  "options": [
+   "sprained",
+   "was spraining",
+   "had sprained",
+   "has sprained"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "present perfect for injury with present consequence",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "By the time I arrived, she ____ already.",
+  "keyword": "",
+  "gap_prefix": "By the time I arrived, she ",
+  "gap_suffix": " already.",
+  "answer": "had left",
+  "options": [
+   "had left",
+   "has left",
+   "leaves",
+   "was leaving"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect after by the time + past",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ here for hours. When will the manager see us?",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " here for hours. When will the manager see us?",
+  "answer": "have been waiting",
+  "options": [
+   "waited",
+   "have been waiting",
+   "were waiting",
+   "had waited"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "present perfect continuous for unfinished wait",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ the same desk for five years before she was promoted.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " the same desk for five years before she was promoted.",
+  "answer": "had occupied",
+  "options": [
+   "has occupied",
+   "occupies",
+   "had occupied",
+   "is occupying"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect for duration ending in past",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ him since Monday, which is quite unusual for us.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " him since Monday, which is quite unusual for us.",
+  "answer": "haven't seen",
+  "options": [
+   "didn't see",
+   "hadn't seen",
+   "don't see",
+   "haven't seen"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "present perfect negative with since",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The road is wet. It ____ during the night.",
+  "keyword": "",
+  "gap_prefix": "The road is wet. It ",
+  "gap_suffix": " during the night.",
+  "answer": "must have rained",
+  "options": [
+   "must have rained",
+   "must rain",
+   "must be raining",
+   "must have been rained"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "modal perfect deduction — trap passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Scientists ____ significant progress in quantum computing lately.",
+  "keyword": "",
+  "gap_prefix": "Scientists ",
+  "gap_suffix": " significant progress in quantum computing lately.",
+  "answer": "have made",
+  "options": [
+   "made",
+   "have made",
+   "were making",
+   "had made"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "present perfect with lately",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "While I ____ dinner, the phone rang twice.",
+  "keyword": "",
+  "gap_prefix": "While I ",
+  "gap_suffix": " dinner, the phone rang twice.",
+  "answer": "was cooking",
+  "options": [
+   "cooked",
+   "had cooked",
+   "was cooking",
+   "have cooked"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past continuous for background action",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "When the lights went out, we ____ a presentation in the hall.",
+  "keyword": "",
+  "gap_prefix": "When the lights went out, we ",
+  "gap_suffix": " a presentation in the hall.",
+  "answer": "were attending",
+  "options": [
+   "attended",
+   "had attended",
+   "have attended",
+   "were attending"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past continuous interrupted by past simple",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ the parcel before noon yesterday, I promise.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " the parcel before noon yesterday, I promise.",
+  "answer": "had delivered",
+  "options": [
+   "had delivered",
+   "has delivered",
+   "was delivering",
+   "delivers"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect with before + past time",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "No sooner ____ the station than the train pulled away.",
+  "keyword": "",
+  "gap_prefix": "No sooner ",
+  "gap_suffix": " the station than the train pulled away.",
+  "answer": "had we reached",
+  "options": [
+   "we had reached",
+   "had we reached",
+   "we have reached",
+   "did we have reached"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "inversion No sooner + had + subject",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Hardly ____ asleep when the alarm went off.",
+  "keyword": "",
+  "gap_prefix": "Hardly ",
+  "gap_suffix": " asleep when the alarm went off.",
+  "answer": "had I fallen",
+  "options": [
+   "I had fallen",
+   "have I fallen",
+   "had I fallen",
+   "I have fallen"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "inversion Hardly + had",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ the door, sat down and opened her book.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " the door, sat down and opened her book.",
+  "answer": "closed",
+  "options": [
+   "had closed",
+   "has closed",
+   "was closing",
+   "closed"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past simple sequence, no perfect needed",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I recognised him because I ____ him in a documentary before.",
+  "keyword": "",
+  "gap_prefix": "I recognised him because I ",
+  "gap_suffix": " him in a documentary before.",
+  "answer": "had seen",
+  "options": [
+   "had seen",
+   "have seen",
+   "saw",
+   "was seeing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect for earlier experience",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ football when it suddenly started to pour.",
+  "keyword": "",
+  "gap_prefix": "They ",
+  "gap_suffix": " football when it suddenly started to pour.",
+  "answer": "were playing",
+  "options": [
+   "played",
+   "were playing",
+   "had played",
+   "have played"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "past continuous interrupted",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The witness stated that the car ____ at 120 km/h before it crashed.",
+  "keyword": "",
+  "gap_prefix": "The witness stated that the car ",
+  "gap_suffix": " at 120 km/h before it crashed.",
+  "answer": "had been travelling",
+  "options": [
+   "has been travelling",
+   "travelled",
+   "had been travelling",
+   "is travelling"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect continuous before past crash",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "After she ____ her thesis, she applied for a research grant.",
+  "keyword": "",
+  "gap_prefix": "After she ",
+  "gap_suffix": " her thesis, she applied for a research grant.",
+  "answer": "had finished",
+  "options": [
+   "has finished",
+   "was finishing",
+   "finishes",
+   "had finished"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past perfect after after + earlier action",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was exhausted because he ____ all night.",
+  "keyword": "",
+  "gap_prefix": "He was exhausted because he ",
+  "gap_suffix": " all night.",
+  "answer": "had been working",
+  "options": [
+   "had been working",
+   "has been working",
+   "was working",
+   "worked"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect continuous for cause of past state",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The sun ____ when the hikers set out at dawn.",
+  "keyword": "",
+  "gap_prefix": "The sun ",
+  "gap_suffix": " when the hikers set out at dawn.",
+  "answer": "had not yet risen",
+  "options": [
+   "has not yet risen",
+   "had not yet risen",
+   "did not yet risen",
+   "has not risen"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "past perfect negative before past departure",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ to help, but by then he had already solved it.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " to help, but by then he had already solved it.",
+  "answer": "offered",
+  "options": [
+   "had offered",
+   "have offered",
+   "offered",
+   "was offered"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past simple vs past perfect ordering",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ for the exam for months before she finally passed.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " for the exam for months before she finally passed.",
+  "answer": "had been revising",
+  "options": [
+   "has been revising",
+   "was revising",
+   "revised",
+   "had been revising"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past perfect continuous for long preparation",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "When I saw her, she ____ a blue coat and looked pale.",
+  "keyword": "",
+  "gap_prefix": "When I saw her, she ",
+  "gap_suffix": " a blue coat and looked pale.",
+  "answer": "was wearing",
+  "options": [
+   "was wearing",
+   "wore",
+   "had worn",
+   "has worn"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past continuous for state in progress at past moment",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The committee ____ the proposal twice before approving it.",
+  "keyword": "",
+  "gap_prefix": "The committee ",
+  "gap_suffix": " the proposal twice before approving it.",
+  "answer": "had rejected",
+  "options": [
+   "has rejected",
+   "had rejected",
+   "rejected",
+   "was rejecting"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "past perfect for repeated action before past approval",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He broke his leg while he ____ rugby with friends.",
+  "keyword": "",
+  "gap_prefix": "He broke his leg while he ",
+  "gap_suffix": " rugby with friends.",
+  "answer": "was playing",
+  "options": [
+   "played",
+   "had played",
+   "was playing",
+   "has played"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "while + past continuous",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Until last year, she had never ____ abroad.",
+  "keyword": "",
+  "gap_prefix": "Until last year, she had never ",
+  "gap_suffix": " abroad.",
+  "answer": "travelled",
+  "options": [
+   "travel",
+   "travelling",
+   "travels",
+   "travelled"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past perfect with until + past reference",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Look at those black clouds! It ____ any minute now.",
+  "keyword": "",
+  "gap_prefix": "Look at those black clouds! It ",
+  "gap_suffix": " any minute now.",
+  "answer": "is going to rain",
+  "options": [
+   "is going to rain",
+   "will rain",
+   "rains",
+   "has rained"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "be going to for imminent evidence",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I have decided: I ____ medicine at university next year.",
+  "keyword": "",
+  "gap_prefix": "I have decided: I ",
+  "gap_suffix": " medicine at university next year.",
+  "answer": "am going to study",
+  "options": [
+   "will study",
+   "am going to study",
+   "study",
+   "have studied"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "be going to for prior intention",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The train ____ at 7.30 tomorrow morning, so don't be late.",
+  "keyword": "",
+  "gap_prefix": "The train ",
+  "gap_suffix": " at 7.30 tomorrow morning, so don't be late.",
+  "answer": "leaves",
+  "options": [
+   "will leave",
+   "is going to leave",
+   "leaves",
+   "has left"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "present simple for timetable future",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A: I've lost my wallet. B: Don't worry, I ____ you look for it.",
+  "keyword": "",
+  "gap_prefix": "A: I've lost my wallet. B: Don't worry, I ",
+  "gap_suffix": " you look for it.",
+  "answer": "will help",
+  "options": [
+   "am going to help",
+   "help",
+   "have helped",
+   "will help"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "will for instant offer",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ her grandparents this weekend; everything is arranged.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " her grandparents this weekend; everything is arranged.",
+  "answer": "is visiting",
+  "options": [
+   "is visiting",
+   "will visit",
+   "visits",
+   "has visited"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "present continuous for fixed arrangement",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I promise I ____ the documents by Friday without fail.",
+  "keyword": "",
+  "gap_prefix": "I promise I ",
+  "gap_suffix": " the documents by Friday without fail.",
+  "answer": "will finish",
+  "options": [
+   "am finishing",
+   "will finish",
+   "finish",
+   "have finished"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "will for promise",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The match ____ at 8 p.m. sharp according to the schedule.",
+  "keyword": "",
+  "gap_prefix": "The match ",
+  "gap_suffix": " at 8 p.m. sharp according to the schedule.",
+  "answer": "starts",
+  "options": [
+   "will start",
+   "is going to start",
+   "starts",
+   "has started"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "present simple for scheduled event",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We're exhausted, so we ____ a break after this round.",
+  "keyword": "",
+  "gap_prefix": "We're exhausted, so we ",
+  "gap_suffix": " a break after this round.",
+  "answer": "are going to take",
+  "options": [
+   "will take",
+   "take",
+   "have taken",
+   "are going to take"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "be going to for current intention",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A: The box is too heavy. B: I ____ you carry it upstairs.",
+  "keyword": "",
+  "gap_prefix": "A: The box is too heavy. B: I ",
+  "gap_suffix": " you carry it upstairs.",
+  "answer": "will help",
+  "options": [
+   "will help",
+   "am helping",
+   "help",
+   "have helped"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "will for spontaneous help",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The government ____ a new highway through the valley next year.",
+  "keyword": "",
+  "gap_prefix": "The government ",
+  "gap_suffix": " a new highway through the valley next year.",
+  "answer": "is going to build",
+  "options": [
+   "will build",
+   "is going to build",
+   "builds",
+   "has built"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "be going to for prior plan — trap will",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "My flight ____ off at dawn, so I must leave home at 3 a.m.",
+  "keyword": "",
+  "gap_prefix": "My flight ",
+  "gap_suffix": " off at dawn, so I must leave home at 3 a.m.",
+  "answer": "takes",
+  "options": [
+   "will take",
+   "is going to take",
+   "takes",
+   "has taken"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "present simple for transport timetable",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Be careful! You ____ that expensive vase.",
+  "keyword": "",
+  "gap_prefix": "Be careful! You ",
+  "gap_suffix": " that expensive vase.",
+  "answer": "are going to drop",
+  "options": [
+   "will drop",
+   "drop",
+   "have dropped",
+   "are going to drop"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "be going to for prediction from present sign",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ 60 next month, and the firm is organising a party.",
+  "keyword": "",
+  "gap_prefix": "He ",
+  "gap_suffix": " 60 next month, and the firm is organising a party.",
+  "answer": "will be",
+  "options": [
+   "will be",
+   "is being",
+   "is going to be",
+   "has been"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "will for future fact / age",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ dinner with the director tonight. The table is booked.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " dinner with the director tonight. The table is booked.",
+  "answer": "are having",
+  "options": [
+   "will have",
+   "are having",
+   "have",
+   "had"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "present continuous for arrangement",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I think the new policy ____ more harm than good.",
+  "keyword": "",
+  "gap_prefix": "I think the new policy ",
+  "gap_suffix": " more harm than good.",
+  "answer": "will do",
+  "options": [
+   "is doing",
+   "does",
+   "will do",
+   "has done"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "will for opinion prediction",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The volunteers ____ rubbish on the beach this Sunday. Join us!",
+  "keyword": "",
+  "gap_prefix": "The volunteers ",
+  "gap_suffix": " rubbish on the beach this Sunday. Join us!",
+  "answer": "are collecting",
+  "options": [
+   "will collect",
+   "collect",
+   "have collected",
+   "are collecting"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "present continuous for organised future",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She has bought paint and brushes; she ____ her room blue.",
+  "keyword": "",
+  "gap_prefix": "She has bought paint and brushes; she ",
+  "gap_suffix": " her room blue.",
+  "answer": "is going to paint",
+  "options": [
+   "is going to paint",
+   "will paint",
+   "paints",
+   "has painted"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "be going to with present evidence of intent",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Don't phone at midnight; we ____ soundly by then.",
+  "keyword": "",
+  "gap_prefix": "Don't phone at midnight; we ",
+  "gap_suffix": " soundly by then.",
+  "answer": "will be sleeping",
+  "options": [
+   "sleep",
+   "will be sleeping",
+   "are sleeping",
+   "have slept"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future continuous for action in progress at future time",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The semester ____ on 5 September, as stated in the calendar.",
+  "keyword": "",
+  "gap_prefix": "The semester ",
+  "gap_suffix": " on 5 September, as stated in the calendar.",
+  "answer": "begins",
+  "options": [
+   "will begin",
+   "is going to begin",
+   "begins",
+   "has begun"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "present simple for institutional schedule",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I ____ the door; it's my job to welcome guests.",
+  "keyword": "",
+  "gap_prefix": "I ",
+  "gap_suffix": " the door; it's my job to welcome guests.",
+  "answer": "will open",
+  "options": [
+   "am opening",
+   "open",
+   "have opened",
+   "will open"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "will for willingness / duty assumed",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By 2030, scientists ____ a cure for this disease.",
+  "keyword": "",
+  "gap_prefix": "By 2030, scientists ",
+  "gap_suffix": " a cure for this disease.",
+  "answer": "will have found",
+  "options": [
+   "will have found",
+   "will find",
+   "find",
+   "have found"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future perfect with by + future time",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By the time you arrive, I ____ for over an hour.",
+  "keyword": "",
+  "gap_prefix": "By the time you arrive, I ",
+  "gap_suffix": " for over an hour.",
+  "answer": "will have been waiting",
+  "options": [
+   "will wait",
+   "will have been waiting",
+   "wait",
+   "have waited"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future perfect continuous for duration",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "At this time tomorrow, we ____ over the Atlantic.",
+  "keyword": "",
+  "gap_prefix": "At this time tomorrow, we ",
+  "gap_suffix": " over the Atlantic.",
+  "answer": "will be flying",
+  "options": [
+   "will have flown",
+   "fly",
+   "will be flying",
+   "have flown"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "future continuous for action in progress",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Don't call before 8; she will still ____.",
+  "keyword": "",
+  "gap_prefix": "Don't call before 8; she will still ",
+  "gap_suffix": ".",
+  "answer": "be working",
+  "options": [
+   "have worked",
+   "works",
+   "has worked",
+   "be working"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "future continuous with still",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "If he keeps spending like that, he ____ all his savings by June.",
+  "keyword": "",
+  "gap_prefix": "If he keeps spending like that, he ",
+  "gap_suffix": " all his savings by June.",
+  "answer": "will have used up",
+  "options": [
+   "will have used up",
+   "will use up",
+   "uses up",
+   "has used up"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future perfect for completed depletion",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The sponsors fear the star striker ____ before the final.",
+  "keyword": "",
+  "gap_prefix": "The sponsors fear the star striker ",
+  "gap_suffix": " before the final.",
+  "answer": "will have backed out",
+  "options": [
+   "backs out",
+   "will have backed out",
+   "is backing out",
+   "has backed out"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future perfect for feared completion before future point",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By next Christmas, they ____ in this house for a decade.",
+  "keyword": "",
+  "gap_prefix": "By next Christmas, they ",
+  "gap_suffix": " in this house for a decade.",
+  "answer": "will have lived",
+  "options": [
+   "will live",
+   "live",
+   "will have lived",
+   "have lived"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "future perfect simple for long duration with for",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "This time next week, I ____ on a beach with nothing to do.",
+  "keyword": "",
+  "gap_prefix": "This time next week, I ",
+  "gap_suffix": " on a beach with nothing to do.",
+  "answer": "will be lying",
+  "options": [
+   "will have lain",
+   "lie",
+   "have lain",
+   "will be lying"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "future continuous for projected scene",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The project ____ by the end of March, the manager insists.",
+  "keyword": "",
+  "gap_prefix": "The project ",
+  "gap_suffix": " by the end of March, the manager insists.",
+  "answer": "will have been completed",
+  "options": [
+   "will have been completed",
+   "will be completing",
+   "completes",
+   "has completed"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future perfect passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By 10 p.m., she ____ for twelve hours without rest.",
+  "keyword": "",
+  "gap_prefix": "By 10 p.m., she ",
+  "gap_suffix": " for twelve hours without rest.",
+  "answer": "will have been working",
+  "options": [
+   "will work",
+   "will have been working",
+   "works",
+   "has worked"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future perfect continuous for unbroken duration",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "In ten minutes, the reactor ____ critical temperature.",
+  "keyword": "",
+  "gap_prefix": "In ten minutes, the reactor ",
+  "gap_suffix": " critical temperature.",
+  "answer": "will have reached",
+  "options": [
+   "will reach",
+   "reaches",
+   "will have reached",
+   "has reached"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "future perfect for threshold crossed before point",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ the report by Friday; you can count on it.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " the report by Friday; you can count on it.",
+  "answer": "will have finished",
+  "options": [
+   "finish",
+   "are finishing",
+   "have finished",
+   "will have finished"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "future perfect for deadline promise",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "At midnight, the town ____ for exactly one hundred years.",
+  "keyword": "",
+  "gap_prefix": "At midnight, the town ",
+  "gap_suffix": " for exactly one hundred years.",
+  "answer": "will have existed",
+  "options": [
+   "will have existed",
+   "will exist",
+   "exists",
+   "has existed"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future perfect for anniversary",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ her driving test until September, so don't ask.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " her driving test until September, so don't ask.",
+  "answer": "won't have taken",
+  "options": [
+   "won't take",
+   "won't have taken",
+   "doesn't take",
+   "hasn't taken"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future perfect negative with until",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By the time the sequel premieres, fans ____ for six years.",
+  "keyword": "",
+  "gap_prefix": "By the time the sequel premieres, fans ",
+  "gap_suffix": " for six years.",
+  "answer": "will have been waiting",
+  "options": [
+   "will wait",
+   "wait",
+   "will have been waiting",
+   "have waited"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "future perfect continuous with for",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The train ____ the tunnel by the time we get to the bridge.",
+  "keyword": "",
+  "gap_prefix": "The train ",
+  "gap_suffix": " the tunnel by the time we get to the bridge.",
+  "answer": "will have entered",
+  "options": [
+   "will enter",
+   "enters",
+   "has entered",
+   "will have entered"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "future perfect with by the time + present",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Next month, he ____ the marathon; his training is almost done.",
+  "keyword": "",
+  "gap_prefix": "Next month, he ",
+  "gap_suffix": " the marathon; his training is almost done.",
+  "answer": "will be running",
+  "options": [
+   "will be running",
+   "will have run",
+   "runs",
+   "has run"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future continuous for scheduled participation",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By dawn, rescue crews ____ through the rubble all night.",
+  "keyword": "",
+  "gap_prefix": "By dawn, rescue crews ",
+  "gap_suffix": " through the rubble all night.",
+  "answer": "will have been digging",
+  "options": [
+   "will dig",
+   "will have been digging",
+   "dig",
+   "have dug"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "future perfect continuous for all-night effort",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ the book the week before.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " the book the week before.",
+  "answer": "had finished",
+  "options": [
+   "has finished",
+   "finished",
+   "had finished",
+   "finishes"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "backshift past simple to past perfect",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He told me he ____ to the gym regularly these days.",
+  "keyword": "",
+  "gap_prefix": "He told me he ",
+  "gap_suffix": " to the gym regularly these days.",
+  "answer": "was going",
+  "options": [
+   "is going",
+   "has gone",
+   "goes",
+   "was going"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "backshift present continuous to past continuous",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They said they ____ the new bridge the following year.",
+  "keyword": "",
+  "gap_prefix": "They said they ",
+  "gap_suffix": " the new bridge the following year.",
+  "answer": "would open",
+  "options": [
+   "would open",
+   "will open",
+   "open",
+   "have opened"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "will to would in reported speech",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ tired because she had worked all night.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " tired because she had worked all night.",
+  "answer": "was",
+  "options": [
+   "is",
+   "was",
+   "has been",
+   "had been"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "backshift present simple to past simple",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he ____ me the day before but I hadn't answered.",
+  "keyword": "",
+  "gap_prefix": "He said he ",
+  "gap_suffix": " me the day before but I hadn't answered.",
+  "answer": "had called",
+  "options": [
+   "has called",
+   "called",
+   "had called",
+   "calls"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "backshift to past perfect for earlier call",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The teacher said the Earth ____ round the Sun.",
+  "keyword": "",
+  "gap_prefix": "The teacher said the Earth ",
+  "gap_suffix": " round the Sun.",
+  "answer": "moves",
+  "options": [
+   "moved",
+   "had moved",
+   "has moved",
+   "moves"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "no backshift for universal truth",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ the report by Friday.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " the report by Friday.",
+  "answer": "would have finished",
+  "options": [
+   "would have finished",
+   "will have finished",
+   "finishes",
+   "has finished"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future perfect to conditional perfect in backshift",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he ____ his passport the previous day.",
+  "keyword": "",
+  "gap_prefix": "He said he ",
+  "gap_suffix": " his passport the previous day.",
+  "answer": "had lost",
+  "options": [
+   "has lost",
+   "had lost",
+   "lost",
+   "loses"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "backshift with the previous day",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They said they ____ for three hours when we found them.",
+  "keyword": "",
+  "gap_prefix": "They said they ",
+  "gap_suffix": " for three hours when we found them.",
+  "answer": "had been waiting",
+  "options": [
+   "have been waiting",
+   "waited",
+   "had been waiting",
+   "are waiting"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect continuous in reported speech",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said, \"I am leaving now,\" so she said she ____ then.",
+  "keyword": "",
+  "gap_prefix": "She said, \"I am leaving now,\" so she said she ",
+  "gap_suffix": " then.",
+  "answer": "was leaving",
+  "options": [
+   "is leaving",
+   "had left",
+   "leaves",
+   "was leaving"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "now to then with continuous backshift",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He told us he ____ the match the night before.",
+  "keyword": "",
+  "gap_prefix": "He told us he ",
+  "gap_suffix": " the match the night before.",
+  "answer": "had watched",
+  "options": [
+   "had watched",
+   "has watched",
+   "watched",
+   "watches"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past to past perfect with time shift",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The guide said the museum ____ at 9 a.m. daily.",
+  "keyword": "",
+  "gap_prefix": "The guide said the museum ",
+  "gap_suffix": " at 9 a.m. daily.",
+  "answer": "opens",
+  "options": [
+   "opened",
+   "opens",
+   "had opened",
+   "has opened"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "no backshift for timetable fact still true",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ to help if she had time.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " to help if she had time.",
+  "answer": "would offer",
+  "options": [
+   "will offer",
+   "offers",
+   "would offer",
+   "had offered"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "conditional will to would",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he ____ in London since 2015.",
+  "keyword": "",
+  "gap_prefix": "He said he ",
+  "gap_suffix": " in London since 2015.",
+  "answer": "had been living",
+  "options": [
+   "has been living",
+   "lived",
+   "lives",
+   "had been living"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "present perfect continuous to past perfect continuous",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Mary said she ____ the letter the next day.",
+  "keyword": "",
+  "gap_prefix": "Mary said she ",
+  "gap_suffix": " the letter the next day.",
+  "answer": "would post",
+  "options": [
+   "would post",
+   "will post",
+   "posts",
+   "had posted"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "next day with would",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They said they had just ____ their lunch.",
+  "keyword": "",
+  "gap_prefix": "They said they had just ",
+  "gap_suffix": " their lunch.",
+  "answer": "eaten",
+  "options": [
+   "ate",
+   "eaten",
+   "eat",
+   "eating"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "backshift of just + present perfect",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he had not ____ such a storm before.",
+  "keyword": "",
+  "gap_prefix": "He said he had not ",
+  "gap_suffix": " such a storm before.",
+  "answer": "seen",
+  "options": [
+   "saw",
+   "see",
+   "seen",
+   "seeing"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect for never-before experience in report",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ her keys that morning.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " her keys that morning.",
+  "answer": "had forgotten",
+  "options": [
+   "has forgotten",
+   "forgot",
+   "forgets",
+   "had forgotten"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "past to past perfect",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The attendant said the flight ____ shortly.",
+  "keyword": "",
+  "gap_prefix": "The attendant said the flight ",
+  "gap_suffix": " shortly.",
+  "answer": "was about to depart",
+  "options": [
+   "was about to depart",
+   "is about to depart",
+   "had departed",
+   "departs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "is about to to was about to",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he ____ come because he was ill.",
+  "keyword": "",
+  "gap_prefix": "He said he ",
+  "gap_suffix": " come because he was ill.",
+  "answer": "couldn't",
+  "options": [
+   "can't",
+   "couldn't",
+   "hasn't",
+   "hadn't"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "can to could in reported ability",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ finished if she had worked harder.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " finished if she had worked harder.",
+  "answer": "could have",
+  "options": [
+   "can",
+   "will",
+   "could have",
+   "would"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "modal perfect retained in backshift",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They said the results ____ the following week.",
+  "keyword": "",
+  "gap_prefix": "They said the results ",
+  "gap_suffix": " the following week.",
+  "answer": "would be announced",
+  "options": [
+   "will be announced",
+   "are announced",
+   "were announced",
+   "would be announced"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "future passive to conditional passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he ____ there for two years by then.",
+  "keyword": "",
+  "gap_prefix": "He said he ",
+  "gap_suffix": " there for two years by then.",
+  "answer": "would have been working",
+  "options": [
+   "would have been working",
+   "will have been working",
+   "works",
+   "has worked"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "future perfect continuous to conditional perfect continuous",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said she ____ the manager the day before.",
+  "keyword": "",
+  "gap_prefix": "She said she ",
+  "gap_suffix": " the manager the day before.",
+  "answer": "had met",
+  "options": [
+   "has met",
+   "had met",
+   "met",
+   "meets"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "backshift routine past",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The doctor said I ____ rest for a week.",
+  "keyword": "",
+  "gap_prefix": "The doctor said I ",
+  "gap_suffix": " rest for a week.",
+  "answer": "must",
+  "options": [
+   "had to",
+   "have to",
+   "must",
+   "must have"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "must for obligation to had to — trap must have",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said water ____ at 100 degrees Celsius.",
+  "keyword": "",
+  "gap_prefix": "He said water ",
+  "gap_suffix": " at 100 degrees Celsius.",
+  "answer": "boils",
+  "options": [
+   "boiled",
+   "had boiled",
+   "has boiled",
+   "boils"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "scientific truth without backshift",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She said they ____ the house before she was born.",
+  "keyword": "",
+  "gap_prefix": "She said they ",
+  "gap_suffix": " the house before she was born.",
+  "answer": "had built",
+  "options": [
+   "had built",
+   "have built",
+   "built",
+   "build"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect for pre-existing state",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He said he ____ his homework when I called.",
+  "keyword": "",
+  "gap_prefix": "He said he ",
+  "gap_suffix": " his homework when I called.",
+  "answer": "was doing",
+  "options": [
+   "is doing",
+   "was doing",
+   "had done",
+   "does"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "past continuous in reported interruption",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She claims ____ the summit by dawn, but nobody believes her.",
+  "keyword": "",
+  "gap_prefix": "She claims ",
+  "gap_suffix": " the summit by dawn, but nobody believes her.",
+  "answer": "to have reached",
+  "options": [
+   "to reach",
+   "to be reaching",
+   "to have reached",
+   "to have been reaching"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "perfect infinitive for earlier claim",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He is said ____ the vault before the alarm went off.",
+  "keyword": "",
+  "gap_prefix": "He is said ",
+  "gap_suffix": " the vault before the alarm went off.",
+  "answer": "to have emptied",
+  "options": [
+   "to empty",
+   "to be emptying",
+   "to have been empty",
+   "to have emptied"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "perfect infinitive passive reporting",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the instructions, he assembled the device in minutes.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the instructions, he assembled the device in minutes.",
+  "answer": "Having read",
+  "options": [
+   "Having read",
+   "Reading",
+   "To have read",
+   "Read"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "perfect participle for prior action",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She denied ____ the documents before the meeting.",
+  "keyword": "",
+  "gap_prefix": "She denied ",
+  "gap_suffix": " the documents before the meeting.",
+  "answer": "having seen",
+  "options": [
+   "to have seen",
+   "having seen",
+   "to see",
+   "seeing to"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "deny + gerund, perfect gerund for prior act",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He seems ____ all night; his eyes are red.",
+  "keyword": "",
+  "gap_prefix": "He seems ",
+  "gap_suffix": " all night; his eyes are red.",
+  "answer": "to have been working",
+  "options": [
+   "to work",
+   "to be work",
+   "to have been working",
+   "to have worked hardly"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "perfect continuous infinitive after seem",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The suspect is believed ____ the country last night.",
+  "keyword": "",
+  "gap_prefix": "The suspect is believed ",
+  "gap_suffix": " the country last night.",
+  "answer": "to have left",
+  "options": [
+   "to leave",
+   "to be leaving",
+   "to have been left",
+   "to have left"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "perfect infinitive in passive reporting",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ for hours, the crew finally spotted land.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " for hours, the crew finally spotted land.",
+  "answer": "Having drifted",
+  "options": [
+   "Having drifted",
+   "Drifting",
+   "To have drifted",
+   "Drifted"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "having + pp for completed drift",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She was accused of ____ confidential files.",
+  "keyword": "",
+  "gap_prefix": "She was accused of ",
+  "gap_suffix": " confidential files.",
+  "answer": "having leaked",
+  "options": [
+   "to have leaked",
+   "having leaked",
+   "leak",
+   "to leak"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "accuse of + gerund perfect",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He regrets ____ the offer without consulting his family.",
+  "keyword": "",
+  "gap_prefix": "He regrets ",
+  "gap_suffix": " the offer without consulting his family.",
+  "answer": "having accepted",
+  "options": [
+   "to have accepted",
+   "to accept",
+   "having accepted",
+   "accept"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "regret + gerund for past act",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They appear ____ the tickets weeks ago.",
+  "keyword": "",
+  "gap_prefix": "They appear ",
+  "gap_suffix": " the tickets weeks ago.",
+  "answer": "to have booked",
+  "options": [
+   "to book",
+   "to be booking",
+   "to have been book",
+   "to have booked"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "appear + perfect infinitive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ his degree, he applied for a dozen positions.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " his degree, he applied for a dozen positions.",
+  "answer": "Having obtained",
+  "options": [
+   "Having obtained",
+   "Obtaining",
+   "To have obtained",
+   "Obtain"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "perfect participle for qualification first",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She admitted ____ the answer key before the test.",
+  "keyword": "",
+  "gap_prefix": "She admitted ",
+  "gap_suffix": " the answer key before the test.",
+  "answer": "having seen",
+  "options": [
+   "to have seen",
+   "having seen",
+   "to see",
+   "see"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "admit + gerund",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He is thought ____ in this village for decades.",
+  "keyword": "",
+  "gap_prefix": "He is thought ",
+  "gap_suffix": " in this village for decades.",
+  "answer": "to have lived",
+  "options": [
+   "to live",
+   "to be lived",
+   "to have lived",
+   "to have been lived"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "perfect infinitive for long residence — trap passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ warned, the tourists still swam in the rough sea.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " warned, the tourists still swam in the rough sea.",
+  "answer": "Having been",
+  "options": [
+   "Being",
+   "To have been",
+   "Been",
+   "Having been"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "perfect passive participle",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She happened ____ the article before the debate.",
+  "keyword": "",
+  "gap_prefix": "She happened ",
+  "gap_suffix": " the article before the debate.",
+  "answer": "to have read",
+  "options": [
+   "to have read",
+   "to read",
+   "reading",
+   "having read to"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "happen + perfect infinitive for chance prior act",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He denied ____ about the merger beforehand.",
+  "keyword": "",
+  "gap_prefix": "He denied ",
+  "gap_suffix": " about the merger beforehand.",
+  "answer": "having known",
+  "options": [
+   "to have known",
+   "having known",
+   "know",
+   "to know"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "perfect gerund after deny",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The manuscript is said ____ in a single night.",
+  "keyword": "",
+  "gap_prefix": "The manuscript is said ",
+  "gap_suffix": " in a single night.",
+  "answer": "to have been written",
+  "options": [
+   "to be written",
+   "to write",
+   "to have been written",
+   "to have written"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "perfect infinitive passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ the marathon, she collapsed at the finish line.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " the marathon, she collapsed at the finish line.",
+  "answer": "Having completed",
+  "options": [
+   "Completing",
+   "To have completed",
+   "Complete",
+   "Having completed"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "having + pp for just-finished feat",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She was proud of ____ selected for the national team.",
+  "keyword": "",
+  "gap_prefix": "She was proud of ",
+  "gap_suffix": " selected for the national team.",
+  "answer": "having been",
+  "options": [
+   "having been",
+   "to have been",
+   "being to",
+   "to be"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "perfect passive gerund after proud of",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He pretended ____ the warning signs on the cliff.",
+  "keyword": "",
+  "gap_prefix": "He pretended ",
+  "gap_suffix": " the warning signs on the cliff.",
+  "answer": "not to have seen",
+  "options": [
+   "not to see",
+   "not to have seen",
+   "not seeing",
+   "not having see"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "negative perfect infinitive after pretend",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ in foreign currency, the firm avoided heavy losses.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " in foreign currency, the firm avoided heavy losses.",
+  "answer": "Having invested",
+  "options": [
+   "Investing yet",
+   "To invest",
+   "Having invested",
+   "Invest"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "perfect participle for prior investment cause",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She is reported ____ the first prize last year.",
+  "keyword": "",
+  "gap_prefix": "She is reported ",
+  "gap_suffix": " the first prize last year.",
+  "answer": "to have won",
+  "options": [
+   "to win",
+   "to be winning",
+   "to have been won",
+   "to have won"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "report + perfect infinitive — trap passive",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "By the time we got to the cinema, the film ____.",
+  "keyword": "",
+  "gap_prefix": "By the time we got to the cinema, the film ",
+  "gap_suffix": ".",
+  "answer": "had already started",
+  "options": [
+   "had already started",
+   "has already started",
+   "already starts",
+   "was already starting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past perfect after by the time + past",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "I will phone you as soon as I ____ the results.",
+  "keyword": "",
+  "gap_prefix": "I will phone you as soon as I ",
+  "gap_suffix": " the results.",
+  "answer": "get",
+  "options": [
+   "will get",
+   "get",
+   "have got will",
+   "would get"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "present simple after as soon as for future",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She has been ill ____ last Tuesday, so she missed the trip.",
+  "keyword": "",
+  "gap_prefix": "She has been ill ",
+  "gap_suffix": " last Tuesday, so she missed the trip.",
+  "answer": "since",
+  "options": [
+   "for",
+   "from",
+   "since",
+   "during"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "since + point",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He waited ____ the rescue team arrived with torches.",
+  "keyword": "",
+  "gap_prefix": "He waited ",
+  "gap_suffix": " the rescue team arrived with torches.",
+  "answer": "until",
+  "options": [
+   "by",
+   "since",
+   "for",
+   "until"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "until for waiting endpoint",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Hardly ____ the speech when the crowd erupted.",
+  "keyword": "",
+  "gap_prefix": "Hardly ",
+  "gap_suffix": " the speech when the crowd erupted.",
+  "answer": "had he finished",
+  "options": [
+   "had he finished",
+   "he had finished",
+   "has he finished",
+   "did he finished"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inversion Hardly + past perfect",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "We ____ the new stadium yet; it opens next spring.",
+  "keyword": "",
+  "gap_prefix": "We ",
+  "gap_suffix": " the new stadium yet; it opens next spring.",
+  "answer": "haven't visited",
+  "options": [
+   "didn't visit",
+   "haven't visited",
+   "hadn't visited",
+   "don't visit"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "present perfect with yet",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She will have submitted her thesis ____ Friday.",
+  "keyword": "",
+  "gap_prefix": "She will have submitted her thesis ",
+  "gap_suffix": " Friday.",
+  "answer": "by",
+  "options": [
+   "until",
+   "since",
+   "by",
+   "for"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "by + deadline with future perfect",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He had hardly ____ the house when it began to hail.",
+  "keyword": "",
+  "gap_prefix": "He had hardly ",
+  "gap_suffix": " the house when it began to hail.",
+  "answer": "left",
+  "options": [
+   "leave",
+   "leaves",
+   "leaving",
+   "left"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "had hardly + pp",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I haven't seen him ____ we graduated, which is ages ago.",
+  "keyword": "",
+  "gap_prefix": "I haven't seen him ",
+  "gap_suffix": " we graduated, which is ages ago.",
+  "answer": "since",
+  "options": [
+   "since",
+   "for",
+   "until",
+   "by"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "since + past clause",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "No sooner had the match ____ than it started raining.",
+  "keyword": "",
+  "gap_prefix": "No sooner had the match ",
+  "gap_suffix": " than it started raining.",
+  "answer": "begun",
+  "options": [
+   "begin",
+   "begun",
+   "began",
+   "begins"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "past participle after No sooner had",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ charge of the project for two years before resigning.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " charge of the project for two years before resigning.",
+  "answer": "had been in",
+  "options": [
+   "has been in",
+   "is in",
+   "had been in",
+   "was in"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "past perfect duration before past resignation",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "When he retires, he ____ for the firm for forty years.",
+  "keyword": "",
+  "gap_prefix": "When he retires, he ",
+  "gap_suffix": " for the firm for forty years.",
+  "answer": "will have worked",
+  "options": [
+   "will work",
+   "works",
+   "has worked",
+   "will have worked"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "future perfect with when + present for future",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The climbers, ____ the summit by noon, decided to descend at once.",
+  "keyword": "",
+  "gap_prefix": "The climbers, ",
+  "gap_suffix": " the summit by noon, decided to descend at once.",
+  "answer": "having reached",
+  "options": [
+   "having reached",
+   "reaching",
+   "to have reached",
+   "reach"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "perfect participle for prior achievement — mid-clause",
+  "difficulty": 3
+ }
+]

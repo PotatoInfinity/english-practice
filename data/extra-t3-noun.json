@@ -1,0 +1,2162 @@
+[
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the heavy rain, the football match was cancelled.",
+      "The teacher kept all pupils in ____ during the excursion.",
+      "The guide shared an insider's ____ of the old town."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of recent complaints, the canteen menu was changed.",
+      "The lifeguard kept the swimmers in ____ from the tower.",
+      "The top-floor lounge affords a fine ____ of the sunset."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of rising costs, the company froze new hiring.",
+      "The deer vanished from ____ into the thick woods.",
+      "The lakeside cabin enjoys a calm ____ of the water."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of public safety, the park was closed at night.",
+      "The rescue helicopter came into ____ over the ridge.",
+      "The museum hall places sculptures on public ____."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the fog, the ferry crossing was delayed.",
+      "The divers lost ____ of the shore in the thick mist.",
+      "The fortress wall commands a wide ____ of the plain."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the traffic jam, we left home an hour early.",
+      "Rare paintings will be on ____ at the city gallery next week.",
+      "The classroom debate encouraged each pupil to defend a ____."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of your previous experience, you will need less training.",
+      "The new skyscraper blocks our ____ of the cathedral.",
+      "The panel invited experts with opposing ____."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the heatwave, outdoor practice was moved indoors.",
+      "She holds strong ____ on environmental protection.",
+      "The report presents a balanced ____ of the risks."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the noise, the library introduced quiet hours.",
+      "He expressed a clear ____ during the school debate.",
+      "The vicar expressed a moderate ____ on the proposal."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of falling sales, the shop cut its opening hours.",
+      "In my ____, this plan is too risky to approve.",
+      "The coach gave his honest ____ on the team's defeat."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the drought, water use is strictly limited.",
+      "They took the ____ that prices would soon fall again.",
+      "With a ____ to gaining experience, she volunteers weekly."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "In ____ of the celebration, classes will end at noon.",
+      "With a ____ to saving money, they cycle to work every day.",
+      "With a ____ to reducing waste, the school bans plastic bottles."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The hotel balcony offers a lovely sea ____.",
+      "With a ____ to improving health, he quit smoking last year.",
+      "The lookout point yields a magnificent ____ of the islands."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "Our cottage window has a stunning mountain ____.",
+      "A bird's-eye ____ of the valley is truly unforgettable.",
+      "The pilot enjoyed a clear ____ of the runway lights."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The observation deck gives a panoramic ____ of the bay.",
+      "From this angle the garden presents a tidy ____.",
+      "The photographer waited for a perfect ____ of the peaks."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The restaurant terrace commands a breathtaking ____ of the city.",
+      "The lawyer offered a different ____ of the accident.",
+      "The passengers caught their first ____ of land at dawn."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The summit path rewards hikers with a clear ____ of the lake.",
+      "Public ____ has shifted strongly in favour of reform.",
+      "The hikers lost ____ of the trail in the snowstorm."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The tower room provides a splendid ____ of the harbour.",
+      "His ____ on school discipline is widely respected.",
+      "The castle slowly faded from ____ in the evening mist."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The cliff walk opens up a dramatic ____ of the coastline.",
+      "The documentary gives a fresh ____ on local history.",
+      "The nurse kept the patient in ____ through the night."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The bridge offers an uninterrupted ____ of the river.",
+      "The committee promised to consider every ____ before deciding.",
+      "The exhibition puts rare coins on ____ for a month."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The penthouse boasts a spectacular ____ of the skyline.",
+      "The leaflet sets out the party's ____ on property taxes.",
+      "The billboard spoils our ____ of the hills."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The campsite has a peaceful ____ of the forest valley.",
+      "Please keep your personal ____ out of the official report.",
+      "The mayor stated her ____ on public transport plainly."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The island slowly came into ____ as the morning fog lifted.",
+      "The students were asked to summarise both sides of the ____.",
+      "The judges heard opposing ____ from both lawyers."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The ship gradually disappeared from ____ behind the horizon.",
+      "The editorial reflects the newspaper's official ____.",
+      "The article gives a critical ____ of the new policy."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The police kept the suspect in full ____ all evening.",
+      "The survey collected parents' ____ on longer school days.",
+      "The headteacher values every teacher's ____."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The detective never let the house out of his ____.",
+      "The architects discussed alternative ____ for the square.",
+      "The book offers a child's ____ of the war."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "view",
+    "options": [
+      "The children waved until the bus was out of ____.",
+      "Her ____ of the story differs completely from his.",
+      "The film presents a humorous ____ on city life."
+    ],
+    "alternatives": [],
+    "notes": "view = opinion (hold views, express a view); sight/visibility (come into view, in full view); outlook/scene (sea view, panoramic view); purpose (with a view to).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Everyone has the right to freedom of ____.",
+      "Parts of ____ include nouns, verbs and adjectives.",
+      "'A sea of troubles' is a classic figure of ____."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The mayor made a long welcome ____ at the ceremony.",
+      "In the exam we had to turn direct ____ into indirect form.",
+      "The chairperson made an opening ____ of five minutes."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "In grammar, nouns are one part of ____.",
+      "The comedian's after-dinner ____ made everyone laugh.",
+      "The team leader gave a pep-talk ____ before the match."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "He quoted the sentence in direct ____.",
+      "The graduate gave a thoughtful valedictory ____.",
+      "The bride's father gave a witty ____ at the reception."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "'To kick the bucket' is a figure of ____ meaning to die.",
+      "The minister's radio ____ addressed the nation.",
+      "The student's ____ was confident during the presentation."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "She delivered an emotional farewell ____ to her class.",
+      "The witness spoke in a slow and careful ____.",
+      "The actor lost the power of ____ after the accident."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "His ____ was slurred for weeks after the operation.",
+      "The coach gave a half-time ____ that inspired the team.",
+      "Public ____ often begins with a joke to relax listeners."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The president's keynote ____ impressed the whole audience.",
+      "The little boy prepared a thank-you ____ for his teacher.",
+      "The farewell ____ brought tears to many eyes."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Hate ____ has no place on our school platform.",
+      "The activist defended free ____ in her essay.",
+      "Verbs are the most important part of ____ for beginners."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The new student gave her maiden ____ in the debating club.",
+      "The judge interrupted the defence lawyer's ____.",
+      "Indirect ____ is also called reported speech in textbooks."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The lawyer's closing ____ lasted almost an hour.",
+      "Slurred ____ can be a sign of extreme tiredness.",
+      "'The classroom buzzed' is a figure of ____."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Children gradually develop clear ____ by age four.",
+      "The queen's Christmas ____ is watched by millions.",
+      "The mayor's inaugural ____ set out her main goals."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The therapist helps patients with defects of ____.",
+      "The professor gave a brilliant inaugural ____.",
+      "The guest speaker gave an inspiring ____ on courage."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The recorded ____ was played back to the jury.",
+      "Misreported ____ caused confusion in the newspapers.",
+      "The toddler's ____ is becoming clearer every month."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "His acceptance ____ was brief but very moving.",
+      "Figurative ____ makes poems more vivid and lively.",
+      "His ____ faltered when the microphone failed."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The head girl gave a vote of thanks after the guest's ____.",
+      "Conjunctions are a small but useful part of ____.",
+      "The principal's stern ____ warned against cheating."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Direct ____ uses quotation marks around the exact words.",
+      "The captain made a brief safety ____ before takeoff.",
+      "The secretary took down the chairman's ____ word for word."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Reported ____ shifts the verb tense one step back.",
+      "The director gave a closing ____ at the festival.",
+      "His emotional ____ moved the entire hall to silence."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "'The wind shouted' is a figure of ____ called personification.",
+      "The pupil read his poem aloud with clear ____.",
+      "Interjections are the smallest part of ____."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Adjectives form another basic part of ____.",
+      "The candidate's campaign ____ promised better schools.",
+      "The reporter converted the interview into reported ____."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The principal made a short opening ____ before the concert.",
+      "The lecturer's introductory ____ outlined the course.",
+      "'Time flies' is a common figure of ____."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The champion gave a victory ____ to the cheering fans.",
+      "Her ____ was barely audible over the noise.",
+      "The manager gave a short explanatory ____ to visitors."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The ambassador's formal ____ welcomed the visitors.",
+      "The doctor noted the child's delayed ____ development.",
+      "The pupil delivered a confident ____ about space travel."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Her ____ became hesitant when she saw the large crowd.",
+      "Freedom of ____ is guaranteed by the constitution.",
+      "The lecturer praised her fluent and natural ____."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The patient's ____ improved after months of therapy.",
+      "The winner's ____ thanked family, coaches and friends.",
+      "The inventor's acceptance ____ thanked his whole team."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "Freedom of ____ protects even unpopular opinions.",
+      "Prepositions belong to a tricky part of ____.",
+      "The priest gave a solemn ____ at the memorial."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "speech",
+    "options": [
+      "The council chair delivered a powerful ____ on recycling.",
+      "The servant quoted his master in reported ____.",
+      "Her ____ grew steadier as she continued speaking."
+    ],
+    "alternatives": [],
+    "notes": "speech = spoken language (freedom of speech, power of speech); talk/address (make/deliver a speech); grammar/quoted words (part of speech, direct/reported speech, figure of speech).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "There is little ____ of success without careful preparation.",
+      "The ____ for recovery seems better this morning.",
+      "The ____ of loneliness troubles elderly residents."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of promotion keeps the young clerk motivated.",
+      "There is scant ____ of agreement before midnight.",
+      "There is high ____ of floods after the thaw."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ for lasting peace looks brighter this year.",
+      "The ____ of extra pay encouraged them to work overtime.",
+      "The ____ of a new stadium excites football fans."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The new factory holds out a bright ____ for the whole town.",
+      "The bridge project offers great ____ to local builders.",
+      "The training course improves the ____ of promotion."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "They face the gloomy ____ of another dry season.",
+      "The ____ of snow thrilled the excited children.",
+      "The ____ of accident keeps the safety officer alert."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "A good ____ of employment attracted many graduates.",
+      "There is little ____ of catching the train now.",
+      "There is little ____ of the Parcel arriving today."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "There is no ____ of the match resuming in this storm.",
+      "The ____ of free tickets drew a huge crowd.",
+      "The ____ of adventure calls many young people abroad."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of rain ruined our plans for a picnic.",
+      "The course gives a fair ____ of passing the exam.",
+      "The invention holds a golden ____ for the inventor."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of a long delay made passengers restless.",
+      "The ____ for investment looks promising again.",
+      "The ____ for trade has improved since spring."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "Scholarships offer a real ____ to poor but gifted pupils.",
+      "There is no ____ of rescue before dawn.",
+      "There is zero ____ of the event starting on time."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The doctor gave little ____ of a quick recovery.",
+      "The ____ of retirement pleases the elderly teacher.",
+      "The ____ of a better life draws migrants to cities."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of failure frightened the inexperienced team.",
+      "Genetic research opens a hopeful ____ for patients.",
+      "A second interview means a strong ____ of success."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "Tourism brings a fresh ____ of income to the island.",
+      "The ____ of a quiet weekend attracts busy parents.",
+      "The ____ of rain stopped the cricket final."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of promotion excites every junior officer.",
+      "There is some ____ of the fog clearing by noon.",
+      "The ____ for a cure gives hope to families."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ for a good harvest is excellent after the rain.",
+      "The ____ of criticism did not stop the brave reporter.",
+      "There is no ____ of seats left for tonight."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "There is every ____ of the team winning the final.",
+      "The operation offers some ____ of a full cure.",
+      "The ____ of higher prices worries pensioners."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of unemployment worries school leavers.",
+      "Better roads bring a new ____ to remote villages.",
+      "The new railway brings fresh ____ to the valley."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "Oil exploration offers some ____ of wealth to the region.",
+      "The ____ of a scholarship motivates diligent students.",
+      "The ____ of discovery drives scientists forward."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of a pay rise cheered the tired workers.",
+      "There is slight ____ of a storm later today.",
+      "There is little ____ of agreement without compromise."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "There is faint ____ of finding the lost documents.",
+      "The ____ for promotion depends on hard work.",
+      "The ____ of overtime attracts weekend workers."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of travel delights the adventurous boy.",
+      "There is good ____ of seeing dolphins on this trip.",
+      "The reform offers some ____ of fairer taxes."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "A university degree improves the ____ of a good job.",
+      "The ____ of fame changed the young singer completely.",
+      "The ____ for veterans is brighter with new aid."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of defeat discouraged the exhausted players.",
+      "The apprenticeship gives a solid ____ of skilled work.",
+      "There is poor ____ of the fog lifting soon."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The talks opened up a new ____ for cooperation.",
+      "The ____ of war alarms the whole population.",
+      "The ____ of a medal inspired the young runner."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "There is strong ____ of economic growth next year.",
+      "There is remote ____ of the road reopening today.",
+      "The scholarship opens a bright ____ for the girl."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The ____ of a holiday cheered the overworked nurse.",
+      "The ____ of a bonus spurred the sales team on.",
+      "The ____ of pollution concerns the residents."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "prospect",
+    "options": [
+      "The young artist saw little ____ of becoming famous.",
+      "The wetland scheme creates a fine ____ for wildlife.",
+      "There is no ____ of the letter arriving today."
+    ],
+    "alternatives": [],
+    "notes": "prospect = chance/hope (little prospect of, no prospect of); future outlook (prospect for, bright prospect); expected event (prospect of rain/promotion). Singular prospect fits all three.",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "In ____ of the new evidence, the case was reopened.",
+      "The experiment needs strong ____ to grow plants indoors.",
+      "In ____ of complaints, the menu was revised."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The report sheds new ____ on the causes of the fire.",
+      "The northern ____ danced in the night sky.",
+      "The evening ____ faded quickly behind the hills."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The missing documents finally came to ____.",
+      "The stage was bathed in coloured ____.",
+      "The desk ____ is too dim for reading."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The driver waited patiently for the green ____.",
+      "The torch gave out a feeble ____.",
+      "The discovery brought the problem to ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "They packed up their tents at first ____.",
+      "The committee examined the plan in the ____ of experience.",
+      "X-rays are a form of invisible ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "After many mistakes he finally saw the ____.",
+      "The headlights throw a long ____ ahead.",
+      "In ____ of rising costs, hiring was frozen."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "We read the map by the dim ____ of a candle.",
+      "The kitchen is full of natural ____ at noon.",
+      "The morning ____ woke the campers early."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The classroom was filled with bright morning ____.",
+      "The beacon ____ guided ships to harbour.",
+      "The chandelier filled the hall with warm ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The old photos were examined in a better ____.",
+      "The candle ____ went out in the draught.",
+      "The reading ____ by the sofa is broken."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The traffic ____ turned red just as we arrived.",
+      "The issue was discussed in a new ____ after the leak.",
+      "The inquiry shed fresh ____ on the accident."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The garden looks magical in the evening ____.",
+      "The porch ____ was left on all evening.",
+      "The amber ____ warned drivers to slow down."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "She switched on the bedside ____ to read.",
+      "The fluorescent ____ hurts my eyes.",
+      "In ____ of the warning, ships stayed in port."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The scandal was brought to ____ by reporters.",
+      "The interrogation threw no ____ on the mystery.",
+      "The studio uses soft ____ for portraits."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "New research throws ____ on memory loss.",
+      "In ____ of recent events, rules were tightened.",
+      "The hallway ____ stays on all night."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "In ____ of your letter, I am writing to apologise.",
+      "The soft ____ of sunset coloured the walls.",
+      "The letter was read in the ____ of new facts."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The street ____ flickered and went out.",
+      "The solar ____ powers the calculator.",
+      "The prism splits white ____ into colours."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The ultraviolet ____ reveals hidden stains.",
+      "The runway ____ guided the plane down safely.",
+      "The review placed his work in a favourable ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The mountains stood out in the clear ____ of dawn.",
+      "The newborn blinked in the harsh hospital ____.",
+      "The sensor reacts to sudden ____ changes."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The child is afraid of the dark and sleeps with a ____ on.",
+      "The dashboard ____ glowed green at night.",
+      "The night ____ attracted swarms of insects."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The laser ____ scanned the barcode quickly.",
+      "The facts came to ____ during the trial.",
+      "The emergency ____ flashed red and blue."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The decision was made in the ____ of past failures.",
+      "Infrared ____ helps the camera see at night.",
+      "The confession brought the affair to ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The attic lets in very little natural ____.",
+      "In ____ of his age, he was given a lighter task.",
+      "Ultraviolet ____ can damage the skin."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The security ____ flashed all night.",
+      "The moon's pale ____ lit the path.",
+      "In ____ of the delay, extra buses were provided."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The sunrise flooded the valley with golden ____.",
+      "The neon ____ advertised the cinema.",
+      "The table lamp gives a steady ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The lamp casts a soft ____ over the desk.",
+      "The film was developed in red ____.",
+      "The airport ____ beacons flashed in the fog."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "The truth will come to ____ sooner or later.",
+      "The seminar cast fresh ____ on the poet's life.",
+      "The microscope needs strong ____ from below."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "light",
+    "options": [
+      "In ____ of the forecast, the picnic was cancelled.",
+      "The lighthouse ____ swept across the waves.",
+      "The new law was passed in a different ____."
+    ],
+    "alternatives": [],
+    "notes": "light = illumination (bright light, by dim light); lamp/signal (green light, street light); understanding (shed light on, come to light, in light of = considering).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Water boils at 100 degrees at boiling ____.",
+      "Get to the ____ quickly in your essay.",
+      "The final victory was won on a single ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The war was a major turning ____ in our history.",
+      "The new motorway junction is a meeting ____.",
+      "The committee agreed on every major ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "He finally reached breaking ____ after long stress.",
+      "The sharp ____ of the needle hurt slightly.",
+      "The freezing ____ of milk is slightly lower."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "She made a valid ____ during the discussion.",
+      "The argument reached a painful ____.",
+      "The novel's turning ____ comes in chapter five."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "You have completely missed the ____ of the story.",
+      "The boiling ____ of alcohol is lower than water.",
+      "The customs post is the entry ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "That rude comment is beside the ____.",
+      "The graduation was a high ____ of her school years.",
+      "Her kindness is a strong ____ that wins friends."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Let's get straight to the ____ without delay.",
+      "The chairman stressed the ____ about safety.",
+      "The driver stopped at the pick-up ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Punctuality is not his strong ____.",
+      "His answer gained an extra ____ in the quiz.",
+      "The speech wandered far from the ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The ____ is that we need more time to finish.",
+      "The fine ____ of the pencil broke off.",
+      "The graph peaks at its highest ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "They had passed the ____ of no return.",
+      "Needles have a sharp ____ for sewing.",
+      "The patient is at a critical ____ of recovery."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Freezing ____ of water is zero degrees Celsius.",
+      "The interview reached the ____ where silence fell.",
+      "The revision class stressed the ____ on tenses."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The match reached a critical ____ at 2-2.",
+      "The talk was rambling and never reached its ____.",
+      "The marshal marked the finishing ____ clearly."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The debate centred on the ____ of fairness.",
+      "Keep your remarks to the ____, please.",
+      "The employee earned a merit ____ for punctuality."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 2
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Decimal ____ separates whole numbers from fractions.",
+      "Honesty is a strong ____ in his character.",
+      "The thorn pricked with a painful ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "His weak ____ is spelling under pressure.",
+      "The dispute passed the ____ of negotiation.",
+      "The negotiations reached a deadlock ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "She has a ____ when it comes to fashion advice.",
+      "The teacher awarded a bonus ____ for creativity.",
+      "The election was a turning ____ for the party."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The lawyer laboured the ____ for an hour.",
+      "The knife has a blunt ____ after years of use.",
+      "The compass needle swings to the north ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "I take your ____ about the cost overrun.",
+      "The story's climax was the turning ____.",
+      "The essay lost marks for missing the ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Come to the ____; we have little time.",
+      "The discussion boiled down to one central ____.",
+      "The local shop is a useful collection ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Their criticism is beside the ____.",
+      "The flood reached its highest ____ on Friday.",
+      "The arrowhead has a deadly sharp ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "Obedience is not their strong ____.",
+      "His patience is at breaking ____.",
+      "The toddler scored a ____ for naming all colours."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The melting ____ of ice is very sharp.",
+      "The lecture's main ____ was lost on many.",
+      "The summit was the high ____ of our trek."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The team's defeat marked a low ____ of the season.",
+      "The sentence must end with a full stop, a final ____.",
+      "Costs must be cut at this ____ in the project."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The main ____ of the lesson was teamwork.",
+      "The runner collapsed at the starting ____.",
+      "The syllabus lists three key ____ for revision."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "The compass ____ always faces north.",
+      "The bus stop is our usual meeting ____.",
+      "The referee awarded a penalty ____."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "He scored full marks for a valid ____ well argued.",
+      "The pen has a fine ____ for thin lines.",
+      "The referee deducted a penalty ____ for bad behaviour."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  },
+  {
+    "category": "three_in_one",
+    "prompt": "Fill ONE word that fits all three sentences",
+    "keyword": "",
+    "gap_prefix": "",
+    "gap_suffix": "",
+    "answer": "point",
+    "options": [
+      "She proved her ____ with clear examples.",
+      "He made the ____ that prices were too high.",
+      "The quiz team earned an extra ____ for the bonus question."
+    ],
+    "alternatives": [],
+    "notes": "point = idea raised (make a point, beside the point, to the point); decisive moment/level (turning point, breaking point, boiling point); tip/score/marker (sharp point, penalty point, meeting point).",
+    "difficulty": 3
+  }
+]

@@ -298,6 +298,7 @@
    "answer": "at variance with",
    "full_answer": "His testimony is at variance with the forensic evidence.",
    "alternatives": [],
+   "options": [],
    "notes": "in conflict with",
    "difficulty": 3
   },
@@ -317,6 +318,7 @@
    "answer": "not old enough",
    "full_answer": "He is not old enough to drive a car.",
    "alternatives": [],
+   "options": [],
    "notes": "too <-> not enough",
    "difficulty": 1
   },
@@ -336,6 +338,7 @@
    "answer": "nail",
    "full_answer": "She hit the nail on the head with her analysis.",
    "alternatives": [],
+   "options": [],
    "notes": "say exactly right thing",
    "difficulty": 2
   },
@@ -355,6 +358,7 @@
    "answer": "basket",
    "full_answer": "Do not put all your eggs in one basket.",
    "alternatives": [],
+   "options": [],
    "notes": "do not risk all",
    "difficulty": 2
   },
@@ -374,6 +378,7 @@
    "answer": "court",
    "full_answer": "The ball is in your court now.",
    "alternatives": [],
+   "options": [],
    "notes": "your turn to act",
    "difficulty": 2
   },
@@ -393,6 +398,7 @@
    "answer": "light of",
    "full_answer": "He made light of the problem.",
    "alternatives": [],
+   "options": [],
    "notes": "make light of = dismiss as unimportant.",
    "difficulty": 1
   },
@@ -412,6 +418,7 @@
    "answer": "decision",
    "full_answer": "He made a decision to resign yesterday.",
    "alternatives": [],
+   "options": [],
    "notes": "make a decision to do = decide.",
    "difficulty": 1
   },
@@ -433,6 +440,7 @@
    "alternatives": [
     "every effort"
    ],
+   "options": [],
    "notes": "make an effort to do = try hard.",
    "difficulty": 1
   },
@@ -452,6 +460,7 @@
    "answer": "precedent",
    "full_answer": "The ruling set a precedent for future cases.",
    "alternatives": [],
+   "options": [],
    "notes": "set a precedent = create example.",
    "difficulty": 1
   },
@@ -471,6 +480,7 @@
    "answer": "up with",
    "full_answer": "He puts up with his noisy neighbours.",
    "alternatives": [],
+   "options": [],
    "notes": "tolerate",
    "difficulty": 2
   },
@@ -490,6 +500,7 @@
    "answer": "from",
    "full_answer": "She suffers from headaches.",
    "alternatives": [],
+   "options": [],
    "notes": "be affected by",
    "difficulty": 1
   },
@@ -509,6 +520,7 @@
    "answer": "for",
    "full_answer": "He is famous for his novels.",
    "alternatives": [],
+   "options": [],
    "notes": "known for",
    "difficulty": 1
   },
@@ -528,6 +540,7 @@
    "answer": "on",
    "full_answer": "She is keen on music.",
    "alternatives": [],
+   "options": [],
    "notes": "enthusiastic about",
    "difficulty": 1
   },
@@ -547,6 +560,7 @@
    "answer": "for",
    "full_answer": "She longs for peace.",
    "alternatives": [],
+   "options": [],
    "notes": "desire strongly",
    "difficulty": 2
   },
@@ -566,11 +580,282 @@
    "answer": "on",
    "full_answer": "Success depends on hard work.",
    "alternatives": [],
+   "options": [],
    "notes": "rely on",
    "difficulty": 1
   },
   "reasons": [
    "exact duplicate"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 43,
+  "entry": {
+   "category": "mcq",
+   "prompt": "A: \"I didn't study and I still passed!\" B: \"____. You were just lucky.\"",
+   "keyword": "Don't",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "Don't push your luck",
+   "full_answer": "... Don't push your luck ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "Don't push your luck",
+    "Don't pull your luck",
+    "Don't press your hope",
+    "Don't push your chance"
+   ],
+   "notes": "Don't push your luck = don't risk what you have",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 53,
+  "entry": {
+   "category": "mcq",
+   "prompt": "After the scandal, the company was in hot ____ with investors.",
+   "keyword": "water",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "water",
+   "full_answer": "... water ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "water",
+    "fire",
+    "soup",
+    "oil"
+   ],
+   "notes": "in hot water = in trouble",
+   "difficulty": 2
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 70,
+  "entry": {
+   "category": "mcq",
+   "prompt": "The new student felt like a fish out of ____ on the first day.",
+   "keyword": "water",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "water",
+   "full_answer": "... water ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "water",
+    "sea",
+    "river",
+    "pond"
+   ],
+   "notes": "fish out of water = uncomfortable in new situation",
+   "difficulty": 2
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 71,
+  "entry": {
+   "category": "mcq",
+   "prompt": "His argument doesn't cut any ____ with me; I still disagree.",
+   "keyword": "ice",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "ice",
+   "full_answer": "... ice ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "ice",
+    "wood",
+    "paper",
+    "cake"
+   ],
+   "notes": "not cut any ice = have no effect",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 74,
+  "entry": {
+   "category": "mcq",
+   "prompt": "He was skating on thin ____ by arriving late every day.",
+   "keyword": "ice",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "ice",
+   "full_answer": "... ice ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "ice",
+    "snow",
+    "glass",
+    "water"
+   ],
+   "notes": "skating on thin ice = taking risks",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 87,
+  "entry": {
+   "category": "mcq",
+   "prompt": "He has a chip on his ____ about his poor English.",
+   "keyword": "shoulder",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "shoulder",
+   "full_answer": "... shoulder ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "shoulder",
+    "head",
+    "back",
+    "arm"
+   ],
+   "notes": "chip on shoulder = lingering grievance / inferiority",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 104,
+  "entry": {
+   "category": "mcq",
+   "prompt": "The new smartphone costs an arm and a ____.",
+   "keyword": "leg",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "leg",
+   "full_answer": "... leg ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "leg",
+    "hand",
+    "foot",
+    "finger"
+   ],
+   "notes": "arm and a leg = very expensive",
+   "difficulty": 2
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 108,
+  "entry": {
+   "category": "mcq",
+   "prompt": "The truth finally came to ____ after years of hiding.",
+   "keyword": "light",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "light",
+   "full_answer": "... light ...",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "light",
+    "day",
+    "sight",
+    "view"
+   ],
+   "notes": "come to light = become known",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-idiom.json",
+  "index": 117,
+  "entry": {
+   "category": "mcq",
+   "prompt": "The man driving a(n) ____ car is my father's boss.",
+   "keyword": "expensive",
+   "gap_prefix": "...",
+   "gap_suffix": "...",
+   "answer": "expensive blue Japanese",
+   "full_answer": "... expensive blue Japanese ...",
+   "alternatives": [
+    "C"
+   ],
+   "options": [
+    "blue Japanese expensive",
+    "expensive Japanese blue",
+    "expensive blue Japanese",
+    "Japanese expensive blue"
+   ],
+   "notes": "opinion-colour-origin",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-mcq-modal.json",
+  "index": 96,
+  "entry": {
+   "category": "mcq",
+   "prompt": "____ you need help, give me a call.",
+   "keyword": "Should",
+   "gap_prefix": "",
+   "gap_suffix": "you need help, give me a call.",
+   "answer": "Should",
+   "full_answer": "Should you need help, give me a call.",
+   "alternatives": [
+    "A"
+   ],
+   "options": [
+    "Should",
+    "Would",
+    "Had",
+    "Were"
+   ],
+   "notes": "inversion Should fronted",
+   "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
   ]
  },
  {
@@ -585,6 +870,7 @@
    "answer": "parcel",
    "full_answer": "Delays are part and parcel of the job.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible binomial; parcel and part is unacceptable.",
    "difficulty": 1
   },
@@ -604,6 +890,7 @@
    "answer": "low",
    "full_answer": "They searched high and low.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; low and high wrong.",
    "difficulty": 1
   },
@@ -623,6 +910,7 @@
    "answer": "wish I had studied",
    "full_answer": "I wish I had studied harder.",
    "alternatives": [],
+   "options": [],
    "notes": "regret past = wish + past perfect",
    "difficulty": 3
   },
@@ -642,11 +930,32 @@
    "answer": "would rather drink",
    "full_answer": "I would rather drink tea than coffee.",
    "alternatives": [],
+   "options": [],
    "notes": "would rather V than V",
    "difficulty": 2
   },
   "reasons": [
    "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/extra-cloze-conj.json",
+  "index": 21,
+  "entry": {
+   "category": "blank_fill",
+   "prompt": "___ the heavy rain, the match continued.",
+   "keyword": "in",
+   "gap_prefix": "",
+   "gap_suffix": "the heavy rain, the match continued.",
+   "answer": "in spite of",
+   "full_answer": "In spite of the heavy rain, the match continued.",
+   "alternatives": [],
+   "options": [],
+   "notes": "in spite of + noun; equals despite.",
+   "difficulty": 2
+  },
+  "reasons": [
+   "gap conflict: kept 'despite'"
   ]
  },
  {
@@ -661,6 +970,7 @@
    "answer": "paper",
    "full_answer": "Bring pen and paper.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; paper and pen marked.",
    "difficulty": 1
   },
@@ -680,6 +990,7 @@
    "answer": "lightning",
    "full_answer": "Fear thunder and lightning.",
    "alternatives": [],
+   "options": [],
    "notes": "Natural order thunder then lightning; reverse wrong.",
    "difficulty": 1
   },
@@ -699,6 +1010,7 @@
    "answer": "handsome",
    "full_answer": "He is tall, dark and handsome.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed trinomial cliche; order rarely reversed.",
    "difficulty": 1
   },
@@ -718,6 +1030,7 @@
    "answer": "later",
    "full_answer": "He will come sooner or later.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible comparative pair.",
    "difficulty": 1
   },
@@ -737,6 +1050,7 @@
    "answer": "quiet",
    "full_answer": "I need peace and quiet.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; quiet and peace marked.",
    "difficulty": 1
   },
@@ -756,6 +1070,7 @@
    "answer": "less",
    "full_answer": "It costs more or less about ten dollars.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; less or more wrong.",
    "difficulty": 1
   },
@@ -775,6 +1090,7 @@
    "answer": "jump",
    "full_answer": "It happens hop, skip and jump in town.",
    "alternatives": [],
+   "options": [],
    "notes": "Order-fixed trinomial; hop, skip and jump only.",
    "difficulty": 1
   },
@@ -794,6 +1110,7 @@
    "answer": "egg",
    "full_answer": "It is a chicken and egg.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; egg and chicken marked for this idiom.",
    "difficulty": 1
   },
@@ -813,6 +1130,7 @@
    "answer": "death",
    "full_answer": "It is a matter of life and death.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; death and life wrong.",
    "difficulty": 1
   },
@@ -832,6 +1150,7 @@
    "answer": "dogs",
    "full_answer": "It rains cats and dogs.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; dogs and cats wrong.",
    "difficulty": 1
   },
@@ -851,6 +1170,7 @@
    "answer": "games",
    "full_answer": "It was all fun and games.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; games and fun wrong.",
    "difficulty": 1
   },
@@ -870,6 +1190,7 @@
    "answer": "there",
    "full_answer": "It was neither here nor there in the report.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; neither here nor there, reverse wrong.",
    "difficulty": 1
   },
@@ -889,6 +1210,7 @@
    "answer": "tidy",
    "full_answer": "Keep your room neat and tidy.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; tidy and neat marked.",
    "difficulty": 1
   },
@@ -908,6 +1230,7 @@
    "answer": "seek",
    "full_answer": "Kids played hide and seek.",
    "alternatives": [],
+   "options": [],
    "notes": "Game name fixed; seek and hide wrong.",
    "difficulty": 1
   },
@@ -927,6 +1250,7 @@
    "answer": "drive",
    "full_answer": "Never drink and drive.",
    "alternatives": [],
+   "options": [],
    "notes": "Legal collocation; drive and drink wrong.",
    "difficulty": 1
   },
@@ -946,6 +1270,7 @@
    "answer": "pepper",
    "full_answer": "Season with salt and pepper.",
    "alternatives": [],
+   "options": [],
    "notes": "Culinary doublet; pepper and salt marked.",
    "difficulty": 1
   },
@@ -965,6 +1290,7 @@
    "answer": "cheese",
    "full_answer": "Serve wine and cheese.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed pairing; cheese and wine wrong as set phrase.",
    "difficulty": 1
   },
@@ -984,6 +1310,7 @@
    "answer": "well",
    "full_answer": "She is alive and well.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; well and alive wrong.",
    "difficulty": 1
   },
@@ -1003,6 +1330,7 @@
    "answer": "shout",
    "full_answer": "The fans scream and shout.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; shout and scream marked.",
    "difficulty": 1
   },
@@ -1022,6 +1350,7 @@
    "answer": "alive",
    "full_answer": "The outlaw is wanted dead or alive.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed alternative; alive or dead wrong.",
    "difficulty": 1
   },
@@ -1041,6 +1370,7 @@
    "answer": "worse",
    "full_answer": "They chose better or worse in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; better or worse only, reverse wrong.",
    "difficulty": 1
   },
@@ -1060,6 +1390,7 @@
    "answer": "small",
    "full_answer": "They chose big or small in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; big or small only, reverse wrong.",
    "difficulty": 1
   },
@@ -1079,6 +1410,7 @@
    "answer": "foe",
    "full_answer": "They chose friend or foe in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; friend or foe only, reverse wrong.",
    "difficulty": 1
   },
@@ -1098,6 +1430,7 @@
    "answer": "tails",
    "full_answer": "They chose heads or tails in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; heads or tails only, reverse wrong.",
    "difficulty": 1
   },
@@ -1117,6 +1450,7 @@
    "answer": "wrong",
    "full_answer": "They chose right or wrong in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; right or wrong only, reverse wrong.",
    "difficulty": 1
   },
@@ -1136,6 +1470,7 @@
    "answer": "treat",
    "full_answer": "They chose trick or treat in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; trick or treat only, reverse wrong.",
    "difficulty": 1
   },
@@ -1155,6 +1490,7 @@
    "answer": "lose",
    "full_answer": "They chose win or lose in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; win or lose only, reverse wrong.",
    "difficulty": 1
   },
@@ -1174,6 +1510,7 @@
    "answer": "no",
    "full_answer": "They chose yes or no in the game.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; yes or no only, reverse wrong.",
    "difficulty": 1
   },
@@ -1193,6 +1530,7 @@
    "answer": "surely",
    "full_answer": "They improved slowly but surely in the end.",
    "alternatives": [],
+   "options": [],
    "notes": "Order-fixed; slowly but surely only.",
    "difficulty": 1
   },
@@ -1212,6 +1550,7 @@
    "answer": "oranges",
    "full_answer": "They mentioned the apples and oranges in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; apples and oranges only, reverse wrong.",
    "difficulty": 1
   },
@@ -1231,6 +1570,7 @@
    "answer": "blue",
    "full_answer": "They mentioned the black and blue in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; black and blue only, reverse wrong.",
    "difficulty": 1
   },
@@ -1250,6 +1590,7 @@
    "answer": "doughnuts",
    "full_answer": "They mentioned the coffee and doughnuts in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; coffee and doughnuts only, reverse wrong.",
    "difficulty": 1
   },
@@ -1269,6 +1610,7 @@
    "answer": "go",
    "full_answer": "They mentioned the come and go in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; come and go only, reverse wrong.",
    "difficulty": 1
   },
@@ -1288,6 +1630,7 @@
    "answer": "robbers",
    "full_answer": "They mentioned the cops and robbers in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; cops and robbers only, reverse wrong.",
    "difficulty": 1
   },
@@ -1307,6 +1650,7 @@
    "answer": "sugar",
    "full_answer": "They mentioned the cream and sugar in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; cream and sugar only, reverse wrong.",
    "difficulty": 1
   },
@@ -1326,6 +1670,7 @@
    "answer": "saucer",
    "full_answer": "They mentioned the cup and saucer in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; cup and saucer only, reverse wrong.",
    "difficulty": 1
   },
@@ -1345,6 +1690,7 @@
    "answer": "paste",
    "full_answer": "They mentioned the cut and paste in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; cut and paste only, reverse wrong.",
    "difficulty": 1
   },
@@ -1364,6 +1710,7 @@
    "answer": "night",
    "full_answer": "They mentioned the day and night in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; day and night only, reverse wrong.",
    "difficulty": 1
   },
@@ -1383,6 +1730,7 @@
    "answer": "last",
    "full_answer": "They mentioned the first and last in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; first and last only, reverse wrong.",
    "difficulty": 1
   },
@@ -1402,6 +1750,7 @@
    "answer": "earth",
    "full_answer": "They mentioned the heaven and earth in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; heaven and earth only, reverse wrong.",
    "difficulty": 1
   },
@@ -1421,6 +1770,7 @@
    "answer": "now",
    "full_answer": "They mentioned the here and now in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; here and now only, reverse wrong.",
    "difficulty": 1
   },
@@ -1440,6 +1790,7 @@
    "answer": "run",
    "full_answer": "They mentioned the hit and run in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; hit and run only, reverse wrong.",
    "difficulty": 1
   },
@@ -1459,6 +1810,7 @@
    "answer": "kisses",
    "full_answer": "They mentioned the hugs and kisses in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; hugs and kisses only, reverse wrong.",
    "difficulty": 1
   },
@@ -1478,6 +1830,7 @@
    "answer": "key",
    "full_answer": "They mentioned the lock and key in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; lock and key only, reverse wrong.",
    "difficulty": 1
   },
@@ -1497,6 +1850,7 @@
    "answer": "potatoes",
    "full_answer": "They mentioned the meat and potatoes in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; meat and potatoes only, reverse wrong.",
    "difficulty": 1
   },
@@ -1516,6 +1870,7 @@
    "answer": "women",
    "full_answer": "They mentioned the men and women in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; men and women only, reverse wrong.",
    "difficulty": 1
   },
@@ -1535,6 +1890,7 @@
    "answer": "cookies",
    "full_answer": "They mentioned the milk and cookies in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; milk and cookies only, reverse wrong.",
    "difficulty": 1
   },
@@ -1554,6 +1910,7 @@
    "answer": "address",
    "full_answer": "They mentioned the name and address in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; name and address only, reverse wrong.",
    "difficulty": 1
   },
@@ -1573,6 +1930,7 @@
    "answer": "then",
    "full_answer": "They mentioned the now and then in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; now and then only, reverse wrong.",
    "difficulty": 1
   },
@@ -1592,6 +1950,7 @@
    "answer": "carrots",
    "full_answer": "They mentioned the peas and carrots in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; peas and carrots only, reverse wrong.",
    "difficulty": 1
   },
@@ -1611,6 +1970,7 @@
    "answer": "pencil",
    "full_answer": "They mentioned the pen and pencil in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; pen and pencil only, reverse wrong.",
    "difficulty": 1
   },
@@ -1630,6 +1990,7 @@
    "answer": "pans",
    "full_answer": "They mentioned the pots and pans in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; pots and pans only, reverse wrong.",
    "difficulty": 1
   },
@@ -1649,6 +2010,7 @@
    "answer": "write",
    "full_answer": "They mentioned the read and write in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; read and write only, reverse wrong.",
    "difficulty": 1
   },
@@ -1668,6 +2030,7 @@
    "answer": "roll",
    "full_answer": "They mentioned the rock and roll in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; rock and roll only, reverse wrong.",
    "difficulty": 1
   },
@@ -1687,6 +2050,7 @@
    "answer": "vinegar",
    "full_answer": "They mentioned the salt and vinegar in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; salt and vinegar only, reverse wrong.",
    "difficulty": 1
   },
@@ -1706,6 +2070,7 @@
    "answer": "stones",
    "full_answer": "They mentioned the sticks and stones in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; sticks and stones only, reverse wrong.",
    "difficulty": 1
   },
@@ -1725,6 +2090,7 @@
    "answer": "chairs",
    "full_answer": "They mentioned the tables and chairs in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; tables and chairs only, reverse wrong.",
    "difficulty": 1
   },
@@ -1744,6 +2110,7 @@
    "answer": "crumpets",
    "full_answer": "They mentioned the tea and crumpets in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; tea and crumpets only, reverse wrong.",
    "difficulty": 1
   },
@@ -1763,6 +2130,7 @@
    "answer": "peace",
    "full_answer": "They mentioned the war and peace in class.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; war and peace only, reverse wrong.",
    "difficulty": 1
   },
@@ -1782,6 +2150,7 @@
    "answer": "mouse",
    "full_answer": "They play cat and mouse.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; mouse and cat wrong.",
    "difficulty": 1
   },
@@ -1801,6 +2170,7 @@
    "answer": "downs",
    "full_answer": "They shared the ups and downs.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; downs and ups unacceptable.",
    "difficulty": 1
   },
@@ -1820,6 +2190,7 @@
    "answer": "eggs",
    "full_answer": "We ate bacon and eggs.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed meal pair; eggs and bacon wrong.",
    "difficulty": 1
   },
@@ -1839,6 +2210,7 @@
    "answer": "forget",
    "full_answer": "We must forgive and forget.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed order; forget and forgive wrong.",
    "difficulty": 1
   },
@@ -1858,6 +2230,7 @@
    "answer": "chips",
    "full_answer": "We ordered fish and chips.",
    "alternatives": [],
+   "options": [],
    "notes": "Fixed culinary pair; chips and fish wrong.",
    "difficulty": 1
   },
@@ -1877,6 +2250,7 @@
    "answer": "see",
    "full_answer": "We will wait and see.",
    "alternatives": [],
+   "options": [],
    "notes": "Irreversible; see and wait wrong.",
    "difficulty": 1
   },
@@ -1896,6 +2270,7 @@
    "answer": "strong",
    "full_answer": "He drinks strong coffee every morning.",
    "alternatives": [],
+   "options": [],
    "notes": "strong coffee",
    "difficulty": 1
   },
@@ -1915,6 +2290,7 @@
    "answer": "humour",
    "full_answer": "He has a good sense of humour in class.",
    "alternatives": [],
+   "options": [],
    "notes": "sense of humour",
    "difficulty": 1
   },
@@ -1934,6 +2310,7 @@
    "answer": "the test",
    "full_answer": "He passed the test first time.",
    "alternatives": [],
+   "options": [],
    "notes": "pass test",
    "difficulty": 1
   },
@@ -1953,6 +2330,7 @@
    "answer": "to his partner",
    "full_answer": "He proposed to his partner last spring.",
    "alternatives": [],
+   "options": [],
    "notes": "propose to",
    "difficulty": 1
   },
@@ -1972,6 +2350,7 @@
    "answer": "touch",
    "full_answer": "She keeps in close touch with old friends.",
    "alternatives": [],
+   "options": [],
    "notes": "keep in touch",
    "difficulty": 1
   },
@@ -1991,6 +2370,7 @@
    "answer": "heavy",
    "full_answer": "The streets were flooded by heavy rain overnight.",
    "alternatives": [],
+   "options": [],
    "notes": "heavy rain",
    "difficulty": 1
   },
@@ -2010,6 +2390,7 @@
    "answer": "happily married",
    "full_answer": "They are happily married after decades together.",
    "alternatives": [],
+   "options": [],
    "notes": "happily married",
    "difficulty": 1
   },
@@ -2029,6 +2410,7 @@
    "answer": "the test",
    "full_answer": "They failed the test by two points.",
    "alternatives": [],
+   "options": [],
    "notes": "fail test",
    "difficulty": 1
   },
@@ -2048,6 +2430,7 @@
    "answer": "mutual friend",
    "full_answer": "They met through a mutual friend last year.",
    "alternatives": [],
+   "options": [],
    "notes": "mutual friend",
    "difficulty": 1
   },
@@ -2067,6 +2450,7 @@
    "answer": "mutual friend",
    "full_answer": "Tom is a mutual friend from school.",
    "alternatives": [],
+   "options": [],
    "notes": "mutual friend",
    "difficulty": 1
   },
@@ -2086,6 +2470,7 @@
    "answer": "brief chat",
    "full_answer": "We had a brief chat about the exams.",
    "alternatives": [],
+   "options": [],
    "notes": "brief chat",
    "difficulty": 1
   },
@@ -2105,6 +2490,7 @@
    "answer": "heavy traffic",
    "full_answer": "We were delayed by heavy traffic this morning.",
    "alternatives": [],
+   "options": [],
    "notes": "heavy traffic",
    "difficulty": 1
   },
@@ -2124,6 +2510,7 @@
    "answer": "part in",
    "full_answer": "All students took part in the contest.",
    "alternatives": [],
+   "options": [],
    "notes": "take part in = participate in.",
    "difficulty": 1
   },
@@ -2143,6 +2530,7 @@
    "answer": "good for",
    "full_answer": "Charity work does much good for society.",
    "alternatives": [],
+   "options": [],
    "notes": "do good = benefit.",
    "difficulty": 1
   },
@@ -2162,6 +2550,7 @@
    "answer": "hungry",
    "full_answer": "Children went hungry without food.",
    "alternatives": [],
+   "options": [],
    "notes": "go hungry = suffer hunger.",
    "difficulty": 1
   },
@@ -2181,6 +2570,7 @@
    "answer": "look",
    "full_answer": "Come and take a look at the new gallery.",
    "alternatives": [],
+   "options": [],
    "notes": "take a look",
    "difficulty": 1
   },
@@ -2202,6 +2592,7 @@
    "alternatives": [
     "favor"
    ],
+   "options": [],
    "notes": "do a favour = help.",
    "difficulty": 1
   },
@@ -2221,6 +2612,7 @@
    "answer": "message",
    "full_answer": "Did you get my message yesterday evening.",
    "alternatives": [],
+   "options": [],
    "notes": "get a message = receive communication.",
    "difficulty": 1
   },
@@ -2240,6 +2632,7 @@
    "answer": "part",
    "full_answer": "Everyone did their part for the success.",
    "alternatives": [],
+   "options": [],
    "notes": "do part = contribute.",
    "difficulty": 1
   },
@@ -2259,6 +2652,7 @@
    "answer": "go",
    "full_answer": "Have a go at the puzzle yourself first.",
    "alternatives": [],
+   "options": [],
    "notes": "have a go at = attempt.",
    "difficulty": 1
   },
@@ -2278,6 +2672,7 @@
    "answer": "look",
    "full_answer": "Have a quick look at this report please.",
    "alternatives": [],
+   "options": [],
    "notes": "have a look at = examine briefly.",
    "difficulty": 1
   },
@@ -2297,6 +2692,7 @@
    "answer": "try",
    "full_answer": "Have a try at driving my new car.",
    "alternatives": [],
+   "options": [],
    "notes": "have a try at = attempt.",
    "difficulty": 1
   },
@@ -2316,6 +2712,7 @@
    "answer": "promise",
    "full_answer": "He broke his promise and lost trust.",
    "alternatives": [],
+   "options": [],
    "notes": "break a promise",
    "difficulty": 1
   },
@@ -2335,6 +2732,7 @@
    "answer": "business",
    "full_answer": "He does business with foreign firms.",
    "alternatives": [],
+   "options": [],
    "notes": "do business = trade.",
    "difficulty": 1
   },
@@ -2354,6 +2752,7 @@
    "answer": "exercise",
    "full_answer": "He does exercise every morning to stay fit.",
    "alternatives": [],
+   "options": [],
    "notes": "do exercise = work out.",
    "difficulty": 1
   },
@@ -2373,6 +2772,7 @@
    "answer": "impression",
    "full_answer": "He gave a good impression in the interview.",
    "alternatives": [],
+   "options": [],
    "notes": "give an impression = create feeling.",
    "difficulty": 1
   },
@@ -2392,6 +2792,7 @@
    "answer": "advice",
    "full_answer": "He gave us useful advice on exam technique.",
    "alternatives": [],
+   "options": [],
    "notes": "give advice",
    "difficulty": 1
   },
@@ -2411,6 +2812,7 @@
    "answer": "nervous",
    "full_answer": "He gets very nervous before exams.",
    "alternatives": [],
+   "options": [],
    "notes": "get nervous = become anxious.",
    "difficulty": 1
   },
@@ -2430,6 +2832,7 @@
    "answer": "cold",
    "full_answer": "He got a bad cold last week.",
    "alternatives": [],
+   "options": [],
    "notes": "get a cold = catch chill illness.",
    "difficulty": 1
   },
@@ -2449,6 +2852,7 @@
    "answer": "job",
    "full_answer": "He got a job at a bank.",
    "alternatives": [],
+   "options": [],
    "notes": "get a job = be employed.",
    "difficulty": 1
   },
@@ -2468,6 +2872,7 @@
    "answer": "arrested",
    "full_answer": "He got arrested for speeding.",
    "alternatives": [],
+   "options": [],
    "notes": "get arrested for = be detained.",
    "difficulty": 1
   },
@@ -2487,6 +2892,7 @@
    "answer": "dressed",
    "full_answer": "He got dressed quickly this morning.",
    "alternatives": [],
+   "options": [],
    "notes": "get dressed = put clothes on.",
    "difficulty": 1
   },
@@ -2506,6 +2912,7 @@
    "answer": "permission",
    "full_answer": "He got permission to leave early.",
    "alternatives": [],
+   "options": [],
    "notes": "get permission to = be allowed.",
    "difficulty": 1
   },
@@ -2525,6 +2932,7 @@
    "answer": "experience",
    "full_answer": "He got valuable experience of living abroad.",
    "alternatives": [],
+   "options": [],
    "notes": "get experience of = gain practice.",
    "difficulty": 1
   },
@@ -2544,6 +2952,7 @@
    "answer": "angry",
    "full_answer": "He got very angry with his son.",
    "alternatives": [],
+   "options": [],
    "notes": "get angry with = become furious.",
    "difficulty": 1
   },
@@ -2563,6 +2972,7 @@
    "answer": "well",
    "full_answer": "He got well quickly after surgery.",
    "alternatives": [],
+   "options": [],
    "notes": "get well = recover.",
    "difficulty": 1
   },
@@ -2582,6 +2992,7 @@
    "answer": "bath",
    "full_answer": "He had a bath last night after work.",
    "alternatives": [],
+   "options": [],
    "notes": "have a bath = wash in tub.",
    "difficulty": 1
   },
@@ -2601,6 +3012,7 @@
    "answer": "idea",
    "full_answer": "He had a brilliant idea for a solution.",
    "alternatives": [],
+   "options": [],
    "notes": "have an idea for = think of.",
    "difficulty": 1
   },
@@ -2620,6 +3032,7 @@
    "answer": "operation",
    "full_answer": "He had an operation on his knee last year.",
    "alternatives": [],
+   "options": [],
    "notes": "have an operation on = undergo surgery.",
    "difficulty": 1
   },
@@ -2639,6 +3052,7 @@
    "answer": "flu",
    "full_answer": "He had flu last winter.",
    "alternatives": [],
+   "options": [],
    "notes": "have flu = be ill with influenza.",
    "difficulty": 1
   },
@@ -2658,6 +3072,7 @@
    "answer": "touch",
    "full_answer": "He lost touch with old classmates.",
    "alternatives": [],
+   "options": [],
    "notes": "lose touch",
    "difficulty": 1
   },
@@ -2677,6 +3092,7 @@
    "answer": "joke",
    "full_answer": "He made a joke at dinner.",
    "alternatives": [],
+   "options": [],
    "notes": "make a joke",
    "difficulty": 1
   },
@@ -2696,6 +3112,7 @@
    "answer": "impression",
    "full_answer": "He made a strong impression on us.",
    "alternatives": [],
+   "options": [],
    "notes": "make an impression on = affect strongly.",
    "difficulty": 1
   },
@@ -2715,6 +3132,7 @@
    "answer": "pride in",
    "full_answer": "He takes great pride in his school.",
    "alternatives": [],
+   "options": [],
    "notes": "take pride in = be proud of.",
    "difficulty": 1
   },
@@ -2734,6 +3152,7 @@
    "answer": "dream",
    "full_answer": "I had a strange dream about flying last night.",
    "alternatives": [],
+   "options": [],
    "notes": "have a dream about = dream.",
    "difficulty": 1
   },
@@ -2753,6 +3172,7 @@
    "answer": "bed",
    "full_answer": "I make my bed every day.",
    "alternatives": [],
+   "options": [],
    "notes": "make the bed",
    "difficulty": 1
   },
@@ -2772,6 +3192,7 @@
    "answer": "bored",
    "full_answer": "I soon get bored with his complaints.",
    "alternatives": [],
+   "options": [],
    "notes": "get bored with = become weary of.",
    "difficulty": 1
   },
@@ -2794,6 +3215,7 @@
     "close look",
     "quick look"
    ],
+   "options": [],
    "notes": "have a look at = examine briefly.",
    "difficulty": 1
   },
@@ -2813,6 +3235,7 @@
    "answer": "dark",
    "full_answer": "It got dark very early in winter.",
    "alternatives": [],
+   "options": [],
    "notes": "get dark = become dark.",
    "difficulty": 1
   },
@@ -2832,6 +3255,7 @@
    "answer": "go",
    "full_answer": "Let me have a go driving the car.",
    "alternatives": [],
+   "options": [],
    "notes": "have a go = try.",
    "difficulty": 1
   },
@@ -2851,6 +3275,7 @@
    "answer": "homework",
    "full_answer": "My son does his homework after dinner.",
    "alternatives": [],
+   "options": [],
    "notes": "do homework",
    "difficulty": 1
   },
@@ -2870,6 +3295,7 @@
    "answer": "record",
    "full_answer": "Our team broke the national record last year.",
    "alternatives": [],
+   "options": [],
    "notes": "break a record",
    "difficulty": 1
   },
@@ -2889,6 +3315,7 @@
    "answer": "look",
    "full_answer": "Please have a look at the figures carefully.",
    "alternatives": [],
+   "options": [],
    "notes": "have a look",
    "difficulty": 1
   },
@@ -2908,6 +3335,7 @@
    "answer": "touch",
    "full_answer": "Please keep in touch if you need help.",
    "alternatives": [],
+   "options": [],
    "notes": "keep in touch",
    "difficulty": 1
   },
@@ -2927,6 +3355,7 @@
    "answer": "harm to",
    "full_answer": "Pollution does great harm to health.",
    "alternatives": [],
+   "options": [],
    "notes": "do harm to = damage.",
    "difficulty": 1
   },
@@ -2948,6 +3377,7 @@
    "alternatives": [
     "research into"
    ],
+   "options": [],
    "notes": "do research on = study.",
    "difficulty": 1
   },
@@ -2967,6 +3397,7 @@
    "answer": "promise",
    "full_answer": "She always keeps her promise to clients.",
    "alternatives": [],
+   "options": [],
    "notes": "keep a promise",
    "difficulty": 1
   },
@@ -2986,6 +3417,7 @@
    "answer": "housework",
    "full_answer": "She did the housework every Saturday morning.",
    "alternatives": [],
+   "options": [],
    "notes": "do housework = clean the house.",
    "difficulty": 1
   },
@@ -3005,6 +3437,7 @@
    "answer": "birth to",
    "full_answer": "She gave birth to a baby yesterday.",
    "alternatives": [],
+   "options": [],
    "notes": "give birth to = deliver baby.",
    "difficulty": 1
   },
@@ -3024,6 +3457,7 @@
    "answer": "married",
    "full_answer": "She got married to her college sweetheart.",
    "alternatives": [],
+   "options": [],
    "notes": "get married to = wed.",
    "difficulty": 1
   },
@@ -3043,6 +3477,7 @@
    "answer": "permission",
    "full_answer": "She got permission to leave.",
    "alternatives": [],
+   "options": [],
    "notes": "get permission = be allowed.",
    "difficulty": 1
   },
@@ -3062,6 +3497,7 @@
    "answer": "of",
    "full_answer": "She got rid of the stains completely.",
    "alternatives": [],
+   "options": [],
    "notes": "get rid of = eliminate.",
    "difficulty": 1
   },
@@ -3081,6 +3517,7 @@
    "answer": "sick",
    "full_answer": "She got sick during the trip.",
    "alternatives": [],
+   "options": [],
    "notes": "get sick = become ill.",
    "difficulty": 1
   },
@@ -3100,6 +3537,7 @@
    "answer": "chance",
    "full_answer": "She got the chance to perform on stage.",
    "alternatives": [],
+   "options": [],
    "notes": "get the chance to = be offered opportunity.",
    "difficulty": 1
   },
@@ -3119,6 +3557,7 @@
    "answer": "upset",
    "full_answer": "She got very upset about the results.",
    "alternatives": [],
+   "options": [],
    "notes": "get upset about = become distressed.",
    "difficulty": 1
   },
@@ -3138,6 +3577,7 @@
    "answer": "baby",
    "full_answer": "She had a baby in May.",
    "alternatives": [],
+   "options": [],
    "notes": "have a baby = give birth.",
    "difficulty": 1
   },
@@ -3157,6 +3597,7 @@
    "answer": "chat",
    "full_answer": "She had a chat with neighbours over tea.",
    "alternatives": [],
+   "options": [],
    "notes": "have a chat with = talk informally.",
    "difficulty": 1
   },
@@ -3176,6 +3617,7 @@
    "answer": "drink",
    "full_answer": "She had a drink with her friend after work.",
    "alternatives": [],
+   "options": [],
    "notes": "have a drink = drink socially.",
    "difficulty": 1
   },
@@ -3195,6 +3637,7 @@
    "answer": "rest",
    "full_answer": "She had a good rest after the long flight.",
    "alternatives": [],
+   "options": [],
    "notes": "have a rest = relax briefly.",
    "difficulty": 1
   },
@@ -3214,6 +3657,7 @@
    "answer": "course",
    "full_answer": "She is doing an evening course in design this term.",
    "alternatives": [],
+   "options": [],
    "notes": "do a course in = enrol in.",
    "difficulty": 1
   },
@@ -3235,6 +3679,7 @@
    "alternatives": [
     "formal complaint"
    ],
+   "options": [],
    "notes": "make a complaint about = complain formally.",
    "difficulty": 1
   },
@@ -3256,6 +3701,7 @@
    "alternatives": [
     "generous contribution"
    ],
+   "options": [],
    "notes": "make a contribution to = give/donate.",
    "difficulty": 1
   },
@@ -3275,6 +3721,7 @@
    "answer": "list",
    "full_answer": "She made a list of tasks.",
    "alternatives": [],
+   "options": [],
    "notes": "make a list",
    "difficulty": 1
   },
@@ -3296,6 +3743,7 @@
    "alternatives": [
     "great progress"
    ],
+   "options": [],
    "notes": "make progress in = advance.",
    "difficulty": 1
   },
@@ -3315,6 +3763,7 @@
    "answer": "headache",
    "full_answer": "She often has a splitting headache after work.",
    "alternatives": [],
+   "options": [],
    "notes": "have a headache = suffer head pain.",
    "difficulty": 1
   },
@@ -3334,6 +3783,7 @@
    "answer": "record",
    "full_answer": "She set a new record in swimming.",
    "alternatives": [],
+   "options": [],
    "notes": "set a record = achieve best.",
    "difficulty": 1
   },
@@ -3353,6 +3803,7 @@
    "answer": "record",
    "full_answer": "She set a new world record in the sprint.",
    "alternatives": [],
+   "options": [],
    "notes": "set a record",
    "difficulty": 1
   },
@@ -3374,6 +3825,7 @@
    "alternatives": [
     "good care of"
    ],
+   "options": [],
    "notes": "take care of = look after.",
    "difficulty": 1
   },
@@ -3393,6 +3845,7 @@
    "answer": "duty",
    "full_answer": "Soldiers did their duty bravely.",
    "alternatives": [],
+   "options": [],
    "notes": "do duty = perform obligation.",
    "difficulty": 1
   },
@@ -3412,6 +3865,7 @@
    "answer": "wrong",
    "full_answer": "Something went wrong with our plan.",
    "alternatives": [],
+   "options": [],
    "notes": "go wrong = fail.",
    "difficulty": 1
   },
@@ -3431,6 +3885,7 @@
    "answer": "the exam",
    "full_answer": "Students must take the exam in June.",
    "alternatives": [],
+   "options": [],
    "notes": "take an exam",
    "difficulty": 1
   },
@@ -3450,6 +3905,7 @@
    "answer": "notes",
    "full_answer": "Students should take notes during lectures.",
    "alternatives": [],
+   "options": [],
    "notes": "take notes",
    "difficulty": 1
   },
@@ -3469,6 +3925,7 @@
    "answer": "best",
    "full_answer": "The athletes did their best to win the match.",
    "alternatives": [],
+   "options": [],
    "notes": "do best = try hardest.",
    "difficulty": 1
   },
@@ -3488,6 +3945,7 @@
    "answer": "hungry",
    "full_answer": "The baby got hungry at midnight.",
    "alternatives": [],
+   "options": [],
    "notes": "get hungry = become hungry.",
    "difficulty": 1
   },
@@ -3507,6 +3965,7 @@
    "answer": "nap",
    "full_answer": "The baby had a short nap this afternoon.",
    "alternatives": [],
+   "options": [],
    "notes": "have a nap = sleep briefly.",
    "difficulty": 1
   },
@@ -3526,6 +3985,7 @@
    "answer": "argument",
    "full_answer": "The brothers had a bitter argument over money.",
    "alternatives": [],
+   "options": [],
    "notes": "have an argument over = quarrel.",
    "difficulty": 1
   },
@@ -3545,6 +4005,7 @@
    "answer": "temperature",
    "full_answer": "The child had a high temperature yesterday.",
    "alternatives": [],
+   "options": [],
    "notes": "have a temperature = run fever.",
    "difficulty": 1
   },
@@ -3564,6 +4025,7 @@
    "answer": "homework",
    "full_answer": "The children did their homework late last night.",
    "alternatives": [],
+   "options": [],
    "notes": "do homework = complete assignments.",
    "difficulty": 1
   },
@@ -3583,6 +4045,7 @@
    "answer": "place",
    "full_answer": "The conference will take place in London next March.",
    "alternatives": [],
+   "options": [],
    "notes": "take place",
    "difficulty": 1
   },
@@ -3602,6 +4065,7 @@
    "answer": "missing",
    "full_answer": "The keys have gone missing mysteriously.",
    "alternatives": [],
+   "options": [],
    "notes": "go missing = disappear.",
    "difficulty": 1
   },
@@ -3621,6 +4085,7 @@
    "answer": "missing",
    "full_answer": "The keys went missing yesterday.",
    "alternatives": [],
+   "options": [],
    "notes": "go missing = disappear.",
    "difficulty": 1
   },
@@ -3640,6 +4105,7 @@
    "answer": "excited",
    "full_answer": "The kids got very excited about the trip.",
    "alternatives": [],
+   "options": [],
    "notes": "get excited about = become thrilled.",
    "difficulty": 1
   },
@@ -3659,6 +4125,7 @@
    "answer": "damage to",
    "full_answer": "The storm did much damage to many houses.",
    "alternatives": [],
+   "options": [],
    "notes": "do damage to = harm.",
    "difficulty": 1
   },
@@ -3678,6 +4145,7 @@
    "answer": "caught",
    "full_answer": "The thief got caught by the police.",
    "alternatives": [],
+   "options": [],
    "notes": "get caught = be captured.",
    "difficulty": 1
   },
@@ -3697,6 +4165,7 @@
    "answer": "stuck",
    "full_answer": "The truck got stuck in the mud.",
    "alternatives": [],
+   "options": [],
    "notes": "get stuck in = become jammed.",
    "difficulty": 1
   },
@@ -3716,6 +4185,7 @@
    "answer": "worse",
    "full_answer": "The weather got much worse overnight.",
    "alternatives": [],
+   "options": [],
    "notes": "get worse = deteriorate.",
    "difficulty": 1
   },
@@ -3735,6 +4205,7 @@
    "answer": "experiment",
    "full_answer": "They did an experiment on volunteers with the new drug.",
    "alternatives": [],
+   "options": [],
    "notes": "do an experiment on = test.",
    "difficulty": 1
   },
@@ -3754,6 +4225,7 @@
    "answer": "swimming",
    "full_answer": "They go swimming regularly in summer.",
    "alternatives": [],
+   "options": [],
    "notes": "go swimming = swim for leisure.",
    "difficulty": 1
   },
@@ -3773,6 +4245,7 @@
    "answer": "divorced",
    "full_answer": "They got divorced last year.",
    "alternatives": [],
+   "options": [],
    "notes": "get divorced = end marriage legally.",
    "difficulty": 1
   },
@@ -3792,6 +4265,7 @@
    "answer": "argument",
    "full_answer": "They had a bad argument last night.",
    "alternatives": [],
+   "options": [],
    "notes": "have an argument = quarrel.",
    "difficulty": 1
   },
@@ -3811,6 +4285,7 @@
    "answer": "laugh",
    "full_answer": "They had a good laugh at the joke.",
    "alternatives": [],
+   "options": [],
    "notes": "have a laugh = laugh.",
    "difficulty": 1
   },
@@ -3830,6 +4305,7 @@
    "answer": "talk",
    "full_answer": "They had a long talk about the plan.",
    "alternatives": [],
+   "options": [],
    "notes": "have a talk about = discuss.",
    "difficulty": 1
   },
@@ -3849,6 +4325,7 @@
    "answer": "fight",
    "full_answer": "They had a serious fight over the inheritance.",
    "alternatives": [],
+   "options": [],
    "notes": "have a fight over = quarrel physically/verbally.",
    "difficulty": 1
   },
@@ -3868,6 +4345,7 @@
    "answer": "time",
    "full_answer": "They had a wonderful time in Da Lat.",
    "alternatives": [],
+   "options": [],
    "notes": "have a time = enjoy period.",
    "difficulty": 1
   },
@@ -3887,6 +4365,7 @@
    "answer": "lunch",
    "full_answer": "They had lunch together at noon.",
    "alternatives": [],
+   "options": [],
    "notes": "have lunch = eat midday meal.",
    "difficulty": 1
   },
@@ -3906,6 +4385,7 @@
    "answer": "effort",
    "full_answer": "They made a great effort to finish on time.",
    "alternatives": [],
+   "options": [],
    "notes": "make an effort",
    "difficulty": 1
   },
@@ -3925,6 +4405,7 @@
    "answer": "sightseeing",
    "full_answer": "They went sightseeing on holiday.",
    "alternatives": [],
+   "options": [],
    "notes": "go sightseeing",
    "difficulty": 1
   },
@@ -3944,6 +4425,7 @@
    "answer": "shopping",
    "full_answer": "We did the shopping at the supermarket yesterday.",
    "alternatives": [],
+   "options": [],
    "notes": "do the shopping = buy food.",
    "difficulty": 1
   },
@@ -3963,6 +4445,7 @@
    "answer": "shopping",
    "full_answer": "We go shopping every weekend.",
    "alternatives": [],
+   "options": [],
    "notes": "go shopping = buy goods trip.",
    "difficulty": 1
   },
@@ -3982,6 +4465,7 @@
    "answer": "lost",
    "full_answer": "We got lost in the old town.",
    "alternatives": [],
+   "options": [],
    "notes": "get lost = lose way.",
    "difficulty": 1
   },
@@ -4001,6 +4485,7 @@
    "answer": "ready",
    "full_answer": "We got ready for departure early.",
    "alternatives": [],
+   "options": [],
    "notes": "get ready for = prepare.",
    "difficulty": 1
   },
@@ -4020,6 +4505,7 @@
    "answer": "rid of",
    "full_answer": "We got rid of the rats quickly.",
    "alternatives": [],
+   "options": [],
    "notes": "get rid of = eliminate.",
    "difficulty": 1
   },
@@ -4039,6 +4525,7 @@
    "answer": "tired",
    "full_answer": "We got very tired from walking all day.",
    "alternatives": [],
+   "options": [],
    "notes": "get tired from = become exhausted.",
    "difficulty": 1
   },
@@ -4058,6 +4545,7 @@
    "answer": "chat",
    "full_answer": "We had a brief chat about the plan.",
    "alternatives": [],
+   "options": [],
    "notes": "have a chat about = talk briefly.",
    "difficulty": 1
   },
@@ -4077,6 +4565,7 @@
    "answer": "walk",
    "full_answer": "We had a slow walk in the park.",
    "alternatives": [],
+   "options": [],
    "notes": "have a walk = walk leisurely.",
    "difficulty": 1
   },
@@ -4096,6 +4585,7 @@
    "answer": "breakfast",
    "full_answer": "We had breakfast early before school.",
    "alternatives": [],
+   "options": [],
    "notes": "have breakfast = eat morning meal.",
    "difficulty": 1
   },
@@ -4115,6 +4605,7 @@
    "answer": "fun",
    "full_answer": "We had great fun at the party last night.",
    "alternatives": [],
+   "options": [],
    "notes": "have fun = enjoy.",
    "difficulty": 1
   },
@@ -4134,6 +4625,7 @@
    "answer": "hiking",
    "full_answer": "We often go hiking in the hills.",
    "alternatives": [],
+   "options": [],
    "notes": "go hiking = hike for leisure.",
    "difficulty": 1
   },
@@ -4153,6 +4645,7 @@
    "answer": "attention",
    "full_answer": "We should pay attention to the details.",
    "alternatives": [],
+   "options": [],
    "notes": "pay attention",
    "difficulty": 1
   },
@@ -4172,6 +4665,7 @@
    "answer": "job",
    "full_answer": "You did a fine job very efficiently today.",
    "alternatives": [],
+   "options": [],
    "notes": "do a job = perform task.",
    "difficulty": 1
   },
@@ -4191,6 +4685,7 @@
    "answer": "for",
    "full_answer": "He applied for the job.",
    "alternatives": [],
+   "options": [],
    "notes": "request; apply for",
    "difficulty": 1
   },
@@ -4210,6 +4705,7 @@
    "answer": "for",
    "full_answer": "He applied for the scholarship in March.",
    "alternatives": [],
+   "options": [],
    "notes": "apply for",
    "difficulty": 1
   },
@@ -4229,6 +4725,7 @@
    "answer": "with",
    "full_answer": "He is bored with the lesson.",
    "alternatives": [],
+   "options": [],
    "notes": "tired of; also by",
    "difficulty": 1
   },
@@ -4248,6 +4745,7 @@
    "answer": "on",
    "full_answer": "He is keen on photography.",
    "alternatives": [],
+   "options": [],
    "notes": "keen on",
    "difficulty": 1
   },
@@ -4267,6 +4765,7 @@
    "answer": "to",
    "full_answer": "He is married to my sister.",
    "alternatives": [],
+   "options": [],
    "notes": "wedded to",
    "difficulty": 1
   },
@@ -4286,6 +4785,7 @@
    "answer": "from",
    "full_answer": "He recovered from the illness quickly.",
    "alternatives": [],
+   "options": [],
    "notes": "get well",
    "difficulty": 1
   },
@@ -4305,6 +4805,7 @@
    "answer": "for",
    "full_answer": "He searched for his keys.",
    "alternatives": [],
+   "options": [],
    "notes": "look for",
    "difficulty": 1
   },
@@ -4324,6 +4825,7 @@
    "answer": "about",
    "full_answer": "I am worried about the exam results.",
    "alternatives": [],
+   "options": [],
    "notes": "worried about",
    "difficulty": 1
   },
@@ -4343,6 +4845,7 @@
    "answer": "for",
    "full_answer": "She apologised for being late again.",
    "alternatives": [],
+   "options": [],
    "notes": "apologise for",
    "difficulty": 1
   },
@@ -4362,6 +4865,7 @@
    "answer": "for",
    "full_answer": "She apologised for being late.",
    "alternatives": [],
+   "options": [],
    "notes": "say sorry for",
    "difficulty": 1
   },
@@ -4381,6 +4885,7 @@
    "answer": "for",
    "full_answer": "She asked for help.",
    "alternatives": [],
+   "options": [],
    "notes": "request",
    "difficulty": 1
   },
@@ -4400,6 +4905,7 @@
    "answer": "in",
    "full_answer": "She believes in hard work.",
    "alternatives": [],
+   "options": [],
    "notes": "trust value of",
    "difficulty": 1
   },
@@ -4419,6 +4925,7 @@
    "answer": "on",
    "full_answer": "She congratulated him on his success.",
    "alternatives": [],
+   "options": [],
    "notes": "praise for achievement",
    "difficulty": 1
   },
@@ -4438,6 +4945,7 @@
    "answer": "on",
    "full_answer": "She congratulated him on winning.",
    "alternatives": [],
+   "options": [],
    "notes": "praise for",
    "difficulty": 1
   },
@@ -4457,6 +4965,7 @@
    "answer": "of",
    "full_answer": "She is afraid of dogs.",
    "alternatives": [],
+   "options": [],
    "notes": "fear",
    "difficulty": 1
   },
@@ -4476,6 +4985,7 @@
    "answer": "at",
    "full_answer": "She is good at complex puzzles.",
    "alternatives": [],
+   "options": [],
    "notes": "good at",
    "difficulty": 1
   },
@@ -4495,6 +5005,7 @@
    "answer": "at",
    "full_answer": "She is good at maths.",
    "alternatives": [],
+   "options": [],
    "notes": "proficient in",
    "difficulty": 1
   },
@@ -4514,6 +5025,7 @@
    "answer": "in",
    "full_answer": "She takes pride in her neat garden.",
    "alternatives": [],
+   "options": [],
    "notes": "take pride in",
    "difficulty": 1
   },
@@ -4533,6 +5045,7 @@
    "answer": "for",
    "full_answer": "She waited for the bus.",
    "alternatives": [],
+   "options": [],
    "notes": "await",
    "difficulty": 1
   },
@@ -4552,6 +5065,7 @@
    "answer": "on",
    "full_answer": "She was keen on swimming.",
    "alternatives": [],
+   "options": [],
    "notes": "fond of",
    "difficulty": 1
   },
@@ -4571,6 +5085,7 @@
    "answer": "for",
    "full_answer": "They are famous for their hospitality.",
    "alternatives": [],
+   "options": [],
    "notes": "famous for",
    "difficulty": 1
   },
@@ -4590,6 +5105,7 @@
    "answer": "on",
    "full_answer": "They congratulated her on passing.",
    "alternatives": [],
+   "options": [],
    "notes": "praise achievement",
    "difficulty": 1
   },
@@ -4609,6 +5125,7 @@
    "answer": "for",
    "full_answer": "We waited for the bus in the rain.",
    "alternatives": [],
+   "options": [],
    "notes": "wait for",
    "difficulty": 1
   },

@@ -1,0 +1,2722 @@
+[
+ {
+  "category": "mcq",
+  "prompt": "From this ____, the reform looks like a costly failure.",
+  "keyword": "",
+  "gap_prefix": "From this",
+  "gap_suffix": ", the reform looks like a costly failure.",
+  "answer": "perspective",
+  "full_answer": "From this perspective, the reform looks like a costly failure.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospects",
+   "prospectus"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "perspective = viewpoint; prospect = future chance",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The climb gave us a totally new ____ on the city's growth.",
+  "keyword": "",
+  "gap_prefix": "The climb gave us a totally new",
+  "gap_suffix": "on the city's growth.",
+  "answer": "perspective",
+  "full_answer": "The climb gave us a totally new perspective on the city's growth.",
+  "options": [
+   "prospect",
+   "prospectus",
+   "prospects",
+   "perspective"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "perspective = way of seeing",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "You need to put the defeat into ____ before resigning.",
+  "keyword": "",
+  "gap_prefix": "You need to put the defeat into",
+  "gap_suffix": "before resigning.",
+  "answer": "perspective",
+  "full_answer": "You need to put the defeat into perspective before resigning.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "perspective",
+   "prospect"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "put/keep sth in perspective",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Her essay offers a fresh ____ on rural migration.",
+  "keyword": "",
+  "gap_prefix": "Her essay offers a fresh",
+  "gap_suffix": "on rural migration.",
+  "answer": "perspective",
+  "full_answer": "Her essay offers a fresh perspective on rural migration.",
+  "options": [
+   "prospects",
+   "perspective",
+   "prospect",
+   "prospectus"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "perspective on = viewpoint about",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The documentary lacks historical ____ and misleads viewers.",
+  "keyword": "",
+  "gap_prefix": "The documentary lacks historical",
+  "gap_suffix": "and misleads viewers.",
+  "answer": "perspective",
+  "full_answer": "The documentary lacks historical perspective and misleads viewers.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospectus",
+   "prospects"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "lack perspective = unbalanced view",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Seen in ____, the deficit is smaller than last decade's.",
+  "keyword": "",
+  "gap_prefix": "Seen in",
+  "gap_suffix": ", the deficit is smaller than last decade's.",
+  "answer": "perspective",
+  "full_answer": "Seen in perspective, the deficit is smaller than last decade's.",
+  "options": [
+   "prospect",
+   "prospectus",
+   "prospects",
+   "perspective"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "seen/put in perspective",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A narrow ____ makes every setback feel catastrophic.",
+  "keyword": "",
+  "gap_prefix": "A narrow",
+  "gap_suffix": "makes every setback feel catastrophic.",
+  "answer": "perspective",
+  "full_answer": "A narrow perspective makes every setback feel catastrophic.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "perspective",
+   "prospect"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "perspective = mental outlook",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The talks gave analysts a broader ____ on energy security.",
+  "keyword": "",
+  "gap_prefix": "The talks gave analysts a broader",
+  "gap_suffix": "on energy security.",
+  "answer": "perspective",
+  "full_answer": "The talks gave analysts a broader perspective on energy security.",
+  "options": [
+   "prospects",
+   "perspective",
+   "prospect",
+   "prospectus"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "broad perspective = wide viewpoint",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Painters of that school mastered linear ____ and depth.",
+  "keyword": "",
+  "gap_prefix": "Painters of that school mastered linear",
+  "gap_suffix": "and depth.",
+  "answer": "perspective",
+  "full_answer": "Painters of that school mastered linear perspective and depth.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospectus",
+   "prospects"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linear perspective (art technique)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "His ____ on welfare is shaped by years of fieldwork.",
+  "keyword": "",
+  "gap_prefix": "His",
+  "gap_suffix": "on welfare is shaped by years of fieldwork.",
+  "answer": "perspective",
+  "full_answer": "His perspective on welfare is shaped by years of fieldwork.",
+  "options": [
+   "prospect",
+   "prospectus",
+   "prospects",
+   "perspective"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "perspective on = opinion after experience",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "There is little ____ of a breakthrough before the summit.",
+  "keyword": "",
+  "gap_prefix": "There is little",
+  "gap_suffix": "of a breakthrough before the summit.",
+  "answer": "prospect",
+  "full_answer": "There is little prospect of a breakthrough before the summit.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "prospect",
+   "perspective"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "prospect of sth = likelihood",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The ____ of finding skilled staff worries the factory.",
+  "keyword": "",
+  "gap_prefix": "The",
+  "gap_suffix": "of finding skilled staff worries the factory.",
+  "answer": "prospect",
+  "full_answer": "The prospect of finding skilled staff worries the factory.",
+  "options": [
+   "prospects",
+   "prospect",
+   "perspective",
+   "prospectus"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "prospect of doing sth",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Rising debts dim the ____ of an early recovery.",
+  "keyword": "",
+  "gap_prefix": "Rising debts dim the",
+  "gap_suffix": "of an early recovery.",
+  "answer": "prospect",
+  "full_answer": "Rising debts dim the prospect of an early recovery.",
+  "options": [
+   "prospect",
+   "perspective",
+   "prospectus",
+   "prospects"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "dim prospect = poor chance",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The peace talks offer a glimmer of ____ after years of war.",
+  "keyword": "",
+  "gap_prefix": "The peace talks offer a glimmer of",
+  "gap_suffix": "after years of war.",
+  "answer": "prospect",
+  "full_answer": "The peace talks offer a glimmer of prospect after years of war.",
+  "options": [
+   "perspective",
+   "prospectus",
+   "prospects",
+   "prospect"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "glimmer of prospect (hope)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She left banking because the ____ there seemed bleak.",
+  "keyword": "",
+  "gap_prefix": "She left banking because the",
+  "gap_suffix": "there seemed bleak.",
+  "answer": "prospect",
+  "full_answer": "She left banking because the prospect there seemed bleak.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "prospect",
+   "perspective"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "prospect = expected future",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Oil investors are excited by the ____ of huge returns.",
+  "keyword": "",
+  "gap_prefix": "Oil investors are excited by the",
+  "gap_suffix": "of huge returns.",
+  "answer": "prospect",
+  "full_answer": "Oil investors are excited by the prospect of huge returns.",
+  "options": [
+   "prospects",
+   "prospect",
+   "perspective",
+   "prospectus"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "prospect of returns (finance)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The doctor held out little ____ of a full recovery.",
+  "keyword": "",
+  "gap_prefix": "The doctor held out little",
+  "gap_suffix": "of a full recovery.",
+  "answer": "prospect",
+  "full_answer": "The doctor held out little prospect of a full recovery.",
+  "options": [
+   "prospect",
+   "perspective",
+   "prospectus",
+   "prospects"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hold out prospect = offer hope",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Faced with the ____ of exile, he chose to negotiate.",
+  "keyword": "",
+  "gap_prefix": "Faced with the",
+  "gap_suffix": "of exile, he chose to negotiate.",
+  "answer": "prospect",
+  "full_answer": "Faced with the prospect of exile, he chose to negotiate.",
+  "options": [
+   "perspective",
+   "prospectus",
+   "prospects",
+   "prospect"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "faced with the prospect of",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Graduates face bright job ____ in the tech sector.",
+  "keyword": "",
+  "gap_prefix": "Graduates face bright job",
+  "gap_suffix": "in the tech sector.",
+  "answer": "prospects",
+  "full_answer": "Graduates face bright job prospects in the tech sector.",
+  "options": [
+   "prospect",
+   "prospectus",
+   "prospects",
+   "perspective"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "job prospects (plural) = opportunities",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The survey improved career ____ for vocational students.",
+  "keyword": "",
+  "gap_prefix": "The survey improved career",
+  "gap_suffix": "for vocational students.",
+  "answer": "prospects",
+  "full_answer": "The survey improved career prospects for vocational students.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "perspective",
+   "prospect"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "career prospects",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Drought has ruined harvest ____ across the province.",
+  "keyword": "",
+  "gap_prefix": "Drought has ruined harvest",
+  "gap_suffix": "across the province.",
+  "answer": "prospects",
+  "full_answer": "Drought has ruined harvest prospects across the province.",
+  "options": [
+   "prospects",
+   "perspective",
+   "prospect",
+   "prospectus"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "harvest prospects = expected yield",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Promotion ____ at the firm depend on overseas postings.",
+  "keyword": "",
+  "gap_prefix": "Promotion",
+  "gap_suffix": "at the firm depend on overseas postings.",
+  "answer": "prospects",
+  "full_answer": "Promotion prospects at the firm depend on overseas postings.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospectus",
+   "prospects"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "promotion prospects (plural)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The team assessed its ____ before bidding for the final.",
+  "keyword": "",
+  "gap_prefix": "The team assessed its",
+  "gap_suffix": "before bidding for the final.",
+  "answer": "prospects",
+  "full_answer": "The team assessed its prospects before bidding for the final.",
+  "options": [
+   "prospect",
+   "prospectus",
+   "prospects",
+   "perspective"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "assess prospects = chances",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Export ____ brightened after the tariff deal was signed.",
+  "keyword": "",
+  "gap_prefix": "Export",
+  "gap_suffix": "brightened after the tariff deal was signed.",
+  "answer": "prospects",
+  "full_answer": "Export prospects brightened after the tariff deal was signed.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "perspective",
+   "prospect"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "export prospects brighten",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Applicants should read the university ____ carefully.",
+  "keyword": "",
+  "gap_prefix": "Applicants should read the university",
+  "gap_suffix": "carefully.",
+  "answer": "prospectus",
+  "full_answer": "Applicants should read the university prospectus carefully.",
+  "options": [
+   "prospectus",
+   "perspective",
+   "prospect",
+   "prospects"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "prospectus = official brochure",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The fund's ____ warns of currency and market risks.",
+  "keyword": "",
+  "gap_prefix": "The fund's",
+  "gap_suffix": "warns of currency and market risks.",
+  "answer": "prospectus",
+  "full_answer": "The fund's prospectus warns of currency and market risks.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospects",
+   "prospectus"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "investment prospectus (legal document)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Details of fees are buried in the school's ____.",
+  "keyword": "",
+  "gap_prefix": "Details of fees are buried in the school's",
+  "gap_suffix": ".",
+  "answer": "prospectus",
+  "full_answer": "Details of fees are buried in the school's prospectus.",
+  "options": [
+   "prospect",
+   "prospects",
+   "prospectus",
+   "perspective"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "school prospectus = course brochure",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Before investing, study the company's share ____.",
+  "keyword": "",
+  "gap_prefix": "Before investing, study the company's share",
+  "gap_suffix": ".",
+  "answer": "prospectus",
+  "full_answer": "Before investing, study the company's share prospectus.",
+  "options": [
+   "prospects",
+   "prospectus",
+   "perspective",
+   "prospect"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "share prospectus",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The college sends a glossy ____ to every candidate.",
+  "keyword": "",
+  "gap_prefix": "The college sends a glossy",
+  "gap_suffix": "to every candidate.",
+  "answer": "prospectus",
+  "full_answer": "The college sends a glossy prospectus to every candidate.",
+  "options": [
+   "prospectus",
+   "perspective",
+   "prospect",
+   "prospects"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "glossy prospectus",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "According to the ____, the course requires fieldwork.",
+  "keyword": "",
+  "gap_prefix": "According to the",
+  "gap_suffix": ", the course requires fieldwork.",
+  "answer": "prospectus",
+  "full_answer": "According to the prospectus, the course requires fieldwork.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospects",
+   "prospectus"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "according to the prospectus",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A balanced ____ helps voters judge the proposal fairly.",
+  "keyword": "",
+  "gap_prefix": "A balanced",
+  "gap_suffix": "helps voters judge the proposal fairly.",
+  "answer": "perspective",
+  "full_answer": "A balanced perspective helps voters judge the proposal fairly.",
+  "options": [
+   "prospectus",
+   "prospects",
+   "perspective",
+   "prospect"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "balanced perspective",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "There is every ____ that prices will stabilise by spring.",
+  "keyword": "",
+  "gap_prefix": "There is every",
+  "gap_suffix": "that prices will stabilise by spring.",
+  "answer": "prospect",
+  "full_answer": "There is every prospect that prices will stabilise by spring.",
+  "options": [
+   "prospects",
+   "prospect",
+   "perspective",
+   "prospectus"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "there is every prospect that",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The firm's long-term ____ remain strong despite the fine.",
+  "keyword": "",
+  "gap_prefix": "The firm's long-term",
+  "gap_suffix": "remain strong despite the fine.",
+  "answer": "prospects",
+  "full_answer": "The firm's long-term prospects remain strong despite the fine.",
+  "options": [
+   "prospects",
+   "perspective",
+   "prospect",
+   "prospectus"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "long-term prospects (plural)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The IPO ____ runs to two hundred pages of fine print.",
+  "keyword": "",
+  "gap_prefix": "The IPO",
+  "gap_suffix": "runs to two hundred pages of fine print.",
+  "answer": "prospectus",
+  "full_answer": "The IPO prospectus runs to two hundred pages of fine print.",
+  "options": [
+   "perspective",
+   "prospect",
+   "prospects",
+   "prospectus"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "IPO prospectus (document)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Risk is ____ in any experimental surgery.",
+  "keyword": "",
+  "gap_prefix": "Risk is",
+  "gap_suffix": "in any experimental surgery.",
+  "answer": "inherent",
+  "full_answer": "Risk is inherent in any experimental surgery.",
+  "options": [
+   "independent",
+   "intimated",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "inherent in = built into",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Bias seemed ____ in the sampling method they chose.",
+  "keyword": "",
+  "gap_prefix": "Bias seemed",
+  "gap_suffix": "in the sampling method they chose.",
+  "answer": "inherent",
+  "full_answer": "Bias seemed inherent in the sampling method they chose.",
+  "options": [
+   "indifferent",
+   "inherent",
+   "intimate",
+   "independent"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "inherent in + method",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Delays are ____ to megaprojects of this scale.",
+  "keyword": "",
+  "gap_prefix": "Delays are",
+  "gap_suffix": "to megaprojects of this scale.",
+  "answer": "inherent",
+  "full_answer": "Delays are inherent to megaprojects of this scale.",
+  "options": [
+   "inherent",
+   "intimate",
+   "independent",
+   "imminent"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inherent in/to = intrinsic",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The reform addresses flaws ____ in the old subsidy regime.",
+  "keyword": "",
+  "gap_prefix": "The reform addresses flaws",
+  "gap_suffix": "in the old subsidy regime.",
+  "answer": "inherent",
+  "full_answer": "The reform addresses flaws inherent in the old subsidy regime.",
+  "options": [
+   "intimate",
+   "independent",
+   "inherited",
+   "inherent"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "inherent vs inherited (confusable)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "No one can remove the uncertainty ____ in forecasting.",
+  "keyword": "",
+  "gap_prefix": "No one can remove the uncertainty",
+  "gap_suffix": "in forecasting.",
+  "answer": "inherent",
+  "full_answer": "No one can remove the uncertainty inherent in forecasting.",
+  "options": [
+   "independent",
+   "innate",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "inherent vs innate nuance",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They enjoy an ____ knowledge of the delta's waterways.",
+  "keyword": "",
+  "gap_prefix": "They enjoy an",
+  "gap_suffix": "knowledge of the delta's waterways.",
+  "answer": "intimate",
+  "full_answer": "They enjoy an intimate knowledge of the delta's waterways.",
+  "options": [
+   "infinite",
+   "intimate",
+   "inherent",
+   "independent"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "intimate knowledge = deep detailed",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The memoir reveals ____ details of her exile years.",
+  "keyword": "",
+  "gap_prefix": "The memoir reveals",
+  "gap_suffix": "details of her exile years.",
+  "answer": "intimate",
+  "full_answer": "The memoir reveals intimate details of her exile years.",
+  "options": [
+   "intimate",
+   "inherent",
+   "independent",
+   "infinite"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "intimate details = personal private",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He has an ____ relationship with the craft village.",
+  "keyword": "",
+  "gap_prefix": "He has an",
+  "gap_suffix": "relationship with the craft village.",
+  "answer": "intimate",
+  "full_answer": "He has an intimate relationship with the craft village.",
+  "options": [
+   "inherent",
+   "independent",
+   "immediate",
+   "intimate"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "intimate relationship = very close",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The two families have ____ links going back decades.",
+  "keyword": "",
+  "gap_prefix": "The two families have",
+  "gap_suffix": "links going back decades.",
+  "answer": "intimate",
+  "full_answer": "The two families have intimate links going back decades.",
+  "options": [
+   "independent",
+   "initial",
+   "intimate",
+   "inherent"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "intimate links = close ties",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She gave an ____ account of the negotiations.",
+  "keyword": "",
+  "gap_prefix": "She gave an",
+  "gap_suffix": "account of the negotiations.",
+  "answer": "intimate",
+  "full_answer": "She gave an intimate account of the negotiations.",
+  "options": [
+   "ultimate",
+   "intimate",
+   "inherent",
+   "independent"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "intimate account = first-hand detailed",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The islands are ____ with the mainland's trade network.",
+  "keyword": "",
+  "gap_prefix": "The islands are",
+  "gap_suffix": "with the mainland's trade network.",
+  "answer": "intimate",
+  "full_answer": "The islands are intimate with the mainland's trade network.",
+  "options": [
+   "intimate",
+   "inherent",
+   "independent",
+   "involved"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "intimately linked (be wary: intimate with)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They remained on ____ terms after the joint expedition.",
+  "keyword": "",
+  "gap_prefix": "They remained on",
+  "gap_suffix": "terms after the joint expedition.",
+  "answer": "intimate",
+  "full_answer": "They remained on intimate terms after the joint expedition.",
+  "options": [
+   "inherent",
+   "independent",
+   "informal",
+   "intimate"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "on intimate terms = close friendly",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Each branch operates as an ____ unit with its own budget.",
+  "keyword": "",
+  "gap_prefix": "Each branch operates as an",
+  "gap_suffix": "unit with its own budget.",
+  "answer": "independent",
+  "full_answer": "Each branch operates as an independent unit with its own budget.",
+  "options": [
+   "intimate",
+   "interdependent",
+   "independent",
+   "inherent"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "independent unit = autonomous",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The panel ordered a fully ____ inquiry into the accident.",
+  "keyword": "",
+  "gap_prefix": "The panel ordered a fully",
+  "gap_suffix": "inquiry into the accident.",
+  "answer": "independent",
+  "full_answer": "The panel ordered a fully independent inquiry into the accident.",
+  "options": [
+   "dependent",
+   "independent",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "independent inquiry = impartial",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She values being financially ____ of her parents.",
+  "keyword": "",
+  "gap_prefix": "She values being financially",
+  "gap_suffix": "of her parents.",
+  "answer": "independent",
+  "full_answer": "She values being financially independent of her parents.",
+  "options": [
+   "independent",
+   "inherent",
+   "intimate",
+   "dependable"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "independent of = not relying on",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The court must stay ____ from political pressure.",
+  "keyword": "",
+  "gap_prefix": "The court must stay",
+  "gap_suffix": "from political pressure.",
+  "answer": "independent",
+  "full_answer": "The court must stay independent from political pressure.",
+  "options": [
+   "inherent",
+   "intimate",
+   "inherent",
+   "independent"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "independent from/of pressure",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Outcomes were assessed by a strictly ____ panel of experts.",
+  "keyword": "",
+  "gap_prefix": "Outcomes were assessed by a strictly",
+  "gap_suffix": "panel of experts.",
+  "answer": "independent",
+  "full_answer": "Outcomes were assessed by a strictly independent panel of experts.",
+  "options": [
+   "intimate",
+   "dependent",
+   "independent",
+   "inherent"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "independent panel = neutral",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The school became fully ____ after the 2018 reform.",
+  "keyword": "",
+  "gap_prefix": "The school became fully",
+  "gap_suffix": "after the 2018 reform.",
+  "answer": "independent",
+  "full_answer": "The school became fully independent after the 2018 reform.",
+  "options": [
+   "dependent",
+   "independent",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "independent school/state",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Growth is largely ____ of seasonal tourism here.",
+  "keyword": "",
+  "gap_prefix": "Growth is largely",
+  "gap_suffix": "of seasonal tourism here.",
+  "answer": "independent",
+  "full_answer": "Growth is largely independent of seasonal tourism here.",
+  "options": [
+   "independent",
+   "inherent",
+   "intimate",
+   "dependent"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "independent of = unaffected by",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Voters want media ____ of corporate ownership.",
+  "keyword": "",
+  "gap_prefix": "Voters want media",
+  "gap_suffix": "of corporate ownership.",
+  "answer": "independent",
+  "full_answer": "Voters want media independent of corporate ownership.",
+  "options": [
+   "inherent",
+   "intimate",
+   "dependent",
+   "independent"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "independent of ownership",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Small errors are ____ in any hand-counted ballot.",
+  "keyword": "",
+  "gap_prefix": "Small errors are",
+  "gap_suffix": "in any hand-counted ballot.",
+  "answer": "inherent",
+  "full_answer": "Small errors are inherent in any hand-counted ballot.",
+  "options": [
+   "independent",
+   "inherited",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "inherent in counting",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The guide's ____ familiarity with the caves saved us.",
+  "keyword": "",
+  "gap_prefix": "The guide's",
+  "gap_suffix": "familiarity with the caves saved us.",
+  "answer": "intimate",
+  "full_answer": "The guide's intimate familiarity with the caves saved us.",
+  "options": [
+   "infinite",
+   "intimate",
+   "inherent",
+   "independent"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "intimate familiarity",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "A truly ____ observer would notice the flaws at once.",
+  "keyword": "",
+  "gap_prefix": "A truly",
+  "gap_suffix": "observer would notice the flaws at once.",
+  "answer": "independent",
+  "full_answer": "A truly independent observer would notice the flaws at once.",
+  "options": [
+   "independent",
+   "inherent",
+   "intimate",
+   "dependent"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "independent observer = unbiased",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Weak oversight is a danger ____ in self-regulation.",
+  "keyword": "",
+  "gap_prefix": "Weak oversight is a danger",
+  "gap_suffix": "in self-regulation.",
+  "answer": "inherent",
+  "full_answer": "Weak oversight is a danger inherent in self-regulation.",
+  "options": [
+   "intimate",
+   "independent",
+   "inherited",
+   "inherent"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "danger inherent in",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The diary gives an ____ portrait of wartime Hanoi.",
+  "keyword": "",
+  "gap_prefix": "The diary gives an",
+  "gap_suffix": "portrait of wartime Hanoi.",
+  "answer": "intimate",
+  "full_answer": "The diary gives an intimate portrait of wartime Hanoi.",
+  "options": [
+   "independent",
+   "infinite",
+   "intimate",
+   "inherent"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "intimate portrait = close detailed",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The two funds are legally ____ entities.",
+  "keyword": "",
+  "gap_prefix": "The two funds are legally",
+  "gap_suffix": "entities.",
+  "answer": "independent",
+  "full_answer": "The two funds are legally independent entities.",
+  "options": [
+   "dependent",
+   "independent",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "independent entities",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She gave only an ____ hint of her disagreement.",
+  "keyword": "",
+  "gap_prefix": "She gave only an",
+  "gap_suffix": "hint of her disagreement.",
+  "answer": "intimate",
+  "full_answer": "She gave only an intimate hint of her disagreement.",
+  "options": [
+   "intimate",
+   "inherent",
+   "independent",
+   "ultimate"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "intimate (verb, formal) = hint/announce",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The chairman ____ that resignations would follow.",
+  "keyword": "",
+  "gap_prefix": "The chairman",
+  "gap_suffix": "that resignations would follow.",
+  "answer": "intimated",
+  "full_answer": "The chairman intimated that resignations would follow.",
+  "options": [
+   "inhered",
+   "independed",
+   "inherited",
+   "intimated"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "intimate (verb past) = imply formally",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The scholarship is awarded ____ of family income.",
+  "keyword": "",
+  "gap_prefix": "The scholarship is awarded",
+  "gap_suffix": "of family income.",
+  "answer": "independent",
+  "full_answer": "The scholarship is awarded independent of family income.",
+  "options": [
+   "intimate",
+   "dependent",
+   "independent",
+   "inherent"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "independent of = regardless of",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Noise is an ____ hazard of living near the runway.",
+  "keyword": "",
+  "gap_prefix": "Noise is an",
+  "gap_suffix": "hazard of living near the runway.",
+  "answer": "inherent",
+  "full_answer": "Noise is an inherent hazard of living near the runway.",
+  "options": [
+   "inherited",
+   "inherent",
+   "intimate",
+   "independent"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "inherent hazard",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The clinic guarantees strictly ____ advice for teens.",
+  "keyword": "",
+  "gap_prefix": "The clinic guarantees strictly",
+  "gap_suffix": "advice for teens.",
+  "answer": "independent",
+  "full_answer": "The clinic guarantees strictly independent advice for teens.",
+  "options": [
+   "independent",
+   "inherent",
+   "intimate",
+   "dependent"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "independent advice = impartial",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Their ____ friendship survived years of rivalry.",
+  "keyword": "",
+  "gap_prefix": "Their",
+  "gap_suffix": "friendship survived years of rivalry.",
+  "answer": "intimate",
+  "full_answer": "Their intimate friendship survived years of rivalry.",
+  "options": [
+   "inherent",
+   "independent",
+   "infinite",
+   "intimate"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "intimate friendship",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Such volatility is ____ to commodity markets.",
+  "keyword": "",
+  "gap_prefix": "Such volatility is",
+  "gap_suffix": "to commodity markets.",
+  "answer": "inherent",
+  "full_answer": "Such volatility is inherent to commodity markets.",
+  "options": [
+   "independent",
+   "imminent",
+   "inherent",
+   "intimate"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "inherent to markets",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The archive holds ____ correspondence of the poet.",
+  "keyword": "",
+  "gap_prefix": "The archive holds",
+  "gap_suffix": "correspondence of the poet.",
+  "answer": "intimate",
+  "full_answer": "The archive holds intimate correspondence of the poet.",
+  "options": [
+   "infinite",
+   "intimate",
+   "inherent",
+   "independent"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "intimate correspondence = private",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The baby began to ____ for its mother at midnight.",
+  "keyword": "",
+  "gap_prefix": "The baby began to",
+  "gap_suffix": "for its mother at midnight.",
+  "answer": "cry",
+  "full_answer": "The baby began to cry for its mother at midnight.",
+  "options": [
+   "cry",
+   "call",
+   "clamour",
+   "crow"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "cry for = weep demanding",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ out when the hot water scalded her hand.",
+  "keyword": "",
+  "gap_prefix": "She",
+  "gap_suffix": "out when the hot water scalded her hand.",
+  "answer": "cried",
+  "full_answer": "She cried out when the hot water scalded her hand.",
+  "options": [
+   "called",
+   "crawled",
+   "clapped",
+   "cried"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "cry out = shout in pain",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The crowd ____ for the speaker to continue.",
+  "keyword": "",
+  "gap_prefix": "The crowd",
+  "gap_suffix": "for the speaker to continue.",
+  "answer": "cried",
+  "full_answer": "The crowd cried for the speaker to continue.",
+  "options": [
+   "cared",
+   "carried",
+   "cried",
+   "called"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "cry for = shout demand",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "His injury was a far ____ from a minor bruise.",
+  "keyword": "",
+  "gap_prefix": "His injury was a far",
+  "gap_suffix": "from a minor bruise.",
+  "answer": "cry",
+  "full_answer": "His injury was a far cry from a minor bruise.",
+  "options": [
+   "curse",
+   "cry",
+   "call",
+   "cough"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "a far cry from = very different",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is no use ____ over spilt milk.",
+  "keyword": "",
+  "gap_prefix": "It is no use",
+  "gap_suffix": "over spilt milk.",
+  "answer": "crying",
+  "full_answer": "It is no use crying over spilt milk.",
+  "options": [
+   "crying",
+   "calling",
+   "clinging",
+   "crawling"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "cry over spilt milk (idiom)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Do not ____ wolf so often or no one will come.",
+  "keyword": "",
+  "gap_prefix": "Do not",
+  "gap_suffix": "wolf so often or no one will come.",
+  "answer": "cry",
+  "full_answer": "Do not cry wolf so often or no one will come.",
+  "options": [
+   "call",
+   "calm",
+   "catch",
+   "cry"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "cry wolf (false alarm idiom)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A hue and ____ rose from the angry market crowd.",
+  "keyword": "",
+  "gap_prefix": "A hue and",
+  "gap_suffix": "rose from the angry market crowd.",
+  "answer": "cry",
+  "full_answer": "A hue and cry rose from the angry market crowd.",
+  "options": [
+   "crack",
+   "crash",
+   "cry",
+   "call"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "hue and cry = protest outcry",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The toddler ____ herself to sleep every night.",
+  "keyword": "",
+  "gap_prefix": "The toddler",
+  "gap_suffix": "herself to sleep every night.",
+  "answer": "cried",
+  "full_answer": "The toddler cried herself to sleep every night.",
+  "options": [
+   "carried",
+   "cried",
+   "called",
+   "calmed"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "cry oneself to sleep",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Opposition MPs ____ down the minister's proposal.",
+  "keyword": "",
+  "gap_prefix": "Opposition MPs",
+  "gap_suffix": "down the minister's proposal.",
+  "answer": "cried",
+  "full_answer": "Opposition MPs cried down the minister's proposal.",
+  "options": [
+   "cried",
+   "called",
+   "calmed",
+   "cut"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "cry down = disparage",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The shares were ____ up as a bargain by brokers.",
+  "keyword": "",
+  "gap_prefix": "The shares were",
+  "gap_suffix": "up as a bargain by brokers.",
+  "answer": "cried",
+  "full_answer": "The shares were cried up as a bargain by brokers.",
+  "options": [
+   "called",
+   "caught",
+   "carried",
+   "cried"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "cry up = praise highly",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ off from the deal at the last minute.",
+  "keyword": "",
+  "gap_prefix": "He",
+  "gap_suffix": "off from the deal at the last minute.",
+  "answer": "cried",
+  "full_answer": "He cried off from the deal at the last minute.",
+  "options": [
+   "backed",
+   "broke",
+   "cried",
+   "called"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "cry off = withdraw (BrE formal)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The nurse taught her to ____ for help loudly.",
+  "keyword": "",
+  "gap_prefix": "The nurse taught her to",
+  "gap_suffix": "for help loudly.",
+  "answer": "cry",
+  "full_answer": "The nurse taught her to cry for help loudly.",
+  "options": [
+   "clamber",
+   "cry",
+   "call",
+   "crawl"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "cry for help",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Wounded soldiers ____ out in the ruined station.",
+  "keyword": "",
+  "gap_prefix": "Wounded soldiers",
+  "gap_suffix": "out in the ruined station.",
+  "answer": "cried",
+  "full_answer": "Wounded soldiers cried out in the ruined station.",
+  "options": [
+   "cried",
+   "called",
+   "crawled",
+   "clung"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "cry out (pain/fear)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Please ____ me when the taxi arrives downstairs.",
+  "keyword": "",
+  "gap_prefix": "Please",
+  "gap_suffix": "me when the taxi arrives downstairs.",
+  "answer": "call",
+  "full_answer": "Please call me when the taxi arrives downstairs.",
+  "options": [
+   "cry",
+   "carry",
+   "calm",
+   "call"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "call = summon/fetch",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "This crisis ____ for calm leadership, not panic.",
+  "keyword": "",
+  "gap_prefix": "This crisis",
+  "gap_suffix": "for calm leadership, not panic.",
+  "answer": "calls",
+  "full_answer": "This crisis calls for calm leadership, not panic.",
+  "options": [
+   "falls",
+   "stands",
+   "calls",
+   "cries"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "call for = require/demand",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The board decided to ____ off the merger talks.",
+  "keyword": "",
+  "gap_prefix": "The board decided to",
+  "gap_suffix": "off the merger talks.",
+  "answer": "call",
+  "full_answer": "The board decided to call off the merger talks.",
+  "options": [
+   "cast",
+   "call",
+   "cry",
+   "cut"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "call off = cancel",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The chair will ____ on you to present first.",
+  "keyword": "",
+  "gap_prefix": "The chair will",
+  "gap_suffix": "on you to present first.",
+  "answer": "call",
+  "full_answer": "The chair will call on you to present first.",
+  "options": [
+   "call",
+   "cry",
+   "count",
+   "catch"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "call on = invite to speak",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Demonstrators are ____ for an independent recount.",
+  "keyword": "",
+  "gap_prefix": "Demonstrators are",
+  "gap_suffix": "for an independent recount.",
+  "answer": "calling",
+  "full_answer": "Demonstrators are calling for an independent recount.",
+  "options": [
+   "crying",
+   "crawling",
+   "caring",
+   "calling"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "call for = publicly demand",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The referee had to ____ back the runners for a restart.",
+  "keyword": "",
+  "gap_prefix": "The referee had to",
+  "gap_suffix": "back the runners for a restart.",
+  "answer": "call",
+  "full_answer": "The referee had to call back the runners for a restart.",
+  "options": [
+   "carry",
+   "calm",
+   "call",
+   "cry"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "call back = order to return",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ at three houses before finding a witness.",
+  "keyword": "",
+  "gap_prefix": "She",
+  "gap_suffix": "at three houses before finding a witness.",
+  "answer": "called",
+  "full_answer": "She called at three houses before finding a witness.",
+  "options": [
+   "climbed",
+   "called",
+   "cried",
+   "crept"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "call at = visit briefly (BrE)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The firm will ____ for tenders for the new bridge.",
+  "keyword": "",
+  "gap_prefix": "The firm will",
+  "gap_suffix": "for tenders for the new bridge.",
+  "answer": "call",
+  "full_answer": "The firm will call for tenders for the new bridge.",
+  "options": [
+   "call",
+   "cry",
+   "cater",
+   "care"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "call for tenders = invite bids",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was ____ to account for the missing funds.",
+  "keyword": "",
+  "gap_prefix": "He was",
+  "gap_suffix": "to account for the missing funds.",
+  "answer": "called",
+  "full_answer": "He was called to account for the missing funds.",
+  "options": [
+   "cried",
+   "caught",
+   "cast",
+   "called"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "call to account = demand explanation",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I will ____ round tomorrow to collect the books.",
+  "keyword": "",
+  "gap_prefix": "I will",
+  "gap_suffix": "round tomorrow to collect the books.",
+  "answer": "call",
+  "full_answer": "I will call round tomorrow to collect the books.",
+  "options": [
+   "come",
+   "carry",
+   "call",
+   "cry"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "call round = visit (BrE)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The union ____ out its members on strike.",
+  "keyword": "",
+  "gap_prefix": "The union",
+  "gap_suffix": "out its members on strike.",
+  "answer": "called",
+  "full_answer": "The union called out its members on strike.",
+  "options": [
+   "carried",
+   "called",
+   "cried",
+   "cast"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "call out = summon to strike",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Her ad ____ forth a flood of job applications.",
+  "keyword": "",
+  "gap_prefix": "Her ad",
+  "gap_suffix": "forth a flood of job applications.",
+  "answer": "called",
+  "full_answer": "Her ad called forth a flood of job applications.",
+  "options": [
+   "called",
+   "cried",
+   "carried",
+   "caused"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "call forth = evoke/produce",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The situation ____ for drastic budget cuts.",
+  "keyword": "",
+  "gap_prefix": "The situation",
+  "gap_suffix": "for drastic budget cuts.",
+  "answer": "calls",
+  "full_answer": "The situation calls for drastic budget cuts.",
+  "options": [
+   "cries",
+   "falls",
+   "leans",
+   "calls"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "call for = necessitate",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The principal ____ up the roll at assembly.",
+  "keyword": "",
+  "gap_prefix": "The principal",
+  "gap_suffix": "up the roll at assembly.",
+  "answer": "called",
+  "full_answer": "The principal called up the roll at assembly.",
+  "options": [
+   "counted",
+   "carried",
+   "called",
+   "cried"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "call the roll = read names",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They ____ the newborn after her grandmother.",
+  "keyword": "",
+  "gap_prefix": "They",
+  "gap_suffix": "the newborn after her grandmother.",
+  "answer": "called",
+  "full_answer": "They called the newborn after her grandmother.",
+  "options": [
+   "crowned",
+   "called",
+   "cried",
+   "carved"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "call after = name after (BrE)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Critics ____ the plan a disguised tax rise.",
+  "keyword": "",
+  "gap_prefix": "Critics",
+  "gap_suffix": "the plan a disguised tax rise.",
+  "answer": "called",
+  "full_answer": "Critics called the plan a disguised tax rise.",
+  "options": [
+   "called",
+   "cried",
+   "coined",
+   "caught"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "call sth = label/describe as",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The doctor was ____ out to emergencies all night.",
+  "keyword": "",
+  "gap_prefix": "The doctor was",
+  "gap_suffix": "out to emergencies all night.",
+  "answer": "called",
+  "full_answer": "The doctor was called out to emergencies all night.",
+  "options": [
+   "cried",
+   "carried",
+   "cast",
+   "called"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "call out = summon (doctor)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Please ____ back later; she is in surgery.",
+  "keyword": "",
+  "gap_prefix": "Please",
+  "gap_suffix": "back later; she is in surgery.",
+  "answer": "call",
+  "full_answer": "Please call back later; she is in surgery.",
+  "options": [
+   "calm",
+   "come",
+   "call",
+   "cry"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "call back = phone again",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He ____ in sick an hour before the exam.",
+  "keyword": "",
+  "gap_prefix": "He",
+  "gap_suffix": "in sick an hour before the exam.",
+  "answer": "called",
+  "full_answer": "He called in sick an hour before the exam.",
+  "options": [
+   "came",
+   "called",
+   "cried",
+   "crept"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "call in sick = phone to report",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The match was ____ off because of the blackout.",
+  "keyword": "",
+  "gap_prefix": "The match was",
+  "gap_suffix": "off because of the blackout.",
+  "answer": "called",
+  "full_answer": "The match was called off because of the blackout.",
+  "options": [
+   "called",
+   "cried",
+   "cooled",
+   "carried"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "call off = abandon/cancel",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Witnesses ____ for an ambulance within minutes.",
+  "keyword": "",
+  "gap_prefix": "Witnesses",
+  "gap_suffix": "for an ambulance within minutes.",
+  "answer": "called",
+  "full_answer": "Witnesses called for an ambulance within minutes.",
+  "options": [
+   "cried",
+   "crawled",
+   "clamoured",
+   "called"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "call vs cry for ambulance nuance",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Our stopover in Doha was ____ but comfortable.",
+  "keyword": "",
+  "gap_prefix": "Our stopover in Doha was",
+  "gap_suffix": "but comfortable.",
+  "answer": "brief",
+  "full_answer": "Our stopover in Doha was brief but comfortable.",
+  "options": [
+   "slight",
+   "less",
+   "brief",
+   "short"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "brief stay = short in time",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She paid a ____ visit to the flood zone.",
+  "keyword": "",
+  "gap_prefix": "She paid a",
+  "gap_suffix": "visit to the flood zone.",
+  "answer": "brief",
+  "full_answer": "She paid a brief visit to the flood zone.",
+  "options": [
+   "less",
+   "brief",
+   "short",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "brief visit (collocation)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "His statement to the press was ____ and evasive.",
+  "keyword": "",
+  "gap_prefix": "His statement to the press was",
+  "gap_suffix": "and evasive.",
+  "answer": "brief",
+  "full_answer": "His statement to the press was brief and evasive.",
+  "options": [
+   "brief",
+   "short",
+   "slight",
+   "less"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "brief statement = concise",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "In ____, the plan swaps subsidies for vouchers.",
+  "keyword": "",
+  "gap_prefix": "In",
+  "gap_suffix": ", the plan swaps subsidies for vouchers.",
+  "answer": "brief",
+  "full_answer": "In brief, the plan swaps subsidies for vouchers.",
+  "options": [
+   "short",
+   "slight",
+   "less",
+   "brief"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "in brief = in summary",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "I will be ____: the budget cannot cover both.",
+  "keyword": "",
+  "gap_prefix": "I will be",
+  "gap_suffix": ": the budget cannot cover both.",
+  "answer": "brief",
+  "full_answer": "I will be brief: the budget cannot cover both.",
+  "options": [
+   "slight",
+   "less",
+   "brief",
+   "short"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "be brief = speak concisely",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The pilot gave a ____ talk to the crew before takeoff.",
+  "keyword": "",
+  "gap_prefix": "The pilot gave a",
+  "gap_suffix": "talk to the crew before takeoff.",
+  "answer": "brief",
+  "full_answer": "The pilot gave a brief talk to the crew before takeoff.",
+  "options": [
+   "less",
+   "brief",
+   "short",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "brief talk = concise",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Notice of the inspection was painfully ____.",
+  "keyword": "",
+  "gap_prefix": "Notice of the inspection was painfully",
+  "gap_suffix": ".",
+  "answer": "short",
+  "full_answer": "Notice of the inspection was painfully short.",
+  "options": [
+   "short",
+   "brief",
+   "slight",
+   "less"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "short notice (fixed phrase)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Water is in ____ supply after the dry spell.",
+  "keyword": "",
+  "gap_prefix": "Water is in",
+  "gap_suffix": "supply after the dry spell.",
+  "answer": "short",
+  "full_answer": "Water is in short supply after the dry spell.",
+  "options": [
+   "brief",
+   "slight",
+   "less",
+   "short"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "in short supply",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They stopped ____ of accusing him of fraud.",
+  "keyword": "",
+  "gap_prefix": "They stopped",
+  "gap_suffix": "of accusing him of fraud.",
+  "answer": "short",
+  "full_answer": "They stopped short of accusing him of fraud.",
+  "options": [
+   "slight",
+   "less",
+   "short",
+   "brief"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "stop short of = refrain from",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Supplies ran ____ just as winter set in.",
+  "keyword": "",
+  "gap_prefix": "Supplies ran",
+  "gap_suffix": "just as winter set in.",
+  "answer": "short",
+  "full_answer": "Supplies ran short just as winter set in.",
+  "options": [
+   "less",
+   "short",
+   "brief",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "run short (of)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "In ____, we cannot afford another delay.",
+  "keyword": "",
+  "gap_prefix": "In",
+  "gap_suffix": ", we cannot afford another delay.",
+  "answer": "short",
+  "full_answer": "In short, we cannot afford another delay.",
+  "options": [
+   "short",
+   "brief",
+   "slight",
+   "less"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in short = in summary (vs in brief)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Her reply was ____ to the point of rudeness.",
+  "keyword": "",
+  "gap_prefix": "Her reply was",
+  "gap_suffix": "to the point of rudeness.",
+  "answer": "short",
+  "full_answer": "Her reply was short to the point of rudeness.",
+  "options": [
+   "brief",
+   "slight",
+   "less",
+   "short"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "short reply = curt",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The climbers were ____ on oxygen near the summit.",
+  "keyword": "",
+  "gap_prefix": "The climbers were",
+  "gap_suffix": "on oxygen near the summit.",
+  "answer": "short",
+  "full_answer": "The climbers were short on oxygen near the summit.",
+  "options": [
+   "slight",
+   "less",
+   "short",
+   "brief"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "short on sth = lacking",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He has a ____ temper when deadlines slip.",
+  "keyword": "",
+  "gap_prefix": "He has a",
+  "gap_suffix": "temper when deadlines slip.",
+  "answer": "short",
+  "full_answer": "He has a short temper when deadlines slip.",
+  "options": [
+   "less",
+   "short",
+   "brief",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "short temper (irritable)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Sales fell ____ of the quarterly target.",
+  "keyword": "",
+  "gap_prefix": "Sales fell",
+  "gap_suffix": "of the quarterly target.",
+  "answer": "short",
+  "full_answer": "Sales fell short of the quarterly target.",
+  "options": [
+   "short",
+   "brief",
+   "slight",
+   "less"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fall short of",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "There is only a ____ chance of a sunny polling day.",
+  "keyword": "",
+  "gap_prefix": "There is only a",
+  "gap_suffix": "chance of a sunny polling day.",
+  "answer": "slight",
+  "full_answer": "There is only a slight chance of a sunny polling day.",
+  "options": [
+   "brief",
+   "short",
+   "less",
+   "slight"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "slight chance = small",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Prices showed a ____ improvement in March.",
+  "keyword": "",
+  "gap_prefix": "Prices showed a",
+  "gap_suffix": "improvement in March.",
+  "answer": "slight",
+  "full_answer": "Prices showed a slight improvement in March.",
+  "options": [
+   "short",
+   "less",
+   "slight",
+   "brief"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "slight improvement",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The train was delayed by a ____ half hour.",
+  "keyword": "",
+  "gap_prefix": "The train was delayed by a",
+  "gap_suffix": "half hour.",
+  "answer": "slight",
+  "full_answer": "The train was delayed by a slight half hour.",
+  "options": [
+   "less",
+   "slight",
+   "brief",
+   "short"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "trap: slight delay nuance",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She spoke with the ____ accent of the highlands.",
+  "keyword": "",
+  "gap_prefix": "She spoke with the",
+  "gap_suffix": "accent of the highlands.",
+  "answer": "slight",
+  "full_answer": "She spoke with the slight accent of the highlands.",
+  "options": [
+   "slight",
+   "brief",
+   "short",
+   "less"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "slight accent",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "There is not the ____ evidence to convict him.",
+  "keyword": "",
+  "gap_prefix": "There is not the",
+  "gap_suffix": "evidence to convict him.",
+  "answer": "slightest",
+  "full_answer": "There is not the slightest evidence to convict him.",
+  "options": [
+   "briefest",
+   "shortest",
+   "least",
+   "slightest"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "not the slightest = none at all",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He suffered ____ injuries in the collision.",
+  "keyword": "",
+  "gap_prefix": "He suffered",
+  "gap_suffix": "injuries in the collision.",
+  "answer": "slight",
+  "full_answer": "He suffered slight injuries in the collision.",
+  "options": [
+   "short",
+   "less",
+   "slight",
+   "brief"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "slight injuries = minor",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A ____ drizzle delayed the second half.",
+  "keyword": "",
+  "gap_prefix": "A",
+  "gap_suffix": "drizzle delayed the second half.",
+  "answer": "slight",
+  "full_answer": "A slight drizzle delayed the second half.",
+  "options": [
+   "less",
+   "slight",
+   "brief",
+   "short"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "slight drizzle (light)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The patient felt a ____ dizziness after the dose.",
+  "keyword": "",
+  "gap_prefix": "The patient felt a",
+  "gap_suffix": "dizziness after the dose.",
+  "answer": "slight",
+  "full_answer": "The patient felt a slight dizziness after the dose.",
+  "options": [
+   "slight",
+   "brief",
+   "short",
+   "less"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "slight dizziness",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The wire has a ____ bend near the joint.",
+  "keyword": "",
+  "gap_prefix": "The wire has a",
+  "gap_suffix": "bend near the joint.",
+  "answer": "slight",
+  "full_answer": "The wire has a slight bend near the joint.",
+  "options": [
+   "brief",
+   "short",
+   "less",
+   "slight"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "slight bend/curve",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Use ____ sugar if you want a sharper taste.",
+  "keyword": "",
+  "gap_prefix": "Use",
+  "gap_suffix": "sugar if you want a sharper taste.",
+  "answer": "less",
+  "full_answer": "Use less sugar if you want a sharper taste.",
+  "options": [
+   "brief",
+   "short",
+   "less",
+   "fewer"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "less + uncountable",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "There was ____ traffic than we had feared.",
+  "keyword": "",
+  "gap_prefix": "There was",
+  "gap_suffix": "traffic than we had feared.",
+  "answer": "less",
+  "full_answer": "There was less traffic than we had feared.",
+  "options": [
+   "short",
+   "less",
+   "fewer",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "less + uncountable traffic",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "No ____ than fifty pupils joined the protest.",
+  "keyword": "",
+  "gap_prefix": "No",
+  "gap_suffix": "than fifty pupils joined the protest.",
+  "answer": "fewer",
+  "full_answer": "No fewer than fifty pupils joined the protest.",
+  "options": [
+   "fewer",
+   "less",
+   "slight",
+   "short"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fewer + countable pupils",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ than ten rooms were ready for guests.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": "than ten rooms were ready for guests.",
+  "answer": "Fewer",
+  "full_answer": "Fewer than ten rooms were ready for guests.",
+  "options": [
+   "Less",
+   "Slight",
+   "Short",
+   "Fewer"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "sentence-initial fewer",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She spends ____ time online than her brother.",
+  "keyword": "",
+  "gap_prefix": "She spends",
+  "gap_suffix": "time online than her brother.",
+  "answer": "less",
+  "full_answer": "She spends less time online than her brother.",
+  "options": [
+   "slight",
+   "short",
+   "less",
+   "fewer"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "less time (uncountable)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The second draft is ____ wordy than the first.",
+  "keyword": "",
+  "gap_prefix": "The second draft is",
+  "gap_suffix": "wordy than the first.",
+  "answer": "less",
+  "full_answer": "The second draft is less wordy than the first.",
+  "options": [
+   "short",
+   "less",
+   "fewer",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "less + adjective (wordy)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Take the ____ travelled road through the pass.",
+  "keyword": "",
+  "gap_prefix": "Take the",
+  "gap_suffix": "travelled road through the pass.",
+  "answer": "less",
+  "full_answer": "Take the less travelled road through the pass.",
+  "options": [
+   "less",
+   "fewer",
+   "slight",
+   "short"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "less-travelled (fixed)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He gave a ____ summary of the border talks.",
+  "keyword": "",
+  "gap_prefix": "He gave a",
+  "gap_suffix": "summary of the border talks.",
+  "answer": "brief",
+  "full_answer": "He gave a brief summary of the border talks.",
+  "options": [
+   "short",
+   "slight",
+   "less",
+   "brief"
+  ],
+  "alternatives": [
+   "D"
+  ],
+  "notes": "brief summary = concise",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "We felt a ____ tremor just after midnight.",
+  "keyword": "",
+  "gap_prefix": "We felt a",
+  "gap_suffix": "tremor just after midnight.",
+  "answer": "slight",
+  "full_answer": "We felt a slight tremor just after midnight.",
+  "options": [
+   "short",
+   "less",
+   "slight",
+   "brief"
+  ],
+  "alternatives": [
+   "C"
+  ],
+  "notes": "slight tremor",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Stocks are ____ than they were a year ago.",
+  "keyword": "",
+  "gap_prefix": "Stocks are",
+  "gap_suffix": "than they were a year ago.",
+  "answer": "fewer",
+  "full_answer": "Stocks are fewer than they were a year ago.",
+  "options": [
+   "short",
+   "fewer",
+   "less",
+   "slight"
+  ],
+  "alternatives": [
+   "B"
+  ],
+  "notes": "trap: countable nuance (stocks)",
+  "difficulty": 3
+ }
+]

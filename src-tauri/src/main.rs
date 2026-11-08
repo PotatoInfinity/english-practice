@@ -518,6 +518,28 @@ fn submit_answer(state: State<DbState>, item_id: i64, user: String) -> Result<Ve
   })
 }
 
+/// Fetch specific rows by id — powers the 100-question retry wall.
+/// Wrong answers get a 2nd chance; wrong again and they queue for the next wall.
+#[tauri::command]
+fn items_by_ids(state: State<DbState>, ids: Vec<i64>) -> Result<Vec<DueItem>, String> {
+  let conn = state.0.lock().map_err(|e| e.to_string())?;
+  let ids: Vec<i64> = ids.into_iter().take(200).collect();
+  if ids.is_empty() {
+    return Ok(vec![]);
+  }
+  let list = ids.iter().map(|n| n.to_string()).collect::<Vec<_>>().join(",");
+  let sql = format!("SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.id IN ({})", COLS, list);
+  let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
+  let rows = stmt.query_map([], row_to_due).map_err(|e| e.to_string())?;
+  let mut out = vec![];
+  for r in rows {
+    out.push(r.map_err(|e| e.to_string())?);
+  }
+  // preserve caller order (retry queues are meaningful)
+  out.sort_by_key(|d: &DueItem| ids.iter().position(|id| *id == d.item.id).unwrap_or(usize::MAX));
+  Ok(out)
+}
+
 #[tauri::command]
 fn stats(state: State<DbState>) -> Result<Stats, String> {
   let conn = state.0.lock().map_err(|e| e.to_string())?;
@@ -567,7 +589,7 @@ fn main() {
       app.manage(DbState(Mutex::new(conn)));
       Ok(())
     })
-    .invoke_handler(tauri::generate_handler![due_items, submit_answer, stats, import_seed, reset_progress])
+    .invoke_handler(tauri::generate_handler![due_items, submit_answer, stats, import_seed, reset_progress, items_by_ids])
     .run(tauri::generate_context!())
     .expect("tauri run");
 }

@@ -1,0 +1,2548 @@
+[
+ {
+  "category": "mcq",
+  "prompt": "The risks of deep-sea diving are ____ linked to the extreme pressure.",
+  "keyword": "",
+  "gap_prefix": "The risks of deep-sea diving are ",
+  "gap_suffix": " linked to the extreme pressure.",
+  "answer": "inherently",
+  "options": [
+   "inherently",
+   "intimately",
+   "loosely",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inherently = by its very nature; intimately = closely/personally",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The two villages are ____ connected by history, trade and marriage.",
+  "keyword": "",
+  "gap_prefix": "The two villages are ",
+  "gap_suffix": " connected by history, trade and marriage.",
+  "answer": "intimately",
+  "options": [
+   "intimately",
+   "inherently",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "intimately connected = closely intertwined",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Some critics argue that the system is ____ unfair to rural candidates.",
+  "keyword": "",
+  "gap_prefix": "Some critics argue that the system is ",
+  "gap_suffix": " unfair to rural candidates.",
+  "answer": "inherently",
+  "options": [
+   "inherently",
+   "intimately",
+   "briefly",
+   "firmly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inherently unfair = unfair by nature",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He spoke ____ of his mentor's influence on his career.",
+  "keyword": "",
+  "gap_prefix": "He spoke ",
+  "gap_suffix": " of his mentor's influence on his career.",
+  "answer": "warmly",
+  "options": [
+   "warmly",
+   "inherently",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "warmly = affectionately; inherently cannot describe speaking",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The report was ____ critical of the government's handling of the crisis.",
+  "keyword": "",
+  "gap_prefix": "The report was ",
+  "gap_suffix": " critical of the government's handling of the crisis.",
+  "answer": "sharply",
+  "options": [
+   "sharply",
+   "inherently",
+   "intimately",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "sharply critical = strongly critical",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She gave a ____ concise summary of the findings.",
+  "keyword": "",
+  "gap_prefix": "She gave a ",
+  "gap_suffix": " concise summary of the findings.",
+  "answer": "remarkably",
+  "options": [
+   "remarkably",
+   "inherently",
+   "intimately",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "remarkably concise; inherently/intimately do not modify concise here",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The new policy fell ____ of expectations.",
+  "keyword": "",
+  "gap_prefix": "The new policy fell ",
+  "gap_suffix": " of expectations.",
+  "answer": "short",
+  "options": [
+   "short",
+   "brief",
+   "concise",
+   "curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fall short of = fail to reach; brief is an adjective for duration",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____, the experiment confirmed the hypothesis.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": ", the experiment confirmed the hypothesis.",
+  "answer": "In brief",
+  "options": [
+   "In brief",
+   "In short of",
+   "In shortly",
+   "In briefness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in brief = to summarise; short of means lacking",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The manager gave a ____ briefing before the inspection.",
+  "keyword": "",
+  "gap_prefix": "The manager gave a ",
+  "gap_suffix": " briefing before the inspection.",
+  "answer": "brief",
+  "options": [
+   "brief",
+   "short of",
+   "shorting",
+   "briefness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "brief briefing (adj + noun); short of needs 'of'",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "His reply was so ____ that it bordered on rudeness.",
+  "keyword": "",
+  "gap_prefix": "His reply was so ",
+  "gap_suffix": " that it bordered on rudeness.",
+  "answer": "curt",
+  "options": [
+   "curt",
+   "short of",
+   "brief of",
+   "concise of"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "curt = rudely brief",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They were caught ____ guard by the sudden announcement.",
+  "keyword": "",
+  "gap_prefix": "They were caught ",
+  "gap_suffix": " guard by the sudden announcement.",
+  "answer": "off",
+  "options": [
+   "off",
+   "of",
+   "out",
+   "up"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "caught off guard (fixed phrase)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ of funds, the project was suspended indefinitely.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " of funds, the project was suspended indefinitely.",
+  "answer": "Short",
+  "options": [
+   "Short",
+   "Brief",
+   "Concise",
+   "Curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "short of funds = lacking funds",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The lecturer spoke ____ but covered every key point.",
+  "keyword": "",
+  "gap_prefix": "The lecturer spoke ",
+  "gap_suffix": " but covered every key point.",
+  "answer": "briefly",
+  "options": [
+   "briefly",
+   "short of",
+   "brief of",
+   "shorting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "briefly = in a short time; short of cannot function as adverb alone",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Her essay was clear and ____, earning top marks.",
+  "keyword": "",
+  "gap_prefix": "Her essay was clear and ",
+  "gap_suffix": ", earning top marks.",
+  "answer": "concise",
+  "options": [
+   "concise",
+   "short of",
+   "brief of",
+   "curtly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "concise = brief but complete; curtly is adverb",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Success in the exam depends on ____ to your revision plan.",
+  "keyword": "",
+  "gap_prefix": "Success in the exam depends on ",
+  "gap_suffix": " to your revision plan.",
+  "answer": "sticking to",
+  "options": [
+   "sticking to",
+   "keeping up",
+   "catching up",
+   "standing by"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "stick to = adhere to a plan",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is hard to ____ with the rapid pace of technology.",
+  "keyword": "",
+  "gap_prefix": "It is hard to ",
+  "gap_suffix": " with the rapid pace of technology.",
+  "answer": "keep up",
+  "options": [
+   "keep up",
+   "stick to",
+   "stand by",
+   "hold to"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "keep up with = stay at same pace",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "After his illness he had a lot of schoolwork to ____.",
+  "keyword": "",
+  "gap_prefix": "After his illness he had a lot of schoolwork to ",
+  "gap_suffix": ".",
+  "answer": "catch up on",
+  "options": [
+   "catch up on",
+   "stick to",
+   "keep up to",
+   "stand on"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "catch up on = make up missed work",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She promised to ____ by her friend whatever happened.",
+  "keyword": "",
+  "gap_prefix": "She promised to ",
+  "gap_suffix": " by her friend whatever happened.",
+  "answer": "stand by",
+  "options": [
+   "stand by",
+   "stick to",
+   "keep up",
+   "catch on"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "stand by = support/loyal to a person",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The team failed to ____ to its reputation as champions.",
+  "keyword": "",
+  "gap_prefix": "The team failed to ",
+  "gap_suffix": " to its reputation as champions.",
+  "answer": "live up",
+  "options": [
+   "live up",
+   "stick to",
+   "keep up",
+   "catch up"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "live up to = fulfil expectations",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Investors ____ out when the scandal broke.",
+  "keyword": "",
+  "gap_prefix": "Investors ",
+  "gap_suffix": " out when the scandal broke.",
+  "answer": "backed",
+  "options": [
+   "backed",
+   "backing",
+   "back",
+   "backen"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "backed out = withdrew support; past tense needed",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The candidate received strong ____ from local businesses.",
+  "keyword": "",
+  "gap_prefix": "The candidate received strong ",
+  "gap_suffix": " from local businesses.",
+  "answer": "backing",
+  "options": [
+   "backing",
+   "back",
+   "backed",
+   "backen"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "backing = noun: support",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They decided to ____ down rather than escalate the dispute.",
+  "keyword": "",
+  "gap_prefix": "They decided to ",
+  "gap_suffix": " down rather than escalate the dispute.",
+  "answer": "back",
+  "options": [
+   "back",
+   "backing",
+   "backed",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "back down = concede (bare infinitive after to? actually 'to back down')",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The project is ____ by a major international fund.",
+  "keyword": "",
+  "gap_prefix": "The project is ",
+  "gap_suffix": " by a major international fund.",
+  "answer": "backed",
+  "options": [
+   "backed",
+   "backing",
+   "back",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "be backed by = be supported (passive participle)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "To ____ up his claim he cited three independent studies.",
+  "keyword": "",
+  "gap_prefix": "To ",
+  "gap_suffix": " up his claim he cited three independent studies.",
+  "answer": "back",
+  "options": [
+   "back",
+   "backing",
+   "backed",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "back up = support with evidence (infinitive after to)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ down now would be seen as a sign of weakness.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " down now would be seen as a sign of weakness.",
+  "answer": "Backing",
+  "options": [
+   "Backing",
+   "Back",
+   "Backed",
+   "Backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "gerund as subject: backing down",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She is ____ aware of the consequences of her decision.",
+  "keyword": "",
+  "gap_prefix": "She is ",
+  "gap_suffix": " aware of the consequences of her decision.",
+  "answer": "fully",
+  "options": [
+   "fully",
+   "inherently",
+   "intimately",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fully aware (collocation); inherently aware unnatural",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The two issues are ____ related and cannot be solved separately.",
+  "keyword": "",
+  "gap_prefix": "The two issues are ",
+  "gap_suffix": " related and cannot be solved separately.",
+  "answer": "closely",
+  "options": [
+   "closely",
+   "briefly",
+   "shortly",
+   "curtly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "closely related (fixed collocation)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was ____ opposed to any change in the regulations.",
+  "keyword": "",
+  "gap_prefix": "He was ",
+  "gap_suffix": " opposed to any change in the regulations.",
+  "answer": "firmly",
+  "options": [
+   "firmly",
+   "intimately",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "firmly opposed; intimately opposed wrong",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The scientist is ____ respected in her field.",
+  "keyword": "",
+  "gap_prefix": "The scientist is ",
+  "gap_suffix": " respected in her field.",
+  "answer": "highly",
+  "options": [
+   "highly",
+   "deeply",
+   "bitterly",
+   "utterly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "highly respected (evaluation); deeply for emotions",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The refugees were ____ grateful for the shelter provided.",
+  "keyword": "",
+  "gap_prefix": "The refugees were ",
+  "gap_suffix": " grateful for the shelter provided.",
+  "answer": "deeply",
+  "options": [
+   "deeply",
+   "highly",
+   "bitterly",
+   "utterly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "deeply grateful (emotion)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was ____ cold on the mountain summit.",
+  "keyword": "",
+  "gap_prefix": "It was ",
+  "gap_suffix": " cold on the mountain summit.",
+  "answer": "bitterly",
+  "options": [
+   "bitterly",
+   "highly",
+   "deeply",
+   "firmly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "bitterly cold (weather/feelings)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The attempt to climb the peak was ____ unsuccessful.",
+  "keyword": "",
+  "gap_prefix": "The attempt to climb the peak was ",
+  "gap_suffix": " unsuccessful.",
+  "answer": "utterly",
+  "options": [
+   "utterly",
+   "highly",
+   "deeply",
+   "bitterly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "utterly + absolute/extreme state",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Rain is ____ unlikely before the weekend.",
+  "keyword": "",
+  "gap_prefix": "Rain is ",
+  "gap_suffix": " unlikely before the weekend.",
+  "answer": "highly",
+  "options": [
+   "highly",
+   "deeply",
+   "bitterly",
+   "utterly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "highly unlikely (probability)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Doctors are ____ concerned about the new variant.",
+  "keyword": "",
+  "gap_prefix": "Doctors are ",
+  "gap_suffix": " concerned about the new variant.",
+  "answer": "deeply",
+  "options": [
+   "deeply",
+   "highly",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "deeply concerned (formal concern)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The final score was ____ disappointing for the home fans.",
+  "keyword": "",
+  "gap_prefix": "The final score was ",
+  "gap_suffix": " disappointing for the home fans.",
+  "answer": "bitterly",
+  "options": [
+   "bitterly",
+   "highly",
+   "intimately",
+   "inherently"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "bitterly disappointing (bad feeling)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Hardly had he finished ____ the phone rang.",
+  "keyword": "",
+  "gap_prefix": "Hardly had he finished ",
+  "gap_suffix": " the phone rang.",
+  "answer": "when",
+  "options": [
+   "when",
+   "than",
+   "then",
+   "that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hardly...when (inversion pair)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "No sooner had she arrived ____ it started to rain.",
+  "keyword": "",
+  "gap_prefix": "No sooner had she arrived ",
+  "gap_suffix": " it started to rain.",
+  "answer": "than",
+  "options": [
+   "than",
+   "when",
+   "then",
+   "that"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "no sooner...than",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She spoke too ____ for the audience at the back to hear.",
+  "keyword": "",
+  "gap_prefix": "She spoke too ",
+  "gap_suffix": " for the audience at the back to hear.",
+  "answer": "softly",
+  "options": [
+   "softly",
+   "soft",
+   "soften",
+   "softness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies spoke",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The soup tastes ____ after adding more salt.",
+  "keyword": "",
+  "gap_prefix": "The soup tastes ",
+  "gap_suffix": " after adding more salt.",
+  "answer": "better",
+  "options": [
+   "better",
+   "betterly",
+   "well",
+   "goodly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linking verb + adjective: tastes better",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He works ____ and rarely takes a break.",
+  "keyword": "",
+  "gap_prefix": "He works ",
+  "gap_suffix": " and rarely takes a break.",
+  "answer": "hard",
+  "options": [
+   "hard",
+   "hardly",
+   "hardness",
+   "hardlyly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hard (adj/adv) = with effort; hardly = almost not",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ goes to the cinema; she prefers reading.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " goes to the cinema; she prefers reading.",
+  "answer": "hardly",
+  "options": [
+   "hardly",
+   "hard",
+   "hardlyly",
+   "hardness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hardly = almost never",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He arrived ____ for the meeting.",
+  "keyword": "",
+  "gap_prefix": "He arrived ",
+  "gap_suffix": " for the meeting.",
+  "answer": "late",
+  "options": [
+   "late",
+   "lately",
+   "latest",
+   "lateness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "late = not on time; lately = recently",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Have you read anything good ____?",
+  "keyword": "",
+  "gap_prefix": "Have you read anything good ",
+  "gap_suffix": "?",
+  "answer": "lately",
+  "options": [
+   "lately",
+   "late",
+   "latest",
+   "lateness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "lately = recently (present perfect)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The train runs ____ on time during rush hour.",
+  "keyword": "",
+  "gap_prefix": "The train runs ",
+  "gap_suffix": " on time during rush hour.",
+  "answer": "rarely",
+  "options": [
+   "rarely",
+   "rare",
+   "rareness",
+   "rarelyly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb of frequency modifies runs",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was a ____ difficult exam; most students failed.",
+  "keyword": "",
+  "gap_prefix": "It was a ",
+  "gap_suffix": " difficult exam; most students failed.",
+  "answer": "fairly",
+  "options": [
+   "fairly",
+   "fair",
+   "fairness",
+   "fairing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fairly = quite; modifies adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The weather turned ____ cold overnight.",
+  "keyword": "",
+  "gap_prefix": "The weather turned ",
+  "gap_suffix": " cold overnight.",
+  "answer": "bitterly",
+  "options": [
+   "bitterly",
+   "briefly",
+   "shortly",
+   "intimately"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "bitterly cold collocation",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "His argument was ____ flawed from the start.",
+  "keyword": "",
+  "gap_prefix": "His argument was ",
+  "gap_suffix": " flawed from the start.",
+  "answer": "fundamentally",
+  "options": [
+   "fundamentally",
+   "intimately",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fundamentally flawed = wrong in essence",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The discovery was ____ accidental; he had searched for years.",
+  "keyword": "",
+  "gap_prefix": "The discovery was ",
+  "gap_suffix": " accidental; he had searched for years.",
+  "answer": "far from",
+  "options": [
+   "far from",
+   "short of",
+   "brief of",
+   "curt from"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "far from accidental = not at all",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The delay was caused ____ by heavy traffic.",
+  "keyword": "",
+  "gap_prefix": "The delay was caused ",
+  "gap_suffix": " by heavy traffic.",
+  "answer": "partly",
+  "options": [
+   "partly",
+   "partial",
+   "part",
+   "parts"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb partly modifies caused",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The house is ____ finished; only painting remains.",
+  "keyword": "",
+  "gap_prefix": "The house is ",
+  "gap_suffix": " finished; only painting remains.",
+  "answer": "nearly",
+  "options": [
+   "nearly",
+   "near",
+   "nearness",
+   "nearby"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "nearly = almost (adverb of degree)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The clinic is located ____ to the station.",
+  "keyword": "",
+  "gap_prefix": "The clinic is located ",
+  "gap_suffix": " to the station.",
+  "answer": "near",
+  "options": [
+   "near",
+   "nearly",
+   "nearness",
+   "nearfulness"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "near = preposition/adjective of place",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She felt ____ after hearing the tragic news.",
+  "keyword": "",
+  "gap_prefix": "She felt ",
+  "gap_suffix": " after hearing the tragic news.",
+  "answer": "deeply upset",
+  "options": [
+   "deeply upset",
+   "highly upset",
+   "briefly upset",
+   "shortly upset"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "deeply upset (emotion intensifier)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The committee gave the proposal ____ consideration.",
+  "keyword": "",
+  "gap_prefix": "The committee gave the proposal ",
+  "gap_suffix": " consideration.",
+  "answer": "careful",
+  "options": [
+   "careful",
+   "carefully",
+   "carefulness",
+   "caring"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun consideration",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Please consider the matter ____ before deciding.",
+  "keyword": "",
+  "gap_prefix": "Please consider the matter ",
+  "gap_suffix": " before deciding.",
+  "answer": "carefully",
+  "options": [
+   "carefully",
+   "careful",
+   "carefulness",
+   "caring"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies verb consider",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The results were ____ surprising given the preparation.",
+  "keyword": "",
+  "gap_prefix": "The results were ",
+  "gap_suffix": " surprising given the preparation.",
+  "answer": "hardly",
+  "options": [
+   "hardly",
+   "hard",
+   "hardness",
+   "hardful"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hardly surprising = not at all surprising",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He held on ____ to the rope during the storm.",
+  "keyword": "",
+  "gap_prefix": "He held on ",
+  "gap_suffix": " to the rope during the storm.",
+  "answer": "tightly",
+  "options": [
+   "tightly",
+   "tight",
+   "tightness",
+   "tighten"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies held on",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Hold ____; the bus is about to stop suddenly.",
+  "keyword": "",
+  "gap_prefix": "Hold ",
+  "gap_suffix": "; the bus is about to stop suddenly.",
+  "answer": "tight",
+  "options": [
+   "tight",
+   "tightly",
+   "tightness",
+   "tighten"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "hold tight (fixed phrase, adjective as adverb)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The problem is ____ complex to solve in one day.",
+  "keyword": "",
+  "gap_prefix": "The problem is ",
+  "gap_suffix": " complex to solve in one day.",
+  "answer": "too",
+  "options": [
+   "too",
+   "very",
+   "so",
+   "such"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "too...to infinitive structure",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was ____ a complex problem that no one could solve it.",
+  "keyword": "",
+  "gap_prefix": "It was ",
+  "gap_suffix": " a complex problem that no one could solve it.",
+  "answer": "such",
+  "options": [
+   "such",
+   "so",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "such + a + adj + noun + that",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It was ____ complex that no one understood it.",
+  "keyword": "",
+  "gap_prefix": "It was ",
+  "gap_suffix": " complex that no one understood it.",
+  "answer": "so",
+  "options": [
+   "so",
+   "such",
+   "too",
+   "very"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "so + adj + that clause",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She sings ____; everyone stops to listen.",
+  "keyword": "",
+  "gap_prefix": "She sings ",
+  "gap_suffix": "; everyone stops to listen.",
+  "answer": "beautifully",
+  "options": [
+   "beautifully",
+   "beautiful",
+   "beauty",
+   "beautify"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies sings",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Her voice is ____; everyone admires it.",
+  "keyword": "",
+  "gap_prefix": "Her voice is ",
+  "gap_suffix": "; everyone admires it.",
+  "answer": "beautiful",
+  "options": [
+   "beautiful",
+   "beautifully",
+   "beauty",
+   "beautify"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linking verb + adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He looked at me ____ when I mentioned the accident.",
+  "keyword": "",
+  "gap_prefix": "He looked at me ",
+  "gap_suffix": " when I mentioned the accident.",
+  "answer": "strangely",
+  "options": [
+   "strangely",
+   "strange",
+   "strangeness",
+   "strangify"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "manner adverb modifies looked",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He looked ____ after staying up all night.",
+  "keyword": "",
+  "gap_prefix": "He looked ",
+  "gap_suffix": " after staying up all night.",
+  "answer": "tired",
+  "options": [
+   "tired",
+   "tiredly",
+   "tiredness",
+   "tiring"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linking verb look + adjective",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The old man walked ____ across the icy road.",
+  "keyword": "",
+  "gap_prefix": "The old man walked ",
+  "gap_suffix": " across the icy road.",
+  "answer": "slowly",
+  "options": [
+   "slowly",
+   "slow",
+   "slowness",
+   "slowing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb of manner",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The traffic was ____; we arrived an hour late.",
+  "keyword": "",
+  "gap_prefix": "The traffic was ",
+  "gap_suffix": "; we arrived an hour late.",
+  "answer": "slow",
+  "options": [
+   "slow",
+   "slowly",
+   "slowness",
+   "slowing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linking verb + adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She answered the question ____, impressing the examiners.",
+  "keyword": "",
+  "gap_prefix": "She answered the question ",
+  "gap_suffix": ", impressing the examiners.",
+  "answer": "confidently",
+  "options": [
+   "confidently",
+   "confident",
+   "confidence",
+   "confiding"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies answered",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She feels ____ about her chances this year.",
+  "keyword": "",
+  "gap_prefix": "She feels ",
+  "gap_suffix": " about her chances this year.",
+  "answer": "confident",
+  "options": [
+   "confident",
+   "confidently",
+   "confidence",
+   "confiding"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "feel + adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The plan sounded ____ but risky.",
+  "keyword": "",
+  "gap_prefix": "The plan sounded ",
+  "gap_suffix": " but risky.",
+  "answer": "ambitious",
+  "options": [
+   "ambitious",
+   "ambitiously",
+   "ambition",
+   "ambiting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "sounded (linking) + adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "They pursued the goal ____ despite many setbacks.",
+  "keyword": "",
+  "gap_prefix": "They pursued the goal ",
+  "gap_suffix": " despite many setbacks.",
+  "answer": "relentlessly",
+  "options": [
+   "relentlessly",
+   "relentless",
+   "relentlessness",
+   "relenting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies pursued",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Critics described the film as nothing ____ of a masterpiece.",
+  "keyword": "",
+  "gap_prefix": "Critics described the film as nothing ",
+  "gap_suffix": " of a masterpiece.",
+  "answer": "short",
+  "options": [
+   "short",
+   "brief",
+   "concise",
+   "curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "nothing short of = truly (emphatic)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ of time, she skipped the final paragraph.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " of time, she skipped the final paragraph.",
+  "answer": "Short",
+  "options": [
+   "Short",
+   "Brief",
+   "Concise",
+   "Curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "short of time = lacking time",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "To cut a long story ____, we missed the flight.",
+  "keyword": "",
+  "gap_prefix": "To cut a long story ",
+  "gap_suffix": ", we missed the flight.",
+  "answer": "short",
+  "options": [
+   "short",
+   "brief",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "to cut a long story short (idiom)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The witness gave a ____ account of the incident.",
+  "keyword": "",
+  "gap_prefix": "The witness gave a ",
+  "gap_suffix": " account of the incident.",
+  "answer": "coherent",
+  "options": [
+   "coherent",
+   "coherently",
+   "coherence",
+   "cohering"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun account",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She explained the theory ____ so that everyone understood.",
+  "keyword": "",
+  "gap_prefix": "She explained the theory ",
+  "gap_suffix": " so that everyone understood.",
+  "answer": "coherently",
+  "options": [
+   "coherently",
+   "coherent",
+   "coherence",
+   "cohering"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies explained",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The mountain peak was ____ visible through the fog.",
+  "keyword": "",
+  "gap_prefix": "The mountain peak was ",
+  "gap_suffix": " visible through the fog.",
+  "answer": "barely",
+  "options": [
+   "barely",
+   "bare",
+   "bareness",
+   "baring"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "barely = almost not (degree)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He stood with ____ feet on the cold tiles.",
+  "keyword": "",
+  "gap_prefix": "He stood with ",
+  "gap_suffix": " feet on the cold tiles.",
+  "answer": "bare",
+  "options": [
+   "bare",
+   "barely",
+   "bareness",
+   "baring"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "bare = naked/uncovered (adjective)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The discovery ____ light on a centuries-old mystery.",
+  "keyword": "",
+  "gap_prefix": "The discovery ",
+  "gap_suffix": " light on a centuries-old mystery.",
+  "answer": "shed",
+  "options": [
+   "shed",
+   "sheded",
+   "shedded",
+   "shone to"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "shed light on (irregular, same form)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Investors pulled ____ at the last minute.",
+  "keyword": "",
+  "gap_prefix": "Investors pulled ",
+  "gap_suffix": " at the last minute.",
+  "answer": "out",
+  "options": [
+   "out",
+   "back",
+   "off",
+   "down"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "pull out = withdraw",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He promised to ____ up for his friend in court.",
+  "keyword": "",
+  "gap_prefix": "He promised to ",
+  "gap_suffix": " up for his friend in court.",
+  "answer": "stand",
+  "options": [
+   "stand",
+   "stick",
+   "keep",
+   "catch"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "stand up for = defend",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The class struggled to ____ up with the new syllabus.",
+  "keyword": "",
+  "gap_prefix": "The class struggled to ",
+  "gap_suffix": " up with the new syllabus.",
+  "answer": "keep",
+  "options": [
+   "keep",
+   "stick",
+   "stand",
+   "live"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "keep up with syllabus pace",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She refused to ____ down despite intense pressure.",
+  "keyword": "",
+  "gap_prefix": "She refused to ",
+  "gap_suffix": " down despite intense pressure.",
+  "answer": "back",
+  "options": [
+   "back",
+   "backing",
+   "backed",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "refuse to back down (infinitive)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Strong ____ from alumni saved the library.",
+  "keyword": "",
+  "gap_prefix": "Strong ",
+  "gap_suffix": " from alumni saved the library.",
+  "answer": "backing",
+  "options": [
+   "backing",
+   "back",
+   "backed",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "backing (uncountable noun)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The army was forced to ____ off after heavy losses.",
+  "keyword": "",
+  "gap_prefix": "The army was forced to ",
+  "gap_suffix": " off after heavy losses.",
+  "answer": "back",
+  "options": [
+   "back",
+   "backing",
+   "backed",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "back off = retreat (bare infinitive)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The decision was ____ by unanimous vote.",
+  "keyword": "",
+  "gap_prefix": "The decision was ",
+  "gap_suffix": " by unanimous vote.",
+  "answer": "backed",
+  "options": [
+   "backed",
+   "backing",
+   "back",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "was backed = passive",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____ by popular demand, the show was extended.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": " by popular demand, the show was extended.",
+  "answer": "Backed",
+  "options": [
+   "Backed",
+   "Backing",
+   "Back",
+   "Backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "past participle clause: backed by demand",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Without solid ____, the claim will be dismissed.",
+  "keyword": "",
+  "gap_prefix": "Without solid ",
+  "gap_suffix": ", the claim will be dismissed.",
+  "answer": "backing",
+  "options": [
+   "backing",
+   "back",
+   "backed",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "solid backing = support (noun)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She ____ up her sister when she was bullied.",
+  "keyword": "",
+  "gap_prefix": "She ",
+  "gap_suffix": " up her sister when she was bullied.",
+  "answer": "backed",
+  "options": [
+   "backed",
+   "backing",
+   "back",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "backed up = supported (past)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The committee ____ away from controversial reform.",
+  "keyword": "",
+  "gap_prefix": "The committee ",
+  "gap_suffix": " away from controversial reform.",
+  "answer": "backed",
+  "options": [
+   "backed",
+   "backing",
+   "back",
+   "backs"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "backed away = retreated (past narrative)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "His voice remained ____ calm throughout the interrogation.",
+  "keyword": "",
+  "gap_prefix": "His voice remained ",
+  "gap_suffix": " calm throughout the interrogation.",
+  "answer": "perfectly",
+  "options": [
+   "perfectly",
+   "inherently",
+   "intimately",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "perfectly calm (degree + adjective)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The two novels are ____ different in style and theme.",
+  "keyword": "",
+  "gap_prefix": "The two novels are ",
+  "gap_suffix": " different in style and theme.",
+  "answer": "fundamentally",
+  "options": [
+   "fundamentally",
+   "intimately",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fundamentally different = in essence",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She knows the city ____, having lived there for decades.",
+  "keyword": "",
+  "gap_prefix": "She knows the city ",
+  "gap_suffix": ", having lived there for decades.",
+  "answer": "intimately",
+  "options": [
+   "intimately",
+   "inherently",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "know intimately = know very well/personally",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The disease is ____ resistant to antibiotics.",
+  "keyword": "",
+  "gap_prefix": "The disease is ",
+  "gap_suffix": " resistant to antibiotics.",
+  "answer": "inherently",
+  "options": [
+   "inherently",
+   "intimately",
+   "briefly",
+   "curtly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "inherently resistant = by nature",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He gave a ____ nod to indicate agreement.",
+  "keyword": "",
+  "gap_prefix": "He gave a ",
+  "gap_suffix": " nod to indicate agreement.",
+  "answer": "brief",
+  "options": [
+   "brief",
+   "short of",
+   "brief of",
+   "shorting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "brief nod (adjective + noun)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Time is ____; we must decide immediately.",
+  "keyword": "",
+  "gap_prefix": "Time is ",
+  "gap_suffix": "; we must decide immediately.",
+  "answer": "short",
+  "options": [
+   "short",
+   "brief",
+   "concise",
+   "curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "time is short (predicative adjective)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The instructions were ____ and easy to follow.",
+  "keyword": "",
+  "gap_prefix": "The instructions were ",
+  "gap_suffix": " and easy to follow.",
+  "answer": "straightforward",
+  "options": [
+   "straightforward",
+   "inherently",
+   "intimately",
+   "brief of"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "straightforward = clear and simple",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He dealt with the complaint ____ and fairly.",
+  "keyword": "",
+  "gap_prefix": "He dealt with the complaint ",
+  "gap_suffix": " and fairly.",
+  "answer": "promptly",
+  "options": [
+   "promptly",
+   "inherent",
+   "intimate",
+   "brief"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies dealt",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A ____ examination revealed no injuries.",
+  "keyword": "",
+  "gap_prefix": "A ",
+  "gap_suffix": " examination revealed no injuries.",
+  "answer": "prompt",
+  "options": [
+   "prompt",
+   "promptly",
+   "promptness",
+   "prompting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun examination",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The economy recovered ____ after the recession.",
+  "keyword": "",
+  "gap_prefix": "The economy recovered ",
+  "gap_suffix": " after the recession.",
+  "answer": "rapidly",
+  "options": [
+   "rapidly",
+   "rapid",
+   "rapidity",
+   "rapiding"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies recovered",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "There was a ____ improvement in air quality.",
+  "keyword": "",
+  "gap_prefix": "There was a ",
+  "gap_suffix": " improvement in air quality.",
+  "answer": "marked",
+  "options": [
+   "marked",
+   "markedly",
+   "marking",
+   "marks"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun improvement",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Prices rose ____ in the last quarter.",
+  "keyword": "",
+  "gap_prefix": "Prices rose ",
+  "gap_suffix": " in the last quarter.",
+  "answer": "markedly",
+  "options": [
+   "markedly",
+   "marked",
+   "marking",
+   "marks"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies rose",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "She felt ____ lonely in the new city.",
+  "keyword": "",
+  "gap_prefix": "She felt ",
+  "gap_suffix": " lonely in the new city.",
+  "answer": "utterly",
+  "options": [
+   "utterly",
+   "highly",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "utterly + extreme adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The play was ____ entertaining from start to finish.",
+  "keyword": "",
+  "gap_prefix": "The play was ",
+  "gap_suffix": " entertaining from start to finish.",
+  "answer": "highly",
+  "options": [
+   "highly",
+   "deeply",
+   "bitterly",
+   "intimately"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "highly entertaining (evaluation)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "They were ____ opposed to the merger.",
+  "keyword": "",
+  "gap_prefix": "They were ",
+  "gap_suffix": " opposed to the merger.",
+  "answer": "bitterly",
+  "options": [
+   "bitterly",
+   "briefly",
+   "shortly",
+   "concisely"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "bitterly opposed (strong negative feeling)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was ____ sorry for his harsh words.",
+  "keyword": "",
+  "gap_prefix": "He was ",
+  "gap_suffix": " sorry for his harsh words.",
+  "answer": "deeply",
+  "options": [
+   "deeply",
+   "highly",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "deeply sorry (emotion)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The evidence points ____ to a single suspect.",
+  "keyword": "",
+  "gap_prefix": "The evidence points ",
+  "gap_suffix": " to a single suspect.",
+  "answer": "strongly",
+  "options": [
+   "strongly",
+   "intimately",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "points strongly (adverb of degree)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She is ____ capable of leading the team.",
+  "keyword": "",
+  "gap_prefix": "She is ",
+  "gap_suffix": " capable of leading the team.",
+  "answer": "fully",
+  "options": [
+   "fully",
+   "inherently",
+   "intimately",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fully capable (collocation)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The room was ____ silent during the speech.",
+  "keyword": "",
+  "gap_prefix": "The room was ",
+  "gap_suffix": " silent during the speech.",
+  "answer": "completely",
+  "options": [
+   "completely",
+   "inherently",
+   "intimately",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "completely silent (absolute adjective)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He responded ____ to the unexpected question.",
+  "keyword": "",
+  "gap_prefix": "He responded ",
+  "gap_suffix": " to the unexpected question.",
+  "answer": "calmly",
+  "options": [
+   "calmly",
+   "calm",
+   "calmness",
+   "calming"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies responded",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "Stay ____ while I check the noise outside.",
+  "keyword": "",
+  "gap_prefix": "Stay ",
+  "gap_suffix": " while I check the noise outside.",
+  "answer": "calm",
+  "options": [
+   "calm",
+   "calmly",
+   "calmness",
+   "calming"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linking/stative + adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The child behaved ____ at the ceremony.",
+  "keyword": "",
+  "gap_prefix": "The child behaved ",
+  "gap_suffix": " at the ceremony.",
+  "answer": "impeccably",
+  "options": [
+   "impeccably",
+   "impeccable",
+   "impeccability",
+   "impeccating"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies behaved",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "His behaviour at the ceremony was ____.",
+  "keyword": "",
+  "gap_prefix": "His behaviour at the ceremony was ",
+  "gap_suffix": ".",
+  "answer": "impeccable",
+  "options": [
+   "impeccable",
+   "impeccably",
+   "impeccability",
+   "impeccating"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "was + adjective",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "The teacher looked ____ at the noisy class.",
+  "keyword": "",
+  "gap_prefix": "The teacher looked ",
+  "gap_suffix": " at the noisy class.",
+  "answer": "sternly",
+  "options": [
+   "sternly",
+   "stern",
+   "sternness",
+   "sterning"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "manner adverb",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The punishment seemed overly ____ to the students.",
+  "keyword": "",
+  "gap_prefix": "The punishment seemed overly ",
+  "gap_suffix": " to the students.",
+  "answer": "stern",
+  "options": [
+   "stern",
+   "sternly",
+   "sternness",
+   "sterning"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "seemed + adjective",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Tourists flocked to the city ____ after restrictions lifted.",
+  "keyword": "",
+  "gap_prefix": "Tourists flocked to the city ",
+  "gap_suffix": " after restrictions lifted.",
+  "answer": "shortly",
+  "options": [
+   "shortly",
+   "short",
+   "brief",
+   "curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "shortly after = soon after",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____, the two leaders reached an agreement.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": ", the two leaders reached an agreement.",
+  "answer": "Eventually",
+  "options": [
+   "Eventually",
+   "Eventual",
+   "Eventuality",
+   "Eventualling"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "sentence adverb eventually",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The ____ outcome surprised even the organisers.",
+  "keyword": "",
+  "gap_prefix": "The ",
+  "gap_suffix": " outcome surprised even the organisers.",
+  "answer": "eventual",
+  "options": [
+   "eventual",
+   "eventually",
+   "eventuality",
+   "eventualling"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun outcome",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "He checks his work ____ to avoid careless errors.",
+  "keyword": "",
+  "gap_prefix": "He checks his work ",
+  "gap_suffix": " to avoid careless errors.",
+  "answer": "thoroughly",
+  "options": [
+   "thoroughly",
+   "thorough",
+   "thoroughness",
+   "thoroughing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies checks",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "A ____ search found no trace of the documents.",
+  "keyword": "",
+  "gap_prefix": "A ",
+  "gap_suffix": " search found no trace of the documents.",
+  "answer": "thorough",
+  "options": [
+   "thorough",
+   "thoroughly",
+   "thoroughness",
+   "thoroughing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun search",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The athlete trained ____ for the championship.",
+  "keyword": "",
+  "gap_prefix": "The athlete trained ",
+  "gap_suffix": " for the championship.",
+  "answer": "relentlessly",
+  "options": [
+   "relentlessly",
+   "relentless",
+   "relentlessness",
+   "relenting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb of manner (repeat reinforced)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Only a ____ effort will secure victory now.",
+  "keyword": "",
+  "gap_prefix": "Only a ",
+  "gap_suffix": " effort will secure victory now.",
+  "answer": "relentless",
+  "options": [
+   "relentless",
+   "relentlessly",
+   "relentlessness",
+   "relenting"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun effort",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She speaks English ____ well for a beginner.",
+  "keyword": "",
+  "gap_prefix": "She speaks English ",
+  "gap_suffix": " well for a beginner.",
+  "answer": "remarkably",
+  "options": [
+   "remarkably",
+   "inherently",
+   "intimately",
+   "briefly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "remarkably well (degree)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The machine operates ____ even in extreme heat.",
+  "keyword": "",
+  "gap_prefix": "The machine operates ",
+  "gap_suffix": " even in extreme heat.",
+  "answer": "reliably",
+  "options": [
+   "reliably",
+   "reliable",
+   "reliability",
+   "relying"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies operates",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "This is a ____ source of information.",
+  "keyword": "",
+  "gap_prefix": "This is a ",
+  "gap_suffix": " source of information.",
+  "answer": "reliable",
+  "options": [
+   "reliable",
+   "reliably",
+   "reliability",
+   "relying"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adjective modifies noun source",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He was ____ exhausted after the marathon.",
+  "keyword": "",
+  "gap_prefix": "He was ",
+  "gap_suffix": " exhausted after the marathon.",
+  "answer": "utterly",
+  "options": [
+   "utterly",
+   "highly",
+   "briefly",
+   "shortly"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "utterly exhausted (absolute)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The museum is ____ worth visiting.",
+  "keyword": "",
+  "gap_prefix": "The museum is ",
+  "gap_suffix": " worth visiting.",
+  "answer": "well",
+  "options": [
+   "well",
+   "good",
+   "better",
+   "best"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "well worth + -ing (fixed)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "It is ____ to keep up with every new trend.",
+  "keyword": "",
+  "gap_prefix": "It is ",
+  "gap_suffix": " to keep up with every new trend.",
+  "answer": "unrealistic",
+  "options": [
+   "unrealistic",
+   "unrealistically",
+   "unrealism",
+   "unreal"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "linking verb + adjective",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "He assessed the situation ____ before acting.",
+  "keyword": "",
+  "gap_prefix": "He assessed the situation ",
+  "gap_suffix": " before acting.",
+  "answer": "realistically",
+  "options": [
+   "realistically",
+   "realistic",
+   "realism",
+   "realising"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "adverb modifies assessed",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Sticking ____ the facts will strengthen your essay.",
+  "keyword": "",
+  "gap_prefix": "Sticking ",
+  "gap_suffix": " the facts will strengthen your essay.",
+  "answer": "to",
+  "options": [
+   "to",
+   "up",
+   "by",
+   "on"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "stick to the facts (preposition to)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "Keeping ____ with native speakers improved his fluency.",
+  "keyword": "",
+  "gap_prefix": "Keeping ",
+  "gap_suffix": " with native speakers improved his fluency.",
+  "answer": "up",
+  "options": [
+   "up",
+   "to",
+   "by",
+   "on"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "keep up with (phrasal preposition)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "She is struggling to catch ____ after missing a month.",
+  "keyword": "",
+  "gap_prefix": "She is struggling to catch ",
+  "gap_suffix": " after missing a month.",
+  "answer": "up",
+  "options": [
+   "up",
+   "to",
+   "by",
+   "on"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "catch up (no preposition alone)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The product failed to live ____ to its advertising.",
+  "keyword": "",
+  "gap_prefix": "The product failed to live ",
+  "gap_suffix": " to its advertising.",
+  "answer": "up",
+  "options": [
+   "up",
+   "to",
+   "by",
+   "on"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "live up to (double particle)",
+  "difficulty": 3
+ },
+ {
+  "category": "mcq",
+  "prompt": "The verdict fell far ____ of justice, critics said.",
+  "keyword": "",
+  "gap_prefix": "The verdict fell far ",
+  "gap_suffix": " of justice, critics said.",
+  "answer": "short",
+  "options": [
+   "short",
+   "brief",
+   "concise",
+   "curt"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "fall short of (fail to meet)",
+  "difficulty": 2
+ },
+ {
+  "category": "mcq",
+  "prompt": "____, we need more time and funding.",
+  "keyword": "",
+  "gap_prefix": "",
+  "gap_suffix": ", we need more time and funding.",
+  "answer": "In short",
+  "options": [
+   "In short",
+   "In short of",
+   "In shortly",
+   "In briefing"
+  ],
+  "alternatives": [
+   "A"
+  ],
+  "notes": "in short = in summary",
+  "difficulty": 3
+ }
+]
