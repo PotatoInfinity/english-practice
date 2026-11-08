@@ -20,6 +20,7 @@ ol#list li { margin:14px 0 18px; line-height:2.1; content-visibility:auto; conta
   border-top:1px dashed var(--mut); border-bottom:1px dashed var(--mut);
   padding:6px; margin:6px 0; font-family:Arial,sans-serif; }
 .kw { font-weight:bold; }
+.wcount { color:var(--mut); font-size:12px; font-family:Arial, sans-serif; margin-right:2px; }
 .rewrite { display:block; }
 .gap { display:inline-block; min-width:220px; border:0; background:var(--field); color:var(--ink); border-bottom:1px solid var(--ink); font:inherit; font-size:var(--fs, 16px); padding:0 4px; outline:none; }
 .gap.correct { border-bottom:2px solid #137333; background:rgba(19,115,51,.15); }

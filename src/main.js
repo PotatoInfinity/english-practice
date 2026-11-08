@@ -119,7 +119,8 @@ function rowFor(d, n) {
     if (d.category !== "blank_fill") li.append(p1);
     const p2 = document.createElement("div");
     p2.className = "rewrite";
-    p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
+    const nw = (d.answer || "").trim().split(/\s+/).filter(Boolean).length;
+    p2.innerHTML = `<span class="wcount">${nw}</span> &rarr; ${escapeHtml(d.gap_prefix)} `;
     p2.appendChild(inpFor(d, n));
     const tail = document.createElement("span");
     tail.textContent = d.gap_suffix && /^[.,;:!?]/.test(d.gap_suffix) ? d.gap_suffix : " " + (d.gap_suffix || "");
@@ -129,6 +130,13 @@ function rowFor(d, n) {
   if (d.category === "mcq" || d.category === "three_in_one") {
     const p2 = document.createElement("div");
     p2.className = "rewrite";
+    if (d.category === "three_in_one") {
+      const wc = document.createElement("span");
+      wc.className = "wcount";
+      wc.textContent = "1";
+      p2.appendChild(wc);
+      p2.appendChild(document.createTextNode(" "));
+    }
     p2.appendChild(inpFor(d, n));
     li.append(p2);
   }
@@ -167,12 +175,6 @@ function inpFor(d, n) {  const inp = document.createElement("input");
   inp.className = "gap";
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
-  if (d.category === "mcq") inp.setAttribute("placeholder", "1–4");
-  else if (d.category === "three_in_one") inp.setAttribute("placeholder", "1 word");
-  else {
-    const nw = (d.answer || "").trim().split(/\s+/).filter(Boolean).length;
-    if (nw > 0) inp.setAttribute("placeholder", nw === 1 ? "1 word" : `${nw} words`);
-  }
   inp.addEventListener("keydown", e => {
     if (e.key !== "Enter") return;
     if (e.shiftKey) { focusPrev(n); return; }
