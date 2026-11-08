@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Mask to punch out all white areas into true transparency -->
+    <mask id="cutout-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000">
+      <!-- 1. Opaque base (keeps black areas) -->
+      <rect width="1000" height="1000" fill="white" />
+
+      <!-- 2. Cut out the triangular inset stripe -->
+      <polygon 
+        points="500,150 120,850 880,850" 
+        fill="none" 
+        stroke="black" 
+        stroke-width="34" 
+        stroke-linejoin="miter" 
+      />
+
+      <!-- 3. Cut out the eyelid outline -->
+      <path 
+        d="M 275,590 C 350,455 650,455 725,590 C 650,725 350,725 275,590 Z
+           M 298,590 C 365,479 635,479 702,590 C 635,701 365,701 298,590 Z" 
+        fill="black" 
+        fill-rule="evenodd" 
+      />
+
+      <!-- 4. Cut out the iris circle -->
+      <circle cx="500" cy="590" r="66" fill="black" />
+
+      <!-- 5. Retain the solid black center pupil -->
+      <circle cx="500" cy="590" r="28" fill="white" />
+    </mask>
+  </defs>
+
+  <!-- Solid black triangle geometry with all cutouts applied -->
+  <polygon 
+    points="500,150 120,850 880,850" 
+    fill="black" 
+    stroke="black" 
+    stroke-width="102" 
+    stroke-linejoin="miter" 
+    mask="url(#cutout-mask)" 
+  />
+</svg>
