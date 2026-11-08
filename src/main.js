@@ -23,7 +23,7 @@ async function load() {
     const j = await r.json();
     const arr = Array.isArray(j) ? j : j.items;
     items = arr.filter(a => cat === "all" || a.category === cat).slice(0, 10)
-      .map((a, i) => ({ item: { id: i + 1, ...a }, reps: 0, lapses: 0 }));
+      .map((a, i) => ({ id: i + 1, ...a, reps: 0, lapses: 0 }));
   }
   render();
   refreshStats();
@@ -34,10 +34,10 @@ function render() {
   items.forEach((d, n) => {
     const li = document.createElement("li");
     const p1 = document.createElement("div");
-    p1.innerHTML = `${escapeHtml(d.item.prompt)} <span class="kw">(${escapeHtml(d.item.keyword)})</span>`;
+    p1.innerHTML = `${escapeHtml(d.prompt)} <span class="kw">(${escapeHtml(d.keyword)})</span>`;
     const p2 = document.createElement("div");
     p2.className = "rewrite";
-    p2.innerHTML = `&rarr; ${escapeHtml(d.item.gap_prefix)} `;
+    p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
     const inp = document.createElement("input");
     inp.className = "gap";
     inp.id = "gap" + n;
@@ -45,7 +45,7 @@ function render() {
     inp.addEventListener("keydown", e => { if (e.key === "Enter") check(); });
     p2.appendChild(inp);
     const tail = document.createElement("span");
-    tail.textContent = " " + d.item.gap_suffix;
+    tail.textContent = " " + d.gap_suffix;
     p2.appendChild(tail);
     const ans = document.createElement("div");
     ans.className = "ans";
@@ -65,18 +65,18 @@ async function check() {
     const user = inp.value;
     let verdict;
     try {
-      verdict = await call("submit_answer", { itemId: items[n].item.id, user });
+      verdict = await call("submit_answer", { itemId: items[n].id, user });
     } catch {
       // browser fallback: exact/ci compare
-      const gold = items[n].item.answer.toLowerCase().trim();
+      const gold = items[n].answer.toLowerCase().trim();
       const good = user.toLowerCase().trim() === gold;
-      verdict = { correct: good, expected: items[n].item.answer, fullAnswer: items[n].item.full_answer, full_answer: items[n].item.full_answer };
+      verdict = { correct: good, expected: items[n].answer, fullAnswer: items[n].full_answer, full_answer: items[n].full_answer };
     }
     const expected = verdict.expected;
-    const full = verdict.fullAnswer ?? verdict.full_answer ?? items[n].item.full_answer;
+    const full = verdict.fullAnswer ?? verdict.full_answer ?? items[n].full_answer;
     if (verdict.correct) { ok++; inp.classList.add("correct"); }
     else inp.classList.add("wrong");
-    ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].item.notes || "")}</div>`;
+    ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].notes || "")}</div>`;
     ans.classList.add("show");
   }
   score.textContent = `${ok}/${items.length} correct. Failed items resurface first.`;
@@ -87,8 +87,8 @@ function reveal() {
   items.forEach((d, n) => {
     const ans = document.getElementById("ans" + n);
     const inp = document.getElementById("gap" + n);
-    inp.value = d.item.answer;
-    ans.innerHTML = `<b>${escapeHtml(d.item.answer)}</b> — ${escapeHtml(d.item.full_answer)}`;
+    inp.value = d.answer;
+    ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}`;
     ans.classList.add("show");
   });
 }
