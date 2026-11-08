@@ -1,0 +1,17 @@
+{
+  "name": "hsg-english-drill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.2.0"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.2.0"
+  }
+}

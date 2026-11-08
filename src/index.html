@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HSG English Drill</title>
+<link rel="stylesheet" href="styles.css" />
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="title">HSG English Drill — Sentence Transformation</div>
+  <div class="controls">
+    <select id="cat" title="Category">
+      <option value="all">All categories</option>
+      <option value="light_verb">Light verbs</option>
+      <option value="prep_idiom">Prepositional idioms</option>
+      <option value="figurative">Figurative idioms</option>
+      <option value="binomial">Binomials</option>
+      <option value="rephrase">Rephrasing frames</option>
+      <option value="inversion">Inversion</option>
+    </select>
+    <button id="next" title="Next set">Next</button>
+    <button id="lookupToggle" title="Lookup panel">Lookup</button>
+    <span id="statline"></span>
+  </div>
+</header>
+<main class="sheet">
+  <div class="sheet-head">Sentence transformation — write the missing part. Keyword in brackets must be used.</div>
+  <ol id="list"></ol>
+  <div class="foot">
+    <button id="check">Check</button>
+    <button id="reveal">Reveal</button>
+    <span id="score"></span>
+  </div>
+  <aside id="lookup" hidden>
+    <input id="lw" placeholder="word to look up" />
+    <button id="go">Define</button>
+    <a id="dictapp" href="#">Open in Dictionary.app</a>
+    <pre id="def"></pre>
+  </aside>
+</main>
+</body>
+</html>

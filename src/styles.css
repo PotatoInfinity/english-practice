@@ -1,0 +1,27 @@
+/* Deadpan Word-sheet: monochrome, serif, no gamification. */
+:root { --ink:#111; --paper:#fff; --rule:#111; --mut:#555; }
+* { box-sizing:border-box; }
+body { margin:0; background:#e9e9e9; color:var(--ink); font-family: Georgia, "Times New Roman", serif; }
+.topbar { display:flex; justify-content:space-between; align-items:center; padding:8px 16px; background:#fff; border-bottom:1px solid #999; position:sticky; top:0; }
+.title { font-weight:bold; font-size:15px; }
+.controls { display:flex; gap:8px; align-items:center; font-family: Arial, sans-serif; font-size:12px; }
+.controls select, .controls button { font:inherit; border:1px solid #111; background:#fff; padding:2px 8px; }
+#statline { color:var(--mut); }
+.sheet { max-width:760px; margin:18px auto; background:var(--paper); padding:40px 48px; box-shadow:0 0 0 1px #bbb; min-height:80vh; }
+.sheet-head { font-style:italic; border-bottom:1px solid var(--rule); padding-bottom:8px; margin-bottom:12px; }
+ol#list { padding-left:22px; }
+ol#list li { margin:14px 0 18px; line-height:2.1; }
+.kw { font-weight:bold; }
+.rewrite { display:block; }
+.gap { display:inline-block; min-width:220px; border:0; border-bottom:1px solid #111; font:inherit; padding:0 4px; outline:none; }
+.gap.correct { border-bottom:2px solid #111; background:#f2f2f2; }
+.gap.wrong { border-bottom:2px solid #111; background:#e3e3e3; }
+.ans { display:none; font-size:14px; color:#111; border-top:1px dotted #999; margin-top:4px; padding-top:4px; }
+.ans.show { display:block; }
+.note { color:var(--mut); font-size:13px; }
+.foot { margin-top:24px; border-top:1px solid var(--rule); padding-top:12px; display:flex; gap:8px; align-items:center; font-family:Arial,sans-serif; }
+.foot button { border:1px solid #111; background:#fff; padding:4px 14px; font:inherit; }
+#score { font-size:12px; color:var(--mut); }
+#lookup { margin-top:16px; border:1px solid #111; padding:8px; font-family:Arial,sans-serif; }
+#lookup input { width:200px; font:inherit; border:1px solid #111; padding:2px 6px; }
+#def { white-space:pre-wrap; font-family:Georgia,serif; font-size:14px; }
