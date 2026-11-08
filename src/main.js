@@ -152,8 +152,12 @@ function rowFor(d, n) {
     let ptext = d.prompt;
     if (inFrame || inAns) ptext = stripBracket(d);
     p1.innerHTML = escapeHtml(ptext) + (inAns && !inFrame && kw ? ` <span class="kw">(${escapeHtml(d.keyword)})</span>` : "");
-    // blank_fill prompt duplicates the frame by format — render the frame only
-    if (d.category !== "blank_fill") li.append(p1);
+    // blank_fill prompts usually duplicate the frame — hide only the true
+    // duplicates; prompts with extra context (different blank, no blank,
+    // ___ vs ____) must stay visible or the item is unsolvable
+    const frameBlank = ((d.gap_prefix || "") + " ____ " + (d.gap_suffix || "")).replace(/_+/g, "____").replace(/\s+/g, " ").trim().toLowerCase();
+    const promptBlank = (d.prompt || "").replace(/_+/g, "____").replace(/\s+/g, " ").trim().toLowerCase();
+    if (d.category !== "blank_fill" || promptBlank !== frameBlank) li.append(p1);
     const p2 = document.createElement("div");
     p2.className = "rewrite";
     p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
@@ -396,13 +400,11 @@ async function gradeItem(n, quiet = false) {
   inp.classList.remove("correct", "wrong");
   const wrap = document.getElementById("wrap" + n);
   if (wrap) { wrap.classList.remove("correct", "wrong"); wrap.classList.add(correct ? "correct" : "wrong"); }
-  if (!correct) {
-    // wrong: show the correct answer right below the gap (single submit, no double grade)
-    const ans = document.getElementById("ans" + n);
-    if (ans) {
-      ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].notes || "")}</div>`;
-      ans.classList.add("show");
-    }
+  // answer key always shown (correct or not), with definition note
+  const ans = document.getElementById("ans" + n);
+  if (ans) {
+    ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].notes || "")}</div>`;
+    ans.classList.add("show");
   }
   lastSolved = n;
   lastSolvedId = items[n].id;
