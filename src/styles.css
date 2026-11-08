@@ -2,7 +2,7 @@
 :root { --ink:#111; --paper:#fff; --rule:#111; --mut:#555; }
 * { box-sizing:border-box; }
 body { margin:0; background:#e9e9e9; color:var(--ink); font-family: Georgia, "Times New Roman", serif; }
-.topbar { display:flex; justify-content:space-between; align-items:center; padding:8px 16px; background:#fff; border-bottom:1px solid #999; position:sticky; top:0; }
+.topbar { display:flex; justify-content:space-between; align-items:center; padding:8px 16px; background:#fff; border-bottom:1px solid #999; position:sticky; top:0; z-index:50; isolation:isolate; }
 .title { font-weight:bold; font-size:15px; }
 .controls { display:flex; gap:8px; align-items:center; font-family: Arial, sans-serif; font-size:12px; }
 .controls select, .controls button { font:inherit; border:1px solid #111; background:#fff; padding:2px 8px; }

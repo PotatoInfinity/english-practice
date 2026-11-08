@@ -418,38 +418,65 @@ fn due_items(
       }
     }
   }
-  // 3) interleave 1 due : 3 fresh so every 20-window mixes types, levels, and reviews
-  let mut out: Vec<DueItem> = Vec::with_capacity(lim);
-  let mut di = 0usize;
-  let mut si = vec![0usize; strata.len()];
-  let mut made_progress = true;
-  while out.len() < lim && made_progress {
-    made_progress = false;
-    if di < due.len() && (out.len() % 4 == 0 || strata.iter().enumerate().all(|(k, s)| si[k] >= s.len())) {
-      out.push(due[di].clone());
-      di += 1;
-      made_progress = true;
+  // 3) runs of 3 per category, cycling CATS in fixed order; difficulty mixed
+  // inside each run (L3/L2/L1 rotation); due (review) rows lead their run
+  let mut due_by_cat: Vec<Vec<DueItem>> = cats.iter().map(|_| vec![]).collect();
+  for d in due {
+    if let Some(i) = cats.iter().position(|c| *c == d.item.category.as_str()) {
+      due_by_cat[i].push(d);
     }
-    for (k, s) in strata.iter().enumerate() {
+  }
+  let mut fresh: Vec<Vec<Vec<DueItem>>> = cats.iter().map(|_| vec![vec![], vec![], vec![]]).collect();
+  for s in strata.into_iter().flatten() {
+    let di = (s.item.difficulty.clamp(1, 3) - 1) as usize;
+    if let Some(ci) = cats.iter().position(|c| *c == s.item.category.as_str()) {
+      fresh[ci][di].push(s);
+    }
+  }
+  const DORD: [usize; 3] = [2, 1, 0]; // L3, L2, L1 rotation
+  let mut out: Vec<DueItem> = Vec::with_capacity(lim);
+  let mut di2 = vec![0usize; cats.len()];
+  let mut fcur = vec![vec![0usize; 3]; cats.len()];
+  let mut fdiff = vec![0usize; cats.len()];
+  while out.len() < lim {
+    let mut moved = false;
+    for ci in 0..cats.len() {
+      for slot in 0..3 {
+        if out.len() >= lim {
+          break;
+        }
+        if slot == 0 && di2[ci] < due_by_cat[ci].len() {
+          out.push(due_by_cat[ci][di2[ci]].clone());
+          di2[ci] += 1;
+          moved = true;
+          continue;
+        }
+        let mut placed = false;
+        for k in 0..3 {
+          let dxi = DORD[(fdiff[ci] + k) % 3];
+          if fcur[ci][dxi] < fresh[ci][dxi].len() {
+            out.push(fresh[ci][dxi][fcur[ci][dxi]].clone());
+            fcur[ci][dxi] += 1;
+            fdiff[ci] = (fdiff[ci] + 1) % 3;
+            placed = true;
+            moved = true;
+            break;
+          }
+        }
+        if !placed && di2[ci] < due_by_cat[ci].len() {
+          // fresh exhausted here: spill remaining due
+          out.push(due_by_cat[ci][di2[ci]].clone());
+          di2[ci] += 1;
+          moved = true;
+        }
+      }
       if out.len() >= lim {
         break;
       }
-      if si[k] < s.len() && out.len() % 4 != 0 || (si[k] < s.len() && di >= due.len()) {
-        out.push(s[si[k]].clone());
-        si[k] += 1;
-        made_progress = true;
-      }
     }
-    if di >= due.len() && si.iter().enumerate().all(|(k, _)| si[k] >= strata[k].len()) {
+    if !moved {
       break;
     }
-  }
-  // any leftover due rows still need review — append
-  for d in due.into_iter().skip(di) {
-    if out.len() >= lim {
-      break;
-    }
-    out.push(d);
   }
   Ok(out)
 }
