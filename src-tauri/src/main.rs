@@ -401,9 +401,11 @@ fn srs_update(reps: i64, easiness: f64, interval: f64, correct: bool) -> (i64, f
 const COLS: &str = "i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,i.options,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0)";
 const CATS: [&str; 10] = ["light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion", "mcq", "three_in_one", "wordform", "blank_fill"];
 
-/// Fetch loop: overdue SRS items interleaved 1:3 with stratified fresh rows
-/// (round-robin across category x difficulty), so every 20-chunk is mixed.
-/// `seen` ids are never repeated — the frontend can page to 200 without dupes.
+/// Stable curriculum wall: stratified id-ordered paging (round-robin across
+/// category x difficulty), so every chunk is mixed and the order is IDENTICAL
+/// across restarts/reinstalls. Solved state is NOT filtered here — the frontend
+/// hydrates greens from each row's reps/next_due, and misses repeat via the
+/// 50-row retry wall. `seen` ids page forward without dupes.
 #[tauri::command]
 fn due_items(
   state: State<DbState>,
@@ -412,9 +414,8 @@ fn due_items(
   seen: Option<Vec<i64>>,
 ) -> Result<Vec<DueItem>, String> {
   let conn = state.0.lock().map_err(|e| e.to_string())?;
-  let now = Utc::now().timestamp();
   let lim = limit.unwrap_or(50).clamp(1, 200) as usize;
-  let seen_ids: Vec<i64> = seen.unwrap_or_default().into_iter().take(5000).collect();
+  let seen_ids: Vec<i64> = seen.unwrap_or_default().into_iter().take(20000).collect();
   let excl = if seen_ids.is_empty() {
     String::new()
   } else {
@@ -425,40 +426,19 @@ fn due_items(
     _ => CATS.to_vec(),
   };
 
-  // 1) overdue SRS rows (failed/unseen first), excluding seen; id-tiebreak keeps
-  // the wall identical across restarts. Mastered rows past their 60d date
-  // resurface here too (long-while repeat even when always correct).
-  let mut due: Vec<DueItem> = vec![];
-  for c in cats.iter().copied() {
-    let sql = format!(
-      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND (COALESCE(p.mastered,0)=0 OR COALESCE(p.next_due,0)<=?2) AND COALESCE(p.next_due,0)<=?2 {} ORDER BY COALESCE(p.next_due,0) ASC, i.id ASC LIMIT ?3",
-      COLS, excl
-    );
-    let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
-    for r in stmt.query_map(params![c, now, lim as i64], row_to_due).map_err(|e| e.to_string())? {
-      due.push(r.map_err(|e| e.to_string())?);
-    }
-  }
-  due.sort_by_key(|d| (d.next_due, d.item.id));
-  // cap reviews at half the batch: fresh stratified rows always get room,
-  // so every chunk mixes types and levels even with thousands overdue
-  due.truncate(lim / 2);
-
-  // 2) stratified fresh rows: unseen-or-due only (solved items stay solved,
-  // mastered-but-due repeat here too), id-ordered so the infinite wall never
-  // reshuffles between restarts
+  // stratified pages: fixed id order per category x difficulty (mixed by construction)
   let mut strata: Vec<Vec<DueItem>> = vec![];
   {
-    let per = ((lim - due.len()) / (cats.len() * 3).max(1) + 2).min(6) as i64;
+    let per = (lim / (cats.len() * 3).max(1) + 2).min(6) as i64;
     for c in cats.iter().copied() {
       for d in 1..=3 {
         let sql = format!(
-          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 AND (p.item_id IS NULL OR p.next_due<=?4) {} ORDER BY i.id ASC LIMIT ?3",
+          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 {} ORDER BY i.id ASC LIMIT ?3",
           COLS, excl
         );
         let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
         let rows: Vec<DueItem> = stmt
-          .query_map(params![c, d, per, now], row_to_due)
+          .query_map(params![c, d, per], row_to_due)
           .map_err(|e| e.to_string())?
           .collect::<Result<_, _>>()
           .map_err(|e| e.to_string())?;
@@ -468,14 +448,9 @@ fn due_items(
       }
     }
   }
-  // 3) runs of 3 per category, cycling CATS in fixed order; difficulty mixed
-  // inside each run (L3/L2/L1 rotation); due (review) rows lead their run
-  let mut due_by_cat: Vec<Vec<DueItem>> = cats.iter().map(|_| vec![]).collect();
-  for d in due {
-    if let Some(i) = cats.iter().position(|c| *c == d.item.category.as_str()) {
-      due_by_cat[i].push(d);
-    }
-  }
+  // runs of 3 per category, cycling CATS in fixed order; difficulty mixed
+  // inside each run (L3/L2/L1 rotation)
+  let due_by_cat: Vec<Vec<DueItem>> = cats.iter().map(|_| vec![]).collect();
   let mut fresh: Vec<Vec<Vec<DueItem>>> = cats.iter().map(|_| vec![vec![], vec![], vec![]]).collect();
   for s in strata.into_iter().flatten() {
     let di = (s.item.difficulty.clamp(1, 3) - 1) as usize;

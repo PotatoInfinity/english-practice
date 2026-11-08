@@ -13,7 +13,7 @@ let seenIds = new Set();
 let rendered = 0;
 let fetching = false;
 let drained = false;
-let retryTimer = 0;
+let lastSolvedId = null; // persisted: Jump to last solve works after restart
 let lastSolved = -1;
 let wrongIds = [];    // miss queue -> retried at every 50-row wall, re-queued if missed again
 let everWrong = new Set(); // ids missed at least once: stay queued even after in-place fix
@@ -31,12 +31,19 @@ async function load() {
   rendered = 0;
   drained = false;
   lastSolved = -1;
+  lastSolvedId = null;
   wrongIds = [];
   everWrong = new Set();
-  if (retryTimer) { clearTimeout(retryTimer); retryTimer = 0; }
   nextWallAt = 50;
   results = {};
   gradedUser = {};
+  // resume: miss queue + last position survive restarts (ids are stable)
+  try {
+    const w = JSON.parse(localStorage.getItem("wrongIds") || "[]");
+    if (Array.isArray(w)) wrongIds = w.filter(n => typeof n === "number").slice(-200);
+    const l = JSON.parse(localStorage.getItem("lastSolvedId") || "null");
+    if (typeof l === "number") lastSolvedId = l;
+  } catch { /* fresh */ }
   list.innerHTML = "";
   score.textContent = "";
   await fetchMore();
@@ -55,15 +62,11 @@ async function fetchMore() {
   moreBox.textContent = "loading…";
   try {
     const cat = "all"; // single mixed stream: all 10 types, all levels
-    let got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
-    if (got.length === 0 && seenIds.size > 0) {
-      // bank exhausted for this filter: lap again — SRS due/failed rows resurface, rest repeat
-      seenIds.clear();
-      got = await call("due_items", { limit: FETCH_N, category: cat, seen: [] });
-    }
+    const got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
     const fresh = got.filter(d => !seenIds.has(d.id));
     fresh.forEach(d => seenIds.add(d.id));
-    if (got.length === 0) {
+    if (fresh.length === 0) {
+      // whole bank paged exactly once (stable order) — green finish line
       drained = true;
       renderMore();
       showEndLine();
@@ -98,20 +101,15 @@ async function fetchMore() {
   moreBox.textContent = drained ? "Bank complete for now — reviews keep cycling." : "";
 }
 
-// green ending line when everything is solved: reviews (incl. 60d mastered
-// repeats) still resurface, so re-arm a fetch instead of latching forever
+// green ending line: the whole bank is on the wall exactly once (stable order).
+// Solved stay green via reps hydration; misses get their 50-wall second chance.
 async function showEndLine() {
   if (document.getElementById("endline")) return;
-  let label = "Bank complete — everything solved. Reviews resurface on schedule.";
+  let label = "Bank complete — entire wall loaded.";
   try {
     const s = await call("stats", {});
     if (s && typeof s.total === "number") {
-      label = s.mastered >= s.total
-        ? `Bank complete — all ${s.total} mastered. Long-while repeats return in ~60 days.`
-        : `Bank complete for now — ${s.mastered}/${s.total} mastered, ${s.due_now} due. Reviews keep cycling.`;
-      if (s.mastered < s.total && !retryTimer) {
-        retryTimer = setTimeout(() => { retryTimer = 0; drained = false; fetchMore(); }, 60000);
-      }
+      label = `Bank complete — all ${s.total} on the wall · ${s.mastered} mastered · ${s.due_now} due for review`;
     }
   } catch { /* preview fallback keeps the static label */ }
   const li = document.createElement("li");
@@ -233,6 +231,17 @@ function renderMore() {
   const frag = document.createDocumentFragment();
   next.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
   list.appendChild(frag);
+  // hydrate solved state from the backend: reps>0 and not yet due -> green.
+  // Due reviews (reps>0 but next_due passed) and fresh rows stay blank.
+  const nowS = Date.now() / 1000;
+  next.forEach((d, k) => {
+    const n = rendered + k;
+    if (!(n in results) && (d.reps || 0) > 0 && (d.next_due || 0) > nowS) {
+      results[n] = true;
+      const wrap = document.getElementById("wrap" + n);
+      if (wrap) wrap.classList.add("correct");
+    }
+  });
   rendered += next.length;
   if (!items.length && !list.children.length) {
     const li = document.createElement("li");
@@ -242,24 +251,30 @@ function renderMore() {
   maybeWall();
 }
 
-// every 50 rows: splice the miss queue in for a 2nd chance (miss again -> next wall)
+function saveQueue() {
+  try {
+    localStorage.setItem("wrongIds", JSON.stringify(wrongIds.slice(-200)));
+    localStorage.setItem("lastSolvedId", JSON.stringify(lastSolvedId));
+  } catch { /* private mode */ }
+}
+
+// every 50 rows: second-chance copies of the miss queue (miss again -> next wall).
+// Copies are intentional duplicates: the stable wall keeps every item in place.
 async function maybeWall() {
   if (wallBusy || rendered < nextWallAt) return;
-  // eligible = queued misses not already loaded (seenIds covers every fetched
-  // row, so it can never be the filter — check items presence instead)
-  const inItems = new Set(items.map(d => d.id));
-  const ids = wrongIds.filter(id => !inItems.has(id));
+  const ids = [...new Set(wrongIds)];
   nextWallAt += 50;
   if (!ids.length) return;
   wallBusy = true;
   // dequeue what we are about to render; misses re-queue on next grade
-  wrongIds = wrongIds.filter(id => !ids.includes(id));
+  wrongIds = [];
+  saveQueue();
   try {
     const rows = await call("items_by_ids", { ids });
-    const inItems2 = new Set(items.map(d => d.id));
-    const fresh = rows.filter(d => !inItems2.has(d.id));
+    // intentional copies (same id twice in the wall): the retry, then the
+    // stable original later. Wall copies always start blank.
+    const fresh = rows.filter(d => ids.includes(d.id));
     if (fresh.length) {
-      fresh.forEach(d => seenIds.add(d.id));
       items.splice(rendered, 0, ...fresh);
       const div = document.createElement("li");
       div.className = "walldiv";
@@ -281,10 +296,24 @@ new IntersectionObserver(entries => {
   else if (items.length - rendered < 10) fetchMore();
 }, { rootMargin: "800px" }).observe(moreBox);
 
-function scrollLatest() {
-  if (lastSolved < 0) { score.textContent = "Solve an item first (Enter in a gap)."; return; }
-  const el = document.getElementById("row" + lastSolved);
+async function scrollLatest() {
+  // resume across restarts: lastSolvedId persists, wall order is stable
+  let sid = lastSolvedId;
+  if (sid == null) {
+    if (lastSolved < 0 || !items[lastSolved]) { score.textContent = "Solve an item first (Enter in a gap)."; return; }
+    sid = items[lastSolved].id;
+  }
+  let idx = items.findIndex(d => d.id === sid);
+  // page forward until the row is rendered (or the bank is drained)
+  for (let guard = 0; (idx < 0 || idx >= rendered) && guard < 40; guard++) {
+    if (rendered < items.length) renderMore();
+    else if (drained) break;
+    else await fetchMore();
+    idx = items.findIndex(d => d.id === sid);
+  }
+  const el = idx >= 0 ? document.getElementById("row" + idx) : null;
   if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+  else score.textContent = "Solve an item first (Enter in a gap).";
 }
 
 function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
@@ -376,6 +405,7 @@ async function gradeItem(n, quiet = false) {
     }
   }
   lastSolved = n;
+  lastSolvedId = items[n].id;
   results[n] = correct;
   gradedUser[n] = user;
   if (correct) { solveTimes.push(Date.now()); paintSolveStat(); }
@@ -388,6 +418,7 @@ async function gradeItem(n, quiet = false) {
     // (prev === false) stays queued so the 50-wall still drills it once.
     wrongIds = wrongIds.filter(x => x !== wid);
   }
+  saveQueue();
   // anchor scroll: next question lands where this one was (skipped in bulk Check)
   if (!quiet) {
     const curRow = document.getElementById("row" + n);
