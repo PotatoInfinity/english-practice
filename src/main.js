@@ -440,7 +440,7 @@ function focusPrev(n) {
     if (el) { el.focus(); el.scrollIntoView({ block: "nearest" }); return; }
   }
 }
-function focusNext(n, anchorTop = null) {
+async function focusNext(n, anchorTop = null) {
   for (let pass = 0; pass < 2; pass++) {
     for (let k = (pass ? 0 : n + 1); k < (pass ? n + 1 : rendered); k++) {
       if (!(k in results)) {
@@ -459,6 +459,9 @@ function focusNext(n, anchorTop = null) {
       }
     }
   }
+  // everything rendered is solved: page the wall forward and continue there
+  if (rendered < items.length) { renderMore(); focusNext(n); return; }
+  if (!drained) { await fetchMore(); focusNext(n); }
 }
 
 async function check() {
