@@ -1,0 +1,7 @@
+[
+ {
+  "prompt": "The court must stay ____ from political pressure.",
+  "answer": "independent",
+  "reason": "malformed mcq: 3 unique options (inherent duplicated), needs rebuild"
+ }
+]

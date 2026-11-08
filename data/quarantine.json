@@ -2736,6 +2736,33 @@
   ]
  },
  {
+  "file": "data/extra-mcq-confuse.json",
+  "index": 49,
+  "entry": {
+   "category": "mcq",
+   "prompt": "The court must stay ____ from political pressure.",
+   "keyword": "",
+   "gap_prefix": "The court must stay",
+   "gap_suffix": "from political pressure.",
+   "answer": "independent",
+   "full_answer": "The court must stay independent from political pressure.",
+   "options": [
+    "inherent",
+    "intimate",
+    "inherent",
+    "independent"
+   ],
+   "alternatives": [
+    "D"
+   ],
+   "notes": "independent from/of pressure",
+   "difficulty": 2
+  },
+  "reasons": [
+   "purged: auditor-flagged trivial"
+  ]
+ },
+ {
   "file": "data/extra-papers.json",
   "index": 10,
   "entry": {
@@ -4549,9 +4576,7 @@
    "gap_suffix": "you need help, give me a call.",
    "answer": "Should",
    "full_answer": "Should you need help, give me a call.",
-   "alternatives": [
-    "A"
-   ],
+   "alternatives": [],
    "options": [
     "Should",
     "Would",

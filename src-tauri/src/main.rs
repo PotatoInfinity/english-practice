@@ -201,6 +201,34 @@ fn one() -> i64 {
   1
 }
 
+/// Merge key: case/whitespace-insensitive like merge.py norm() (dedup key).
+fn key_norm(s: &str) -> String {
+  s.split_whitespace().collect::<Vec<_>>().join(" ").to_lowercase()
+}
+
+/// Polish-insensitive sentence form: mirrors merge.py's polish step
+/// (no space before closing punctuation, no trailing end mark).
+fn sentence_key(s: &str) -> String {
+  let t = key_norm(s);
+  let mut out = String::with_capacity(t.len());
+  let mut pending_space = false;
+  for c in t.chars() {
+    if c == ' ' {
+      pending_space = true;
+    } else if ".,;:!?".contains(c) {
+      pending_space = false;
+      out.push(c);
+    } else {
+      if pending_space && !out.is_empty() {
+        out.push(' ');
+      }
+      pending_space = false;
+      out.push(c);
+    }
+  }
+  out.trim_end_matches(|c| c == '.' || c == '!' || c == '?').to_string()
+}
+
 fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
   let v: serde_json::Value = serde_json::from_str(txt).map_err(|e| e.to_string())?;
   let arr = if v.is_array() {
@@ -210,12 +238,18 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
   } else {
     return Err("seed: expected array or {items:[]}".into());
   };
-  // existing rows by stable content key -> id (progress lives on the id)
+  // existing rows by stable content key -> id (progress lives on the id).
+  // Keys are normalized (merge.py dedups on norm), plus a sentence fallback
+  // so repair-regrouped rows (same sentence, regrouped frame) keep their id.
   let mut have: std::collections::HashMap<(String, String, String, String, String), i64> =
+    std::collections::HashMap::new();
+  let mut have_nocat: std::collections::HashMap<(String, String, String, String), Vec<i64>> =
+    std::collections::HashMap::new();
+  let mut have_sent: std::collections::HashMap<(String, String, String), Vec<i64>> =
     std::collections::HashMap::new();
   {
     let mut q = conn
-      .prepare("SELECT id,category,prompt,gap_prefix,gap_suffix,answer FROM items")
+      .prepare("SELECT id,category,prompt,gap_prefix,gap_suffix,answer,full_answer FROM items")
       .map_err(|e| e.to_string())?;
     let rows = q
       .query_map([], |r| {
@@ -226,29 +260,91 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
           r.get::<_, String>(3)?,
           r.get::<_, String>(4)?,
           r.get::<_, String>(5)?,
+          r.get::<_, String>(6)?,
         ))
       })
       .map_err(|e| e.to_string())?;
     for r in rows {
-      let (id, c, p, pre, suf, a) = r.map_err(|e| e.to_string())?;
-      have.insert((c, p, pre, suf, a), id);
+      let (id, c, p, pre, suf, a, full) = r.map_err(|e| e.to_string())?;
+      have.insert((key_norm(&c), key_norm(&p), key_norm(&pre), key_norm(&suf), key_norm(&a)), id);
+      have_nocat.entry((key_norm(&p), key_norm(&pre), key_norm(&suf), key_norm(&a))).or_default().push(id);
+      have_sent.entry((key_norm(&c), key_norm(&p), sentence_key(&full))).or_default().push(id);
     }
+  }
+  // validated import: reuse the merge pipeline's shape rules so one malformed
+  // row can't poison the bank (it is skipped + counted, like quarantine)
+  fn valid_seed(s: &SeedItem) -> bool {
+    const CATS: [&str; 10] = ["light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion",
+      "mcq", "three_in_one", "wordform", "blank_fill"];
+    if !CATS.contains(&s.category.as_str()) || s.prompt.trim().is_empty()
+      || s.answer.trim().is_empty() || s.full_answer.trim().is_empty() { return false; }
+    if !(1..=3).contains(&s.difficulty) { return false; }
+    if s.category == "mcq" {
+      let clean: Vec<String> = s.options.iter().map(|a| key_norm(a)).filter(|a| !a.is_empty()).collect();
+      if clean.len() != 4 || !clean.contains(&key_norm(&s.answer)) { return false; }
+    }
+    if s.category == "three_in_one" {
+      let clean: Vec<String> = s.options.iter().map(|a| key_norm(a)).filter(|a| !a.is_empty()).collect();
+      if clean.len() != 3 || !s.options.iter().all(|a| a.contains("____")) { return false; }
+    }
+    true
   }
   let tx = conn.unchecked_transaction().map_err(|e| e.to_string())?;
   let mut n_new = 0usize;
+  let mut n_bad = 0usize;
+  let mut matched: std::collections::HashSet<i64> = std::collections::HashSet::new();
   {
     let mut upd = tx
-      .prepare("UPDATE items SET keyword=?,full_answer=?,alternatives=?,notes=?,difficulty=?,options=? WHERE id=?")
+      .prepare("UPDATE items SET category=?,keyword=?,gap_prefix=?,gap_suffix=?,answer=?,full_answer=?,alternatives=?,notes=?,difficulty=?,options=? WHERE id=?")
       .map_err(|e| e.to_string())?;
     let mut ins = tx
       .prepare("INSERT INTO items(category,prompt,keyword,gap_prefix,gap_suffix,answer,full_answer,alternatives,notes,difficulty,options) VALUES(?,?,?,?,?,?,?,?,?,?,?)")
       .map_err(|e| e.to_string())?;
     for raw in arr {
       let s: SeedItem = serde_json::from_value(raw).map_err(|e| e.to_string())?;
-      let key = (s.category.clone(), s.prompt.clone(), s.gap_prefix.clone(), s.gap_suffix.clone(), s.answer.clone());
-      if let Some(id) = have.remove(&key) {
+      if !valid_seed(&s) {
+        n_bad += 1;
+        continue;
+      }
+      let key = (key_norm(&s.category), key_norm(&s.prompt), key_norm(&s.gap_prefix), key_norm(&s.gap_suffix), key_norm(&s.answer));
+      // 1) exact (normalized) frame key; 2) same key ignoring category
+      // (re-tag keeps history + updates category); 3) same sentence
+      // (repair regroup keeps history)
+      let mut id = have.remove(&key);
+      if id.is_none() {
+        let nk = (key.1.clone(), key.2.clone(), key.3.clone(), key.4.clone());
+        let take = match have_nocat.get(&nk) {
+          Some(v) if v.len() == 1 => Some(v[0]),
+          _ => None,
+        };
+        if let Some(take) = take {
+          have_nocat.remove(&nk);
+          // drop the stale exact+sentence entries for the kept row
+          have.retain(|_, kept| *kept != take);
+          if let Some(v) = have_sent.get(&(key.0.clone(), key.1.clone(), sentence_key(&s.full_answer))) {
+            if v.contains(&take) {
+              have_sent.remove(&(key.0.clone(), key.1.clone(), sentence_key(&s.full_answer)));
+            }
+          }
+          id = Some(take);
+        }
+      }
+      if id.is_none() {
+        let sk = (key.0.clone(), key.1.clone(), sentence_key(&s.full_answer));
+        let take = match have_sent.get(&sk) {
+          Some(v) if v.len() == 1 => Some(v[0]),
+          _ => None,
+        };
+        if let Some(take) = take {
+          have_sent.remove(&sk);
+          have.retain(|_, kept| *kept != take);
+          id = Some(take);
+        }
+      }
+      if let Some(id) = id {
+        matched.insert(id);
         upd.execute(params![
-          s.keyword, s.full_answer,
+          s.category, s.keyword, s.gap_prefix, s.gap_suffix, s.answer, s.full_answer,
           serde_json::to_string(&s.alternatives).unwrap(),
           s.notes, s.difficulty,
           serde_json::to_string(&s.options).unwrap(),
@@ -266,14 +362,21 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
       }
     }
   }
-  // rows left in `have` vanished from the bank: drop them (progress cascades,
-  // orphan reviews cleaned explicitly as reviews has no FK)
-  for id in have.values() {
+  // rows never matched by any pass vanished from the bank: drop them (progress
+  // cascades, orphan reviews cleaned explicitly as reviews has no FK)
+  let mut gone: Vec<i64> = have.values().copied().collect();
+  for v in have_nocat.values().flatten().chain(have_sent.values().flatten()) {
+    if !matched.contains(v) && !gone.contains(v) {
+      gone.push(*v);
+    }
+  }
+  for id in gone {
     let _ = tx.execute("DELETE FROM progress WHERE item_id=?1", params![id]);
     let _ = tx.execute("DELETE FROM reviews WHERE item_id=?1", params![id]);
     let _ = tx.execute("DELETE FROM items WHERE id=?1", params![id]);
   }
   tx.commit().map_err(|e| e.to_string())?;
+  let _ = n_bad;
   Ok(n_new)
 }
 
@@ -285,6 +388,7 @@ fn normalize(s: &str) -> String {
   let pairs = [
     ("can't", "can not"), ("won't", "will not"), ("n't", " not"),
     ("'re", " are"), ("'ve", " have"), ("'ll", " will"), ("'d", " would"),
+    ("'m", " am"),
   ];
   for (a, b) in pairs {
     t = t.replace(a, b);
@@ -311,9 +415,40 @@ fn strip_optional_articles(s: &str) -> String {
     .join(" ")
 }
 
+// whole-word US/UK map (substring replace over-accepts: soup->sop, promise->promize)
 fn us_uk_fold(s: &str) -> String {
-  s.replace("ou", "o") // colour->color-ish fold (lenient only)
-    .replace("ise", "ize")
+  const PAIRS: &[(&str, &str)] = &[
+    ("colour", "color"), ("colours", "colors"), ("favour", "favor"),
+    ("favours", "favors"), ("favourite", "favorite"), ("favourites", "favorites"),
+    ("honour", "honor"), ("honours", "honors"), ("labour", "labor"),
+    ("neighbour", "neighbor"), ("neighbours", "neighbors"),
+    ("organise", "organize"), ("organised", "organized"), ("organising", "organizing"),
+    ("realise", "realize"), ("realised", "realized"), ("realising", "realizing"),
+    ("recognise", "recognize"), ("recognised", "recognized"), ("recognising", "recognizing"),
+    ("apologise", "apologize"), ("apologised", "apologized"),
+    ("emphasise", "emphasize"), ("emphasised", "emphasized"),
+    ("behaviour", "behavior"), ("behaviours", "behaviors"),
+    ("cancelled", "canceled"), ("cancelling", "canceling"),
+    ("travelled", "traveled"), ("travelling", "traveling"),
+    ("cheque", "check"), ("cheques", "checks"), ("grey", "gray"),
+    ("pyjamas", "pajamas"), ("theatre", "theater"), ("centre", "center"),
+    ("metre", "meter"), ("litre", "liter"), ("defence", "defense"),
+    ("licence", "license"), ("offence", "offense"), ("practise", "practice"),
+  ];
+  s.split_whitespace()
+    .map(|w| {
+      for (uk, us) in PAIRS {
+        if w == *uk {
+          return us.to_string();
+        }
+        if w == *us {
+          return uk.to_string();
+        }
+      }
+      w.to_string()
+    })
+    .collect::<Vec<_>>()
+    .join(" ")
 }
 
 fn levenshtein(a: &str, b: &str) -> usize {
@@ -345,30 +480,32 @@ fn fuzzy_accept(user: &str, golds: &[String]) -> (bool, usize) {
     if nu == ng {
       return (true, 0);
     }
-    // article-optional pass
-    if strip_optional_articles(&nu) == strip_optional_articles(&ng) {
-      return (true, 0);
+    // combined article + spelling pass (either leniency alone is not enough)
+    let fu = us_uk_fold(&nu);
+    let fg = us_uk_fold(&ng);
+    if strip_optional_articles(&fu) == strip_optional_articles(&fg) {
+      // article-only differences still void article drills: require a
+      // substantive answer (gold of 3+ tokens) for the article pass
+      if ng.split_whitespace().count() >= 3 || fu == fg {
+        return (true, 0);
+      }
     }
     // us/uk fold pass
-    if us_uk_fold(&nu) == us_uk_fold(&ng) {
+    if fu == fg {
       return (true, 0);
     }
     let d = levenshtein(&nu, &ng);
     best = best.min(d);
-    let long = nu.len().max(ng.len());
-    // thresholds: <=2 short, <=3 long (>24 chars), or ratio >=0.85
+    // char (not byte) length; short answers forgive nothing, mid one typo
+    let long = nu.chars().count().max(ng.chars().count());
     let ratio = if long == 0 {
       1.0
     } else {
       1.0 - (d as f64 / long as f64)
     };
-    let allow = if long > 24 { 3 } else { 2 };
-    if d <= allow || ratio >= 0.85 {
-      // guard: single-word binomial order is strict — distance handles it,
-      // but reject empty/1-char answers
-      if nu.len() >= 2 {
-        return (true, d);
-      }
+    let allow = if long <= 3 { 0 } else if long <= 8 { 1 } else { 2 };
+    if (d <= allow || (long > 8 && ratio >= 0.92)) && nu.chars().count() >= 2 {
+      return (true, d);
     }
   }
   (false, if best == usize::MAX { 999 } else { best })
@@ -450,7 +587,6 @@ fn due_items(
   }
   // runs of 3 per category, cycling CATS in fixed order; difficulty mixed
   // inside each run (L3/L2/L1 rotation)
-  let due_by_cat: Vec<Vec<DueItem>> = cats.iter().map(|_| vec![]).collect();
   let mut fresh: Vec<Vec<Vec<DueItem>>> = cats.iter().map(|_| vec![vec![], vec![], vec![]]).collect();
   for s in strata.into_iter().flatten() {
     let di = (s.item.difficulty.clamp(1, 3) - 1) as usize;
@@ -460,39 +596,24 @@ fn due_items(
   }
   const DORD: [usize; 3] = [2, 1, 0]; // L3, L2, L1 rotation
   let mut out: Vec<DueItem> = Vec::with_capacity(lim);
-  let mut di2 = vec![0usize; cats.len()];
   let mut fcur = vec![vec![0usize; 3]; cats.len()];
   let mut fdiff = vec![0usize; cats.len()];
   while out.len() < lim {
     let mut moved = false;
     for ci in 0..cats.len() {
-      for slot in 0..3 {
+      for _slot in 0..3 {
         if out.len() >= lim {
           break;
         }
-        if slot == 0 && di2[ci] < due_by_cat[ci].len() {
-          out.push(due_by_cat[ci][di2[ci]].clone());
-          di2[ci] += 1;
-          moved = true;
-          continue;
-        }
-        let mut placed = false;
         for k in 0..3 {
           let dxi = DORD[(fdiff[ci] + k) % 3];
           if fcur[ci][dxi] < fresh[ci][dxi].len() {
             out.push(fresh[ci][dxi][fcur[ci][dxi]].clone());
             fcur[ci][dxi] += 1;
             fdiff[ci] = (fdiff[ci] + 1) % 3;
-            placed = true;
             moved = true;
             break;
           }
-        }
-        if !placed && di2[ci] < due_by_cat[ci].len() {
-          // fresh exhausted here: spill remaining due
-          out.push(due_by_cat[ci][di2[ci]].clone());
-          di2[ci] += 1;
-          moved = true;
         }
       }
       if out.len() >= lim {
@@ -501,6 +622,24 @@ fn due_items(
     }
     if !moved {
       break;
+    }
+  }
+  // top-up: strata caps (6 per cell) can leave the batch short of `lim`;
+  // fill the rest with plain id-ordered unseen rows so every batch is full
+  if out.len() < lim {
+    let mut picked: Vec<String> = seen_ids.iter().map(|n| n.to_string()).collect();
+    picked.extend(out.iter().map(|d| d.item.id.to_string()));
+    let sql = format!(
+      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.id NOT IN ({}) ORDER BY i.id ASC LIMIT ?1",
+      COLS,
+      if picked.is_empty() { "0".to_string() } else { picked.join(",") }
+    );
+    let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
+    let rows = stmt
+      .query_map(params![(lim - out.len()) as i64], row_to_due)
+      .map_err(|e| e.to_string())?;
+    for r in rows {
+      out.push(r.map_err(|e| e.to_string())?);
     }
   }
   Ok(out)
@@ -531,7 +670,9 @@ fn submit_answer(state: State<DbState>, item_id: i64, user: String) -> Result<Ve
     .map_err(|e| e.to_string())?;
   let mut golds = vec![answer.clone()];
   let alts: Vec<String> = serde_json::from_str(&alt_s).unwrap_or_default();
-  golds.extend(alts.clone());
+  // single-letter alternatives are MCQ key letters (A/B/C/D), not answers —
+  // never grade them as gold (direct-invoke backdoor)
+  golds.extend(alts.iter().filter(|a| normalize(a).chars().count() >= 2).cloned());
   let (correct, dist) = fuzzy_accept(&user, &golds);
   let now = Utc::now().timestamp();
   let (reps, lapses, easiness, interval, next_due): (i64, i64, f64, f64, i64) = conn

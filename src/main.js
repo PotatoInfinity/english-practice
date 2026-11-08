@@ -16,7 +16,6 @@ let drained = false;
 let lastSolvedId = null; // persisted: Jump to last solve works after restart
 let lastSolved = -1;
 let wrongIds = [];    // miss queue -> retried at every 50-row wall, re-queued if missed again
-let everWrong = new Set(); // ids missed at least once: stay queued even after in-place fix
 let nextWallAt = 50;
 let wallBusy = false;
 const FETCH_N = 200;   // rows pulled into memory per batch (tiny JSON, SRS state stays in SQLite)
@@ -33,72 +32,85 @@ async function load() {
   lastSolved = -1;
   lastSolvedId = null;
   wrongIds = [];
-  everWrong = new Set();
   nextWallAt = 50;
   results = {};
   gradedUser = {};
   // resume: miss queue + last position survive restarts (ids are stable)
   try {
     const w = JSON.parse(localStorage.getItem("wrongIds") || "[]");
-    if (Array.isArray(w)) wrongIds = w.filter(n => typeof n === "number").slice(-200);
+    if (Array.isArray(w)) wrongIds = w.filter(n => Number.isInteger(n) && n > 0).slice(-200);
     const l = JSON.parse(localStorage.getItem("lastSolvedId") || "null");
-    if (typeof l === "number") lastSolvedId = l;
+    if (Number.isInteger(l) && l > 0) lastSolvedId = l;
   } catch { /* fresh */ }
   list.innerHTML = "";
   score.textContent = "";
+  paintSolveStat();
   await fetchMore();
   // persistent progress readout (backend-backed: survives restarts/reinstalls)
   try {
     const s = await call("stats", {});
     if (s && typeof s.total === "number") {
-      score.textContent = `${s.mastered}/${s.total} mastered · ${s.due_now} due · ${s.reviews_today} today`;
+      bankstat(s);
     }
   } catch { /* browser preview: no backend */ }
 }
 
+function bankstat(s) {
+  const el = document.getElementById("bankstat");
+  if (el) el.textContent = `${s.mastered}/${s.total} mastered · ${s.due_now} due · ${s.reviews_today} today`;
+}
+
+let previewBank = null; // browser fallback: full seed cached, paged like due_items
 async function fetchMore() {
   if (fetching || drained) return;
   fetching = true;
   moreBox.textContent = "loading…";
   try {
-    const cat = "all"; // single mixed stream: all 10 types, all levels
-    const got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
-    const fresh = got.filter(d => !seenIds.has(d.id));
-    fresh.forEach(d => seenIds.add(d.id));
-    if (fresh.length === 0) {
-      // whole bank paged exactly once (stable order) — green finish line
-      drained = true;
-      renderMore();
-      showEndLine();
-      return;
-    }
-    const end = document.getElementById("endline");
-    if (end) end.remove();
-    items.push(...fresh);
-    renderMore();
-  } catch (e1) {
     try {
-      // browser preview without Tauri: load seed.json directly
-      const r = await fetch("../src-tauri/seed.json").catch(() => fetch("./seed.json"));
-      const j = await r.json();
-      const arr = Array.isArray(j) ? j : j.items;
-      const fresh = arr
-        .filter(a => !seenIds.has(a.id ?? -1))
-        .slice(0, FETCH_N)
-        .map((a, i) => ({ id: a.id ?? Date.now() + i, ...a }));
+      const cat = "all"; // single mixed stream: all 10 types, all levels
+      const got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
+      const fresh = got.filter(d => !seenIds.has(d.id));
       fresh.forEach(d => seenIds.add(d.id));
-      drained = true;
+      if (fresh.length === 0) {
+        // whole bank paged exactly once (stable order) — green finish line
+        drained = true;
+        renderMore();
+        showEndLine();
+        return;
+      }
+      const end = document.getElementById("endline");
+      if (end) end.remove();
       items.push(...fresh);
       renderMore();
-    } catch (e2) {
-      const li = document.createElement("li");
-      li.textContent = `Could not load drill items (${String(e1).slice(0, 120)}). Restart the app.`;
-      list.appendChild(li);
-      drained = true;
+    } catch (e1) {
+      // browser preview without Tauri: load seed.json directly, page it
+      if (!previewBank) {
+        const r = await fetch("../src-tauri/seed.json").catch(() => fetch("./seed.json"));
+        const j = await r.json();
+        const arr = Array.isArray(j) ? j : j.items;
+        let k = 0;
+        previewBank = arr.map(a => ({ id: a.id ?? -(++k), ...a }));
+      }
+      const fresh = previewBank.filter(d => !seenIds.has(d.id)).slice(0, FETCH_N);
+      fresh.forEach(d => seenIds.add(d.id));
+      if (fresh.length === 0) {
+        drained = true;
+        renderMore();
+        showEndLine();
+        return;
+      }
+      items.push(...fresh);
+      renderMore();
     }
+  } catch (e2) {
+    const li = document.createElement("li");
+    li.textContent = `Could not load drill items. Restart the app.`;
+    list.appendChild(li);
+    drained = true;
+  } finally {
+    fetching = false;
+    moreBox.textContent = drained ? "Bank complete for now — reviews keep cycling." : "";
   }
-  fetching = false;
-  moreBox.textContent = drained ? "Bank complete for now — reviews keep cycling." : "";
 }
 
 // green ending line: the whole bank is on the wall exactly once (stable order).
@@ -122,12 +134,16 @@ async function showEndLine() {
 function rowFor(d, n) {
   const li = document.createElement("li");
   li.id = "row" + n;
+  li.className = "row";
   const p1 = document.createElement("div");
+  const answer = (d.answer || "").toString();
+  const pre = (d.gap_prefix || "").toString();
+  const suf = (d.gap_suffix || "").toString();
   if (d.category === "mcq" && d.options?.length) {
     p1.textContent = stripBracket(d);
     const ol = document.createElement("div");
     ol.className = "opts";
-    d.options.forEach((o, i) => {
+    (d.options || []).forEach((o, i) => {
       const r = document.createElement("div");
       r.textContent = `${i + 1}. ${o}`;
       ol.appendChild(r);
@@ -137,7 +153,7 @@ function rowFor(d, n) {
     p1.textContent = "Fill ONE word that fits all three sentences:";
     const box = document.createElement("div");
     box.className = "s3";
-    d.options.slice(0, 3).forEach(s => {
+    (d.options || []).slice(0, 3).forEach(s => {
       const r = document.createElement("div");
       r.innerHTML = `• ${escapeHtml(s).replaceAll("____", "<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>")}`;
       box.appendChild(r);
@@ -147,23 +163,24 @@ function rowFor(d, n) {
     // keyword badge: show only when the bracket word is part of the answer.
     // If it's already sitting in the frame the badge is noise -> hide it.
     const kw = (d.keyword || "").trim();
-    const inAns = wordHit(d.answer, kw, d.category === "wordform");
-    const inFrame = wordHit((d.gap_prefix || "") + " " + (d.gap_suffix || ""), kw, false);
+    const stem = d.category === "wordform";
+    const inAns = wordHit(answer, kw, stem);
+    const inFrame = wordHit((pre || "") + " " + (suf || ""), kw, stem);
     let ptext = d.prompt;
     if (inFrame || inAns) ptext = stripBracket(d);
     p1.innerHTML = escapeHtml(ptext) + (inAns && !inFrame && kw ? ` <span class="kw">(${escapeHtml(d.keyword)})</span>` : "");
     // blank_fill prompts usually duplicate the frame — hide only the true
     // duplicates; prompts with extra context (different blank, no blank,
     // ___ vs ____) must stay visible or the item is unsolvable
-    const frameBlank = ((d.gap_prefix || "") + " ____ " + (d.gap_suffix || "")).replace(/_+/g, "____").replace(/\s+/g, " ").trim().toLowerCase();
+    const frameBlank = (pre + " ____ " + suf).replace(/_+/g, "____").replace(/\s+/g, " ").trim().toLowerCase();
     const promptBlank = (d.prompt || "").replace(/_+/g, "____").replace(/\s+/g, " ").trim().toLowerCase();
     if (d.category !== "blank_fill" || promptBlank !== frameBlank) li.append(p1);
     const p2 = document.createElement("div");
     p2.className = "rewrite";
-    p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
+    p2.innerHTML = `&rarr; ${escapeHtml(pre)} `;
     p2.appendChild(inpFor(d, n));
     const tail = document.createElement("span");
-    tail.textContent = d.gap_suffix && /^[.,;:!?]/.test(d.gap_suffix) ? d.gap_suffix : " " + (d.gap_suffix || "");
+    tail.textContent = suf && /^[.,;:!?)"'\]\u2014\u2013\(\-—–]/.test(suf) ? suf : " " + (suf || "");
     p2.appendChild(tail);
     li.append(p2);
   }
@@ -197,12 +214,15 @@ function wordHit(hay, kw, stemOk) {
 function stripBracket(d) {
   const p = d.prompt || "";
   const kw = (d.keyword || "").trim();
-  const m = p.match(/\s*\(([^()]+)\)\s*[.?!;:,]*\s*$/);
+  const m = p.match(/\s*\(([^()]+)\)\s*[.?!;:,—–"')\]]*\s*$/);
   if (m && m[1].trim().toLowerCase() === kw.toLowerCase()) {
     return p.slice(0, m.index).trim();
   }
   return p;
 }
+
+// normalized compare key: same logical text never double-submits
+function normKey(s) { return (s ?? "").trim().toLowerCase(); }
 
 function inpFor(d, n) {
   const wrap = document.createElement("span");
@@ -212,10 +232,16 @@ function inpFor(d, n) {
   inp.className = "gap";
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
+  if (d.category === "mcq") inp.setAttribute("title", "Type 1–4, A–D, or the full option text");
+  inp.addEventListener("input", () => {
+    // typing after a verdict clears the stale color (verdict kept for guards)
+    const wrap = document.getElementById("wrap" + n);
+    if (wrap) wrap.classList.remove("correct", "wrong");
+  });
   inp.addEventListener("keydown", e => {
     if (e.key !== "Enter") return;
     if (e.shiftKey) { focusPrev(n); return; }
-    if (!inp.value.trim()) { focusPrev(n); return; }  // blank box: Enter goes back
+    if (!inp.value.trim()) { focusNext(n); return; }  // blank box: Enter moves forward
     gradeItem(n);
   });
   wrap.appendChild(inp);
@@ -231,6 +257,7 @@ function inpFor(d, n) {
 }
 
 function renderMore() {
+  if (wallBusy) return; // wall splice owns the DOM while it renders
   const next = items.slice(rendered, rendered + RENDER_N);
   const frag = document.createDocumentFragment();
   next.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
@@ -247,12 +274,24 @@ function renderMore() {
     }
   });
   rendered += next.length;
+  if (showFilter !== "all") applyFilter(); // new rows obey the active filter
   if (!items.length && !list.children.length) {
     const li = document.createElement("li");
     li.textContent = "No due items — bank empty or all mastered. Try another category.";
     list.appendChild(li);
   }
   maybeWall();
+  pumpMore();
+}
+
+// stall guard: one viewport-filling pass while the sentinel is still visible
+function pumpMore() {
+  requestAnimationFrame(() => {
+    const r = moreBox.getBoundingClientRect();
+    if (r.top > innerHeight + 800 || r.bottom < 0) return;
+    if (rendered < items.length) renderMore();
+    else if (items.length - rendered < 10 && !drained && !fetching) fetchMore();
+  });
 }
 
 function saveQueue() {
@@ -267,18 +306,25 @@ function saveQueue() {
 async function maybeWall() {
   if (wallBusy || rendered < nextWallAt) return;
   const ids = [...new Set(wrongIds)];
-  nextWallAt += 50;
-  if (!ids.length) return;
+  if (!ids.length) { nextWallAt += 50; return; }
   wallBusy = true;
-  // dequeue what we are about to render; misses re-queue on next grade
-  wrongIds = [];
-  saveQueue();
   try {
-    const rows = await call("items_by_ids", { ids });
+    let rows;
+    try {
+      rows = await call("items_by_ids", { ids });
+    } catch {
+      // browser preview: serve retries from the cached bank
+      if (!previewBank) throw new Error("no preview bank");
+      rows = previewBank.filter(d => ids.includes(d.id));
+    }
     // intentional copies (same id twice in the wall): the retry, then the
     // stable original later. Wall copies always start blank.
     const fresh = rows.filter(d => ids.includes(d.id));
     if (fresh.length) {
+      // dequeue only what actually rendered; failures stay queued for next wall
+      wrongIds = wrongIds.filter(id => !fresh.some(d => d.id === id));
+      saveQueue();
+      nextWallAt = rendered + 50;
       items.splice(rendered, 0, ...fresh);
       const div = document.createElement("li");
       div.className = "walldiv";
@@ -288,9 +334,16 @@ async function maybeWall() {
       fresh.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
       list.appendChild(frag);
       rendered += fresh.length;
+      if (showFilter !== "all") applyFilter();
+    } else {
+      nextWallAt = rendered + 50;
     }
-  } catch { /* wall skipped this block */ }
+  } catch {
+    // wall skipped this block: keep the queue, advance cadence off rendered
+    nextWallAt = rendered + 50;
+  }
   wallBusy = false;
+  pumpMore();
 }
 
 // infinite scroll: paint more as the sentinel nears the viewport, fetch when low
@@ -301,22 +354,29 @@ new IntersectionObserver(entries => {
 }, { rootMargin: "800px" }).observe(moreBox);
 
 async function scrollLatest() {
-  // resume across restarts: lastSolvedId persists, wall order is stable
-  let sid = lastSolvedId;
-  if (sid == null) {
-    if (lastSolved < 0 || !items[lastSolved]) { score.textContent = "Solve an item first (Enter in a gap)."; return; }
-    sid = items[lastSolved].id;
+  // resume across restarts: lastSolvedId persists, wall order is stable.
+  // Prefer the live in-memory index when it still points at the same row.
+  let idx = -1;
+  if (lastSolved >= 0 && items[lastSolved] && items[lastSolved].id === lastSolvedId) {
+    idx = lastSolved;
+  } else if (lastSolvedId != null) {
+    idx = items.findIndex(d => d.id === lastSolvedId);
+  } else if (lastSolved >= 0 && items[lastSolved]) {
+    idx = lastSolved;
   }
-  let idx = items.findIndex(d => d.id === sid);
   // page forward until the row is rendered (or the bank is drained)
-  for (let guard = 0; (idx < 0 || idx >= rendered) && guard < 40; guard++) {
+  for (let guard = 0; (idx < 0 || idx >= rendered) && guard < 2000; guard++) {
     if (rendered < items.length) renderMore();
     else if (drained) break;
     else await fetchMore();
-    idx = items.findIndex(d => d.id === sid);
+    if (lastSolvedId != null) idx = items.findIndex(d => d.id === lastSolvedId);
+    else if (lastSolved >= 0) idx = lastSolved;
   }
-  const el = idx >= 0 ? document.getElementById("row" + idx) : null;
-  if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+  const el = idx >= 0 && idx < rendered ? document.getElementById("gap" + idx) : null;
+  if (el && el.offsetParent !== null) {
+    el.focus({ preventScroll: true });
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
   else score.textContent = "Solve an item first (Enter in a gap).";
 }
 
@@ -325,14 +385,23 @@ function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;
 let showFilter = "all";   // all | ok | no
 let results = {};         // idx -> true (correct) | false (wrong)
 let gradedUser = {};      // idx -> last submitted text (stops double SRS on re-Enter)
+let revealedSet = {};     // idx -> true once revealed (terminal: no SRS gaming)
 
-// topbar solve stats: correct-solve count + trailing-120s solves/min
-// ("_" until the session is 120s old). Count persists across restarts.
+// topbar solve stats: correct-solve count (persisted) + trailing-120s rate.
+// Rate needs a 120s warmup only on a truly fresh session.
 let sessionStart = Date.now();
+try {
+  const ss = JSON.parse(localStorage.getItem("sessionStart") || "null");
+  if (typeof ss === "number" && ss > 0 && ss <= Date.now()) sessionStart = ss;
+  else localStorage.setItem("sessionStart", JSON.stringify(sessionStart));
+} catch { /* fresh */ }
 let solveTimes = [];
 try {
   const saved = JSON.parse(localStorage.getItem("solveTimes") || "[]");
-  if (Array.isArray(saved)) solveTimes = saved.filter(t => typeof t === "number" && Date.now() - t < 180000).slice(-1000);
+  if (Array.isArray(saved)) {
+    const now = Date.now();
+    solveTimes = saved.filter(t => typeof t === "number" && t <= now + 5000 && now - t < 180000).slice(-1000);
+  }
 } catch { /* fresh */ }
 function saveSolveTimes() {
   try { localStorage.setItem("solveTimes", JSON.stringify(solveTimes.slice(-1000))); } catch { /* private mode */ }
@@ -340,12 +409,13 @@ function saveSolveTimes() {
 function paintSolveStat() {
   const el = document.getElementById("solvestat");
   if (!el) return;
-  const n = solveTimes.length;
-  const age = Date.now() - sessionStart;
-  const cutoff = Date.now() - 120000;
+  const now = Date.now();
+  const cutoff = now - 120000;
   while (solveTimes.length && solveTimes[0] < cutoff - 60000) solveTimes.shift();
-  const rate = age < 120000 ? "_" : (solveTimes.filter(t => t >= cutoff).length / 2).toFixed(1);
+  const n = solveTimes.length;
+  const rate = now - sessionStart < 120000 ? "_" : (solveTimes.filter(t => t >= cutoff).length / 2).toFixed(1);
   el.textContent = `${n} · ${rate}/min`;
+  el.title = "Correct solves total · per minute (last 120s; _ = warming up)";
   saveSolveTimes();
 }
 setInterval(paintSolveStat, 5000);
@@ -366,12 +436,20 @@ async function gradeItem(n, quiet = false) {
   const inp = document.getElementById("gap" + n);
   let user = inp.value;
   if (!user.trim()) return null;
-  if (results[n] === "revealed") {
-    // unedited reveal fill is not a solve — user must type something first
-    if (user === items[n].answer) return null;
-    delete results[n];
-  } else if (n in results && gradedUser[n] === user) {
-    return results[n]; // same text re-submitted: no double SRS hit
+  if (revealedSet[n]) {
+    // revealed once = given up on this row: never submits, just move on
+    if (!quiet) focusNext(n);
+    return "revealed";
+  }
+  if (n in results && normKey(gradedUser[n]) === normKey(user)) {
+    // same logical text re-submitted: restore color, no double SRS hit; advance if solved
+    const wrap0 = document.getElementById("wrap" + n);
+    if (wrap0) { wrap0.classList.remove("correct", "wrong"); wrap0.classList.add(results[n] ? "correct" : "wrong"); }
+    if (results[n] === true && !quiet) {
+      const curRow = document.getElementById("row" + n);
+      focusNext(n, curRow ? curRow.getBoundingClientRect().top : null);
+    }
+    return results[n];
   }
   const prev = results[n];
   // pure keyboard MCQ: type 1-4 or A-D, graded as the option text
@@ -387,6 +465,7 @@ async function gradeItem(n, quiet = false) {
       if (idx >= 0 && idx < opts.length) user = opts[idx];
     }
   }
+  gradedUser[n] = user; // optimistic: fast double-Enter can't double-submit
   let correct, expected = items[n].answer, full = items[n].full_answer;
   try {
     const verdict = await call("submit_answer", { itemId: items[n].id, user });
@@ -394,8 +473,15 @@ async function gradeItem(n, quiet = false) {
     expected = verdict.expected;
     full = verdict.fullAnswer ?? verdict.full_answer ?? full;
   } catch {
-    // browser fallback: exact/ci compare
-    correct = user.toLowerCase().trim() === items[n].answer.toLowerCase().trim();
+    // browser fallback: mirror of the backend (normalize + article pass)
+    const fbn = s => (s ?? "").toLowerCase().replace(/[’`]/g, "'")
+      .replace(/can't/g, "can not").replace(/won't/g, "will not").replace(/n't/g, " not")
+      .replace(/'re/g, " are").replace(/'ve/g, " have").replace(/'ll/g, " will")
+      .replace(/'d/g, " would").replace(/'m/g, " am")
+      .replace(/[^a-z0-9' ]/g, " ").replace(/\s+/g, " ").trim();
+    const fbs = s => fbn(s).split(" ").filter(w => w !== "a" && w !== "an" && w !== "the").join(" ");
+    const u = fbn(user), g = fbn(items[n].answer);
+    correct = u === g || fbs(user) === fbs(items[n].answer);
   }
   inp.classList.remove("correct", "wrong");
   const wrap = document.getElementById("wrap" + n);
@@ -403,17 +489,20 @@ async function gradeItem(n, quiet = false) {
   // answer key always shown (correct or not), with definition note
   const ans = document.getElementById("ans" + n);
   if (ans) {
-    ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].notes || "")}</div>`;
+    const note = (items[n].notes || "").trim();
+    ans.innerHTML = (full && full !== expected)
+      ? `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`
+      : `<b>${escapeHtml(expected)}</b>${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`;
     ans.classList.add("show");
   }
   lastSolved = n;
-  lastSolvedId = items[n].id;
+  if (!quiet) {
+    lastSolvedId = items[n].id;
+  }
   results[n] = correct;
-  gradedUser[n] = user;
-  if (correct) { solveTimes.push(Date.now()); paintSolveStat(); }
+  if (correct && !quiet) { solveTimes.push(Date.now()); paintSolveStat(); }
   const wid = items[n].id;
   if (!correct) {
-    everWrong.add(wid);
     if (!wrongIds.includes(wid)) wrongIds.push(wid);
   } else if (prev !== false) {
     // first-try or wall-retry correct: dequeue. In-place fix after a miss
@@ -421,11 +510,12 @@ async function gradeItem(n, quiet = false) {
     wrongIds = wrongIds.filter(x => x !== wid);
   }
   saveQueue();
-  // anchor scroll: next question lands where this one was (skipped in bulk Check)
+  // anchor scroll: next question lands where this one was (skipped in bulk Check).
+  // Measure AFTER filtering: if the graded row itself got hidden, no anchor.
   if (!quiet) {
-    const curRow = document.getElementById("row" + n);
-    const anchorTop = curRow ? curRow.getBoundingClientRect().top : null;
     applyFilter();
+    const curRow = document.getElementById("row" + n);
+    const anchorTop = (curRow && curRow.offsetParent !== null) ? curRow.getBoundingClientRect().top : null;
     focusNext(n, anchorTop);
   }
   return correct;
@@ -436,26 +526,31 @@ async function gradeItem(n, quiet = false) {
 // Shift+Enter jumps back to the previous gap
 function focusPrev(n) {
   for (let k = n - 1; k >= 0; k--) {
+    if (k in results || revealedSet[k]) continue;
     const el = document.getElementById("gap" + k);
-    if (el) { el.focus(); el.scrollIntoView({ block: "nearest" }); return; }
+    if (el && el.offsetParent !== null) { el.focus({ preventScroll: true }); el.scrollIntoView({ block: "nearest" }); return; }
   }
+}
+function visTop(el) {
+  const li = el.closest("li");
+  return (li || el).getBoundingClientRect().top;
 }
 async function focusNext(n, anchorTop = null) {
   for (let pass = 0; pass < 2; pass++) {
+    const wrapped = pass > 0; // teleported to wall start: smooth + centered
     for (let k = (pass ? 0 : n + 1); k < (pass ? n + 1 : rendered); k++) {
-      if (!(k in results)) {
-        const el = document.getElementById("gap" + k);
-        if (el) {
-          el.focus();
-          if (anchorTop !== null) {
-            const li = el.closest("li");
-            const t = (li || el).getBoundingClientRect().top;
-            window.scrollBy(0, t - anchorTop);
-          } else {
-            el.scrollIntoView({ block: "nearest" });
-          }
-          return;
+      if (k in results || revealedSet[k]) continue;
+      const el = document.getElementById("gap" + k);
+      if (el && el.offsetParent !== null) {
+        el.focus({ preventScroll: true });
+        if (anchorTop !== null && !wrapped) {
+          window.scrollBy(0, visTop(el) - anchorTop);
+          // content-visibility estimates shift layout: re-measure and correct
+          requestAnimationFrame(() => window.scrollBy(0, visTop(el) - anchorTop));
+        } else {
+          el.scrollIntoView({ behavior: wrapped ? "smooth" : undefined, block: wrapped ? "center" : "nearest" });
         }
+        return;
       }
     }
   }
@@ -467,11 +562,7 @@ async function focusNext(n, anchorTop = null) {
 async function check() {
   let ok = 0, done = 0;
   for (let n = 0; n < rendered; n++) {
-    if (results[n] === true || results[n] === "revealed") {
-      done++;
-      if (results[n] === true) ok++;
-      continue;
-    }
+    if (results[n] === true || revealedSet[n]) continue; // solved or given up: untouched
     // unsolved + missed rows re-grade; unchanged text returns cached, no double SRS
     const r = await gradeItem(n, true);
     if (r === null) continue;
@@ -479,21 +570,22 @@ async function check() {
     if (r) ok++;
   }
   applyFilter();
-  score.textContent = done ? `${ok}/${done} correct. Wrong ones resurface first. Reveal shows answers.` : "Type an answer first.";
+  score.textContent = done ? `${ok}/${done} correct. Wrong ones resurface at the retry wall.` : "Type an answer first.";
 }
 
 function reveal() {
+  // reveal = give up on UNSOLVED rows only; solved rows and prior states kept.
+  // Revealed rows are terminal (no SRS submit afterwards) to block free solves.
   for (let n = 0; n < rendered; n++) {
+    if (n in results || revealedSet[n]) continue;
     const d = items[n];
     const ans = document.getElementById("ans" + n);
     const inp = document.getElementById("gap" + n);
     if (!ans || !inp) continue;
     inp.value = d.answer;
-    // mark revealed so Check won't grade it as a genuine solve
-    results[n] = "revealed";
-    const wrap = document.getElementById("wrap" + n);
-    if (wrap) wrap.classList.remove("correct", "wrong");
-    ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}`;
+    revealedSet[n] = true;
+    const note = (d.notes || "").trim();
+    ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`;
     ans.classList.add("show");
   }
   applyFilter();
@@ -508,14 +600,18 @@ document.getElementById("theme").onclick = () => {
   try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch { /* private mode */ }
 };
 try { if (localStorage.getItem("theme") === "dark") document.getElementById("theme").onclick(); } catch { /* fresh */ }
-document.getElementById("fs").oninput = e => {
-  document.documentElement.style.setProperty("--fs", e.target.value + "px");
-  try { localStorage.setItem("fs", e.target.value); } catch { /* private mode */ }
-};
 try {
-  const fs = localStorage.getItem("fs");
-  if (fs) { document.getElementById("fs").value = fs; document.documentElement.style.setProperty("--fs", fs + "px"); }
+  const fs = parseInt(localStorage.getItem("fs") || "", 10);
+  if (Number.isInteger(fs) && fs >= 10 && fs <= 20) {
+    document.getElementById("fs").value = String(fs);
+    document.documentElement.style.setProperty("--fs", fs + "px");
+  }
 } catch { /* fresh */ }
+document.getElementById("fs").oninput = e => {
+  const v = Math.min(20, Math.max(10, parseInt(e.target.value, 10) || 16));
+  document.documentElement.style.setProperty("--fs", v + "px");
+  try { localStorage.setItem("fs", String(v)); } catch { /* private mode */ }
+};
 document.querySelectorAll("#filters button").forEach(b => {
   b.onclick = () => {
     showFilter = b.dataset.f;
@@ -525,38 +621,55 @@ document.querySelectorAll("#filters button").forEach(b => {
 });
 
 // Pomodoro focus timer: 25 focus / 5 rest, long 15 every 4th. Text-only,
-// deadline-based (no drift), completions persisted in localStorage.
+// drift-free (fractional seconds kept internally), phase persisted (paused).
 const POMO = { focus: 25 * 60, short: 5 * 60, long: 15 * 60 };
 let pomo = { mode: "focus", left: POMO.focus, endAt: 0, running: false, block: 0 };
 try {
   const saved = JSON.parse(localStorage.getItem("pomo") || "{}");
-  if (typeof saved.done === "number") pomoDoneSet(saved.done);
+  if (Number.isInteger(saved.done) && saved.done >= 0 && saved.done <= 100000) pomoDoneSet(saved.done);
+  if (typeof saved.left === "number" && saved.left > 0 && saved.left <= POMO.focus
+      && ["focus", "short", "long"].includes(saved.mode)
+      && Number.isInteger(saved.block) && saved.block >= 0) {
+    pomo.left = saved.left;
+    pomo.mode = saved.mode;
+    pomo.block = saved.block;
+  }
 } catch { /* fresh */ }
 function pomoDoneGet() { return parseInt(document.getElementById("pomoDone").dataset.n || "0", 10); }
 function pomoDoneSet(n) {
   const el = document.getElementById("pomoDone");
   el.dataset.n = String(n);
   el.textContent = n > 0 ? `${n}` : "";
-  try { localStorage.setItem("pomo", JSON.stringify({ done: n })); } catch { /* private mode */ }
+  pomoSave();
 }
-function fmt(s) { return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }
+function pomoSave() {
+  try {
+    localStorage.setItem("pomo", JSON.stringify({
+      done: pomoDoneGet(), left: Math.round(pomo.left), mode: pomo.mode, block: pomo.block,
+    }));
+  } catch { /* private mode */ }
+}
+function fmt(s) { s = Math.max(0, Math.floor(s)); return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }
 function pomoPaint() {
   const label = pomo.mode === "focus" ? "Focus" : (pomo.mode === "short" ? "Rest" : "Long rest");
   document.getElementById("pomoTime").textContent = `${label} ${fmt(pomo.left)}`;
-  document.title = `${fmt(pomo.left)} — HSG English Drill`;
+  // title shows the clock only while running; idle restores the app name
+  document.title = pomo.running ? `${fmt(pomo.left)} — HSG English Drill` : "HSG English Drill";
   document.getElementById("pomoStart").textContent = pomo.running ? "Pause" : "Start";
-  document.getElementById("pomoDots").textContent =
-    "●".repeat(pomo.block % 4) + "○".repeat(4 - (pomo.block % 4));
+  const dots = pomo.mode === "long" ? 4 : pomo.block % 4; // long rest keeps all 4 lit
+  document.getElementById("pomoDots").textContent = "●".repeat(dots) + "○".repeat(4 - dots);
 }
+let beepCtx = null;
 function beep() {
   try {
-    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    beepCtx = beepCtx || new (window.AudioContext || window.webkitAudioContext)();
+    if (beepCtx.state === "suspended") beepCtx.resume();
     [0, 0.35].forEach((t, i) => {
-      const o = ctx.createOscillator(), g = ctx.createGain();
-      o.connect(g); g.connect(ctx.destination);
+      const o = beepCtx.createOscillator(), g = beepCtx.createGain();
+      o.connect(g); g.connect(beepCtx.destination);
       o.frequency.value = i ? 660 : 880;
-      g.gain.setValueAtTime(0.12, ctx.currentTime + t);
-      o.start(ctx.currentTime + t); o.stop(ctx.currentTime + t + 0.3);
+      g.gain.setValueAtTime(0.12, beepCtx.currentTime + t);
+      o.start(beepCtx.currentTime + t); o.stop(beepCtx.currentTime + t + 0.3);
     });
   } catch { /* silent */ }
 }
@@ -569,18 +682,21 @@ function pomoAdvance(credit) {
   pomo.left = POMO[pomo.mode];
   pomo.running = false;
   pomoPaint();
+  pomoSave();
 }
 setInterval(() => {
   if (!pomo.running) return;
-  pomo.left = Math.max(0, Math.round((pomo.endAt - Date.now()) / 1000));
+  pomo.left = Math.max(0, (pomo.endAt - Date.now()) / 1000); // float: no pause drift
   if (pomo.left <= 0) { beep(); pomoAdvance(true); }
   else pomoPaint();
 }, 500);
 document.getElementById("pomoStart").onclick = () => {
+  if (beepCtx && beepCtx.state === "suspended") beepCtx.resume();
   pomo.running = !pomo.running;
   if (pomo.running) pomo.endAt = Date.now() + pomo.left * 1000;
   pomoPaint();
+  pomoSave();
 };
-document.getElementById("pomoSkip").onclick = () => pomoAdvance(false);
+document.getElementById("pomoSkip").onclick = () => { pomoAdvance(false); pomoSave(); };
 pomoPaint();
 load();

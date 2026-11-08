@@ -21,13 +21,19 @@ Backend: Rust + rusqlite (bundled), WAL mode. DB at app-data `hsg.db`.
 No server, no env, no keys.
 
 ## Drill engine
-- `due_items(limit, category)` — failed/overdue first, top-up with fresh items.
+- `due_items(limit, category)` — stable curriculum wall: stratified id-ordered
+  paging (round-robin category × difficulty), `seen` ids excluded, top-up to
+  full `limit`. Same query → same order every launch.
 - `submit_answer(item_id, user)` — fuzzy accept: lowercase, collapse spaces,
-  strip punctuation (keep `'`), expand contractions, article-optional pass,
-  US/UK fold (`ou→o`, `ise→ize`), Levenshtein ≤2 (≤3 if len>24) or ratio ≥0.85.
-  Binomial order strict (distance handles it); inversion auxiliary strict.
+  strip punctuation (keep `'`), expand contractions (incl. `'m`→am),
+  combined article+spelling leniency (article-only diffs need a 3+ token gold),
+  whole-word US/UK map, length-scaled Levenshtein (0 if ≤3 chars, 1 if ≤8,
+  else 2; ratio ≥0.92 only past 8 chars, char-counted). Single-letter
+  alternatives never count as gold. Binomial order strict via distance.
 - SM-2-lite SRS: correct → reps+1, interval 1/6/`e*interval`, mastered at reps≥5
-  (retired 60d); wrong → easiness−0.25, resurface in ~10 min, lapses+1.
+  (repeats ~60d); wrong → easiness−0.25, resurface in ~10 min, lapses+1.
+  Progress survives bank updates via stable-key upsert (sentence fallback keeps
+  repair-regrouped rows); `import_seed(json)` validates and skips malformed rows.
 - `stats`, `import_seed(json)`, `reset_progress`.
 
 ## Lookup (on-demand, not stored)

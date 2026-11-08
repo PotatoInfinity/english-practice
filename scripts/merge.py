@@ -262,11 +262,15 @@ def validate(e):
     for f in ("gap_prefix", "gap_suffix"):
         if not isinstance(e.get(f), str):
             reasons.append(f"{f} not a string")
-    alts = e.get("alternatives", [])
+    alts = e.get("alternatives")
+    if alts is None:
+        alts = []
     if not isinstance(alts, list) or any(not isinstance(a, str) for a in alts):
         reasons.append("alternatives malformed")
-    opts = e.get("options", [])
-    if opts is not None and (not isinstance(opts, list) or any(not isinstance(a, str) for a in opts)):
+    opts = e.get("options")
+    if opts is None:
+        opts = []
+    if not isinstance(opts, list) or any(not isinstance(a, str) for a in opts):
         reasons.append("options malformed")
     if e.get("category") == "mcq":
         clean = [re.sub(r"\s+", " ", a).strip() for a in (opts or []) if a and a.strip()]
@@ -280,7 +284,8 @@ def validate(e):
             reasons.append("three_in_one needs 3 sentences with ____")
     if e.get("category") == "inversion" and len(str(e.get("answer", "")).split()) < 3:
         reasons.append("fragment answer (<3 tokens)")
-    if not isinstance(e.get("difficulty", 1), int):
+    diff = e.get("difficulty", 1)
+    if isinstance(diff, bool) or not isinstance(diff, int):
         reasons.append("difficulty not int")
     return reasons
 
@@ -312,14 +317,24 @@ def canon(e):
     alts = sorted({re.sub(r"\s+", " ", a).strip() for a in (e.get("alternatives") or []) if a and a.strip()})
     ans = re.sub(r"\s+", " ", e["answer"]).strip()
     alts = [a for a in alts if norm(a) != norm(ans)]
+    if e.get("category") == "mcq":
+        # single-letter alternatives are the option key (A/B/C/D), not answers
+        alts = [a for a in alts if len(re.sub(r"\s+", "", a)) > 1]
     kw = re.sub(r"\s+", " ", (e.get("keyword") or "")).strip()
+    prompt = re.sub(r"\s+", " ", e["prompt"]).strip()
+    if kw and re.search(r"\d", kw):
+        # auditor-tagged keywords (BROKE3, POSES2): strip the digit suffix and
+        # fix the prompt bracket to match, so badge/strip logic works
+        clean_kw = re.sub(r"\d+$", "", kw).strip() or kw
+        prompt = re.sub(r"\(" + re.escape(kw) + r"\)", "(" + clean_kw + ")", prompt)
+        kw = clean_kw
     if not kw:
         # derive from exam-style "(WORD)" bracket in prompt, else answer head word
-        m = re.search(r"\(([A-Za-z' -]{1,30})\)\s*[.?]?\s*$", (e.get("prompt") or "").strip())
+        m = re.search(r"\(([A-Za-z' -]{1,30})\)\s*[.?!;:,]*\s*$", prompt)
         kw = m.group(1).strip() if m else ans.split(" ")[0]
     return {
         "category": e["category"],
-        "prompt": re.sub(r"\s+", " ", e["prompt"]).strip(),
+        "prompt": prompt,
         "keyword": kw,
         "gap_prefix": re.sub(r"\s+", " ", e.get("gap_prefix") or "").strip(),
         "gap_suffix": re.sub(r"\s+", " ", e.get("gap_suffix") or "").strip(),
