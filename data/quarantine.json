@@ -4371,7 +4371,7 @@
    "full_answer": "His testimony is at variance with the forensic evidence.",
    "alternatives": [],
    "options": [],
-   "notes": "in conflict with",
+   "notes": "at variance with = conflicting with forensic evidence.",
    "difficulty": 3
   },
   "reasons": [
@@ -4598,7 +4598,7 @@
    "full_answer": "I wish I had studied harder.",
    "alternatives": [],
    "options": [],
-   "notes": "regret past = wish + past perfect",
+   "notes": "wish I had studied = regret not studying harder.",
    "difficulty": 3
   },
   "reasons": [
@@ -4618,7 +4618,7 @@
    "full_answer": "I would rather drink tea than coffee.",
    "alternatives": [],
    "options": [],
-   "notes": "would rather V than V",
+   "notes": "would rather drink tea than = prefer tea over coffee.",
    "difficulty": 2
   },
   "reasons": [

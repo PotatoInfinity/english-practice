@@ -35,30 +35,8 @@
   "notes": "must have + pp = logical conclusion; fall-fell-fallen",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure the thief knew the security code; the alarm was disabled neatly.",
-  "keyword": "MUST",
-  "gap_prefix": "The thief",
-  "gap_suffix": "known the security code.",
-  "answer": "must have",
-  "full_answer": "The thief must have known the security code.",
-  "alternatives": [],
-  "notes": "must have + pp = certain deduction; know-knew-known",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "I am sure she felt terrified during the earthquake; the whole building shook violently.",
-  "keyword": "MUST",
-  "gap_prefix": "She",
-  "gap_suffix": "been terrified during the earthquake.",
-  "answer": "must have",
-  "full_answer": "She must have been terrified during the earthquake.",
-  "alternatives": [],
-  "notes": "must have + pp for past feeling inferred from event",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure the thief knew the security code; the alarm was disabled neatly.", "keyword": "MUST", "gap_prefix": "The thief", "gap_suffix": "known the security code.", "answer": "must have", "full_answer": "The thief must have known the security code.", "alternatives": [], "notes": "must have = certainly knew the code.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "I am sure she felt terrified during the earthquake; the whole building shook violently.", "keyword": "MUST", "gap_prefix": "She", "gap_suffix": "been terrified during the earthquake.", "answer": "must have", "full_answer": "She must have been terrified during the earthquake.", "alternatives": [], "notes": "must have = infers past terror from shaking.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure he missed the bus this morning; he is usually here by now and looks breathless.",
@@ -71,18 +49,7 @@
   "notes": "must have + pp = deduction about probable cause",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure they ate too much last night; they both have stomachache this morning.",
-  "keyword": "MUST",
-  "gap_prefix": "They",
-  "gap_suffix": "eaten too much last night.",
-  "answer": "must have",
-  "full_answer": "They must have eaten too much last night.",
-  "alternatives": [],
-  "notes": "must have + pp = deduction from present symptom",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure they ate too much last night; they both have stomachache this morning.", "keyword": "MUST", "gap_prefix": "They", "gap_suffix": "eaten too much last night.", "answer": "must have", "full_answer": "They must have eaten too much last night.", "alternatives": [], "notes": "must have = certainly overate last night.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure someone close to him leaked the plans; nobody else knew the details.",
@@ -95,18 +62,7 @@
   "notes": "must have + pp = only logical explanation",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure the baby woke up early; she was crying at five in the morning.",
-  "keyword": "MUST",
-  "gap_prefix": "The baby",
-  "gap_suffix": "woken up early.",
-  "answer": "must have",
-  "full_answer": "The baby must have woken up early.",
-  "alternatives": [],
-  "notes": "must have + pp; wake-woke-woken",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure the baby woke up early; she was crying at five in the morning.", "keyword": "MUST", "gap_prefix": "The baby", "gap_suffix": "woken up early.", "answer": "must have", "full_answer": "The baby must have woken up early.", "alternatives": [], "notes": "must have = is sure baby woke early.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure he left the air conditioning on; the office is freezing this morning.",
@@ -119,18 +75,7 @@
   "notes": "must have + pp = deduction about past oversight",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure the suspect took the wrong train; he arrived in the wrong city an hour late.",
-  "keyword": "MUST",
-  "gap_prefix": "The suspect",
-  "gap_suffix": "taken the wrong train.",
-  "answer": "must have",
-  "full_answer": "The suspect must have taken the wrong train.",
-  "alternatives": [],
-  "notes": "must have + pp; take-took-taken",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure the suspect took the wrong train; he arrived in the wrong city an hour late.", "keyword": "MUST", "gap_prefix": "The suspect", "gap_suffix": "taken the wrong train.", "answer": "must have", "full_answer": "The suspect must have taken the wrong train.", "alternatives": [], "notes": "must have = certainly took the wrong train.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure the trees were shaken by strong wind; look how the branches are scattered everywhere.",
@@ -143,18 +88,7 @@
   "notes": "must have + pp = deduction from visible result",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure she studied very little; how else could she have failed such an easy exam.",
-  "keyword": "MUST",
-  "gap_prefix": "She",
-  "gap_suffix": "studied very little.",
-  "answer": "must have",
-  "full_answer": "She must have studied very little.",
-  "alternatives": [],
-  "notes": "must have + pp with negative-friendly deduction context",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure she studied very little; how else could she have failed such an easy exam.", "keyword": "MUST", "gap_prefix": "She", "gap_suffix": "studied very little.", "answer": "must have", "full_answer": "She must have studied very little.", "alternatives": [], "notes": "must have = infers poor study from failure.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure Alex broke the coffee table; the dog was locked outside all afternoon.",
@@ -179,18 +113,7 @@
   "notes": "must have + pp = deduction from physical evidence",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure they hurried to catch the flight; they left the hotel before dawn.",
-  "keyword": "MUST",
-  "gap_prefix": "They",
-  "gap_suffix": "hurried to catch the flight.",
-  "answer": "must have",
-  "full_answer": "They must have hurried to catch the flight.",
-  "alternatives": [],
-  "notes": "must have + pp = inferred motive from behaviour",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure they hurried to catch the flight; they left the hotel before dawn.", "keyword": "MUST", "gap_prefix": "They", "gap_suffix": "hurried to catch the flight.", "answer": "must have", "full_answer": "They must have hurried to catch the flight.", "alternatives": [], "notes": "must have = certainly rushed for flight.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure she had an accident; there is blood on the kitchen floor.",
@@ -203,18 +126,7 @@
   "notes": "must have + pp = deduction linking evidence to past event",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "It was necessary for us to show our passports at the gate.",
-  "keyword": "HAD",
-  "gap_prefix": "We",
-  "gap_suffix": "show our passports at the gate.",
-  "answer": "had to",
-  "full_answer": "We had to show our passports at the gate.",
-  "alternatives": [],
-  "notes": "had to + base = past obligation; must have is only deduction",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "It was necessary for us to show our passports at the gate.", "keyword": "HAD", "gap_prefix": "We", "gap_suffix": "show our passports at the gate.", "answer": "had to", "full_answer": "We had to show our passports at the gate.", "alternatives": [], "notes": "had to = past obligation at gate.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "The school obliged pupils to wear uniforms every day.",
@@ -239,18 +151,7 @@
   "notes": "had to = no alternative; must have + pp would mean deduction",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "It was compulsory for the team to attend the morning briefing.",
-  "keyword": "HAD",
-  "gap_prefix": "The team",
-  "gap_suffix": "attend the morning briefing.",
-  "answer": "had to",
-  "full_answer": "The team had to attend the morning briefing.",
-  "alternatives": [],
-  "notes": "had to for past compulsion; must is present only",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "It was compulsory for the team to attend the morning briefing.", "keyword": "HAD", "gap_prefix": "The team", "gap_suffix": "attend the morning briefing.", "answer": "had to", "full_answer": "The team had to attend the morning briefing.", "alternatives": [], "notes": "had to = past obligation to attend.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "The manager required everyone to work overtime yesterday.",
@@ -263,30 +164,8 @@
   "notes": "had to = past requirement from authority",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The law required drivers to fasten seatbelts on that road.",
-  "keyword": "HAD",
-  "gap_prefix": "Drivers",
-  "gap_suffix": "fasten seatbelts on that road.",
-  "answer": "had to",
-  "full_answer": "Drivers had to fasten seatbelts on that road.",
-  "alternatives": [],
-  "notes": "had to for legal past obligation",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "It was necessary for me to finish the project by Friday.",
-  "keyword": "HAD",
-  "gap_prefix": "I",
-  "gap_suffix": "finish the project by Friday.",
-  "answer": "had to",
-  "full_answer": "I had to finish the project by Friday.",
-  "alternatives": [],
-  "notes": "had to + base; must have finished would mean deduction",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The law required drivers to fasten seatbelts on that road.", "keyword": "HAD", "gap_prefix": "Drivers", "gap_suffix": "fasten seatbelts on that road.", "answer": "had to", "full_answer": "Drivers had to fasten seatbelts on that road.", "alternatives": [], "notes": "had to = past legal obligation.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "It was necessary for me to finish the project by Friday.", "keyword": "HAD", "gap_prefix": "I", "gap_suffix": "finish the project by Friday.", "answer": "had to", "full_answer": "I had to finish the project by Friday.", "alternatives": [], "notes": "had to = needed to finish by Friday.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "My parents made me apologise to the neighbours.",
@@ -299,18 +178,7 @@
   "notes": "had to = externally imposed obligation",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The doctor said it was essential for him to stay in bed.",
-  "keyword": "HAD",
-  "gap_prefix": "He",
-  "gap_suffix": "stay in bed.",
-  "answer": "had to",
-  "full_answer": "He had to stay in bed.",
-  "alternatives": [],
-  "notes": "had to after medical order; not deduction",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The doctor said it was essential for him to stay in bed.", "keyword": "HAD", "gap_prefix": "He", "gap_suffix": "stay in bed.", "answer": "had to", "full_answer": "He had to stay in bed.", "alternatives": [], "notes": "had to = needed to stay in bed.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "The embassy required applicants to submit documents in person.",
@@ -323,18 +191,7 @@
   "notes": "had to = institutional past obligation",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "It was necessary for her to come early yesterday.",
-  "keyword": "HAD",
-  "gap_prefix": "She",
-  "gap_suffix": "come early yesterday.",
-  "answer": "had to",
-  "full_answer": "She had to come early yesterday.",
-  "alternatives": [],
-  "notes": "had to; must have come would mean I guess she came",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "It was necessary for her to come early yesterday.", "keyword": "HAD", "gap_prefix": "She", "gap_suffix": "come early yesterday.", "answer": "had to", "full_answer": "She had to come early yesterday.", "alternatives": [], "notes": "had to = expresses past obligation to come.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "We had no option but to queue for two hours for tickets.",
@@ -359,18 +216,7 @@
   "notes": "had to = coerced past action",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "It was mandatory for visitors to register at reception.",
-  "keyword": "HAD",
-  "gap_prefix": "Visitors",
-  "gap_suffix": "register at reception.",
-  "answer": "had to",
-  "full_answer": "Visitors had to register at reception.",
-  "alternatives": [],
-  "notes": "had to for past regulation",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "It was mandatory for visitors to register at reception.", "keyword": "HAD", "gap_prefix": "Visitors", "gap_suffix": "register at reception.", "answer": "had to", "full_answer": "Visitors had to register at reception.", "alternatives": [], "notes": "had to = past duty to register.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "Circumstances forced him to sell his car cheaply.",
@@ -383,18 +229,7 @@
   "notes": "had to = circumstantial necessity",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The rule required us to turn off phones during the exam.",
-  "keyword": "HAD",
-  "gap_prefix": "We",
-  "gap_suffix": "turn off phones during the exam.",
-  "answer": "had to",
-  "full_answer": "We had to turn off phones during the exam.",
-  "alternatives": [],
-  "notes": "had to; must have turned off = deduction trap",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The rule required us to turn off phones during the exam.", "keyword": "HAD", "gap_prefix": "We", "gap_suffix": "turn off phones during the exam.", "answer": "had to", "full_answer": "We had to turn off phones during the exam.", "alternatives": [], "notes": "had to = exam rule required phones off.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "She was under orders to guard the gate all night.",
@@ -431,18 +266,7 @@
   "notes": "can't have + pp = alibi makes it impossible",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure they did not hear the announcement; the loudspeakers were broken.",
-  "keyword": "CAN'T",
-  "gap_prefix": "They",
-  "gap_suffix": "heard the announcement.",
-  "answer": "can't have",
-  "full_answer": "They can't have heard the announcement.",
-  "alternatives": [],
-  "notes": "can't have + pp = impossible perception",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure they did not hear the announcement; the loudspeakers were broken.", "keyword": "CAN'T", "gap_prefix": "They", "gap_suffix": "heard the announcement.", "answer": "can't have", "full_answer": "They can't have heard the announcement.", "alternatives": [], "notes": "can't have = certainly did not hear.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure she did not buy that phone herself; she has no job and no savings.",
@@ -455,30 +279,8 @@
   "notes": "can't have + pp = logical impossibility",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure he did not write this essay; the handwriting is completely different.",
-  "keyword": "CAN'T",
-  "gap_prefix": "He",
-  "gap_suffix": "written this essay.",
-  "answer": "can't have",
-  "full_answer": "He can't have written this essay.",
-  "alternatives": [],
-  "notes": "can't have + pp; write-wrote-written",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "I am sure they did not finish the marathon; they gave up at kilometre ten.",
-  "keyword": "CAN'T",
-  "gap_prefix": "They",
-  "gap_suffix": "finished the marathon.",
-  "answer": "can't have",
-  "full_answer": "They can't have finished the marathon.",
-  "alternatives": [],
-  "notes": "can't have + pp = evidence rules it out",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure he did not write this essay; the handwriting is completely different.", "keyword": "CAN'T", "gap_prefix": "He", "gap_suffix": "written this essay.", "answer": "can't have", "full_answer": "He can't have written this essay.", "alternatives": [], "notes": "can't have = certainty he did not write it.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "I am sure they did not finish the marathon; they gave up at kilometre ten.", "keyword": "CAN'T", "gap_prefix": "They", "gap_suffix": "finished the marathon.", "answer": "can't have", "full_answer": "They can't have finished the marathon.", "alternatives": [], "notes": "can't have = certainly did not finish.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure she did not sleep well; her eyes are red and swollen.",
@@ -503,30 +305,8 @@
   "notes": "can't have + pp = result makes it impossible",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure the letter did not arrive yesterday; the mailbox was empty.",
-  "keyword": "CAN'T",
-  "gap_prefix": "The letter",
-  "gap_suffix": "arrived yesterday.",
-  "answer": "can't have",
-  "full_answer": "The letter can't have arrived yesterday.",
-  "alternatives": [],
-  "notes": "can't have + pp for inanimate subject deduction",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "I am sure you did not see Adnan this morning; he is in Greece this week.",
-  "keyword": "CAN'T",
-  "gap_prefix": "You",
-  "gap_suffix": "seen Adnan this morning.",
-  "answer": "can't have",
-  "full_answer": "You can't have seen Adnan this morning.",
-  "alternatives": [],
-  "notes": "can't have + pp; see-saw-seen",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure the letter did not arrive yesterday; the mailbox was empty.", "keyword": "CAN'T", "gap_prefix": "The letter", "gap_suffix": "arrived yesterday.", "answer": "can't have", "full_answer": "The letter can't have arrived yesterday.", "alternatives": [], "notes": "can't have = is sure letter never arrived.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "I am sure you did not see Adnan this morning; he is in Greece this week.", "keyword": "CAN'T", "gap_prefix": "You", "gap_suffix": "seen Adnan this morning.", "answer": "can't have", "full_answer": "You can't have seen Adnan this morning.", "alternatives": [], "notes": "can't have = surely did not happen.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure she did not study at all; she failed every single question.",
@@ -587,18 +367,7 @@
   "notes": "couldn't have + pp = certainty it did not happen",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure they did not reach the summit; the storm closed every route that day.",
-  "keyword": "COULDN'T",
-  "gap_prefix": "They",
-  "gap_suffix": "reached the summit.",
-  "answer": "couldn't have",
-  "full_answer": "They couldn't have reached the summit.",
-  "alternatives": [],
-  "notes": "couldn't have + pp = external conditions ruled it out",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure they did not reach the summit; the storm closed every route that day.", "keyword": "COULDN'T", "gap_prefix": "They", "gap_suffix": "reached the summit.", "answer": "couldn't have", "full_answer": "They couldn't have reached the summit.", "alternatives": [], "notes": "couldn't have = storm made summit impossible.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure he did not understand the lecture; it was delivered entirely in Spanish.",
@@ -623,18 +392,7 @@
   "notes": "couldn't have + pp = absence proves impossibility",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure the news did not spread so fast by itself; someone must have leaked it deliberately.",
-  "keyword": "COULDN'T",
-  "gap_prefix": "The news",
-  "gap_suffix": "spread so fast by itself.",
-  "answer": "couldn't have",
-  "full_answer": "The news couldn't have spread so fast by itself.",
-  "alternatives": [],
-  "notes": "couldn't have + pp for spontaneous-event impossibility",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure the news did not spread so fast by itself; someone must have leaked it deliberately.", "keyword": "COULDN'T", "gap_prefix": "The news", "gap_suffix": "spread so fast by itself.", "answer": "couldn't have", "full_answer": "The news couldn't have spread so fast by itself.", "alternatives": [], "notes": "couldn't have = is sure leak needed human help.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure he did not fix the engine alone; he has no mechanical training at all.",
@@ -647,18 +405,7 @@
   "notes": "couldn't have + pp = lack of skill deduction",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "I am sure they did not survive the night outdoors; the temperature fell to minus ten.",
-  "keyword": "COULDN'T",
-  "gap_prefix": "They",
-  "gap_suffix": "survived the night outdoors.",
-  "answer": "couldn't have",
-  "full_answer": "They couldn't have survived the night outdoors.",
-  "alternatives": [],
-  "notes": "couldn't have + pp = survival impossibility",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "I am sure they did not survive the night outdoors; the temperature fell to minus ten.", "keyword": "COULDN'T", "gap_prefix": "They", "gap_suffix": "survived the night outdoors.", "answer": "couldn't have", "full_answer": "They couldn't have survived the night outdoors.", "alternatives": [], "notes": "couldn't have = impossible to survive outdoors.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I am sure she did not send that message; her phone was stolen hours earlier.",
@@ -743,30 +490,8 @@
   "notes": "could have + pp = missed opportunity",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "They had money, so it was possible for them to buy the house, but they hesitated.",
-  "keyword": "COULD",
-  "gap_prefix": "They",
-  "gap_suffix": "bought the house.",
-  "answer": "could have",
-  "full_answer": "They could have bought the house.",
-  "alternatives": [],
-  "notes": "could have + pp = unfulfilled possibility",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "The suspect had a fake passport, so it was possible for him to leave the country.",
-  "keyword": "COULD",
-  "gap_prefix": "The suspect",
-  "gap_suffix": "left the country.",
-  "answer": "could have",
-  "full_answer": "The suspect could have left the country.",
-  "alternatives": [],
-  "notes": "could have + pp = possibility; may/might have also possible",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "They had money, so it was possible for them to buy the house, but they hesitated.", "keyword": "COULD", "gap_prefix": "They", "gap_suffix": "bought the house.", "answer": "could have", "full_answer": "They could have bought the house.", "alternatives": [], "notes": "could have = past chance not taken.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "The suspect had a fake passport, so it was possible for him to leave the country.", "keyword": "COULD", "gap_prefix": "The suspect", "gap_suffix": "left the country.", "answer": "could have", "full_answer": "The suspect could have left the country.", "alternatives": [], "notes": "could have = was able to leave then.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "She did not take my call; possibly she did not hear the phone.",
@@ -779,18 +504,7 @@
   "notes": "may/might/could have + pp = possible deduction; trap: not certainty",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The police think it is possible the suspect used a fake passport.",
-  "keyword": "MAY",
-  "gap_prefix": "The suspect",
-  "gap_suffix": "left using a fake passport.",
-  "answer": "may have",
-  "full_answer": "The suspect may have left using a fake passport.",
-  "alternatives": [],
-  "notes": "may have + pp = formal possible deduction",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The police think it is possible the suspect used a fake passport.", "keyword": "MAY", "gap_prefix": "The suspect", "gap_suffix": "left using a fake passport.", "answer": "may have", "full_answer": "The suspect may have left using a fake passport.", "alternatives": [], "notes": "may have = possibly used a fake passport.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I think it is possible I left the air conditioning on.",
@@ -827,18 +541,7 @@
   "notes": "needn't have + pp = did but unnecessary; action happened",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "We took heavy jackets, but it was a hot day. It was pointless.",
-  "keyword": "NEEDN'T",
-  "gap_prefix": "We",
-  "gap_suffix": "taken heavy jackets.",
-  "answer": "needn't have",
-  "full_answer": "We needn't have taken heavy jackets.",
-  "alternatives": [],
-  "notes": "needn't have + pp = wasted effort; take-took-taken",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "We took heavy jackets, but it was a hot day. It was pointless.", "keyword": "NEEDN'T", "gap_prefix": "We", "gap_suffix": "taken heavy jackets.", "answer": "needn't have", "full_answer": "We needn't have taken heavy jackets.", "alternatives": [], "notes": "needn't have = jackets unnecessary on hot day.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I hurried to the meeting, but it was cancelled at the last minute.",
@@ -935,18 +638,7 @@
   "notes": "needn't have + pp = regret over hasty act",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "We prepared all that food, but they phoned to say they would not come.",
-  "keyword": "NEEDN'T",
-  "gap_prefix": "We",
-  "gap_suffix": "prepared all that food.",
-  "answer": "needn't have",
-  "full_answer": "We needn't have prepared all that food.",
-  "alternatives": [],
-  "notes": "needn't have + pp = cancelled-visit waste",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "We prepared all that food, but they phoned to say they would not come.", "keyword": "NEEDN'T", "gap_prefix": "We", "gap_suffix": "prepared all that food.", "answer": "needn't have", "full_answer": "We needn't have prepared all that food.", "alternatives": [], "notes": "needn't have = wasted food preparation effort.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "I worried so much, but the presentation went really well.",
@@ -995,78 +687,12 @@
   "notes": "needn't have + pp = vain wait",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "We printed every document, but the office works paperless now.",
-  "keyword": "NEEDN'T",
-  "gap_prefix": "We",
-  "gap_suffix": "printed every document.",
-  "answer": "needn't have",
-  "full_answer": "We needn't have printed every document.",
-  "alternatives": [],
-  "notes": "needn't have + pp = obsolete effort",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "You ran to the station, but the train was delayed by an hour.",
-  "keyword": "NEEDN'T",
-  "gap_prefix": "You",
-  "gap_suffix": "run to the station.",
-  "answer": "needn't have",
-  "full_answer": "You needn't have run to the station.",
-  "alternatives": [],
-  "notes": "needn't have + pp; run-ran-run",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "There was no necessity to call the doctor because he started to feel better, so we did not call.",
-  "keyword": "NEED",
-  "gap_prefix": "We",
-  "gap_suffix": "call the doctor.",
-  "answer": "didn't need to",
-  "full_answer": "We didn't need to call the doctor.",
-  "alternatives": [],
-  "notes": "didn't need to + base = no necessity and no action; needn't have would be wrong",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "The sun came out, so there was no necessity to take rainwear, and we left it behind.",
-  "keyword": "NEED",
-  "gap_prefix": "We",
-  "gap_suffix": "take any rainwear.",
-  "answer": "didn't need to",
-  "full_answer": "We didn't need to take any rainwear.",
-  "alternatives": [],
-  "notes": "didn't need to = knew in advance, so did not act",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "We had plenty of petrol, so there was no necessity to fill up, and we drove straight on.",
-  "keyword": "NEED",
-  "gap_prefix": "I",
-  "gap_suffix": "fill up.",
-  "answer": "didn't need to",
-  "full_answer": "I didn't need to fill up.",
-  "alternatives": [],
-  "notes": "didn't need to + base when action did not happen",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "They arrived just after us, so there was no necessity to wait long, and we did not wait.",
-  "keyword": "NEED",
-  "gap_prefix": "We",
-  "gap_suffix": "wait long for them.",
-  "answer": "didn't need to",
-  "full_answer": "We didn't need to wait long for them.",
-  "alternatives": [],
-  "notes": "didn't need to = no obligation fulfilled by circumstance",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "We printed every document, but the office works paperless now.", "keyword": "NEEDN'T", "gap_prefix": "We", "gap_suffix": "printed every document.", "answer": "needn't have", "full_answer": "We needn't have printed every document.", "alternatives": [], "notes": "needn't have = printed documents pointlessly now.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "You ran to the station, but the train was delayed by an hour.", "keyword": "NEEDN'T", "gap_prefix": "You", "gap_suffix": "run to the station.", "answer": "needn't have", "full_answer": "You needn't have run to the station.", "alternatives": [], "notes": "needn't have = did unnecessarily; wasted run.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "There was no necessity to call the doctor because he started to feel better, so we did not call.", "keyword": "NEED", "gap_prefix": "We", "gap_suffix": "call the doctor.", "answer": "didn't need to", "full_answer": "We didn't need to call the doctor.", "alternatives": [], "notes": "didn't need to = doctor call unnecessary after improvement.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "The sun came out, so there was no necessity to take rainwear, and we left it behind.", "keyword": "NEED", "gap_prefix": "We", "gap_suffix": "take any rainwear.", "answer": "didn't need to", "full_answer": "We didn't need to take any rainwear.", "alternatives": [], "notes": "didn't need to = rainwear unneeded after sunshine.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "We had plenty of petrol, so there was no necessity to fill up, and we drove straight on.", "keyword": "NEED", "gap_prefix": "I", "gap_suffix": "fill up.", "answer": "didn't need to", "full_answer": "I didn't need to fill up.", "alternatives": [], "notes": "didn't need to = had no need to fill.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "They arrived just after us, so there was no necessity to wait long, and we did not wait.", "keyword": "NEED", "gap_prefix": "We", "gap_suffix": "wait long for them.", "answer": "didn't need to", "full_answer": "We didn't need to wait long for them.", "alternatives": [], "notes": "didn't need to = arrival timing removed long wait.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "He already knew all the answers, so there was no necessity to study, and he watched a film instead.",
@@ -1091,30 +717,8 @@
   "notes": "didn't need to + base = absence of requirement; context shows not done",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "There was no rule to pay for tickets, so we entered free.",
-  "keyword": "NEED",
-  "gap_prefix": "We",
-  "gap_suffix": "pay for the tickets.",
-  "answer": "didn't need to",
-  "full_answer": "We didn't need to pay for the tickets.",
-  "alternatives": [],
-  "notes": "didn't need to = free entry; no action",
-  "difficulty": 3
- },
- {
-  "category": "rephrase",
-  "prompt": "The shop was closed, but there was no necessity to call the boss, so she did not call.",
-  "keyword": "NEED",
-  "gap_prefix": "She",
-  "gap_suffix": "call her boss.",
-  "answer": "didn't need to",
-  "full_answer": "She didn't need to call her boss.",
-  "alternatives": [],
-  "notes": "didn't need to when neither done nor required",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "There was no rule to pay for tickets, so we entered free.", "keyword": "NEED", "gap_prefix": "We", "gap_suffix": "pay for the tickets.", "answer": "didn't need to", "full_answer": "We didn't need to pay for the tickets.", "alternatives": [], "notes": "didn't need to = free entry, no payment needed.", "difficulty": 3},
+ {"category": "rephrase", "prompt": "The shop was closed, but there was no necessity to call the boss, so she did not call.", "keyword": "NEED", "gap_prefix": "She", "gap_suffix": "call her boss.", "answer": "didn't need to", "full_answer": "She didn't need to call her boss.", "alternatives": [], "notes": "didn't need to = means no need to call.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "Students had their own books, so there was no necessity to buy the textbook, and he bought nothing.",
@@ -1139,18 +743,7 @@
   "notes": "didn't need to = stayed away without breach",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The restaurant is always empty, so there was no necessity to book, and we just walked in.",
-  "keyword": "NEED",
-  "gap_prefix": "We",
-  "gap_suffix": "book a table.",
-  "answer": "didn't need to",
-  "full_answer": "We didn't need to book a table.",
-  "alternatives": [],
-  "notes": "didn't need to = no reservation made",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The restaurant is always empty, so there was no necessity to book, and we just walked in.", "keyword": "NEED", "gap_prefix": "We", "gap_suffix": "book a table.", "answer": "didn't need to", "full_answer": "We didn't need to book a table.", "alternatives": [], "notes": "didn't need to = booking unnecessary, walked in.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "The train does not leave for an hour, so there was no necessity to hurry, and she walked slowly.",
@@ -1175,18 +768,7 @@
   "notes": "didn't need to = alternative removed necessity",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The doctor felt better, so there was no necessity to operate, and they cancelled surgery.",
-  "keyword": "NEED",
-  "gap_prefix": "They",
-  "gap_suffix": "operate.",
-  "answer": "didn't need to",
-  "full_answer": "They didn't need to operate.",
-  "alternatives": [],
-  "notes": "didn't need to = medical necessity absent",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The doctor felt better, so there was no necessity to operate, and they cancelled surgery.", "keyword": "NEED", "gap_prefix": "They", "gap_suffix": "operate.", "answer": "didn't need to", "full_answer": "They didn't need to operate.", "alternatives": [], "notes": "didn't need to = surgery proved unnecessary.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "She felt confident, so there was no necessity to revise, and she went out instead.",
@@ -1199,18 +781,7 @@
   "notes": "didn't need to = chose not to act",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The forecast was clear, so there was no necessity to bring coats, and we left them.",
-  "keyword": "NEED",
-  "gap_prefix": "We",
-  "gap_suffix": "bring coats.",
-  "answer": "didn't need to",
-  "full_answer": "We didn't need to bring coats.",
-  "alternatives": [],
-  "notes": "didn't need to = precaution omitted knowingly",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The forecast was clear, so there was no necessity to bring coats, and we left them.", "keyword": "NEED", "gap_prefix": "We", "gap_suffix": "bring coats.", "answer": "didn't need to", "full_answer": "We didn't need to bring coats.", "alternatives": [], "notes": "didn't need to = coats unnecessary in clear weather.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "He was excused, so there was no necessity to attend the ceremony, and he missed it without blame.",
@@ -1247,18 +818,7 @@
   "notes": "shouldn't have + pp = past disapproval",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "You were rude to ignore the scientists warnings about global warming.",
-  "keyword": "SHOULD",
-  "gap_prefix": "We",
-  "gap_suffix": "ignored the warnings.",
-  "answer": "should not have",
-  "full_answer": "We should not have ignored the warnings.",
-  "alternatives": [],
-  "notes": "should not have + pp = criticism of past neglect",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "You were rude to ignore the scientists warnings about global warming.", "keyword": "SHOULD", "gap_prefix": "We", "gap_suffix": "ignored the warnings.", "answer": "should not have", "full_answer": "We should not have ignored the warnings.", "alternatives": [], "notes": "should not have = wrong to ignore warnings.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "He regrets not listening to his parents advice about a healthy lifestyle.",
@@ -1391,18 +951,7 @@
   "notes": "should have + pp = expected information withheld",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "They regret ignoring the evacuation order.",
-  "keyword": "SHOULD",
-  "gap_prefix": "They",
-  "gap_suffix": "obeyed the evacuation order.",
-  "answer": "should have",
-  "full_answer": "They should have obeyed the evacuation order.",
-  "alternatives": [],
-  "notes": "should have + pp = disobedience with bad result",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "They regret ignoring the evacuation order.", "keyword": "SHOULD", "gap_prefix": "They", "gap_suffix": "obeyed the evacuation order.", "answer": "should have", "full_answer": "They should have obeyed the evacuation order.", "alternatives": [], "notes": "should have = ought to have obeyed order.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "He was careless to leave the door unlocked.",
@@ -1475,18 +1024,7 @@
   "notes": "be supposed to = social expectation",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "We had a plan to arrive by ten, but the bus broke down.",
-  "keyword": "SUPPOSED",
-  "gap_prefix": "We",
-  "gap_suffix": "arrive by ten.",
-  "answer": "were supposed to",
-  "full_answer": "We were supposed to arrive by ten.",
-  "alternatives": [],
-  "notes": "were supposed to = scheduled expectation unmet",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "We had a plan to arrive by ten, but the bus broke down.", "keyword": "SUPPOSED", "gap_prefix": "We", "gap_suffix": "arrive by ten.", "answer": "were supposed to", "full_answer": "We were supposed to arrive by ten.", "alternatives": [], "notes": "were supposed to = planned ten o'clock arrival failed.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "He had promised to call me last night, but I heard nothing.",
@@ -1499,18 +1037,7 @@
   "notes": "was supposed to = promised action; should have called also possible but arrangement focus",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "The homework was set for Monday, but half the class went clubbing instead.",
-  "keyword": "SUPPOSED",
-  "gap_prefix": "They",
-  "gap_suffix": "do their homework.",
-  "answer": "were supposed to",
-  "full_answer": "They were supposed to do their homework.",
-  "alternatives": [],
-  "notes": "were supposed to do = expected duty; should have done = criticism nuance",
-  "difficulty": 3
- },
+ {"category": "rephrase", "prompt": "The homework was set for Monday, but half the class went clubbing instead.", "keyword": "SUPPOSED", "gap_prefix": "They", "gap_suffix": "do their homework.", "answer": "were supposed to", "full_answer": "They were supposed to do their homework.", "alternatives": [], "notes": "were supposed to = expected homework duty neglected.", "difficulty": 3},
  {
   "category": "rephrase",
   "prompt": "The announcement was expected to be made at noon, but it never came.",
@@ -1619,16 +1146,5 @@
   "notes": "was supposed to + passive = deadline expectation",
   "difficulty": 3
  },
- {
-  "category": "rephrase",
-  "prompt": "They were forbidden to talk during tests, but they whispered throughout.",
-  "keyword": "SUPPOSED",
-  "gap_prefix": "They",
-  "gap_suffix": "talk during tests.",
-  "answer": "were not supposed to",
-  "full_answer": "They were not supposed to talk during tests.",
-  "alternatives": [],
-  "notes": "were not supposed to = prohibition; mustn't = stronger ban",
-  "difficulty": 3
- }
+ {"category": "rephrase", "prompt": "They were forbidden to talk during tests, but they whispered throughout.", "keyword": "SUPPOSED", "gap_prefix": "They", "gap_suffix": "talk during tests.", "answer": "were not supposed to", "full_answer": "They were not supposed to talk during tests.", "alternatives": [], "notes": "were not supposed to = forbidden to talk then.", "difficulty": 3}
 ]
