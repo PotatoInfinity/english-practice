@@ -119,25 +119,30 @@ function rowFor(d, n) {
     if (d.category !== "blank_fill") li.append(p1);
     const p2 = document.createElement("div");
     p2.className = "rewrite";
-    const nw = (d.answer || "").trim().split(/\s+/).filter(Boolean).length;
-    p2.innerHTML = `<span class="wcount">${nw}</span> &rarr; ${escapeHtml(d.gap_prefix)} `;
+    p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
     p2.appendChild(inpFor(d, n));
     const tail = document.createElement("span");
     tail.textContent = d.gap_suffix && /^[.,;:!?]/.test(d.gap_suffix) ? d.gap_suffix : " " + (d.gap_suffix || "");
     p2.appendChild(tail);
+    const nw = (d.answer || "").trim().split(/\s+/).filter(Boolean).length;
+    if (nw > 0) {
+      const wc = document.createElement("span");
+      wc.className = "wcount";
+      wc.textContent = " " + Array(nw).fill("_").join(" ");
+      p2.appendChild(wc);
+    }
     li.append(p2);
   }
   if (d.category === "mcq" || d.category === "three_in_one") {
     const p2 = document.createElement("div");
     p2.className = "rewrite";
+    p2.appendChild(inpFor(d, n));
     if (d.category === "three_in_one") {
       const wc = document.createElement("span");
       wc.className = "wcount";
-      wc.textContent = "1";
+      wc.textContent = " _";
       p2.appendChild(wc);
-      p2.appendChild(document.createTextNode(" "));
     }
-    p2.appendChild(inpFor(d, n));
     li.append(p2);
   }
   const ans = document.createElement("div");
