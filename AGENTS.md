@@ -42,7 +42,4 @@ No tests, linter, formatter, or CI.
 
 - Solved rows hydrate green from `reps>0 && next_due>now`; due reviews and fresh rows stay blank for re-solving.
 - `wrongIds` + `lastSolvedId` persist in `localStorage`, so Jump-to-last-solve resumes after restart (ids are stable across rebuilds).
-
-## Frontend notes
-
 - Browser preview without Tauri works: falls back to CDN `@tauri-apps/api` import, then to fetching `seed.json` directly (exact/CI grading only). Don't break that path.
