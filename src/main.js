@@ -262,7 +262,8 @@ function renderMore() {
   const frag = document.createDocumentFragment();
   next.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
   list.appendChild(frag);
-  // hydrate solved state from the backend: reps>0 and not yet due -> green.
+  // hydrate solved state from the backend: reps>0 and not yet due -> green
+  // WITH answer key + definition (same block fresh solves get).
   // Due reviews (reps>0 but next_due passed) and fresh rows stay blank.
   const nowS = Date.now() / 1000;
   next.forEach((d, k) => {
@@ -271,6 +272,14 @@ function renderMore() {
       results[n] = true;
       const wrap = document.getElementById("wrap" + n);
       if (wrap) wrap.classList.add("correct");
+      const ansEl = document.getElementById("ans" + n);
+      if (ansEl) {
+        const note = (d.notes || "").trim();
+        ansEl.innerHTML = (d.full_answer && d.full_answer !== d.answer)
+          ? `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`
+          : `<b>${escapeHtml(d.answer)}</b>${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`;
+        ansEl.classList.add("show");
+      }
     }
   });
   rendered += next.length;
