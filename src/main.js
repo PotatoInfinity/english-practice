@@ -405,15 +405,21 @@ try {
   else localStorage.setItem("sessionStart", JSON.stringify(sessionStart));
 } catch { /* fresh */ }
 let solveTimes = [];
+let totalSolves = 0;
 try {
   const saved = JSON.parse(localStorage.getItem("solveTimes") || "[]");
   if (Array.isArray(saved)) {
     const now = Date.now();
     solveTimes = saved.filter(t => typeof t === "number" && t <= now + 5000 && now - t < 180000).slice(-1000);
   }
+  const tot = JSON.parse(localStorage.getItem("totalSolves") || "null");
+  if (Number.isInteger(tot) && tot >= 0 && tot <= 10000000) totalSolves = tot;
 } catch { /* fresh */ }
 function saveSolveTimes() {
-  try { localStorage.setItem("solveTimes", JSON.stringify(solveTimes.slice(-1000))); } catch { /* private mode */ }
+  try {
+    localStorage.setItem("solveTimes", JSON.stringify(solveTimes.slice(-1000)));
+    localStorage.setItem("totalSolves", JSON.stringify(totalSolves));
+  } catch { /* private mode */ }
 }
 function paintSolveStat() {
   const el = document.getElementById("solvestat");
@@ -421,10 +427,9 @@ function paintSolveStat() {
   const now = Date.now();
   const cutoff = now - 120000;
   while (solveTimes.length && solveTimes[0] < cutoff - 60000) solveTimes.shift();
-  const n = solveTimes.length;
   const rate = now - sessionStart < 120000 ? "_" : (solveTimes.filter(t => t >= cutoff).length / 2).toFixed(1);
-  el.textContent = `${n} · ${rate}/min`;
-  el.title = "Correct solves total · per minute (last 120s; _ = warming up)";
+  el.textContent = `${totalSolves} · ${rate}/min`;
+  el.title = "Correct solves, all time · per minute (last 120s; _ = warming up)";
   saveSolveTimes();
 }
 setInterval(paintSolveStat, 5000);
@@ -509,7 +514,7 @@ async function gradeItem(n, quiet = false) {
     lastSolvedId = items[n].id;
   }
   results[n] = correct;
-  if (correct && !quiet) { solveTimes.push(Date.now()); paintSolveStat(); }
+  if (correct && !quiet) { totalSolves++; solveTimes.push(Date.now()); paintSolveStat(); }
   const wid = items[n].id;
   if (!correct) {
     if (!wrongIds.includes(wid)) wrongIds.push(wid);
