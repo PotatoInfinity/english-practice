@@ -11,10 +11,10 @@
 <header class="topbar">
   <div class="title">HSG English Drill</div>
   <div class="controls">
-    <button id="theme" title="Toggle dark / light">Dark</button>
-    <input id="fs" type="range" min="10" max="20" value="16" title="Text size" />
+    <button id="theme" title="Toggle dark / light" aria-label="Toggle dark or light theme">Dark</button>
+    <input id="fs" type="range" min="10" max="20" value="16" title="Text size" aria-label="Text size" />
     <button id="latest" title="Jump to last solved item">Jump to last solve</button>
-    <span id="solvestat" title="Correct solves · solves per minute (last 120s)"></span>
+    <span id="solvestat" title="Correct solves · solves per minute (last 120s)" aria-live="polite"></span>
     <span id="pomo" title="Pomodoro focus timer">
       <span id="pomoTime">25:00</span>
       <button id="pomoStart" title="Start / pause">Start</button>
@@ -25,16 +25,16 @@
   </div>
 </header>
 <main class="sheet">
-  <ol id="list"></ol>
-  <div id="more"></div>
+  <ol id="list" aria-label="Drill items"></ol>
+  <div id="more" aria-live="polite"></div>
   <div class="foot">
     <button id="check">Check</button>
     <button id="reveal">Reveal</button>
-    <span id="filters" title="Filter rows">
-      <button data-f="all" class="on">All</button><button data-f="ok">Correct</button><button data-f="no">Wrong</button>
+    <span id="filters" title="Filter rows" role="group" aria-label="Filter rows">
+      <button data-f="all" class="on" aria-pressed="true">All</button><button data-f="ok" aria-pressed="false">Correct</button><button data-f="no" aria-pressed="false">Wrong</button>
     </span>
     <span id="bankstat" title="Backend progress: mastered / total · due now · reviews today"></span>
-    <span id="score"></span>
+    <span id="score" aria-live="polite"></span>
   </div>
 </main>
 </body>

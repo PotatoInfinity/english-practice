@@ -1,11 +1,21 @@
 // Vanilla frontend — invokes Rust backend. No framework, instant load.
+let previewMode = false;
 async function call(cmd, args) {
   const w = window.__TAURI__?.core;
   if (w?.invoke) return w.invoke(cmd, args);
-  try {
-    const mod = await import("https://cdn.jsdelivr.net/npm/@tauri-apps/api@2/core.js");
-    return mod.invoke(cmd, args);
-  } catch (e) { throw new Error("backend unavailable: " + e); }
+  previewMode = true;
+  paintPreviewBadge();
+  throw new Error("backend unavailable (preview mode)");
+}
+function paintPreviewBadge() {
+  const el = document.getElementById("bankstat");
+  if (el && !document.getElementById("previewBadge")) {
+    const b = document.createElement("span");
+    b.id = "previewBadge";
+    b.textContent = " · preview (exact grading)";
+    b.style.fontStyle = "italic";
+    el.appendChild(b);
+  }
 }
 
 let items = [];
@@ -29,21 +39,28 @@ async function load() {
   seenIds = new Set();
   rendered = 0;
   drained = false;
+  fetching = false;
+  wallBusy = false;
+  pendingRender = false;
+  fetchFailed = false;
+  inFlight.clear();
   lastSolved = -1;
   lastSolvedId = null;
   wrongIds = [];
   nextWallAt = 50;
   results = {};
   gradedUser = {};
+  revealedSet = {};
   // resume: miss queue + last position survive restarts (ids are stable)
   try {
     const w = JSON.parse(localStorage.getItem("wrongIds") || "[]");
     if (Array.isArray(w)) wrongIds = w.filter(n => Number.isInteger(n) && n > 0).slice(-200);
     const l = JSON.parse(localStorage.getItem("lastSolvedId") || "null");
     if (Number.isInteger(l) && l > 0) lastSolvedId = l;
-  } catch { /* fresh */ }
+  } catch (e) { console.error("load resume failed:", e); }
   list.innerHTML = "";
   score.textContent = "";
+  score.setAttribute("aria-live", "polite");
   paintSolveStat();
   await fetchMore();
   // persistent progress readout (backend-backed: survives restarts/reinstalls)
@@ -51,22 +68,29 @@ async function load() {
     const s = await call("stats", {});
     if (s && typeof s.total === "number") {
       bankstat(s);
-      // backfill the all-time counter from backend history (local key is new)
-      if (Number.isInteger(s.reviews_correct) && s.reviews_correct > totalSolves) {
+      // backfill only when local is empty (backend reset must lower frontend too)
+      if (totalSolves === 0 && Number.isInteger(s.reviews_correct) && s.reviews_correct > 0) {
         totalSolves = s.reviews_correct;
         saveSolveTimes();
         paintSolveStat();
       }
     }
-  } catch { /* browser preview: no backend */ }
+  } catch (e) { console.error("stats failed:", e); }
 }
 
 function bankstat(s) {
   const el = document.getElementById("bankstat");
-  if (el) el.textContent = `${s.mastered}/${s.total} mastered · ${s.due_now} due · ${s.reviews_today} today`;
+  if (!el) return;
+  // preserve preview badge if present
+  const hadPreview = !!document.getElementById("previewBadge");
+  el.textContent = `${s.mastered}/${s.total} mastered · ${s.due_now} due · ${s.reviews_today} today`;
+  if (hadPreview || previewMode) paintPreviewBadge();
 }
 
 let previewBank = null; // browser fallback: full seed cached, paged like due_items
+let fetchFailed = false;
+let pendingRender = false;
+const inFlight = new Set();
 async function fetchMore() {
   if (fetching || drained) return;
   fetching = true;
@@ -75,7 +99,7 @@ async function fetchMore() {
     try {
       const cat = "all"; // single mixed stream: all 10 types, all levels
       const got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
-      const fresh = got.filter(d => !seenIds.has(d.id));
+      const fresh = got.filter(d => d && d.id != null && !seenIds.has(d.id));
       fresh.forEach(d => seenIds.add(d.id));
       if (fresh.length === 0) {
         // whole bank paged exactly once (stable order) — green finish line
@@ -87,15 +111,27 @@ async function fetchMore() {
       const end = document.getElementById("endline");
       if (end) end.remove();
       items.push(...fresh);
-      renderMore();
+      if (wallBusy) pendingRender = true;
+      else renderMore();
     } catch (e1) {
       // browser preview without Tauri: load seed.json directly, page it
       if (!previewBank) {
-        const r = await fetch("../src-tauri/seed.json").catch(() => fetch("./seed.json"));
-        const j = await r.json();
-        const arr = Array.isArray(j) ? j : j.items;
-        let k = 0;
-        previewBank = arr.map(a => ({ id: a.id ?? -(++k), ...a }));
+        const candidates = ["./seed.json", "../src-tauri/seed.json", "seed.json"];
+        let lastErr = null;
+        for (const u of candidates) {
+          try {
+            const r = await fetch(u);
+            if (!r.ok) { lastErr = new Error(`HTTP ${r.status} for ${u}`); continue; }
+            const j = await r.json();
+            const arr = Array.isArray(j) ? j : j.items;
+            if (!Array.isArray(arr)) { lastErr = new Error(`bad shape for ${u}`); continue; }
+            let k = 0;
+            // positive synthetic ids so miss-queue filter (>0) and retry work in preview
+            previewBank = arr.map(a => ({ id: a.id ?? (1000000 + (++k)), ...a }));
+            break;
+          } catch (e) { lastErr = e; }
+        }
+        if (!previewBank) throw lastErr || new Error("preview seed not found");
       }
       const fresh = previewBank.filter(d => !seenIds.has(d.id)).slice(0, FETCH_N);
       fresh.forEach(d => seenIds.add(d.id));
@@ -106,16 +142,26 @@ async function fetchMore() {
         return;
       }
       items.push(...fresh);
-      renderMore();
+      if (wallBusy) pendingRender = true;
+      else renderMore();
     }
   } catch (e2) {
+    console.error("fetchMore failed:", e2);
+    fetchFailed = true;
     const li = document.createElement("li");
-    li.textContent = `Could not load drill items. Restart the app.`;
+    li.className = "fetcherr";
+    const msg = document.createElement("span");
+    msg.textContent = `Could not load drill items (${e2?.message || e2}). `;
+    const btn = document.createElement("button");
+    btn.textContent = "Retry";
+    btn.setAttribute("aria-label", "Retry loading drill items");
+    btn.onclick = () => { li.remove(); fetchFailed = false; fetching = false; fetchMore(); };
+    li.append(msg, btn);
     list.appendChild(li);
-    drained = true;
+    // do NOT set drained: bank is not complete, retry stays possible
   } finally {
     fetching = false;
-    moreBox.textContent = drained ? "Bank complete for now — reviews keep cycling." : "";
+    moreBox.textContent = drained ? "Bank complete for now — reviews keep cycling." : (fetchFailed ? "Load failed — retry above." : "");
   }
 }
 
@@ -123,18 +169,36 @@ async function fetchMore() {
 // Solved stay green via reps hydration; misses get their 50-wall second chance.
 async function showEndLine() {
   if (document.getElementById("endline")) return;
-  let label = "Bank complete — entire wall loaded.";
+  let label = "Bank complete — entire wall loaded. Retry walls appear every 50 rows for misses.";
   try {
     const s = await call("stats", {});
     if (s && typeof s.total === "number") {
       label = `Bank complete — all ${s.total} on the wall · ${s.mastered} mastered · ${s.due_now} due for review`;
     }
-  } catch { /* preview fallback keeps the static label */ }
+  } catch (e) { console.error("showEndLine stats failed:", e); }
   const li = document.createElement("li");
   li.className = "enddiv";
   li.id = "endline";
   li.textContent = label;
   list.appendChild(li);
+}
+
+function hashId(id) {
+  // deterministic 32-bit hash for stable per-row shuffling (same order every launch)
+  let h = 2166136261;
+  const s = String(id);
+  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+  return h >>> 0;
+}
+function shuffledOpts(d) {
+  const opts = (d.options || []).slice();
+  let seed = hashId(d.id ?? d.prompt);
+  for (let i = opts.length - 1; i > 0; i--) {
+    seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+    const j = seed % (i + 1);
+    [opts[i], opts[j]] = [opts[j], opts[i]];
+  }
+  return opts;
 }
 
 function rowFor(d, n) {
@@ -149,22 +213,32 @@ function rowFor(d, n) {
     p1.textContent = stripBracket(d);
     const ol = document.createElement("div");
     ol.className = "opts";
-    (d.options || []).forEach((o, i) => {
+    ol.setAttribute("role", "list");
+    shuffledOpts(d).forEach((o) => {
       const r = document.createElement("div");
-      r.textContent = `${i + 1}. ${o}`;
+      r.setAttribute("role", "listitem");
+      // find stable 1-based index in original order for keyboard mapping transparency
+      const origIdx = (d.options || []).indexOf(o);
+      r.textContent = `${origIdx + 1}. ${o}`;
       ol.appendChild(r);
     });
     li.append(p1, ol);
-  } else if (d.category === "three_in_one" && d.options?.length >= 3) {
-    p1.textContent = "Fill ONE word that fits all three sentences:";
-    const box = document.createElement("div");
-    box.className = "s3";
-    (d.options || []).slice(0, 3).forEach(s => {
-      const r = document.createElement("div");
-      r.innerHTML = `• ${escapeHtml(s).replaceAll("____", "<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>")}`;
-      box.appendChild(r);
-    });
-    li.append(p1, box);
+  } else if (d.category === "three_in_one" && d.options?.length) {
+    if ((d.options || []).length >= 3) {
+      p1.textContent = "Fill ONE word that fits all three sentences:";
+      const box = document.createElement("div");
+      box.className = "s3";
+      (d.options || []).slice(0, 3).forEach(s => {
+        const r = document.createElement("div");
+        r.innerHTML = `• ${escapeHtml(s).replaceAll("____", "<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>")}`;
+        box.appendChild(r);
+      });
+      li.append(p1, box);
+    } else {
+      // defensive: <3 options would render a bare input with no sentence
+      p1.textContent = stripBracket(d) || "Fill ONE word:";
+      li.append(p1);
+    }
   } else {
     // keyword badge: show only when the bracket word is part of the answer.
     // If it's already sitting in the frame the badge is noise -> hide it.
@@ -210,12 +284,29 @@ function wordHit(hay, kw, stemOk) {
   if (!kw) return false;
   hay = hay || "";
   if (stemOk) {
-    // wordform: stem prefix counts (USE/useful, ILL/illness)
+    // wordform: stem prefix counts (USE/useful) but require >=3 letters overlap
+    // to avoid false positives like ILL in illegal
     const m = hay.match(/[A-Za-z']+/g) || [];
     const k = kw.toLowerCase();
-    return m.some(w => w.toLowerCase() === k || w.toLowerCase().startsWith(k));
+    if (k.length < 3) return m.some(w => w.toLowerCase() === k);
+    return m.some(w => {
+      const wl = w.toLowerCase();
+      return wl === k || (wl.startsWith(k) && wl.length >= k.length + 2) || (k.startsWith(wl) && k.length >= wl.length + 2);
+    });
   }
-  return new RegExp(`(?<![A-Za-z0-9_])${escRe(kw)}(?![A-Za-z0-9_])`, "i").test(hay);
+  // no lookbehind (breaks older Safari): manual word-boundary scan
+  const lk = kw.toLowerCase();
+  const lh = hay.toLowerCase();
+  let idx = 0;
+  while (true) {
+    idx = lh.indexOf(lk, idx);
+    if (idx < 0) return false;
+    const before = idx === 0 ? "" : lh[idx - 1];
+    const after = lh[idx + lk.length] || "";
+    const isWord = c => /[a-z0-9_]/.test(c);
+    if (!isWord(before) && !isWord(after)) return true;
+    idx += lk.length;
+  }
 }
 function stripBracket(d) {
   const p = d.prompt || "";
@@ -238,13 +329,23 @@ function inpFor(d, n) {
   inp.className = "gap";
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
+  inp.setAttribute("aria-label", `${d.category} answer, item ${n + 1}`);
+  inp.setAttribute("aria-describedby", "ans" + n);
   if (d.category === "mcq") inp.setAttribute("title", "Type 1–4, A–D, or the full option text");
   inp.addEventListener("input", () => {
-    // typing after a verdict clears the stale color (verdict kept for guards)
+    // typing after a verdict clears stale state so row can be re-answered;
+    // guards (gradedUser) reset only when text actually changed
+    const cur = inp.value;
+    if (normKey(gradedUser[n] ?? "") !== normKey(cur) && n in results) {
+      delete results[n];
+      delete gradedUser[n];
+      if (showFilter !== "all") applyFilter();
+    }
     const wrap = document.getElementById("wrap" + n);
     if (wrap) wrap.classList.remove("correct", "wrong");
   });
   inp.addEventListener("keydown", e => {
+    if (e.isComposing) return; // IME composition: do not grade mid-compose
     if (e.key !== "Enter") return;
     if (e.shiftKey) { focusPrev(n); return; }
     if (!inp.value.trim()) { focusNext(n); return; }  // blank box: Enter moves forward
@@ -257,14 +358,16 @@ function inpFor(d, n) {
     : Math.max(1, (d.answer || "").trim().split(/\s+/).filter(Boolean).length);
   const ul = document.createElement("span");
   ul.className = "uline";
+  ul.setAttribute("aria-hidden", "true");
   for (let i = 0; i < nw; i++) ul.appendChild(document.createElement("i"));
   wrap.appendChild(ul);
   return wrap;
 }
 
 function renderMore() {
-  if (wallBusy) return; // wall splice owns the DOM while it renders
+  if (wallBusy) { pendingRender = true; return; } // wall splice owns DOM: queue, don't drop
   const next = items.slice(rendered, rendered + RENDER_N);
+  if (!next.length && pendingRender) pendingRender = false;
   const frag = document.createDocumentFragment();
   next.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
   list.appendChild(frag);
@@ -313,15 +416,16 @@ function saveQueue() {
   try {
     localStorage.setItem("wrongIds", JSON.stringify(wrongIds.slice(-200)));
     localStorage.setItem("lastSolvedId", JSON.stringify(lastSolvedId));
-  } catch { /* private mode */ }
+  } catch (e) { console.error("saveQueue failed:", e); }
 }
 
 // every 50 rows: second-chance copies of the miss queue (miss again -> next wall).
 // Copies are intentional duplicates: the stable wall keeps every item in place.
+// Queue is dequeued on SOLVE (gradeItem), not on render — unattempted copies stay queued.
 async function maybeWall() {
   if (wallBusy || rendered < nextWallAt) return;
-  const ids = [...new Set(wrongIds)];
-  if (!ids.length) { nextWallAt += 50; return; }
+  const ids = [...new Set(wrongIds)].slice(-200);
+  if (!ids.length) { nextWallAt = rendered + 50; return; }
   wallBusy = true;
   try {
     let rows;
@@ -336,28 +440,31 @@ async function maybeWall() {
     // stable original later. Wall copies always start blank.
     const fresh = rows.filter(d => ids.includes(d.id));
     if (fresh.length) {
-      // dequeue only what actually rendered; failures stay queued for next wall
-      wrongIds = wrongIds.filter(id => !fresh.some(d => d.id === id));
-      saveQueue();
+      // keep the miss queue intact until solved; advance cadence off pre-wall rendered
       nextWallAt = rendered + 50;
       items.splice(rendered, 0, ...fresh);
       const div = document.createElement("li");
       div.className = "walldiv";
       div.textContent = `— retry wall: ${fresh.length} second chance${fresh.length > 1 ? "s" : ""} —`;
-      list.appendChild(div);
+      const endline = document.getElementById("endline");
+      if (endline) list.insertBefore(div, endline);
+      else list.appendChild(div);
       const frag = document.createDocumentFragment();
       fresh.forEach((d, k) => frag.appendChild(rowFor(d, rendered + k)));
-      list.appendChild(frag);
+      if (endline) list.insertBefore(frag, endline);
+      else list.appendChild(frag);
       rendered += fresh.length;
       if (showFilter !== "all") applyFilter();
     } else {
       nextWallAt = rendered + 50;
     }
-  } catch {
+  } catch (e) {
+    console.error("retry wall skipped:", e);
     // wall skipped this block: keep the queue, advance cadence off rendered
     nextWallAt = rendered + 50;
   }
   wallBusy = false;
+  if (pendingRender) { pendingRender = false; renderMore(); return; }
   pumpMore();
 }
 
@@ -368,6 +475,22 @@ new IntersectionObserver(entries => {
   else if (items.length - rendered < 10) fetchMore();
 }, { rootMargin: "800px" }).observe(moreBox);
 
+function findLastIdxById(id) {
+  // duplicate wall copies share the same item id: prefer the last rendered
+  // occurrence so Jump lands on the retry copy, not the stale original
+  let found = -1;
+  const lim = Math.min(rendered, items.length);
+  for (let i = 0; i < items.length; i++) {
+    if (items[i]?.id === id) {
+      found = i;
+      if (i >= lim) break;
+    }
+  }
+  // if the last occurrence is beyond rendered, return it so paging continues
+  if (found >= 0) return found;
+  return items.findIndex(d => d?.id === id);
+}
+
 async function scrollLatest() {
   // resume across restarts: lastSolvedId persists, wall order is stable.
   // Prefer the live in-memory index when it still points at the same row.
@@ -375,7 +498,7 @@ async function scrollLatest() {
   if (lastSolved >= 0 && items[lastSolved] && items[lastSolved].id === lastSolvedId) {
     idx = lastSolved;
   } else if (lastSolvedId != null) {
-    idx = items.findIndex(d => d.id === lastSolvedId);
+    idx = findLastIdxById(lastSolvedId);
   } else if (lastSolved >= 0 && items[lastSolved]) {
     idx = lastSolved;
   }
@@ -384,7 +507,7 @@ async function scrollLatest() {
     if (rendered < items.length) renderMore();
     else if (drained) break;
     else await fetchMore();
-    if (lastSolvedId != null) idx = items.findIndex(d => d.id === lastSolvedId);
+    if (lastSolvedId != null) idx = findLastIdxById(lastSolvedId);
     else if (lastSolved >= 0) idx = lastSolved;
   }
   const el = idx >= 0 && idx < rendered ? document.getElementById("gap" + idx) : null;
@@ -395,7 +518,7 @@ async function scrollLatest() {
   else score.textContent = "Solve an item first (Enter in a gap).";
 }
 
-function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function escapeHtml(s) { return (s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
 let showFilter = "all";   // all | ok | no
 let results = {};         // idx -> true (correct) | false (wrong)
@@ -403,13 +526,11 @@ let gradedUser = {};      // idx -> last submitted text (stops double SRS on re-
 let revealedSet = {};     // idx -> true once revealed (terminal: no SRS gaming)
 
 // topbar solve stats: correct-solve count (persisted) + trailing-120s rate.
-// Rate needs a 120s warmup only on a truly fresh session.
+// New page load = new session: warmup 120s per session, not once-ever.
 let sessionStart = Date.now();
 try {
-  const ss = JSON.parse(localStorage.getItem("sessionStart") || "null");
-  if (typeof ss === "number" && ss > 0 && ss <= Date.now()) sessionStart = ss;
-  else localStorage.setItem("sessionStart", JSON.stringify(sessionStart));
-} catch { /* fresh */ }
+  localStorage.setItem("sessionStart", JSON.stringify(sessionStart));
+} catch (e) { console.error("sessionStart save failed:", e); }
 let solveTimes = [];
 let totalSolves = 0;
 try {
@@ -420,12 +541,12 @@ try {
   }
   const tot = JSON.parse(localStorage.getItem("totalSolves") || "null");
   if (Number.isInteger(tot) && tot >= 0 && tot <= 10000000) totalSolves = tot;
-} catch { /* fresh */ }
+} catch (e) { console.error("solveTimes load failed:", e); }
 function saveSolveTimes() {
   try {
     localStorage.setItem("solveTimes", JSON.stringify(solveTimes.slice(-1000)));
     localStorage.setItem("totalSolves", JSON.stringify(totalSolves));
-  } catch { /* private mode */ }
+  } catch (e) { console.error("saveSolveTimes failed:", e); }
 }
 function paintSolveStat() {
   const el = document.getElementById("solvestat");
@@ -452,8 +573,55 @@ function applyFilter() {
   }
 }
 
+function previewFuzzy(user, golds) {
+  // mirror of backend fuzzy_accept (normalize + contractions + article + US/UK + Levenshtein)
+  const pairs = [["can't","can not"],["won't","will not"],["n't"," not"],["'re"," are"],["'ve"," have"],["'ll"," will"],["'d"," would"],["'m"," am"],["'s"," is"]];
+  const norm = s => {
+    let t = (s ?? "").toLowerCase().replace(/[’`]/g, "'");
+    for (const [a,b] of pairs) t = t.split(a).join(b);
+    let out = "";
+    for (const c of t) {
+      if (/[a-z0-9' ]/.test(c)) out += c;
+      else if (c === "-" || c === "/" || c === "_") out += " ";
+      else out += " ";
+    }
+    return out.split(/\s+/).filter(Boolean).join(" ");
+  };
+  const stripArt = s => norm(s).split(" ").filter(w => w !== "a" && w !== "an" && w !== "the").join(" ");
+  const uk2us = new Map([["colour","color"],["colours","colors"],["favour","favor"],["favourite","favorite"],["honour","honor"],["labour","labor"],["neighbour","neighbor"],["organise","organize"],["realise","realize"],["recognise","recognize"],["apologise","apologize"],["behaviour","behavior"],["cancelled","canceled"],["travelled","traveled"],["cheque","check"],["cheques","checks"],["grey","gray"],["theatre","theater"],["centre","center"],["metre","meter"],["litre","liter"],["defence","defense"],["licence","license"],["offence","offense"]]);
+  const fold = s => norm(s).split(" ").map(w => uk2us.get(w) || w).join(" ");
+  const lev = (a,b) => {
+    const A=[...a], B=[...b];
+    if (!A.length) return B.length;
+    if (!B.length) return A.length;
+    let prev=[...Array(B.length+1).keys()];
+    for (let i=1;i<=A.length;i++){let cur=[i];for(let j=1;j<=B.length;j++){const c=A[i-1]===B[j-1]?0:1;cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+c);}prev=cur;}
+    return prev[B.length];
+  };
+  const nu = norm(user);
+  for (const g of golds) {
+    const ng = norm(g);
+    if (nu === ng) return true;
+    const fu=fold(nu), fg=fold(ng);
+    if (stripArt(fu)===stripArt(fg) && (ng.split(" ").length>=3 || fu===fg)) return true;
+    if (fu===fg) return true;
+    const d=lev(nu,ng), L=Math.max([...nu].length,[...ng].length);
+    const ratio=L===0?1:1-d/L;
+    const allow=L<=3?0:L>24?3:2;
+    let ok=true;
+    const uw=nu.split(" "), gw=ng.split(" ");
+    if (uw.length===gw.length) {
+      for (let i=0;i<uw.length;i++){const cap=Math.floor(Math.max(uw[i].length,gw[i].length)/3);if(lev(uw[i],gw[i])>cap){ok=false;break;}}
+    }
+    if (ok && (d<=allow || ratio>=0.85) && nu.length>=2) return true;
+  }
+  return false;
+}
+
 async function gradeItem(n, quiet = false) {
+  if (!Number.isInteger(n) || n < 0 || !items[n]) return null;
   const inp = document.getElementById("gap" + n);
+  if (!inp) return null;
   let user = inp.value;
   if (!user.trim()) return null;
   if (revealedSet[n]) {
@@ -461,6 +629,7 @@ async function gradeItem(n, quiet = false) {
     if (!quiet) focusNext(n);
     return "revealed";
   }
+  if (inFlight.has(n)) return null; // double-Enter race: second submit dropped
   if (n in results && normKey(gradedUser[n]) === normKey(user)) {
     // same logical text re-submitted: restore color, no double SRS hit; advance if solved
     const wrap0 = document.getElementById("wrap" + n);
@@ -472,20 +641,22 @@ async function gradeItem(n, quiet = false) {
     return results[n];
   }
   const prev = results[n];
-  // pure keyboard MCQ: type 1-4 or A-D, graded as the option text
+  // pure keyboard MCQ: type 1-4 or A-D, graded as the option text (strict range)
   const opts = items[n].options || [];
   if (items[n].category === "mcq" && opts.length) {
     const t = user.trim().toLowerCase();
-    const m = t.match(/^([1-9a-z])[\).\s:\-]*$/);
+    const m = t.match(/^([1-4a-d])[\).\s:\-]*$/);
     if (m) {
       const c = m[1];
       let idx = -1;
-      if (/[1-9]/.test(c)) idx = +c - 1;
+      if (/[1-4]/.test(c)) idx = +c - 1;
       else idx = c.charCodeAt(0) - 97;
       if (idx >= 0 && idx < opts.length) user = opts[idx];
+      // out-of-range (5-9/z) falls through as literal text: graded wrong with hint
     }
   }
-  gradedUser[n] = user; // optimistic: fast double-Enter can't double-submit
+  inFlight.add(n);
+  gradedUser[n] = user;
   let correct, expected = items[n].answer, full = items[n].full_answer;
   try {
     const verdict = await call("submit_answer", { itemId: items[n].id, user });
@@ -493,15 +664,11 @@ async function gradeItem(n, quiet = false) {
     expected = verdict.expected;
     full = verdict.fullAnswer ?? verdict.full_answer ?? full;
   } catch {
-    // browser fallback: mirror of the backend (normalize + article pass)
-    const fbn = s => (s ?? "").toLowerCase().replace(/[’`]/g, "'")
-      .replace(/can't/g, "can not").replace(/won't/g, "will not").replace(/n't/g, " not")
-      .replace(/'re/g, " are").replace(/'ve/g, " have").replace(/'ll/g, " will")
-      .replace(/'d/g, " would").replace(/'m/g, " am")
-      .replace(/[^a-z0-9' ]/g, " ").replace(/\s+/g, " ").trim();
-    const fbs = s => fbn(s).split(" ").filter(w => w !== "a" && w !== "an" && w !== "the").join(" ");
-    const u = fbn(user), g = fbn(items[n].answer);
-    correct = u === g || fbs(user) === fbs(items[n].answer);
+    // browser preview: full-fuzzy mirror so preview ≈ app grading
+    const golds = [items[n].answer, ...((items[n].alternatives || []).filter(a => (a||"").trim().length >= 2))];
+    correct = previewFuzzy(user, golds);
+  } finally {
+    inFlight.delete(n);
   }
   inp.classList.remove("correct", "wrong");
   const wrap = document.getElementById("wrap" + n);
@@ -516,14 +683,15 @@ async function gradeItem(n, quiet = false) {
     ans.classList.add("show");
   }
   lastSolved = n;
-  if (!quiet) {
-    lastSolvedId = items[n].id;
-  }
+  lastSolvedId = items[n].id;
   results[n] = correct;
-  if (correct && !quiet) { totalSolves++; solveTimes.push(Date.now()); paintSolveStat(); }
+  if (correct) { totalSolves++; solveTimes.push(Date.now()); paintSolveStat(); }
   const wid = items[n].id;
   if (!correct) {
-    if (!wrongIds.includes(wid)) wrongIds.push(wid);
+    if (!wrongIds.includes(wid)) {
+      wrongIds.push(wid);
+      if (wrongIds.length > 500) wrongIds = wrongIds.slice(-500);
+    }
   } else if (prev !== false) {
     // first-try or wall-retry correct: dequeue. In-place fix after a miss
     // (prev === false) stays queued so the 50-wall still drills it once.
@@ -575,22 +743,25 @@ async function focusNext(n, anchorTop = null) {
     }
   }
   // everything rendered is solved: page the wall forward and continue there
-  if (rendered < items.length) { renderMore(); focusNext(n); return; }
-  if (!drained) { await fetchMore(); focusNext(n); }
+  if (rendered < items.length) { renderMore(); return focusNext(n); }
+  if (!drained) { await fetchMore(); return focusNext(n); }
 }
 
 async function check() {
+  const total = rendered;
   let ok = 0, done = 0;
-  for (let n = 0; n < rendered; n++) {
+  for (let n = 0; n < total; n++) {
+    if (!items[n]) continue;
     if (results[n] === true || revealedSet[n]) continue; // solved or given up: untouched
     // unsolved + missed rows re-grade; unchanged text returns cached, no double SRS
     const r = await gradeItem(n, true);
-    if (r === null) continue;
+    if (r === null || r === "revealed") continue;
     done++;
     if (r) ok++;
   }
   applyFilter();
   score.textContent = done ? `${ok}/${done} correct. Wrong ones resurface at the retry wall.` : "Type an answer first.";
+  score.setAttribute("aria-live", "polite");
 }
 
 function reveal() {
@@ -599,13 +770,17 @@ function reveal() {
   for (let n = 0; n < rendered; n++) {
     if (n in results || revealedSet[n]) continue;
     const d = items[n];
+    if (!d) continue;
     const ans = document.getElementById("ans" + n);
     const inp = document.getElementById("gap" + n);
     if (!ans || !inp) continue;
     inp.value = d.answer;
     revealedSet[n] = true;
     const note = (d.notes || "").trim();
-    ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`;
+    const fa = (d.full_answer || "").trim();
+    ans.innerHTML = (fa && fa !== d.answer)
+      ? `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(fa)}${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`
+      : `<b>${escapeHtml(d.answer)}</b>${note ? `<div class="note">${escapeHtml(note)}</div>` : ""}`;
     ans.classList.add("show");
   }
   applyFilter();
@@ -617,25 +792,31 @@ document.getElementById("latest").onclick = scrollLatest;
 document.getElementById("theme").onclick = () => {
   const dark = document.body.classList.toggle("dark");
   document.getElementById("theme").textContent = dark ? "Light" : "Dark";
-  try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch { /* private mode */ }
+  try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) { console.error("theme save failed:", e); }
 };
-try { if (localStorage.getItem("theme") === "dark") document.getElementById("theme").onclick(); } catch { /* fresh */ }
+try { if (localStorage.getItem("theme") === "dark") document.getElementById("theme").onclick(); } catch (e) { console.error("theme load failed:", e); }
 try {
   const fs = parseInt(localStorage.getItem("fs") || "", 10);
   if (Number.isInteger(fs) && fs >= 10 && fs <= 20) {
     document.getElementById("fs").value = String(fs);
+    document.getElementById("fs").setAttribute("aria-label", `Text size ${fs} pixels`);
     document.documentElement.style.setProperty("--fs", fs + "px");
   }
-} catch { /* fresh */ }
+} catch (e) { console.error("fs load failed:", e); }
 document.getElementById("fs").oninput = e => {
   const v = Math.min(20, Math.max(10, parseInt(e.target.value, 10) || 16));
   document.documentElement.style.setProperty("--fs", v + "px");
-  try { localStorage.setItem("fs", String(v)); } catch { /* private mode */ }
+  e.target.setAttribute("aria-label", `Text size ${v} pixels`);
+  try { localStorage.setItem("fs", String(v)); } catch (err) { console.error("fs save failed:", err); }
 };
 document.querySelectorAll("#filters button").forEach(b => {
   b.onclick = () => {
     showFilter = b.dataset.f;
-    document.querySelectorAll("#filters button").forEach(x => x.classList.toggle("on", x === b));
+    document.querySelectorAll("#filters button").forEach(x => {
+      const on = x === b;
+      x.classList.toggle("on", on);
+      x.setAttribute("aria-pressed", on ? "true" : "false");
+    });
     applyFilter();
   };
 });
@@ -654,7 +835,7 @@ try {
     pomo.mode = saved.mode;
     pomo.block = saved.block;
   }
-} catch { /* fresh */ }
+} catch (e) { console.error("pomo load failed:", e); }
 function pomoDoneGet() { return parseInt(document.getElementById("pomoDone").dataset.n || "0", 10); }
 function pomoDoneSet(n) {
   const el = document.getElementById("pomoDone");
@@ -667,7 +848,7 @@ function pomoSave() {
     localStorage.setItem("pomo", JSON.stringify({
       done: pomoDoneGet(), left: Math.round(pomo.left), mode: pomo.mode, block: pomo.block,
     }));
-  } catch { /* private mode */ }
+  } catch (e) { console.error("pomo save failed:", e); }
 }
 function fmt(s) { s = Math.max(0, Math.floor(s)); return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }
 function pomoPaint() {

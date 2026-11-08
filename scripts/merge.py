@@ -29,6 +29,12 @@ AUX = {"had", "have", "has", "did", "does", "do", "was", "were", "is", "are",
 def norm(s):
     return re.sub(r"\s+", " ", (s or "").strip().lower())
 
+def norm_punct(s):
+    # punctuation-insensitive key for purge lists: trailing periods must not evade
+    t = (s or "").lower().strip()
+    t = re.sub(r"[^a-z0-9' ]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
 # irregular verb families for keyword-leak detection (bore==bear, took==take, ...)
 # base -> all known forms; reverse index built below.
 IRREG = {
@@ -361,24 +367,38 @@ def warn(e):
     return w
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description="Rebuild corpus + seed from data/part-*.json")
+    ap.add_argument("--dry-run", action="store_true", help="validate only, write nothing")
+    ap.add_argument("--min-output", type=int, default=1000, help="refuse to write if out < N (default 1000)")
+    a = ap.parse_args()
+    # must run from repo root (relative data/ + src-tauri/ paths)
+    if not (os.path.isdir("data") and os.path.isdir("src-tauri")):
+        print("FATAL: must run from repo root (data/ + src-tauri/ not found)", file=sys.stderr)
+        sys.exit(1)
     files = sorted(glob.glob("data/part-*.json") + glob.glob("data/extra-*.json"))
     if not files:
         print("FATAL: no input files", file=sys.stderr)
         sys.exit(1)
     # purge lists load once (matched on pre-repair prompt+answer so repaired
-    # rows cannot evade their auditor flag by renaming the answer)
+    # rows cannot evade their auditor flag by renaming the answer).
+    # Keys are punctuation-insensitive + category-scoped; corrupt lists fail closed.
     purged_keys = set()
+    purged_by_cat = {}
     for pf in sorted(glob.glob("data/purge-*.json")):
         try:
             rows, err = load_file(pf)
-        except Exception:
-            continue
+        except Exception as e:
+            print(f"FATAL: purge list {pf} unreadable: {e}", file=sys.stderr)
+            sys.exit(1)
         if err:
-            print(f"purge list {pf}: {err}")
-            continue
+            print(f"FATAL: purge list {pf}: {err} — refusing to continue fail-open", file=sys.stderr)
+            sys.exit(1)
         for r in rows:
             if isinstance(r, dict) and r.get("prompt") and r.get("answer"):
-                purged_keys.add((norm(r["prompt"]), norm(r["answer"])))
+                k = (norm_punct(r["prompt"]), norm_punct(r["answer"]))
+                purged_keys.add(k)
+                purged_by_cat.setdefault(r.get("category") or "*", set()).add(k)
     raw, quarantine, stats = [], [], Counter()
     for f in files:
         rows, err = load_file(f)
@@ -387,7 +407,7 @@ def main():
             quarantine.append({"file": f, "entry": None, "reasons": [err]})
         for i, r in enumerate(rows):
             r = derive_full(r) if isinstance(r, dict) else r
-            if isinstance(r, dict) and (norm(r.get("prompt", "")), norm(r.get("answer", ""))) in purged_keys:
+            if isinstance(r, dict) and (norm_punct(r.get("prompt", "")), norm_punct(r.get("answer", ""))) in purged_keys:
                 quarantine.append({"file": f, "index": i, "entry": r, "reasons": ["purged: auditor-flagged trivial"]})
                 stats["purged"] += 1
                 continue
@@ -397,6 +417,12 @@ def main():
                 stats["invalid"] += 1
                 continue
             e = canon(r)
+            # re-validate after canon (dedup can collapse mcq 4->3, clamp hides bad difficulty)
+            bad2 = validate(e)
+            if bad2:
+                quarantine.append({"file": f, "index": i, "entry": e, "reasons": ["post-canon: " + b for b in bad2]})
+                stats["invalid_postcanon"] += 1
+                continue
             # repair 0: answer must not start with a conjunction ("and parcel") -
             # the conjunction belongs to the frame ("part and ___")
             na0 = norm(e.get("answer", "")).split(" ")
@@ -407,10 +433,17 @@ def main():
                 if e["full_answer"] and e["full_answer"][-1].isalnum():
                     e["full_answer"] += "."
                 stats["repaired_lead_conj"] += 1
-            # repair 2: binomial leftover-word suffix -> sentence ends at binomial
+            # repair 2: binomial leftover-word suffix -> sentence ends at binomial.
+            # Guarded: only single-stray-word suffixes auto-truncate; longer
+            # suffixes likely carry content (prompt/frame mismatch) -> quarantine.
             if e["category"] == "binomial" and e["gap_suffix"] not in ("", "."):
                 first = norm(e["gap_suffix"]).split(" ")[0].rstrip(",.")
                 if first not in PREPS and not e["gap_suffix"].startswith(","):
+                    _sufw = [w for w in e["gap_suffix"].split() if w.strip(".,;:!?")]
+                    if len(_sufw) > 2:
+                        quarantine.append({"file": f, "index": i, "entry": e, "reasons": ["binomial suffix too long, needs auditor"]})
+                        stats["invalid_binomial_guard"] += 1
+                        continue
                     e["gap_suffix"] = "."
                     e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + ".").strip()
                     stats["repaired_binomial"] += 1
@@ -489,13 +522,10 @@ def main():
                             e["gap_prefix"], e["answer"], e["gap_suffix"] = orig4
                             continue
             # repair 6 (user rule): the answer must never be just the bracket word.
-            # If single-word answer == keyword (lemma-equal: date==date, bore==BEAR):
-            # - gap after 0-1 words  -> take next 2 words from suffix ("They set a" + date + "for the wedding" -> "a date for")
-            # - gap before 0-1 words (or end) -> take prev 2 words from prefix
-            # - middle -> take 1 before + keyword + 1 after.
-            # Pure regrouping: bail unless the sentence is identical after.
+            # Exempt blank_fill (single-prep cloze is the drill; widening turns
+            # [for] into 3-word answers), inversion/mcq/three_in_one/wordform.
             CONJ = {"and", "or", "nor", "but", "yet", "so"}
-            if e["category"] not in ("inversion", "mcq", "three_in_one"):
+            if e["category"] not in ("inversion", "mcq", "three_in_one", "wordform", "blank_fill"):
                 kw6 = (e.get("keyword") or "").strip()
                 ans6 = (e.get("answer") or "").strip()
                 ans_toks = [t for t in ans6.split() if clean_word(t)]
@@ -626,9 +656,11 @@ def main():
                         else:
                             e["gap_prefix"], e["answer"], e["gap_suffix"] = orig
             # repair 5: answer edge-word duplicated adjacent to the gap
-            # ("ran away with with the budget" -> drop frame "with";
-            #  "Only after after ..." handled by repair 3, this is the overlap guard)
+            # Guarded: new sentence must equal old with the single duplicate collapsed;
+            # otherwise revert (prevents content destruction like "[fish nor fowl in]").
             if True:
+                _old5 = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                _orig_pre5, _orig_suf5 = e["gap_prefix"], e["gap_suffix"]
                 ans_t = e["answer"].split()
                 touched5 = False
                 if ans_t:
@@ -648,6 +680,15 @@ def main():
                             touched5 = True
                     if touched5:
                         new_full5 = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        # collapse one "word word" dup in old; must match new (punct-insensitive)
+                        _collapsed = re.sub(r"\b(\w+)(\s+\1\b)+", r"\1", _old5, flags=re.I)
+                        def _pol5(s):
+                            return re.sub(r"\s+([.,;:!?])", r"\1", re.sub(r"\s+", " ", s).strip())
+                        if norm_punct(_pol5(new_full5)) != norm_punct(_pol5(_collapsed)):
+                            e["gap_prefix"], e["gap_suffix"] = _orig_pre5, _orig_suf5
+                            new_full5 = _old5
+                            quarantine.append({"file": f, "index": i, "entry": dict(e), "reasons": ["dup-edge guard failed"]})
+                            stats["invalid_dup_edge"] += 1
                         e["full_answer"] = new_full5
                         if e["full_answer"] and e["full_answer"][-1].isalnum():
                             e["full_answer"] += "."
@@ -685,21 +726,22 @@ def main():
                 stats["warn:" + x] += 1
             raw.append((f, i, e))
 
-    # dedup 1: exact normalized gap triple (+options: mcq/3-in-1 frames live in options)
+    # dedup 1: exact normalized gap triple (+prompt +options: mcq/3-in-1 frames live in options)
     seen_exact, uniq = set(), []
     for f, i, e in raw:
         optk = tuple(norm(a) for a in e["options"])
-        k = (e["category"], norm(e["gap_prefix"]), norm(e["answer"]), norm(e["gap_suffix"]), optk)
+        k = (e["category"], norm(e["prompt"]), norm(e["gap_prefix"]), norm(e["answer"]), norm(e["gap_suffix"]), optk)
         if k in seen_exact:
             quarantine.append({"file": f, "index": i, "entry": e, "reasons": ["exact duplicate"]})
             stats["dup_exact"] += 1
             continue
         seen_exact.add(k)
         uniq.append((f, i, e))
-    # dedup 2: token-bag near-duplicate within category (catches reworded dupes)
+    # dedup 2: token-bag near-duplicate within category+prompt (catches reworded dupes;
+    # prompt included so same-words-different-sentence rows do not falsely collide)
     seen_bag, deduped = set(), []
     for f, i, e in uniq:
-        bag = (e["category"], tuple(sorted(norm(e["full_answer"]).split())))
+        bag = (e["category"], norm(e["prompt"]), tuple(sorted(norm_punct(e["full_answer"]).split())))
         if bag in seen_bag:
             quarantine.append({"file": f, "index": i, "entry": e, "reasons": ["near duplicate (same token bag)"]})
             stats["dup_near"] += 1
@@ -721,13 +763,26 @@ def main():
         out.append(e)
 
     out.sort(key=lambda e: (e["category"], norm(e["full_answer"])))
+    if len(out) < a.min_output:
+        print(f"FATAL: output {len(out)} < min-output {a.min_output} — refusing to write (would wipe bank)", file=sys.stderr)
+        sys.exit(1)
+    if a.dry_run:
+        print(f"dry-run: would write {len(out)} rows + {len(quarantine)} quarantined (no writes)")
+        print(f"final: {len(out)}  quarantined: {len(quarantine)}")
+        print("by_category:", dict(Counter(e['category'] for e in out)))
+        print("stats:", {k: v for k, v in sorted(stats.items()) if not k.endswith(".json")})
+        return
     os.makedirs("data", exist_ok=True)
+    # two-phase atomic: stage all tmp files first, then rename (corpus+seed never half-written)
+    staged = []
     for path, payload in (("data/corpus.json", out),
                           ("src-tauri/seed.json", out),
                           ("data/quarantine.json", quarantine)):
         tmp = path + ".tmp"
         with open(tmp, "w", encoding="utf-8") as fh:
-            json.dump(payload, fh, ensure_ascii=False, indent=1)
+            json.dump(payload, fh, ensure_ascii=False, indent=1, sort_keys=True)
+        staged.append((tmp, path))
+    for tmp, path in staged:
         os.replace(tmp, path)  # atomic
 
     print(f"inputs: {len(files)} files, raw rows: {sum(v for k, v in stats.items() if k.endswith('.json'))}")

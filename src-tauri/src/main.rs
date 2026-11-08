@@ -64,11 +64,16 @@ struct Stats {
 
 // ---------- paths / schema ----------
 fn db_path(app: &tauri::AppHandle) -> PathBuf {
-  let dir = app
-    .path()
-    .app_data_dir()
-    .unwrap_or_else(|_| std::env::temp_dir());
-  std::fs::create_dir_all(&dir).ok();
+  let dir = match app.path().app_data_dir() {
+    Ok(d) => d,
+    Err(e) => {
+      eprintln!("app_data_dir unavailable ({}), falling back to temp_dir — SRS will be ephemeral", e);
+      std::env::temp_dir()
+    }
+  };
+  if let Err(e) = std::fs::create_dir_all(&dir) {
+    eprintln!("create_dir_all {:?} failed: {}", dir, e);
+  }
   dir.join("hsg.db")
 }
 
@@ -89,6 +94,7 @@ CREATE TABLE IF NOT EXISTS items(
   options TEXT NOT NULL DEFAULT '[]'
 );
 CREATE INDEX IF NOT EXISTS idx_items_cat ON items(category);
+CREATE INDEX IF NOT EXISTS idx_items_cat_diff ON items(category,difficulty,id);
 CREATE TABLE IF NOT EXISTS progress(
   item_id INTEGER PRIMARY KEY REFERENCES items(id) ON DELETE CASCADE,
   reps INTEGER NOT NULL DEFAULT 0,
@@ -99,7 +105,6 @@ CREATE TABLE IF NOT EXISTS progress(
   last_seen INTEGER NOT NULL DEFAULT 0,
   mastered INTEGER NOT NULL DEFAULT 0
 );
-CREATE INDEX IF NOT EXISTS idx_prog_due ON progress(next_due, mastered);
 CREATE TABLE IF NOT EXISTS reviews(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   item_id INTEGER NOT NULL,
@@ -110,24 +115,52 @@ CREATE TABLE IF NOT EXISTS meta(
   k TEXT PRIMARY KEY,
   v TEXT NOT NULL
 );
+CREATE INDEX IF NOT EXISTS idx_prog_due ON progress(next_due, mastered);
+CREATE INDEX IF NOT EXISTS idx_reviews_ts ON reviews(ts);
+CREATE INDEX IF NOT EXISTS idx_reviews_item ON reviews(item_id);
 "#;
 
 fn open_conn(path: &PathBuf) -> Connection {
   if let Some(p) = path.parent() {
-    std::fs::create_dir_all(p).ok();
+    if let Err(e) = std::fs::create_dir_all(p) {
+      eprintln!("create_dir_all failed for {:?}: {}", p, e);
+    }
   }
-  let conn = Connection::open(path).expect("open sqlite");
-  conn.execute_batch(SCHEMA).expect("schema");
-  // migrate older DBs: options column for MCQ / 3-in-1 rows
-  let has_opts: bool = conn
-    .prepare("SELECT 1 FROM pragma_table_info('items') WHERE name='options'")
-    .and_then(|mut s| s.exists([]))
-    .unwrap_or(false);
-  if !has_opts {
-    let _ = conn.execute("ALTER TABLE items ADD COLUMN options TEXT NOT NULL DEFAULT '[]'", []);
+  let conn = match Connection::open(path) {
+    Ok(c) => c,
+    Err(e) => {
+      eprintln!("open sqlite {:?} failed: {} — trying backup + recreate", path, e);
+      let bak = path.with_extension("corrupt.bak");
+      let _ = std::fs::rename(path, &bak);
+      Connection::open(path).expect("open sqlite after backup")
+    }
+  };
+  if let Err(e) = conn.execute_batch(SCHEMA) {
+    eprintln!("schema failed: {}", e);
+    panic!("schema: {}", e);
   }
-  conn.execute_batch("PRAGMA synchronous=NORMAL; PRAGMA cache_size=-64000;")
-    .ok();
+  // migrate older DBs: ensure all post-v1 columns exist
+  for (col, ddl) in [
+    ("options", "ALTER TABLE items ADD COLUMN options TEXT NOT NULL DEFAULT '[]'"),
+    ("alternatives", "ALTER TABLE items ADD COLUMN alternatives TEXT NOT NULL DEFAULT '[]'"),
+    ("notes", "ALTER TABLE items ADD COLUMN notes TEXT NOT NULL DEFAULT ''"),
+    ("difficulty", "ALTER TABLE items ADD COLUMN difficulty INTEGER NOT NULL DEFAULT 1"),
+  ] {
+    let has: bool = conn
+      .prepare("SELECT 1 FROM pragma_table_info('items') WHERE name=?1")
+      .and_then(|mut s| s.exists([col]))
+      .unwrap_or(false);
+    if !has {
+      let _ = conn.execute(ddl, []);
+    }
+  }
+  let _ = conn.execute_batch("PRAGMA foreign_keys=ON; PRAGMA busy_timeout=5000; PRAGMA synchronous=NORMAL; PRAGMA cache_size=-64000;");
+  // verify WAL mode (e.g. read-only FS may silently ignore)
+  if let Ok(mode) = conn.query_row("PRAGMA journal_mode=WAL;", [], |r| r.get::<_, String>(0)) {
+    if mode.to_lowercase() != "wal" {
+      eprintln!("journal_mode not WAL: {}", mode);
+    }
+  }
   conn
 }
 
@@ -166,7 +199,10 @@ fn seed_if_empty(conn: &Connection, resource_dir: &PathBuf) {
   });
   let txt = match txt {
     Some(t) => t,
-    None => return,
+    None => {
+      eprintln!("seed_if_empty: no seed.json candidate found — bank will be empty");
+      return;
+    }
   };
   let ver = format!("{:x}", fnv1a64(txt.as_bytes()));
   let cur: String = conn
@@ -177,6 +213,8 @@ fn seed_if_empty(conn: &Connection, resource_dir: &PathBuf) {
   }
   if insert_seed(conn, &txt).is_ok() {
     let _ = conn.execute("INSERT INTO meta(k,v) VALUES('seed',?1) ON CONFLICT(k) DO UPDATE SET v=excluded.v", params![ver]);
+  } else {
+    eprintln!("seed_if_empty: insert_seed failed, hash not stamped");
   }
 }
 
@@ -231,6 +269,10 @@ fn sentence_key(s: &str) -> String {
 }
 
 fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
+  insert_seed_inner(conn, txt, true)
+}
+
+fn insert_seed_inner(conn: &Connection, txt: &str, delete_gone: bool) -> Result<usize, String> {
   let v: serde_json::Value = serde_json::from_str(txt).map_err(|e| e.to_string())?;
   let arr = if v.is_array() {
     v.as_array().unwrap().clone()
@@ -283,6 +325,8 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
     if s.category == "mcq" {
       let clean: Vec<String> = s.options.iter().map(|a| key_norm(a)).filter(|a| !a.is_empty()).collect();
       if clean.len() != 4 || !clean.contains(&key_norm(&s.answer)) { return false; }
+      let mut uniq = clean.clone(); uniq.sort(); uniq.dedup();
+      if uniq.len() != 4 { return false; }
     }
     if s.category == "three_in_one" {
       let clean: Vec<String> = s.options.iter().map(|a| key_norm(a)).filter(|a| !a.is_empty()).collect();
@@ -294,15 +338,19 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
   let mut n_new = 0usize;
   let mut n_bad = 0usize;
   let mut matched: std::collections::HashSet<i64> = std::collections::HashSet::new();
+  let mut seen_batch: std::collections::HashSet<(String, String, String, String, String)> = std::collections::HashSet::new();
   {
     let mut upd = tx
-      .prepare("UPDATE items SET category=?,keyword=?,gap_prefix=?,gap_suffix=?,answer=?,full_answer=?,alternatives=?,notes=?,difficulty=?,options=? WHERE id=?")
+      .prepare("UPDATE items SET category=?,prompt=?,keyword=?,gap_prefix=?,gap_suffix=?,answer=?,full_answer=?,alternatives=?,notes=?,difficulty=?,options=? WHERE id=?")
       .map_err(|e| e.to_string())?;
     let mut ins = tx
       .prepare("INSERT INTO items(category,prompt,keyword,gap_prefix,gap_suffix,answer,full_answer,alternatives,notes,difficulty,options) VALUES(?,?,?,?,?,?,?,?,?,?,?)")
       .map_err(|e| e.to_string())?;
     for raw in arr {
-      let s: SeedItem = serde_json::from_value(raw).map_err(|e| e.to_string())?;
+      let s: SeedItem = match serde_json::from_value(raw) {
+        Ok(v) => v,
+        Err(_) => { n_bad += 1; continue; }
+      };
       if !valid_seed(&s) {
         n_bad += 1;
         continue;
@@ -345,13 +393,19 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
       if let Some(id) = id {
         matched.insert(id);
         upd.execute(params![
-          s.category, s.keyword, s.gap_prefix, s.gap_suffix, s.answer, s.full_answer,
+          s.category, s.prompt, s.keyword, s.gap_prefix, s.gap_suffix, s.answer,
+          s.full_answer,
           serde_json::to_string(&s.alternatives).unwrap(),
           s.notes, s.difficulty,
           serde_json::to_string(&s.options).unwrap(),
           id
         ]).map_err(|e| e.to_string())?;
       } else {
+        // intra-import dedup: same exact key twice in one payload inserts once
+        if !seen_batch.insert(key.clone()) {
+          n_bad += 1;
+          continue;
+        }
         ins.execute(params![
           s.category, s.prompt, s.keyword, s.gap_prefix, s.gap_suffix, s.answer,
           s.full_answer,
@@ -364,20 +418,25 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
     }
   }
   // rows never matched by any pass vanished from the bank: drop them (progress
-  // cascades, orphan reviews cleaned explicitly as reviews has no FK)
-  let mut gone: Vec<i64> = have.values().copied().collect();
-  for v in have_nocat.values().flatten().chain(have_sent.values().flatten()) {
-    if !matched.contains(v) && !gone.contains(v) {
-      gone.push(*v);
+  // cascades, orphan reviews cleaned explicitly as reviews has no FK).
+  // Manual imports are additive (delete_gone=false) so a partial import never wipes the bank.
+  if delete_gone {
+    let mut gone: Vec<i64> = have.values().copied().collect();
+    for v in have_nocat.values().flatten().chain(have_sent.values().flatten()) {
+      if !matched.contains(v) && !gone.contains(v) {
+        gone.push(*v);
+      }
+    }
+    for id in gone {
+      let _ = tx.execute("DELETE FROM progress WHERE item_id=?1", params![id]);
+      let _ = tx.execute("DELETE FROM reviews WHERE item_id=?1", params![id]);
+      let _ = tx.execute("DELETE FROM items WHERE id=?1", params![id]);
     }
   }
-  for id in gone {
-    let _ = tx.execute("DELETE FROM progress WHERE item_id=?1", params![id]);
-    let _ = tx.execute("DELETE FROM reviews WHERE item_id=?1", params![id]);
-    let _ = tx.execute("DELETE FROM items WHERE id=?1", params![id]);
-  }
   tx.commit().map_err(|e| e.to_string())?;
-  let _ = n_bad;
+  if n_bad > 0 {
+    eprintln!("insert_seed: skipped {} malformed rows", n_bad);
+  }
   Ok(n_new)
 }
 
@@ -389,7 +448,7 @@ fn normalize(s: &str) -> String {
   let pairs = [
     ("can't", "can not"), ("won't", "will not"), ("n't", " not"),
     ("'re", " are"), ("'ve", " have"), ("'ll", " will"), ("'d", " would"),
-    ("'m", " am"),
+    ("'m", " am"), ("'s", " is"),
   ];
   for (a, b) in pairs {
     t = t.replace(a, b);
@@ -416,7 +475,8 @@ fn strip_optional_articles(s: &str) -> String {
     .join(" ")
 }
 
-// whole-word US/UK map (substring replace over-accepts: soup->sop, promise->promize)
+// whole-word US/UK map, canonical one-way UK->US (idempotent).
+// Both sides starting US must stay US; both starting UK must fold to same US.
 fn us_uk_fold(s: &str) -> String {
   const PAIRS: &[(&str, &str)] = &[
     ("colour", "color"), ("colours", "colors"), ("favour", "favor"),
@@ -441,9 +501,6 @@ fn us_uk_fold(s: &str) -> String {
       for (uk, us) in PAIRS {
         if w == *uk {
           return us.to_string();
-        }
-        if w == *us {
-          return uk.to_string();
         }
       }
       w.to_string()
@@ -497,19 +554,19 @@ fn fuzzy_accept(user: &str, golds: &[String]) -> (bool, usize) {
     }
     let d = levenshtein(&nu, &ng);
     best = best.min(d);
-    // char (not byte) length; short answers forgive nothing, mid one typo
+    // char (not byte) length; spec: <=2 (<=3 if len>24) or ratio >=0.85
     let long = nu.chars().count().max(ng.chars().count());
     let ratio = if long == 0 {
       1.0
     } else {
       1.0 - (d as f64 / long as f64)
     };
-    let allow = if long <= 3 { 0 } else if long <= 8 { 1 } else { 2 };
+    let allow = if long <= 3 { 0 } else if long > 24 { 3 } else { 2 };
     // word-concentration guard: the budget must not be spent wiping out one
     // short word ("set the hay" vs "hit the hay" differs by 2 letters in a
     // 3-letter word = a different word, not a typo; "on" vs "in" likewise).
     // Aligned words may differ by at most len/3 letters (0 for 2-letter
-    // words, 1 for 3-5 letters, 2 for 6+).
+    // words, 1 for 3-5 letters, 2 for 6-8, 3 for 9+; total budget still binds).
     let words_ok = {
       let uw: Vec<&str> = nu.split(' ').collect();
       let gw: Vec<&str> = ng.split(' ').collect();
@@ -522,7 +579,7 @@ fn fuzzy_accept(user: &str, golds: &[String]) -> (bool, usize) {
         })
       }
     };
-    if words_ok && (d <= allow || (long > 8 && ratio >= 0.92)) && nu.chars().count() >= 2 {
+    if words_ok && (d <= allow || ratio >= 0.85) && nu.chars().count() >= 2 {
       return (true, d);
     }
   }
@@ -560,7 +617,7 @@ const CATS: [&str; 10] = ["light_verb", "prep_idiom", "figurative", "binomial", 
 /// category x difficulty), so every chunk is mixed and the order is IDENTICAL
 /// across restarts/reinstalls. Solved state is NOT filtered here — the frontend
 /// hydrates greens from each row's reps/next_due, and misses repeat via the
-/// 50-row retry wall. `seen` ids page forward without dupes.
+/// retry wall (every 50 rows). `seen` ids page forward without dupes.
 #[tauri::command]
 fn due_items(
   state: State<DbState>,
@@ -571,42 +628,39 @@ fn due_items(
   let conn = state.0.lock().map_err(|e| e.to_string())?;
   let lim = limit.unwrap_or(50).clamp(1, 200) as usize;
   let seen_ids: Vec<i64> = seen.unwrap_or_default().into_iter().take(20000).collect();
-  let excl = if seen_ids.is_empty() {
-    String::new()
-  } else {
-    format!("AND i.id NOT IN ({})", seen_ids.iter().map(|n| n.to_string()).collect::<Vec<_>>().join(","))
-  };
   let cats: Vec<&str> = match category {
     Some(ref c) if !c.is_empty() && c != "all" && CATS.contains(&c.as_str()) => vec![c.as_str()],
     _ => CATS.to_vec(),
   };
+  let single_cat: Option<&str> = if cats.len() == 1 { Some(cats[0]) } else { None };
 
-  // stratified pages: fixed id order per category x difficulty (mixed by construction)
-  let mut strata: Vec<Vec<DueItem>> = vec![];
-  {
-    let per = (lim / (cats.len() * 3).max(1) + 2).min(6) as i64;
-    for c in cats.iter().copied() {
-      for d in 1..=3 {
-        let sql = format!(
-          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 {} ORDER BY i.id ASC LIMIT ?3",
-          COLS, excl
-        );
-        let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
-        let rows: Vec<DueItem> = stmt
-          .query_map(params![c, d, per], row_to_due)
-          .map_err(|e| e.to_string())?
-          .collect::<Result<_, _>>()
-          .map_err(|e| e.to_string())?;
-        if !rows.is_empty() {
-          strata.push(rows);
-        }
-      }
-    }
-  }
+  // single-query wall: fetch one id-ordered window of unseen rows, stratify in memory.
+  // Avoids 30x per-cell queries each embedding a 20k-id NOT IN while holding the lock.
+  let fetch_n: i64 = (lim as i64 * 10).clamp(200, 2000);
+  let excl = if seen_ids.is_empty() {
+    String::new()
+  } else {
+    // 20k ids is safe for one query but can hit SQLITE_LIMIT_VARIABLE_NUMBER
+    // if bound; interpolated as ints only (no injection: i64 to_string).
+    format!("AND i.id NOT IN ({})", seen_ids.iter().map(|n| n.to_string()).collect::<Vec<_>>().join(","))
+  };
+  let cat_filter = single_cat.map(|c| format!("AND i.category='{}'", c)).unwrap_or_default();
+  // NOTE: category is whitelisted against CATS above, safe to interpolate.
+  let sql = format!(
+    "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE 1=1 {} {} ORDER BY i.id ASC LIMIT ?1",
+    COLS, cat_filter, excl
+  );
+  let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
+  let window: Vec<DueItem> = stmt
+    .query_map(params![fetch_n], row_to_due)
+    .map_err(|e| e.to_string())?
+    .collect::<Result<_, _>>()
+    .map_err(|e| e.to_string())?;
   // runs of 3 per category, cycling CATS in fixed order; difficulty mixed
-  // inside each run (L3/L2/L1 rotation)
+  // inside each run (L3/L2/L1 rotation). Window is already id-ordered, so
+  // buckets preserve stable order.
   let mut fresh: Vec<Vec<Vec<DueItem>>> = cats.iter().map(|_| vec![vec![], vec![], vec![]]).collect();
-  for s in strata.into_iter().flatten() {
+  for s in window.into_iter() {
     let di = (s.item.difficulty.clamp(1, 3) - 1) as usize;
     if let Some(ci) = cats.iter().position(|c| *c == s.item.category.as_str()) {
       fresh[ci][di].push(s);
@@ -642,22 +696,22 @@ fn due_items(
       break;
     }
   }
-  // top-up: strata caps (6 per cell) can leave the batch short of `lim`;
-  // fill the rest with plain id-ordered unseen rows so every batch is full
+  // top-up: if stratification left slots empty (e.g. thin category),
+  // fill the rest with plain id-ordered unseen rows from the same window
+  // so every batch is full without a second query.
   if out.len() < lim {
-    let mut picked: Vec<String> = seen_ids.iter().map(|n| n.to_string()).collect();
-    picked.extend(out.iter().map(|d| d.item.id.to_string()));
-    let sql = format!(
-      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.id NOT IN ({}) ORDER BY i.id ASC LIMIT ?1",
-      COLS,
-      if picked.is_empty() { "0".to_string() } else { picked.join(",") }
-    );
-    let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
-    let rows = stmt
-      .query_map(params![(lim - out.len()) as i64], row_to_due)
-      .map_err(|e| e.to_string())?;
-    for r in rows {
-      out.push(r.map_err(|e| e.to_string())?);
+    let mut have: std::collections::HashSet<i64> = out.iter().map(|d| d.item.id).collect();
+    // re-query window order: we already have window buckets; flatten id-order
+    // by re-collecting remaining fresh rows in id order
+    let mut rest: Vec<DueItem> = fresh.into_iter().flatten().flatten().collect();
+    // fresh buckets were consumed via fcur; collect leftovers
+    // (simpler: sort remaining by id to keep stable order)
+    rest.sort_by_key(|d| d.item.id);
+    for d in rest {
+      if out.len() >= lim { break; }
+      if have.insert(d.item.id) {
+        out.push(d);
+      }
     }
   }
   Ok(out)
@@ -665,9 +719,21 @@ fn due_items(
 
 fn row_to_due(r: &rusqlite::Row) -> rusqlite::Result<DueItem> {
   let alt_s: String = r.get(8)?;
-  let alternatives: Vec<String> = serde_json::from_str(&alt_s).unwrap_or_default();
+  let alternatives: Vec<String> = match serde_json::from_str(&alt_s) {
+    Ok(v) => v,
+    Err(_) => {
+      eprintln!("row_to_due: corrupt alternatives JSON for id, defaulting []");
+      vec![]
+    }
+  };
   let opt_s: String = r.get(11)?;
-  let options: Vec<String> = serde_json::from_str(&opt_s).unwrap_or_default();
+  let options: Vec<String> = match serde_json::from_str(&opt_s) {
+    Ok(v) => v,
+    Err(_) => {
+      eprintln!("row_to_due: corrupt options JSON for id, defaulting []");
+      vec![]
+    }
+  };
   Ok(DueItem {
     item: Item {
       id: r.get(0)?, category: r.get(1)?, prompt: r.get(2)?, keyword: r.get(3)?,
@@ -680,6 +746,10 @@ fn row_to_due(r: &rusqlite::Row) -> rusqlite::Result<DueItem> {
 
 #[tauri::command]
 fn submit_answer(state: State<DbState>, item_id: i64, user: String) -> Result<Verdict, String> {
+  if user.len() > 2000 {
+    return Err("answer too long (max 2000 bytes)".into());
+  }
+  let user: String = user.chars().take(500).collect();
   let conn = state.0.lock().map_err(|e| e.to_string())?;
   let (answer, full_answer, alt_s): (String, String, String) = conn
     .query_row("SELECT answer, full_answer, alternatives FROM items WHERE id=?1", params![item_id], |r| {
@@ -693,7 +763,7 @@ fn submit_answer(state: State<DbState>, item_id: i64, user: String) -> Result<Ve
   golds.extend(alts.iter().filter(|a| normalize(a).chars().count() >= 2).cloned());
   let (correct, dist) = fuzzy_accept(&user, &golds);
   let now = Utc::now().timestamp();
-  let (reps, lapses, easiness, interval, next_due): (i64, i64, f64, f64, i64) = conn
+  let (reps, lapses, easiness, interval, _next_due): (i64, i64, f64, f64, i64) = conn
     .query_row("SELECT reps,lapses,easiness,interval_days,next_due FROM progress WHERE item_id=?1", params![item_id], |r| {
       Ok((r.get(0)?, r.get(1)?, r.get(2)?, r.get(3)?, r.get(4)?))
     })
@@ -703,14 +773,15 @@ fn submit_answer(state: State<DbState>, item_id: i64, user: String) -> Result<Ve
   let (nr, ne, ni, nd) = srs_update(reps, easiness, interval, correct);
   let nl = if correct { lapses } else { lapses + 1 };
   let mastered = if correct && nr >= 5 { 1 } else { 0 };
-  conn.execute(
+  let tx = conn.unchecked_transaction().map_err(|e| e.to_string())?;
+  tx.execute(
     "INSERT INTO progress(item_id,reps,lapses,easiness,interval_days,next_due,last_seen,mastered) VALUES(?1,?2,?3,?4,?5,?6,?7,?8)
      ON CONFLICT(item_id) DO UPDATE SET reps=excluded.reps,lapses=excluded.lapses,easiness=excluded.easiness,interval_days=excluded.interval_days,next_due=excluded.next_due,last_seen=excluded.last_seen,mastered=excluded.mastered",
     params![item_id, nr, nl, ne, ni, nd, now, mastered],
   ).map_err(|e| e.to_string())?;
-  conn.execute("INSERT INTO reviews(item_id,ts,correct) VALUES(?1,?2,?3)", params![item_id, now, if correct {1} else {0}])
+  tx.execute("INSERT INTO reviews(item_id,ts,correct) VALUES(?1,?2,?3)", params![item_id, now, if correct {1} else {0}])
     .map_err(|e| e.to_string())?;
-  let _ = (reps, next_due);
+  tx.commit().map_err(|e| e.to_string())?;
   Ok(Verdict {
     correct,
     normalized_user: normalize(&user),
@@ -725,7 +796,7 @@ fn submit_answer(state: State<DbState>, item_id: i64, user: String) -> Result<Ve
   })
 }
 
-/// Fetch specific rows by id — powers the 100-question retry wall.
+/// Fetch specific rows by id — powers the retry wall (every 50 rows, up to 200 ids).
 /// Wrong answers get a 2nd chance; wrong again and they queue for the next wall.
 #[tauri::command]
 fn items_by_ids(state: State<DbState>, ids: Vec<i64>) -> Result<Vec<DueItem>, String> {
@@ -752,9 +823,11 @@ fn stats(state: State<DbState>) -> Result<Stats, String> {
   let conn = state.0.lock().map_err(|e| e.to_string())?;
   let now = Utc::now().timestamp();
   let total: i64 = conn.query_row("SELECT COUNT(*) FROM items", [], |r| r.get(0)).map_err(|e| e.to_string())?;
-  let mastered: i64 = conn.query_row("SELECT COUNT(*) FROM progress WHERE mastered=1", [], |r| r.get(0)).map_err(|e| e.to_string())?;
+  // join items so orphan progress rows (FK off on old DBs) never overcount
+  let mastered: i64 = conn.query_row("SELECT COUNT(*) FROM progress p JOIN items i ON i.id=p.item_id WHERE p.mastered=1", [], |r| r.get(0)).map_err(|e| e.to_string())?;
+  // due includes mastered rows whose 60d next_due passed — matches the wall which serves all rows
   let due_now: i64 = conn.query_row(
-    "SELECT COUNT(*) FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE COALESCE(p.mastered,0)=0 AND COALESCE(p.next_due,0)<=?1",
+    "SELECT COUNT(*) FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE COALESCE(p.next_due,0)<=?1",
     params![now], |r| r.get(0)).map_err(|e| e.to_string())?;
   let day_ago = now - 86400;
   let rev: i64 = conn.query_row("SELECT COUNT(*) FROM reviews WHERE ts>=?1", params![day_ago], |r| r.get(0)).map_err(|e| e.to_string())?;
@@ -766,8 +839,16 @@ fn stats(state: State<DbState>) -> Result<Stats, String> {
 
 #[tauri::command]
 fn import_seed(state: State<DbState>, json: String) -> Result<String, String> {
+  if json.len() > 10 * 1024 * 1024 {
+    return Err("import too large (max 10MB)".into());
+  }
   let conn = state.0.lock().map_err(|e| e.to_string())?;
-  insert_seed(&conn, &json)?;
+  // additive: never deletes existing rows on manual import
+  insert_seed_inner(&conn, &json, false)?;
+  // stamp hash of the imported payload so a subsequent bundled launch
+  // re-merges deterministically instead of silently diverging
+  let ver = format!("{:x}", fnv1a64(json.as_bytes()));
+  let _ = conn.execute("INSERT INTO meta(k,v) VALUES('seed_import',?1) ON CONFLICT(k) DO UPDATE SET v=excluded.v", params![ver]);
   let n: i64 = conn.query_row("SELECT COUNT(*) FROM items", [], |r| r.get(0)).map_err(|e| e.to_string())?;
   Ok(format!("ok total={}", n))
 }
@@ -775,8 +856,10 @@ fn import_seed(state: State<DbState>, json: String) -> Result<String, String> {
 #[tauri::command]
 fn reset_progress(state: State<DbState>) -> Result<String, String> {
   let conn = state.0.lock().map_err(|e| e.to_string())?;
-  conn.execute("DELETE FROM progress", []).map_err(|e| e.to_string())?;
-  conn.execute("DELETE FROM reviews", []).map_err(|e| e.to_string())?;
+  let tx = conn.unchecked_transaction().map_err(|e| e.to_string())?;
+  tx.execute("DELETE FROM progress", []).map_err(|e| e.to_string())?;
+  tx.execute("DELETE FROM reviews", []).map_err(|e| e.to_string())?;
+  tx.commit().map_err(|e| e.to_string())?;
   Ok("reset ok".into())
 }
 
@@ -814,5 +897,25 @@ mod grading_tests {
     assert!(ok("bore a grudge against", "bore a grudge against"));
     assert!(ok("colour", "color")); // us/uk fold
     assert!(ok("a grudge against", "grudge against")); // article pass on 3-token gold
+  }
+  #[test]
+  fn us_uk_both_directions() {
+    // canonical UK->US: both variants fold to US
+    assert_eq!(us_uk_fold("cheque"), "check");
+    assert_eq!(us_uk_fold("check"), "check");
+    assert_eq!(us_uk_fold("theatre"), "theater");
+    assert_eq!(us_uk_fold("theater"), "theater");
+    assert!(ok("cheque", "check"));
+    assert!(ok("theatre", "theater"));
+    assert!(ok("check", "cheque"));
+  }
+  #[test]
+  fn contraction_s_expands() {
+    assert!(ok("it's raining", "it is raining"));
+  }
+  #[test]
+  fn spec_thresholds() {
+    // ratio >=0.85 accepts even when distance >2 on longer strings
+    assert!(ok("organize the event quickly", "organise the event quickly"));
   }
 }
