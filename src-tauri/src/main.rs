@@ -320,7 +320,7 @@ fn srs_update(reps: i64, easiness: f64, interval: f64, correct: bool) -> (i64, f
 fn due_items(state: State<DbState>, limit: Option<i64>, category: Option<String>) -> Result<Vec<DueItem>, String> {
   let conn = state.0.lock().map_err(|e| e.to_string())?;
   let now = Utc::now().timestamp();
-  let lim = limit.unwrap_or(20).clamp(1, 100);
+  let lim = limit.unwrap_or(50).clamp(1, 200);
   let (sql, cat): (String, Option<String>) = match category {
     Some(c) if !c.is_empty() && c != "all" => (
       "SELECT i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,
@@ -357,7 +357,7 @@ fn due_items(state: State<DbState>, limit: Option<i64>, category: Option<String>
   if (out.len() as i64) < lim {
     let need = lim - out.len() as i64;
     let mut stmt2 = conn
-      .prepare("SELECT i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0) FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE COALESCE(p.mastered,0)=0 ORDER BY RANDOM() LIMIT ?1")
+      .prepare("SELECT i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0) FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE COALESCE(p.mastered,0)=0 ORDER BY difficulty DESC, RANDOM() LIMIT ?1")
       .map_err(|e| e.to_string())?;
     let seen: std::collections::HashSet<i64> = out.iter().map(|d: &DueItem| d.item.id).collect();
     for r in stmt2.query_map(params![need * 2], row_to_due).map_err(|e| e.to_string())? {

@@ -9,78 +9,143 @@ async function call(cmd, args) {
 }
 
 let items = [];
+let seenIds = new Set();
+let rendered = 0;
+let fetching = false;
+let drained = false;
+let lastSolved = -1;
+const FETCH_N = 200;   // rows pulled into memory per batch (tiny JSON, SRS state stays in SQLite)
+const RENDER_N = 25;   // rows painted per scroll step (keeps DOM light)
+const CAP = 400;       // in-memory/DOM ceiling per set; Next starts a fresh 200
 const list = document.getElementById("list");
-const statline = document.getElementById("statline");
 const score = document.getElementById("score");
+const moreBox = document.getElementById("more");
 
 async function load() {
-  const cat = document.getElementById("cat").value;
-  try {
-    items = await call("due_items", { limit: 10, category: cat });
-  } catch (e) {
-    // browser preview without Tauri: load seed.json directly
-    const r = await fetch("../src-tauri/seed.json").catch(() => fetch("./seed.json"));
-    const j = await r.json();
-    const arr = Array.isArray(j) ? j : j.items;
-    items = arr.filter(a => cat === "all" || a.category === cat).slice(0, 10)
-      .map((a, i) => ({ id: i + 1, ...a, reps: 0, lapses: 0 }));
-  }
-  render();
-  refreshStats();
+  items = [];
+  seenIds = new Set();
+  rendered = 0;
+  drained = false;
+  lastSolved = -1;
+  list.innerHTML = "";
+  score.textContent = "";
+  await fetchMore();
 }
 
-function render() {
-  list.innerHTML = "";
-  items.forEach((d, n) => {
+async function fetchMore() {
+  if (fetching || drained) return;
+  fetching = true;
+  moreBox.textContent = "loading…";
+  try {
+    const cat = document.getElementById("cat").value;
+    const got = await call("due_items", { limit: FETCH_N, category: cat });
+    const fresh = got.filter(d => !seenIds.has(d.id));
+    fresh.forEach(d => seenIds.add(d.id));
+    if (got.length < FETCH_N || items.length + fresh.length >= CAP) drained = true;
+    items.push(...fresh);
+    renderMore();
+  } catch (e1) {
+    try {
+      // browser preview without Tauri: load seed.json directly
+      const r = await fetch("../src-tauri/seed.json").catch(() => fetch("./seed.json"));
+      const j = await r.json();
+      const arr = Array.isArray(j) ? j : j.items;
+      const fresh = arr
+        .filter(a => (document.getElementById("cat").value === "all" || a.category === document.getElementById("cat").value) && !seenIds.has(a.id))
+        .slice(0, FETCH_N)
+        .map(a => ({ ...a }));
+      fresh.forEach(d => seenIds.add(d.id));
+      drained = true;
+      items.push(...fresh);
+      renderMore();
+    } catch (e2) {
+      const li = document.createElement("li");
+      li.textContent = `Could not load drill items (${String(e1).slice(0, 120)}). Restart the app.`;
+      list.appendChild(li);
+      drained = true;
+    }
+  }
+  fetching = false;
+  moreBox.textContent = drained ? (items.length >= CAP ? "400 loaded — Next starts a fresh set." : "") : "";
+}
+
+function rowFor(d, n) {
+  const li = document.createElement("li");
+  li.id = "row" + n;
+  const p1 = document.createElement("div");
+  p1.innerHTML = `${escapeHtml(d.prompt)} <span class="kw">(${escapeHtml(d.keyword)})</span>`;
+  const p2 = document.createElement("div");
+  p2.className = "rewrite";
+  p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
+  const inp = document.createElement("input");
+  inp.className = "gap";
+  inp.id = "gap" + n;
+  inp.setAttribute("autocomplete", "off");
+  inp.addEventListener("keydown", e => { if (e.key === "Enter") gradeItem(n); });
+  p2.appendChild(inp);
+  const tail = document.createElement("span");
+  tail.textContent = " " + d.gap_suffix;
+  p2.appendChild(tail);
+  const ans = document.createElement("div");
+  ans.className = "ans";
+  ans.id = "ans" + n;
+  li.append(p1, p2, ans);
+  return li;
+}
+
+function renderMore() {
+  const next = items.slice(rendered, rendered + RENDER_N);
+  next.forEach((d, k) => list.appendChild(rowFor(d, rendered + k)));
+  rendered += next.length;
+  if (!items.length && !list.children.length) {
     const li = document.createElement("li");
-    const p1 = document.createElement("div");
-    p1.innerHTML = `${escapeHtml(d.prompt)} <span class="kw">(${escapeHtml(d.keyword)})</span>`;
-    const p2 = document.createElement("div");
-    p2.className = "rewrite";
-    p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
-    const inp = document.createElement("input");
-    inp.className = "gap";
-    inp.id = "gap" + n;
-    inp.setAttribute("autocomplete", "off");
-    inp.addEventListener("keydown", e => { if (e.key === "Enter") check(); });
-    p2.appendChild(inp);
-    const tail = document.createElement("span");
-    tail.textContent = " " + d.gap_suffix;
-    p2.appendChild(tail);
-    const ans = document.createElement("div");
-    ans.className = "ans";
-    ans.id = "ans" + n;
-    li.append(p1, p2, ans);
+    li.textContent = "No due items — bank empty or all mastered. Try another category.";
     list.appendChild(li);
-  });
+  }
+}
+
+// infinite scroll: paint more as the sentinel nears the viewport, fetch when low
+new IntersectionObserver(entries => {
+  if (!entries[0].isIntersecting) return;
+  if (rendered < items.length) renderMore();
+  else if (items.length - rendered < 10) fetchMore();
+}, { rootMargin: "800px" }).observe(moreBox);
+
+function scrollLatest() {
+  if (lastSolved < 0) { score.textContent = "Solve an item first (Enter in a gap)."; return; }
+  const el = document.getElementById("row" + lastSolved);
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 
-async function check() {
-  let ok = 0;
-  for (let n = 0; n < items.length; n++) {
-    const inp = document.getElementById("gap" + n);
-    const ans = document.getElementById("ans" + n);
-    const user = inp.value;
-    let verdict;
-    try {
-      verdict = await call("submit_answer", { itemId: items[n].id, user });
-    } catch {
-      // browser fallback: exact/ci compare
-      const gold = items[n].answer.toLowerCase().trim();
-      const good = user.toLowerCase().trim() === gold;
-      verdict = { correct: good, expected: items[n].answer, fullAnswer: items[n].full_answer, full_answer: items[n].full_answer };
-    }
-    const expected = verdict.expected;
-    const full = verdict.fullAnswer ?? verdict.full_answer ?? items[n].full_answer;
-    if (verdict.correct) { ok++; inp.classList.add("correct"); }
-    else inp.classList.add("wrong");
-    ans.innerHTML = `<b>${escapeHtml(expected)}</b> — ${escapeHtml(full)}<div class="note">${escapeHtml(items[n].notes || "")}</div>`;
-    ans.classList.add("show");
+async function gradeItem(n) {
+  const inp = document.getElementById("gap" + n);
+  const user = inp.value;
+  if (!user.trim()) return null;
+  let correct;
+  try {
+    const verdict = await call("submit_answer", { itemId: items[n].id, user });
+    correct = verdict.correct;
+  } catch {
+    // browser fallback: exact/ci compare
+    correct = user.toLowerCase().trim() === items[n].answer.toLowerCase().trim();
   }
-  score.textContent = `${ok}/${items.length} correct. Failed items resurface first.`;
-  refreshStats();
+  inp.classList.remove("correct", "wrong");
+  inp.classList.add(correct ? "correct" : "wrong");
+  lastSolved = n;
+  return correct;
+}
+
+async function check() {
+  let ok = 0, done = 0;
+  for (let n = 0; n < items.length; n++) {
+    const r = await gradeItem(n);
+    if (r === null) continue;
+    done++;
+    if (r) ok++;
+  }
+  score.textContent = done ? `${ok}/${done} correct. Wrong ones resurface first. Reveal shows answers.` : "Type an answer first.";
 }
 
 function reveal() {
@@ -93,33 +158,11 @@ function reveal() {
   });
 }
 
-async function refreshStats() {
-  try {
-    const s = await call("stats", {});
-    statline.textContent = `bank ${s.total} · due ${s.due_now} · mastered ${s.mastered} · 7-day ${(s.accuracy_7d * 100).toFixed(0)}%`;
-  } catch { statline.textContent = `${items.length} loaded`; }
-}
-
-// Expandable lookup: on-demand, nothing cached in DB (keeps footprint on test items)
-async function lookup() {
-  const w = document.getElementById("lw").value.trim();
-  if (!w) return;
-  document.getElementById("dictapp").href = "dict://" + encodeURIComponent(w);
-  const def = document.getElementById("def");
-  def.textContent = "…";
-  try {
-    const r = await fetch("https://api.dictionaryapi.dev/api/v2/entries/en/" + encodeURIComponent(w));
-    const j = await r.json();
-    def.textContent = j[0]?.meanings?.slice(0, 3).map(m => `(${m.partOfSpeech}) ` + m.definitions.slice(0, 2).map(d => d.definition).join("; ")).join("\n") || JSON.stringify(j).slice(0, 800);
-  } catch (e) { def.textContent = "Offline. Use Dictionary.app link."; }
-}
-
 document.getElementById("next").onclick = load;
 document.getElementById("cat").onchange = load;
 document.getElementById("check").onclick = check;
 document.getElementById("reveal").onclick = reveal;
-document.getElementById("lookupToggle").onclick = () => { const p = document.getElementById("lookup"); p.hidden = !p.hidden; };
-document.getElementById("go").onclick = lookup;
+document.getElementById("latest").onclick = scrollLatest;
 
 // Pomodoro focus timer: 25 focus / 5 rest, long 15 every 4th. Text-only,
 // deadline-based (no drift), completions persisted in localStorage.

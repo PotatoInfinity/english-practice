@@ -21,7 +21,6 @@
       <option value="inversion">Inversion</option>
     </select>
     <button id="next" title="Next set">Next</button>
-    <button id="lookupToggle" title="Lookup panel">Lookup</button>
     <span id="pomo" title="Pomodoro focus timer">
       <span id="pomoTime">25:00</span>
       <button id="pomoStart" title="Start / pause">Start</button>
@@ -29,23 +28,18 @@
       <span id="pomoDots" title="Focus blocks this cycle"></span>
       <span id="pomoDone" title="Focus blocks completed"></span>
     </span>
-    <span id="statline"></span>
   </div>
 </header>
 <main class="sheet">
   <div class="sheet-head">Sentence transformation — write the missing part. Keyword in brackets must be used.</div>
   <ol id="list"></ol>
+  <div id="more"></div>
   <div class="foot">
     <button id="check">Check</button>
     <button id="reveal">Reveal</button>
+    <button id="latest" title="Scroll to latest solved item">Latest solve</button>
     <span id="score"></span>
   </div>
-  <aside id="lookup" hidden>
-    <input id="lw" placeholder="word to look up" />
-    <button id="go">Define</button>
-    <a id="dictapp" href="#">Open in Dictionary.app</a>
-    <pre id="def"></pre>
-  </aside>
 </main>
 </body>
 </html>
