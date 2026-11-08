@@ -120,4 +120,64 @@ document.getElementById("check").onclick = check;
 document.getElementById("reveal").onclick = reveal;
 document.getElementById("lookupToggle").onclick = () => { const p = document.getElementById("lookup"); p.hidden = !p.hidden; };
 document.getElementById("go").onclick = lookup;
+
+// Pomodoro focus timer: 25 focus / 5 rest, long 15 every 4th. Text-only,
+// deadline-based (no drift), completions persisted in localStorage.
+const POMO = { focus: 25 * 60, short: 5 * 60, long: 15 * 60 };
+let pomo = { mode: "focus", left: POMO.focus, endAt: 0, running: false, block: 0 };
+try {
+  const saved = JSON.parse(localStorage.getItem("pomo") || "{}");
+  if (typeof saved.done === "number") pomoDoneSet(saved.done);
+} catch { /* fresh */ }
+function pomoDoneGet() { return parseInt(document.getElementById("pomoDone").dataset.n || "0", 10); }
+function pomoDoneSet(n) {
+  const el = document.getElementById("pomoDone");
+  el.dataset.n = String(n);
+  el.textContent = n > 0 ? `✓${n}` : "";
+  try { localStorage.setItem("pomo", JSON.stringify({ done: n })); } catch { /* private mode */ }
+}
+function fmt(s) { return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }
+function pomoPaint() {
+  const label = pomo.mode === "focus" ? "Focus" : (pomo.mode === "short" ? "Rest" : "Long rest");
+  document.getElementById("pomoTime").textContent = `${label} ${fmt(pomo.left)}`;
+  document.title = `${fmt(pomo.left)} — HSG English Drill`;
+  document.getElementById("pomoStart").textContent = pomo.running ? "Pause" : "Start";
+  document.getElementById("pomoDots").textContent =
+    "●".repeat(pomo.block % 4) + "○".repeat(4 - (pomo.block % 4));
+}
+function beep() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    [0, 0.35].forEach((t, i) => {
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.connect(g); g.connect(ctx.destination);
+      o.frequency.value = i ? 660 : 880;
+      g.gain.setValueAtTime(0.12, ctx.currentTime + t);
+      o.start(ctx.currentTime + t); o.stop(ctx.currentTime + t + 0.3);
+    });
+  } catch { /* silent */ }
+}
+function pomoAdvance(credit) {
+  if (credit && pomo.mode === "focus") {
+    pomo.block++;
+    pomoDoneSet(pomoDoneGet() + 1);
+  }
+  pomo.mode = pomo.mode === "focus" ? ((pomo.block % 4 === 0 && pomo.block > 0) ? "long" : "short") : "focus";
+  pomo.left = POMO[pomo.mode];
+  pomo.running = false;
+  pomoPaint();
+}
+setInterval(() => {
+  if (!pomo.running) return;
+  pomo.left = Math.max(0, Math.round((pomo.endAt - Date.now()) / 1000));
+  if (pomo.left <= 0) { beep(); pomoAdvance(true); }
+  else pomoPaint();
+}, 500);
+document.getElementById("pomoStart").onclick = () => {
+  pomo.running = !pomo.running;
+  if (pomo.running) pomo.endAt = Date.now() + pomo.left * 1000;
+  pomoPaint();
+};
+document.getElementById("pomoSkip").onclick = () => pomoAdvance(false);
+pomoPaint();
 load();
