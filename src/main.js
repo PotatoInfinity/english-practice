@@ -27,6 +27,7 @@ async function load() {
   rendered = 0;
   drained = false;
   lastSolved = -1;
+  results = {};
   list.innerHTML = "";
   score.textContent = "";
   await fetchMore();
@@ -38,10 +39,10 @@ async function fetchMore() {
   moreBox.textContent = "loading…";
   try {
     const cat = document.getElementById("cat").value;
-    const got = await call("due_items", { limit: FETCH_N, category: cat });
+    const got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
     const fresh = got.filter(d => !seenIds.has(d.id));
     fresh.forEach(d => seenIds.add(d.id));
-    if (got.length < FETCH_N || items.length + fresh.length >= CAP) drained = true;
+    if (got.length === 0 || items.length + fresh.length >= CAP) drained = true;
     items.push(...fresh);
     renderMore();
   } catch (e1) {
@@ -51,9 +52,9 @@ async function fetchMore() {
       const j = await r.json();
       const arr = Array.isArray(j) ? j : j.items;
       const fresh = arr
-        .filter(a => (document.getElementById("cat").value === "all" || a.category === document.getElementById("cat").value) && !seenIds.has(a.id))
+        .filter(a => (document.getElementById("cat").value === "all" || a.category === document.getElementById("cat").value) && !seenIds.has(a.id ?? -1))
         .slice(0, FETCH_N)
-        .map(a => ({ ...a }));
+        .map((a, i) => ({ id: a.id ?? Date.now() + i, ...a }));
       fresh.forEach(d => seenIds.add(d.id));
       drained = true;
       items.push(...fresh);
@@ -82,6 +83,11 @@ function rowFor(d, n) {
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
   inp.addEventListener("keydown", e => { if (e.key === "Enter") gradeItem(n); });
+  const dot = document.createElement("span");
+  dot.className = "dot";
+  dot.id = "dot" + n;
+  dot.textContent = "●";
+  p2.appendChild(dot);
   p2.appendChild(inp);
   const tail = document.createElement("span");
   tail.textContent = " " + d.gap_suffix;
@@ -119,6 +125,21 @@ function scrollLatest() {
 
 function escapeHtml(s) { return (s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
 
+let showFilter = "all";   // all | ok | no
+let results = {};         // idx -> true (correct) | false (wrong)
+
+function applyFilter() {
+  for (let n = 0; n < rendered; n++) {
+    const li = document.getElementById("row" + n);
+    if (!li) continue;
+    const r = results[n];
+    li.style.display =
+      showFilter === "all" ? "" :
+      showFilter === "ok" ? (r === true ? "" : "none") :
+      (r === false ? "" : "none");
+  }
+}
+
 async function gradeItem(n) {
   const inp = document.getElementById("gap" + n);
   const user = inp.value;
@@ -133,7 +154,11 @@ async function gradeItem(n) {
   }
   inp.classList.remove("correct", "wrong");
   inp.classList.add(correct ? "correct" : "wrong");
+  const dot = document.getElementById("dot" + n);
+  if (dot) { dot.classList.remove("ok", "no"); dot.classList.add(correct ? "ok" : "no"); }
   lastSolved = n;
+  results[n] = correct;
+  applyFilter();
   return correct;
 }
 
@@ -163,6 +188,13 @@ document.getElementById("cat").onchange = load;
 document.getElementById("check").onclick = check;
 document.getElementById("reveal").onclick = reveal;
 document.getElementById("latest").onclick = scrollLatest;
+document.querySelectorAll("#filters button").forEach(b => {
+  b.onclick = () => {
+    showFilter = b.dataset.f;
+    document.querySelectorAll("#filters button").forEach(x => x.classList.toggle("on", x === b));
+    applyFilter();
+  };
+});
 
 // Pomodoro focus timer: 25 focus / 5 rest, long 15 every 4th. Text-only,
 // deadline-based (no drift), completions persisted in localStorage.
