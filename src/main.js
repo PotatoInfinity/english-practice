@@ -124,25 +124,12 @@ function rowFor(d, n) {
     const tail = document.createElement("span");
     tail.textContent = d.gap_suffix && /^[.,;:!?]/.test(d.gap_suffix) ? d.gap_suffix : " " + (d.gap_suffix || "");
     p2.appendChild(tail);
-    const nw = (d.answer || "").trim().split(/\s+/).filter(Boolean).length;
-    if (nw > 0) {
-      const wc = document.createElement("span");
-      wc.className = "wcount";
-      wc.textContent = " " + Array(nw).fill("_").join(" ");
-      p2.appendChild(wc);
-    }
     li.append(p2);
   }
   if (d.category === "mcq" || d.category === "three_in_one") {
     const p2 = document.createElement("div");
     p2.className = "rewrite";
     p2.appendChild(inpFor(d, n));
-    if (d.category === "three_in_one") {
-      const wc = document.createElement("span");
-      wc.className = "wcount";
-      wc.textContent = " _";
-      p2.appendChild(wc);
-    }
     li.append(p2);
   }
   const ans = document.createElement("div");
@@ -176,7 +163,11 @@ function stripBracket(d) {
   return p;
 }
 
-function inpFor(d, n) {  const inp = document.createElement("input");
+function inpFor(d, n) {
+  const wrap = document.createElement("span");
+  wrap.className = "gapwrap";
+  wrap.id = "wrap" + n;
+  const inp = document.createElement("input");
   inp.className = "gap";
   inp.id = "gap" + n;
   inp.setAttribute("autocomplete", "off");
@@ -186,7 +177,16 @@ function inpFor(d, n) {  const inp = document.createElement("input");
     if (!inp.value.trim()) { focusPrev(n); return; }  // blank box: Enter goes back
     gradeItem(n);
   });
-  return inp;
+  wrap.appendChild(inp);
+  // segmented underline: one dash per word, same total width
+  // (2 words = 2 long dashes, 3 = 3 shorter ones, ...)
+  const nw = d.category === "mcq" ? 1
+    : Math.max(1, (d.answer || "").trim().split(/\s+/).filter(Boolean).length);
+  const ul = document.createElement("span");
+  ul.className = "uline";
+  for (let i = 0; i < nw; i++) ul.appendChild(document.createElement("i"));
+  wrap.appendChild(ul);
+  return wrap;
 }
 
 function renderMore() {
@@ -318,7 +318,8 @@ async function gradeItem(n) {
     correct = user.toLowerCase().trim() === items[n].answer.toLowerCase().trim();
   }
   inp.classList.remove("correct", "wrong");
-  inp.classList.add(correct ? "correct" : "wrong");
+  const wrap = document.getElementById("wrap" + n);
+  if (wrap) { wrap.classList.remove("correct", "wrong"); wrap.classList.add(correct ? "correct" : "wrong"); }
   if (!correct) {
     // wrong: show the correct answer right below the gap (single submit, no double grade)
     const ans = document.getElementById("ans" + n);
@@ -390,7 +391,8 @@ function reveal() {
     inp.value = d.answer;
     // mark revealed so Check won't grade it as a genuine solve
     results[n] = "revealed";
-    inp.classList.remove("correct", "wrong");
+    const wrap = document.getElementById("wrap" + n);
+    if (wrap) wrap.classList.remove("correct", "wrong");
     ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}`;
     ans.classList.add("show");
   }
