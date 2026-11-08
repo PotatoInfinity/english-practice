@@ -23,6 +23,7 @@ struct Item {
   answer: String,
   full_answer: String,
   alternatives: Vec<String>,
+  options: Vec<String>,
   notes: String,
   difficulty: i64,
 }
@@ -90,7 +91,8 @@ CREATE TABLE IF NOT EXISTS items(
   full_answer TEXT NOT NULL,
   alternatives TEXT NOT NULL DEFAULT '[]',
   notes TEXT NOT NULL DEFAULT '',
-  difficulty INTEGER NOT NULL DEFAULT 1
+  difficulty INTEGER NOT NULL DEFAULT 1,
+  options TEXT NOT NULL DEFAULT '[]'
 );
 CREATE INDEX IF NOT EXISTS idx_items_cat ON items(category);
 CREATE TABLE IF NOT EXISTS progress(
@@ -122,6 +124,14 @@ fn open_conn(path: &PathBuf) -> Connection {
   }
   let conn = Connection::open(path).expect("open sqlite");
   conn.execute_batch(SCHEMA).expect("schema");
+  // migrate older DBs: options column for MCQ / 3-in-1 rows
+  let has_opts: bool = conn
+    .prepare("SELECT 1 FROM pragma_table_info('items') WHERE name='options'")
+    .and_then(|mut s| s.exists([]))
+    .unwrap_or(false);
+  if !has_opts {
+    let _ = conn.execute("ALTER TABLE items ADD COLUMN options TEXT NOT NULL DEFAULT '[]'", []);
+  }
   conn.execute_batch("PRAGMA synchronous=NORMAL; PRAGMA cache_size=-64000;")
     .ok();
   conn
@@ -186,6 +196,8 @@ struct SeedItem {
   #[serde(default)]
   alternatives: Vec<String>,
   #[serde(default)]
+  options: Vec<String>,
+  #[serde(default)]
   notes: String,
   #[serde(default = "one")]
   difficulty: i64,
@@ -206,7 +218,7 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
   let tx = conn.unchecked_transaction().map_err(|e| e.to_string())?;
   {
     let mut stmt = tx
-      .prepare("INSERT INTO items(category,prompt,keyword,gap_prefix,gap_suffix,answer,full_answer,alternatives,notes,difficulty) VALUES(?,?,?,?,?,?,?,?,?,?)")
+      .prepare("INSERT INTO items(category,prompt,keyword,gap_prefix,gap_suffix,answer,full_answer,alternatives,notes,difficulty,options) VALUES(?,?,?,?,?,?,?,?,?,?,?)")
       .map_err(|e| e.to_string())?;
     for raw in arr {
       let s: SeedItem = serde_json::from_value(raw).map_err(|e| e.to_string())?;
@@ -215,7 +227,8 @@ fn insert_seed(conn: &Connection, txt: &str) -> Result<usize, String> {
           s.category, s.prompt, s.keyword, s.gap_prefix, s.gap_suffix, s.answer,
           s.full_answer,
           serde_json::to_string(&s.alternatives).unwrap(),
-          s.notes, s.difficulty
+          s.notes, s.difficulty,
+          serde_json::to_string(&s.options).unwrap()
         ])
         .map_err(|e| e.to_string())?;
     }
@@ -345,8 +358,8 @@ fn srs_update(reps: i64, easiness: f64, interval: f64, correct: bool) -> (i64, f
 }
 
 // ---------- commands ----------
-const COLS: &str = "i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0)";
-const CATS: [&str; 6] = ["light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion"];
+const COLS: &str = "i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,i.options,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0)";
+const CATS: [&str; 10] = ["light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion", "mcq", "three_in_one", "wordform", "blank_fill"];
 
 /// Fetch loop: overdue SRS items interleaved 1:3 with stratified fresh rows
 /// (round-robin across category x difficulty), so every 20-chunk is mixed.
@@ -448,13 +461,15 @@ fn due_items(
 fn row_to_due(r: &rusqlite::Row) -> rusqlite::Result<DueItem> {
   let alt_s: String = r.get(8)?;
   let alternatives: Vec<String> = serde_json::from_str(&alt_s).unwrap_or_default();
+  let opt_s: String = r.get(11)?;
+  let options: Vec<String> = serde_json::from_str(&opt_s).unwrap_or_default();
   Ok(DueItem {
     item: Item {
       id: r.get(0)?, category: r.get(1)?, prompt: r.get(2)?, keyword: r.get(3)?,
       gap_prefix: r.get(4)?, gap_suffix: r.get(5)?, answer: r.get(6)?,
-      full_answer: r.get(7)?, alternatives, notes: r.get(9)?, difficulty: r.get(10)?,
+      full_answer: r.get(7)?, alternatives, options, notes: r.get(9)?, difficulty: r.get(10)?,
     },
-    reps: r.get(11)?, lapses: r.get(12)?, interval_days: r.get(13)?, next_due: r.get(14)?,
+    reps: r.get(12)?, lapses: r.get(13)?, interval_days: r.get(14)?, next_due: r.get(15)?,
   })
 }
 

@@ -28,6 +28,8 @@ ol#list li { margin:14px 0 18px; line-height:2.1; }
 .dot { color:#ccc; font-size:13px; margin-right:2px; }
 .dot.ok { color:#137333; }
 .dot.no { color:#b3261e; }
+.opts { margin:6px 0 2px 4px; line-height:1.9; }
+.s3 { margin:6px 0 2px 4px; line-height:1.9; }
 #filters { display:inline-flex; border:1px solid #111; border-radius:999px; overflow:hidden; }
 #filters button { border:0; border-radius:0; padding:4px 12px; background:#fff; }
 #filters button.on { background:#111; color:#fff; }

@@ -74,29 +74,77 @@ function rowFor(d, n) {
   const li = document.createElement("li");
   li.id = "row" + n;
   const p1 = document.createElement("div");
-  p1.innerHTML = `${escapeHtml(d.prompt)} <span class="kw">(${escapeHtml(d.keyword)})</span>`;
-  const p2 = document.createElement("div");
-  p2.className = "rewrite";
-  p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
-  const inp = document.createElement("input");
-  inp.className = "gap";
-  inp.id = "gap" + n;
-  inp.setAttribute("autocomplete", "off");
-  inp.addEventListener("keydown", e => { if (e.key === "Enter") gradeItem(n); });
+  if (d.category === "mcq" && d.options?.length) {
+    p1.textContent = stripBracket(d);
+    const ol = document.createElement("div");
+    ol.className = "opts";
+    d.options.forEach((o, i) => {
+      const r = document.createElement("div");
+      r.textContent = `${i + 1}. ${o}`;
+      ol.appendChild(r);
+    });
+    li.append(p1, ol);
+  } else if (d.category === "three_in_one" && d.options?.length >= 3) {
+    p1.textContent = "Fill ONE word that fits all three sentences:";
+    const box = document.createElement("div");
+    box.className = "s3";
+    d.options.slice(0, 3).forEach(s => {
+      const r = document.createElement("div");
+      r.innerHTML = `• ${escapeHtml(s).replaceAll("____", "<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>")}`;
+      box.appendChild(r);
+    });
+    li.append(p1, box);
+  } else {
+    p1.innerHTML = `${escapeHtml(stripBracket(d))} <span class="kw">(${escapeHtml(d.keyword)})</span>`;
+    const p2 = document.createElement("div");
+    p2.className = "rewrite";
+    p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
+    p2.appendChild(dotFor(n));
+    p2.appendChild(inpFor(d, n));
+    const tail = document.createElement("span");
+    tail.textContent = " " + d.gap_suffix;
+    p2.appendChild(tail);
+    li.append(p1, p2);
+  }
+  if (d.category === "mcq" || d.category === "three_in_one") {
+    const p2 = document.createElement("div");
+    p2.className = "rewrite";
+    p2.appendChild(dotFor(n));
+    p2.appendChild(inpFor(d, n));
+    li.append(p2);
+  }
+  const ans = document.createElement("div");
+  ans.className = "ans";
+  ans.id = "ans" + n;
+  li.append(ans);
+  return li;
+}
+
+// prompts already end in "(WORD)"; the keyword badge would print it twice
+function stripBracket(d) {
+  const p = d.prompt || "";
+  const m = p.match(/\s*\([A-Za-z' -]+\)\s*[.?]?\s*$/);
+  if (m && d.keyword && m[0].toLowerCase().includes(d.keyword.toLowerCase())) {
+    return p.slice(0, m.index).trim();
+  }
+  return p;
+}
+
+function dotFor(n) {
   const dot = document.createElement("span");
   dot.className = "dot";
   dot.id = "dot" + n;
   dot.textContent = "●";
-  p2.appendChild(dot);
-  p2.appendChild(inp);
-  const tail = document.createElement("span");
-  tail.textContent = " " + d.gap_suffix;
-  p2.appendChild(tail);
-  const ans = document.createElement("div");
-  ans.className = "ans";
-  ans.id = "ans" + n;
-  li.append(p1, p2, ans);
-  return li;
+  return dot;
+}
+
+function inpFor(d, n) {  const inp = document.createElement("input");
+  inp.className = "gap";
+  inp.id = "gap" + n;
+  inp.setAttribute("autocomplete", "off");
+  if (d.category === "mcq") inp.setAttribute("placeholder", "1–4");
+  inp.addEventListener("keydown", e => { if (e.key === "Enter") gradeItem(n); });
+  return inp;
 }
 
 function renderMore() {
@@ -142,8 +190,17 @@ function applyFilter() {
 
 async function gradeItem(n) {
   const inp = document.getElementById("gap" + n);
-  const user = inp.value;
+  let user = inp.value;
   if (!user.trim()) return null;
+  // pure keyboard MCQ: type 1-4 or A-D, graded as the option text
+  const opts = items[n].options || [];
+  if (items[n].category === "mcq" && opts.length) {
+    const t = user.trim().toLowerCase();
+    const m = t.match(/^[1-9]$/);
+    const l = t.match(/^[a-z]$/);
+    if (m && +m[0] >= 1 && +m[0] <= opts.length) user = opts[+m[0] - 1];
+    else if (l && l[0].charCodeAt(0) - 97 < opts.length) user = opts[l[0].charCodeAt(0) - 97];
+  }
   let correct;
   try {
     const verdict = await call("submit_answer", { itemId: items[n].id, user });
@@ -159,7 +216,20 @@ async function gradeItem(n) {
   lastSolved = n;
   results[n] = correct;
   applyFilter();
+  focusNext(n);
   return correct;
+}
+
+// Enter grades, then jumps to the next unsolved gap — pure keyboard flow
+function focusNext(n) {
+  for (let pass = 0; pass < 2; pass++) {
+    for (let k = (pass ? 0 : n + 1); k < (pass ? n + 1 : rendered); k++) {
+      if (!(k in results)) {
+        const el = document.getElementById("gap" + k);
+        if (el) { el.focus(); el.scrollIntoView({ block: "nearest" }); return; }
+      }
+    }
+  }
 }
 
 async function check() {

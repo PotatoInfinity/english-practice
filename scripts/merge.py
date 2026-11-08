@@ -9,7 +9,8 @@ Exit non-zero on structural failure; prints report.
 import json, glob, re, os, sys
 from collections import Counter
 
-VALID_CATS = {"light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion"}
+VALID_CATS = {"light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion",
+              "mcq", "three_in_one", "wordform", "blank_fill"}
 PREPS = {"of", "with", "to", "for", "in", "on", "above", "about", "after", "against",
          "among", "around", "at", "before", "behind", "below", "beneath", "beside",
          "between", "beyond", "by", "despite", "down", "during", "except", "from",
@@ -68,6 +69,19 @@ def validate(e):
     alts = e.get("alternatives", [])
     if not isinstance(alts, list) or any(not isinstance(a, str) for a in alts):
         reasons.append("alternatives malformed")
+    opts = e.get("options", [])
+    if opts is not None and (not isinstance(opts, list) or any(not isinstance(a, str) for a in opts)):
+        reasons.append("options malformed")
+    if e.get("category") == "mcq":
+        clean = [re.sub(r"\s+", " ", a).strip() for a in (opts or []) if a and a.strip()]
+        if len(clean) != 4:
+            reasons.append("mcq needs exactly 4 options")
+        elif norm(e.get("answer", "")) not in [norm(a) for a in clean]:
+            reasons.append("mcq answer matches no option")
+    if e.get("category") == "three_in_one":
+        clean = [re.sub(r"\s+", " ", a).strip() for a in (opts or []) if a and a.strip()]
+        if len(clean) != 3 or not all("____" in a for a in clean):
+            reasons.append("three_in_one needs 3 sentences with ____")
     if e.get("category") == "inversion" and len(str(e.get("answer", "")).split()) < 3:
         reasons.append("fragment answer (<3 tokens)")
     if not isinstance(e.get("difficulty", 1), int):
@@ -97,6 +111,7 @@ def canon(e):
         "answer": ans,
         "full_answer": re.sub(r"\s+", " ", e["full_answer"]).strip(),
         "alternatives": alts,
+        "options": list(dict.fromkeys(re.sub(r"\s+", " ", a).strip() for a in (e.get("options") or []) if a and a.strip())),
         "notes": re.sub(r"\s+", " ", e.get("notes") or "").strip(),
         "difficulty": max(1, min(3, diff)),
     }
