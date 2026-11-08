@@ -27,7 +27,7 @@ struct Item {
   difficulty: i64,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 struct DueItem {
   #[serde(flatten)]
   item: Item,
@@ -316,59 +316,102 @@ fn srs_update(reps: i64, easiness: f64, interval: f64, correct: bool) -> (i64, f
 }
 
 // ---------- commands ----------
+const COLS: &str = "i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0)";
+const CATS: [&str; 6] = ["light_verb", "prep_idiom", "figurative", "binomial", "rephrase", "inversion"];
+
+/// Fetch loop: overdue SRS items interleaved 1:3 with stratified fresh rows
+/// (round-robin across category x difficulty), so every 20-chunk is mixed.
+/// `seen` ids are never repeated — the frontend can page to 200 without dupes.
 #[tauri::command]
-fn due_items(state: State<DbState>, limit: Option<i64>, category: Option<String>) -> Result<Vec<DueItem>, String> {
+fn due_items(
+  state: State<DbState>,
+  limit: Option<i64>,
+  category: Option<String>,
+  seen: Option<Vec<i64>>,
+) -> Result<Vec<DueItem>, String> {
   let conn = state.0.lock().map_err(|e| e.to_string())?;
   let now = Utc::now().timestamp();
-  let lim = limit.unwrap_or(50).clamp(1, 200);
-  let (sql, cat): (String, Option<String>) = match category {
-    Some(c) if !c.is_empty() && c != "all" => (
-      "SELECT i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,
-       COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0)
-       FROM items i LEFT JOIN progress p ON p.item_id=i.id
-       WHERE i.category=?1 AND (COALESCE(p.mastered,0)=0) AND COALESCE(p.next_due,0)<=?2
-       ORDER BY COALESCE(p.next_due,0) ASC, RANDOM() LIMIT ?3".into(),
-      Some(c),
-    ),
-    _ => (
-      "SELECT i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,
-       COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0)
-       FROM items i LEFT JOIN progress p ON p.item_id=i.id
-       WHERE (COALESCE(p.mastered,0)=0) AND COALESCE(p.next_due,0)<=?1
-       ORDER BY COALESCE(p.next_due,0) ASC, RANDOM() LIMIT ?2".into(),
-      None,
-    ),
-  };
-  let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
-  let rows = if let Some(c) = cat {
-    stmt
-      .query_map(params![c, now, lim], row_to_due)
-      .map_err(|e| e.to_string())?
+  let lim = limit.unwrap_or(50).clamp(1, 200) as usize;
+  let seen_ids: Vec<i64> = seen.unwrap_or_default().into_iter().take(5000).collect();
+  let excl = if seen_ids.is_empty() {
+    String::new()
   } else {
-    stmt
-      .query_map(params![now, lim], row_to_due)
-      .map_err(|e| e.to_string())?
+    format!("AND i.id NOT IN ({})", seen_ids.iter().map(|n| n.to_string()).collect::<Vec<_>>().join(","))
   };
-  let mut out = vec![];
-  for r in rows {
-    out.push(r.map_err(|e| e.to_string())?);
+  let cats: Vec<&str> = match category {
+    Some(ref c) if !c.is_empty() && c != "all" && CATS.contains(&c.as_str()) => vec![c.as_str()],
+    _ => CATS.to_vec(),
+  };
+
+  // 1) overdue SRS rows (failed/unseen first), excluding seen
+  let mut due: Vec<DueItem> = vec![];
+  for c in cats.iter().copied() {
+    let sql = format!(
+      "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND COALESCE(p.mastered,0)=0 AND COALESCE(p.next_due,0)<=?2 {} ORDER BY COALESCE(p.next_due,0) ASC, RANDOM() LIMIT ?3",
+      COLS, excl
+    );
+    let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
+    for r in stmt.query_map(params![c, now, lim as i64], row_to_due).map_err(|e| e.to_string())? {
+      due.push(r.map_err(|e| e.to_string())?);
+    }
   }
-  // top-up with new/oldest items if due queue short (keeps pace with massive curriculum)
-  if (out.len() as i64) < lim {
-    let need = lim - out.len() as i64;
-    let mut stmt2 = conn
-      .prepare("SELECT i.id,i.category,i.prompt,i.keyword,i.gap_prefix,i.gap_suffix,i.answer,i.full_answer,i.alternatives,i.notes,i.difficulty,COALESCE(p.reps,0),COALESCE(p.lapses,0),COALESCE(p.interval_days,0),COALESCE(p.next_due,0) FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE COALESCE(p.mastered,0)=0 ORDER BY difficulty DESC, RANDOM() LIMIT ?1")
-      .map_err(|e| e.to_string())?;
-    let seen: std::collections::HashSet<i64> = out.iter().map(|d: &DueItem| d.item.id).collect();
-    for r in stmt2.query_map(params![need * 2], row_to_due).map_err(|e| e.to_string())? {
-      let d = r.map_err(|e| e.to_string())?;
-      if !seen.contains(&d.item.id) {
-        out.push(d);
-        if out.len() as i64 >= lim {
-          break;
+  due.sort_by_key(|d| (d.next_due, d.item.id));
+  due.truncate(lim);
+
+  // 2) stratified fresh rows: round-robin across category x difficulty (mixed by construction)
+  let mut strata: Vec<Vec<DueItem>> = vec![];
+  if due.len() < lim {
+    let per = ((lim - due.len()) / (cats.len() * 3) + 2).min(6) as i64;
+    for c in cats.iter().copied() {
+      for d in 1..=3 {
+        let sql = format!(
+          "SELECT {} FROM items i LEFT JOIN progress p ON p.item_id=i.id WHERE i.category=?1 AND i.difficulty=?2 AND COALESCE(p.mastered,0)=0 {} ORDER BY RANDOM() LIMIT ?3",
+          COLS, excl
+        );
+        let mut stmt = conn.prepare(&sql).map_err(|e| e.to_string())?;
+        let rows: Vec<DueItem> = stmt
+          .query_map(params![c, d, per], row_to_due)
+          .map_err(|e| e.to_string())?
+          .collect::<Result<_, _>>()
+          .map_err(|e| e.to_string())?;
+        if !rows.is_empty() {
+          strata.push(rows);
         }
       }
     }
+  }
+  // 3) interleave 1 due : 3 fresh so every 20-window mixes types, levels, and reviews
+  let mut out: Vec<DueItem> = Vec::with_capacity(lim);
+  let mut di = 0usize;
+  let mut si = vec![0usize; strata.len()];
+  let mut made_progress = true;
+  while out.len() < lim && made_progress {
+    made_progress = false;
+    if di < due.len() && (out.len() % 4 == 0 || strata.iter().enumerate().all(|(k, s)| si[k] >= s.len())) {
+      out.push(due[di].clone());
+      di += 1;
+      made_progress = true;
+    }
+    for (k, s) in strata.iter().enumerate() {
+      if out.len() >= lim {
+        break;
+      }
+      if si[k] < s.len() && out.len() % 4 != 0 || (si[k] < s.len() && di >= due.len()) {
+        out.push(s[si[k]].clone());
+        si[k] += 1;
+        made_progress = true;
+      }
+    }
+    if di >= due.len() && si.iter().enumerate().all(|(k, _)| si[k] >= strata[k].len()) {
+      break;
+    }
+  }
+  // any leftover due rows still need review — append
+  for d in due.into_iter().skip(di) {
+    if out.len() >= lim {
+      break;
+    }
+    out.push(d);
   }
   Ok(out)
 }
