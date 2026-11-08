@@ -17,6 +17,8 @@ npm install
 npx tauri dev        # dev run (also `npm run dev`)
 npx tauri build      # release build
 python3 scripts/merge.py                          # rebuild corpus + seed (must run from root; uses relative `data/` / `src-tauri/` paths)
+python3 scripts/patch_db.py --dry-run           # preview in-place DB patch (no wipe, SRS preserved)
+python3 scripts/patch_db.py                     # patch installed hsg.db + stamp seed hash
 node --check src/main.js                          # frontend sanity check (no test suite)
 cargo check --manifest-path src-tauri/Cargo.toml  # fast backend check
 ```

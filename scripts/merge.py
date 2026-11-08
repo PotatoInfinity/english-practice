@@ -29,6 +29,196 @@ AUX = {"had", "have", "has", "did", "does", "do", "was", "were", "is", "are",
 def norm(s):
     return re.sub(r"\s+", " ", (s or "").strip().lower())
 
+# irregular verb families for keyword-leak detection (bore==bear, took==take, ...)
+# base -> all known forms; reverse index built below.
+IRREG = {
+    "bear": {"bear", "bears", "bore", "borne", "bearing"},
+    "take": {"take", "takes", "took", "taken", "taking"},
+    "go": {"go", "goes", "went", "gone", "going"},
+    "come": {"come", "comes", "came", "coming"},
+    "get": {"get", "gets", "got", "gotten", "getting"},
+    "put": {"put", "puts", "putting"},
+    "set": {"set", "sets", "setting"},
+    "stand": {"stand", "stands", "stood", "standing"},
+    "steal": {"steal", "steals", "stole", "stolen", "stealing"},
+    "choose": {"choose", "chooses", "chose", "chosen", "choosing"}
+    ,
+    "speak": {"speak", "speaks", "spoke", "spoken", "speaking"}
+    ,
+    "write": {"write", "writes", "wrote", "written", "writing"}
+    ,
+    "drive": {"drive", "drives", "drove", "driven", "driving"}
+    ,
+    "drink": {"drink", "drinks", "drank", "drunk", "drinking"}
+    ,
+    "sing": {"sing", "sings", "sang", "sung", "singing"}
+    ,
+    "swim": {"swim", "swims", "swam", "swum", "swimming"}
+    ,
+    "begin": {"begin", "begins", "began", "begun", "beginning"}
+    ,
+    "break": {"break", "breaks", "broke", "broken", "breaking"}
+    ,
+    "do": {"do", "does", "did", "done", "doing"}
+    ,
+    "have": {"have", "has", "had", "having"}
+    ,
+    "be": {"be", "am", "is", "are", "was", "were", "been", "being"}
+    ,
+    "teach": {"teach", "teaches", "taught", "teaching"}
+    ,
+    "catch": {"catch", "catches", "caught", "catching"}
+    ,
+    "buy": {"buy", "buys", "bought", "buying"}
+    ,
+    "bring": {"bring", "brings", "brought", "bringing"}
+    ,
+    "think": {"think", "thinks", "thought", "thinking"}
+    ,
+    "seek": {"seek", "seeks", "sought", "seeking"}
+    ,
+    "send": {"send", "sends", "sent", "sending"}
+    ,
+    "spend": {"spend", "spends", "spent", "spending"}
+    ,
+    "build": {"build", "builds", "built", "building"}
+    ,
+    "sleep": {"sleep", "sleeps", "slept", "sleeping"}
+    ,
+    "shoot": {"shoot", "shoots", "shot", "shooting"}
+    ,
+    "hide": {"hide", "hides", "hid", "hidden", "hiding"}
+    ,
+    "shake": {"shake", "shakes", "shook", "shaken", "shaking"}
+    ,
+    "draw": {"draw", "draws", "drew", "drawn", "drawing"}
+    ,
+    "grow": {"grow", "grows", "grew", "grown", "growing"}
+    ,
+    "throw": {"throw", "throws", "threw", "thrown", "throwing"}
+    ,
+    "blow": {"blow", "blows", "blew", "blown", "blowing"}
+    ,
+    "eat": {"eat", "eats", "ate", "eaten", "eating"}
+    ,
+    "fall": {"fall", "falls", "fell", "fallen", "falling"}
+    ,
+    "give": {"give", "gives", "gave", "given", "giving"}
+    ,
+    "know": {"know", "knows", "knew", "known", "knowing"}
+    ,
+    "see": {"see", "sees", "saw", "seen", "seeing"}
+    ,
+    "run": {"run", "runs", "ran", "running"}
+    ,
+    "sit": {"sit", "sits", "sat", "sitting"}
+    ,
+    "win": {"win", "wins", "won", "winning"}
+    ,
+    "hold": {"hold", "holds", "held", "holding"}
+    ,
+    "find": {"find", "finds", "found", "finding"}
+    ,
+    "make": {"make", "makes", "made", "making"}
+    ,
+    "say": {"say", "says", "said", "saying"}
+    ,
+    "pay": {"pay", "pays", "paid", "paying"}
+    ,
+    "hear": {"hear", "hears", "heard", "hearing"}
+    ,
+    "keep": {"keep", "keeps", "kept", "keeping"}
+    ,
+    "leave": {"leave", "leaves", "left", "leaving"}
+    ,
+    "lose": {"lose", "loses", "lost", "losing"}
+    ,
+    "meet": {"meet", "meets", "met", "meeting"}
+    ,
+    "pull": {"pull", "pulls", "pulled", "pulling"}
+    ,
+    "twist": {"twist", "twists", "twisted", "twisting"}
+    ,
+    "drop": {"drop", "drops", "dropped", "dropping"}
+    ,
+    "cast": {"cast", "casts", "casting"}
+    ,
+    "cut": {"cut", "cuts", "cutting"}
+    ,
+    "hit": {"hit", "hits", "hitting"}
+    ,
+    "hurt": {"hurt", "hurts", "hurting"}
+    ,
+    "shut": {"shut", "shuts", "shutting"}
+    ,
+    "burst": {"burst", "bursts", "bursting"}
+    ,
+}
+_FORM2BASE = {}
+for _b, _fs in IRREG.items():
+    for _f in _fs:
+        _FORM2BASE[_f] = _b
+
+def _base(w):
+    w = (w or "").lower().strip(".,;:!?\"'()")
+    if not w:
+        return w
+    if w in _FORM2BASE:
+        return _FORM2BASE[w]
+    # regular suffixes: -ies -> y, -es, -s, -ing, -ed/-d
+    if len(w) > 4 and w.endswith("ies"):
+        return w[:-3] + "y"
+    if len(w) > 4 and w.endswith(("ches", "shes", "sses", "xes", "zes", "oes")):
+        return w[:-2]
+    if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+        # puts->put, stands->stand (keep e-drop/doubling out: stem-only)
+        return w[:-1]
+    if len(w) > 5 and w.endswith("ing"):
+        st = w[:-3]
+        # doubling: running->run, putting->put
+        if len(st) > 3 and st[-1] == st[-2]:
+            st = st[:-1]
+        return st
+    if len(w) > 4 and w.endswith("ed"):
+        st = w[:-2]
+        if len(st) > 3 and st[-1] == st[-2]:
+            st = st[:-1]
+        return st
+    if len(w) > 4 and w.endswith("d") and w.endswith("e"):
+        return w  # keep; e-drop handled by equality below
+    return w
+
+def same_lemma(a, b):
+    """True when two single words are the same lexeme (bore==bear, puts==put)."""
+    if not a or not b:
+        return False
+    na, nb = a.lower(), b.lower()
+    if na == nb:
+        return True
+    if len(na) < 2 or len(nb) < 2:
+        return False
+    if na in _FORM2BASE and nb in _FORM2BASE and _FORM2BASE[na] == _FORM2BASE[nb]:
+        return True
+    ba, bb = _base(na), _base(nb)
+    if ba == bb and len(ba) >= 3:
+        return True
+    # e-drop: making==make, taking==take
+    if ba + "e" == bb or bb + "e" == ba:
+        return True
+    return False
+
+def word_tokens(s):
+    return [t.strip(".,;:!?\"'()") for t in (s or "").split()]
+
+def clean_word(t):
+    return (t or "").strip(".,;:!?\"'()")
+
+def ans_word(t):
+    """Form answer tokens: keep intra-phrase , ; : (preserves sentence identity),
+    strip only sentence-final . ! ? (re-added to full_answer)."""
+    t = (t or "").strip()
+    return re.sub(r"[.!?]+$", "", t)
+
 def load_file(path):
     """Tolerant loader: JSON array | {items:[...]} | JSONL. Returns (items, error)."""
     try:
@@ -209,149 +399,271 @@ def main():
                     e["gap_suffix"] = "."
                     e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + ".").strip()
                     stats["repaired_binomial"] += 1
-            # repair 3: duplicated trigger word across prefix/answer boundary ("Not until" + "until ...")
-            if norm(e["gap_prefix"]).split(" ")[-1:] == ["until"] and norm(e["answer"]).startswith("until "):
-                e["answer"] = e["answer"].strip()[len("until"):].strip()
-                e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + (" " + e["gap_suffix"] if e["gap_suffix"] not in ("", ".") else "")).strip()
-                stats["repaired_dup_trigger"] += 1
+            # repair 3: duplicated trigger word across prefix/answer boundary.
+            # Generalised from "Not until" to all fronted triggers (Only after/by,
+            # Only if/when, Not until, etc.): "Only after" + "after ..." -> strip.
+            _TRIG = {"until", "after", "by", "if", "when", "in", "then", "through", "with", "on", "as"}
+            _pre_last = norm(e["gap_prefix"]).split(" ")[-1:] if norm(e["gap_prefix"]) else []
+            if _pre_last and _pre_last[0].rstrip(",.") in _TRIG:
+                _tw = _pre_last[0].rstrip(",.")
+                if norm(e["answer"]).startswith(_tw + " "):
+                    e["answer"] = e["answer"].strip()[len(_tw):].strip()
+                    e["full_answer"] = (e["gap_prefix"] + " " + e["answer"] + (" " + e["gap_suffix"] if e["gap_suffix"] not in ("", ".") else "")).strip()
+                    stats["repaired_dup_trigger"] += 1
             if e["full_answer"] and e["full_answer"][-1].isalnum():
                 e["full_answer"] += "."
-            # repair 4: keyword leaked into the frame while the answer lacks it
-            # ("His desertion cast lasting ___" + ans "dishonour on" becomes
-            #  "His desertion ___ lasting dishonour on ..." + ans "cast").
-            # Only when the keyword sits mid-frame (text on both sides), so
-            # fronted triggers (Hardly ___, Never ___) are never touched.
-            if e["category"] not in ("inversion", "mcq", "three_in_one"):
+            # repair 4: keyword (or its inflected form: bore==BEAR) leaked into the
+            # frame while the answer lacks it. Combine the leak with the answer so
+            # the user must produce the keyword form ("He still bore a" + "grudge
+            # against" -> "He still" + "bore a grudge against"). Mid-frame only,
+            # wordform exempt by design (Choosing/choice is intentional).
+            if e["category"] not in ("inversion", "mcq", "three_in_one", "wordform"):
                 kw = (e.get("keyword") or "").strip()
-                if kw and norm(kw) not in norm(e["answer"]):
+                ans_toks4 = [clean_word(t).lower() for t in e["answer"].split() if clean_word(t)]
+                kw_leaked = bool(kw) and not any(same_lemma(t, kw) for t in ans_toks4 if t)
+                if kw_leaked:
                     for side in ("gap_prefix", "gap_suffix"):
-                        m = re.search(r"\b" + re.escape(kw) + r"\b", e[side], flags=re.I)
-                        if not m:
+                        found = None
+                        for m4 in re.finditer(r"[A-Za-z']+", e[side]):
+                            if same_lemma(m4.group(0), kw):
+                                found = m4
+                                break
+                        if not found:
                             continue
-                        before, hit, after = e[side][:m.start()], m.group(0), e[side][m.end():]
-                        if not before.strip() or not after.strip():
-                            break  # trigger position: leave alone
+                        before, hit, after = e[side][:found.start()], found.group(0), e[side][found.end():]
+                        if not before.strip() and not after.strip():
+                            break  # isolated trigger position: leave alone
+                        old_full4 = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        orig4 = (e["gap_prefix"], e["answer"], e["gap_suffix"])
                         if side == "gap_prefix":
                             new_pre = before
-                            new_suf = (after + " " + e["answer"] + " " + e["gap_suffix"])
+                            new_ans = (hit + " " + after + " " + e["answer"])
+                            new_suf = e["gap_suffix"]
                         else:
-                            new_pre = (e["gap_prefix"] + " " + e["answer"] + " " + before)
+                            new_pre = e["gap_prefix"]
+                            new_ans = (e["answer"] + " " + before + " " + hit)
                             new_suf = after
-                        e["answer"] = hit.strip() or kw
+                        new_ans = re.sub(r"\s+", " ", new_ans).strip()
+                        # cap runaway length: keep answers <= 6 words, else single-hit fallback
+                        if len(new_ans.split()) > 6:
+                            if side == "gap_prefix":
+                                new_ans2 = hit
+                                new_suf2 = (after + " " + e["answer"] + " " + e["gap_suffix"])
+                                new_pre2 = before
+                            else:
+                                new_ans2 = hit
+                                new_pre2 = (e["gap_prefix"] + " " + e["answer"] + " " + before)
+                                new_suf2 = after
+                            new_pre, new_ans, new_suf = new_pre2, new_ans2, new_suf2
+                        else:
+                            new_pre = re.sub(r"\s+", " ", new_pre).strip()
+                            new_suf = re.sub(r"\s+", " ", new_suf).strip()
                         e["gap_prefix"] = re.sub(r"\s+", " ", new_pre).strip()
+                        e["answer"] = re.sub(r"\s+", " ", new_ans).strip()
                         e["gap_suffix"] = re.sub(r"\s+", " ", new_suf).strip()
-                        e["full_answer"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
-                        if e["full_answer"] and e["full_answer"][-1].isalnum():
-                            e["full_answer"] += "."
-                        stats["repaired_kw_gap"] += 1
-                        break
-            # repair 6 (runs BEFORE repair 4): the input must never be just the
-            # bracket word. Widen the gap over the surrounding collocation:
-            # - prep_idiom absorbs the verb on the left ("takes ___" -> "takes after")
-            # - otherwise absorb a trailing of/to ("parcel ___ the job" -> "parcel of")
-            #   plus the left word unless it is a conjunction ("dark ___ of" ->
-            #   "dark horse of", but never "and parcel of")
-            # - gap at sentence end: absorb up to 2 words back, stopping at
-            #   pronouns/auxiliaries/articles ("hard and ___." -> "hard and fast")
+                        new_full4 = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        def _pol(s):
+                            return re.sub(r"\s+([.,;:!?])", r"\1", re.sub(r"\s+", " ", s).strip())
+                        if norm(_pol(new_full4)) == norm(_pol(old_full4)):
+                            e["full_answer"] = new_full4
+                            if e["full_answer"] and e["full_answer"][-1].isalnum():
+                                e["full_answer"] += "."
+                            stats["repaired_kw_gap"] += 1
+                            break
+                        else:
+                            e["gap_prefix"], e["answer"], e["gap_suffix"] = orig4
+                            continue
+            # repair 6 (user rule): the answer must never be just the bracket word.
+            # If single-word answer == keyword (lemma-equal: date==date, bore==BEAR):
+            # - gap after 0-1 words  -> take next 2 words from suffix ("They set a" + date + "for the wedding" -> "a date for")
+            # - gap before 0-1 words (or end) -> take prev 2 words from prefix
+            # - middle -> take 1 before + keyword + 1 after.
             # Pure regrouping: bail unless the sentence is identical after.
             CONJ = {"and", "or", "nor", "but", "yet", "so"}
-            OFTO = {"of", "to"}
-            ENDSTOP = {"i", "me", "you", "he", "him", "she", "her", "it", "we", "us",
-                       "they", "them", "there", "here", "this", "that", "these", "those",
-                       "what", "who", "whom", "whose", "which", "is", "are", "was", "were",
-                       "be", "been", "being", "am", "has", "have", "had", "having", "do",
-                       "does", "did", "will", "would", "shall", "should", "can", "could",
-                       "may", "might", "must", "a", "an", "the"}
             if e["category"] not in ("inversion", "mcq", "three_in_one"):
-                kw6 = norm(e.get("keyword") or "")
-                na6 = norm(e.get("answer") or "")
-                pre_t = e["gap_prefix"].split()
-                suf_t = e["gap_suffix"].split()
-                L = pre_t[-1] if pre_t and re.fullmatch(r"[A-Za-z']+", pre_t[-1]) else None
-                R = suf_t[0] if suf_t and re.fullmatch(r"[A-Za-z']+", suf_t[0]) else None
-                stemmed = bool(kw6 and na6 and " " not in na6 and L
-                               and (norm(L).startswith(kw6) or kw6.startswith(norm(L))))
-                if kw6 and (na6 == kw6 or (e["category"] == "prep_idiom" and stemmed)):
-                    take_L = take_R = False
-                    left_run = []
-                    right_run = []
-                    suf_blank = not re.sub(r"[\s.]", "", e["gap_suffix"])
-                    RIGHT2 = OFTO | {"it", "there", "that", "this", "what", "be", "is", "are",
-                                      "was", "were", "been", "have", "has", "had", "do", "does",
-                                      "did", "will", "would", "can", "could", "shall", "should",
-                                      "may", "might", "must", "a", "an", "the", "my", "your",
-                                      "his", "her", "its", "our", "their"}
-                    if len(pre_t) == 1 and len(pre_t[0]) <= 2 and suf_t and e["category"] != "prep_idiom":
-                        # gap right after a stub word ("I ___ it were ..."):
-                        # absorb up to 2 following glue words ("wish it were")
-                        for tok in suf_t:
-                            if len(right_run) >= 2 or not re.fullmatch(r"[A-Za-z']+", tok):
-                                break
-                            if norm(tok) not in RIGHT2:
-                                break
-                            right_run.append(tok)
-                    elif suf_blank and e["category"] != "prep_idiom":
-                        for tok in reversed(pre_t):
-                            if len(left_run) >= 2 or not re.fullmatch(r"[A-Za-z']+", tok):
-                                break
-                            if norm(tok) in ENDSTOP:
-                                break
-                            left_run.append(tok)
+                kw6 = (e.get("keyword") or "").strip()
+                ans6 = (e.get("answer") or "").strip()
+                ans_toks = [t for t in ans6.split() if clean_word(t)]
+                # hyphen split: "bushy-" + "tailed" -> "bushy-tailed" (one word, harder)
+                if kw6 and len(ans_toks) == 1 and same_lemma(ans_toks[0], kw6):
+                    if e["gap_prefix"].endswith("-") and ans6 and re.fullmatch(r"[A-Za-z']+", ans6):
+                        _pre = e["gap_prefix"]
+                        _m = re.search(r"([A-Za-z']+)-$", _pre)
+                        if _m:
+                            _stem = _m.group(1)
+                            old_full_h = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                            e["gap_prefix"] = re.sub(r"\s+", " ", _pre[:_m.start()] + " ").strip()
+                            # drop trailing fragment already consumed? keep simple: remove last token incl hyphen
+                            _pt = _pre.split()
+                            if _pt:
+                                _pt = _pt[:-1]
+                                e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(_pt)).strip()
+                            e["answer"] = (_stem + "-" + ans6).strip()
+                            new_full_h = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                            def _polh(s):
+                                return re.sub(r"\s+([.,;:!?])", r"\1", re.sub(r"\s+", " ", s.replace("-", " ")).strip())
+                            if norm(_polh(new_full_h)) == norm(_polh(old_full_h)):
+                                e["full_answer"] = new_full_h
+                                if e["full_answer"] and e["full_answer"][-1].isalnum():
+                                    e["full_answer"] += "."
+                                stats["repaired_kw_widen"] += 1
+                                ans6 = e["answer"]
+                                ans_toks = [t for t in ans6.split() if clean_word(t)]
+                if kw6 and len(ans_toks) == 1 and same_lemma(ans_toks[0], kw6):
+                    pre_t = e["gap_prefix"].split()
+                    suf_t = e["gap_suffix"].split()
+                    pre_w = [w for w in word_tokens(e["gap_prefix"]) if w and re.search(r"[A-Za-z0-9]", w)]
+                    suf_w = [w for w in word_tokens(e["gap_suffix"]) if w and re.search(r"[A-Za-z0-9]", w)]
+                    # locate word-token positions in raw splits for popping
+                    def pop_left(n):
+                        idxs = [i for i, t in enumerate(pre_t) if clean_word(t) and re.fullmatch(r"[A-Za-z']+", clean_word(t))]
+                        return idxs[-n:] if len(idxs) >= n else idxs
+                    def pop_right(n):
+                        idxs = [i for i, t in enumerate(suf_t) if clean_word(t) and re.fullmatch(r"[A-Za-z']+", clean_word(t))]
+                        return idxs[:n] if len(idxs) >= n else idxs
+                    old_full = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                    orig = (e["gap_prefix"], e["answer"], e["gap_suffix"])
+                    did = False
+                    if len(pre_w) <= 1 and len(suf_w) >= 2:
+                        # start: keyword + next 2
+                        take = pop_right(2)
+                        if len(take) == 2:
+                            parts = [ans6] + [ans_word(suf_t[i]) for i in take]
+                            e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                            e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(suf_t) if j not in take)).strip()
+                            did = True
+                    elif len(suf_w) <= 1 and len(pre_w) >= 2:
+                        # end / before-single: prev 2 + keyword
+                        take = pop_left(2)
+                        if len(take) == 2:
+                            parts = [ans_word(pre_t[i]) for i in take] + [ans6]
+                            # avoid leading conjunction: extend by one more if starts with and/or
+                            if parts and clean_word(parts[0]).lower() in CONJ:
+                                take2 = pop_left(3)
+                                if len(take2) == 3:
+                                    take = take2
+                                    parts = [ans_word(pre_t[i]) for i in take] + [ans6]
+                            e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                            e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(pre_t) if j not in take)).strip()
+                            did = True
                     else:
-                        if R is not None and norm(R) in OFTO:
-                            take_R = True
-                        if L is not None and norm(L) not in CONJ and (take_R or e["category"] == "prep_idiom"):
-                            take_L = True
-                    if left_run or right_run or take_L or take_R:
-                        old_full = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
-                        orig = (e["gap_prefix"], e["answer"], e["gap_suffix"])
-                        if left_run:
-                            run = list(reversed(left_run))
-                            parts = run + [e["answer"]]
-                            e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(pre_t[:-len(run)])).strip()
-                        elif right_run:
-                            parts = [e["answer"]] + right_run
-                            e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(suf_t[len(right_run):])).strip()
+                        # middle: 1 before + keyword + 1 after, with conjunction guards.
+                        # If suffix starts with , ; : then R sits across punctuation:
+                        # take left 2 + keyword instead (keeps comma in place).
+                        suf_stripped = e["gap_suffix"].lstrip()
+                        if suf_stripped and suf_stripped[0] in ",;:":
+                            take = pop_left(2)
+                            if len(take) == 2:
+                                parts = [ans_word(pre_t[i]) for i in take] + [ans6]
+                                if parts and clean_word(parts[0]).lower() in CONJ:
+                                    take3 = pop_left(3)
+                                    if len(take3) == 3:
+                                        take = take3
+                                        parts = [ans_word(pre_t[i]) for i in take] + [ans6]
+                                e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                                e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(pre_t) if j not in take)).strip()
+                                did = True
+                            else:
+                                li = pop_left(1)
+                                if li:
+                                    Lraw = ans_word(pre_t[li[0]])
+                                    parts = [Lraw, ans6]
+                                    e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                                    e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(pre_t) if j not in li)).strip()
+                                    did = True
                         else:
-                            parts = ([L] if take_L else []) + [e["answer"]] + ([R] if take_R else [])
-                            if take_L:
-                                e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(pre_t[:-1])).strip()
-                            if take_R:
-                                e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(suf_t[1:])).strip()
-                        e["answer"] = " ".join(parts)
+                            li = pop_left(1)
+                            ri = pop_right(1)
+                            if li and ri:
+                                Lraw, Rraw = ans_word(pre_t[li[0]]), ans_word(suf_t[ri[0]])
+                                if clean_word(Rraw).lower() in CONJ:
+                                    # "fair" + "and square": take keyword + next 2 instead
+                                    take2 = pop_right(2)
+                                    if len(take2) == 2:
+                                        parts = [ans6] + [ans_word(suf_t[i]) for i in take2]
+                                        e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                                        e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(suf_t) if j not in take2)).strip()
+                                        did = True
+                                elif clean_word(Lraw).lower() in CONJ:
+                                    take2 = pop_left(2)
+                                    if len(take2) == 2:
+                                        parts = [ans_word(pre_t[i]) for i in take2] + [ans6, Rraw]
+                                        e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                                        e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(pre_t) if j not in take2)).strip()
+                                        e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(suf_t) if j not in ri)).strip()
+                                        did = True
+                                else:
+                                    parts = [Lraw, ans6, Rraw]
+                                    e["answer"] = re.sub(r"\s+", " ", " ".join(parts)).strip()
+                                    e["gap_prefix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(pre_t) if j not in li)).strip()
+                                    e["gap_suffix"] = re.sub(r"\s+", " ", " ".join(t for j, t in enumerate(suf_t) if j not in ri)).strip()
+                                    did = True
+                    if did:
                         new_full = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
-                        if norm(new_full) == norm(old_full):
+                        def _pol6(s):
+                            _p = re.sub(r"\s+([.,;:!?])", r"\1", re.sub(r"\s+", " ", s).strip())
+                            return re.sub(r"[.!?]+$", "", _p).strip()
+                        if norm(_pol6(new_full)) == norm(_pol6(old_full)):
                             if new_full and new_full[-1].isalnum():
                                 new_full += "."
                             e["full_answer"] = new_full
                             stats["repaired_kw_widen"] += 1
                         else:
                             e["gap_prefix"], e["answer"], e["gap_suffix"] = orig
-            # repair 5: answer word duplicated adjacent to the gap
-            # ("fill out ___ out the questionnaire" -> "fill out ___ the questionnaire")
-            na = norm(e["answer"])
-            if na:
-                touched = False
-                toks = e["gap_suffix"].split()
-                if toks and norm(toks[0]) == na:
-                    e["gap_suffix"] = " ".join(toks[1:])
-                    touched = True
-                    stats["repaired_dup_adj"] += 1
-                toks = e["gap_prefix"].split()
-                if toks and norm(toks[-1]) == na:
-                    e["gap_prefix"] = " ".join(toks[:-1])
-                    touched = True
-                    stats["repaired_dup_adj"] += 1
-                if touched:
-                    e["full_answer"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+            # repair 5: answer edge-word duplicated adjacent to the gap
+            # ("ran away with with the budget" -> drop frame "with";
+            #  "Only after after ..." handled by repair 3, this is the overlap guard)
+            if True:
+                ans_t = e["answer"].split()
+                touched5 = False
+                if ans_t:
+                    # suffix head == answer tail
+                    st = e["gap_suffix"].split()
+                    if st and ans_t and st[0] and ans_t[-1]:
+                        if clean_word(st[0]) and clean_word(ans_t[-1]) and clean_word(st[0]).lower() == clean_word(ans_t[-1]).lower():
+                            e["gap_suffix"] = " ".join(st[1:])
+                            stats["repaired_dup_edge_suf"] += 1
+                            touched5 = True
+                    # prefix tail == answer head (re-read after possible suffix change: prefix unchanged)
+                    pt = e["gap_prefix"].split()
+                    if pt and ans_t and pt[-1] and ans_t[0]:
+                        if clean_word(pt[-1]) and clean_word(ans_t[0]) and clean_word(pt[-1]).lower() == clean_word(ans_t[0]).lower():
+                            e["gap_prefix"] = " ".join(pt[:-1])
+                            stats["repaired_dup_edge_pre"] += 1
+                            touched5 = True
+                    if touched5:
+                        new_full5 = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        e["full_answer"] = new_full5
+                        if e["full_answer"] and e["full_answer"][-1].isalnum():
+                            e["full_answer"] += "."
+            # second-pass repair 0: widening must not reintroduce a leading conjunction
+            na0b = norm(e.get("answer", "")).split(" ")
+            if len(na0b) > 1 and na0b[0] in ("and", "or", "nor", "but"):
+                e["gap_prefix"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + na0b[0])).strip()
+                e["answer"] = re.sub(r"\s+", " ", " ".join(e["answer"].split(" ")[1:])).strip()
+                e["full_answer"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                if e["full_answer"] and e["full_answer"][-1].isalnum():
+                    e["full_answer"] += "."
+                stats["repaired_lead_conj2"] += 1
+            if e["category"] == "mcq":
+                # "..." placeholder frames are dead data (frontend ignores frame for mcq);
+                # clear them and rebuild a sane full for reveal.
+                if e["gap_prefix"].strip() in ("...", "…"):
+                    e["gap_prefix"] = ""
+                if e["gap_suffix"].strip() in ("...", "…"):
+                    e["gap_suffix"] = ""
+                if e["full_answer"].strip().startswith("..."):
+                    e["full_answer"] = re.sub(r"\s+", " ", (e["prompt"] + " " + e["answer"])).strip()
                     if e["full_answer"] and e["full_answer"][-1].isalnum():
                         e["full_answer"] += "."
+                    stats["repaired_mcq_full"] += 1
             if e["category"] == "prep_idiom" and not e["gap_prefix"] and not e["gap_suffix"]:
                 fl, al = e["full_answer"].lower(), e["answer"].lower()
                 if fl.startswith(al):
                     e["gap_suffix"] = e["full_answer"][len(e["answer"]):].strip()
                     stats["repaired_affix"] += 1
-                e["full_answer"] += "."
+                if e["full_answer"] and e["full_answer"][-1] != ".":
+                    e["full_answer"] += "."
             # polish: no space before closing punctuation in the stored sentence
             e["full_answer"] = re.sub(r"\s+([.,;:!?])", r"\1", e["full_answer"])
             for x in warn(e):

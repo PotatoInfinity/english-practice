@@ -4405,9 +4405,9 @@
    "category": "binomial",
    "prompt": "Delays are part of the job. (PARCEL)",
    "keyword": "PARCEL",
-   "gap_prefix": "Delays are part and",
+   "gap_prefix": "Delays are",
    "gap_suffix": "the job.",
-   "answer": "parcel of",
+   "answer": "part and parcel of",
    "full_answer": "Delays are part and parcel of the job.",
    "alternatives": [],
    "options": [],
@@ -4425,9 +4425,9 @@
    "category": "figurative",
    "prompt": "Her analysis identified the real problem precisely. (nail)",
    "keyword": "nail",
-   "gap_prefix": "She hit the",
-   "gap_suffix": "on the head with her analysis.",
-   "answer": "nail",
+   "gap_prefix": "She hit",
+   "gap_suffix": "the head with her analysis.",
+   "answer": "the nail on",
    "full_answer": "She hit the nail on the head with her analysis.",
    "alternatives": [],
    "options": [],
@@ -4465,9 +4465,9 @@
    "category": "figurative",
    "prompt": "It is your decision now, you must act. (court)",
    "keyword": "court",
-   "gap_prefix": "The ball is in your",
+   "gap_prefix": "The ball is",
    "gap_suffix": "now.",
-   "answer": "court",
+   "answer": "in your court",
    "full_answer": "The ball is in your court now.",
    "alternatives": [],
    "options": [],
@@ -4505,9 +4505,9 @@
    "category": "light_verb",
    "prompt": "The ruling created a legal example. (precedent)",
    "keyword": "precedent",
-   "gap_prefix": "The ruling set a",
-   "gap_suffix": "for future cases.",
-   "answer": "precedent",
+   "gap_prefix": "The ruling set",
+   "gap_suffix": "future cases.",
+   "answer": "a precedent for",
    "full_answer": "The ruling set a precedent for future cases.",
    "alternatives": [],
    "options": [],
@@ -4525,9 +4525,9 @@
    "category": "prep_idiom",
    "prompt": "He tolerates his noisy neighbours. (put)",
    "keyword": "put",
-   "gap_prefix": "He puts",
+   "gap_prefix": "He",
    "gap_suffix": "his noisy neighbours.",
-   "answer": "up with",
+   "answer": "puts up with",
    "full_answer": "He puts up with his noisy neighbours.",
    "alternatives": [],
    "options": [],
@@ -4536,269 +4536,6 @@
   },
   "reasons": [
    "exact duplicate"
-  ]
- },
- {
-  "file": "data/part-prep.json",
-  "index": 96,
-  "entry": {
-   "category": "prep_idiom",
-   "prompt": "She longs for peace. (long)",
-   "keyword": "long",
-   "gap_prefix": "She",
-   "gap_suffix": "peace.",
-   "answer": "longs for",
-   "full_answer": "She longs for peace.",
-   "alternatives": [],
-   "options": [],
-   "notes": "desire strongly",
-   "difficulty": 2
-  },
-  "reasons": [
-   "exact duplicate"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 43,
-  "entry": {
-   "category": "mcq",
-   "prompt": "A: \"I didn't study and I still passed!\" B: \"____. You were just lucky.\"",
-   "keyword": "Don't",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "Don't push your luck",
-   "full_answer": "... Don't push your luck...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "Don't push your luck",
-    "Don't pull your luck",
-    "Don't press your hope",
-    "Don't push your chance"
-   ],
-   "notes": "Don't push your luck = don't risk what you have",
-   "difficulty": 3
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 53,
-  "entry": {
-   "category": "mcq",
-   "prompt": "After the scandal, the company was in hot ____ with investors.",
-   "keyword": "water",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "water",
-   "full_answer": "... water...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "water",
-    "fire",
-    "soup",
-    "oil"
-   ],
-   "notes": "in hot water = in trouble",
-   "difficulty": 2
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 70,
-  "entry": {
-   "category": "mcq",
-   "prompt": "The new student felt like a fish out of ____ on the first day.",
-   "keyword": "water",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "water",
-   "full_answer": "... water...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "water",
-    "sea",
-    "river",
-    "pond"
-   ],
-   "notes": "fish out of water = uncomfortable in new situation",
-   "difficulty": 2
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 71,
-  "entry": {
-   "category": "mcq",
-   "prompt": "His argument doesn't cut any ____ with me; I still disagree.",
-   "keyword": "ice",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "ice",
-   "full_answer": "... ice...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "ice",
-    "wood",
-    "paper",
-    "cake"
-   ],
-   "notes": "not cut any ice = have no effect",
-   "difficulty": 3
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 74,
-  "entry": {
-   "category": "mcq",
-   "prompt": "He was skating on thin ____ by arriving late every day.",
-   "keyword": "ice",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "ice",
-   "full_answer": "... ice...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "ice",
-    "snow",
-    "glass",
-    "water"
-   ],
-   "notes": "skating on thin ice = taking risks",
-   "difficulty": 3
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 87,
-  "entry": {
-   "category": "mcq",
-   "prompt": "He has a chip on his ____ about his poor English.",
-   "keyword": "shoulder",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "shoulder",
-   "full_answer": "... shoulder...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "shoulder",
-    "head",
-    "back",
-    "arm"
-   ],
-   "notes": "chip on shoulder = lingering grievance / inferiority",
-   "difficulty": 3
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 104,
-  "entry": {
-   "category": "mcq",
-   "prompt": "The new smartphone costs an arm and a ____.",
-   "keyword": "leg",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "leg",
-   "full_answer": "... leg...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "leg",
-    "hand",
-    "foot",
-    "finger"
-   ],
-   "notes": "arm and a leg = very expensive",
-   "difficulty": 2
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 108,
-  "entry": {
-   "category": "mcq",
-   "prompt": "The truth finally came to ____ after years of hiding.",
-   "keyword": "light",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "light",
-   "full_answer": "... light...",
-   "alternatives": [
-    "A"
-   ],
-   "options": [
-    "light",
-    "day",
-    "sight",
-    "view"
-   ],
-   "notes": "come to light = become known",
-   "difficulty": 3
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-mcq-idiom.json",
-  "index": 117,
-  "entry": {
-   "category": "mcq",
-   "prompt": "The man driving a(n) ____ car is my father's boss.",
-   "keyword": "expensive",
-   "gap_prefix": "...",
-   "gap_suffix": "...",
-   "answer": "expensive blue Japanese",
-   "full_answer": "... expensive blue Japanese...",
-   "alternatives": [
-    "C"
-   ],
-   "options": [
-    "blue Japanese expensive",
-    "expensive Japanese blue",
-    "expensive blue Japanese",
-    "Japanese expensive blue"
-   ],
-   "notes": "opinion-colour-origin",
-   "difficulty": 3
-  },
-  "reasons": [
-   "near duplicate (same token bag)"
   ]
  },
  {
@@ -4823,6 +4560,26 @@
    ],
    "notes": "inversion Should fronted",
    "difficulty": 3
+  },
+  "reasons": [
+   "near duplicate (same token bag)"
+  ]
+ },
+ {
+  "file": "data/part-prep.json",
+  "index": 96,
+  "entry": {
+   "category": "prep_idiom",
+   "prompt": "She longs for peace. (long)",
+   "keyword": "long",
+   "gap_prefix": "She",
+   "gap_suffix": "peace.",
+   "answer": "longs for",
+   "full_answer": "She longs for peace.",
+   "alternatives": [],
+   "options": [],
+   "notes": "desire strongly",
+   "difficulty": 2
   },
   "reasons": [
    "near duplicate (same token bag)"
@@ -4866,26 +4623,6 @@
   },
   "reasons": [
    "near duplicate (same token bag)"
-  ]
- },
- {
-  "file": "data/extra-cloze-conj.json",
-  "index": 21,
-  "entry": {
-   "category": "blank_fill",
-   "prompt": "___ the heavy rain, the match continued.",
-   "keyword": "in",
-   "gap_prefix": "",
-   "gap_suffix": "the heavy rain, the match continued.",
-   "answer": "in spite of",
-   "full_answer": "In spite of the heavy rain, the match continued.",
-   "alternatives": [],
-   "options": [],
-   "notes": "in spite of + noun; equals despite.",
-   "difficulty": 2
-  },
-  "reasons": [
-   "gap conflict: kept 'despite'"
   ]
  }
 ]

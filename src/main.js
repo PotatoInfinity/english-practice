@@ -105,13 +105,10 @@ function rowFor(d, n) {
     li.append(p1, box);
   } else {
     // keyword badge: show only when the bracket word is part of the answer.
-    // If it's already sitting in the frame (e.g. CAST in "cast lasting ___"),
-    // the badge is pure noise -> hide it. If it lives only in the prompt
-    // bracket (word-formation BASE), the prompt keeps its own hint instead.
+    // If it's already sitting in the frame the badge is noise -> hide it.
     const kw = (d.keyword || "").trim();
-    const nkw = kw.toLowerCase();
-    const inAns = !!nkw && d.answer.toLowerCase().includes(nkw);
-    const inFrame = !!nkw && (d.gap_prefix + " " + d.gap_suffix).toLowerCase().includes(nkw);
+    const inAns = wordHit(d.answer, kw, d.category === "wordform");
+    const inFrame = wordHit((d.gap_prefix || "") + " " + (d.gap_suffix || ""), kw, false);
     let ptext = d.prompt;
     if (inFrame || inAns) ptext = stripBracket(d);
     p1.innerHTML = escapeHtml(ptext) + (inAns && !inFrame && kw ? ` <span class="kw">(${escapeHtml(d.keyword)})</span>` : "");
@@ -120,17 +117,15 @@ function rowFor(d, n) {
     const p2 = document.createElement("div");
     p2.className = "rewrite";
     p2.innerHTML = `&rarr; ${escapeHtml(d.gap_prefix)} `;
-    p2.appendChild(dotFor(n));
     p2.appendChild(inpFor(d, n));
     const tail = document.createElement("span");
-    tail.textContent = " " + d.gap_suffix;
+    tail.textContent = d.gap_suffix && /^[.,;:!?]/.test(d.gap_suffix) ? d.gap_suffix : " " + (d.gap_suffix || "");
     p2.appendChild(tail);
     li.append(p2);
   }
   if (d.category === "mcq" || d.category === "three_in_one") {
     const p2 = document.createElement("div");
     p2.className = "rewrite";
-    p2.appendChild(dotFor(n));
     p2.appendChild(inpFor(d, n));
     li.append(p2);
   }
@@ -142,21 +137,27 @@ function rowFor(d, n) {
 }
 
 // prompts already end in "(WORD)"; the keyword badge would print it twice
+function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+function wordHit(hay, kw, stemOk) {
+  kw = (kw || "").trim();
+  if (!kw) return false;
+  hay = hay || "";
+  if (stemOk) {
+    // wordform: stem prefix counts (USE/useful, ILL/illness)
+    const m = hay.match(/[A-Za-z']+/g) || [];
+    const k = kw.toLowerCase();
+    return m.some(w => w.toLowerCase() === k || w.toLowerCase().startsWith(k));
+  }
+  return new RegExp(`(?<![A-Za-z0-9_])${escRe(kw)}(?![A-Za-z0-9_])`, "i").test(hay);
+}
 function stripBracket(d) {
   const p = d.prompt || "";
-  const m = p.match(/\s*\([A-Za-z' -]+\)\s*[.?]?\s*$/);
-  if (m && d.keyword && m[0].toLowerCase().includes(d.keyword.toLowerCase())) {
+  const kw = (d.keyword || "").trim();
+  const m = p.match(/\s*\(([^()]+)\)\s*[.?!;:,]*\s*$/);
+  if (m && m[1].trim().toLowerCase() === kw.toLowerCase()) {
     return p.slice(0, m.index).trim();
   }
   return p;
-}
-
-function dotFor(n) {
-  const dot = document.createElement("span");
-  dot.className = "dot";
-  dot.id = "dot" + n;
-  dot.textContent = "●";
-  return dot;
 }
 
 function inpFor(d, n) {  const inp = document.createElement("input");
@@ -244,7 +245,7 @@ function paintSolveStat() {
   const cutoff = Date.now() - 120000;
   while (solveTimes.length && solveTimes[0] < cutoff - 60000) solveTimes.shift();
   const rate = age < 120000 ? "_" : (solveTimes.filter(t => t >= cutoff).length / 2).toFixed(1);
-  el.textContent = `✓${n} · ${rate}/min`;
+  el.textContent = `${n} · ${rate}/min`;
 }
 setInterval(paintSolveStat, 5000);
 
@@ -261,6 +262,8 @@ function applyFilter() {
 }
 
 async function gradeItem(n) {
+  if (n in results && results[n] !== "revealed") return results[n];
+  if (results[n] === "revealed") delete results[n];
   const inp = document.getElementById("gap" + n);
   let user = inp.value;
   if (!user.trim()) return null;
@@ -268,10 +271,14 @@ async function gradeItem(n) {
   const opts = items[n].options || [];
   if (items[n].category === "mcq" && opts.length) {
     const t = user.trim().toLowerCase();
-    const m = t.match(/^[1-9]$/);
-    const l = t.match(/^[a-z]$/);
-    if (m && +m[0] >= 1 && +m[0] <= opts.length) user = opts[+m[0] - 1];
-    else if (l && l[0].charCodeAt(0) - 97 < opts.length) user = opts[l[0].charCodeAt(0) - 97];
+    const m = t.match(/^([1-9a-z])[\).\s:\-]*$/);
+    if (m) {
+      const c = m[1];
+      let idx = -1;
+      if (/[1-9]/.test(c)) idx = +c - 1;
+      else idx = c.charCodeAt(0) - 97;
+      if (idx >= 0 && idx < opts.length) user = opts[idx];
+    }
   }
   let correct, expected = items[n].answer, full = items[n].full_answer;
   try {
@@ -285,8 +292,6 @@ async function gradeItem(n) {
   }
   inp.classList.remove("correct", "wrong");
   inp.classList.add(correct ? "correct" : "wrong");
-  const dot = document.getElementById("dot" + n);
-  if (dot) { dot.classList.remove("ok", "no"); dot.classList.add(correct ? "ok" : "no"); }
   if (!correct) {
     // wrong: show the correct answer right below the gap (single submit, no double grade)
     const ans = document.getElementById("ans" + n);
@@ -328,6 +333,11 @@ function focusNext(n) {
 async function check() {
   let ok = 0, done = 0;
   for (let n = 0; n < rendered; n++) {
+    if (n in results) {
+      done++;
+      if (results[n]) ok++;
+      continue;
+    }
     const r = await gradeItem(n);
     if (r === null) continue;
     done++;
@@ -343,9 +353,13 @@ function reveal() {
     const inp = document.getElementById("gap" + n);
     if (!ans || !inp) continue;
     inp.value = d.answer;
+    // mark revealed so Check won't grade it as a genuine solve
+    results[n] = "revealed";
+    inp.classList.remove("correct", "wrong");
     ans.innerHTML = `<b>${escapeHtml(d.answer)}</b> — ${escapeHtml(d.full_answer)}`;
     ans.classList.add("show");
   }
+  applyFilter();
 }
 
 document.getElementById("check").onclick = check;
@@ -385,7 +399,7 @@ function pomoDoneGet() { return parseInt(document.getElementById("pomoDone").dat
 function pomoDoneSet(n) {
   const el = document.getElementById("pomoDone");
   el.dataset.n = String(n);
-  el.textContent = n > 0 ? `✓${n}` : "";
+  el.textContent = n > 0 ? `${n}` : "";
   try { localStorage.setItem("pomo", JSON.stringify({ done: n })); } catch { /* private mode */ }
 }
 function fmt(s) { return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`; }
