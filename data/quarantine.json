@@ -2605,26 +2605,6 @@
   "index": -1,
   "entry": {
    "category": "light_verb",
-   "prompt": "Did you receive my text yesterday (GET)",
-   "keyword": "GET",
-   "gap_prefix": "Did you get my",
-   "gap_suffix": "yesterday evening.",
-   "answer": "message",
-   "full_answer": "Did you get my message yesterday evening.",
-   "alternatives": [],
-   "options": [],
-   "notes": "get a message = receive communication.",
-   "difficulty": 1
-  },
-  "reasons": [
-   "purged: auditor-flagged trivial"
-  ]
- },
- {
-  "file": "purge-list",
-  "index": -1,
-  "entry": {
-   "category": "light_verb",
    "prompt": "Everyone contributed to the success. (part)",
    "keyword": "part",
    "gap_prefix": "Everyone did their",
@@ -2705,26 +2685,6 @@
   "index": -1,
   "entry": {
    "category": "light_verb",
-   "prompt": "He violated his word and lost trust. (BROKE)",
-   "keyword": "BROKE",
-   "gap_prefix": "He broke his",
-   "gap_suffix": "and lost trust.",
-   "answer": "promise",
-   "full_answer": "He broke his promise and lost trust.",
-   "alternatives": [],
-   "options": [],
-   "notes": "break a promise",
-   "difficulty": 1
-  },
-  "reasons": [
-   "purged: auditor-flagged trivial"
-  ]
- },
- {
-  "file": "purge-list",
-  "index": -1,
-  "entry": {
-   "category": "light_verb",
    "prompt": "He trades with foreign firms. (business)",
    "keyword": "business",
    "gap_prefix": "He does",
@@ -2774,26 +2734,6 @@
    "alternatives": [],
    "options": [],
    "notes": "give an impression = create feeling.",
-   "difficulty": 1
-  },
-  "reasons": [
-   "purged: auditor-flagged trivial"
-  ]
- },
- {
-  "file": "purge-list",
-  "index": -1,
-  "entry": {
-   "category": "light_verb",
-   "prompt": "He offered useful advice on exam technique. (GAVE)",
-   "keyword": "GAVE",
-   "gap_prefix": "He gave us useful",
-   "gap_suffix": "on exam technique.",
-   "answer": "advice",
-   "full_answer": "He gave us useful advice on exam technique.",
-   "alternatives": [],
-   "options": [],
-   "notes": "give advice",
    "difficulty": 1
   },
   "reasons": [

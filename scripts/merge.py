@@ -168,7 +168,54 @@ def main():
                 stats["invalid"] += 1
                 continue
             e = canon(r)
-            # repair 1: prep formal-phrase with empty affixes -> split full on answer
+            # repair 4: keyword leaked into the frame while the answer lacks it
+            # ("His desertion cast lasting ___" + ans "dishonour on" becomes
+            #  "His desertion ___ lasting dishonour on ..." + ans "cast").
+            # Only when the keyword sits mid-frame (text on both sides), so
+            # fronted triggers (Hardly ___, Never ___) are never touched.
+            if e["category"] not in ("inversion", "mcq", "three_in_one"):
+                kw = (e.get("keyword") or "").strip()
+                if kw and norm(kw) not in norm(e["answer"]):
+                    for side in ("gap_prefix", "gap_suffix"):
+                        m = re.search(r"\b" + re.escape(kw) + r"\b", e[side], flags=re.I)
+                        if not m:
+                            continue
+                        before, hit, after = e[side][:m.start()], m.group(0), e[side][m.end():]
+                        if not before.strip() or not after.strip():
+                            break  # trigger position: leave alone
+                        if side == "gap_prefix":
+                            new_pre = before
+                            new_suf = (after + " " + e["answer"] + " " + e["gap_suffix"])
+                        else:
+                            new_pre = (e["gap_prefix"] + " " + e["answer"] + " " + before)
+                            new_suf = after
+                        e["answer"] = hit.strip() or kw
+                        e["gap_prefix"] = re.sub(r"\s+", " ", new_pre).strip()
+                        e["gap_suffix"] = re.sub(r"\s+", " ", new_suf).strip()
+                        e["full_answer"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                        if e["full_answer"] and e["full_answer"][-1].isalnum():
+                            e["full_answer"] += "."
+                        stats["repaired_kw_gap"] += 1
+                        break
+            # repair 5: answer word duplicated adjacent to the gap
+            # ("fill out ___ out the questionnaire" -> "fill out ___ the questionnaire")
+            na = norm(e["answer"])
+            if na:
+                touched = False
+                toks = e["gap_suffix"].split()
+                if toks and norm(toks[0]) == na:
+                    e["gap_suffix"] = " ".join(toks[1:])
+                    touched = True
+                    stats["repaired_dup_adj"] += 1
+                toks = e["gap_prefix"].split()
+                if toks and norm(toks[-1]) == na:
+                    e["gap_prefix"] = " ".join(toks[:-1])
+                    touched = True
+                    stats["repaired_dup_adj"] += 1
+                if touched:
+                    e["full_answer"] = re.sub(r"\s+", " ", (e["gap_prefix"] + " " + e["answer"] + " " + e["gap_suffix"])).strip()
+                    if e["full_answer"] and e["full_answer"][-1].isalnum():
+                        e["full_answer"] += "."
             if e["category"] == "prep_idiom" and not e["gap_prefix"] and not e["gap_suffix"]:
                 fl, al = e["full_answer"].lower(), e["answer"].lower()
                 if fl.startswith(al):
