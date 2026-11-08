@@ -391,12 +391,15 @@ fn due_items(
     }
   }
   due.sort_by_key(|d| (d.next_due, d.item.id));
-  due.truncate(lim);
+  // cap reviews at half the batch: fresh stratified rows always get room,
+  // so every chunk mixes types and levels even with thousands overdue
+  due.truncate(lim / 2);
 
   // 2) stratified fresh rows: round-robin across category x difficulty (mixed by construction)
+  // always built (due capped above), so fresh types appear in every batch
   let mut strata: Vec<Vec<DueItem>> = vec![];
-  if due.len() < lim {
-    let per = ((lim - due.len()) / (cats.len() * 3) + 2).min(6) as i64;
+  {
+    let per = ((lim - due.len()) / (cats.len() * 3).max(1) + 2).min(6) as i64;
     for c in cats.iter().copied() {
       for d in 1..=3 {
         let sql = format!(

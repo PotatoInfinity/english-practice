@@ -42,7 +42,7 @@ async function fetchMore() {
   fetching = true;
   moreBox.textContent = "loading…";
   try {
-    const cat = document.getElementById("cat").value;
+    const cat = "all"; // single mixed stream: all 10 types, all levels
     let got = await call("due_items", { limit: FETCH_N, category: cat, seen: [...seenIds] });
     if (got.length === 0 && seenIds.size > 0) {
       // bank exhausted for this filter: lap again — SRS due/failed rows resurface, rest repeat
@@ -61,7 +61,7 @@ async function fetchMore() {
       const j = await r.json();
       const arr = Array.isArray(j) ? j : j.items;
       const fresh = arr
-        .filter(a => (document.getElementById("cat").value === "all" || a.category === document.getElementById("cat").value) && !seenIds.has(a.id ?? -1))
+        .filter(a => !seenIds.has(a.id ?? -1))
         .slice(0, FETCH_N)
         .map((a, i) => ({ id: a.id ?? Date.now() + i, ...a }));
       fresh.forEach(d => seenIds.add(d.id));
@@ -307,7 +307,6 @@ function reveal() {
   }
 }
 
-document.getElementById("cat").onchange = load;
 document.getElementById("check").onclick = check;
 document.getElementById("reveal").onclick = reveal;
 document.getElementById("latest").onclick = scrollLatest;
