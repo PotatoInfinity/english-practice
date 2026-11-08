@@ -59,7 +59,7 @@ def validate(e):
     reasons = []
     if e.get("category") not in VALID_CATS:
         reasons.append(f"bad category {e.get('category')!r}")
-    for f in ("prompt", "keyword", "answer", "full_answer"):
+    for f in ("prompt", "answer", "full_answer"):
         if not isinstance(e.get(f), str) or not e.get(f).strip():
             reasons.append(f"empty {f}")
     for f in ("gap_prefix", "gap_suffix"):
@@ -81,10 +81,15 @@ def canon(e):
     alts = sorted({re.sub(r"\s+", " ", a).strip() for a in (e.get("alternatives") or []) if a and a.strip()})
     ans = re.sub(r"\s+", " ", e["answer"]).strip()
     alts = [a for a in alts if norm(a) != norm(ans)]
+    kw = re.sub(r"\s+", " ", (e.get("keyword") or "")).strip()
+    if not kw:
+        # derive from exam-style "(WORD)" bracket in prompt, else answer head word
+        m = re.search(r"\(([A-Za-z' -]{1,30})\)\s*[.?]?\s*$", (e.get("prompt") or "").strip())
+        kw = m.group(1).strip() if m else ans.split(" ")[0]
     return {
         "category": e["category"],
         "prompt": re.sub(r"\s+", " ", e["prompt"]).strip(),
-        "keyword": re.sub(r"\s+", " ", e["keyword"]).strip(),
+        "keyword": kw,
         "gap_prefix": re.sub(r"\s+", " ", e.get("gap_prefix") or "").strip(),
         "gap_suffix": re.sub(r"\s+", " ", e.get("gap_suffix") or "").strip(),
         "answer": ans,
@@ -101,9 +106,9 @@ def warn(e):
     if cat == "binomial" and len(e["answer"].split()) > 3:
         w.append("binomial answer unusually long")
     if cat == "inversion":
-        first = norm(e["answer"]).split(" ")
-        if not first or first[0] not in AUX:
-            w.append("inversion answer lacks leading auxiliary")
+        combined = norm(e["gap_prefix"] + " " + e["answer"]).split(" ")
+        if not any(t in AUX for t in combined[:6]):
+            w.append("inversion frame lacks auxiliary (check word order)")
     if norm(e["keyword"]) not in norm(e["full_answer"]) and norm(e["keyword"]) not in norm(e["answer"]):
         w.append("keyword appears in neither answer nor full (pun-style ok)")
     return w
@@ -165,10 +170,11 @@ def main():
             continue
         seen_bag.add(bag)
         deduped.append((f, i, e))
-    # conflict: same gap frame, different answer -> keep first, quarantine rest
+    # conflict: same prompt AND same gap frame, different answer -> keep first, quarantine rest
+    # (prompt is in the key: shared triggers like "Hardly ___" across items are legitimate)
     seen_gap, out = {}, []
     for f, i, e in deduped:
-        gk = (e["category"], norm(e["gap_prefix"]), norm(e["gap_suffix"]))
+        gk = (e["category"], norm(e["prompt"]), norm(e["gap_prefix"]), norm(e["gap_suffix"]))
         if gk in seen_gap and norm(seen_gap[gk]["answer"]) != norm(e["answer"]):
             quarantine.append({"file": f, "index": i, "entry": e,
                                "reasons": [f"gap conflict: kept {seen_gap[gk]['answer']!r}"]})
